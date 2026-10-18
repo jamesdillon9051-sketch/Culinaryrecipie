@@ -677,6 +677,7 @@ module.exports = {
   },
 
   'chicken-and-leek-pie': {
+    cookMax: 90,
     d: 'Poached chicken and slow-cooked leeks under a proper pastry lid, in a sauce made from the poaching liquid. A pie whose filling was designed rather than assembled.',
     meta: 'A British pie of poached chicken and softened leeks in a tarragon cream sauce built on the poaching stock, under a shortcrust lid.',
     kw: ['chicken and leek pie', 'chicken leek pie recipe', 'british chicken pie', 'creamy chicken pie pastry', 'chicken pie with leeks'],

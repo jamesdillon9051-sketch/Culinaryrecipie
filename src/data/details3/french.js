@@ -268,6 +268,7 @@ module.exports = {
   },
 
   'pots-de-creme': {
+    cookMax: 40,
     untimed: ['cooling'],
     rest: [240, 'chilling'],
     d: 'Small pots of dark chocolate custard, baked in a bain-marie until barely set and eaten cold with a spoon. Three ingredients doing all the work, so the chocolate has nowhere to hide.',

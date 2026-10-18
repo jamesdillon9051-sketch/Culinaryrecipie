@@ -164,6 +164,7 @@ module.exports = {
   },
 
   'aussie-meat-pie': {
+    cookMax: 115,
     rest: [60, 'chilling'],
     d: 'A shortcrust base and a puff lid over a thick, dark beef filling that has been cooked and then cooled before it goes anywhere near pastry. Sold at every service station in Australia and worth making properly once.',
     meta: 'Australian meat pie — shortcrust base, puff lid, and a filling cooled completely so the base stays crisp.',
@@ -197,7 +198,7 @@ module.exports = {
       'Simmer, part-covered, for 60 minutes, until the beef is tender and the liquid has reduced by about a third.',
       'Stir in the slaked cornflour and simmer 3 minutes until very thick — thicker than a stew, so it holds a firm channel behind the spoon.',
       'Spread the filling in a shallow dish and refrigerate at least 1 hour, until completely cold. This is not optional.',
-      'Heat the oven to 200°C / 400°F. Roll the shortcrust and line six 10 cm pie tins, pressing well into the corners. Prick the bases.',
+      'While the filling chills, heat the oven to 200°C / 400°F. Roll the shortcrust and line six 10 cm pie tins, pressing well into the corners. Prick the bases.',
       'Blind bake with paper and beans for 15 minutes, remove the beans and bake 5 minutes more, until dry and pale gold. Cool.',
       'Fill each case with the cold filling, level it, and top with a puff pastry lid, pressing the edges to seal and trimming the excess.',
       'Cut a small steam hole in each, brush with beaten egg, and bake 25 to 30 minutes until the lids are risen and deep golden. Serve with tomato sauce, which is compulsory.'
@@ -293,6 +294,7 @@ module.exports = {
   },
 
   'chakhokhbili': {
+    cookMax: 75,
     d: 'Chicken cooked with no liquid at all beyond what the tomatoes and onions give up, then finished with a great deal of fresh herbs off the heat. Georgian, and the herbs are half the dish.',
     meta: 'Chakhokhbili — Georgian chicken stewed in nothing but its own juices and tomato, finished with herbs off the heat.',
     kw: ['chakhokhbili', 'georgian chicken stew', 'chicken with herbs', 'georgian recipe'],

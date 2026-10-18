@@ -16,7 +16,7 @@
 module.exports = {
   'lemon-blueberry-bread': {
     d: 'A moist lemon loaf with fresh blueberries folded through, baked for 55 minutes and topped with a lemon glaze.',
-    meta: 'Lemon blueberry bread with a tangy glaze, baked for 55 minutes. Ten servings, ready in 1 hour 15 minutes.',
+    meta: 'Lemon blueberry bread with a tangy glaze, baked for 55 minutes. Ten servings, ready in 1 hour 25 minutes.',
     kw: ['lemon blueberry bread', 'lemon blueberry loaf', 'blueberry lemon quick bread', 'lemon blueberry loaf with glaze', 'blueberry loaf cake'],
     why: 'Why does a lemon blueberry loaf so often come out purple and damp? Because the berries burst and bleed into the batter, and the sugar in the fruit collects at the bottom of the tin. A handful of tricks makes the difference between a loaf with dark streaks and one with neat blue-black jewels in a pale yellow crumb.\n\nToss the blueberries in a spoonful of flour before folding them in. The coating absorbs surface moisture and helps hold the fruit in suspension in the thick batter, so the berries stay in place instead of sinking. Fold gently and no more than five or six times. Frozen berries work, used straight from the freezer, not thawed.\n\n**Rub the lemon zest into the sugar first.** The oils in the zest are what give a loaf its fragrance, and rubbing them into the sugar with your fingertips releases them into the crystals. The juice goes into the batter and the glaze, giving the acidity that cuts through the butter.\n\nBake until a skewer comes out clean, covering the loaf loosely with foil after 35 minutes if it is browning too fast. Cool in the tin for 15 minutes, then turn out. Drizzle the glaze over the loaf while it is still slightly warm so that it soaks in a little.',
     ing: [
@@ -91,7 +91,7 @@ module.exports = {
   'lemon-bundt-cake': {
     untimed: ['cooling'],
     d: 'A tall, moist lemon bundt cake with soured cream and fresh zest, baked for 50 minutes and finished with a thick lemon glaze.',
-    meta: 'Lemon bundt cake with a moist crumb and thick lemon glaze, baked for 50 minutes. Twelve servings, ready in 1 hour 25 minutes.',
+    meta: 'Lemon bundt cake with a moist crumb and thick lemon glaze, baked for 50 minutes. Twelve servings, ready in at least 1 hour 30 minutes.',
     kw: ['lemon bundt cake', 'lemon sour cream bundt cake', 'lemon bundt with glaze', 'moist lemon cake', 'lemon bundt recipe'],
     why: 'Lemon, butter, sugar, soured cream: four things, and the foundation for a cake that stays moist for days. The bundt tin does the work of decoration, and the lemon glaze, thick enough to run in ribbons into the ridges, finishes the job. It is the kind of cake that looks like it came from a bakery.\n\nThe lemon flavour comes from three sources, and all three matter. Zest rubbed into the sugar gives aroma, juice in the batter gives tartness, and a lemon syrup brushed over the warm cake soaks into the crumb and keeps it moist. A cake that has only one of the three tastes weakly of lemon.\n\n**Grease the tin and dust it with flour.** Use soft butter and a pastry brush, working into every groove, then tip in a spoonful of flour and tilt to coat. Tap out the excess. This is the step that decides whether the cake turns out beautifully or half of it stays in the tin.\n\nBake until a skewer comes out clean, cool in the tin for 15 minutes, and turn out onto a rack. Brush with the warm syrup, then leave the cake until fully cool before pouring over the glaze. The glaze thickens as it sets, so apply it in one smooth pour.',
     ing: [
@@ -543,7 +543,7 @@ module.exports = {
 
   'oatmeal-muffins': {
     d: 'Hearty oatmeal muffins sweetened with brown sugar and cinnamon, baked for 20 minutes into moist, domed muffins with a rolled oat topping.',
-    meta: 'Oatmeal muffins with brown sugar and cinnamon, baked for 20 minutes. 12 muffins, ready in 1 hour with soaking.',
+    meta: 'Oatmeal muffins with brown sugar and cinnamon, baked for 20 minutes. 12 muffins, ready in 1 hour 5 minutes with soaking.',
     kw: ['oatmeal muffins', 'oat muffins', 'cinnamon oatmeal muffins', 'brown sugar oat muffins', 'oatmeal muffin recipe'],
     why: 'Oatmeal is a staple of the Scottish and American breakfast table, and putting it in a muffin is a way of making a bowl of porridge that you can carry in your hand. The name for the type of oat matters: rolled oats give chew and body, while instant oats turn pasty.\n\nSoak the oats in buttermilk for 30 minutes before mixing the batter. The oats swell and soften as they absorb the liquid, which stops them drawing moisture out of the muffin as it bakes. It also means the oat texture is tender rather than gritty, and the batter itself becomes thicker and more robust.\n\n**Fill the cases to the top.** A muffin that is not filled to the brim does not get the domed top. Oatmeal batter is thick and stays where it is put, and a good spoonful of batter above the paper rim bakes into the high, craggy dome that makes a muffin look like a muffin. Sprinkle the tops with a few oats and a pinch of brown sugar.\n\nBake in a hot oven, 200C, for the first 5 minutes to give the muffins a quick burst of lift, then turn down to 180C to finish. Cool for 5 minutes in the tin, then move to a rack. They are good warm with butter and honey.',
     ing: [
@@ -684,7 +684,7 @@ module.exports = {
 
   'peach-crisp': {
     d: 'Sliced peaches baked under a buttery oat and brown sugar topping for 45 minutes until bubbling, served warm with ice cream.',
-    meta: 'Peach crisp with an oat and brown sugar topping, baked for 45 minutes. Eight servings, ready in 1 hour 5 minutes.',
+    meta: 'Peach crisp with an oat and brown sugar topping, baked for 45 minutes. Eight servings, ready in 1 hour 20 minutes.',
     kw: ['peach crisp', 'peach crisp with oat topping', 'baked peach dessert', 'peach crisp recipe', 'peach and oat crumble'],
     why: 'Taste a peach before you cook it. Ripe, fragrant summer peaches need very little sugar, while firm or out-of-season ones need more, and a good cook adjusts the sweetness to the fruit. Frozen peaches are a decent standby in winter, and can go straight in from the freezer.\n\nThere is no need to peel the peaches if they are ripe: the skins soften and the colour bleeds into the filling. If you prefer a smoother result, a minute in boiling water slips them off easily. Slice into wedges about 1.5 cm thick, and toss them with sugar, lemon juice, a spoon of cornflour and a pinch of cinnamon. The cornflour thickens the juices into a syrup.\n\n**Make the topping with cold butter and press it into clumps.** Rub cold butter into flour, oats, brown sugar, cinnamon and a pinch of salt until the mixture looks like wet sand, then squeeze handfuls together so it forms chunks of different sizes. The larger lumps crisp and the smaller ones brown.\n\nSpread the topping thickly over the fruit and bake until the juices are bubbling at the edges and the top is deep gold. Let it stand for 15 minutes before serving so the filling thickens a little. A scoop of vanilla ice cream melting into the warm fruit is the traditional finish.',
     ing: [
@@ -866,7 +866,7 @@ module.exports = {
 
   'pear-cake': {
     d: 'A French-style cake with ground almonds and sliced pears set into the batter, baked for 50 minutes and served warm.',
-    meta: 'Pear cake with ground almonds and sliced pears set in the batter, baked for 50 minutes. Ten servings, ready in 1 hour 10 minutes.',
+    meta: 'Pear cake with ground almonds and sliced pears set in the batter, baked for 50 minutes. Ten servings, ready in 1 hour 25 minutes.',
     kw: ['pear cake', 'french pear almond cake', 'fresh pear cake', 'pear cake with ground almonds', 'pear cake recipe'],
     why: 'This is what to bake in the first cold week of autumn, when pears are at their sweetest and the idea of fruit and cake in the same dish seems wise. A French pear cake is a gentle thing, a soft, buttery batter with a fine crumb and slices of fruit set into the top, and the whole thing is fragrant with vanilla and almond.\n\nChoose ripe but firm pears, such as Conference or Williams. Soft ones fall apart in the oven and make the batter damp. Peel them, halve them, remove the cores and slice thinly lengthways. Toss the slices with lemon juice to stop them going brown while you make the batter.\n\n**Fan the slices and press them in halfway.** Arranged in a spiral on top of the batter, they cook in the steam rising from the cake, and the batter rises around them to hold them in place. Fruit placed loosely on the surface curls and dries out at the edges.\n\nGround almonds in the batter add moisture and a gentle nuttiness that pears love. Bake at 175C until a skewer comes out clean and the edges pull away from the tin. Dust with icing sugar and serve warm with a spoonful of crème fraîche. It tastes better still the next day.',
     ing: [

@@ -93,7 +93,7 @@ module.exports = {
   },
 
   'minestrone': {
-    d: 'Whatever vegetables are about, cooked long and slow with beans and a little pasta. Under an hour, and it improves overnight.',
+    d: 'Whatever vegetables are about, cooked long and slow with beans and a little pasta. In 1 hour 15 minutes, and it improves overnight.',
     meta: 'Italian vegetable soup with a soffritto base, borlotti beans, tomato and small pasta, finished with olive oil.',
     kw: ['minestrone', 'minestrone recipe', 'italian vegetable soup', 'minestrone soup', 'vegetable bean soup'],
     why: 'Give the soffritto — onion, carrot and celery — a full twelve minutes over a low heat before anything else goes in. It should collapse and sweeten rather than colour, and it is the whole foundation: rushed for four minutes, the soup tastes of stock and vegetables sitting separately in it rather than of one thing. The pasta goes in for the last eight minutes only.',

@@ -145,6 +145,7 @@ module.exports = {
   },
 
   'ghormeh-sabzi': {
+    cookMax: 175,
     d: 'The Persian herb stew: several bunches of herbs fried down almost to black, with lamb, kidney beans and dried limes, cooked for hours.',
     meta: 'Ghormeh sabzi — Persian herb stew with lamb, kidney beans and dried limes, cooked long and slow.',
     kw: ['ghormeh sabzi recipe', 'persian herb stew', 'dried lime stew', 'iranian lamb stew'],
@@ -171,7 +172,7 @@ module.exports = {
     st: [
       'Chop the herbs as finely as you can manage. This takes a while and is worth doing properly.',
       'Heat the 5 tablespoons of oil in a wide pan and add all the herbs. Fry over medium-low heat for 20 to 25 minutes, stirring often, until they have collapsed to a quarter of their volume and turned very dark green. Do not let them burn.',
-      'In a separate heavy pot, cook the onions in a little oil for 10 minutes until golden. Add the turmeric and cook 1 minute.',
+      'While the herbs fry, cook the onions in a little oil in a separate heavy pot for 10 minutes until golden. Add the turmeric and cook 1 minute.',
       'Add the lamb and brown it all over, about 8 minutes.',
       'Add the fried herbs, the pierced dried limes, salt and pepper, and the hot water.',
       'Bring to a simmer, cover, and cook very gently for 2 hours.',

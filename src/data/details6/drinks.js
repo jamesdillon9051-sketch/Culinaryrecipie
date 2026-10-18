@@ -81,7 +81,7 @@ module.exports = {
     ],
     st: [
       'Simmer the cinnamon bark in 1 litre of water, covered, for 40 minutes.',
-      'In a separate pan, simmer the ginger in the other litre for 25 minutes.',
+      'Meanwhile, simmer the ginger in the other litre in a separate pan for 25 minutes.',
       'Strain both through a fine sieve and combine.',
       'Add the sugar and salt and simmer 5 minutes until dissolved.',
       'Cool completely, then refrigerate at least 4 hours. It is served properly cold.',

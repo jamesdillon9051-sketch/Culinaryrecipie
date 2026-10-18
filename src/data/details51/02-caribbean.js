@@ -219,8 +219,8 @@ module.exports = {
     ],
     st: [
       'Cook the rice with the water, salt and oil in a covered pan for 15 minutes. Rest for 10 minutes.',
-      'For the beans, heat the oil and cook the sofrito and tomato purée for 2 minutes. Add the beans, pumpkin, water and salt and simmer for 25 minutes, mashing some beans and the pumpkin.',
-      'For the chicken, heat the sugar with 1 tbsp of the oil in a wide pot until dark amber. Add the chicken and the remaining oil and brown for 8 minutes.',
+      'At the same time, make the beans: heat the oil and cook the sofrito and tomato purée for 2 minutes. Add the beans, pumpkin, water and salt and simmer for 25 minutes, mashing some beans and the pumpkin.',
+      'Meanwhile, make the chicken: heat the sugar with 1 tbsp of the oil in a wide pot until dark amber. Add the chicken and the remaining oil and brown for 8 minutes.',
       'Add the onion, garlic, oregano and tomato purée for 3 minutes, then the water, vinegar and salt. Cover and simmer for 30 minutes.',
       'Serve the rice with the beans over it and the chicken on the side.'
     ],

@@ -392,6 +392,7 @@ module.exports = {
   },
 
   'maghmour': {
+    cookMax: 50,
     untimed: ['coming to room temperature'],
     d: 'Aubergine and chickpeas stewed down in tomato and garlic until everything collapses. Often called Lebanese moussaka, which it is not — no meat, no béchamel, served cool.',
     meta: 'Aubergine and chickpeas stewed in tomato and garlic until collapsing, finished with olive oil and served at room temperature.',

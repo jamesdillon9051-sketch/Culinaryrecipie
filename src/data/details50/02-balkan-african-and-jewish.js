@@ -423,8 +423,9 @@ module.exports = {
   },
 
   'bariis-iskukaris': {
+    cookMax: 80,
     d: 'Somali spiced rice cooked in lamb stock with cardamom, cinnamon, cloves and cumin, with raisins and fried onions.',
-    meta: 'Bariis iskukaris: Somali spiced rice cooked in lamb stock with cardamom, cinnamon, cloves and cumin. Six servings, cooked for 50 minutes.',
+    meta: 'Bariis iskukaris: Somali spiced rice cooked in lamb stock with cardamom, cinnamon, cloves and cumin. Six servings, cooked for about 1 hour 20 minutes.',
     kw: ['bariis iskukaris', 'somali rice', 'bariis iskukaris recipe', 'somali spiced rice with lamb', 'somali basmati rice with raisins'],
     why: 'On a Somali table, bariis comes with every celebration and with most Fridays. The rice is cooked with a mixture of spices known as xawaash: cumin, coriander, cardamom, cinnamon, cloves and black pepper, and the smell of it alone brings people into the kitchen. It is eaten with a banana on the side, which is a pairing that sounds strange and works perfectly.\n\nStart with the meat. Lamb on the bone is browned in oil with onions, then simmered with the xawaash and salt in water for 40 minutes, until tender. The cooking liquid becomes the rice stock. **Measure the liquid carefully: 1.5 parts stock to 1 part rice.** If the pan is too full, it becomes sticky.\n\nSoak the basmati for 20 minutes and drain. Fry it briefly in the oil left in the pot with whole cinnamon, cardamom and cloves, then add the measured stock. Cover tightly and cook over a low heat for 15 minutes.\n\nFold in the raisins and fried onions at the end, fluffing with a fork. The rice should be dry, separate and golden, with an aroma that fills the room. Serve with the lamb on top, a banana and a spoon of sauce.',
     ing: [
@@ -791,8 +792,8 @@ module.exports = {
     ],
     st: [
       'Mix the flour, baking powder and salt. Add the egg, oil and water and knead to a soft dough. Cover and rest for 30 minutes.',
-      'Boil the potatoes for 20 minutes until soft. Drain, mash and cool.',
-      'Cook the onions in the oil over a medium heat for 25 minutes until deep brown. Mix into the potatoes with the egg, salt and pepper.',
+      'While the dough rests, boil the potatoes for 20 minutes until soft. Drain, mash and cool.',
+      'Meanwhile, cook the onions in the oil over a medium heat for 25 minutes until deep brown. Mix into the potatoes with the egg, salt and pepper.',
       'Heat the oven to 190°C (170°C fan). Roll the dough very thin into a rectangle about 30 by 40 cm. Spread the filling in a line along one long edge, roll up, and cut into 12 pieces. Pinch the ends closed.',
       'Stand the knishes upright on a lined tray, brush with the beaten egg and bake for 35 minutes until deep golden.'
     ],

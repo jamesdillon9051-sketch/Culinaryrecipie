@@ -140,6 +140,7 @@ module.exports = {
   },
 
   'gyros': {
+    cookMax: 75,
     rest: [375, 'marinating'],
     d: 'Marinated pork shaved off a home-built stack, wrapped in pita with tzatziki, tomato, onion and — this is not optional in Greece — a handful of chips inside the wrap.',
     meta: 'Greek pork gyros with a home-built vertical stack, wrapped in pita with tzatziki, tomato and chips.',

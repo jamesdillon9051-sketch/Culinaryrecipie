@@ -354,6 +354,7 @@ module.exports = {
   },
 
   'potato-gnocchi': {
+    cookMax: 85,
     d: 'Pillowy potato gnocchi that float rather than sink, dressed in nothing more than nut-brown butter and crisped sage. The whole recipe hinges on using floury baked potatoes and the least flour you can get away with.',
     meta: 'Light, pillowy potato gnocchi with brown butter and sage. The baked-potato method that keeps them from turning gluey.',
     kw: ['potato gnocchi recipe', 'homemade gnocchi', 'brown butter sage sauce', 'italian dumplings'],

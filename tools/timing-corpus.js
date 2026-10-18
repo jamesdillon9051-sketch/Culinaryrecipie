@@ -41,7 +41,26 @@ const CASES = [
   ['time already spent is not a wait', ['Remove the lid after 90 minutes and leave to cool.'], 0, 0],
   ['an ingredient soak is prep set going once', { st: ['Drain the beans and simmer for 1 hour.'], ing: ['250 g dried beans, soaked overnight'] }, 480, 480],
   ['the longest of two ingredient waits governs', { st: ['Cook everything together for 20 minutes.'], ing: ['200 g chickpeas, soaked overnight', '100 g rice, soaked for 1 hour'] }, 480, 480],
+  ['steam-drying off the heat is waiting', ['Drain and leave on a rack to steam-dry for 30 minutes.'], 30, 30],
+  ['peppers left to steam under a plate are waiting', ['Put the hot peppers in a bowl, cover and leave to steam for 15 minutes.'], 15, 15],
+  ['a soak only the dried-bean alternative needs raises the ceiling', { st: ['Add the beans and simmer 30 minutes.'], ing: ['2 x 400 g tins white beans, drained, or 250 g dried beans soaked overnight'] }, 0, 480],
+  ['a food-handling limit is not a wait', ['Cool in the broth, moving the pan to the fridge within 2 hours of cooking.'], 0, 0],
 ];
+
+/* The label a page prints for the waiting names the waits the reader counted. */
+const LABELS = [
+  ['a cake that has risen in the oven is cooling, not rising', ['Bake 25 minutes until risen.', 'Turn out and cool on a wire rack until completely cold, about 40 minutes.'], 'cooling'],
+  ['salt alone, then a wait, is salting', ['Salt the aubergine slices and leave in a colander for 30 minutes.'], 'salting'],
+  ['meat left in a seasoned mixture is marinating', ['Mix the oil, lemon juice, garlic and salt, add the chicken and leave for 30 minutes.'], 'marinating'],
+  ['pressing into the tin and leaving to set is setting', ['Press into the tin, scatter with flaky salt and leave to set for 45 minutes before cutting.'], 'setting'],
+  ['folds at intervals are resting between folds', ['Fold the dough over itself four times, 30 minutes apart.'], 'resting between folds'],
+];
+const { waitLabel } = require('../src/lib/timing');
+let mislabelled = 0;
+for (const [name, st, want] of LABELS) {
+  const got = waitLabel({ st }, detectWait({ slug: 'corpus', st, ing: [] }));
+  if (got !== want) { mislabelled++; console.log(`  ✗ ${name}: labelled "${got}", expected "${want}"`); }
+}
 
 let failed = 0;
 for (const [name, x, lo, hi] of CASES) {
@@ -51,4 +70,5 @@ for (const [name, x, lo, hi] of CASES) {
   if (!ok) { failed++; console.log(`  ✗ ${name}: read ${w.min}–${w.max} min, expected ${lo}–${hi}`); }
 }
 console.log(failed ? `${failed} of ${CASES.length} timing cases read wrongly.` : `  ✓ all ${CASES.length} timing cases read as expected`);
-process.exit(failed ? 1 : 0);
+console.log(mislabelled ? `${mislabelled} of ${LABELS.length} wait labels wrong.` : `  ✓ all ${LABELS.length} wait labels as expected`);
+process.exit(failed || mislabelled ? 1 : 0);

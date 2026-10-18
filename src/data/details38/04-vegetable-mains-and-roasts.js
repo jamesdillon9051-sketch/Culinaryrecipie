@@ -173,7 +173,7 @@ module.exports = {
   },
 
   'spinach-quiche': {
-    d: 'A shortcrust case filled with wilted spinach, cheese and a creamy egg custard and cooked for 40 minutes. Six servings in 1 hour 5 minutes.',
+    d: 'A shortcrust case filled with wilted spinach, cheese and a creamy egg custard and cooked for 40 minutes. Six servings in 1 hour 40 minutes.',
     meta: 'Spinach quiche: a shortcrust case filled with wilted spinach, gruyere and a creamy egg custard and cooked for 40 minutes.',
     kw: ['spinach quiche', 'homemade spinach quiche', 'spinach and cheese quiche', 'classic spinach quiche', 'quiche with spinach'],
     why: 'A good quiche has a crisp base and a custard that wobbles slightly and sets as it cools. Both depend on a few small decisions about water and heat.\n\nBlind-bake the case with baking beans for 15 minutes, then without them for 5 more. This dries the pastry so the custard cannot soak in.\n\nSpinach, once again, is the risk. Wilt it, cool it and squeeze it dry before it goes anywhere near the egg. **Season the custard well**, since spinach and cream are both mild.\n\nScatter the spinach and gruyere over the base, pour the custard in slowly and slide the tin into the oven before you fill it all the way. Cook at 180°C for 40 minutes, until set at the edge with a gentle wobble at the middle. If your oven runs hot, check at 30 minutes. Cool for 15 minutes before slicing. A spoonful of mustard brushed on the baked case before filling adds a quiet, savoury layer that suits the cheese.',
@@ -239,7 +239,7 @@ module.exports = {
   },
 
   'pumpkin-pasta-bake': {
-    d: 'Rigatoni tossed with roasted pumpkin, a sage cream sauce and mozzarella, then cooked for 35 minutes until bubbling. Six servings in 50 minutes.',
+    d: 'Rigatoni tossed with roasted pumpkin, a sage cream sauce and mozzarella, then cooked for 35 minutes until bubbling. Six servings in 1 hour 15 minutes.',
     meta: 'Pumpkin pasta bake: rigatoni tossed with roasted pumpkin, a sage cream sauce and mozzarella, then cooked for 35 minutes until bubbling.',
     kw: ['pumpkin pasta bake', 'creamy pumpkin pasta bake', 'easy pumpkin pasta bake', 'pumpkin and sage pasta bake', 'baked pumpkin pasta'],
     why: 'This is the dish to make when the pumpkin has been on the counter too long. Roasting it first draws out the sweetness and removes the water, which is the difference between a rich sauce and a pale, thin one.\n\nBlend half the roasted pumpkin with cream, garlic and sage into a smooth, golden sauce, and keep the rest in chunks. You get a creamy base and sweet, caramelised bites.\n\nCook the pasta for 2 minutes less than the packet says, since it carries on softening in the oven. **Undercooked pasta is the cure for mushy bakes.**\n\nMix everything, tip into a dish, and top with mozzarella and parmesan. Cook at 190°C for 35 minutes, until bubbling and browned at the edges. If your oven runs hot, check at 28 minutes. Stand for 5 minutes before serving so the sauce settles. Any firm orange squash will do instead of pumpkin, and butternut gives a slightly sweeter, denser sauce.',
@@ -255,7 +255,7 @@ module.exports = {
       '40 g parmesan, grated'
     ],
     st: [
-      'Heat the oven to 200°C. Toss the pumpkin with the oil and salt and roast for 25 minutes. Boil the pasta for 2 minutes less than the packet says and drain.',
+      'Heat the oven to 200°C. Toss the pumpkin with the oil and salt and roast for 25 minutes. While it roasts, boil the pasta for 2 minutes less than the packet says and drain.',
       'Blend half the pumpkin with the cream, garlic and sage until smooth.',
       'Lower the oven to 190°C. Mix the pasta, sauce and remaining pumpkin in a dish and top with the mozzarella and parmesan.',
       'Cook for 35 minutes until golden. Stand for 5 minutes.'

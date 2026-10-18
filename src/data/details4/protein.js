@@ -74,9 +74,9 @@ module.exports = {
     st: [
       'Heat the oven to 200C fan.',
       'Rinse the quinoa in a fine sieve for 30 seconds, then simmer it in 360 ml of water for 15 minutes, covered. Take it off and leave it 5 minutes, then fork it through.',
-      'Toss the broccoli with a tablespoon of oil and a pinch of salt and roast it for 18 minutes, until the tips are properly browned.',
+      'While the quinoa simmers, toss the broccoli with a tablespoon of oil and a pinch of salt and roast it for 18 minutes, until the tips are properly browned.',
       'Rub the salmon with the remaining oil, the salt and pepper, and lay the lemon slices over.',
-      'Roast the salmon for 10 to 12 minutes, on a separate tray, until the thickest part flakes when pressed with a fork. It should still look slightly translucent at the very centre.',
+      'Roast the salmon on a separate tray alongside the broccoli for its last 10 to 12 minutes, until the thickest part flakes when pressed with a fork. It should still look slightly translucent at the very centre.',
       'Whisk the yoghurt, dill, lemon juice, garlic and salt together.',
       'Divide the quinoa and broccoli between four bowls, lay a fillet on each and spoon the dill yoghurt over.'
     ],

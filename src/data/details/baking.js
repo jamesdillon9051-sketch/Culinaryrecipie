@@ -537,6 +537,7 @@ module.exports = {
   },
 
   'pumpkin-pie': {
+    cookMax: 90,
     rest: [390, 'chilling'],
     d: 'A silky custard pie with proper spice and a blind-baked base that stays crisp. Cooking the purée down first concentrates it and eliminates the watery edge that spoils most versions.',
     meta: 'Classic pumpkin pie with a silky spiced custard and crisp blind-baked crust. The purée-reduction trick for deeper flavour.',

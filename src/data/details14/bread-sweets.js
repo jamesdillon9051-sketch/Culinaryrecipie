@@ -68,7 +68,7 @@ module.exports = {
       'Leave it to sit, uncovered and unkneaded, for 20 minutes so the semolina hydrates.',
       'Now knead 10 minutes. It will have transformed from gritty to smooth and elastic.',
       'Cover and prove 75 minutes, until well risen.',
-      'Put a heavy tray or baking stone in the oven and heat to 240°C / 465°F for 25 minutes.',
+      'While the dough proves, put a heavy tray or baking stone in the oven and heat to 240°C / 465°F for 25 minutes.',
       'Shape the dough into two flat rounds about 2 cm thick. Brush with oil and press the sesame and nigella seeds firmly into the tops.',
       'Bake on the hot tray 15 minutes, until risen, golden and hollow-sounding underneath. Cool under a cloth to keep the crust soft.'
     ],

@@ -46,7 +46,7 @@ module.exports = [
   c('angel-food-cake', 'Angel Food Cake', 'American', 'Desserts', 'Medium', 30, 40, 12, 0, 0, ['Vegetarian', 'Dairy-Free'], ['new'], 'Angel food cake'),
   c('chocolate-cupcakes', 'Chocolate Cupcakes', 'American', 'Baking', 'Easy', 25, 20, 12, 0, 0, ['Vegetarian'], ['new'], 'Chocolate cupcakes buttercream'),
   c('marble-cake', 'Marble Cake', 'German', 'Baking', 'Easy', 30, 55, 12, 0, 0, ['Vegetarian'], ['new'], 'Marble cake slice marmorkuchen'),
-  c('pound-cake', 'Pound Cake', 'British', 'Baking', 'Easy', 25, 65, 10, 0, 0, ['Vegetarian'], ['new'], 'Pound cake loaf'),
+  c('pound-cake', 'Pound Cake', 'British', 'Baking', 'Easy', 25, 60, 10, 0, 0, ['Vegetarian'], ['new'], 'Pound cake loaf'),
   c('bundt-cake', 'Sour Cream Bundt Cake', 'American', 'Baking', 'Easy', 25, 60, 14, 0, 0, ['Vegetarian'], ['new'], 'Bundt cake glaze'),
   c('basque-cheesecake', 'Burnt Basque Cheesecake', 'Spanish', 'Desserts', 'Easy', 20, 50, 10, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'Basque burnt cheesecake'),
 

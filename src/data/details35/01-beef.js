@@ -153,7 +153,7 @@ module.exports = {
   },
 
   'cumberland-sausage-hotpot': {
-    d: 'Pork sausages layered with onion and carrot under overlapping potato slices, baked in stock until the top is crisp. Four servings in 80 minutes.',
+    d: 'Pork sausages layered with onion and carrot under overlapping potato slices, baked in stock until the top is crisp. Four servings in 1 hour 45 minutes.',
     meta: 'Cumberland sausage hotpot: sausages, onion and carrot under a crisp potato lid, baked in stock. A one-dish budget dinner for four.',
     kw: ['sausage hotpot', 'cumberland sausage hotpot', 'one dish sausage and potato bake', 'budget sausage dinner', 'easy hotpot with sausages'],
     why: 'Lancashire hotpot is traditionally made with lamb, and this takes the same method to a cheaper place: sausages, a layer of onion and carrot, and potato slices laid overlapping on top. Cumberland sausage is named because it is usually sold coiled, peppery and meaty.\n\nThe sausages are browned first. That gives the stock its colour and fat for the potatoes to crisp in.\n\nSlice the potatoes thin, about 3 mm, and overlap them like roof tiles. **Cover the dish for the first 40 minutes**, then take the lid off so the top browns.\n\nBrush the top with melted butter before it goes back in. It is the difference between pale potato and a lid with crisp edges. Choose sausages with a high meat content, since cheap ones shed water and leave the stock thin. The dish is also a useful way to stretch a small pack of sausages, because the potatoes and vegetables do most of the filling.',

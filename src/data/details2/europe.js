@@ -141,6 +141,7 @@ module.exports = {
   },
 
   'golabki': {
+    cookMax: 130,
     rest: [1455, 'freezing'],
     d: 'Cabbage leaves rolled around pork, beef and rice, then braised in tomato until the leaves are soft enough to cut with a fork. Polish home cooking, and the name means "little pigeons".',
     meta: 'Gołąbki — Polish cabbage rolls stuffed with pork, beef and rice, braised in a tomato sauce.',

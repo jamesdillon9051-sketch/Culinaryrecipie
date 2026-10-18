@@ -53,7 +53,8 @@ const WAIT = /\b(chill|chilled|chilling|rest|rested|resting|refrigerate|refriger
    with a shelf-life word. */
 const STORAGE = /\b(keeps?|will keep|store[ds]?|storing|lasts?|up to|leftovers?|at this point|if you (?:can|have|want|like|prefer)|can (?:also|be)|no more than|within|serve (?:within|for up to)|in the freezer for up to|freezes? (?:well|for up to)|reheat)\b/i;
 /* "Cookies" and "slow cooker" are not cooking verbs. */
-const HEATVERB = /\b(bake|roast|fry|simmer|boil|cook(?!ies?\b|ers?\b)|grill|steam|poach|braise|toast|sear|smoke)\w*\b/i;
+/* "Leave to steam-dry for 15 minutes" and "let the steam escape" are waits off the heat. */
+const HEATVERB = /\b(bake|roast|fry|simmer|boil|cook(?!ies?\b|ers?\b)|grill|(?<!\bleave (?:(?:it|them) )?to )steam(?![- ]dr|\s+(?:escape|evaporate|off)\b)|poach|braise|toast|sear|smoke)\w*\b/i;
 /* "Cook it in 600 ml of water with a pinch of salt, covered, for 15 minutes": commas between the
    cooking verb and the number do not hand the number to a wait. */
 const COOKED = new RegExp(HEATVERB.source + String.raw`\s+(?:[\w'’-]+[,;]?\s+){0,14}$`, 'i');
@@ -217,8 +218,20 @@ function detectWait(recipe) {
      starting, all at once, so the longest one governs rather than the sum —
      and one that repeats a wait the method already describes is restating it. */
   let ing = { min: 0, max: 0 };
+  let alt = 0;
   for (const item of recipe.ingredients || recipe.ing || []) {
-    const sentence = clause(String((item && (item.raw || item.name)) || item));
+    const raw = String((item && (item.raw || item.name)) || item);
+    const sentence = clause(raw);
+    /* "2 tins of beans, or 250 g dried beans soaked overnight": the alternative's wait is one
+       only cooks who take it need, so it raises the ceiling and leaves the floor alone. */
+    const other = raw.slice(sentence.length);
+    if (other && !notAWait(other)) {
+      const w = waitIn(other);
+      if (w.min >= 15 && w.max > alt) {
+        alt = w.max;
+        trace.push(`prep conditional ${w.min}${w.max > w.min ? '–' + w.max : ''} — ${raw}`);
+      }
+    }
     if (notAWait(sentence)) continue;
     if ([...waitVerbs(sentence)].some(verb => waited.has(verb))) continue;
     const w = waitIn(sentence);
@@ -228,7 +241,7 @@ function detectWait(recipe) {
   }
 
   min += ing.min;
-  max += ing.max;
+  max += Math.max(ing.max, alt);
   return { min, max, trace };
 }
 
@@ -240,17 +253,37 @@ const LABELS = [
   [/\bmarinat/, 'marinating'], [/\bbrin(?:e|ing)\b/, 'brining'], [/\bsoak/, 'soaking'],
   [/\b(?:prove|proof|rise|rising|risen|doubled?)\b/, 'rising'], [/\bpickl/, 'pickling'], [/\bferment/, 'fermenting'],
   [/\b(?:bring|come|comes|coming|back) (?:\w+ ){0,2}to (?:cool )?room temperature\b|\bout of the fridge\b/, 'coming to room temperature'],
-  [/\b(?:chill|refrigerat|fridge)/, 'chilling'], [/\bfreez/, 'freezing'], [/\b(?:infus|steep)/, 'infusing'],
-  [/\b(?:drain|hang|press)/, 'draining'], [/\bsalt\w*\b[^.]*\b(?:leave|stand)/, 'salting'], [/\bcool/, 'cooling'],
-  [/\bmatur/, 'maturing'], [/\brest/, 'resting'], [/\b(?:set|sets|setting)\b/, 'setting'], [/\b(?:stand|leave|left)\b/, 'standing'],
+  [/\b(?:chill|refrigerat|fridge)/, 'chilling'], [/\b(?:freez|frozen)/, 'freezing'], [/\b(?:infus|steep)/, 'infusing'],
+  [/\b(?:drain|hang|hung)/, 'draining'], [/\b(?:fold|folds|stretch)\b[^.]*\bapart\b/, 'resting between folds'], [/\bmacerat/, 'macerating'],
+  [/\b(?:leave|left|allow\w*) (?:\w+ ){0,3}to set\b|\buntil (?:it is |they are )?set\b|\bset (?:at|in|for)\b/, 'setting'],
 ];
+/* Salt and nothing else, then a wait, is salting ("salt the aubergine and leave 30 minutes");
+   meat or fish left with a seasoning mixture is marinating; a batter or dough left alone is
+   resting. */
+const SEASONING = /\b(?:oil|juice|garlic|ginger|yoghurt|yogurt|soy|wine|sauce|paste|spice|turmeric|buttermilk|egg|flour|milk|cornflour|curry|paprika|herbs|oregano|rosemary|thyme|vinegar|sugar|honey|chilli|cumin|masala|lemon|lime|mustard)\b/;
+const PROTEIN = /\b(?:chicken|beef|lamb|pork|fish|prawns?|shrimp|chops|meat|steaks?|thighs|drumsticks|wings|duck|mutton|goat|turkey|salmon|cod|tofu|paneer)\b/;
+const LATE = [
+  [/\bcool/, 'cooling'], [/\bmatur/, 'maturing'], [/\brest/, 'resting'], [/\b(?:stand|leave|left)\b/, 'standing'],
+];
+function nameWait(line) {
+  const hit = LABELS.find(([re]) => re.test(line));
+  if (hit) return hit[1];
+  const before = line.split(/\b(?:leave|stand|set aside)\b/)[0];
+  if (/\b(?:leave|stand|set aside)\b/.test(line)) {
+    const salted = /\bsalt/.test(before);
+    if (salted && !SEASONING.test(before)) return 'salting';
+    if (PROTEIN.test(before) && (salted || SEASONING.test(before) || /\b(?:toss|coat|mix|rub|marinade|paste)\w*/.test(before))) return 'marinating';
+    if ((salted || SEASONING.test(before)) && /\b(?:whisk|batter|dough)\w*/.test(before)) return 'resting';
+  }
+  const late = LATE.find(([re]) => re.test(line));
+  return late ? late[1] : 'waiting';
+}
 function waitLabel(recipe, wait) {
   const counted = ((wait && wait.trace) || []).filter(t => t !== 'fixed exception').map(t => t.replace(/^[^—]*—\s*/, ''));
   const lines = counted.length ? counted : [(recipe.steps || recipe.st || []).join(' ')];
   const names = [];
   for (const line of lines) {
-    const hit = LABELS.find(([re]) => re.test(line.toLowerCase()));
-    const name = hit ? hit[1] : 'waiting';
+    const name = nameWait(line.toLowerCase());
     if (!names.includes(name)) names.push(name);
   }
   return names.length > 1 ? `${names.slice(0, -1).join(', ')} and ${names[names.length - 1]}` : names[0];

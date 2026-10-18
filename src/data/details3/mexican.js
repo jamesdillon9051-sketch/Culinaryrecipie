@@ -157,6 +157,7 @@ module.exports = {
   },
 
   'tostadas': {
+    cookMax: 55,
     d: 'Crisp fried tortillas topped with chicken tinga — shredded chicken in a smoky chipotle and tomato sauce — with beans, lettuce, crema and cheese piled on.',
     meta: 'Tinga tostadas — crisp tortillas topped with smoky chipotle chicken, beans, crema and cheese.',
     kw: ['tinga tostadas recipe', 'chicken tinga', 'mexican tostadas', 'chipotle chicken'],

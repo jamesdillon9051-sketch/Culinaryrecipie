@@ -279,7 +279,7 @@ module.exports = {
 
   'gluten-free-lasagna': {
     d: 'Layers of beef ragu, white sauce thickened with cornflour and gluten-free pasta sheets, baked for 40 minutes at 190C.',
-    meta: 'Gluten-free lasagna with beef ragu and cornflour white sauce, cooked for 50 minutes. Eight servings, ready in 1 hour 20 minutes.',
+    meta: 'Gluten-free lasagna with beef ragu and cornflour white sauce, cooked for 50 minutes. Eight servings, ready in 1 hour 35 minutes.',
     kw: ['gluten free lasagna', 'gluten free lasagne with beef', 'lasagna without wheat', 'cornflour white sauce lasagna', 'gluten free pasta bake'],
     why: 'Gluten-free lasagna fails when the sheets turn to paste, and the cure is more liquid than you would use for the wheat version, not less. Gluten-free sheets drink up the sauce as they bake, so the ragu should be looser than feels right.\n\nThe white sauce is thickened with cornflour instead of a flour roux. It is quicker, smoother and cannot go lumpy if the cornflour is mixed with a little cold milk first. **Cover the dish with foil for the first 25 minutes** so the sheets steam rather than dry out, then uncover to brown the cheese.\n\nLeave the lasagna to sit for 15 minutes after it comes out of the oven. This sets the layers so they slice cleanly instead of sliding apart. If you use no-boil gluten-free sheets, check the packet, since some brands do need pre-soaking. Layer thin, with sauce reaching right to the corners. Dry corners are where sheets stay hard, so spread the ragu and white sauce right to the edge of the dish each time.',
     ing: [

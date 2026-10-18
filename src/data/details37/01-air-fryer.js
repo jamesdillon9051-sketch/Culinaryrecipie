@@ -309,8 +309,9 @@ module.exports = {
   },
 
   'air-fryer-samosas': {
-    d: 'Spring roll pastry folded around a spiced potato and pea filling and cooked in the air fryer until crisp. Makes 8 in 42 minutes.',
-    meta: 'Air fryer samosas: spring roll pastry filled with spiced potato and peas, folded and cooked in the air fryer until crisp. Makes 8 in 42 minutes.',
+    cookMax: 45,
+    d: 'Spring roll pastry folded around a spiced potato and pea filling and cooked in the air fryer until crisp. Makes 8 in 1 hour to 1 hour 15 minutes.',
+    meta: 'Air fryer samosas: spring roll pastry filled with spiced potato and peas, folded and cooked in the air fryer until crisp. Makes 8 in 1 hour to 1 hour 15 minutes.',
     kw: ['air fryer samosas', 'samosas in the air fryer', 'air fryer potato and pea samosas', 'homemade air fryer samosas', 'crispy samosas'],
     why: 'Bought spring roll pastry is what makes this a weeknight job. Samosa pastry made from scratch needs rolling and resting; spring roll sheets come ready, and they crisp well in the air fryer.\n\nThe filling is potato, peas and spices, cooked and cooled before it is folded. Cool filling matters: hot filling steams the pastry from inside and tears it. Mash it roughly, so some chunks remain.\n\nFold each strip into a triangle, the way you fold a flag, sealing the last flap with a dab of flour paste. **A good seal keeps the filling in.** Open edges spit out peas in the basket.\n\nBrush lightly with oil. Cook at 190°C for 12 minutes, turning once, in batches. If your machine runs hot, check at 9 minutes. Serve with chutney or yogurt while hot. They can be filled and folded earlier in the day and kept covered in the fridge, then cooked when needed, which makes them useful for guests.',
     ing: [

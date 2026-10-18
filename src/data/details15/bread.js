@@ -123,6 +123,7 @@ module.exports = {
   },
 
   'tarte-flambee': {
+    cookMax: 25,
     d: 'Alsatian flatbread with fromage blanc, onion and bacon, baked in two minutes at the top of a furnace-hot oven. Thin to the point of transparency.',
     meta: 'A paper-thin Alsatian flatbread topped with fromage blanc, raw onion and bacon and baked in minutes at maximum heat.',
     kw: ['tarte flambee', 'flammekueche', 'tarte flambee recipe', 'alsace bacon tart', 'french flatbread pizza'],
@@ -144,7 +145,7 @@ module.exports = {
     ],
     st: [
       'Knead the flour, salt, water and oil to a smooth dough, 6 minutes. It contains no yeast and needs no proving. Rest it 20 minutes.',
-      'Put a baking stone or heavy tray on the top shelf and heat the oven to its absolute maximum, at least 260°C, for 40 minutes.',
+      'While the dough rests, put a baking stone or heavy tray on the top shelf and heat the oven to its absolute maximum, at least 260°C, for 40 minutes.',
       'Beat the fromage blanc with the cream, nutmeg, salt and pepper until smooth and spreadable.',
       'Divide the dough in two and roll each out on baking paper until you can almost see through it — 2 mm at most.',
       'Spread thinly with the cheese mixture, leaving a 1 cm border.',
@@ -272,7 +273,7 @@ module.exports = {
       'Mix the flour, yeast, sugar and salt. Add the eggs and milk and beat with a dough hook for 8 minutes, until smooth and elastic.',
       'Add the softened butter a few pieces at a time, beating for a further 10 minutes, until the dough is glossy and pulls from the bowl.',
       'Cover and refrigerate at least 720 minutes. It is unworkable at room temperature.',
-      'Poach the sausage with the bay and onion at a bare simmer for 35 minutes. Cool it completely, then peel off the skin.',
+      'While the dough chills, poach the sausage with the bay and onion at a bare simmer for 35 minutes. Cool it completely, then peel off the skin.',
       'Roll the cold brioche into a rectangle, spread thinly with the mustard, and lay the cold sausage across it.',
       'Wrap tightly, seal the seam and ends, and set it seam-side down in a lined loaf tin. Prove 90 minutes, until risen by half.',
       'Brush with beaten egg and bake at 180°C / 350°F for 45 minutes, until deep brown and 90°C at the centre. Cool 20 minutes before slicing.'

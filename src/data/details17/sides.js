@@ -201,6 +201,7 @@ module.exports = {
   },
 
   'rumbledethumps': {
+    cookMax: 65,
     d: 'Potato, swede and cabbage mashed together, topped with cheese and baked. The Scottish Borders answer to what to do with a Sunday.',
     meta: 'A Scottish Borders bake of mashed potato and swede folded with buttered cabbage, topped with cheddar and baked until browned.',
     kw: ['rumbledethumps', 'rumbledethumps recipe', 'scottish potato cabbage bake', 'borders potato dish', 'cheesy potato cabbage'],

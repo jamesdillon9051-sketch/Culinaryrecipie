@@ -153,6 +153,7 @@ module.exports = {
   },
 
   'baingan-bharta': {
+    cookMax: 55,
     d: 'Whole aubergines charred over an open flame until the skin blisters and the flesh collapses, then mashed into a smoky masala of onion, tomato and green chilli. Punjabi cooking at its most direct.',
     meta: 'Baingan bharta — fire-roasted aubergine mashed into a smoky masala with onion, tomato and green chilli.',
     kw: ['baingan bharta recipe', 'indian smoked aubergine', 'punjabi eggplant curry', 'roasted eggplant masala'],
@@ -196,6 +197,7 @@ module.exports = {
   },
 
   'rajma': {
+    cookMax: 115,
     rest: [480, 'soaking'],
     d: 'Kidney beans simmered in a thick onion-tomato masala until the gravy is dark and the beans give under a spoon. Served with rice, it is the Sunday lunch of Punjabi and Delhi households, and the definition of comfort food.',
     meta: 'Rajma masala — Punjabi red kidney beans simmered in a thick onion-tomato gravy. Best served with steamed rice.',
@@ -293,6 +295,7 @@ module.exports = {
   },
 
   'chole-bhature': {
+    cookMax: 105,
     rest: [600, 'soaking and proving'],
     d: 'Punjab\'s great weekend breakfast: dark, tangy chickpeas served with balloon-like fried bread. The chana is blackened with tea and the bhature are leavened with yoghurt, and both details matter.',
     meta: 'Chole bhature — spiced dark chickpea curry with puffed deep-fried bhature bread. The Punjabi weekend classic.',
@@ -327,7 +330,7 @@ module.exports = {
     st: [
       'Drain the chickpeas and pressure cook them for 25 minutes, or boil 90 minutes, with the tea bags tied in muslin, the whole spices and a teaspoon of salt. Remove the tea bags and reserve the dark cooking liquid.',
       'For the bhature, mix the flour, semolina, yeast, sugar and salt. Add the yoghurt and oil, then enough warm water to make a soft, smooth dough. Knead 8 minutes, cover, and prove 2 hours.',
-      'Heat the ghee for the chole and fry the onions for 12 minutes until deep brown.',
+      'While the dough proves, heat the ghee for the chole and fry the onions for 12 minutes until deep brown.',
       'Add the ginger-garlic paste and green chillies for 2 minutes, then the chana masala, chilli powder, cumin and turmeric for 30 seconds.',
       'Pour in the tomato purée and cook 12 to 15 minutes until it darkens and the ghee separates.',
       'Add the chickpeas with 500 ml of their cooking liquid, the salt and the amchur. Simmer 25 minutes, mashing some of the chickpeas to thicken, until the gravy clings.',
@@ -346,6 +349,7 @@ module.exports = {
   },
 
   'idli-sambar': {
+    cookMax: 75,
     rest: [780, 'proving'],
     d: 'Steamed rice and lentil cakes, sour from natural fermentation and light as a sponge, served with a tamarind-sharp lentil and vegetable stew. Breakfast across South India, and one of the world\'s great fermented foods.',
     meta: 'Idli sambar — soft steamed South Indian rice and lentil cakes with tangy tamarind lentil and vegetable stew.',
@@ -400,8 +404,9 @@ module.exports = {
   },
 
   'keema-matar': {
+    cookMax: 55,
     d: 'Minced lamb browned hard and simmered with peas in a tight, dry masala. A weeknight dish across North India and Pakistan, eaten with roti, stuffed into parathas, or piled onto pav.',
-    meta: 'Keema matar — spiced minced lamb with green peas in a dry, deeply browned masala. Ready in under an hour.',
+    meta: 'Keema matar — spiced minced lamb with green peas in a dry, deeply browned masala. Ready in 1 hour 5 minutes to 1 hour 10 minutes.',
     kw: ['keema matar recipe', 'indian minced lamb', 'lamb keema peas', 'pakistani keema'],
     why: 'The mince must be browned in an uncrowded pan until it is genuinely dark, not merely grey — that Maillard crust supplies most of the flavour, and adding liquid before it forms gives a pallid, boiled result. The peas go in at the very end so they stay bright and pop rather than turning khaki.',
     ing: [

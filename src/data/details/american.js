@@ -89,6 +89,7 @@ module.exports = {
   },
 
   'buffalo-wings': {
+    cookMax: 75,
     rest: [240, 'chilling'],
     d: 'The Anchor Bar original, baked rather than fried using a baking powder trick that makes the skin crackle like it came out of a fryer, then tossed in a butter-emulsified hot sauce.',
     meta: 'Crispy baked buffalo wings with the baking powder trick — fried-level crunch, no deep fryer, plus a real butter hot sauce.',
@@ -483,8 +484,9 @@ module.exports = {
   },
 
   'creamy-tomato-soup': {
+    cookMax: 55,
     d: 'Roasting the tomatoes first concentrates them into something far deeper than a stovetop soup, and a splash of cream at the end rounds off the acidity. Made for dunking grilled cheese.',
-    meta: 'Velvety roasted tomato soup with deep caramelised flavour and a swirl of cream. Ready in 40 minutes, naturally gluten-free.',
+    meta: 'Velvety roasted tomato soup with deep caramelised flavour and a swirl of cream. Ready in 55 minutes to 1 hour 5 minutes, naturally gluten-free.',
     kw: ['tomato soup recipe', 'roasted tomato soup', 'creamy tomato soup', 'easy soup recipe'],
     why: 'Roasting drives off water and caramelises the tomatoes\' sugars, which is why a roasted soup tastes concentrated and sweet where a simmered one tastes thin and sharp. A pinch of bicarbonate of soda neutralises some of the acidity, letting the cream go in without any risk of splitting.',
     ing: [

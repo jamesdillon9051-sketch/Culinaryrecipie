@@ -295,8 +295,9 @@ module.exports = {
   },
 
   'slow-cooker-mac-and-cheese': {
-    d: 'Macaroni, milk, evaporated milk and cheddar cooked together for 2 hours 30 minutes until creamy. Six servings, with 10 minutes of work.',
-    meta: 'Slow cooker mac and cheese: macaroni, milk and cheddar cooked together on low for 2 hours 30 minutes until creamy. Six servings, 10 minutes of work.',
+    cookMax: 150,
+    d: 'Macaroni, milk, evaporated milk and cheddar cooked together for 2 hours to 2 hours 30 minutes until creamy. Six servings, with 10 minutes of work.',
+    meta: 'Slow cooker mac and cheese: macaroni, milk and cheddar cooked together on low for 2 hours to 2 hours 30 minutes until creamy. Six servings, 10 minutes of work.',
     kw: ['slow cooker mac and cheese', 'crock pot mac and cheese', 'mac and cheese in the slow cooker', 'creamy slow cooker mac and cheese', 'easy mac and cheese'],
     why: 'The macaroni goes in raw and cooks in the sauce, which is why this method works without a roux or a separate pot. The starch from the pasta thickens the milk as it cooks, and the cheese melts into it.\n\nThe risk is overcooking, because slow cookers keep heating for as long as they are on. The pasta turns from tender to mush within 20 minutes. **Check from 2 hours** and turn it off the moment the macaroni is soft.\n\nEvaporated milk does the work that cream does in a baked version. It is stable when heated for a long time, where fresh milk may curdle at the edges, and it adds a rich body for little cost.\n\nGrate the cheese yourself. Bagged grated cheese has a coating that stops it melting smoothly, and the sauce comes out grainy. Stir the cheese in at the end for a minute, then let the pot stand with the lid off. Season with mustard powder and pepper.',
     ing: [

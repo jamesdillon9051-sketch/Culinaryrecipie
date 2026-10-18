@@ -2,6 +2,7 @@
 
 module.exports = {
   'chicken-pot-pie': {
+    cookMax: 75,
     untimed: ['cooling completely'],
     rest: [60, 'chilling'],
     d: 'Chicken and vegetables in a velvety sauce under an all-butter pastry lid that shatters when you break through it. The American comfort dish, and a masterclass in how to keep pastry crisp over a wet filling.',
@@ -192,6 +193,7 @@ module.exports = {
   },
 
   'shrimp-and-grits': {
+    cookMax: 60,
     d: 'Lowcountry breakfast turned into dinner: prawns in a bacon and stock pan sauce over grits cooked slowly with cream and cheese. The grits are the dish; the prawns are the topping.',
     meta: 'Southern shrimp and grits with creamy cheddar grits and prawns in a bacon and lemon pan sauce.',
     kw: ['shrimp and grits recipe', 'lowcountry cooking', 'cheesy grits', 'southern shrimp'],

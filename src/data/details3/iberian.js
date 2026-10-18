@@ -139,6 +139,7 @@ module.exports = {
   },
 
   'arroz-de-marisco': {
+    cookMax: 55,
     d: 'Portuguese seafood rice, wetter than a paella and served in the pot, built on a tomato and coriander refogado with prawns, clams and crab.',
     meta: 'Arroz de marisco — soupy Portuguese seafood rice with tomato, coriander, prawns, clams and crab.',
     kw: ['arroz de marisco recipe', 'portuguese seafood rice', 'soupy rice', 'seafood malandrinho'],
@@ -172,7 +173,7 @@ module.exports = {
     ],
     st: [
       'Peel the prawns, keeping the heads and shells. Simmer them with the water, onion and bay for 25 minutes, then strain and keep 1.4 litres of stock hot.',
-      'Warm the olive oil in a wide heavy pot and cook the onions and pepper over medium-low heat for 15 minutes until very soft — this refogado is the base of everything.',
+      'While the stock simmers, warm the olive oil in a wide heavy pot and cook the onions and pepper over medium-low heat for 15 minutes until very soft — this refogado is the base of everything.',
       'Add the garlic for 1 minute, then the tomato purée and paprika and cook 2 minutes.',
       'Add the wine and reduce by half, then the chopped tomatoes, piri-piri and salt. Simmer 10 minutes.',
       'Stir in the rice and coat it in the sofrito for 2 minutes.',

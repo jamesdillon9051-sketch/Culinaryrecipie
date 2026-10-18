@@ -84,7 +84,7 @@ module.exports = {
     ],
     st: [
       'Make the pastry as for the lemon tart, chill 60 minutes, line a 26 cm tin and blind bake at 180°C for 25 minutes until pale gold.',
-      'Cook the chopped cooking apples with the sugar, butter and vanilla over medium heat for 15 minutes, until completely collapsed. Beat smooth and stir in the Calvados. Cool.',
+      'While the case bakes, cook the chopped cooking apples with the sugar, butter and vanilla over medium heat for 15 minutes, until completely collapsed. Beat smooth and stir in the Calvados. Cool.',
       'Spread the compote over the base of the tart case in an even layer about 1.5 cm deep.',
       'Peel, halve and core the eating apples and slice them as thinly as you can.',
       'Fan the slices over the compote in overlapping concentric circles, working from the outside in and packing them tightly — they shrink.',

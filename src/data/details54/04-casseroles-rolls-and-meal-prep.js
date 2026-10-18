@@ -17,7 +17,7 @@
 module.exports = {
   'stuffed-grape-leaves': {
     d: 'Vine leaves rolled around a lemony rice, herb and pine nut filling and simmered for 50 minutes in olive oil and stock until tender.',
-    meta: 'Stuffed grape leaves with rice, herbs and pine nuts, simmered for 50 minutes. Eight servings, ready in 1 hour 35 minutes.',
+    meta: 'Stuffed grape leaves with rice, herbs and pine nuts, simmered for 50 minutes. Eight servings, ready in 1 hour 50 minutes.',
     kw: ['stuffed grape leaves', 'dolmades', 'greek stuffed vine leaves', 'rice stuffed grape leaves', 'vegetarian dolma'],
     why: 'Spring is when fresh vine leaves are at their best, tender and bright green, though jarred leaves in brine are what most cooks use year round. Either way, stuffed grape leaves, known in Greece as dolmades, are a patient, hands-on dish that rewards you with a plate of small, tidy parcels.\n\nRinse brined leaves well and soak them in hot water for 5 minutes to remove the salt. Trim off the stems, and lay each leaf shiny side down. The filling is rice cooked partway with onion, dill, mint, parsley, lemon juice and pine nuts, so that it can finish swelling inside the leaf. Use a small teaspoon, no more, because the rice expands as it cooks.\n\n**Roll them tight, but not too tight.** Fold the stem end over the filling, tuck in both sides, and roll firmly towards the tip. Pack them seam side down in a pot lined with spare leaves, in snug rings, so that they cannot unroll as they cook. Weigh them down with an upturned plate.\n\nSimmer gently in lemon juice, olive oil and water for 50 minutes. The leaves should be silky and the rice tender. Cool them in the pot, which lets the flavour settle, and serve at room temperature with lemon wedges and thick yogurt.',
     ing: [
@@ -341,7 +341,7 @@ module.exports = {
 
   'white-lasagna': {
     d: 'Pasta sheets layered with chicken, spinach, ricotta and a garlic béchamel, topped with mozzarella and baked for 45 minutes.',
-    meta: 'White lasagna with chicken, spinach and garlic béchamel, baked for 45 minutes. Eight servings, ready in 1 hour 15 minutes.',
+    meta: 'White lasagna with chicken, spinach and garlic béchamel, baked for 45 minutes. Eight servings, ready in 1 hour 30 minutes.',
     kw: ['white lasagna', 'chicken and spinach white lasagna', 'lasagna bianca', 'creamy white sauce lasagna', 'spinach ricotta lasagna'],
     why: 'It looks like a lasagna without the tomato, and it eats like a baked bowl of creamy pasta. A white lasagna is built on béchamel, a sauce of butter, flour and milk, with garlic and a hint of nutmeg, and everything else rests on that creamy foundation. It is lighter than it looks and surprisingly fresh.\n\nThe spinach needs attention. Wilt it in a pan, cool it, and squeeze out as much water as you can in a clean cloth. Wet spinach floods the dish with liquid as it bakes and leaves the layers sliding apart. Mix it with ricotta, egg, parmesan and nutmeg for a filling that sets firm.\n\n**Make the béchamel thin enough to pour.** The dry pasta sheets drink liquid from the sauce as they bake, so a thick sauce yields a stiff, dry lasagna. If the sauce coats a spoon and runs off in a ribbon, it is right. Whisk constantly as the milk goes in and simmer for 5 minutes.\n\nLayer the sauce, pasta, ricotta mix, chicken and mozzarella three times, finishing with sauce and cheese. Cover with foil for 30 minutes, then bake uncovered for 15 until golden. Rest for 15 minutes before cutting, or the layers will slip.',
     ing: [
@@ -414,7 +414,7 @@ module.exports = {
 
   'chicken-and-ham-pie': {
     d: 'Chicken and ham in a creamy leek sauce under a shortcrust and puff pastry lid, baked for 40 minutes until golden.',
-    meta: 'Chicken and ham pie with leeks, a creamy sauce and a golden pastry lid, baked for 40 minutes. Six servings, ready in 1 hour 10 minutes.',
+    meta: 'Chicken and ham pie with leeks, a creamy sauce and a golden pastry lid, baked for 40 minutes. Six servings, ready in 2 hours 10 minutes.',
     kw: ['chicken and ham pie', 'chicken and ham pie with leeks', 'british chicken pie', 'creamy chicken and ham filling', 'pie with puff pastry lid'],
     why: 'Chicken and ham is among the oldest pairings in British pie-making, the salty cured pork lifting the plainer flavour of the poultry. A pie of this kind belongs on a cold evening, with a golden lid that cracks to release a plume of steam and a creamy filling underneath.\n\nThe filling is the thing to get right. Cook chicken thighs in stock with a bay leaf, which takes about 20 minutes, then lift them out, shred them, and use the stock for the sauce. Soften sliced leeks in butter, stir in flour, and add the stock and a splash of cream. The sauce should be thick enough to coat the chicken and ham without running, because a thin one makes a soggy base.\n\n**Cool the filling completely before it goes under the pastry.** Hot filling melts the fat in the pastry and causes it to slump, and steam from it makes the lid soggy underneath. Chill it for at least 30 minutes, until it is cold and almost set.\n\nUse a pie dish with a rim so the pastry has somewhere to sit, brush the edge with egg, and press the lid on firmly. Cut a slit in the top for steam, brush with egg wash, and bake until deep gold. A lined tray under the dish catches any bubbling over.',
     ing: [
@@ -451,7 +451,7 @@ module.exports = {
 
   'eggplant-rollatini': {
     d: 'Thin slices of roasted aubergine rolled around a ricotta and spinach filling, covered in tomato sauce and mozzarella and baked for 30 minutes.',
-    meta: 'Eggplant rollatini with ricotta, spinach and tomato sauce, baked for 30 minutes. Four servings, ready in 1 hour.',
+    meta: 'Eggplant rollatini with ricotta, spinach and tomato sauce, baked for 30 minutes. Four servings, ready in 1 hour 20 minutes.',
     kw: ['eggplant rollatini', 'aubergine rollatini', 'eggplant rolls with ricotta', 'baked eggplant rolls', 'italian eggplant roll ups'],
     why: 'Cut the slices lengthways and keep them thin. Rollatini needs flexible aubergine, and a slice that is too thick cracks when rolled and one that is too thin tears. About 7 mm is right, which gives a slice that bends without breaking once it has been roasted.\n\nSalt the slices on both sides and leave them on a rack for 20 minutes. This draws out moisture and bitterness and makes the flesh pliable. Pat dry, brush with oil and roast at 220C for about 15 minutes, turning once, until golden and soft. Roasting uses far less oil than the traditional frying, and the slices do not turn greasy.\n\n**Let the slices cool slightly before filling.** Hot slices are slippery and hard to roll, and they will melt the ricotta. The filling is ricotta, parmesan, an egg, chopped spinach squeezed dry, and basil. Spread a tablespoon on the wide end of each slice and roll tightly towards the narrow end.\n\nSet the rolls seam side down in a dish over a layer of tomato sauce, so that they stay closed. Pour more sauce over, scatter with mozzarella and bake until bubbling and golden. Serve with crusty bread to mop up the sauce.',
     ing: [
@@ -679,7 +679,7 @@ module.exports = {
 
   'beef-meal-prep-bowls': {
     d: 'Seasoned beef strips with brown rice, roasted broccoli and sweet potato, portioned into four containers for lunches that keep for 4 days.',
-    meta: 'Beef meal prep bowls with rice, broccoli and sweet potato, for four lunches. Four servings, ready in 40 minutes.',
+    meta: 'Beef meal prep bowls with rice, broccoli and sweet potato, for four lunches. Four servings, ready in 45 minutes.',
     kw: ['beef meal prep bowls', 'beef and rice meal prep', 'meal prep lunch bowls', 'beef broccoli rice bowls', 'weekly beef meal prep'],
     why: 'Plan the week on a Sunday. That is the whole logic of a meal prep bowl: one session of cooking, four lunches in boxes, and a fridge that does the rest. This version uses beef, rice and two vegetables, so that each box has protein, carbohydrate and something green.\n\nCook everything so that it still tastes good on day four. Beef strips seared in a very hot pan and tossed in soy, garlic and ginger stay tender when cold, as long as they are not overcooked. Roast the sweet potato and broccoli on one tray at 220C, which takes 25 minutes, and they keep their texture better than steamed vegetables, which turn watery in a box.\n\n**Cool everything before packing.** Hot food sealed in a lid creates steam, which drips back down and makes the rice mushy and the vegetables limp. Spread the rice on a tray for 10 minutes, then divide. Leave the sauce separate if you can, in a small pot, and add it just before eating.\n\nKeep the boxes in the fridge for up to 4 days. Reheat in the microwave for 2 minutes, stirring halfway, or eat cold with the sauce poured over.',
     ing: [
@@ -697,7 +697,7 @@ module.exports = {
     ],
     st: [
       'Heat the oven to 220C. Cook the rice in boiling water for 25 minutes, drain and spread on a tray to cool.',
-      'Toss the sweet potato and broccoli with 1 tbsp of the oil and the salt on a large tray. Roast for 25 minutes.',
+      'While the rice cooks, toss the sweet potato and broccoli with 1 tbsp of the oil and the salt on a large tray and roast for 25 minutes.',
       'Toss the beef with 2 tbsp of the soy sauce, the garlic and ginger. Heat the remaining oil in a very hot pan and sear the beef in 2 batches for 2 minutes each.',
       'Mix the remaining soy sauce with the honey and stir into the beef for 30 seconds.',
       'Divide the rice, vegetables and beef between 4 containers, scatter with the sesame seeds, cool and seal.'

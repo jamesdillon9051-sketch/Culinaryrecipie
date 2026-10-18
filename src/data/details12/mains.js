@@ -514,11 +514,11 @@ module.exports = {
       'Lemon wedges'
     ],
     st: [
-      'Brown the lamb in 2 tbsp oil over high heat in two batches, about 8 minutes, until properly coloured. Lift out.',
+      'If you are using dried beans, drain off their soaking water, cover them with fresh water and boil hard for 30 minutes while you work through the next three steps, then drain. Brown the lamb in 2 tbsp oil over high heat in two batches, about 8 minutes, until properly coloured. Lift out.',
       'Soften the onions in the rest of the oil 8 minutes, then add the garlic and half the coriander and cook 2 minutes.',
       'Stir in the tomato purée and cook 2 minutes until it darkens.',
-      'Return the lamb with the tomatoes, ground coriander, allspice, pepper and water. Simmer covered 60 minutes.',
-      'Add the beans and simmer a further 30 minutes, uncovered for the last 10 so the sauce reduces.',
+      'Return the lamb with the tomatoes, ground coriander, allspice, pepper and water. Simmer covered 60 minutes, with the boiled dried beans in the pot if you are using them.',
+      'Add the tinned beans, if using, and simmer a further 30 minutes, uncovered for the last 10 so the sauce reduces.',
       'Only now stir in the salt. Taste and adjust.',
       'Finish with the remaining fresh coriander and serve over rice with lemon.'
     ],
@@ -558,7 +558,7 @@ module.exports = {
     ],
     st: [
       'Heat the oven to 220°C / 425°F. Halve the aubergines lengthways, score the cut faces in a diamond, rub with 4 tbsp oil and the salt, and roast cut-side down 25 minutes until slumped and browned.',
-      'Toast the pine nuts in 3 tbsp oil until gold and lift out. Fry the onions 8 minutes, add the lamb and cook 12 minutes until browned and dry.',
+      'While the aubergines roast, toast the pine nuts in 3 tbsp oil until gold and lift them out, then fry the onions 8 minutes, add the lamb and cook 12 minutes until browned and dry.',
       'Stir in the allspice, cinnamon and salt, then return the pine nuts.',
       'Turn the aubergines cut-side up and press the middle of each down with a spoon to make a hollow, without tearing the skin.',
       'Whisk the tomatoes, purée, molasses, water and salt and pour into a baking dish. Sit the aubergines in it.',

@@ -308,7 +308,7 @@ module.exports = {
     ],
     st: [
       'Heat the oven to 220°C. Toss the courgettes, peppers and onion with the oil and salt and roast on a tray for 20 minutes.',
-      'Boil the penne for 8 minutes, 2 minutes under the packet time, and drain.',
+      'While the vegetables roast, boil the penne for 8 minutes, 2 minutes under the packet time, and drain.',
       'Warm the passata with the garlic and oregano, then stir in the pasta and roasted vegetables.',
       'Tip into a baking dish, top with the mozzarella and parmesan, lower the oven to 200°C and bake for 30 minutes until golden.'
     ],
@@ -423,6 +423,7 @@ module.exports = {
   },
 
   'meatball-pasta-bake': {
+    cookMax: 50,
     d: 'Beef meatballs and penne in a tomato sauce, topped with mozzarella and baked until bubbling.',
     meta: 'Meatball pasta bake: beef meatballs and penne in tomato sauce under mozzarella. Six servings, baked for 35 minutes.',
     kw: ['meatball pasta bake', 'baked meatball pasta', 'meatball and mozzarella pasta bake', 'meatball pasta bake with penne', 'beef meatball pasta bake'],

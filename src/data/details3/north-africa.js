@@ -211,6 +211,7 @@ module.exports = {
   },
 
   'shakshuka-tunisian': {
+    cookMax: 55,
     d: 'Merguez browned first, then eggs poached in a tomato and pepper sauce built on harissa and caraway. Hotter and spicier than the northern versions.',
     meta: 'Merguez shakshuka — eggs poached in a harissa and caraway tomato sauce with browned merguez.',
     kw: ['merguez shakshuka recipe', 'tunisian shakshuka', 'spicy eggs in tomato', 'harissa eggs'],

@@ -175,7 +175,7 @@ module.exports = {
 
   'shepherds-pie-with-cheesy-mash': {
     d: 'Lamb mince cooked with carrots, peas and onions in a rich gravy, topped with cheddar mash and baked until golden.',
-    meta: 'Shepherd\'s pie with cheesy mash: lamb mince and vegetables in gravy under cheddar mash. Six servings, baked for 60 minutes.',
+    meta: 'Shepherd\'s pie with cheesy mash: lamb mince and vegetables in gravy under cheddar mash. Six servings, baked for 35 minutes.',
     kw: ['shepherds pie with cheesy mash', 'lamb shepherds pie with cheddar mash', 'traditional shepherds pie with cheese topping', 'cheesy mash shepherds pie', 'british shepherds pie with cheesy mash'],
     why: 'This is what to make in the first cold week, when a pie with a lid of mash is exactly what the weather asks for. A shepherd\'s pie is made with lamb, and a cottage pie with beef, and it is worth being exact about which is which.\n\nBrown the lamb well in a wide pan, breaking it up as it cooks, until it is dark and the fat has rendered. Pour off excess fat. Add the onion, carrots and garlic, then the flour and tomato purée, and pour in the stock with the Worcestershire sauce. Simmer for 20 minutes until thick. **Make the gravy thick.** A thin filling floods the mash.\n\nBoil the potatoes until soft, drain and steam dry, then mash with butter, milk and most of the cheese. Spoon the mash over the filling, rake it with a fork and scatter over the rest of the cheese.\n\nBake at 200°C for 35 minutes. If your oven runs hot, check at 28 minutes. The top should be golden and the edges bubbling.',
     ing: [
@@ -199,7 +199,7 @@ module.exports = {
       'Heat the oven to 200°C. Brown the lamb in the oil for 8 minutes, breaking it up, and pour off excess fat.',
       'Add the onion, carrots and garlic for 6 minutes, then stir in the flour and tomato purée for 1 minute.',
       'Pour in the stock and Worcestershire sauce and simmer for 20 minutes until thick. Stir in the peas and half the salt and tip into a baking dish.',
-      'Boil the potatoes for 15 minutes, drain, steam dry and mash with the butter, milk, remaining salt and two thirds of the cheese.',
+      'While the filling simmers, boil the potatoes for 15 minutes, drain, steam dry and mash with the butter, milk, remaining salt and two thirds of the cheese.',
       'Spoon over the filling, rake with a fork and scatter with the rest of the cheese. Bake for 35 minutes until golden and bubbling.'
     ],
     tips: [

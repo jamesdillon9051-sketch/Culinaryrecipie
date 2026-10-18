@@ -3,6 +3,7 @@
 
 module.exports = {
   'rice-and-peas': {
+    cookMax: 85,
     rest: [480, 'soaking'],
     d: 'Rice cooked in coconut milk with kidney beans, thyme, spring onion and a whole scotch bonnet left in and lifted out before it bursts.',
     meta: 'Jamaican rice and peas — rice cooked in coconut milk with kidney beans, thyme and scotch bonnet.',
@@ -80,7 +81,7 @@ module.exports = {
       'Mix the flour, turmeric, curry powder and salt. Rub in the cold butter, leaving pieces the size of a pea — visible butter makes the flake.',
       'Add the iced water and vinegar and bring together into a rough dough. Do not knead.',
       'Wrap and chill 1 hour. Then roll into a rectangle, fold in three, and chill another 30 minutes. Repeat once more.',
-      'For the filling, cook the onion in the oil for 8 minutes, then add the garlic, spring onion and scotch bonnet for 1 minute.',
+      'While the pastry chills, make the filling: cook the onion in the oil for 8 minutes, then add the garlic, spring onion and scotch bonnet for 1 minute.',
       'Add the mince and brown it hard for 8 minutes, breaking it up.',
       'Add the curry powder, allspice, thyme, paprika and salt and cook 2 minutes.',
       'Pour in the stock and simmer 12 minutes, then stir in the breadcrumbs and cook 3 minutes until thick and saucy but not wet. Cool completely.',
@@ -131,7 +132,7 @@ module.exports = {
     st: [
       'Mix the flour, yeast, sugar, salt, turmeric and cumin, then add the warm water and knead 6 minutes to a soft, slightly sticky dough.',
       'Cover and prove 1 1/2 hours until doubled.',
-      'For the channa, boil the soaked chickpeas 50 minutes until soft. Drain, keeping the liquid.',
+      'While the dough proves, make the channa: boil the soaked chickpeas 50 minutes until soft. Drain, keeping the liquid.',
       'Cook the onion in the oil for 8 minutes, add the garlic for 1 minute.',
       'Mix the curry powder with 4 tablespoons of water to a paste, add it to the pan and fry 3 minutes until the oil separates and it smells cooked.',
       'Add the chickpeas, geera, turmeric, salt and 600 ml of the cooking liquid. Simmer 25 minutes, mashing about a third of the chickpeas against the pan, until thick and a little soupy.',
@@ -151,6 +152,7 @@ module.exports = {
   },
 
   'callaloo': {
+    cookMax: 65,
     d: 'Dasheen leaves cooked down with okra, coconut milk and crab or salt meat until they collapse into a thick, dark green purée.',
     meta: 'Callaloo — Trinidadian dasheen leaves cooked with okra and coconut milk into a thick green purée.',
     kw: ['callaloo recipe', 'trinidadian callaloo', 'dasheen leaf soup', 'coconut greens'],
@@ -241,6 +243,7 @@ module.exports = {
   },
 
   'pepper-soup': {
+    cookMax: 125,
     d: 'A thin, fiercely hot broth built on a blend of West African spices, with goat, fish or chicken and almost nothing else in it.',
     meta: 'Nigerian pepper soup — a thin, fiery broth of West African spices with goat, fish or chicken.',
     kw: ['nigerian pepper soup recipe', 'goat pepper soup', 'african spice broth', 'catfish pepper soup'],

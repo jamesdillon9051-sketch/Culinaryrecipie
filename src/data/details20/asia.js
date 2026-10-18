@@ -41,7 +41,7 @@ module.exports = {
     ],
     st: [
       'Simmer the oxtail with the water, halved onion, whole garlic and stock salt for 2 hours 30 minutes, skimming, until tender. Keep 1.2 litres of the broth.',
-      'Toast the rice in a dry pan for 5 minutes, until deep gold, then grind to a powder.',
+      'While the oxtail simmers, toast the rice in a dry pan for 5 minutes, until deep gold, then grind to a powder.',
       'Fry the annatto seeds in 2 tbsp of the oil for 1 minute, until the oil turns orange, then strain the seeds out.',
       'Heat the annatto oil with the remaining oil and fry the chopped onion for 6 minutes.',
       'Add the crushed garlic and cook 1 minute.',

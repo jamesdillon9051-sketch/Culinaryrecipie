@@ -162,20 +162,25 @@ function check(recipe, built) {
      alternative after "or", optional variants and rates ("15 minutes per 500 g") are left out. */
   let stages = 0;
   const stageList = [];
-  const NOT_COOKING = /\bbaking (?:paper|parchment|tray|sheet|dish|tin|powder|soda|beans)\b|\bcooking (?:liquid|water|juices|spray|oil)\b|\bbefore (?:baking|cooking|roasting|grilling|frying|serving)\b|\bbrown(?:ed)? sugar\b|\bbrown bread\b/gi;
+  const NOT_COOKING = /\bboiling (?:water|stock|milk)\b|\bsteam[- ]dr\w*|\bleave (?:(?:it|them) )?to steam\b|\bsteam (?:escape|evaporate)\w*|\bsteam\w*\s+(?:\w+\s+){0,3}in a (?:covered |closed |sealed )?(?:bowl|bag)\b|\bbaking (?:paper|parchment|tray|sheet|dish|tin|powder|soda|beans)\b|\bcooking (?:liquid|water|juices|spray|oil)\b|\bbefore (?:baking|cooking|roasting|grilling|frying|serving)\b|\bbrown(?:ed)? sugar\b|\bbrown bread\b/gi;
   const VERB = new RegExp(`${HEAT.source}|\\b(?:rest|rests|rested|chill|chilled|cool|cooled|refrigerate|freeze|marinate|prove|rise|soak|stand|leave|infuse|churn|steep|set|knead|whisk|beat|blend|mix)\\w*\\b`, 'gi');
   for (const step of steps) {
+    /* A step that opens "While the dough proves, …" or "Meanwhile, …" is the parallel task in all of its
+       sentences, not only the first. */
+    if (/^\s*(?:while|meanwhile|in the meantime|at the same time)\b/i.test(step)) continue;
     for (const raw of step.split(/(?<=[.!?])\s+/)) {
-      if (/^\s*(?:while|meanwhile|in the meantime|at the same time|for the traditional|alternatively|if you)\b/i.test(raw)) continue;
+      /* Baking a frozen batch later is a second occasion, not part of making the dish now. */
+      if (/^\s*(?:while|meanwhile|in the meantime|at the same time|for the traditional|alternatively|if you|to bake (?:the )?frozen|to bake from frozen|bake from frozen|from frozen|to freeze|to reheat)\b/i.test(raw)) continue;
       /* The first of two alternatives ("6 hours on low or 4 on high"), and the floor of a range
          written with units on both sides ("90 minutes to 2 hours"). */
-      const sentence = raw.replace(/(\d+)\s+1\/2\b/g, (_, n) => `${n}.5`).replace(/(\d+)½/g, (_, n) => `${n}.5`).split(/,\s*or\s+|\bor until\b|\bor\s+(?:on\s+)?(?:high|low|pressure|in)\b|\bor\s+\d/i)[0]
+      const sentence = raw.replace(/(\d+)\s*hours?\s+(?:and\s+)?(\d+)\s*minutes?/gi, (_, h, m) => `${h * 60 + Number(m)} minutes`).replace(/(\d+)\s+1\/2\b/g, (_, n) => `${n}.5`).replace(/(\d+)½/g, (_, n) => `${n}.5`).split(/,\s*or\s+|\bor until\b|\bor\s+(?:on\s+)?(?:high|low|pressure|in)\b|\bor\s+\d/i)[0]
         .replace(/(\d+(?:\.\d+)?\s*(?:minutes?|mins?|hours?|hrs?))\s*(?:to|–|-)\s*\d+(?:\.\d+)?\s*(?:minutes?|mins?|hours?|hrs?)/gi, '$1')
         .replace(NOT_COOKING, ' ');
       if (!HEAT.test(sentence)) continue;
       for (const m of sentence.matchAll(TIME)) {
         const before = sentence.slice(0, m.index);
-        if (/\bevery\s+$/i.test(before) || /^\s*(?:per|a side|each side)\b/i.test(sentence.slice(m.index + m[0].length))) continue;
+        /* "Every 20 minutes" is a rate and "cover with foil at 45 minutes" a point in the bake. */
+        if (/\b(?:every|at|after|from)\s+$/i.test(before) || /^\s*(?:per|a side|each side|under|less than|short of|more than|longer than)\b/i.test(sentence.slice(m.index + m[0].length))) continue;
         const verbs = [...before.matchAll(VERB)];
         const last = verbs.length ? verbs[verbs.length - 1][0] : '';
         if (!last || !new RegExp(`^(?:${HEAT.source})$`, 'i').test(last)) continue;
@@ -291,7 +296,8 @@ function check(recipe, built) {
   const elapsed = built.elapsedTime;
   const STAGE = /\b(?:cook(?:ed|s)?|bake[sd]?|grill(?:ed|s)?|fr(?:y|ied|ies)|steam(?:ed|s)?|pressure[- ]cook(?:ed)?|microwave[ds]?|blend(?:ed|s)?|mix(?:ed|es)?|assembl(?:ed|es)|whisk(?:ed)?|simmer(?:ed|s)?|roast(?:ed|s)?|warm(?:ed|s)?|sear(?:ed|s)?|toast(?:ed|s)?|churn(?:ed)?|boil(?:ed|s)?|poach(?:ed)?|made on the hob|on the hob|brine|marinade|soak|rest|chill|bake time|cooking time)\b[^.]{0,30}$/i;
   for (const [field, text] of [['title', recipe.title], ['description', recipe.description], ['meta', recipe.meta]]) {
-    const str = String(text || '');
+    /* "1 hour 20 minutes" is read as 80 minutes, so a promise in hours is checked like one in minutes. */
+    const str = String(text || '').replace(/\b(\d+) hours?(?: (?:and )?(\d+) minutes?)?/gi, (_, h, mm) => `${h * 60 + Number(mm || 0)} minutes`).replace(/\ban hour\b/gi, '60 minutes');
     for (const m of str.matchAll(/\b(ready in|on the table in|done in|takes|servings?(?:,)? in|servings?(?:,)? ready in|made in|in|under|within)\s+(\d+)\s*(?:minutes?|mins?)\b|\b(\d+)[- ]minute\s+(\w+)/gi)) {
       const n = Number(m[2] || m[3]);
       const after = str.slice(m.index + m[0].length, m.index + m[0].length + 30);

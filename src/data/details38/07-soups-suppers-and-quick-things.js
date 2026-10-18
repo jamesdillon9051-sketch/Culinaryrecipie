@@ -282,8 +282,8 @@ module.exports = {
   },
 
   'roasted-garlic-soup': {
-    d: 'Whole roasted garlic heads simmered with potato and stock for 40 minutes and blended into a smooth, mellow soup. Four servings in 50 minutes.',
-    meta: 'Roasted garlic soup: whole roasted garlic heads simmered with potato and stock and blended into a smooth, mellow soup. Four servings in 50 minutes.',
+    d: 'Whole roasted garlic heads simmered with potato and stock for 40 minutes and blended into a smooth, mellow soup. Four servings in 1 hour 30 minutes.',
+    meta: 'Roasted garlic soup: whole roasted garlic heads simmered with potato and stock and blended into a smooth, mellow soup. Four servings in 1 hour 30 minutes.',
     kw: ['roasted garlic soup', 'creamy roasted garlic soup', 'french roasted garlic soup', 'easy roasted garlic soup', 'garlic soup with potato'],
     why: 'It sounds ferocious and tastes gentle. Roasting turns garlic sweet and mild, so a whole head per person gives a soup that is rich and nutty, with nothing sharp about it.\n\nRoast the heads first, wrapped in foil, until the cloves are soft. Squeeze them out of their skins into a pan, where they melt into the onion and potato. **Do not skip the roasting**, as raw garlic in this quantity would be harsh.\n\nSimmer the potato in the stock with the garlic and a sprig of thyme for 40 minutes, until very soft. The potato gives body, so no flour or cream is needed.\n\nIf your hob runs hot, check at 30 minutes. Blend until completely smooth, then pass through a sieve if you want it silky. Finish with a splash of cream and a squeeze of lemon. Serve with toasted bread and a drizzle of olive oil. Leftover soup freezes well, though it is best to add the cream after reheating.',
     ing: [
@@ -299,7 +299,7 @@ module.exports = {
     ],
     st: [
       'Heat the oven to 190°C. Cut the tops off the garlic, drizzle with 1 tbsp of the oil, wrap in foil and roast for 40 minutes. Squeeze out the cloves.',
-      'Soften the onion in the remaining oil for 5 minutes. Add the garlic, potatoes, stock and thyme and simmer for 40 minutes.',
+      'While the garlic finishes roasting, soften the onion in the remaining oil for 5 minutes. Add the garlic, potatoes, stock and thyme and simmer for 40 minutes.',
       'Remove the thyme, blend until smooth and stir in the cream, lemon juice and salt.'
     ],
     tips: [

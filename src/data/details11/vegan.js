@@ -108,6 +108,7 @@ module.exports = {
   },
 
   'aubergine-parmigiana': {
+    cookMax: 80,
     rest: [105, 'salting and resting'],
     d: 'Aubergine slices salted, then griddled rather than fried, layered with a long-simmered tomato sauce and two cheeses. Lighter than the fried version and far less oily.',
     meta: 'Melanzane alla parmigiana with the aubergine salted and griddled instead of fried — less oil, same result.',
@@ -301,6 +302,7 @@ module.exports = {
   },
 
   'tofu-katsu-curry': {
+    cookMax: 65,
     d: 'Firm tofu pressed, crumbed in panko and baked crisp, over a proper katsu sauce built from onions cooked down for twenty minutes rather than a packet.',
     meta: 'Tofu katsu curry with panko-crumbed baked tofu and a katsu sauce built on slowly browned onions, not a roux block.',
     kw: ['tofu katsu curry', 'vegan katsu curry', 'katsu sauce recipe', 'japanese curry tofu'],

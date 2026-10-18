@@ -450,7 +450,7 @@ module.exports = {
 
   'marrow-bake': {
     d: 'Marrow rings baked in a tomato and onion sauce under a crisp cheese and breadcrumb topping. Four servings in 1 hour 10 minutes.',
-    meta: 'Marrow bake: marrow baked in a tomato and onion sauce under a cheese and breadcrumb crust. A cheap way to use a garden marrow, four servings in 1 hour 10 minutes.',
+    meta: 'Marrow bake: marrow in a tomato and onion sauce under a cheese and breadcrumb crust. A cheap way to use a garden marrow. Four servings in 1 hour 10 minutes.',
     kw: ['marrow bake', 'baked marrow with cheese', 'budget marrow dinner', 'easy marrow and tomato bake', 'cheap vegetable bake'],
     why: 'Marrow is mostly water, which is why it needs help. On its own it is bland and wet; in a tomato sauce under a crisp topping it turns sweet and tender.\n\nPeel it, scoop out the seeds and cut into 2 cm chunks. The skin of a large marrow is tough and does not soften in the oven.\n\nSalt the chunks and drain them for 15 minutes. **Squeezing out the water first** is what keeps the bake from becoming a soup.\n\nThe sauce is onion, garlic and tinned tomatoes simmered for 10 minutes. It should be thick, because the marrow still gives up liquid as it bakes. The topping of cheese and crumbs gives crunch against the soft base. Marrows have a mild taste that suits strong flavours, so the tomato, garlic and cheese are not wasted. A glut from the garden is the usual reason to make a dish like this, and it uses a lot in one go.',
     ing: [
@@ -517,7 +517,7 @@ module.exports = {
   },
 
   'vegetable-pot-pie': {
-    d: 'Potato, carrot, peas and sweetcorn in a creamy sauce under a pastry crust. Six servings in 1 hour 5 minutes.',
+    d: 'Potato, carrot, peas and sweetcorn in a creamy sauce under a pastry crust. Six servings in 1 hour 20 minutes.',
     meta: 'Vegetable pot pie: potato, carrot, peas and sweetcorn in a creamy sauce under a pastry crust. A cheap meatless pie for six, 1 hour 5 minutes.',
     kw: ['vegetable pot pie', 'meatless pot pie', 'budget vegetable pie', 'shortcrust vegetable pot pie', 'cheap family pie'],
     why: 'A pot pie lives or dies by its sauce. Too thin and the crust sinks, too thick and the pie is like paste. The right texture is a custard that coats the back of a spoon and still pours.\n\nCook the vegetables in the sauce rather than separately, so their starch thickens it. Potatoes cut into 1.5 cm cubes are tender in 10 minutes of simmering.\n\nButter and flour make the roux. **Cook it for a full minute** before the milk goes in, or the sauce tastes of raw flour.\n\nCool the filling for 15 minutes. A hot filling melts the pastry from beneath and the crust bakes pale and soft. A single crust on top is enough and keeps the cost down. The filling may be cooked and frozen, then thawed and topped with pastry for a quick weeknight pie. A pastry lid alone cuts the cost and effort, and the sauce is rich enough that a base is not missed.',

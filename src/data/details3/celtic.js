@@ -218,11 +218,11 @@ module.exports = {
     st: [
       'Heat the oven to 180C fan. Wrap the haggis loosely in foil with 3 tablespoons of water and set it in a roasting tin.',
       'Bake for 1 hour, or follow the timing on the packet — usually 45 minutes per 500 g.',
-      'Boil the swede in salted water for 25 minutes until completely soft, then drain very well and let it steam dry.',
-      'Boil the potatoes in salted water for 18 minutes, drain, and steam dry for 3 minutes.',
+      'While the haggis bakes, boil the swede in salted water for 25 minutes until completely soft, then drain very well and let it steam dry.',
+      'Meanwhile, boil the potatoes in salted water for 18 minutes, drain, and steam dry for 3 minutes.',
       'Mash the swede with its butter, white pepper and nutmeg. It should be coarse rather than smooth.',
       'Rice or mash the potatoes, then beat in the butter and warm milk and season.',
-      'For the sauce, soften the shallot in the butter for 4 minutes. Add the whisky and let it bubble for 1 minute, standing back from the pan.',
+      'While the vegetables cook, soften the shallot for the sauce in the butter for 4 minutes. Add the whisky and let it bubble for 1 minute, standing back from the pan.',
       'Pour in the cream, add the mustard, and simmer 4 minutes until it coats a spoon. Finish with lemon juice.',
       'Slit the haggis open at the table, and serve a spoonful of each mash alongside with the sauce poured over.'
     ],

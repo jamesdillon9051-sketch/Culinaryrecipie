@@ -92,6 +92,7 @@ module.exports = {
   },
 
   'beef-empanadas': {
+    cookMax: 55,
     untimed: ['cooling completely'],
     rest: [540, 'chilling'],
     d: 'Argentinian empanadas with a juicy, gently spiced beef filling, olives and egg, baked in a short pastry that stays crisp. Chilling the filling overnight is the trick to a juicy centre without a leaking crust.',
@@ -240,6 +241,7 @@ module.exports = {
   },
 
   'moroccan-chicken-tagine': {
+    cookMax: 90,
     d: 'Chicken braised with preserved lemon, olives and warm spices until it falls off the bone, in a sauce reduced to a golden glaze. The preserved lemon is what makes it taste unmistakably Moroccan.',
     meta: 'Moroccan chicken tagine with preserved lemon, olives and warm spices. Fall-apart tender in just over an hour.',
     kw: ['chicken tagine recipe', 'moroccan tagine', 'preserved lemon chicken', 'gluten free dinner'],
@@ -428,6 +430,7 @@ module.exports = {
   },
 
   'lahmacun': {
+    cookMax: 35,
     rest: [90, 'proving'],
     d: 'Paper-thin Turkish flatbread spread with spiced minced lamb and baked in a fierce oven for four minutes. Rolled up with parsley, onion and a hard squeeze of lemon.',
     meta: 'Turkish lahmacun with paper-thin dough and spiced lamb topping, baked in minutes. Rolled with parsley and lemon.',
@@ -464,7 +467,7 @@ module.exports = {
       'Mix the flour, yeast, sugar and salt, add the warm water and olive oil, and knead 8 minutes until smooth. Prove, covered, for 1 hour until doubled.',
       'Grate the onion, pepper and tomatoes, then squeeze each one hard in a cloth. The topping must be almost dry.',
       'Combine the lamb with the squeezed vegetables, garlic, tomato purée, pepper paste, parsley, spices and salt. Mix thoroughly with your hands into a spreadable paste and refrigerate 30 minutes.',
-      'Heat the oven to its maximum, at least 250°C / 480°F, with a baking steel or heavy tray inside for 45 minutes.',
+      'While the dough finishes proving, heat the oven to its maximum, at least 250°C / 480°F, with a baking steel or heavy tray inside for 45 minutes.',
       'Divide the dough into six. Roll each as thin as you can, 25 cm across and almost translucent, using flour sparingly.',
       'Spread a very thin layer of the meat mixture right to the edges, using the back of a spoon. You should almost be able to see the dough through it.',
       'Slide onto the hot steel and bake for 4 to 6 minutes, until the edges are crisp and the meat is cooked and sizzling.',

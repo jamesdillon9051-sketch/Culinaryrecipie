@@ -143,7 +143,7 @@ module.exports = {
 
   'quetschentaart': {
     d: 'A Luxembourg plum tart of halved damsons packed in a yeast or shortcrust case with cinnamon sugar, baked for 40 minutes at 200C.',
-    meta: 'Quetschentaart, Luxembourg plum tart with cinnamon sugar in a sweet pastry case, baked for 40 minutes. Eight servings, ready in 1 hour.',
+    meta: 'Quetschentaart, Luxembourg plum tart with cinnamon sugar in a sweet pastry case, baked for 40 minutes. Eight servings, ready in 1 hour 15 minutes.',
     kw: ['quetschentaart', 'luxembourg plum tart', 'damson plum tart', 'plum tart with cinnamon', 'fresh plum tart recipe'],
     why: 'Plums, pastry, sugar and cinnamon: four things, one tart, and a lot of patience while you arrange the fruit. Quetschentaart is the Luxembourg plum tart, made at the end of summer when the small purple quetsch plums are ripe.\n\nUse a firm, tart plum if you can, such as a damson or a Victoria. Halve and stone them, then pack them cut side up in tight overlapping rows so no pastry shows. **Pack them tighter than looks right**, because the fruit shrinks as it bakes. Dust with cinnamon sugar before it goes into the oven, and again when it comes out.\n\nBlind bake the case for 10 minutes first, and scatter a spoonful of ground almonds or breadcrumbs over the base to soak up the juice. Bake at 200C until the pastry is golden and the plums are soft and bubbling at the edges. Serve it warm or cold, with cream or a spoonful of vanilla ice cream.',
     ing: [
@@ -175,7 +175,7 @@ module.exports = {
   },
 
   'ravioli-di-ricotta-e-spinaci': {
-    d: 'Fresh egg pasta squares filled with ricotta, spinach and nutmeg, boiled for 5 minutes and served with sage butter, in 55 minutes.',
+    d: 'Fresh egg pasta squares filled with ricotta, spinach and nutmeg, boiled for 5 minutes and served with sage butter.',
     meta: 'Ravioli di ricotta e spinaci, fresh pasta filled with ricotta and spinach, cooked for 5 minutes. Four servings, ready in 1 hour 15 minutes.',
     kw: ['ravioli di ricotta e spinaci', 'ricotta and spinach ravioli', 'homemade spinach ravioli', 'fresh pasta with ricotta filling', 'ravioli with sage butter'],
     why: 'This is what to make in early spring, when spinach is young and sweet and you have an afternoon free. Ricotta and spinach is the most familiar ravioli filling in Italy, and it is also the easiest to get right at home.\n\nThe filling must be dry. Wilt the spinach, cool it, then squeeze it in a cloth until no more water comes out and chop it fine. Mix it with the ricotta, grated Parmesan, an egg yolk and a grating of nutmeg. **A wet filling will burst the pasta**, so drain the ricotta in a sieve for an hour first if it looks loose.\n\nRoll the dough thin enough to see your hand through, place teaspoons of filling in a row, brush the gaps with water, cover and press out the air before cutting. Boil for about 5 minutes in salted water that is only just bubbling. Lift them out gently and toss in sage butter with a little Parmesan.',
@@ -548,7 +548,7 @@ module.exports = {
 
   'pomodori-ripieni': {
     d: 'Roman style tomatoes filled with rice, basil and garlic and baked with potatoes for 40 minutes until the edges catch.',
-    meta: 'Pomodori ripieni, tomatoes stuffed with rice and basil and baked with potatoes for 40 minutes. Four servings, ready in 1 hour.',
+    meta: 'Pomodori ripieni, tomatoes stuffed with rice and basil and baked with potatoes for 40 minutes. Four servings, ready in 1 hour 35 minutes.',
     kw: ['pomodori ripieni', 'italian stuffed tomatoes', 'roman rice stuffed tomatoes', 'baked tomatoes with rice', 'stuffed tomatoes with potatoes'],
     why: 'This is what to make in the heat of late summer, when the tomatoes are large and sweet and nobody wants to stand at a hob. Pomodori ripieni is a Roman dish of tomatoes filled with rice, baked in the oven and served warm or at room temperature.\n\nCut a lid from each tomato, scoop out the pulp and chop it. Mix the pulp with raw rice, garlic, basil and olive oil and let it stand for 20 minutes so the rice starts to soften in the juice. **Fill the tomatoes only two thirds full**, as the rice swells and will burst the skins if it is packed tight.\n\nPut the lids back on and bake with wedges of potato around them, which soak up the juices and brown at the edges. After 40 minutes at 190C the rice should be tender and the tomatoes slumped and a little charred. They are best after sitting for 15 minutes, and they are good cold the next day.',
     ing: [
@@ -610,8 +610,8 @@ module.exports = {
   },
 
   'tortelli-di-zucca': {
-    d: 'Pasta parcels filled with pumpkin, amaretti, Parmesan and nutmeg, boiled for 5 minutes and served in sage butter, in 1 hour 5 minutes.',
-    meta: 'Tortelli di zucca, pumpkin and amaretti filled pasta in sage butter, cooked for 5 minutes. Six servings, ready in 1 hour 5 minutes.',
+    d: 'Pasta parcels filled with pumpkin, amaretti, Parmesan and nutmeg, boiled for 5 minutes and served in sage butter, in 1 hour 25 minutes.',
+    meta: 'Tortelli di zucca, pumpkin and amaretti filled pasta in sage butter, cooked for 5 minutes. Six servings, ready in 1 hour 25 minutes.',
     kw: ['tortelli di zucca', 'pumpkin tortelli', 'pumpkin filled pasta', 'mantua pumpkin pasta', 'pumpkin and amaretti ravioli'],
     why: 'Make the filling the day before and the rest of the work is easy. Tortelli di zucca are pasta parcels filled with sweet pumpkin, crushed amaretti biscuits and Parmesan, a dish of northern Italy where sweet and savoury sit side by side.\n\nSteam or boil the pumpkin until soft, then drain it and press it in a sieve until it is dry. It must be dry or the parcels will burst. Mash it with the crushed amaretti, Parmesan, nutmeg and breadcrumbs, which soak up what water is left. **Chill the filling until it is firm**, since a cold filling is far easier to spoon and shape.\n\nRoll the dough thin, place spoonfuls in rows, cover with a second sheet, press out the air and cut into squares. Boil them in salted water for about 5 minutes, drain gently and toss with melted butter and sage. Add a little Parmesan, and serve at once.',
     ing: [
@@ -678,7 +678,7 @@ module.exports = {
 
   'torta-di-mele': {
     d: 'A soft Italian apple cake with sliced apples folded into a light batter and baked for 50 minutes at 180C.',
-    meta: 'Torta di mele, soft Italian apple cake with sliced apples and lemon, baked for 50 minutes at 180C. Eight servings, ready in 1 hour 10 minutes.',
+    meta: 'Torta di mele, soft Italian apple cake with sliced apples and lemon, baked for 50 minutes at 180C. Eight servings, ready in 1 hour 25 minutes.',
     kw: ['torta di mele', 'italian apple cake', 'soft apple cake with lemon', 'apple cake with olive oil', 'easy italian apple cake'],
     why: 'Why does an apple cake go soggy in the middle? Because the apples were cut too thick or too wet. Torta di mele is the everyday Italian apple cake, with more apple than batter, and the answer is thin slices and a batter that is thick enough to hold them.\n\nPeel and slice the apples as thin as you can, and toss them in lemon juice so they stay pale. Whisk the eggs and sugar until they thicken, fold in the flour, baking powder and melted butter, and stir in most of the apple. **Arrange the last slices on top in a spiral**, press them in a little and sprinkle with sugar so they caramelise.\n\nBake at 180C for about 50 minutes, until a skewer comes out clean from the centre. Cool it in the tin for 15 minutes. The cake is best the next day, when the apple has given its moisture to the crumb. Dust with icing sugar and serve with coffee.',
     ing: [
@@ -713,7 +713,7 @@ module.exports = {
 
   'torta-al-limone': {
     d: 'A moist Italian lemon cake made with olive oil and yoghurt, baked for 45 minutes and finished with a sharp lemon glaze.',
-    meta: 'Torta al limone, moist Italian lemon cake with olive oil and a tart glaze, baked for 45 minutes. Eight servings, ready in 1 hour 5 minutes.',
+    meta: 'Torta al limone, moist Italian lemon cake with olive oil and a tart glaze, baked for 45 minutes. Eight servings, ready in 1 hour 25 minutes.',
     kw: ['torta al limone', 'italian lemon cake', 'lemon olive oil cake', 'lemon yoghurt cake', 'lemon cake with glaze'],
     why: 'Zest first, juice second. Torta al limone gets its flavour from the oils in the lemon peel, and the juice is only there for the glaze, so rub the zest into the sugar before anything else.\n\nThe cake is mixed in one bowl. Olive oil and yoghurt keep the crumb moist for days, and the flavour of a mild oil sits well beside the lemon. **Rub the zest into the sugar with your fingers**, until the sugar smells strongly of lemon and looks damp. Whisk in the eggs, oil and yoghurt, then fold in the flour and baking powder until only just combined.\n\nBake at 180C for about 45 minutes. A skewer should come out clean. Prick the warm cake all over and brush it with a lemon syrup of juice and sugar so that it soaks in. Cool, then add a thin glaze of icing sugar and juice. It keeps well and is better on the second day.',
     ing: [
@@ -749,7 +749,7 @@ module.exports = {
   'torta-di-ricotta': {
     untimed: ['cooling completely'],
     d: 'A tender, lightly sweet Italian cake of ricotta, eggs and lemon in a short crust, baked for 50 minutes and cooled before slicing.',
-    meta: 'Torta di ricotta, Italian ricotta cake with lemon in a sweet pastry case, baked for 50 minutes. Eight servings, ready in 1 hour 10 minutes.',
+    meta: 'Torta di ricotta, Italian ricotta cake with lemon in a sweet pastry case, baked for 50 minutes. Eight servings, ready in at least 1 hour 40 minutes.',
     kw: ['torta di ricotta', 'italian ricotta cake', 'ricotta tart with lemon', 'baked ricotta cake', 'ricotta cheesecake italian'],
     why: 'A Sunday dessert for a table of eight, and one that gets better as it cools. Torta di ricotta is the Italian answer to cheesecake, lighter and less rich, with a soft, set filling of ricotta, eggs, sugar and lemon.\n\nThe ricotta needs to be dry. Drain it in a sieve for an hour, then beat it smooth with the sugar, eggs and lemon zest. **Do not overbeat the filling**, as too much air makes it rise and crack as it cools. Pour it into a sweet pastry case and bake at 170C until the top is just set and golden, with a slight wobble in the middle.\n\nTurn the oven off and leave the door ajar for 15 minutes, so the filling cools without sinking. Then let it cool completely before slicing. A thin dusting of icing sugar is all it needs, with berries or a spoonful of jam.',
     ing: [

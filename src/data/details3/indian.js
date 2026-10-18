@@ -94,6 +94,7 @@ module.exports = {
   },
 
   'hyderabadi-biryani': {
+    cookMax: 90,
     rest: [285, 'marinating and soaking'],
     d: 'Marinated raw lamb layered under half-cooked rice and sealed with dough, so the meat and rice cook together in trapped steam. The kachchi method, and the seal is what makes it work.',
     meta: 'Hyderabadi kachchi biryani — raw marinated lamb layered under par-cooked rice and sealed for dum cooking.',
@@ -244,6 +245,7 @@ module.exports = {
   },
 
   'misal-pav': {
+    cookMax: 55,
     rest: [1200, 'fermenting'],
     d: 'Sprouted moth beans in a thin, fiery gravy, topped with farsan, raw onion and coriander, with a slick of red rassa oil floating on top and soft pav to mop it up.',
     meta: 'Misal pav — Maharashtrian sprouted bean curry with crunchy farsan, raw onion and soft pav rolls.',
@@ -282,7 +284,7 @@ module.exports = {
       'For the usal, heat the oil and crackle the mustard and cumin seeds, then add the curry leaves and asafoetida.',
       'Add the chopped onion and cook 8 minutes until soft, then the turmeric.',
       'Add the sprouts, salt and 200 ml water. Cover and simmer 20 minutes until tender but not collapsing. Set aside.',
-      'For the rassa, dry roast the coconut in a pan until deep golden and nutty, about 4 minutes, then blend it with the garlic, ginger and half the sliced onion to a paste.',
+      'While the usal simmers, make the rassa: dry roast the coconut in a pan until deep golden and nutty, about 4 minutes, then blend it with the garlic, ginger and half the sliced onion to a paste.',
       'Fry the remaining onion in the oil for 12 minutes until dark, then add the paste and cook 8 minutes until the oil separates and rises.',
       'Add the kanda lasun masala and ground coriander and fry 2 minutes, standing back — it is pungent.',
       'Pour in the hot water and salt and simmer 15 minutes. The rassa should stay thin, and a layer of red oil should float on top. Do not skim it off.',

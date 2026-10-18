@@ -497,7 +497,7 @@ module.exports = {
     ],
     st: [
       'Melt the butter and cook the onions with the salt over low heat for 30 minutes, stirring now and then, until deep gold. Cool.',
-      'Heat the oven to 200°C. Line a 23 cm tin with the pastry and cook blind for 15 minutes, then 5 minutes without beans. Lower the oven to 180°C.',
+      'While the onions cook, heat the oven to 200°C, line a 23 cm tin with the pastry and cook it blind for 15 minutes, then 5 minutes without beans. Lower the oven to 180°C.',
       'Whisk the eggs, cream, thyme leaves and pepper. Stir in the onions and pour into the case. Scatter with the gruyere.',
       'Cook for 30 minutes until set with a slight wobble. Cool for 10 minutes.'
     ],

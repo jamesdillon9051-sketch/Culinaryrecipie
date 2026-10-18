@@ -116,8 +116,8 @@ module.exports = {
   },
 
   'braised-chuck-roast': {
-    d: 'A chuck roast browned, then simmered with onions, carrots and stock until it falls apart. Six servings, mostly hands-off, in 2 hours 45 minutes.',
-    meta: 'Braised chuck roast: a cheap beef roast browned and simmered with onion, carrot and stock until tender. Six servings in 2 hours 45.',
+    d: 'A chuck roast browned, then simmered with onions, carrots and stock until it falls apart. Six servings, mostly hands-off, in 3 hours.',
+    meta: 'Braised chuck roast: a cheap beef roast browned and simmered with onion, carrot and stock until tender. Six servings in 3 hours 45.',
     kw: ['braised chuck roast', 'pot roast chuck', 'budget beef roast', 'tender chuck roast in the oven', 'cheap sunday roast beef'],
     why: 'Most home pot roasts come out dry or stringy, and the fix is time at a low simmer. A chuck roast is full of connective tissue; hot and fast makes it tough, and low and slow turns that tissue into gravy.\n\nSear it first. A deep brown crust on every side gives the braise its flavour and colour, and there is no way to add that later.\n\nThe liquid should come about halfway up the meat, not over it. The top browns while the bottom simmers.\n\n**Do not lift the lid to check for the first 90 minutes.** Every look lets out heat and adds time. The roast is done when a fork twists easily and the meat pulls apart. If it still resists, give it 20 more minutes. Braised meat is always better rested, so if there is time let it sit in its liquid off the heat before slicing. The vegetables turn soft and rich in the juices, and the fat that rises to the top lifts off easily with a spoon.',
     ing: [
@@ -254,8 +254,8 @@ module.exports = {
   },
 
   'braised-pork-shoulder': {
-    d: 'A boneless pork shoulder browned and braised in stock with onions and apple until it pulls apart. Eight servings in 3 hours 15 minutes.',
-    meta: 'Braised pork shoulder: a cheap boneless shoulder simmered with onion and apple until it pulls apart. Eight servings in 3 hours 15.',
+    d: 'A boneless pork shoulder browned and braised in stock with onions and apple until it pulls apart. Eight servings in 3 hours 30 minutes.',
+    meta: 'Braised pork shoulder: a cheap boneless shoulder simmered with onion and apple until it pulls apart. Eight servings in 3 hours 30 minutes 15.',
     kw: ['braised pork shoulder', 'pulled pork shoulder in the oven', 'budget pork roast', 'cheap pork shoulder dinner', 'easy braised pork'],
     why: 'Pork shoulder, onions, apple, stock: four things and a lot of patience. It is one of the cheapest cuts a butcher sells, and three hours turns it into something that falls apart at the touch of a fork.\n\nSeason it the night before if you can. A dry rub of salt and pepper pulls into the surface and seasons the meat deeper than a quick sprinkle ever will.\n\nThe apple melts into the braise and gives a mild sweetness that suits pork. No sugar is needed.\n\n**Keep the lid on.** Pork shoulder has plenty of fat, but a loose lid lets the liquid evaporate and leaves the top dry. It is done when a fork slides in and twists with no resistance. Shred it in its own juices. The meat is forgiving and hard to overcook, so it suits cooks who like to start dinner early and leave it. Leftovers make excellent sandwiches or a filling for tacos the next day, with the juices spooned over to keep them moist.',
     ing: [

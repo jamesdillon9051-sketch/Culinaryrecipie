@@ -46,7 +46,7 @@ module.exports = {
 
   'kapustnica': {
     d: 'A Slovak Christmas soup of sauerkraut, smoked sausage, dried mushrooms and prunes, simmered for 1 hour.',
-    meta: 'Kapustnica, Slovak Christmas sauerkraut soup with smoked sausage, mushrooms and prunes, cooked for 1 hour. Six servings, ready in 1 hour 20 minutes.',
+    meta: 'Kapustnica, Slovak Christmas sauerkraut soup with smoked sausage, mushrooms and prunes, cooked for 1 hour. Six servings, ready in 1 hour 40 minutes.',
     kw: ['kapustnica', 'slovak sauerkraut soup', 'christmas cabbage soup with sausage', 'kapustnica recipe', 'sauerkraut soup with prunes'],
     why: 'Most sauerkraut soups come out too sharp, and the fix is to rinse the cabbage and to balance it with prunes. Kapustnica is the Slovak Christmas Eve soup, made with sauerkraut, smoked pork, dried mushrooms and sausage, and the prunes give it a surprising sweetness that rounds off the sour.\n\nSoak the dried mushrooms in warm water for 20 minutes and keep the liquid. Fry smoked bacon in a large pot, add onion and garlic and cook for 5 minutes. Stir in sweet paprika off the heat, then the rinsed sauerkraut, the mushrooms with their liquid, stock, a bay leaf and a few allspice berries. **Rinse the sauerkraut only if it is very sharp**, and taste it first. Simmer for 40 minutes.\n\nAdd sliced smoked sausage and the stoned prunes, and cook for 15 minutes more. Thicken with a roux or a little cream if you like a heavier soup. Taste for salt and sharpness, and add a little sugar if needed. The soup is better on the second day, and is served with rye bread and a spoonful of soured cream.',
     ing: [
@@ -82,7 +82,7 @@ module.exports = {
 
   'slovak-bryndzove-pirohy': {
     d: 'Slovak potato dumplings filled with sharp sheep cheese, boiled for 10 minutes and topped with crisp bacon and soured cream.',
-    meta: 'Slovak bryndzové pirohy, potato dumplings filled with sheep cheese, topped with bacon, cooked for 25 minutes. Six servings, ready in 1 hour 10 minutes.',
+    meta: 'Slovak bryndzové pirohy, potato dumplings filled with sheep cheese, topped with bacon, cooked for 25 minutes. Six servings, ready in 1 hour 30 minutes.',
     kw: ['slovak bryndzove pirohy', 'slovak cheese dumplings', 'potato dumplings with sheep cheese', 'bryndzove pirohy recipe', 'slovak pierogi with bryndza'],
     why: 'Most home versions come out with a leaking filling, and the fix is a stiff cheese and well sealed edges. Bryndzové pirohy are the Slovak dumplings filled with bryndza, a tangy sheep cheese, and are served with bacon and soured cream. They are the cousin of the Slovak national dish, bryndzové halušky.\n\nIf you cannot find bryndza, use a mix of crumbled feta and cream cheese, which gives a similar sharpness and creaminess. Mash the cheese with an egg yolk and a pinch of pepper until smooth but stiff. **Chill the filling for 20 minutes** so it holds its shape. The dough is made from mashed potato, flour, an egg and salt, kneaded briefly to a soft dough and rolled 3 mm thick.\n\nCut rounds with a cutter, put a teaspoon of filling in each, fold and seal firmly with a fork. Boil in salted water for 4 minutes after they float. Meanwhile fry diced bacon until crisp. Drain the dumplings and serve topped with the bacon, its fat and a generous spoonful of soured cream. They are best eaten at once, hot, with a glass of cold beer.',
     ing: [
@@ -293,8 +293,9 @@ module.exports = {
   },
 
   'hortobagyi-palacsinta': {
+    cookMax: 65,
     d: 'Thin pancakes filled with paprika veal or chicken stew and covered in a creamy paprika sauce, baked for 20 minutes.',
-    meta: 'Hortobágyi palacsinta, Hungarian pancakes filled with paprika meat in a cream sauce, baked for 20 minutes. Six servings, ready in 1 hour 5 minutes.',
+    meta: 'Hortobágyi palacsinta, Hungarian pancakes filled with paprika meat in a cream sauce, baked for 20 minutes. Six servings, ready in 1 hour 35 minutes to 1 hour 50 minutes.',
     kw: ['hortobagyi palacsinta', 'hungarian meat filled pancakes', 'hortobagy pancakes with paprika sauce', 'savoury hungarian pancakes', 'hortobagyi palacsinta recipe'],
     why: 'Compare these with sweet pancakes and you find the same wrappers hiding a rich meat filling under a red paprika cream sauce. Hortobágyi palacsinta, named for the Hortobágy plain in eastern Hungary, is a savoury dish served at the start or end of the meal, and it is a way of using leftover stew.\n\nMake thin pancakes from flour, eggs, milk and a pinch of salt, and cook about 12 of them in a lightly oiled pan. For the filling, simmer chicken or veal with onion, paprika and stock until tender, then shred it and mix with a spoonful of its sauce. **Make the filling quite thick**, so it holds in the pancake and does not soak through. Add a little soured cream for richness.\n\nPut a spoonful of the filling in each pancake and roll it up. Lay the rolls side by side in a dish. For the sauce, whisk soured cream and a little paprika into the cooking liquid and simmer for 3 minutes. Pour over the pancakes and bake at 190C for 20 minutes, until bubbling and lightly browned. Serve hot, with a scatter of parsley and a spoonful of extra soured cream.',
     ing: [
@@ -314,7 +315,7 @@ module.exports = {
     ],
     st: [
       'Whisk the flour, eggs, milk and pinch of salt. Rest for 15 minutes. Cook 12 thin pancakes in the buttered pan.',
-      'Soften the onion in the lard for 8 minutes. Take off the heat, stir in the paprika, add the chicken and stock and simmer for 20 minutes. Lift out and shred the chicken.',
+      'Meanwhile, soften the onion in the lard for 8 minutes. Take off the heat, stir in the paprika, add the chicken and stock and simmer for 20 minutes. Lift out and shred the chicken.',
       'Boil the sauce down to 200 ml. Mix half with the chicken and 60 g soured cream to make a thick filling.',
       'Heat the oven to 190C. Fill and roll the pancakes and lay them in a dish.',
       'Whisk the remaining soured cream into the sauce, pour over the pancakes and bake for 20 minutes. Scatter with the parsley.'
@@ -474,7 +475,7 @@ module.exports = {
 
   'zacusca': {
     d: 'A Romanian vegetable spread of roasted aubergines, peppers and tomatoes cooked down slowly with onion and oil for 90 minutes.',
-    meta: 'Zacuscă, Romanian roasted aubergine and pepper spread cooked slowly with onion, cooked for 90 minutes. Twelve servings, ready in 1 hour 50 minutes.',
+    meta: 'Zacuscă, Romanian roasted aubergine and pepper spread cooked slowly with onion, cooked for 90 minutes. Twelve servings, ready in 2 hours 30 minutes.',
     kw: ['zacusca', 'romanian aubergine and pepper spread', 'roasted vegetable spread', 'zacusca recipe', 'romanian vegetable relish'],
     why: 'Be patient with the stirring. That is the one demand zacuscă makes, because this Romanian vegetable spread must cook for a long time, in a heavy pan, with frequent stirring, to turn thick, dark and rich. It is made in late summer when aubergines and peppers are cheap, and eaten all winter on bread.\n\nRoast the aubergines and peppers whole at 220C for 40 minutes, until the skins are black and the flesh is soft. Cool them in a covered bowl, then peel and chop them finely. Soften chopped onion in oil until golden, add the tomato purée and cook for 5 minutes. **Add the vegetables and cook on very low heat for 90 minutes**, stirring every 10 minutes, as it catches on the base. The spread is ready when a spoon drawn across the pan leaves a trail.\n\nSeason with salt, pepper and a bay leaf, and stir in a spoonful of sugar if the tomatoes are sour. Cool and spoon into clean jars. It keeps for a week in the fridge, covered with a layer of oil. Serve on bread with a slice of onion and a glass of palinca or white wine.',
     ing: [
@@ -492,7 +493,7 @@ module.exports = {
     st: [
       'Heat the oven to 220C. Roast the aubergines and peppers whole on trays for 40 minutes until blackened and soft. Cool in a covered bowl.',
       'Peel and chop the vegetables finely, draining off any bitter juice.',
-      'Soften the onions in the oil for 10 minutes. Add the purée and cook for 5 minutes.',
+      'While the vegetables roast, soften the onions in the oil for 10 minutes. Add the purée and cook for 5 minutes.',
       'Add the vegetables, tomatoes, bay, salt, pepper and sugar and cook over very low heat for 90 minutes, stirring every 10 minutes.',
       'Cool and store in clean jars under a layer of oil.'
     ],
@@ -508,7 +509,7 @@ module.exports = {
 
   'salata-de-vinete': {
     d: 'Aubergines roasted over a flame or in the oven until smoky, then chopped by hand with oil and onion into a Romanian spread.',
-    meta: 'Salată de vinete, Romanian smoky roasted aubergine salad with onion and oil, cooked for 40 minutes. Six servings, ready in 1 hour.',
+    meta: 'Salată de vinete, Romanian smoky roasted aubergine salad with onion and oil, cooked for 40 minutes. Six servings, ready in 1 hour 20 minutes.',
     kw: ['salata de vinete', 'romanian aubergine salad', 'smoky roasted aubergine spread', 'salata de vinete recipe', 'romanian eggplant spread'],
     why: 'Use a wooden spoon, never metal. That is a famous tip for salată de vinete, the Romanian aubergine salad, because the flesh darkens when it touches metal, and the traditional method is to chop and mix it with wood. The result is a pale, creamy spread, with a deep smoky flavour.\n\nRoast the aubergines whole over a gas flame, turning, for about 20 minutes, until the skin is black and the flesh has collapsed. If you have no flame, roast them in a 220C oven for 40 minutes. Place them in a colander to drain for 20 minutes, as the juice is bitter. **Peel off the skin and scrape out the flesh**, and chop it finely with a wooden knife or a spoon on a wooden board.\n\nStir in sunflower oil a spoonful at a time, whisking, until the mix is pale, creamy and thick, as if making mayonnaise. Add salt, a squeeze of lemon and a finely chopped onion or a little grated one. Serve on bread with tomatoes and a few olives. The salad is best on the day it is made, and tastes better after an hour.',
     ing: [
@@ -540,7 +541,7 @@ module.exports = {
 
   'placinta': {
     d: 'A Romanian folded pie of thin pastry filled with grated apple, sugar and cinnamon, baked for 40 minutes until golden.',
-    meta: 'Plăcintă, Romanian folded apple pie of thin pastry with cinnamon and sugar, baked for 40 minutes. Eight servings, ready in 1 hour 20 minutes.',
+    meta: 'Plăcintă, Romanian folded apple pie of thin pastry with cinnamon and sugar, baked for 40 minutes. Eight servings, ready in 1 hour 40 minutes.',
     kw: ['placinta', 'romanian apple pie', 'placinta cu mere', 'folded apple pastry', 'romanian pastry with apples'],
     why: 'Compare it to an apple pie and you find a thinner, crisper pastry folded like a parcel round the fruit. Plăcintă is the Romanian pie, and the sweet version with apples and cinnamon is the one most often made at home, especially at religious fasts when no dairy is used.\n\nThe dough is flour, oil, water and a pinch of salt, kneaded for 5 minutes and rested for 20 minutes. Roll it very thin, almost like strudel, and cut into squares. For the filling, grate tart apples, toss them with sugar, cinnamon, lemon juice and a spoonful of breadcrumbs. **Squeeze out the juice from the apples**, as a wet filling makes the pastry soggy.\n\nPut a heap of filling in the centre of each square, brush the edges with water and fold the corners to the middle, pinching the seams. Brush the tops with oil, set them on a lined tray and bake at 190C for 40 minutes, until the pastry is deep gold. Dust with icing sugar and serve warm. The pies keep for 2 days and can be reheated in the oven.',
     ing: [
@@ -686,7 +687,7 @@ module.exports = {
 
   'placinta-cu-branza': {
     d: 'A Romanian cheese pie of thin pastry filled with salty cheese, egg and dill and baked until crisp, in 1 hour 15 minutes.',
-    meta: 'Plăcintă cu brânză, Romanian cheese pie of thin pastry with salty cheese and dill, baked for 40 minutes. Eight servings, ready in 1 hour 15 minutes.',
+    meta: 'Plăcintă cu brânză, Romanian cheese pie of thin pastry with salty cheese and dill, baked for 40 minutes. Eight servings, ready in 1 hour 35 minutes.',
     kw: ['placinta cu branza', 'romanian cheese pie', 'cheese pie with dill', 'placinta cu branza recipe', 'romanian savoury cheese pastry'],
     why: 'Go lightly on the salt. That is the quick tip for plăcintă cu brânză, the Romanian cheese pie, because the cheese is salty already. The filling is made from a fresh sheep or cow cheese, such as feta or telemea, mixed with an egg, dill and a little soured cream, and baked in a thin, crisp pastry.\n\nThe dough is a simple oil and water dough, or you can use bought sheets of phyllo. If you make it yourself, knead for 5 minutes, rest for 20 minutes, and roll it very thin. Crumble the cheese and mix it with eggs, soured cream, chopped dill and pepper. **Taste the mixture before baking**, and add salt only if the cheese is mild. Spread it over the pastry.\n\nFold the pastry over the filling in a long roll, or in squares, and brush with oil. Bake at 190C for 40 minutes, until deep gold and crisp. Cut into squares while still warm. The pie is good hot, or cold the next day in a lunchbox, and it is served with yoghurt or soured cream and pickled peppers. A light salad of cucumber goes well.',
     ing: [

@@ -12,7 +12,7 @@
 module.exports = {
   'air-fryer-stuffed-peppers': {
     d: 'Halved peppers filled with spiced beef, rice and tomato, topped with cheese and air fried for 20 minutes until soft and bubbling.',
-    meta: 'Air fryer stuffed peppers with beef, rice and melted cheese, cooked for 20 minutes. Four servings, ready in 40 minutes.',
+    meta: 'Air fryer stuffed peppers with beef, rice and melted cheese, cooked for 20 minutes. Four servings, ready in 55 minutes.',
     kw: ['air fryer stuffed peppers', 'stuffed peppers in air fryer', 'beef stuffed peppers', 'stuffed bell peppers', 'stuffed peppers with rice'],
     why: 'A Sunday dish for a table of four, and one that also works on a Tuesday. Stuffed peppers are a way of using a handful of ordinary things, mince, rice and a tin of tomatoes, and ending up with something that looks like a proper meal. The air fryer shortens the time without drying out the filling.\n\nCook the rice first, or use a pouch of ready-cooked rice, so that the filling is only being heated rather than finished in the pepper. Brown the mince with onion and garlic, add the spices and tomatoes, and let it reduce until it holds its shape on a spoon. A wet filling pools in the base of the pepper and makes it sag.\n\n**Cut the peppers lengthways and keep the stalks on.** The stalk gives the half a little rigidity and holds the filling in. Remove the seeds and pith, and stand each half upright in the basket, wedged against the others.\n\nCover the tops with foil for the first 12 minutes, then take it off, add the cheese and cook for the last 8 minutes until the top is golden and the pepper edges are charred.',
     ing: [
@@ -76,7 +76,7 @@ module.exports = {
 
   'air-fryer-turkey-breast': {
     d: 'A boneless turkey breast rubbed with butter and herbs, air fried for 50 minutes and rested until juicy, with crisp golden skin.',
-    meta: 'Air fryer turkey breast with a herb butter rub and golden skin, cooked for 50 minutes. Six servings, ready in 1 hour.',
+    meta: 'Air fryer turkey breast with a herb butter rub and golden skin, cooked for 50 minutes. Six servings, ready in 1 hour 15 minutes.',
     kw: ['air fryer turkey breast', 'turkey breast in air fryer', 'herb butter turkey breast', 'roast turkey breast', 'small turkey roast'],
     why: 'Pull it out at 71C, not later. A turkey breast has almost no fat inside, so there is a narrow gap between cooked through and dry, and a thermometer is the only reliable way to hit it. The air fryer cooks the outside faster than an oven does, which makes the check more important, not less.\n\nChoose a boneless breast of about 1 kg that fits the basket with some room around it. Mix softened butter with garlic, thyme, sage and salt, and push some of it under the skin as well as over the top. The butter bastes the meat from the inside as it melts.\n\n**Cover the skin loosely with foil for the first 30 minutes.** This stops the herbs from scorching before the middle is warm. Take the foil off for the last 20 minutes so the skin can crisp and turn golden.\n\nRest the turkey for 15 minutes before slicing, covered with foil. Carving it straight away lets the juices run out onto the board, and the slices will be drier for it.',
     ing: [

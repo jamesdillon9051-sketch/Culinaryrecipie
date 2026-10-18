@@ -231,6 +231,7 @@ module.exports = {
   },
 
   'karelian-pies': {
+    cookMax: 60,
     untimed: ['cooling completely'],
     d: 'Thin rye shells crimped around a rice porridge filling, baked hot and brushed with melted butter, then topped with chopped egg butter.',
     meta: 'Karelian pies — thin rye shells filled with rice porridge, baked hot and topped with egg butter.',

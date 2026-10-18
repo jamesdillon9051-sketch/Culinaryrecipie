@@ -130,6 +130,7 @@ module.exports = {
   },
 
   'joulutorttu': {
+    cookMax: 35,
     untimed: ['cooling completely'],
     rest: [80, 'chilling'],
     d: 'Finnish Christmas stars: rough puff pastry pinwheels folded round a spoonful of dark prune jam, dusted with icing sugar and eaten by the handful.',

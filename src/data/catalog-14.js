@@ -51,24 +51,24 @@ module.exports = [
   /* Mains */
   c('couscous-tunisien', 'Couscous Tunisien', 'Tunisian', 'Dinner', 'Medium', 35, 90, 8, 0, 0, ['Dairy-Free'], ['new'], 'Couscous tunisien lamb vegetables harissa'),
   c('ojja', 'Ojja', 'Tunisian', 'Quick Meals', 'Easy', 10, 20, 4, 0, 0, ['Gluten-Free'], ['new'], 'Ojja tunisian eggs merguez tomato pan'),
-  c('marqa-hlouwa', 'Marqa Hlouwa', 'Tunisian', 'Dinner', 'Easy', 25, 85, 6, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'Marqa hlouwa tunisian sweet lamb stew'),
-  c('kamounia', 'Kamounia', 'Tunisian', 'Dinner', 'Easy', 15, 90, 6, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'Kamounia tunisian cumin liver stew'),
-  c('mermez', 'Mermez', 'Tunisian', 'Dinner', 'Easy', 20, 80, 6, 0, 0, ['Dairy-Free'], ['new'], 'Mermez tunisian lamb chickpea stew'),
-  c('tajine-tunisien', 'Tajine Tunisien', 'Tunisian', 'Dinner', 'Medium', 30, 45, 8, 0, 0, [], ['new'], 'Tajine tunisien baked egg cheese frittata'),
+  c('marqa-hlouwa', 'Marqa Hlouwa', 'Tunisian', 'Dinner', 'Easy', 25, 105, 6, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'Marqa hlouwa tunisian sweet lamb stew'),
+  c('kamounia', 'Kamounia', 'Tunisian', 'Dinner', 'Easy', 15, 105, 6, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'Kamounia tunisian cumin liver stew'),
+  c('mermez', 'Mermez', 'Tunisian', 'Dinner', 'Easy', 20, 105, 6, 0, 0, ['Dairy-Free'], ['new'], 'Mermez tunisian lamb chickpea stew'),
+  c('tajine-tunisien', 'Tajine Tunisien', 'Tunisian', 'Dinner', 'Medium', 30, 65, 8, 0, 0, [], ['new'], 'Tajine tunisien baked egg cheese frittata'),
   c('felfel-mahchi', 'Felfel Mahchi', 'Tunisian', 'Dinner', 'Medium', 35, 50, 6, 0, 0, ['Dairy-Free'], ['new'], 'Felfel mahchi tunisian stuffed peppers'),
   c('kabkabou', 'Kabkabou', 'Tunisian', 'Dinner', 'Easy', 20, 35, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'Kabkabou tunisian fish olives preserved lemon'),
   c('complet-poisson', 'Complet Poisson', 'Tunisian', 'Dinner', 'Medium', 30, 40, 4, 0, 0, ['Dairy-Free'], ['new'], 'Complet poisson tunisian grilled fish plate'),
   c('hout-mechoui', 'Hout Mechoui', 'Tunisian', 'Dinner', 'Easy', 20, 25, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'Hout mechoui tunisian grilled whole fish'),
-  c('rouz-jerbi', 'Rouz Jerbi', 'Tunisian', 'Dinner', 'Medium', 30, 60, 6, 0, 0, ['Dairy-Free'], ['new'], 'Rouz jerbi djerba steamed rice herbs'),
+  c('rouz-jerbi', 'Rouz Jerbi', 'Tunisian', 'Dinner', 'Medium', 30, 80, 6, 0, 0, ['Dairy-Free'], ['new'], 'Rouz jerbi djerba steamed rice herbs'),
   c('osbane', 'Osbane', 'Tunisian', 'Dinner', 'Hard', 60, 75, 6, 0, 0, ['Dairy-Free'], ['new'], 'Osbane tunisian stuffed sausage rice herbs'),
-  c('berkoukes', 'Berkoukes', 'Tunisian', 'Dinner', 'Medium', 25, 55, 6, 0, 0, ['Dairy-Free'], ['new'], 'Berkoukes hand rolled pasta pearls stew'),
+  c('berkoukes', 'Berkoukes', 'Tunisian', 'Dinner', 'Medium', 25, 75, 6, 0, 0, ['Dairy-Free'], ['new'], 'Berkoukes hand rolled pasta pearls stew'),
   c('fricasse', 'Fricassé', 'Tunisian', 'Lunch', 'Medium', 35, 20, 8, 0, 0, ['Dairy-Free'], ['new'], 'Fricasse tunisian fried sandwich tuna olives'),
 
   /* Bread */
   c('mlawi', 'Mlawi', 'Tunisian', 'Baking', 'Medium', 30, 20, 6, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free'], ['new'], 'Mlawi tunisian layered flatbread pan'),
   c('khobz-tabouna', 'Khobz Tabouna', 'Tunisian', 'Baking', 'Medium', 25, 15, 6, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free'], ['new'], 'Khobz tabouna tunisian semolina bread'),
   c('ftair', 'Ftair', 'Tunisian', 'Breakfast', 'Medium', 25, 20, 6, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free'], ['new'], 'Ftair tunisian fried bread rings sugar'),
-  c('madfouna', 'Madfouna', 'Tunisian', 'Dinner', 'Medium', 35, 60, 6, 0, 0, ['Dairy-Free'], ['new'], 'Madfouna tunisian buried chard meat stew'),
+  c('madfouna', 'Madfouna', 'Tunisian', 'Dinner', 'Medium', 35, 75, 6, 0, 0, ['Dairy-Free'], ['new'], 'Madfouna tunisian buried chard meat stew'),
 
   /* Sweets and drinks */
   c('makroudh', 'Makroudh', 'Tunisian', 'Desserts', 'Medium', 40, 25, 12, 0, 0, ['Vegetarian', 'Dairy-Free'], ['new'], 'Makroudh tunisian semolina date diamonds'),

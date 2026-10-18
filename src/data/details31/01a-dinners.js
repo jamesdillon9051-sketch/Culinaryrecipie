@@ -244,6 +244,7 @@ module.exports = {
   },
 
   'garbage-plate': {
+    cookMax: 55,
     d: 'The Rochester, New York original: home fries and macaroni salad topped with hamburgers and hot dogs, smothered in spiced meat hot sauce, raw onion and mustard.',
     meta: 'Garbage plate: the Rochester, New York original of home fries and macaroni salad topped with burgers and hot dogs, smothered in meat hot sauce.',
     kw: ['garbage plate', 'rochester garbage plate', 'trash plate', 'garbage plate with meat hot sauce', 'how to make a garbage plate'],
@@ -281,8 +282,8 @@ module.exports = {
     st: [
       'For the sauce, heat the tablespoon of oil in a saucepan over medium heat. Add the 250 g of mince and the finely chopped onion and cook for 8 minutes, breaking up the meat, until browned and very fine. Stir in the garlic, tomato paste and spices and cook for 1 minute.',
       'Add the stock, vinegar and half the salt. Simmer for 30 minutes, stirring often, until the sauce is thick but still pourable. Keep it warm.',
-      'Cook the macaroni in salted boiling water for 9 minutes, drain and rinse under cold water. Mix the mayonnaise, mustard, vinegar, sugar and remaining salt in a bowl, fold in the macaroni and celery and chill.',
-      'Boil the potatoes in salted water for 6 minutes and drain well. Heat the 2 tablespoons of oil in a large frying pan over medium-high heat, add the potatoes and sliced onion and fry for 15 minutes, turning, until crisp and golden. Sprinkle with the paprika and salt.',
+      'While the sauce simmers, cook the macaroni in salted boiling water for 9 minutes, drain and rinse under cold water. Mix the mayonnaise, mustard, vinegar, sugar and remaining salt in a bowl, fold in the macaroni and celery and chill.',
+      'Meanwhile, boil the potatoes in salted water for 6 minutes and drain well. Heat the 2 tablespoons of oil in a large frying pan over medium-high heat, add the potatoes and sliced onion and fry for 15 minutes, turning, until crisp and golden. Sprinkle with the paprika and salt.',
       'Grill or pan-fry the hot dogs for 5 minutes, and the patties for 4 minutes on each side, until cooked through.',
       'For each plate, spoon a portion of macaroni salad next to a pile of home fries. Add a hot dog and a patty and ladle the hot sauce over everything. Top with chopped onion and a squiggle of mustard and serve with buttered bread.'
     ],

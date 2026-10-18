@@ -172,7 +172,7 @@ module.exports = {
 
   'dairy-free-banana-bread': {
     d: 'A moist banana loaf made with oil and oat milk in place of butter and dairy milk, baked for 55 minutes.',
-    meta: 'Dairy-free banana bread with oil and oat milk, baked for 55 minutes. Ten servings, ready in 1 hour 15 minutes.',
+    meta: 'Dairy-free banana bread with oil and oat milk, baked for 55 minutes. Ten servings, ready in 1 hour 25 minutes.',
     kw: ['dairy-free banana bread', 'banana bread without butter', 'oil banana bread', 'dairy-free banana loaf', 'dairy-free banana bread recipe'],
     why: 'Banana bread made with butter has a particular richness, but one made with oil has something else: a longer-lasting softness. Liquid fat coats the flour more thoroughly than solid, and does not set when it cools, so an oil-based loaf stays moist for days. That makes the dairy-free version practical as well as inclusive.\n\nThe bananas supply the flavour and most of the sweetness. Use fruit that is thoroughly ripe, speckled brown and almost black in places, because the sugars are fully developed and the pulp mashes to a smooth puree. Weigh 350 g after peeling. If your bananas are underripe, put them unpeeled in a 150C oven for 15 minutes until the skins blacken and the flesh softens.\n\n**Use a neutral oil and a splash of oat milk.** Sunflower or light olive oil adds moisture without flavour. Coconut oil melted works too but leaves a faint coconut taste. A few tablespoons of oat milk loosen the batter and replace the milk without adding dairy. Cinnamon and a pinch of nutmeg give a warm background note.\n\nFold the wet and dry mixtures together with as few strokes as possible. Overmixing gives a tough, rubbery loaf with a tunnelled crumb. Bake until a skewer comes out with a few moist crumbs, cover with foil if the top darkens, and cool in the tin for 15 minutes before turning out.',
     ing: [
@@ -243,7 +243,7 @@ module.exports = {
 
   'dairy-free-mashed-potatoes': {
     d: 'Fluffy mashed potatoes made with olive oil, oat milk and roasted garlic in place of butter and cream.',
-    meta: 'Dairy-free mashed potatoes with olive oil, oat milk and roasted garlic, ready in 30 minutes. Six servings, boiled for 20 minutes.',
+    meta: 'Dairy-free mashed potatoes with olive oil, oat milk and roasted garlic, ready in 40 minutes. Six servings, boiled for 20 minutes.',
     kw: ['dairy-free mashed potatoes', 'mashed potatoes without butter', 'olive oil mashed potatoes', 'oat milk mashed potatoes', 'dairy-free mash'],
     why: 'It is the best argument against the idea that mash needs butter. Good olive oil, warm and stirred in vigorously, makes potatoes silky and gives them a fruity, peppery note that butter does not. A head of roasted garlic mashed into them adds a mellow sweetness. Many cooks who try this version do not go back.\n\nChoose floury potatoes, such as Maris Piper, King Edward or russet, which break down into a light, fluffy mash. Waxy varieties turn gluey and heavy. Cut them into even chunks, about 4 cm, and start them in cold, salted water, bringing it up to a gentle boil. This cooks the outside and inside at the same rate. They are ready when a knife slides in with no resistance, about 20 minutes.\n\n**Dry the potatoes before mashing.** Drain them well, then return them to the hot pan over low heat for a minute, shaking to steam off the moisture. Wet potatoes make a watery mash that cannot absorb the oil. Use a ricer or masher, never a blender or food processor, which ruptures the starch cells and turns the mash to paste.\n\nWarm the oat milk with the olive oil and garlic before adding it to the potatoes, in stages, mixing gently. Cold liquid cools the mash and makes it stodgy. Taste, and season with salt and white pepper.',
     ing: [
@@ -257,7 +257,7 @@ module.exports = {
     ],
     st: [
       'Heat the oven to 200C. Cut the top off the garlic head, drizzle with 1 tbsp of the oil, wrap in foil and roast for 30 minutes.',
-      'Put the potatoes in a pan of cold salted water, bring to the boil and simmer for 20 minutes until tender.',
+      'While the garlic roasts, put the potatoes in a pan of cold salted water, bring to the boil and simmer for 20 minutes until tender.',
       'Drain and return to the hot pan over low heat for 1 minute, shaking to dry.',
       'Squeeze the roasted garlic from its skins. Mash the potatoes with the garlic, the remaining oil and the warm oat milk, added in stages.',
       'Season with the salt and white pepper and scatter with the chives.'
@@ -478,8 +478,9 @@ module.exports = {
   },
 
   'freezer-enchiladas': {
+    cookMax: 55,
     d: 'Chicken and black bean enchiladas rolled in tortillas with red sauce and cheese, frozen in foil trays and baked from frozen.',
-    meta: 'Freezer enchiladas with chicken, beans and red sauce, assembled and frozen, then baked for 75 minutes. Eight servings, ready in 1 hour 45 minutes.',
+    meta: 'Freezer enchiladas with chicken, beans and red sauce, in two trays: one baked now for 30 minutes, one frozen and later baked for 75. Eight servings.',
     kw: ['freezer enchiladas', 'frozen chicken enchiladas', 'make ahead enchiladas', 'bake from frozen enchiladas', 'chicken and black bean enchiladas'],
     why: 'The enchilada is one of the best dishes for freezing, because the tortillas and the sauce both survive the cold, and the whole dish reheats into a bubbling, cheesy tray. This recipe makes two trays of four, so one can go into the oven tonight and the other into the freezer for a night when there is nothing planned.\n\nThe filling is shredded cooked chicken, black beans, sweetcorn, red onion and a handful of cheese, bound with a spoonful of the sauce. Keep it fairly dry, because a loose, wet filling makes soggy enchiladas that tear when you roll them. Warm the tortillas for 20 seconds in the microwave so they are pliable. Cold tortillas crack.\n\n**Use a thick sauce and leave out the final cheese before freezing.** A good enchilada sauce is made from tomato, chilli powder, cumin, garlic and a spoonful of flour, and should be thick enough to coat a spoon. Pour a layer in the tray, put the rolled tortillas in, cover with more sauce, but add the final layer of cheese just before baking so that it does not go rubbery in the freezer.\n\nWrap the foil tray tightly in cling film and a second layer of foil. To bake from frozen, remove the cling film, cover with foil and bake at 190C for 60 minutes, then uncover, add the cheese and bake for 15 more.',
     ing: [
@@ -556,8 +557,8 @@ module.exports = {
   },
 
   'freezer-mac-and-cheese': {
-    d: 'A baked macaroni cheese with cheddar and Gruyere, cooled and frozen in portions, reheated in 30 minutes.',
-    meta: 'Freezer mac and cheese baked and frozen in portions, reheated from frozen. Eight servings, baked for 20 minutes, ready in 40 minutes.',
+    d: 'A baked macaroni cheese with cheddar and Gruyere, cooled and frozen in portions, then thawed overnight and reheated for 20 minutes.',
+    meta: 'Freezer mac and cheese baked and frozen in portions, then thawed and reheated. Eight servings, baked for 20 minutes, ready in 40 minutes.',
     kw: ['freezer mac and cheese', 'frozen macaroni cheese', 'batch cook mac and cheese', 'macaroni cheese to freeze', 'make ahead mac and cheese'],
     why: 'Mac and cheese is not a dish that obviously freezes, because the sauce can split and the pasta can go soft. A few adjustments fix both problems. The sauce is a stable béchamel, thickened with flour so it does not separate when frozen, and the pasta is cooked until only just short of tender so it finishes in the oven rather than turning mushy on reheating.\n\nCheese sauces made without a roux tend to weep and turn grainy after freezing. The flour binds the fat and protein, and keeps it smooth. Use a sharp cheddar for flavour and Gruyère or Emmental for stretch, and add a spoonful of Dijon mustard and a pinch of nutmeg. Cook the pasta 3 minutes short of the pack time, since it will cook further in the oven and once more when reheated.\n\n**Freeze it in individual portions.** Bake the mac and cheese in a large dish, cool it completely, cut it into portions, and wrap each in cling film and foil, or pack into lidded containers. Single portions defrost and reheat quickly and evenly, and you can take out just as many as you need.\n\nTo reheat, thaw overnight in the fridge and bake at 180C for 20 minutes, or microwave from frozen with a splash of milk, stirring halfway, for 4 minutes. A scatter of fresh breadcrumbs gives it back a crisp top.',
     ing: [
@@ -625,9 +626,10 @@ module.exports = {
   },
 
   'freezer-pot-pie': {
+    cookMax: 75,
     untimed: ['cooling the filling'],
     d: 'Chicken and vegetable pot pies in a creamy sauce under puff pastry lids, assembled in foil dishes and frozen unbaked.',
-    meta: 'Freezer pot pie with chicken, vegetables and puff pastry, frozen unbaked and baked for 40 minutes fresh. Six servings, ready in 1 hour 10 minutes.',
+    meta: 'Freezer pot pie with chicken, vegetables and puff pastry, frozen unbaked, then baked from frozen for 55 minutes or fresh for 40. Six servings.',
     kw: ['freezer pot pie', 'chicken pot pie to freeze', 'chicken pot pie for the freezer', 'frozen chicken pot pies', 'individual pot pies for the freezer'],
     why: 'A pot pie is a good candidate for the freezer, because it consists of a filling that freezes well and pastry that bakes better from cold than from warm. Make a few at once in individual foil dishes, freeze them unbaked, and bake straight from frozen on a busy night. The pastry rises crisp and golden, and the filling bubbles through.\n\nThe filling is chicken, carrots, peas and leeks in a thick white sauce made from butter, flour, stock and milk. Make it thicker than you would for eating straight away, since a loose filling turns watery after freezing and thawing in the oven. The sauce should coat the back of a spoon firmly. Cool it completely before assembling, as warm filling melts the pastry.\n\n**Use puff pastry lids and no base.** A top crust only is easier and freezes more reliably than a double crust. A raw pastry base under a wet filling stays pale and soggy after freezing. Cut lids slightly larger than the dish, seal the edges with a fork, cut a steam slit, and brush with egg only just before baking.\n\nFreeze the pies on a tray until solid, then wrap in cling film and foil. To bake from frozen, put them on a hot tray in a 190C oven for 55 minutes, until the pastry is deep gold and the filling is piping hot in the middle. Fresh pies take 40 minutes.',
     ing: [
@@ -797,7 +799,7 @@ module.exports = {
 
   'gluten-free-bread': {
     d: 'A soft yeast loaf made from a gluten-free flour blend and psyllium husk, risen for 1 hour and baked for 50 minutes.',
-    meta: 'Gluten-free bread with a flour blend and psyllium husk, risen for 1 hour and baked for 50 minutes. 12 slices, ready in 2 hours.',
+    meta: 'Gluten-free bread with a flour blend and psyllium husk, risen for 1 hour and baked for 50 minutes. 12 slices, ready in 3 hours 5 minutes, rising included.',
     kw: ['gluten-free bread', 'gluten-free yeast bread', 'psyllium husk bread', 'homemade gluten-free loaf', 'gluten-free bread recipe'],
     why: 'In wheat bread, gluten forms an elastic network that traps the gas from yeast and gives the loaf its structure and chew. Without it, you need a stand-in. Psyllium husk is the best: it absorbs many times its weight in water and forms a gel that is stretchy and sticky, much like gluten. Together with xanthan gum, it provides enough structure for a loaf that rises, holds its shape and slices.\n\nThe dough is not a conventional bread dough. It is wet and sticky, closer to a thick batter or a cake mix, and cannot be kneaded or shaped by hand. Beat it with a spoon or a stand mixer for 3 minutes to develop the gel, then spoon it into a lined loaf tin and smooth the top with a wet spatula. The wetness is essential, as the flours absorb a lot of liquid.\n\n**Let it rise only once.** A gluten-free loaf has no elastic network, so a long rise causes the bubbles to coalesce and the loaf to collapse in the oven. Leave it to rise in the tin for about 1 hour, until it is about 1.5 times its size and just reaches the top of the tin. Then bake immediately.\n\nBake at 200C for 50 minutes, until the crust is deep golden and the loaf sounds hollow when tapped underneath. Cool completely on a rack before slicing, at least 1 hour, as the crumb continues to set while it cools. Slicing too soon gives a gummy centre. It toasts well.',
     ing: [
@@ -831,7 +833,7 @@ module.exports = {
   'gluten-free-carrot-cake': {
     untimed: ['cooling completely'],
     d: 'A moist spiced carrot cake made with a gluten-free flour blend and ground almonds, baked for 40 minutes in two layers.',
-    meta: 'Gluten-free carrot cake with cream cheese frosting, baked for 40 minutes. Twelve servings, ready in 1 hour 20 minutes.',
+    meta: 'Gluten-free carrot cake with cream cheese frosting, baked for 40 minutes. Twelve servings, ready in at least 1 hour 35 minutes.',
     kw: ['gluten-free carrot cake', 'carrot cake with gluten-free flour', 'gluten-free cake with cream cheese frosting', 'gluten-free spiced carrot cake', 'gluten-free carrot cake recipe'],
     why: 'Carrot cake is one of the best cakes to make gluten-free, because it is already a moist, dense, heavily laden cake whose structure depends on eggs, oil and grated vegetable, and not on a delicate sponge. The carrots and the oil keep the crumb damp, and the spices hide any trace of the flour blend. Many people say they cannot tell the difference.\n\nUse a gluten-free flour blend with xanthan gum, and replace a third of it with ground almonds for moisture and richness. Oil rather than butter makes the cake keep for days. Grate the carrots finely, on the small holes, so they melt into the batter. Large shreds can make the cake wet and heavy. Add the walnuts and sultanas last.\n\n**Rest the batter for 15 minutes before baking.** The gluten-free flours need time to absorb the liquid, and a rested batter bakes into a more even, less grainy cake. It will thicken noticeably as it stands. Spread it in two lined 20 cm tins and smooth the tops.\n\nBake at 170C until a skewer comes out clean, then cool in the tins for 15 minutes. Gluten-free cakes are delicate when warm and break easily. Fill and cover the cooled cake with a cream cheese frosting made from soft butter, cold cream cheese, icing sugar and vanilla. Check that the icing sugar and baking powder are labelled gluten-free.',
     ing: [

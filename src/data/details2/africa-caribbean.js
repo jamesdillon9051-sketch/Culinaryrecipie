@@ -2,6 +2,7 @@
 
 module.exports = {
   'jollof-rice': {
+    cookMax: 85,
     d: 'Rice cooked in a reduced pepper and tomato base until the grains are stained deep orange and a smoky crust forms at the bottom of the pot. The subject of a permanent and unresolvable argument between Nigeria and Ghana.',
     meta: 'Nigerian jollof rice — long-grain rice cooked in a reduced pepper and tomato base with a smoky bottom crust.',
     kw: ['jollof rice recipe', 'nigerian jollof', 'party jollof', 'west african rice'],
@@ -140,6 +141,7 @@ module.exports = {
   },
 
   'doro-wat': {
+    cookMax: 145,
     d: 'Ethiopia\'s national dish: chicken stewed in an enormous quantity of onions cooked down without any fat, then built out with berbere and spiced butter, and served with hard-boiled eggs on injera.',
     meta: 'Doro wat — Ethiopian chicken stew with berbere, niter kibbeh and a mountain of dry-cooked onions.',
     kw: ['doro wat recipe', 'ethiopian chicken stew', 'berbere recipe', 'niter kibbeh'],
@@ -169,7 +171,7 @@ module.exports = {
     ],
     st: [
       'Make the niter kibbeh: melt the butter over low heat with all its spices and simmer 25 minutes without letting it colour. Strain through muslin and set aside.',
-      'Marinate the chicken in the lemon juice and a teaspoon of the salt for 30 minutes.',
+      'Marinate the chicken in the lemon juice and a teaspoon of the salt, covered in the fridge, while you cook the onions (at least 30 minutes).',
       'Put the chopped onions in a large dry pot with no oil at all. Cook over medium-low heat for 40 to 50 minutes, stirring regularly.',
       'They will release liquid, then reabsorb it, then collapse into a thick, sweet, deep-brown purée. Do not rush this stage.',
       'Add 6 tablespoons of the niter kibbeh and cook 5 minutes.',
@@ -190,6 +192,7 @@ module.exports = {
   },
 
   'bobotie': {
+    cookMax: 75,
     d: 'Curried minced beef with dried fruit under a set savoury custard, baked with bay leaves standing in the top. South Africa\'s national dish, and Cape Malay in origin.',
     meta: 'Bobotie — South African curried mince with dried fruit under a baked egg custard topping with bay leaves.',
     kw: ['bobotie recipe', 'south african bobotie', 'cape malay food', 'curried mince bake'],

@@ -10,7 +10,7 @@
 module.exports = {
   'eisbein': {
     d: 'A cured pork knuckle simmered for 2 hours 30 minutes until the meat falls from the bone, served with sauerkraut and mustard.',
-    meta: 'Eisbein, German cured pork knuckle simmered until tender, served with sauerkraut, cooked for 2 hours 30 minutes. Four servings, ready in 2 hours 50 minutes.',
+    meta: 'Eisbein: German cured pork knuckle simmered for 2 hours 30 minutes and served with sauerkraut. Four servings, ready in 10 hours 50 minutes with soaking.',
     kw: ['eisbein', 'german pork knuckle', 'boiled pork knuckle with sauerkraut', 'eisbein with sauerkraut', 'simmered ham hock german'],
     why: 'Most home versions come out salty or tough, and the fix is a long soak and a very gentle simmer. Eisbein is the north German pork knuckle, cured in brine and then boiled, not roasted, so the meat is pale, soft and mild, with a layer of jellied fat under the skin.\n\nIf the knuckle is cured, soak it in cold water for 12 hours, changing the water once, or the finished dish will be too salty to eat. Cover it with fresh cold water, add an onion, bay leaves, peppercorns and juniper berries and bring it up slowly. **Hold the water just below a simmer**, with an occasional bubble, for 2 hours 30 minutes. A hard boil toughens the meat and clouds the broth.\n\nThe knuckle is ready when the meat pulls from the bone with no resistance. Lift it out and keep it hot in a little of the broth. Warm the sauerkraut in some of the same liquid with a few juniper berries. Serve the meat in thick slices with the cabbage, mashed peas and a dab of sharp mustard.',
     ing: [
@@ -43,7 +43,7 @@ module.exports = {
 
   'schweinshaxe': {
     d: 'A Bavarian pork knuckle simmered then roasted until the rind crackles, in 2 hours 50 minutes, with beer gravy.',
-    meta: 'Schweinshaxe, Bavarian roast pork knuckle with crisp crackling and beer gravy, cooked for 2 hours 30 minutes. Four servings, ready in 2 hours 50 minutes.',
+    meta: 'Schweinshaxe, Bavarian roast pork knuckle with crisp crackling and beer gravy, cooked for 2 hours 30 minutes. Four servings, ready in 3 hours 10 minutes.',
     kw: ['schweinshaxe', 'bavarian roast pork knuckle', 'crispy pork knuckle', 'german pork hock with crackling', 'schweinshaxe recipe'],
     why: 'It is the crackling that people queue for, and it needs a dry rind and a hard blast of heat at the end. Schweinshaxe is the Bavarian roast pork knuckle, a big joint with a thick skin that turns to a glassy, bubbled crust.\n\nStart by simmering the knuckles for 1 hour in salted water with caraway and an onion. This sets the meat and shortens the roasting time. Lift them out, dry them hard with kitchen paper and leave them to air for 20 minutes. **Score the skin in a diamond pattern**, cutting only through the rind, and rub in salt and more caraway.\n\nRoast at 180C for 1 hour 15 minutes, basting with the beer every 20 minutes, but keep the beer off the skin. For the last 15 minutes turn the oven to 230C until the rind blisters and crackles. Rest for 10 minutes. Strain the roasting juices into a pan, simmer to a gravy and serve with potato dumplings and sauerkraut.',
     ing: [
@@ -138,7 +138,7 @@ module.exports = {
 
   'kartoffelklosse': {
     d: 'Smooth potato dumplings of raw and cooked potato, simmered gently for 25 minutes and served with roast meat and gravy.',
-    meta: 'Kartoffelklöße, German potato dumplings from raw and boiled potato, cooked for 25 minutes. Six servings, ready in 1 hour 5 minutes.',
+    meta: 'Kartoffelklöße, German potato dumplings from raw and boiled potato, cooked for 25 minutes. Six servings, ready in 1 hour 30 minutes.',
     kw: ['kartoffelklosse', 'german potato dumplings', 'raw and cooked potato dumplings', 'kartoffelkloesse recipe', 'dumplings for roast and gravy'],
     why: 'Keep the water below a boil. That is the rule for every dumpling, and it matters most here, because a rolling boil breaks these apart. Kartoffelklöße are the potato dumplings served with roast pork, goose or sauerbraten, and they should be light inside with a smooth skin.\n\nHalf the potatoes are boiled and mashed, and half are grated raw and squeezed dry in a cloth. Together they give a dumpling that holds its shape and is not heavy. **Squeeze the grated potato very hard**, since any water left makes the dough sticky and pushes you to add flour. Mix with a little potato starch, salt and nutmeg, and a beaten egg.\n\nShape into balls the size of a small apple with wet hands. Drop them into salted water that is just trembling, and simmer for 25 minutes. They rise when they are nearly ready. A toasted crouton pushed into the centre of each is the traditional touch. Lift out with a slotted spoon and serve at once with gravy.',
     ing: [
@@ -266,7 +266,7 @@ module.exports = {
 
   'maultaschen': {
     d: 'Swabian pasta pockets filled with spinach, pork and bread, simmered in broth for 20 minutes, in 1 hour 20 minutes.',
-    meta: 'Maultaschen, Swabian filled pasta pockets with spinach and pork, simmered in broth, cooked for 20 minutes. Six servings, ready in 1 hour 20 minutes.',
+    meta: 'Maultaschen, Swabian filled pasta pockets with spinach and pork, simmered in broth, cooked for 20 minutes. Six servings, ready in 1 hour 40 minutes.',
     kw: ['maultaschen', 'swabian maultaschen', 'german filled pasta pockets', 'maultaschen in broth', 'spinach and pork pasta parcels'],
     why: 'Maultaschen are large Swabian pasta squares wrapped around a filling of spinach, pork, onion and soaked bread, and the first thing to know is that they are meant to be filled generously. They are sold across southern Germany, and eaten in clear broth or sliced and fried.\n\nThe dough is made of flour, eggs and a splash of water and oil, kneaded for 8 minutes and rested for 20 minutes. Mix the filling by hand: wilted and squeezed spinach, minced pork, soaked bread, onion, egg, parsley and nutmeg. **Roll the dough thin**, almost as thin as for tagliatelle, so the sheets seal well and the cooked pasta stays tender.\n\nSpread the filling in a strip on a sheet of dough, fold over and press down between mounds, then cut into squares 8 cm across and seal the edges with a fork. Simmer in broth for 20 minutes, or boil and then fry in butter with onions and egg. The sealed edges must be tight, or the filling leaks into the broth.',
     ing: [

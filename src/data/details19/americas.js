@@ -814,6 +814,7 @@ module.exports = {
   },
 
   'corn-chowder': {
+    cookMax: 40,
     d: 'Sweetcorn simmered in a thin broth with potato and finished with cream. Forty-five minutes, and the cobs go in the pot.',
     meta: 'A creamy sweetcorn and potato chowder built on a stock made from the stripped corn cobs, finished with cream and chives.',
     kw: ['corn chowder', 'corn chowder recipe', 'sweetcorn soup', 'creamy corn chowder', 'summer corn soup'],
@@ -836,7 +837,7 @@ module.exports = {
     st: [
       'Snap the stripped cobs in half and simmer them in the stock for 20 minutes.',
       'Lift the cobs out and discard them, keeping the stock.',
-      'Melt the butter in a heavy pan and cook the onion and celery for 8 minutes, until soft but not coloured.',
+      'While the cobs simmer, melt the butter in a heavy pan and cook the onion and celery for 8 minutes, until soft but not coloured.',
       'Add the garlic and cook 1 minute.',
       'Add the potato, thyme, bay leaf and the corn stock and simmer 12 minutes, until the potato is tender.',
       'Add the corn kernels and simmer 5 minutes.',

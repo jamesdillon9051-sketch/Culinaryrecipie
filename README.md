@@ -281,7 +281,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       genuine reviews is every rich result on the domain. The fallback is gone
       and `src/data/reviews.json` is the only source, so all 809 read "Not yet
       rated" until somebody rates one
-- [x] **FAQPage** on 2,133 recipe pages and the about page — 2,133 questions,
+- [x] **FAQPage** on 2,136 recipe pages and the about page — 2,136 questions,
       built by `src/lib/faq.js` only where the answer adds something the page
       does not already say in one place: the waiting on recipes that have it,
       and why the sauce split on carbonara, alfredo and cacio e pepe. It used
@@ -305,7 +305,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 440,946 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 440,910 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -4730,7 +4730,7 @@ whisked zabaglione over simmering water for ten; kvass toasted its bread in a
 200°C oven for twenty. The other 43 recipes at zero really are no-cook, and stay
 there.
 
-The larger problem was waiting. **1916 of the 5515 recipes** declare unattended
+The larger problem was waiting. **1918 of the 5515 recipes** declare unattended
 waiting the header never mentioned — a pizza dough that cold-ferments for a day,
 a gravlax that cures for two, a stollen that matures for a fortnight. Rather
 than inflate prep and cook, which are hands-on time and are what "quick" is

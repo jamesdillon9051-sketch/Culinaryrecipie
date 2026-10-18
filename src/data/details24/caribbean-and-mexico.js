@@ -407,7 +407,7 @@ module.exports = {
     pair: ['A glass of dry white wine', 'A green salad', 'Mexican red rice'],
     store: 'Keep the filling in the fridge up to 2 days and the sauce up to 1 day. Assemble on the day.',
     nut: [688, 23, 32, 52, 7, 18, 900],
-    rest: [60, 'Soaking']
+    rest: [75, 'soaking the walnuts and steaming the peppers']
   },
 
   'pan-de-muerto': {

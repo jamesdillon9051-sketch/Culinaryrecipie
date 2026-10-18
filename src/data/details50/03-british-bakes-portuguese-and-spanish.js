@@ -47,7 +47,7 @@ module.exports = {
 
   'chocolate-nest-cakes': {
     d: 'Crunchy cornflake nests bound with melted chocolate, butter and golden syrup, filled with mini chocolate eggs for Easter.',
-    meta: 'Chocolate nest cakes: crunchy cornflake nests bound with chocolate, butter and golden syrup, filled with mini eggs. Twelve servings, ready in 1 hour 5 minutes.',
+    meta: 'Chocolate nest cakes: cornflake nests bound with chocolate, butter and golden syrup, filled with mini eggs. Twelve, ready in 1 hour 5 minutes with chilling.',
     kw: ['chocolate nest cakes', 'easter nest cakes', 'chocolate cornflake nests', 'easter chocolate nests recipe', 'cornflake nest cakes with mini eggs'],
     why: 'They are a child\'s recipe and an adult\'s guilty pleasure. Chocolate nest cakes, made in muffin tins every Easter, are cornflakes stuck together with a mixture of melted chocolate, butter and syrup, shaped into bird\'s nests and filled with chocolate eggs. No oven, no skill, and the children do most of the work.\n\nMelt the chocolate gently. Break 200 g of milk chocolate into pieces, put it in a bowl over a pan of barely simmering water, and stir in the butter and golden syrup as it melts. Don\'t let the bowl touch the water. **If the chocolate overheats, it turns grainy and stiff.** The mixture should be glossy and smooth.\n\nFold in the cornflakes carefully. Crushed lightly beforehand, they hold the shape better, and they coat evenly. Stir until every flake is covered, then spoon into paper cases in a muffin tin, pressing a well into the middle of each with the back of a spoon.\n\nChill for 30 minutes, until firm, then fill each nest with three mini chocolate eggs. They keep for days in a tin, though they rarely last that long.',
     ing: [

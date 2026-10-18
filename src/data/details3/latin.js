@@ -57,6 +57,7 @@ module.exports = {
   },
 
   'bandeja-paisa': {
+    cookMax: 140,
     rest: [480, 'soaking'],
     d: 'The Antioquian platter: beans, rice, chicharrón, chorizo, minced beef, a fried egg, plantain, avocado and an arepa, all on one plate.',
     meta: 'Bandeja paisa — Colombian platter of beans, rice, chicharrón, chorizo, beef, egg, plantain and arepa.',
@@ -88,9 +89,9 @@ module.exports = {
     ],
     st: [
       'Drain the beans and simmer them with the whole carrot and the pork belly in fresh water for 90 minutes, until tender. Keep them saucy, topping up with hot water.',
-      'For the hogao, cook the spring onions in the oil for 5 minutes, add the garlic and cumin for 1 minute, then the tomatoes, and cook 15 minutes to a thick sauce.',
+      'While the beans simmer, make the hogao: cook the spring onions in the oil for 5 minutes, add the garlic and cumin for 1 minute, then the tomatoes, and cook 15 minutes to a thick sauce.',
       'Stir half the hogao and the grated plantain into the beans and cook 20 minutes more, then season.',
-      'For the chicharrón, put the scored pork belly in a dry heavy pan with 100 ml water, cover, and cook 30 minutes. Uncover and fry in its own fat for 15 minutes, turning, until puffed and crisp.',
+      'While the beans finish, start the chicharrón: put the scored pork belly in a dry heavy pan with 100 ml water, cover, and cook 30 minutes. Uncover and fry in its own fat for 15 minutes, turning, until puffed and crisp.',
       'Fry the chorizo until browned and cooked through.',
       'Cook the beef mince with the rest of the hogao for 10 minutes until browned and saucy.',
       'Fry the plantain slices in oil for 2 minutes a side until golden and caramelised.',

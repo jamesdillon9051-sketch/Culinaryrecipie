@@ -147,7 +147,7 @@ module.exports = {
 
   'cochinillo-asado': {
     d: 'A suckling pig roasted for 3 hours in a clay dish with water and bay until the skin shatters, the Castilian celebration roast.',
-    meta: 'Cochinillo asado, Castilian roast suckling pig with crackling skin, cooked for 3 hours. Six servings, ready in 3 hours 20 minutes.',
+    meta: 'Cochinillo asado, Castilian roast suckling pig with crackling skin, cooked for 3 hours. Six servings, ready in 3 hours 35 minutes.',
     kw: ['cochinillo asado', 'spanish roast suckling pig', 'castilian roast pig with crackling', 'roast suckling pig recipe', 'cochinillo segoviano'],
     why: 'Listen for the skin. When it is ready it crackles and rings under a spoon, which is how cooks in Segovia test it, and some famously cut the pig with the side of a plate. Cochinillo asado is a suckling pig roasted slowly with nothing but water, salt, lard and bay, and the point is the contrast between the glassy skin and the soft, pale meat.\n\nA whole pig is hard to find, so use half a young pig, or a piece of the shoulder and ribs, from a butcher. Rub it all over with salt and lard, lay it skin side down in a dish with a little water and a few bay leaves, and cover with foil. **Roast skin down at first**, at 160C, for about 1 hour 30 minutes, so the meat cooks gently in the steam.\n\nTurn the pig skin side up, remove the foil, and prick the skin all over. Raise the heat to 220C and roast for 30 minutes more, then add a splash of cold water to the pan to blister the skin. Rest for 15 minutes before carving. Serve with roast potatoes, a green salad and a glass of cold red wine.',
     ing: [
@@ -180,7 +180,7 @@ module.exports = {
 
   'cordero-asado-castellano': {
     d: 'Lamb shoulder roasted for 2 hours in a clay dish with garlic, water and a little lard until the meat falls from the bone.',
-    meta: 'Cordero asado castellano, Castilian roast lamb with garlic, cooked for 2 hours. Six servings, ready in 2 hours 20 minutes.',
+    meta: 'Cordero asado castellano, Castilian roast lamb with garlic, cooked for 2 hours. Six servings, ready in 2 hours 35 minutes.',
     kw: ['cordero asado castellano', 'castilian roast lamb', 'spanish roast lamb shoulder', 'cordero lechal asado', 'lamb roasted with garlic and water'],
     why: 'A Sunday dish for a table of six, and one that needs little more than salt, garlic and patience. Cordero asado castellano is the lamb roast of Castile, cooked in a clay dish in a wood oven, with only a splash of water in the bottom of the dish and a spoonful of lard on top.\n\nUse a shoulder of lamb on the bone, which has more fat and holds its moisture. Rub it all over with salt, crushed garlic and a spoonful of lard, and put it in a roasting dish with a glass of water. **Do not add oil or stock**, because the juice of the lamb itself makes the gravy. Roast at 180C for 2 hours, turning the joint once and basting with the juices every 30 minutes.\n\nThe lamb is ready when the meat pulls from the bone and the top is brown and crisp. Rest it for 15 minutes under foil. Spoon off excess fat from the juices and serve them as a thin gravy. Eat with roast potatoes, a crisp green salad and plenty of bread.',
     ing: [
@@ -437,8 +437,9 @@ module.exports = {
   },
 
   'canelones-de-carne': {
-    d: 'Catalan cannelloni of fresh pasta wrapped around a rich meat filling, covered in béchamel and baked for 40 minutes.',
-    meta: 'Canelones de carne, Catalan cannelloni filled with minced meat under béchamel, baked for 40 minutes. Six servings, ready in 1 hour 20 minutes.',
+    cookMax: 65,
+    d: 'Catalan cannelloni of fresh pasta wrapped around a rich meat filling, covered in béchamel and baked for 25 minutes.',
+    meta: 'Canelones de carne, Catalan cannelloni filled with minced meat under béchamel, baked for 25 minutes. Six servings, ready in 1 hour 40 minutes to 1 hour 45 minutes.',
     kw: ['canelones de carne', 'catalan meat cannelloni', 'spanish cannelloni with bechamel', 'canelones de sant esteve', 'baked canelones recipe'],
     why: 'Seasonal for a day in winter, and traditionally made on Saint Stephen\'s Day in Catalonia, from the leftovers of the Christmas roasts. Canelones de carne are pasta tubes filled with a rich meat mix and baked under béchamel, and the Catalan version is much more tender than the Italian kind.\n\nThe filling is minced pork and beef, fried until deeply brown with onion, tomato and a splash of wine, then cooked for 20 minutes until dry. Cool it, then blitz it briefly with a little béchamel to bind it. **The filling should be thick enough to hold a shape**, as a wet one leaks from the tubes. Cook the cannelloni sheets in boiling water for 3 minutes, cut into rectangles and roll around the filling.\n\nLay the rolls seam side down in a dish, cover them with béchamel and scatter with grated cheese. Bake at 200C for 25 minutes, until bubbling and golden. Rest for 10 minutes. Allow extra time for rolling, since it is easiest with a helper. The dish can be assembled the day before and baked when needed.',
     ing: [
@@ -458,7 +459,7 @@ module.exports = {
     ],
     st: [
       'Soften the onion in the oil for 5 minutes. Add the pork and beef and brown for 10 minutes. Add the tomatoes, wine and half the salt and cook for 20 minutes until dry. Cool.',
-      'Melt the butter, stir in the flour for 1 minute and whisk in the milk. Simmer for 8 minutes with the nutmeg and remaining salt. Stir 150 ml into the filling.',
+      'While the filling cooks, make the béchamel: melt the butter, stir in the flour for 1 minute and whisk in the milk. Simmer for 8 minutes with the nutmeg and remaining salt. Stir 150 ml into the filling.',
       'Heat the oven to 200C. Boil the sheets in salted water for 3 minutes, drain and cut in half.',
       'Roll a spoonful of filling in each sheet and lay seam side down in a dish.',
       'Cover with the remaining béchamel and the cheese. Bake for 25 minutes until golden. Rest for 10 minutes.'

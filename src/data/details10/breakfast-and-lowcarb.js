@@ -291,6 +291,7 @@ module.exports = {
   },
 
   'zucchini-lasagna': {
+    cookMax: 110,
     rest: [80, 'resting'],
     d: 'Courgette planks salted, griddled and used in place of pasta, under a proper ragù and a béchamel. The griddling is what stops it flooding the dish.',
     meta: 'Courgette lasagne with the planks salted and griddled first, so the finished dish is not swimming. Gluten-free.',

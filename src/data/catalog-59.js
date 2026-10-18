@@ -108,7 +108,7 @@ module.exports = [
   c('focaccia-pugliese', 'Focaccia Pugliese', 'Italian', 'Baking', 'Medium', 25, 30, 8, 0, 0, ['Vegetarian'], ['new'], 'focaccia pugliese'),
   c('bruschetta-al-pomodoro', 'Bruschetta al Pomodoro', 'Italian', 'Appetizers', 'Easy', 10, 5, 4, 0, 0, ['Vegetarian'], ['new'], 'bruschetta al pomodoro'),
   c('carciofi-ripieni', 'Carciofi Ripieni', 'Italian', 'Dinner', 'Easy', 25, 45, 4, 0, 0, [], ['new'], 'carciofi ripieni'),
-  c('lasagne-bianche', 'Lasagne Bianche', 'Italian', 'Dinner', 'Medium', 30, 45, 6, 0, 0, [], ['new'], 'lasagne bianche'),
+  c('lasagne-bianche', 'Lasagne Bianche', 'Italian', 'Dinner', 'Medium', 30, 55, 6, 0, 0, [], ['new'], 'lasagne bianche'),
   c('cannelloni-ricotta-e-spinaci', 'Cannelloni Ricotta e Spinaci', 'Italian', 'Dinner', 'Medium', 30, 40, 6, 0, 0, ['Gluten-Free'], ['new'], 'cannelloni ricotta e spinaci'),
   c('conchiglioni-ripieni', 'Conchiglioni Ripieni', 'Italian', 'Dinner', 'Easy', 25, 40, 6, 0, 0, [], ['new'], 'conchiglioni ripieni'),
   c('spaghetti-al-limone', 'Spaghetti al Limone', 'Italian', 'Quick Meals', 'Easy', 5, 15, 4, 0, 0, [], ['new'], 'spaghetti al limone'),

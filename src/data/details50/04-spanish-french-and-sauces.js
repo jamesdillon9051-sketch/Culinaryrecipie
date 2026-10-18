@@ -709,7 +709,7 @@ module.exports = {
     st: [
       'Rub the butter into the flour and salt, then mix in the egg yolk and water. Wrap and chill for 30 minutes.',
       'Heat the oven to 190°C (170°C fan). Roll out the pastry, line a 24 cm tart tin, and blind bake with paper and beans for 15 minutes. Remove the paper and beans and bake for 5 minutes more.',
-      'Cook the onions in the 2 tbsp oil over a low heat for 20 minutes until soft and golden.',
+      'While the case bakes, cook the onions in the 2 tbsp oil over a low heat for 20 minutes until soft and golden.',
       'Spread the mustard over the pastry base, then the onions. Arrange the vegetables in tight overlapping circles, alternating aubergine, courgette and tomato.',
       'Brush with the olive oil, season with the salt, pepper and thyme, and bake for 40 minutes until the vegetables are soft and the edges charred. Cool for 15 minutes.'
     ],

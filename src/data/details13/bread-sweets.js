@@ -11,6 +11,7 @@
 
 module.exports = {
   'aish-baladi': {
+    cookMax: 20,
     d: 'The wholemeal country loaf, baked on a bed of bran at a ferocious heat so it puffs into a hollow disc. The bread the word aish — life — actually refers to.',
     meta: 'Egyptian wholemeal country bread proved on bran and baked at ferocious heat so each loaf puffs hollow in two minutes.',
     kw: ['aish baladi', 'egyptian bread', 'aish baladi recipe', 'wholemeal pita', 'egyptian flatbread'],
@@ -30,11 +31,11 @@ module.exports = {
       'Knead 8 minutes with a dough scraper rather than adding flour. Cover and leave to rise 90 minutes, until doubled.',
       'Scatter a thick layer of bran over two trays.',
       'Divide the dough into 8 and, with wet hands, shape each piece into a ball and set it on the bran. Flatten each to a 14 cm disc and dust the tops with more bran.',
-      'Cover and leave to prove a second time while the oven heats. Put a baking stone or heavy tray on the top shelf at maximum heat, at least 250°C / 480°F, for 30 minutes.',
+      'Cover and leave to prove a second time, for 30 minutes, while a baking stone or heavy tray heats on the top shelf at maximum heat, at least 250°C / 480°F.',
       'Slide the loaves two at a time onto the hot surface, bran and all.',
       'Bake 4 to 5 minutes, until fully ballooned and lightly speckled. Wrap in a cloth as they come out so they stay soft.'
     ],
-    rest: [90, 'the dough rising'],
+    rest: [120, 'rising and proving the dough'],
     tips: [
       'A wet dough. Adding flour to make it manageable stops it puffing.',
       'The bran bed does the work of a floured peel.',

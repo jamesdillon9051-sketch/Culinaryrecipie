@@ -574,8 +574,9 @@ module.exports = {
   },
 
   'arroz-de-pato': {
-    d: 'Portuguese duck rice made with shredded roast duck, chorizo and a crisp top baked in the oven, ready in 1 hour 20 minutes.',
-    meta: 'Arroz de pato, Portuguese duck rice with chorizo and a crisp baked top, cooked for 50 minutes. Six servings, ready in 1 hour 20 minutes.',
+    cookMax: 75,
+    d: 'Portuguese duck rice made with shredded roast duck, chorizo and a crisp top baked in the oven, ready in 1 hour 40 minutes to 1 hour 45 minutes.',
+    meta: 'Arroz de pato, Portuguese duck rice with chorizo and a crisp baked top, cooked for about 1 hour 15 minutes. Six servings, ready in 1 hour 40 minutes to 1 hour 45 minutes.',
     kw: ['arroz de pato', 'portuguese duck rice', 'duck and chorizo rice', 'braga duck rice', 'arroz de pato recipe'],
     why: 'This is what to cook in the first week of autumn, when you want a dish that fills the house with the smell of duck fat and smoked sausage. Arroz de pato is the Portuguese duck rice, a dish where rice is cooked in the broth of the duck itself, mixed with shredded meat and chorizo and finished in the oven until crisp on top.\n\nSimmer the duck legs in water with an onion, a carrot and a bay leaf for 40 minutes, until the meat is tender and comes away from the bone. Lift them out, strain the broth and shred the meat. Fry the duck skin until crisp if you like. **Use the duck broth to cook the rice**, not water, as it carries the flavour. Soften onion and garlic in olive oil and add the rice, then the hot broth.\n\nSimmer for 12 minutes until the rice is almost tender, then stir in the shredded duck and layer the sliced chorizo on top. Bake at 220C for 15 minutes, until the top is crisp and the chorizo is browned. Rest for 5 minutes. Serve straight from the dish with a green salad and a glass of red wine.',
     ing: [
@@ -640,7 +641,7 @@ module.exports = {
 
   'polvo-a-lagareiro': {
     d: 'Octopus simmered then roasted in olive oil with garlic and potatoes that are punched flat, a Portuguese oven classic.',
-    meta: 'Polvo à lagareiro, Portuguese octopus roasted in olive oil with garlic and potatoes, cooked for 1 hour. Four servings, ready in 1 hour 15 minutes.',
+    meta: 'Polvo à lagareiro, Portuguese octopus roasted in olive oil with garlic and potatoes, cooked for 1 hour. Four servings, ready in 1 hour 35 minutes.',
     kw: ['polvo a lagareiro', 'portuguese roast octopus', 'octopus with olive oil and potatoes', 'polvo a lagareiro recipe', 'oven roasted octopus with garlic'],
     why: 'Short and sharp: boil it, then roast it in oil. That is all there is to polvo à lagareiro, the octopus of the olive press workers. The old lagareiros were paid in oil, and so the dish is soaked in it, and the potatoes are punched, or murro, before roasting so that they drink up the garlic and the fat.\n\nBoil the octopus in unsalted water for about 1 hour until a skewer slides in easily. Cool it in the water, then cut the tentacles apart. Boil small potatoes in their skins until just tender, 20 minutes, and press each one flat with your fist so the skin cracks and the flesh opens. **Be generous with the oil**, a good 150 ml, since the whole dish depends on it.\n\nPut the octopus and potatoes in a roasting dish, scatter with sliced garlic, bay and coarse salt, and pour over the oil. Roast at 220C for 20 minutes, until the octopus is blistered and the potatoes are golden. Serve in the dish with a green salad, a lemon wedge and plenty of bread.',
     ing: [
@@ -655,7 +656,7 @@ module.exports = {
     ],
     st: [
       'Simmer the octopus in unsalted water for 1 hour until a skewer slides in easily. Cool in the water and cut into pieces.',
-      'Boil the potatoes in their skins for 20 minutes. Drain and press each flat with your fist.',
+      'While the octopus simmers, boil the potatoes in their skins for 20 minutes. Drain and press each flat with your fist.',
       'Heat the oven to 220C. Put the octopus and potatoes in a roasting dish with the garlic, bay and salt and pour over the oil.',
       'Roast for 20 minutes until blistered and golden. Scatter with the parsley and serve with the lemon.'
     ],

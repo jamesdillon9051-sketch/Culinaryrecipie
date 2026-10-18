@@ -11,8 +11,8 @@
 
 module.exports = {
   'beef-and-guinness-pie': {
-    d: 'Beef chuck stewed for 2 hours in stout, onions and carrots, topped with puff pastry and cooked for 30 minutes. Six servings in 3 hours.',
-    meta: 'Beef and Guinness pie: beef stewed for 2 hours in stout with onions and carrots, topped with puff pastry. Six servings in 3 hours.',
+    d: 'Beef chuck stewed for 2 hours in stout, onions and carrots, topped with puff pastry and cooked for 30 minutes. Six servings in 3 hours 20 minutes.',
+    meta: 'Beef and Guinness pie: beef stewed for 2 hours in stout with onions and carrots, topped with puff pastry. Six servings in 3 hours 20 minutes.',
     kw: ['beef and guinness pie', 'steak and stout pie', 'beef and ale pie', 'guinness pie with puff pastry', 'homemade beef pie'],
     why: 'The mistake with a pie is a thin filling under a pastry lid that has gone soft. The cure is a stew that is thick enough to hold a spoon upright before it ever sees the pastry.\n\nBrown the beef in batches, which gives the stew its colour and depth. Stout adds a dark, slightly bitter note that balances the sweetness of the onions and carrots, and 2 hours of gentle simmering turns chuck from chewy to tender.\n\nThe filling must be **cool before the pastry goes on**, or the pastry melts and the lid sinks. Spoon it into the dish, let it sit for 20 minutes, then top.\n\nBrush the pastry with egg and cut a small slit in the middle so steam can escape. Cook at 200°C for 30 minutes, until the pastry is deep gold and risen. If your oven runs hot, check at 25 minutes. The stew improves if made a day ahead and kept in the fridge, which also makes it easy to top and cook on the day.',
     ing: [
@@ -49,8 +49,9 @@ module.exports = {
   },
 
   'party-pies': {
-    d: 'Small shortcrust cases filled with spiced beef mince and gravy, topped with puff pastry lids and cooked for 25 minutes. Twelve pies in 65 minutes.',
-    meta: 'Party pies: small shortcrust cases filled with beef mince and gravy, topped with puff pastry and cooked for 25 minutes. Twelve pies in 65 minutes.',
+    cookMax: 50,
+    d: 'Small shortcrust cases filled with spiced beef mince and gravy, topped with puff pastry lids and cooked for 25 minutes. Twelve pies in 1 hour 25 minutes to 1 hour 30 minutes.',
+    meta: 'Party pies: small shortcrust cases filled with beef mince and gravy, topped with puff pastry and cooked for 25 minutes. Twelve pies in 1 hour 25 minutes to 1 hour 30 minutes.',
     kw: ['party pies', 'australian party pies', 'mini meat pies', 'beef mince party pies', 'cocktail meat pies'],
     why: 'Party pies are a small version of the Australian meat pie, made to be eaten in two bites with a dab of tomato sauce. The trick is the right size and a filling that is not runny.\n\nCook the mince with onion, then add flour and stock and simmer until it is thick enough to hold on a spoon. A loose filling leaks out of the case and softens the base.\n\nUse a muffin tin and cut the cases from the shortcrust with a round cutter. **Do not overfill**: a heaped teaspoon is enough, because the filling spreads as it heats.\n\nTop with puff pastry lids, pinch the edges and brush with egg. Cook at 200°C for 25 minutes until the tops are puffed and golden. If your oven runs hot, check at 20 minutes. Cool in the tin for 5 minutes before lifting out. They freeze well before cooking, so a double batch is worth making ahead of a party, and they cook from frozen with a few extra minutes.',
     ing: [
@@ -85,8 +86,8 @@ module.exports = {
   },
 
   'steak-and-kidney-pie': {
-    d: 'Stewing steak and ox kidney simmered for 2 hours in stock and onions, topped with shortcrust pastry and cooked for 30 minutes. Six servings in 3 hours.',
-    meta: 'Steak and kidney pie: stewing steak and ox kidney simmered for 2 hours with onions, topped with shortcrust pastry. Six servings in 3 hours.',
+    d: 'Stewing steak and ox kidney simmered for 2 hours in stock and onions, topped with shortcrust pastry and cooked for 30 minutes. Six servings in 3 hours 20 minutes.',
+    meta: 'Steak and kidney pie: stewing steak and ox kidney simmered for 2 hours with onions, topped with shortcrust pastry. Six servings in 3 hours 20 minutes.',
     kw: ['steak and kidney pie', 'traditional steak and kidney pie', 'british steak and kidney pie', 'beef and kidney pie', 'steak and kidney pie with shortcrust'],
     why: 'Why does a steak and kidney pie taste so different from a plain beef one? Kidney has a rich, mineral depth that gives the gravy its character, and it is the part people either love or avoid.\n\nPrepare the kidney by cutting out the white core and soaking the pieces in cold water for 10 minutes. This removes the sharpest taste and leaves the savoury part.\n\nThe filling must be thick, so use flour to coat the meat and simmer with the lid slightly off for the last 20 minutes. **A pie dish with a wide rim** helps the pastry sit properly.\n\nCool the filling before the lid goes on, then brush with egg and cook at 200°C for 30 minutes. If your oven runs hot, check at 25 minutes. Serve with plenty of gravy and something green. If you are unsure about kidney, start with 100 g and increase the amount next time once you know how it suits your table.',
     ing: [
@@ -186,8 +187,8 @@ module.exports = {
   },
 
   'sunday-roast-beef': {
-    d: 'A topside of beef seared and roasted for 90 minutes at 180°C, rested and carved, with a gravy made from the pan juices. Six servings in 1 hour 50 minutes.',
-    meta: 'Sunday roast beef: a topside joint roasted for 90 minutes at 180°C, rested and carved, with gravy made from the pan juices. Six servings in 1 hour 50 minutes.',
+    d: 'A topside of beef seared and roasted for 90 minutes at 180°C, rested and carved, with a gravy made from the pan juices. Six servings in 2 hours 10 minutes.',
+    meta: 'Sunday roast beef: a topside joint roasted for 90 minutes at 180°C, rested and carved, with pan-juice gravy. Six servings in 2 hours 10 minutes.',
     kw: ['sunday roast beef', 'roast topside of beef', 'roast beef with gravy', 'traditional roast beef dinner', 'how to roast beef'],
     why: 'It looks like a lot of work and is mostly waiting. Beef roast is a long, calm cook with two steps that matter: how you season it and how long you let it rest.\n\nTake the joint out of the fridge an hour before it goes in, so it cooks evenly. Rub with oil, salt and pepper, and set it on a bed of sliced onion, which flavours the gravy and keeps the meat off the tin.\n\nStart at 220°C for 15 minutes to colour the outside, then turn down to 180°C for the rest of the 90 minutes. A thermometer reads 55°C for rare, 60°C for medium and 70°C for well done. If your oven runs hot, check at 70 minutes.\n\n**Rest it for at least 20 minutes** under foil. The juices redistribute, and the slices stay moist instead of weeping onto the board. Use the pan juices, flour and stock for the gravy. A joint with a layer of fat on top will baste itself, so leave the fat on and trim it at the table if you prefer.',
     ing: [
@@ -251,7 +252,7 @@ module.exports = {
 
   'country-fried-chicken': {
     d: 'Chicken pieces soaked in buttermilk, coated in seasoned flour and fried for 25 minutes until crisp, with a pan gravy. Four servings in 1 hour 5 minutes.',
-    meta: 'Country fried chicken: chicken soaked in buttermilk, coated in seasoned flour and fried for 25 minutes, served with pan gravy. Four servings in 1 hour 5 minutes.',
+    meta: 'Country fried chicken: buttermilk-soaked chicken in seasoned flour, fried for 25 minutes and served with pan gravy. Four servings in 1 hour 5 minutes.',
     kw: ['country fried chicken', 'southern style fried chicken', 'buttermilk fried chicken with gravy', 'crispy fried chicken', 'fried chicken and gravy'],
     why: 'It looks like a fried chicken recipe and eats like a Sunday supper, because the pan gravy is half the dish. Both depend on a crust that sticks and a pan that stays at a steady heat.\n\nSoak the chicken in buttermilk with salt and pepper for 20 minutes while you prepare the flour. The acid softens the meat, and the thick liquid gives the coating something to cling to.\n\nSeason the flour well with paprika, garlic powder and pepper. Press each piece into it and shake off the extra. **Let the coated pieces sit for 10 minutes** so the flour hydrates and stays on in the pan.\n\nFry in about 2 cm of hot oil, turning once, for 25 minutes in total. The chicken is cooked when the juices run clear. If your oil runs hot, check at 18 minutes. Stir a little flour into the pan fat, whisk in milk and season for the gravy. A thermometer reads 75°C in the thickest part, which is the surest way to know a big piece is cooked through to the bone.',
     ing: [
@@ -317,7 +318,7 @@ module.exports = {
 
   'lamb-shanks': {
     d: 'Lamb shanks browned and braised for 2 hours 30 minutes in red wine, tomatoes and rosemary until falling off the bone. Four servings in 2 hours 50 minutes.',
-    meta: 'Lamb shanks: shanks browned and braised for 2 hours 30 minutes in red wine, tomatoes and rosemary until falling off the bone. Four servings in 2 hours 50 minutes.',
+    meta: 'Lamb shanks braised for 2 hours 30 minutes in red wine, tomatoes and rosemary until falling off the bone. Four servings in 2 hours 50 minutes.',
     kw: ['lamb shanks', 'braised lamb shanks in red wine', 'oven braised lamb shanks', 'lamb shanks with rosemary', 'slow cooked lamb shanks'],
     why: 'Lamb, red wine, tomatoes, rosemary: four things that turn a tough cut into something you can pull apart with a spoon. A shank is mostly connective tissue, and long, slow, moist heat is what turns it tender.\n\nBrown the shanks well on all sides first. Do not rush this, because the colour on the meat becomes the colour and the savour of the sauce.\n\nFry the onion, carrot and garlic in the same pot, add the tomatoes, wine and stock and bring to a simmer. **The shanks should sit about two thirds under the liquid**, not completely covered.\n\nCover and cook in a 160°C oven for 2 hours 30 minutes, turning once. They are done when the meat pulls from the bone at a touch. If your oven runs hot, check at 2 hours. Boil the sauce down for a few minutes if it is thin. The dish tastes even better the next day, so cook it ahead for guests and reheat gently while you carry on with other things.',
     ing: [

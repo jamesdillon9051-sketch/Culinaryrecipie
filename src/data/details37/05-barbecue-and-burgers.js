@@ -43,8 +43,8 @@ module.exports = {
   },
 
   'bbq-beef-brisket': {
-    d: 'Beef brisket rubbed with paprika, mustard powder and brown sugar, covered and cooked for 4 hours at 150°C, then glazed with barbecue sauce. Eight servings in 4 hours 20 minutes.',
-    meta: 'BBQ beef brisket: a rubbed brisket cooked covered for 4 hours at 150°C until tender, then glazed with barbecue sauce. Eight servings in 4 hours 20 minutes.',
+    d: 'Beef brisket rubbed with paprika, mustard powder and brown sugar, covered and cooked for 4 hours at 150°C, then glazed with barbecue sauce. Eight servings in 4 hours 35 minutes.',
+    meta: 'BBQ beef brisket: a rubbed brisket cooked covered for 4 hours at 150°C until tender, then glazed with barbecue sauce. Eight servings in 4 hours 35 minutes.',
     kw: ['bbq beef brisket', 'barbecue brisket in the oven', 'beef brisket with barbecue sauce', 'slow cooked brisket', 'brisket recipe'],
     why: 'Brisket is a tough, hard-working cut, and the only way through is time. Low heat and a tight cover turn the connective tissue into gelatine, which is why the meat goes from stubborn to sliceable.\n\nThe rub of paprika, mustard powder, brown sugar and salt goes on before the meat does, and the more evenly it covers the surface, the better the crust. Sear the brisket in a hot pan first if you have time, but the recipe works without it.\n\nCook it covered with stock in the bottom of the tin so the steam stays in. **Do not lift the lid before 3 hours**, as every peek lets out the heat the cut is relying on.\n\nIt is done when a fork twists in with no resistance. If your oven runs hot, check at 3 hours. Slice against the grain, thickly, and glaze with the sauce for the last 20 minutes uncovered. Leftovers make excellent sandwiches, so it is worth cooking the full piece even for a smaller table.',
     ing: [

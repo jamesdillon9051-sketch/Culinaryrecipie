@@ -212,7 +212,7 @@ module.exports = {
     st: [
       'Rub the cold shortening into the flour, turmeric, curry powder and pastry salt until it looks like coarse crumbs with some larger pieces.',
       'Add the ice-cold water and bring together into a dough without kneading. Wrap and chill 45 minutes.',
-      'Heat the oil and fry the onion for 6 minutes, then add the spring onions, scotch bonnet, garlic and thyme for 2 minutes.',
+      'While the pastry chills, heat the oil and fry the onion for 6 minutes, then add the spring onions, scotch bonnet, garlic and thyme for 2 minutes.',
       'Add the mince and cook 10 minutes, breaking it up, until browned and dry.',
       'Stir in the filling curry powder, allspice and salt and cook 1 minute.',
       'Add the breadcrumbs and stock and simmer 8 minutes, until thick with no free liquid.',

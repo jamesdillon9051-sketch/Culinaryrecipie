@@ -243,6 +243,7 @@ module.exports = {
   },
 
   'queso-fundido': {
+    cookMax: 40,
     d: 'Melted cheese in a hot skillet with chorizo and roasted chillies, brought to the table still bubbling and scooped straight into tortillas. Not a dip — a dish, and one that waits for nobody.',
     meta: 'Queso fundido — bubbling skillet of melted cheese with chorizo and roasted poblano, scooped into warm tortillas.',
     kw: ['queso fundido recipe', 'mexican melted cheese', 'chorizo cheese skillet', 'queso flameado'],
@@ -263,7 +264,7 @@ module.exports = {
       'Char the poblanos directly over a flame or under a hot grill for 10 minutes, turning, until blackened all over.',
       'Steam them in a covered bowl for 10 minutes, then peel, deseed and cut into strips (rajas).',
       'Heat the oven to 220°C / 430°F.',
-      'Fry the chorizo in a cast-iron skillet over medium heat for 8 minutes until crisp and well rendered. Lift out with a slotted spoon and pour off all but a tablespoon of the fat.',
+      'While the poblanos steam, fry the chorizo in a cast-iron skillet over medium heat for 8 minutes until crisp and well rendered. Lift out with a slotted spoon and pour off all but a tablespoon of the fat.',
       'Fry the onion in that fat for 5 minutes until soft, add the garlic for 30 seconds, then the poblano strips.',
       'Deglaze with the tequila if using and let it evaporate completely.',
       'Take the pan off the heat and mix the cheeses together. Scatter half into the skillet, then the chorizo and vegetables, then the rest of the cheese.',

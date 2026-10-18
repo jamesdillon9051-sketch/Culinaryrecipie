@@ -46,7 +46,7 @@ module.exports = {
 
   'lapin-a-la-moutarde': {
     d: 'Rabbit pieces browned and braised for 60 minutes in white wine, Dijon mustard and cream, until the meat is tender and the sauce coats a spoon.',
-    meta: 'Rabbit in a mustard and cream sauce, cooked for 60 minutes. Four servings, ready in 1 hour 20 minutes.',
+    meta: 'Rabbit in a mustard and cream sauce, cooked for 60 minutes. Four servings, ready in 1 hour 40 minutes.',
     kw: ['lapin a la moutarde', 'rabbit in mustard sauce', 'french braised rabbit', 'rabbit with dijon and cream', 'rabbit casserole'],
     why: 'What does the mustard actually do in a rabbit dish? It seasons the meat, thickens the sauce and cuts through the cream, and it does all three best when it goes on twice: brushed onto the pieces before they brown, and stirred into the sauce at the end.\n\nRabbit is lean, so it dries out if it is rushed. Brown the pieces gently in butter and oil, then braise them with white wine and stock, covered, over a low heat. **Keep the sauce at a bare simmer**, since a hard boil toughens the meat and splits the cream. The saddle cooks faster than the legs, so lift it out after 35 minutes if you want it very tender.\n\nThe finish matters. Take the rabbit out, boil the sauce down by a third, stir in the cream and the last spoonful of mustard off the heat, and taste. Mustard loses its bite when boiled for long, which is why it goes in last. Serve with boiled potatoes or buttered noodles to catch the sauce.',
     ing: [
@@ -118,7 +118,7 @@ module.exports = {
 
   'tian-provencal': {
     d: 'Overlapping slices of courgette, aubergine, tomato and onion baked in a dish with olive oil and thyme for 45 minutes.',
-    meta: 'Tian provençal of sliced courgette, aubergine and tomato, baked for 45 minutes. Four servings, ready in 1 hour 5 minutes.',
+    meta: 'Tian provençal of sliced courgette, aubergine and tomato, baked for 45 minutes. Four servings, ready in 1 hour 20 minutes.',
     kw: ['tian provencal', 'provencal vegetable bake', 'courgette aubergine and tomato bake', 'sliced vegetable tian', 'french vegetable gratin'],
     why: 'Why does a tian look so much better than a pile of roast vegetables? Because the slices are stood on edge and overlapped, so every forkful has all four vegetables in it and the dish bakes in tidy, colourful rows.\n\nThe name comes from the shallow earthenware dish it is baked in, and any shallow dish of about 25 cm will do. Slice the vegetables to the same thickness, about 5 mm, with a sharp knife or a mandoline so the rows cook evenly. **Salt the aubergine and courgette for 15 minutes** and pat them dry, otherwise the dish weeps and bakes in a pool of water.\n\nA base of softened onion gives the tian its sweetness. Pack the slices tightly, because they shrink as they cook, then drizzle with oil and scatter over thyme. Cover with foil for the first 25 minutes so they soften, then uncover to colour the tops. It is as good warm as hot, and better the next day.',
     ing: [
@@ -180,8 +180,9 @@ module.exports = {
   },
 
   'pommes-dauphine': {
+    cookMax: 75,
     d: 'Light, crisp potato croquettes made by folding mashed potato into choux pastry, shaped into balls and deep fried for about 20 minutes.',
-    meta: 'Pommes dauphine, mashed potato mixed with choux pastry and fried, cooked for 20 minutes. Six servings, ready in 1 hour.',
+    meta: 'Pommes dauphine, mashed potato mixed with choux pastry and deep fried in batches. Six servings, ready in 1 hour 45 minutes to 1 hour 55 minutes.',
     kw: ['pommes dauphine', 'potato and choux pastry puffs', 'french fried potato puffs', 'dauphine potatoes', 'crisp potato balls'],
     why: 'Keep the mashed potato dry. That is the single rule that decides whether these puff up light as air or collapse into greasy lumps. Pommes dauphine are mashed potato folded into choux pastry, and both halves of the mixture must be thick and free of extra water.\n\nBake or steam the potatoes rather than boiling them, then pass them through a ricer or sieve so there are no lumps. Make the choux in a pan, beating flour into hot water and butter until it forms a ball, then beating in the eggs one at a time. **Fold the two together while the potato is still warm**, with a pinch of nutmeg and plenty of salt.\n\nFry small spoonfuls in oil at 170C, in batches of five or six so the temperature holds. They swell and turn the colour of old gold in about 4 minutes. Too hot and they brown before the inside cooks; too cool and they soak up oil. Drain on paper and serve at once, because they lose their crispness within minutes.',
     ing: [
@@ -311,8 +312,9 @@ module.exports = {
   },
 
   'tarte-aux-poireaux': {
+    cookMax: 60,
     d: 'A shortcrust tart filled with leeks softened in butter and set with eggs and cream, baked for 40 minutes at 180C.',
-    meta: 'Tarte aux poireaux, a leek and cream tart in shortcrust pastry, baked for 40 minutes. Six servings, ready in 1 hour 5 minutes.',
+    meta: 'Tarte aux poireaux, a leek and cream tart in shortcrust pastry, baked for 40 minutes. Six servings, ready in 1 hour 35 minutes to 1 hour 40 minutes.',
     kw: ['tarte aux poireaux', 'french leek tart', 'leek and cream tart', 'leek tart in shortcrust pastry', 'savoury leek tart'],
     why: 'Salt the leeks as they cook, and cook them slowly. Leeks hold a great deal of water, and a tart filled with watery leeks is the reason a savoury tart turns soggy. Sweated gently in butter with a lid on for 10 minutes and then uncovered to drive off the water, they turn soft, sweet and almost jammy.\n\nWash them well, because soil hides between the layers. Slice them into thin rings, then tip them into a bowl of cold water and lift them out, leaving the grit behind. **Blind bake the case first**, until it is pale gold, so the cream does not seep into raw pastry. The filling is eggs and cream with nutmeg, enough to set around the leeks without turning to custard.\n\nThe tart is ready when the filling is just set in the middle, with a slight wobble, and golden at the edges. Let it rest for 10 minutes before cutting. It is good warm for lunch with a green salad, and it travels well in a picnic. A handful of grated Gruyère in the filling adds depth.',
     ing: [
@@ -331,7 +333,7 @@ module.exports = {
     st: [
       'Rub the cold butter into the flour with a pinch of the salt. Mix in the egg yolk and water to a dough, wrap and chill for 20 minutes.',
       'Heat the oven to 190C. Roll out the pastry to fit a 24 cm tin, line with paper and beans and bake for 12 minutes. Remove the paper and beans and bake for 5 minutes.',
-      'Melt the 30 g butter, add the leeks and the rest of the salt, cover and cook for 10 minutes. Uncover and cook for 5 minutes until the liquid has gone.',
+      'While the case bakes, melt the 30 g butter, add the leeks and the rest of the salt, cover and cook for 10 minutes. Uncover and cook for 5 minutes until the liquid has gone.',
       'Beat the eggs with the cream and nutmeg. Reduce the oven to 180C.',
       'Spread the leeks in the case, scatter over the cheese and pour over the egg mixture.',
       'Bake for 40 minutes until just set and golden. Rest for 10 minutes before cutting.'
@@ -347,8 +349,9 @@ module.exports = {
   },
 
   'tarte-a-loignon': {
+    cookMax: 80,
     d: 'A shortcrust tart filled with onions cooked slowly until sweet and golden, set with eggs and cream and baked for 40 minutes.',
-    meta: 'Tarte à l\'oignon, a sweet onion and cream tart in shortcrust pastry, baked for 40 minutes. Six servings, ready in 1 hour 5 minutes.',
+    meta: 'Tarte à l\'oignon, a sweet onion and cream tart in shortcrust pastry, baked for 40 minutes. Six servings, ready in 2 hours to 2 hours 5 minutes.',
     kw: ['tarte a l\'oignon', 'french onion tart', 'caramelised onion tart', 'onion and cream tart', 'savoury onion tart'],
     why: 'The smell of onions turning from white to gold in butter is the best part of this tart, and it cannot be hurried. Onions cooked slowly over a low heat for 30 minutes lose their sharpness and turn sweet and soft; cooked fast over a high heat they brown at the edges and stay raw in the middle.\n\nUse plain yellow onions, sliced thinly across the rings, and cook them in butter and a little oil with a lid on for the first 10 minutes so they steam and soften. **Take the lid off and stir often** as the liquid disappears, and add a splash of white wine or water if they begin to catch. They are ready when they are the colour of dark honey and almost jammy.\n\nThe custard is eggs and cream, lightly seasoned with salt and nutmeg. Pour it over the onions in a pre-baked case and bake until just set. A few thyme leaves add fragrance, and a handful of grated cheese gives a golden crust. Serve it warm with a crisp salad.',
     ing: [
@@ -368,7 +371,7 @@ module.exports = {
     st: [
       'Rub the cold butter into the flour. Mix in the egg yolk and water to a dough, wrap and chill for 20 minutes.',
       'Heat the oven to 190C. Roll the pastry to fit a 24 cm tin, line with paper and beans and bake for 12 minutes. Remove the paper and beans and bake for 5 minutes.',
-      'Melt the butter with the oil, add the onions and half the salt, cover and cook over low heat for 10 minutes.',
+      'While the case bakes, melt the butter with the oil, add the onions and half the salt, cover and cook over low heat for 10 minutes.',
       'Uncover and cook for 25 minutes, stirring often, until deep golden. Add the wine and cook until it evaporates.',
       'Beat the eggs with the cream, thyme and remaining salt. Reduce the oven to 180C.',
       'Spread the onions in the case, pour over the egg mixture and bake for 40 minutes until set and golden.'
@@ -728,7 +731,7 @@ module.exports = {
 
   'tarte-bourdaloue': {
     d: 'A pastry case filled with almond cream and poached pear halves, baked for 40 minutes and glazed with apricot jam.',
-    meta: 'Tarte Bourdaloue, pears set in almond cream in a pastry case, baked for 40 minutes. Eight servings, ready in 1 hour 10 minutes.',
+    meta: 'Tarte Bourdaloue, pears set in almond cream in a pastry case, baked for 40 minutes. Eight servings, ready in 1 hour 30 minutes.',
     kw: ['tarte bourdaloue', 'pear and almond cream tart', 'french pear frangipane tart', 'almond cream pear tart', 'pear tart with frangipane'],
     why: 'It looks like a pear tart and eats like an almond one, and it sits between a tarte aux poires and a frangipane. Poached pear halves are pressed into a soft almond cream, so the fruit stays juicy under a golden, nutty top, and the pastry underneath is crisp.\n\nThe almond cream is butter, sugar, ground almonds, eggs and a splash of rum or vanilla, beaten until smooth. Spread it into a blind-baked case, and it puffs around the pears as it bakes. **Drain the pears and pat them dry** before they go on top; wet fruit makes the filling sag in the middle. Tinned pear halves work well and save time, but poached fresh pears give a better flavour.\n\nSlice each pear half across without cutting through the top, press it gently to fan it, and lay it cut side down on the cream. Bake until the almond cream is golden and firm, and brush with warmed apricot jam while hot for a glossy finish. The tart is best warm, with a spoonful of cream.',
     ing: [

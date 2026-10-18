@@ -4,7 +4,7 @@ module.exports = {
   'chicken-tikka-masala': {
     rest: [120, 'chilling'],
     d: 'Charred yogurt-marinated chicken folded into a silky, gently spiced tomato-cream sauce — the most ordered curry in Britain and one of the great crossover dishes. Grilling the chicken separately is what gives it that smoky edge.',
-    meta: 'Restaurant-style chicken tikka masala with charred yogurt-marinated chicken in a silky tomato cream sauce. Ready in an hour.',
+    meta: 'Restaurant-style chicken tikka masala with charred yogurt-marinated chicken in a silky tomato cream sauce. Ready in 3 hours, chilling included.',
     kw: ['chicken tikka masala recipe', 'indian curry recipe', 'tikka masala sauce', 'restaurant style curry'],
     why: 'Yogurt marinade works on two fronts: its lactic acid gently denatures surface proteins so the meat holds moisture, and its milk solids brown fiercely under a grill, creating the char that defines tikka. Cooking the chicken separately from the sauce means you get true dry-heat browning instead of meat poached in gravy.',
     ing: [

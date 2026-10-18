@@ -138,7 +138,7 @@ module.exports = {
   'esterhazy-torte': {
     untimed: ['cooling'],
     d: 'A layered cake of walnut meringue and vanilla buttercream glazed with white icing and a chocolate feather pattern.',
-    meta: 'Esterházy Torte, layered walnut meringue cake with vanilla buttercream and a feathered icing, baked for 40 minutes. Twelve servings, ready in 1 hour 40 minutes plus chilling.',
+    meta: 'Esterházy Torte, layered walnut meringue cake with vanilla buttercream and a feathered icing, baked for 40 minutes. Twelve servings, ready in at least 2 hours 40 minutes with chilling.',
     kw: ['esterhazy torte', 'austrian walnut meringue cake', 'esterhazy cake recipe', 'layered meringue cake with buttercream', 'feathered icing cake'],
     why: 'Short and sharp: whisk the whites, fold in the walnuts and bake slowly. That is the first stage of Esterházy Torte, a famous layered cake with thin discs of walnut meringue sandwiched with buttercream and finished with a white glaze marked with a chocolate web.\n\nBake the meringue in four thin discs. Whisk the whites to stiff peaks with the sugar, then fold in ground walnuts and a spoon of flour. **Spread each disc thin and even on baking paper**, drawing a 22 cm circle as a guide, and bake at 160C for about 12 minutes each until pale gold. They crisp as they cool. Peel off the paper when cold.\n\nBeat the buttercream from a custard of milk, yolks, sugar and cornflour, cooled and beaten into soft butter with a spoonful of kirsch. Layer the discs and cream, chill for 1 hour, then cover the top with warm apricot jam and white icing. Pipe lines of melted chocolate across and drag a knife in alternate directions. Chill again before slicing with a hot knife.',
     ing: [
@@ -349,7 +349,7 @@ module.exports = {
 
   'appeltaart': {
     d: 'A deep Dutch apple pie with cinnamon and raisins in a buttery pastry case with a lattice top, baked for 60 minutes.',
-    meta: 'Appeltaart, deep Dutch apple pie with cinnamon, raisins and a lattice top, baked for 60 minutes at 180C. Twelve servings, ready in 1 hour 30 minutes.',
+    meta: 'Appeltaart, deep Dutch apple pie with cinnamon, raisins and a lattice top, baked for 60 minutes at 180C. Twelve servings, ready in 2 hours 20 minutes.',
     kw: ['appeltaart', 'dutch apple pie', 'dutch apple pie with lattice', 'deep apple pie with cinnamon', 'appeltaart recipe'],
     why: 'It looks like an English apple pie and eats like a spiced apple cake, with a taller filling and a firmer crust. Appeltaart is the Dutch apple pie, a deep tart with a lattice top, packed with apples, cinnamon and raisins, served in every cafe with a mound of whipped cream.\n\nThe pastry is a rich butter dough with a little baking powder, which makes it tender enough to push into the tin with your fingers. Use firm, tart apples such as Granny Smith, sliced thin and tossed with cinnamon, sugar, lemon juice and breadcrumbs. **Sprinkle breadcrumbs over the base before the filling**, as they soak up the apple juice and protect the pastry from turning soggy. Pile the apples high, since they shrink as they bake.\n\nCover with a lattice of pastry strips, brush with egg and bake at 180C for 60 minutes, until the crust is deep gold and the apples are tender. Cool for 30 minutes in the tin before cutting. It tastes better the next day, when the juices have set. Serve with whipped cream.',
     ing: [
@@ -526,7 +526,7 @@ module.exports = {
 
   'kapsalon': {
     d: 'Dutch fast food of chips topped with spiced chicken, melted cheese, salad and garlic sauce, baked in one tray for 25 minutes.',
-    meta: 'Kapsalon, Dutch tray of chips with spiced chicken, melted cheese, salad and garlic sauce, baked for 25 minutes. Four servings, ready in 1 hour.',
+    meta: 'Kapsalon, Dutch tray of chips with spiced chicken, melted cheese, salad and garlic sauce, baked for 25 minutes. Four servings, ready in 1 hour 5 minutes.',
     kw: ['kapsalon', 'dutch kapsalon', 'chips with kebab meat and cheese', 'kapsalon with chicken', 'dutch fast food tray'],
     why: 'A table for four and a single tray: kapsalon started in a Rotterdam hairdresser\'s, the name means barber shop, and it has become the best known Dutch fast food. It is a heap of chips under spiced meat, melted cheese and a cold salad, with garlic sauce over the lot.\n\nThe meat here is chicken thighs marinated in cumin, paprika, garlic and yoghurt, then roasted until the edges char. Slice it thin. **Bake the chips first and the cheese last**, so the chips stay crisp and the cheese melts to a bubbling blanket. Use frozen oven chips or cut your own, tossed in oil and roasted for 25 minutes.\n\nSpread the hot chips in a tray, lay the sliced chicken on top, cover with grated Gouda and return to the oven for 5 minutes. Pile shredded lettuce, tomato and cucumber on the cheese and pour the garlic sauce over, with a drizzle of chilli sauce. Eat with a fork straight from the tray. It is a meal that works better with a cold drink at the side.',
     ing: [
@@ -546,8 +546,8 @@ module.exports = {
       '2 tbsp chilli sauce'
     ],
     st: [
-      'Mix the chicken with the yoghurt, garlic, cumin, paprika, oil and salt. Marinate for 15 minutes.',
-      'Heat the oven to 220C. Bake the chips on a tray for 25 minutes. Roast the chicken on a second tray for 20 minutes, turning once, until charred at the edges. Slice thin.',
+      'Mix the chicken with the yoghurt, garlic, cumin, paprika, oil and salt. Marinate, covered, in the fridge for 15 minutes.',
+      'Heat the oven to 220C. Bake the chips on a tray for 25 minutes. At the same time, roast the chicken on a second tray for 20 minutes, turning once, until charred at the edges. Slice thin.',
       'Spread the chips in a large baking dish, lay the chicken on top and cover with the Gouda. Bake for 5 minutes until melted.',
       'Pile the lettuce, tomato and cucumber on top and pour over the garlic and chilli sauces. Serve from the dish.'
     ],
@@ -596,7 +596,7 @@ module.exports = {
 
   'gevulde-koeken': {
     d: 'Dutch round biscuits of buttery spiced dough filled with almond paste, glazed with egg and baked for 20 minutes.',
-    meta: 'Gevulde koeken, Dutch round biscuits filled with almond paste, baked for 20 minutes at 180C. Twelve servings, ready in 1 hour.',
+    meta: 'Gevulde koeken, Dutch round biscuits filled with almond paste, baked for 20 minutes at 180C. Twelve servings, ready in 1 hour 30 minutes.',
     kw: ['gevulde koeken', 'dutch almond filled biscuits', 'almond paste filled cookies', 'gevulde koeken recipe', 'dutch almond biscuits'],
     why: 'The first sign they are done is the smell: butter and almond, with a faint scent of lemon, drifting from the oven. Gevulde koeken are Dutch almond filled biscuits, soft inside and crisp at the edge, with a thick layer of almond paste hidden between two rounds of dough.\n\nThe dough is a rich shortcrust, made from butter, sugar, flour, an egg and a pinch of baking powder, and it is chilled for 30 minutes. The filling is almond paste, beaten with a little egg and lemon zest until it can be shaped into discs. **Roll the paste into discs just smaller than the biscuit**, so there is a border of dough to seal round the edge. Press them between two layers of dough in a greased ring or muffin tin.\n\nBrush the tops with beaten egg and press an almond into the middle. Bake at 180C for 20 minutes, until the tops are rich gold and the edges are firm. Cool in the tin for 10 minutes. The biscuits keep for a week in a tin and the paste gets softer and more moist with time.',
     ing: [

@@ -83,7 +83,7 @@ module.exports = {
     st: [
       'Mix the flour, caster sugar, yeast and salt, then work in the warm milk and egg yolks.',
       'Knead 8 minutes, work in the softened butter, and knead 4 minutes more. Prove 90 minutes.',
-      'Simmer the poppy seeds in the filling milk for 25 minutes, then drain thoroughly.',
+      'While the dough proves, simmer the poppy seeds in the filling milk for 25 minutes, then drain thoroughly.',
       'Grind the drained seeds, then grind them a second time — they should turn dark and pasty.',
       'Cook the ground seeds with the filling sugar, honey and butter for 8 minutes, stirring.',
       'Stir in the raisins, walnuts and candied peel and cool completely.',
@@ -768,6 +768,7 @@ module.exports = {
   },
 
   'sernik': {
+    cookMax: 80,
     d: 'A dense baked cheesecake made with twaróg rather than cream cheese, which makes it drier and more interesting.',
     meta: 'Polish sernik baked cheesecake of twaróg curd cheese, eggs and sugar on a shortcrust base, baked low and cooled in the oven.',
     kw: ['sernik', 'sernik recipe', 'polish cheesecake', 'twarog cheesecake', 'baked curd cheesecake'],

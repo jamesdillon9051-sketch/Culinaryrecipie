@@ -28,7 +28,7 @@ module.exports = {
       'Boil the eggs for 10 minutes, cool in cold water and peel.',
       'Chop the herbs finely by hand. Mash 2 of the egg yolks with the mustard and vinegar and stir in the soured cream and yoghurt.',
       'Fold in the herbs, the chopped whites of 2 eggs, the salt and pepper. Chill for 30 minutes.',
-      'Boil the potatoes for 20 minutes. Serve the sauce cold with the potatoes and the remaining eggs, halved.'
+      'While the sauce chills, boil the potatoes for 20 minutes. Serve the sauce cold with the potatoes and the remaining eggs, halved.'
     ],
     tips: [
       'Chop the herbs by hand to keep the colour.',
@@ -310,7 +310,7 @@ module.exports = {
 
   'pumpernickel': {
     d: 'A dark, moist, sweet rye bread from coarse rye, treacle and cocoa, baked low for 90 minutes in a covered tin.',
-    meta: 'Pumpernickel, dark moist rye bread with treacle and cocoa baked in a covered tin, baked for 90 minutes. Twelve slices, ready in 1 hour 50 minutes.',
+    meta: 'Pumpernickel, dark moist rye bread with treacle and cocoa baked in a covered tin, baked for 90 minutes. Twelve slices, ready in 9 hours 50 minutes, resting included.',
     kw: ['pumpernickel', 'german pumpernickel bread', 'dark rye bread with treacle', 'pumpernickel at home', 'pumpernickel recipe'],
     why: 'Flour, water, treacle, cocoa: a short list, and a long bake. The authentic pumpernickel of Westphalia is baked for many hours at a very low heat, which turns the rye almost black and sweet. This home version cuts the time to 90 minutes and uses treacle and cocoa for the colour and sweetness.\n\nUse coarse rye meal if you can find it, or wholemeal rye flour with a little cracked wheat. Mix the dough with a spoon into a sticky batter, with no rise to wait for. **Cover the tin tightly with foil**, because the steam is what keeps the crumb moist and dark. A pan of water on the shelf below helps.\n\nBake at 150C for 90 minutes. A skewer should come out clean. Cool in the tin and wrap the loaf in a cloth for a day before slicing, thin as paper. It should be dense, moist and a little sweet. Serve with smoked salmon, cream cheese or sharp cheese. It keeps well for a week.',
     ing: [
@@ -466,7 +466,7 @@ module.exports = {
     ],
     st: [
       'Mix the flour, yeast, 1/2 tsp salt, water and oil and knead for 8 minutes. Cover and leave to rise for 1 hour.',
-      'Cook the onions in the butter over low heat for 25 minutes until completely soft. Fry the bacon until crisp. Cool both.',
+      'While the dough rises, cook the onions in the butter over low heat for 25 minutes until completely soft. Fry the bacon until crisp. Cool both.',
       'Heat the oven to 200C. Mix the onions, bacon, soured cream, eggs, caraway, 1 tsp salt and pepper.',
       'Press the dough into a lined 30 x 40 cm tray with a rim. Spread the filling over.',
       'Bake for 40 minutes until golden and set.'
@@ -520,7 +520,7 @@ module.exports = {
 
   'mohnkuchen': {
     d: 'A moist poppy seed cake with a vanilla and milk filling, baked for 50 minutes on a sweet pastry base.',
-    meta: 'Mohnkuchen, moist German poppy seed cake with a sweet pastry base, baked for 50 minutes at 180C. Twelve servings, ready in 1 hour 20 minutes.',
+    meta: 'Mohnkuchen, moist German poppy seed cake with a sweet pastry base, baked for 50 minutes at 180C. Twelve servings, ready in 2 hours.',
     kw: ['mohnkuchen', 'german poppy seed cake', 'poppy seed filling cake', 'mohnkuchen recipe', 'poppy seed tray cake'],
     why: 'It looks like a plain pale cake and cuts to show a thick, dark, damp layer of poppy seeds. Mohnkuchen is the German poppy seed cake, with a sweet pastry base, a filling made from ground poppy seeds simmered in milk, and sometimes a streusel on top.\n\nGrind the seeds first, in a coffee grinder or a poppy seed mill, because whole seeds will not release their flavour. Simmer the ground seeds in milk with sugar, semolina and butter for 5 minutes, until thick, and cool the filling. **Stir in the beaten egg whites at the end**, to lighten the filling so it does not set like a brick. Add lemon zest and a splash of rum.\n\nLine a tin with the pastry, spoon in the filling and bake at 180C for 50 minutes, until the top is firm and the pastry golden. Cool in the tin and dust with icing sugar. The cake is moist, dark and slightly sweet, with a faint bitter note, and it keeps for 4 days. Serve it with coffee or a sweet wine.',
     ing: [
@@ -592,7 +592,7 @@ module.exports = {
 
   'prinzregententorte': {
     d: 'A tall Bavarian cake of thin sponge layers filled with chocolate buttercream and coated in chocolate, chilled for 1 hour.',
-    meta: 'Prinzregententorte, tall Bavarian layer cake with chocolate buttercream and a dark glaze, baked for 45 minutes. Twelve servings, ready in 1 hour 45 minutes plus chilling.',
+    meta: 'Prinzregententorte, tall Bavarian layer cake with chocolate buttercream and a dark glaze, baked for 45 minutes. Twelve servings, ready in 2 hours 45 minutes with chilling.',
     kw: ['prinzregententorte', 'bavarian layer cake', 'chocolate buttercream layer cake german', 'many layer sponge cake', 'prinzregententorte recipe'],
     why: 'A cake for twelve at a big occasion, and one that takes patience: Prinzregententorte is a Bavarian layer cake of thin sponge sheets, traditionally eight of them, sandwiched with chocolate buttercream and covered in chocolate glaze. Baking all the layers is the long part.\n\nThe batter is a whisked sponge of eggs, sugar, flour and a little melted butter. Spread a thin layer, about 5 mm, over the base of a 24 cm springform tin and bake for about 6 minutes at 220C, until pale gold. **Work with one tin and reuse it**, since each layer bakes so quickly. Lift out and cool on a rack before you bake the next.\n\nBeat the buttercream from butter, cocoa, icing sugar and a little melted chocolate until smooth. Spread it between the layers, press them together and cover the top and sides. Chill for 1 hour. Pour the dark chocolate glaze over the cake and let it set. Slice with a knife dipped in hot water, to cut through the layers.',
     ing: [
@@ -631,7 +631,7 @@ module.exports = {
   'frankfurter-kranz': {
     untimed: ['cooling'],
     d: 'A ring shaped sponge cake layered with buttercream and jam and coated with caramelised nut brittle, in 1 hour 45 minutes plus chilling.',
-    meta: 'Frankfurter Kranz, ring shaped German sponge cake with buttercream, jam and nut brittle, baked for 45 minutes. Twelve servings, ready in 1 hour 45 minutes plus chilling.',
+    meta: 'Frankfurter Kranz, ring shaped German sponge cake with buttercream, jam and nut brittle, baked for 45 minutes. Twelve servings, ready in at least 3 hours 45 minutes with chilling.',
     kw: ['frankfurter kranz', 'frankfurt crown cake', 'german ring cake with buttercream', 'sponge ring with nut brittle', 'frankfurter kranz recipe'],
     why: 'This is what to make in the lead up to Christmas, when the ring shape suits the season and the praline coating glitters. Frankfurter Kranz is a ring cake of three sponge layers, filled with jam and vanilla buttercream and rolled in crunchy nut brittle.\n\nThe sponge is mixed in a ring tin with a hole in the middle, so it bakes evenly. Beat the eggs and sugar until they are pale and tripled in volume, then fold in the flour and starch with a spatula. **Do not open the oven door for the first 30 minutes**, as the cake falls if it is disturbed. When it is cool, slice it into three layers with a serrated knife.\n\nFor the brittle, melt sugar until amber, stir in chopped hazelnuts, pour onto a tray and cool, then crush with a rolling pin. Spread the layers with jam and buttercream, press them together and coat the outside with more buttercream. Roll the sides in the brittle. Decorate with piped rosettes and a glacé cherry on each. Chill for 2 hours before cutting.',
     ing: [
@@ -672,7 +672,7 @@ module.exports = {
   'donauwelle': {
     untimed: ['cooling the cake and the custard', 'chilling until the chocolate sets'],
     d: 'A marbled chocolate and vanilla sponge with sour cherries, topped with buttercream and dark chocolate glaze, baked for 45 minutes.',
-    meta: 'Donauwelle, German marbled sponge tray cake with cherries, buttercream and chocolate, baked for 45 minutes. Sixteen servings, ready in 1 hour 25 minutes plus chilling.',
+    meta: 'Donauwelle, German marbled sponge tray cake with cherries, buttercream and chocolate, baked for 45 minutes. Sixteen servings, ready in at least 2 hours 25 minutes with chilling.',
     kw: ['donauwelle', 'danube wave cake', 'german cherry chocolate tray cake', 'marbled sponge with cherries', 'donauwelle recipe'],
     why: 'Compare it with a Black Forest gateau and you will find the same cherries and chocolate in a flat cake that cuts into tidy squares. Donauwelle, the Danube wave, gets its name from the wavy pattern of the dark and light batter, which looks like the surface of a river.\n\nMake one batter and divide it in half. Stir cocoa and a splash of milk into one half. Spread the light batter in a lined tin, spoon the dark batter on top and spread it gently. **Press the sour cherries into the batter in rows** and drag the tip of a knife through to make waves. They sink in as the cake bakes and give a juicy sweet and sour layer.\n\nBake at 180C for 45 minutes and cool completely. Spread with a layer of vanilla buttercream and chill for 1 hour, until firm. Pour over a dark chocolate glaze and score it with a fork for the wave pattern. Cut into squares with a knife dipped in hot water. It keeps for 3 days in the fridge.',
     ing: [
@@ -810,7 +810,7 @@ module.exports = {
   'mandelhornchen': {
     untimed: ['setting'],
     d: 'Almond crescent biscuits of marzipan, sugar and egg white rolled in flaked almonds and dipped in chocolate, baked for 20 minutes.',
-    meta: 'Mandelhörnchen, German almond crescents of marzipan rolled in flaked almonds, baked for 20 minutes. Twenty four biscuits, ready in 1 hour 10 minutes.',
+    meta: 'Mandelhörnchen, German almond crescents of marzipan rolled in flaked almonds, baked for 20 minutes. Twenty four biscuits, ready in at least 1 hour 50 minutes, chilling included.',
     kw: ['mandelhornchen', 'german almond crescents', 'marzipan almond horns', 'almond horn biscuits', 'mandelhoernchen recipe'],
     why: 'Chill the dough for a full hour. That is the single most useful instruction for mandelhörnchen, the German almond crescents, because the paste is sticky and falls apart if it is warm. They are made of marzipan, sugar, egg white and almonds, and they are chewy in the middle with a crisp, nutty crust.\n\nGrate the marzipan or crumble it and work it with the icing sugar and egg white to a smooth paste. Wrap and chill for 1 hour. **Wet your hands before shaping**, because water stops the paste sticking to your fingers. Roll pieces into small sausages, press them into a dish of flaked almonds and coat all over, then bend into crescents on the tray.\n\nBake at 170C for 20 minutes until the almonds are deep gold, and cool on the tray, as the crescents are soft while they are hot. Dip the two ends in melted dark chocolate and let them set on paper. They keep for 2 weeks in a tin, and they are among the best of the Christmas biscuits.',
     ing: [

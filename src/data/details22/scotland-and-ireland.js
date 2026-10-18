@@ -210,7 +210,7 @@ module.exports = {
   },
 
   'scotch-pie': {
-    d: 'A small, hand-raised hot-water-crust pie of peppery mutton or lamb, with a hollow top for the gravy. The football-terrace classic, in an hour and a half.',
+    d: 'A small, hand-raised hot-water-crust pie of peppery mutton or lamb, with a hollow top for the gravy. The football-terrace classic, in 1 hour 30 minutes and a half.',
     meta: 'Scotch pie: a small hand-raised hot-water-crust pie of peppery, mace-scented lamb with a hollow top for gravy or beans. The Scottish bakery classic.',
     kw: ['scotch pie', 'scotch pie recipe', 'scottish mutton pie', 'hot water crust lamb pie', 'football scotch pie'],
     why: 'The pastry is a hot water crust, made by melting fat into boiling water and stirring it into flour, which makes a dough that is pliable when warm and sets rigid when cool, so that it can be moulded round a jar into a free-standing case. That is why a Scotch pie has straight, sturdy sides and a top that sits slightly below the rim, a hollow to be filled with gravy, beans or mash. The filling is minced lamb or mutton seasoned heavily with black pepper and mace and cooked only in the pie itself.',

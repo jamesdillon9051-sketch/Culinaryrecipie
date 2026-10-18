@@ -40,9 +40,10 @@ module.exports = {
   },
 
   'tarte-a-la-rhubarbe': {
+    cookMax: 60,
     untimed: ['cooling'],
     d: 'Rhubarb baked in a sweet shortcrust case with an almond and egg custard, for 40 minutes at 190C.',
-    meta: 'Tarte à la rhubarbe, rhubarb and almond custard in a sweet pastry case, baked for 40 minutes. Eight servings, ready in 1 hour 5 minutes.',
+    meta: 'Tarte à la rhubarbe, rhubarb and almond custard in a sweet pastry case, baked for 40 minutes. Eight servings, ready in at least 2 hours.',
     kw: ['tarte a la rhubarbe', 'french rhubarb tart', 'rhubarb tart with almond custard', 'rhubarb custard tart', 'sweet pastry rhubarb tart'],
     why: 'Why does rhubarb sometimes turn a tart into a puddle? Because it is mostly water, and it gives that water up in the oven. The fix is to give the juice somewhere to go: a layer of ground almonds under the fruit soaks it up and keeps the pastry crisp.\n\nCut the rhubarb into 3 cm lengths and toss it with sugar for 20 minutes beforehand, then drain off the pink liquid. **Keep that juice and boil it down** into a syrup to brush over the finished tart, because it carries all the colour and flavour. The pastry is a simple sweet shortcrust, blind baked until pale gold so the custard does not make it soggy.\n\nSpread ground almonds over the base, pack the rhubarb in tight rows and pour over a custard of eggs, cream and sugar. Bake until the custard is just set, with a slight wobble, and the rhubarb is tender. Cool before slicing, or the custard will run. It is best served just warm or cold, with a spoonful of cream or crème fraîche.',
     ing: [
@@ -78,7 +79,7 @@ module.exports = {
 
   'tarte-aux-abricots': {
     d: 'Apricot halves arranged in a shortcrust case on almond cream and baked for 40 minutes, then glazed with warm apricot jam.',
-    meta: 'Tarte aux abricots, fresh apricots on almond cream in a pastry case, baked for 40 minutes. Eight servings, ready in 1 hour 5 minutes.',
+    meta: 'Tarte aux abricots, fresh apricots on almond cream in a pastry case, baked for 40 minutes. Eight servings, ready in 1 hour 25 minutes.',
     kw: ['tarte aux abricots', 'french apricot tart', 'apricot and almond cream tart', 'apricot tart with frangipane', 'fresh apricot tart'],
     why: 'Pack them tight. That is the one rule, and the part people skip, because apricots shrink as they bake and a loosely arranged tart looks half empty when it comes out. Cut the fruit in half, remove the stones and set the halves cut side up in tight rows, so the curved backs face down into the almond cream.\n\nThe cream is butter, sugar, ground almonds and an egg beaten smooth, and it puffs gently around the fruit. It acts like a sponge for the juice, so the pastry stays crisp. **Use apricots that are ripe but still firm.** Soft ones collapse into jam, and hard ones stay sour and dry. The ones that give very slightly when pressed are right.\n\nBlind bake the case first until pale gold, then fill and bake until the cream is golden and the apricot edges have caramelised. A glaze of warmed apricot jam brushed on while the tart is hot gives it a glossy finish and a little extra sweetness. Serve warm or at room temperature, with cream or ice cream.',
     ing: [
@@ -184,7 +185,7 @@ module.exports = {
 
   'gateau-breton': {
     d: 'A thick, buttery, golden cake with a crisp edge and a soft centre, scored with a lattice and baked for 40 minutes.',
-    meta: 'Gâteau breton, a thick buttery cake with a crisp lattice top, baked for 40 minutes. Ten servings, ready in 1 hour.',
+    meta: 'Gâteau breton, a thick buttery cake with a crisp lattice top, baked for 40 minutes. Ten servings, ready in 1 hour 45 minutes.',
     kw: ['gateau breton', 'breton butter cake', 'french salted butter cake', 'thick buttery shortbread cake', 'gateau breton recipe'],
     why: 'Most home versions come out too dry, and the fix is to resist the urge to bake it until it looks done. A gâteau breton is closer to a thick shortbread than a sponge, and it should be pale gold and slightly soft in the middle when it comes out of the oven.\n\nThe batter is soft and sticky, made from butter, sugar, egg yolks and flour, and it is spread into a tart ring or a buttered tin and levelled. Do not knead it; just mix until it comes together. **Chill the batter for 30 minutes before baking**, which firms the butter and helps the cake keep its shape and its tender crumb. Brush the top with beaten egg yolk and mark a diamond pattern with a fork, pressing lightly so it does not drag.\n\nSalted butter is the traditional choice, and it is the flavour that makes the cake taste of itself. If you use unsalted butter, add a generous pinch of salt. Bake until the top is deep gold, then cool in the tin so it firms up. Slice it into wedges, and eat it with tea or coffee.',
     ing: [

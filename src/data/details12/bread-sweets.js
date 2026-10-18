@@ -28,7 +28,7 @@ module.exports = {
       'Mix the flour, yeast, salt and sugar. Add the oil and water and bring together into a soft, slightly tacky dough.',
       'Knead 10 minutes until smooth and elastic. It should stay soft — resist adding flour.',
       'Cover and leave in a warm place 90 minutes, until doubled in size.',
-      'Put a baking stone or heavy upturned tray on the top shelf and heat the oven to its maximum, at least 250°C / 480°F, for a full 30 minutes.',
+      'While the dough finishes rising, put a baking stone or heavy upturned tray on the top shelf and heat the oven to its maximum, at least 250°C / 480°F, for a full 30 minutes.',
       'Divide the dough into 8 and roll each into a ball. Rest them 10 minutes under a cloth, then roll each into a 5 mm disc of even thickness.',
       'Slide two at a time onto the hot stone. They will balloon within 90 seconds.',
       'Bake 2 to 3 minutes in total, until fully inflated and barely coloured. Wrap the baked loaves in a cloth immediately — this softens them as they cool.'

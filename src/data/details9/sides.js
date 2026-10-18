@@ -113,6 +113,7 @@ module.exports = {
   },
 
   'green-bean-casserole': {
+    cookMax: 65,
     d: 'The Thanksgiving standard rebuilt from ingredients rather than tins: a real mushroom velouté, blanched beans that still snap, and fried shallots on top. It takes twenty minutes longer and it is a different dish.',
     meta: 'Green bean casserole made from scratch — a real mushroom sauce, blanched beans and crisp fried shallots, no tinned soup.',
     kw: ['green bean casserole', 'green bean casserole from scratch', 'thanksgiving side dish', 'mushroom green beans'],
@@ -160,6 +161,7 @@ module.exports = {
   },
 
   'sweet-potato-casserole': {
+    cookMax: 105,
     d: 'Roasted rather than boiled sweet potatoes, so the sugars concentrate instead of leaching into the water, under a pecan streusel rather than marshmallows. Sweet, but not a pudding pretending to be a side.',
     meta: 'Sweet potato casserole with roasted potatoes and a pecan streusel top — deeper flavour, and not as sweet as the marshmallow version.',
     kw: ['sweet potato casserole', 'sweet potato bake', 'thanksgiving sweet potatoes', 'pecan streusel sweet potato'],
@@ -226,7 +228,7 @@ module.exports = {
     st: [
       'Spread the bread cubes on two trays and dry in a 150°C / 300°F oven for 25 minutes, turning once, until crisp and pale gold but not browned. Tip into a very large bowl.',
       'Raise the oven to 190°C / 375°F.',
-      'Melt the butter in a large frying pan and cook the onions and celery over medium heat for 15 minutes, until soft, sweet and lightly golden. Do not rush this.',
+      'While the bread dries, melt the butter in a large frying pan and cook the onions and celery over medium heat for 15 minutes, until soft, sweet and lightly golden. Do not rush this.',
       'Add the garlic, sage and thyme and cook 2 minutes more, then stir in the parsley, salt and pepper.',
       'Scrape the whole buttery mixture over the bread and toss thoroughly.',
       'Pour over two-thirds of the hot stock and fold gently until absorbed, then add the rest a ladle at a time until the bread is thoroughly saturated but not sitting in a pool. It should look far wetter than seems right.',

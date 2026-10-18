@@ -63,7 +63,7 @@ module.exports = [
 
   /* Mains */
   c('hachis-parmentier', 'Hachis Parmentier', 'French', 'Dinner', 'Easy', 30, 216, 6, 0, 0, [], ['new'], 'Hachis parmentier french shepherds pie'),
-  c('poulet-basquaise', 'Poulet Basquaise', 'French', 'Dinner', 'Easy', 25, 55, 6, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'Poulet basquaise chicken peppers tomato'),
+  c('poulet-basquaise', 'Poulet Basquaise', 'French', 'Dinner', 'Easy', 25, 90, 6, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'Poulet basquaise chicken peppers tomato'),
   c('poule-au-pot', 'Poule au Pot', 'French', 'Dinner', 'Medium', 40, 150, 8, 0, 0, [], ['new'], 'Poule au pot stuffed boiled chicken vegetables'),
   c('navarin-printanier', "Navarin d'Agneau", 'French', 'Dinner', 'Medium', 30, 105, 6, 0, 0, ['Dairy-Free'], ['new'], 'Navarin printanier lamb spring vegetables'),
   c('daube-provencale', 'Daube Provençale', 'French', 'Dinner', 'Easy', 30, 210, 6, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'Daube provencale beef red wine olives'),
@@ -79,7 +79,7 @@ module.exports = [
   c('rognons-a-la-moutarde', 'Rognons à la Moutarde', 'French', 'Dinner', 'Medium', 15, 15, 4, 0, 0, ['Gluten-Free'], ['new'], 'Rognons moutarde kidneys mustard cream'),
   c('foie-de-veau', 'Foie de Veau Lyonnaise', 'French', 'Quick Meals', 'Easy', 10, 15, 4, 0, 0, ['Gluten-Free'], ['new'], 'Foie de veau lyonnaise calf liver onions'),
   c('boudin-noir-pommes', 'Boudin Noir aux Pommes', 'French', 'Quick Meals', 'Easy', 10, 20, 4, 0, 0, ['Gluten-Free'], ['new'], 'Boudin noir apples black pudding french'),
-  c('endives-au-jambon', 'Endives au Jambon', 'French', 'Dinner', 'Easy', 20, 45, 4, 0, 0, [], ['new'], 'Endives au jambon chicory ham bechamel gratin'),
+  c('endives-au-jambon', 'Endives au Jambon', 'French', 'Dinner', 'Easy', 20, 65, 4, 0, 0, [], ['new'], 'Endives au jambon chicory ham bechamel gratin'),
   c('quenelles-de-brochet', 'Quenelles de Brochet', 'French', 'Dinner', 'Hard', 50, 35, 6, 0, 0, [], ['new'], 'Quenelles de brochet pike dumplings nantua'),
   c('bouchee-a-la-reine', 'Bouchée à la Reine', 'French', 'Dinner', 'Medium', 35, 40, 6, 0, 0, [], ['new'], 'Bouchee a la reine vol au vent chicken'),
   c('moules-frites', 'Moules Frites', 'French', 'Dinner', 'Medium', 25, 30, 4, 0, 0, ['Gluten-Free'], ['new'], 'Moules frites mussels chips belgian french'),
@@ -92,7 +92,7 @@ module.exports = [
   c('aligot', 'Aligot', 'French', 'Dinner', 'Medium', 20, 35, 6, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'Aligot stretchy cheese mashed potato aubrac'),
   c('truffade', 'Truffade', 'French', 'Dinner', 'Easy', 20, 35, 4, 0, 0, ['Gluten-Free'], ['new'], 'Truffade auvergne potato cheese cake'),
   c('piperade', 'Pipérade', 'French', 'Lunch', 'Easy', 20, 30, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'Piperade basque peppers tomato eggs'),
-  c('gratin-de-courgettes', 'Gratin de Courgettes', 'French', 'Dinner', 'Easy', 20, 50, 6, 0, 0, ['Vegetarian'], ['new'], 'Gratin de courgettes rice cheese bake'),
+  c('gratin-de-courgettes', 'Gratin de Courgettes', 'French', 'Dinner', 'Easy', 20, 85, 6, 0, 0, ['Vegetarian'], ['new'], 'Gratin de courgettes rice cheese bake'),
   c('gratin-de-macaronis', 'Gratin de Macaronis', 'French', 'Dinner', 'Easy', 20, 40, 6, 0, 0, ['Vegetarian'], ['new'], 'Gratin de macaronis french macaroni cheese'),
   c('salade-frisee', 'Frisée aux Lardons', 'French', 'Lunch', 'Easy', 15, 15, 4, 0, 0, [], ['new'], 'Frisee aux lardons poached egg bacon salad'),
   c('omelette-aux-fines-herbes', 'Omelette aux Fines Herbes', 'French', 'Quick Meals', 'Medium', 10, 5, 2, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'French rolled omelette fines herbes'),
@@ -101,7 +101,7 @@ module.exports = [
   c('pain-de-campagne', 'Pain de Campagne', 'French', 'Baking', 'Hard', 40, 45, 10, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free'], ['new'], 'Pain de campagne country sourdough loaf'),
   c('fougasse', 'Fougasse', 'French', 'Baking', 'Medium', 30, 25, 8, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free'], ['new'], 'Fougasse provencal leaf bread olives'),
   c('pain-aux-noix', 'Pain aux Noix', 'French', 'Baking', 'Medium', 30, 40, 10, 0, 0, ['Vegetarian', 'Dairy-Free'], ['new'], 'Pain aux noix walnut bread loaf'),
-  c('tarte-flambee', 'Tarte Flambée', 'French', 'Dinner', 'Medium', 30, 12, 4, 0, 0, [], ['new'], 'Tarte flambee flammekueche alsace bacon'),
+  c('tarte-flambee', 'Tarte Flambée', 'French', 'Dinner', 'Medium', 30, 20, 4, 0, 0, [], ['new'], 'Tarte flambee flammekueche alsace bacon'),
   c('pan-bagnat', 'Pan Bagnat', 'French', 'Lunch', 'Easy', 25, 0, 4, 0, 0, ['Dairy-Free'], ['new'], 'Pan bagnat nicoise sandwich tuna'),
   c('galettes-bretonnes', 'Galettes Bretonnes', 'French', 'Lunch', 'Medium', 20, 25, 4, 0, 0, [], ['new'], 'Galette bretonne buckwheat crepe egg ham'),
   c('saucisson-brioche', 'Saucisson en Brioche', 'French', 'Appetizers', 'Hard', 40, 45, 8, 0, 0, [], ['new'], 'Saucisson brioche lyonnais sausage baked'),
@@ -109,8 +109,8 @@ module.exports = [
 
   /* Desserts and pâtisserie */
   c('tarte-au-citron', 'Tarte au Citron', 'French', 'Desserts', 'Medium', 40, 45, 8, 0, 0, ['Vegetarian'], ['new'], 'Tarte au citron lemon tart french'),
-  c('tarte-aux-pommes', 'Tarte aux Pommes', 'French', 'Desserts', 'Medium', 35, 50, 8, 0, 0, ['Vegetarian'], ['new'], 'Tarte aux pommes apple tart fanned'),
-  c('tarte-normande', 'Tarte Normande', 'French', 'Desserts', 'Medium', 30, 45, 8, 0, 0, ['Vegetarian'], ['new'], 'Tarte normande apple calvados custard tart'),
+  c('tarte-aux-pommes', 'Tarte aux Pommes', 'French', 'Desserts', 'Medium', 35, 60, 8, 0, 0, ['Vegetarian'], ['new'], 'Tarte aux pommes apple tart fanned'),
+  c('tarte-normande', 'Tarte Normande', 'French', 'Desserts', 'Medium', 30, 65, 8, 0, 0, ['Vegetarian'], ['new'], 'Tarte normande apple calvados custard tart'),
   c('flan-parisien', 'Flan Parisien', 'French', 'Desserts', 'Medium', 30, 50, 8, 0, 0, ['Vegetarian'], ['new'], 'Flan parisien custard tart thick slice'),
   c('far-breton', 'Far Breton', 'French', 'Desserts', 'Easy', 15, 45, 8, 0, 0, ['Vegetarian'], ['new'], 'Far breton prune custard cake brittany'),
   c('kouign-amann', 'Kouign-Amann', 'French', 'Baking', 'Hard', 60, 40, 8, 0, 0, ['Vegetarian'], ['new'], 'Kouign amann caramelised butter pastry breton'),

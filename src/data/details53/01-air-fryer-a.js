@@ -13,6 +13,7 @@
 
 module.exports = {
   'air-fryer-baked-potato': {
+    cookMax: 45,
     d: 'Scrubbed baking potatoes, oiled and salted, cooked in the air fryer for 40 minutes until the skin crackles and the middle is soft.',
     meta: 'Air fryer baked potato with a crisp salted skin and a fluffy middle. Two servings, ready in 45 minutes with 5 minutes of prep.',
     kw: ['air fryer baked potato', 'baked potato in air fryer', 'air fryer jacket potato', 'crispy skin baked potato', 'air fryer baked potatoes'],

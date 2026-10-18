@@ -71,7 +71,7 @@ module.exports = {
 
   'pasta-alla-norma': {
     d: 'Catania\'s great pasta: fried aubergine folded into a bright tomato sauce and finished with salty ricotta salata. Frying the aubergine properly is the whole dish.',
-    meta: 'Sicilian pasta alla Norma with fried aubergine, tomato and ricotta salata. A vegetarian classic in under an hour.',
+    meta: 'Sicilian pasta alla Norma with fried aubergine, tomato and ricotta salata. A vegetarian classic in 1 hour 30 minutes.',
     kw: ['pasta alla norma recipe', 'sicilian aubergine pasta', 'vegetarian pasta', 'eggplant pasta'],
     why: 'Aubergine is a sponge: salted and drained first, its cell structure collapses and it absorbs far less oil while frying, which is the difference between silky and greasy. Ricotta salata is pressed and aged rather than fresh, so it grates into salty shards instead of melting into the sauce.',
     ing: [

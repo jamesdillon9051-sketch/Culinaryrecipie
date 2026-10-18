@@ -161,7 +161,7 @@ module.exports = {
 
   'leg-of-lamb': {
     d: 'A bone-in leg of lamb studded with garlic and rosemary and roasted for 1 hour 45 minutes, then rested until pink and tender.',
-    meta: 'Roast leg of lamb with garlic and rosemary, cooked for 1 hour 45 minutes. Eight servings, ready in 2 hours 5 minutes.',
+    meta: 'Roast leg of lamb with garlic and rosemary, cooked for 1 hour 45 minutes. Eight servings, ready in 2 hours 25 minutes.',
     kw: ['leg of lamb', 'roast leg of lamb', 'garlic and rosemary leg of lamb', 'sunday roast lamb', 'bone in leg of lamb'],
     why: 'The first sign it is ready is the smell: rosemary and garlic warming in lamb fat, drifting through the house for an hour. A roast leg of lamb is a Sunday dish in the best sense, a joint that feeds eight and needs very little work beyond a good rub and some patience.\n\nTake the lamb out of the fridge an hour before cooking so it is not cold in the middle. Make small slits all over the surface with a sharp knife, and push in slivers of garlic and small sprigs of rosemary. The fat under the skin bastes the meat while it roasts, and the herbs perfume it.\n\n**Start hot, then turn it down.** A blast of 220C for 20 minutes browns the outside, then 170C for the remaining 85 minutes cooks it through without drying. For pink lamb, a thermometer in the thickest part should read 57C when it comes out; for medium, 63C.\n\nRest the joint under foil for at least 20 minutes. It will rise a few degrees and the juices will redistribute. Carve across the grain, and make a quick gravy from the roasting tin with a splash of red wine and stock.',
     ing: [
@@ -194,7 +194,7 @@ module.exports = {
 
   'lemon-roast-chicken': {
     d: 'A whole chicken roasted for 1 hour 30 minutes with lemons, garlic and thyme in the cavity and butter under the skin.',
-    meta: 'Lemon roast chicken with garlic and thyme, roasted for 1 hour 30 minutes. Six servings, ready in 1 hour 45 minutes.',
+    meta: 'Lemon roast chicken with garlic and thyme, roasted for 1 hour 30 minutes. Six servings, ready in 2 hours.',
     kw: ['lemon roast chicken', 'lemon and thyme roast chicken', 'whole roast chicken', 'lemon garlic roast chicken', 'sunday roast chicken'],
     why: 'Chicken, lemon, butter, thyme: four things, and a bird that fills the house with the scent of Sunday lunch. The recipe is old and very simple, which is why it works so well. Everything is aimed at keeping the breast juicy and getting the skin properly crisp.\n\nBring the chicken to room temperature for 45 minutes before roasting, and dry the skin thoroughly. Mix soft butter with lemon zest, crushed garlic and thyme leaves, then ease your fingers between the skin and the breast and spread most of it underneath. As the butter melts it bastes the meat from the inside.\n\n**Put the squeezed lemon halves and a head of garlic in the cavity.** They steam as the bird roasts and scent the meat, and the juice that collects in the tin makes a bright base for the gravy. Truss the legs together with string so the bird cooks evenly.\n\nRoast at 200C for 1 hour 30 minutes, or until the juices run clear from the thigh and a thermometer reads 75C. Rest the chicken for 15 minutes, which gives you time to make the gravy and finish the vegetables.',
     ing: [
@@ -372,7 +372,7 @@ module.exports = {
   },
 
   'one-pot-fried-rice': {
-    d: 'Day-old rice, eggs, peas and carrots stir-fried in one pan with soy sauce and sesame oil in 15 minutes.',
+    d: 'Day-old rice, eggs, peas and carrots stir-fried in one pan for 15 minutes with soy sauce and sesame oil.',
     meta: 'One pot fried rice with egg, peas and soy sauce. Four servings, ready in 25 minutes.',
     kw: ['one pot fried rice', 'egg fried rice', 'chinese fried rice', 'fried rice with peas and carrots', 'fried rice recipe'],
     why: 'The first sign it is going right is the sound: a sharp sizzle as the cold rice hits the hot oil, and the grains jumping rather than sticking. Fried rice is a way of using up leftover rice, and the best versions start with rice that was cooked the day before and chilled overnight.\n\nFresh rice is too wet and soft, and it clumps into a paste in the pan. Cooked rice that has been left uncovered in the fridge dries slightly and firms up, so the grains separate and fry. If you have to use fresh rice, spread it on a tray and chill it in the freezer for 20 minutes.\n\n**Use the pan very hot and work fast.** A wok or a large frying pan over high heat gives the grains a toasty edge. Stir-fry the vegetables for a minute, push them aside, scramble the eggs in the gap, and then bring everything together with the rice.\n\nSeason in stages: soy sauce goes in first around the edges of the pan, where it sizzles and caramelises before coating the rice, and sesame oil goes in last for aroma. Finish with spring onions and a pinch of white pepper.',

@@ -104,7 +104,8 @@ module.exports = {
   },
 
   'potato-skins': {
-    d: 'Baked potato halves hollowed and crisped, then filled with cheese and bacon and baked again. Four servings in 1 hour 5 minutes.',
+    cookMax: 80,
+    d: 'Baked potato halves hollowed and crisped, then filled with cheese and bacon and baked again. Four servings in 1 hour 30 minutes to 1 hour 35 minutes.',
     meta: 'Potato skins: baked potato halves crisped and filled with cheese and bacon, then baked again. A cheap snack or supper for four, 1 hour 5.',
     kw: ['potato skins', 'loaded potato skins', 'budget cheese and bacon potato skins', 'easy baked potato skins', 'cheap party snack'],
     why: 'Bake the potatoes whole for an hour, until the skins are crisp and the insides soft. A shortcut in the microwave gives a soft skin that never crisps.\n\nOnce cool enough to handle, cut them in half and scoop out the middle, leaving a 5 mm wall. The scooped potato is not wasted; mash it with butter and use it elsewhere.\n\nBrush the shells, inside and out, with oil and bake them cut side up for 10 minutes. **This is what makes them crisp**, since the fat fries the flesh left on the skin.\n\nFill with cheese and cooked bacon, then bake for 8 minutes more until the cheese is melted and bubbling. Serve with soured cream and spring onion. They are eaten with the fingers. The scooped potato can be mashed with butter and milk and served with sausages, so nothing is lost. The skins reheat well in a hot oven, and make good party food that can be assembled earlier in the day.',
@@ -200,8 +201,9 @@ module.exports = {
   },
 
   'potato-dumplings': {
-    d: 'Boiled potato, flour and egg shaped into balls and simmered until they float. Four servings in 1 hour 10 minutes.',
-    meta: 'Potato dumplings: boiled potato, flour and egg shaped into balls and simmered until they float. A cheap German-style side for four in 1 hour 10 minutes.',
+    cookMax: 50,
+    d: 'Boiled potato, flour and egg shaped into balls and simmered until they float. Four servings in 1 hour 25 minutes to 1 hour 40 minutes.',
+    meta: 'Potato dumplings: boiled potato, flour and egg shaped into balls and simmered until they float. A cheap German-style side for four in 1 hour 25 minutes to 1 hour 40 minutes.',
     kw: ['potato dumplings', 'german potato dumplings', 'budget kartoffelkloesse', 'dumplings made from potato', 'cheap side dish for four'],
     why: 'Floury potatoes, boiled in their skins, mashed while hot and cooled before mixing: that is the foundation. The dumpling is only as light as the potato is dry.\n\nPress the potatoes through a ricer or mash them very finely. Lumps show in the finished dumpling as hard white pieces.\n\nAdd the egg and flour with a light hand, and stop mixing the moment the dough comes together. **Overworked dough gives rubbery dumplings.** It should feel soft and slightly tacky, and hold a ball shape.\n\nTest one first. Drop a single dumpling in simmering water: if it falls apart, add a spoonful more flour. If it holds, shape the rest. Simmer, never boil. They are done when they float, about 5 minutes later. Dumplings suit rich dishes that have plenty of gravy, such as roast pork or a stew. Leftover dumplings can be sliced and fried in butter the next day, which turns them into a second meal.',
     ing: [

@@ -122,7 +122,7 @@ module.exports = {
 
   'cabbage-casserole': {
     d: 'Layers of cabbage, browned beef mince and rice baked in tomato sauce with cheese on top until bubbling and tender.',
-    meta: 'Cabbage casserole with beef, rice and tomato, baked for 45 minutes. Six servings, ready in 1 hour.',
+    meta: 'Cabbage casserole with beef, rice and tomato, baked for 45 minutes. Six servings, ready in 1 hour 15 minutes.',
     kw: ['cabbage casserole', 'beef and cabbage casserole', 'cabbage and rice bake', 'unstuffed cabbage casserole', 'cabbage roll casserole'],
     why: 'Keep the cabbage thin. That is the whole of the work in this dish, because shredded cabbage cooks down to silky ribbons in the oven while thick wedges stay tough and watery. A cabbage roll flavour without the rolling is the appeal.\n\nBrown the mince with onion and garlic, then stir in tomato sauce, a spoonful of brown sugar, a splash of vinegar and some paprika. The balance of sweet and sour comes from Eastern European cabbage rolls, and it is what makes the plain cabbage taste of something. Check for seasoning before layering, since the cabbage will dilute it.\n\n**Layer the casserole instead of mixing it.** A base of cabbage, then rice and beef, then more cabbage on top. The top layer protects the rice from drying out and caramelises slightly at the edges.\n\nCover tightly with foil for the first 35 minutes, as the rice cooks in the steam and juices from the cabbage. Remove the foil for the last 10 minutes, add the cheese, and let it turn golden. Rest for 5 minutes before spooning out.',
     ing: [
@@ -191,7 +191,7 @@ module.exports = {
 
   'chicken-lasagna': {
     d: 'Layers of pasta sheets, shredded chicken in a creamy mushroom sauce and mozzarella, baked for 45 minutes until golden on top.',
-    meta: 'Chicken lasagna with a creamy mushroom white sauce and mozzarella, baked for 45 minutes. Eight servings, ready in 1 hour 15 minutes.',
+    meta: 'Chicken lasagna with a creamy mushroom white sauce and mozzarella, baked for 45 minutes. Eight servings, ready in 1 hour 30 minutes.',
     kw: ['chicken lasagna', 'creamy chicken lasagna', 'chicken and mushroom lasagne', 'white sauce lasagna', 'chicken lasagne recipe'],
     why: 'A creamy sauce fills the kitchen with the smell of butter, garlic and thyme before it is even in the dish. A chicken lasagna is paler and gentler than the classic beef one, with a white béchamel sauce enriched with mushrooms, and it has a delicate flavour that suits a family dinner.\n\nUse cooked chicken, either poached breast or a shop-bought rotisserie bird, shredded by hand. Poaching in seasoned water for 15 minutes keeps it moist and gives you a little stock to loosen the sauce if needed. Stir the shredded chicken through the mushroom sauce so that each layer is evenly flavoured.\n\n**Make the sauce slightly thinner than you think it should be.** The pasta sheets absorb liquid as they bake, and a thick sauce turns the finished lasagna dry. It should coat a spoon but still pour in a ribbon.\n\nUse no-boil sheets and arrange them without overlapping, since doubled sheets stay hard. Finish with a thick layer of mozzarella and parmesan on top. Bake covered at first, then uncovered, and rest for 15 minutes before cutting so that the layers hold together.',
     ing: [
@@ -369,7 +369,7 @@ module.exports = {
   'chicken-wellington': {
     untimed: ['cooling completely'],
     d: 'Chicken breasts wrapped in prosciutto and a mushroom duxelles, sealed in puff pastry and baked for 35 minutes until golden.',
-    meta: 'Chicken Wellington with mushroom duxelles, prosciutto and puff pastry, baked for 35 minutes. Four servings, ready in 1 hour 15 minutes.',
+    meta: 'Chicken Wellington with mushroom duxelles, prosciutto and puff pastry, baked for 35 minutes. Four servings, ready in at least 1 hour 30 minutes.',
     kw: ['chicken wellington', 'individual chicken wellington', 'chicken in puff pastry', 'mushroom duxelles chicken', 'chicken wellington recipe'],
     why: 'It looks like a beef Wellington and costs a fraction of the price, which is why this is the version to make for a dinner party. Chicken breast, a layer of ham, a mushroom paste and puff pastry: the same architecture, built from cheaper parts.\n\nThe duxelles is a finely chopped mushroom mixture cooked until all the moisture has gone, which takes about 10 minutes in a hot pan. It should look like a thick paste. If it is still wet when it goes onto the chicken, the water seeps into the pastry and makes the base soggy.\n\n**Wrap the chicken in prosciutto first.** The ham forms a barrier between the meat and the pastry, keeping the pastry crisp, and it seasons the chicken as it cooks. Chill the wrapped parcels for 15 minutes so the ham stays attached while you roll the pastry.\n\nSeal the pastry with beaten egg, trim off the excess, and chill again before baking. A cold parcel in a hot oven puffs properly. Score the top lightly for steam, brush with egg, and bake until deep gold. Rest for 5 minutes before slicing.',
     ing: [
@@ -577,7 +577,7 @@ module.exports = {
 
   'eggplant-lasagna': {
     d: 'Roasted aubergine slices layered with ricotta, tomato sauce and mozzarella in place of pasta sheets, baked for 50 minutes.',
-    meta: 'Eggplant lasagna with roasted slices, ricotta and tomato sauce, baked for 50 minutes. Six servings, ready in 1 hour 20 minutes.',
+    meta: 'Eggplant lasagna with roasted slices, ricotta and tomato sauce, baked for 50 minutes. Six servings, ready in 2 hours 25 minutes.',
     kw: ['eggplant lasagna', 'aubergine lasagne', 'eggplant lasagna with ricotta', 'pasta free lasagna', 'roasted eggplant lasagna'],
     why: 'Salt the slices and leave them for half an hour. That one step is what separates a lasagna with firm layers from one that collapses into a watery mess, because aubergine holds a surprising amount of liquid, and it will all end up in the dish unless you draw it out first.\n\nSlice the aubergines lengthways into planks about 1 cm thick. Sprinkle with salt, leave them on a rack, and pat them dry with kitchen paper. Brush them with olive oil and roast on trays at 220C for 20 minutes, turning once, until golden and pliable. Roasted slices absorb far less oil than fried ones.\n\n**Make the tomato sauce thick.** A sauce that is loose in the pan becomes soup in the oven, since the aubergine continues to release a little moisture as it bakes. Simmer the tomatoes with garlic and basil for 20 minutes, until a spoon drawn through leaves a clear trail.\n\nMix the ricotta with egg, parmesan and parsley for the middle layer. The egg sets it so it cuts cleanly. Rest the baked lasagna for 15 minutes before slicing, or the layers slide apart.',
     ing: [
@@ -596,7 +596,7 @@ module.exports = {
     ],
     st: [
       'Salt the aubergine slices and leave on a rack for 30 minutes. Pat dry. Heat the oven to 220C, brush the slices with the oil and roast on trays for 20 minutes, turning once.',
-      'Simmer the tomatoes, garlic and oregano for 20 minutes until thick.',
+      'While the aubergine roasts, simmer the tomatoes, garlic and oregano for 20 minutes until thick.',
       'Mix the ricotta, egg, half the parmesan and the parsley. Reduce the oven to 190C.',
       'Spread a little sauce in a baking dish. Layer aubergine, sauce, ricotta mix and mozzarella, repeating twice and finishing with sauce, mozzarella and the remaining parmesan.',
       'Bake for 50 minutes until bubbling and golden. Rest for 15 minutes and scatter with basil.'
@@ -814,7 +814,7 @@ module.exports = {
 
   'grilled-octopus': {
     d: 'Octopus simmered gently for an hour until tender, then charred on a hot grill and dressed with olive oil, lemon and oregano.',
-    meta: 'Grilled octopus, simmered until tender and charred on the grill with lemon and oregano. Four servings, ready in 1 hour 20 minutes.',
+    meta: 'Grilled octopus, simmered until tender and charred on the grill with lemon and oregano. Four servings, ready in 1 hour 35 minutes.',
     kw: ['grilled octopus', 'greek grilled octopus', 'octopus with lemon and oregano', 'charred octopus', 'tender octopus recipe'],
     why: 'It looks like a project and is really just patience. Octopus is chewy until it has been simmered long enough for the collagen to melt, and there is no way to shortcut that stage. About an hour at a bare simmer is what a 1 kg octopus needs, and the result is a tender texture with a little spring.\n\nThe Greek tradition is to beat the octopus on rocks to tenderise it, but these days most are sold frozen, and freezing has already broken down some of the fibres. Thaw it in the fridge overnight, rinse it, and put it into the pot with a bay leaf, a few peppercorns and a splash of white wine vinegar.\n\n**Do not add salt to the cooking water.** The octopus releases its own salty liquid, and extra salt toughens the skin. Keep the water at a gentle bubble, with the lid on slightly ajar, and test a tentacle after 50 minutes with a knife. It should slide in with a little resistance.\n\nCool the octopus in its liquid, then cut into tentacles and char them on a very hot grill for 3 minutes a side. Dress them while hot with olive oil, lemon juice, oregano and sea salt, and serve with bread.',
     ing: [

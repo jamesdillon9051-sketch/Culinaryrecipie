@@ -336,7 +336,7 @@ module.exports = {
 
   'prekmurska-gibanica': {
     d: 'A Slovenian layer cake of thin pastry with poppy seed, walnut, apple and curd cheese fillings, baked for 50 minutes.',
-    meta: 'Prekmurska gibanica, Slovenian layer pastry with poppy seed, walnut, apple and curd cheese, baked for 50 minutes. Twelve servings, ready in 1 hour 50 minutes.',
+    meta: 'Prekmurska gibanica: Slovenian layer pastry with poppy seed, walnut, apple and curd cheese, baked for 50 minutes. Twelve servings in 2 hours 20 minutes.',
     kw: ['prekmurska gibanica', 'slovenian layered pastry cake', 'prekmurje layer cake with poppy seeds', 'gibanica recipe', 'slovenian four filling cake'],
     why: 'The first thing you notice is the number of layers: 4 fillings, up to 10 layers of pastry, and a cake that you can see in cross section like the pages of a book. Prekmurska gibanica is the layered pastry of Prekmurje, the north east corner of Slovenia, and is a festive dessert for weddings and holidays. It is rich, so serve small pieces.\n\nMake or buy 12 sheets of thin pastry, such as phyllo. The fillings are poppy seed cooked in sweet milk, ground walnuts with sugar and cinnamon, grated apple with sugar, and sweet curd cheese with soured cream and raisins. Prepare each in a bowl and cool them. **Soak the sheets of pastry in a mixture of melted butter and milk**, or brush generously, as the layers must be damp for the cake to be soft.\n\nLayer 2 sheets, then poppy seed, 2 sheets, walnuts, 2 sheets, apple, 2 sheets, curd cheese, repeating until you finish with sheets. Pour over a mixture of soured cream and melted butter, and bake at 180C for 50 minutes, until the top is golden. Cool in the tin for 30 minutes and cut into squares. It keeps for 4 days.',
     ing: [
@@ -376,7 +376,7 @@ module.exports = {
 
   'zlikrofi': {
     d: 'Small Slovenian dumplings from Idrija, shaped like little hats and filled with potato, bacon and marjoram, boiled for 5 minutes.',
-    meta: 'Žlikrofi, small Idrija dumplings filled with potato, bacon and marjoram, cooked for 20 minutes. Six servings, ready in 1 hour 20 minutes.',
+    meta: 'Žlikrofi, small Idrija dumplings filled with potato, bacon and marjoram, cooked for 20 minutes. Six servings, ready in 1 hour 50 minutes.',
     kw: ['zlikrofi', 'idrija dumplings', 'slovenian filled dumplings', 'zlikrofi recipe', 'potato and bacon dumplings'],
     why: 'Compare them with pierogi and you find a smaller, finer dumpling shaped like a tiny hat. Žlikrofi are the dumplings of Idrija in western Slovenia, filled with potato, bacon and herbs, and they are protected as a regional speciality. They are served with a rich meat sauce, or with butter and sage.\n\nThe dough is flour, eggs, water and a pinch of salt, kneaded for 10 minutes until smooth and rested for 30 minutes. For the filling, boil floury potatoes and mash them dry. Fry diced bacon and onion until golden and mix into the potato with marjoram, chives, salt and pepper. **Chill the filling until it is stiff**, then roll it into small balls the size of a hazelnut.\n\nRoll the dough out as thin as you can and cut into 4 cm squares. Put a ball in the centre of each square, fold the dough over diagonally to a triangle, pinch the edges and then fold the corners back to shape the hat. Boil in salted water for 5 minutes after they float. Serve with sage butter, or a meat sauce made from beef and tomato.',
     ing: [
@@ -396,7 +396,7 @@ module.exports = {
     ],
     st: [
       'Knead the flour, eggs, water and pinch of salt for 10 minutes. Rest for 30 minutes.',
-      'Boil the potatoes for 25 minutes, peel and mash dry. Fry the bacon and onion for 8 minutes and mix into the potato with the marjoram, chives, salt and pepper. Chill until stiff.',
+      'While the dough rests, boil the potatoes for 25 minutes, then peel and mash them dry. Fry the bacon and onion for 8 minutes and mix into the potato with the marjoram, chives, salt and pepper. Chill until stiff.',
       'Roll the filling into 40 small balls. Roll the dough very thin and cut into 4 cm squares.',
       'Put a ball on each square, fold to a triangle, pinch the edges and fold the corners back.',
       'Boil in salted water for 5 minutes after they float. Toss in the butter fried with the sage.'
@@ -445,8 +445,9 @@ module.exports = {
   },
 
   'kroppkakor': {
+    cookMax: 75,
     d: 'Swedish potato dumplings filled with diced smoked pork and onion, flavoured with allspice and boiled for 25 minutes.',
-    meta: 'Kroppkakor, Swedish potato dumplings filled with smoked pork and onion, cooked for 25 minutes. Six servings, ready in 1 hour 10 minutes.',
+    meta: 'Kroppkakor, Swedish potato dumplings filled with smoked pork and onion, cooked for 25 minutes. Six servings, ready in 1 hour 55 minutes to 2 hours 20 minutes.',
     kw: ['kroppkakor', 'swedish potato dumplings', 'dumplings filled with pork and onion', 'kroppkakor recipe', 'oland potato dumplings'],
     why: 'The first sign it is ready is the smell: onion and allspice frying in butter, and then the damp, earthy steam of potato. Kroppkakor are the potato dumplings of Småland and Öland in Sweden, as big as a tennis ball and filled with smoked pork, and they are served with melted butter and lingonberry jam.\n\nBoil floury potatoes, peel them while hot and mash dry. Mix half the potatoes with flour and an egg to form the dough, keeping the other half raw and grated, as is done in some regions. Use boiled potatoes only for a softer dumpling. Fry diced smoked pork and onion in butter until golden and season with ground allspice. **Cool the filling so it does not melt the dough**, and chill for 20 minutes.\n\nDivide the dough into 12 pieces, flatten each, put a spoonful of filling in the middle and seal it into a ball. Lower the dumplings into simmering salted water in batches and cook for 25 minutes, until they float and feel firm. Lift out with a slotted spoon. Serve with melted butter, lingonberry jam and a spoonful of cream. Leftover dumplings are sliced and fried the next day.',
     ing: [
@@ -463,7 +464,7 @@ module.exports = {
     ],
     st: [
       'Boil the potatoes in their skins for 25 minutes. Peel while hot, mash dry and cool. Mix with the flour, egg and salt to a soft dough.',
-      'Fry the pork and onion in the 20 g butter for 8 minutes until golden. Stir in the allspice, cool and chill for 20 minutes.',
+      'While the potatoes boil, fry the pork and onion in the 20 g butter for 8 minutes until golden. Stir in the allspice, cool and chill for 20 minutes.',
       'Divide the dough into 12, flatten each, put a spoonful of filling in the centre and seal into a ball.',
       'Simmer in salted water in batches for 25 minutes until they float and are firm. Lift out.',
       'Serve with the melted butter and lingonberry jam.'
@@ -829,7 +830,7 @@ module.exports = {
 
   'princess-cake': {
     d: 'A Swedish dome cake of sponge layers, raspberry jam, vanilla custard and whipped cream wrapped in pale green marzipan.',
-    meta: 'Princess cake, Swedish dome cake with raspberry jam, custard and cream under green marzipan, baked for 35 minutes. Twelve servings, ready in 1 hour 35 minutes plus chilling.',
+    meta: 'Princess cake: a Swedish sponge dome with jam, custard and cream under green marzipan. Twelve servings in 2 hours 35 minutes with chilling.',
     kw: ['princess cake', 'swedish princess cake', 'prinsesstarta', 'green marzipan dome cake', 'princess cake recipe'],
     why: 'Does a cake need to look like a hat? This one does. The Swedish princess cake, prinsesstårta, is a tall dome of sponge, jam and cream, covered with smooth green marzipan and topped with a pink marzipan rose, and it is the birthday cake of a thousand Swedish parties. It is said to have been named for the princesses taught by the cookery writer who first published it.\n\nBake a sponge in a 24 cm tin: eggs and sugar whisked to ribbon stage, with flour folded in, baked at 180C for 35 minutes. Cool and split it into three layers. For the custard, cook milk, yolks, sugar and cornflour for 5 minutes until thick, and cool. **Fold the cold custard into whipped cream only when it is cold**, so the cream does not melt. Spread the base with raspberry jam and a layer of custard.\n\nRepeat for the second layer, set the third on top and cover the dome with a thick layer of whipped cream, piling it high in the middle. Chill for 1 hour. Roll out the green marzipan 3 mm thick, lay it over the dome, smooth it gently and trim. Dust with icing sugar and decorate with a rose. Chill until serving.',
     ing: [

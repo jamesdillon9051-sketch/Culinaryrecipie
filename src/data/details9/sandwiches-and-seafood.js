@@ -242,6 +242,7 @@ module.exports = {
   },
 
   'tuna-casserole': {
+    cookMax: 60,
     d: 'Rebuilt without the tin of soup: a proper mushroom béchamel, egg noodles cooked short, and a buttered crumb top with Parmigiano in it. Comfort food that tastes of ingredients.',
     meta: 'Tuna noodle casserole made with a real mushroom béchamel instead of tinned soup, under a buttered Parmigiano crumb.',
     kw: ['tuna casserole', 'tuna noodle casserole', 'tuna pasta bake', 'tuna casserole from scratch'],

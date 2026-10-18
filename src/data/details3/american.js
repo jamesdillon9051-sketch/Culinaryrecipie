@@ -220,6 +220,7 @@ module.exports = {
   },
 
   'philly-soft-pretzel': {
+    cookMax: 20,
     rest: [95, 'proving'],
     d: 'Philadelphia pretzels are oblong rather than fat, chewy rather than fluffy, sold in rows stuck together and eaten with a stripe of mustard.',
     meta: 'Philadelphia soft pretzels — oblong, chewy pretzels dipped in a soda bath and baked with coarse salt.',
@@ -241,7 +242,7 @@ module.exports = {
       'Yellow mustard, to serve'
     ],
     st: [
-      'Spread the bicarbonate of soda on a foil-lined tray and bake at 150C fan for 1 hour. Cool. It is now a stronger alkali — handle it with gloves and keep it off your eyes.',
+      'Set the soda baking first, since it runs while you make and prove the dough: spread the bicarbonate of soda on a foil-lined tray and bake at 150C fan for 1 hour. Cool. It is now a stronger alkali — handle it with gloves and keep it off your eyes.',
       'Mix the flour, yeast, sugar and salt. Add the water and knead 8 minutes, then work in the butter and knead 4 minutes more until smooth and slightly tacky.',
       'Prove covered for 1 hour until doubled.',
       'Divide into 8 pieces. Roll each into a 45 cm rope, thicker in the middle, then shape: cross the ends, twist once, and press them onto the belly — but keep the whole thing long and narrow rather than round.',

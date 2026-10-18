@@ -2,6 +2,7 @@
 
 module.exports = {
   'toad-in-the-hole': {
+    cookMax: 55,
     d: 'Sausages baked in Yorkshire pudding batter until the sides climb the tin and the whole thing arrives dramatically puffed. Timing and fat temperature are everything, and the oven door stays shut.',
     meta: 'Toad in the hole — sausages baked in a crisp, dramatically risen Yorkshire pudding batter, with onion gravy.',
     kw: ['toad in the hole recipe', 'yorkshire pudding batter', 'british sausage bake', 'sunday dinner'],
@@ -326,6 +327,7 @@ module.exports = {
   },
 
   'bakewell-tart': {
+    cookMax: 70,
     untimed: ['cooling'],
     rest: [90, 'chilling'],
     d: 'Shortcrust filled with raspberry jam and frangipane, baked until the almond filling is set and golden, and finished with flaked almonds or a feathered icing. Derbyshire\'s gift to the tea table.',

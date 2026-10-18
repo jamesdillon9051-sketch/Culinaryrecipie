@@ -307,6 +307,7 @@ module.exports = {
   },
 
   'quiche-lorraine': {
+    cookMax: 75,
     rest: [110, 'chilling'],
     d: 'The original quiche has no cheese in it, and once you taste this custard — barely set, heavy on cream, studded with smoky lardons — you will understand why. The blind-baked pastry shell is the difference between a quiche and a sad, wet tart.',
     meta: 'Authentic quiche Lorraine with a crisp blind-baked shell and a barely set cream custard studded with smoky lardons.',

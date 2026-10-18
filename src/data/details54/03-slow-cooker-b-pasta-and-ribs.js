@@ -203,7 +203,7 @@ module.exports = {
 
   'slow-cooker-hash-brown-casserole': {
     d: 'Frozen hash browns, cheddar, soured cream and cream of chicken soup cooked on low for 4 hours into a creamy side dish for eight.',
-    meta: 'Slow cooker hash brown casserole with cheddar and soured cream, cooked for 4 hours. Eight servings, ready in 4 hours 10 minutes.',
+    meta: 'Slow cooker hash brown casserole with cheddar and soured cream, cooked for 4 hours. Eight servings, ready in 4 hours 20 minutes.',
     kw: ['slow cooker hash brown casserole', 'crockpot cheesy potatoes', 'funeral potatoes', 'hash brown casserole with cheese', 'cheesy hash brown bake'],
     why: 'Thaw the hash browns. That is the single most useful instruction here, because frozen potatoes dumped straight into a cooker release ice-cold water into the sauce, and the casserole turns thin and watery. Ten minutes on the counter is enough to take the chill off.\n\nThis is a Midwestern potluck staple often called funeral potatoes, made for gatherings because it feeds a crowd and travels in its own pot. The sauce is simple: condensed soup, soured cream, grated cheddar and onion, stirred through the potatoes and left to cook down. Here the condensed soup is replaced with a homemade white sauce, if you prefer.\n\n**Stir every hour only if you are home.** Most of the time the casserole needs no attention, but a stir halfway through brings the potatoes on the edge to the middle and keeps the sauce even. Do not lift the lid more than once.\n\nThe top will not crisp in a slow cooker, so add a crunchy topping of crushed cornflakes or crisps tossed with melted butter for the last 10 minutes. Scatter it over the surface and leave the lid ajar so the steam can escape.',
     ing: [
@@ -315,7 +315,7 @@ module.exports = {
 
   'slow-cooker-lasagna': {
     d: 'Layers of beef ragu, ricotta, mozzarella and dry lasagna sheets cooked on low for 4 hours until tender and bubbling.',
-    meta: 'Slow cooker lasagna with beef ragu, ricotta and mozzarella, cooked for 4 hours. Eight servings, ready in 4 hours 30 minutes.',
+    meta: 'Slow cooker lasagna with beef ragu, ricotta and mozzarella, cooked for 4 hours. Eight servings, ready in 4 hours 50 minutes.',
     kw: ['slow cooker lasagna', 'crockpot lasagna', 'slow cooker lasagne with ricotta', 'no boil lasagna in slow cooker', 'beef lasagna slow cooker'],
     why: 'A Sunday dish for a table of eight, and the one time a slow cooker beats the oven for lasagna. The gentle, moist heat softens the pasta sheets without drying the edges, and the whole dish steams to a tender, sliceable stack. It also frees the oven for something else.\n\nUse dry no-boil sheets and break them to fit the shape of your cooker. They absorb the liquid from the sauce as they cook, so the ragu should be a little looser than for an oven lasagna. If it seems too thick, thin it with a splash of water before layering.\n\n**Start and end with sauce.** A layer of ragu on the base prevents the first layer of pasta from sticking, and a layer of sauce and cheese on top keeps the final sheets from drying out. In between, alternate sauce, sheets, ricotta mixture and mozzarella, overlapping the sheets slightly.\n\nCook on low for 4 hours, until the pasta is tender when pierced. The edges will brown slightly. Switch off and rest the lasagna with the lid off for 20 minutes, which lets it firm up so that slices hold together on the plate.',
     ing: [
@@ -493,8 +493,9 @@ module.exports = {
   },
 
   'slow-cooker-salmon': {
-    d: 'Salmon fillets on a bed of lemon and dill cooked on low for 1 hour in the slow cooker until just opaque and tender.',
-    meta: 'Slow cooker salmon with lemon and dill, cooked on low for 1 hour. Four servings, ready in 1 hour 10 minutes.',
+    cookMax: 60,
+    d: 'Salmon fillets on a bed of lemon and dill cooked on low for 45 minutes to 1 hour in the slow cooker until just opaque and tender.',
+    meta: 'Slow cooker salmon with lemon and dill, cooked on low for 45 minutes to 1 hour. Four servings, ready in 55 minutes to 1 hour 10 minutes.',
     kw: ['slow cooker salmon', 'crockpot salmon', 'poached salmon in slow cooker', 'lemon dill salmon fillets', 'gentle cooked salmon'],
     why: 'The first sign it is ready is the colour: a deep coral turning to a pale, opaque pink at the edges. Salmon cooked slowly at a low temperature stays soft and silky, because the proteins set gradually rather than tightening all at once. It is the gentlest way to cook a fish fillet.\n\nA slow cooker holds a very even heat, so it works well as a poacher. Line the base with lemon slices and sprigs of dill, which lift the fillets off the bottom and scent the steam. Add a small amount of white wine or water, about 100 ml, and lay the fillets on top, skin side down, in a single layer.\n\n**Check at 45 minutes.** Cooker temperatures vary, and thin tail pieces cook faster than thick centre cuts. The fish is ready when it flakes easily and the flesh has just turned from translucent to opaque. One hour is a guide, not a promise.\n\nLift the fillets out carefully with a fish slice. Make a quick sauce from a spoon of mayonnaise, lemon juice, chopped capers and dill, and serve it cold against the warm, soft salmon with boiled potatoes.',
     ing: [
@@ -600,7 +601,7 @@ module.exports = {
 
   'slow-cooker-turkey-breast': {
     d: 'A bone-in turkey breast rubbed with herb butter and slow cooked on low for 5 hours until juicy, with a quick gravy from the juices.',
-    meta: 'Slow cooker turkey breast with herb butter, cooked for 5 hours with gravy. Eight servings, ready in 5 hours 20 minutes.',
+    meta: 'Slow cooker turkey breast with herb butter, cooked for 5 hours with gravy. Eight servings, ready in 5 hours 30 minutes.',
     kw: ['slow cooker turkey breast', 'crockpot turkey breast', 'herb butter turkey breast', 'turkey breast with gravy', 'bone in turkey breast slow cooker'],
     why: 'A turkey breast is the lean part of a bird that is already prone to drying out, and the slow cooker, with its steamy, enclosed heat, is the kindest way to treat it. The meat stays moist from edge to centre, and there is no basting or turning to worry about.\n\nChoose a bone-in breast of about 2 kg that fits comfortably in the pot with the lid on. The bone slows the cooking and adds flavour. Pat it dry and rub it all over, and under the skin, with softened butter mixed with sage, thyme, garlic and salt. The butter melts into the meat and keeps the breast moist.\n\n**Cook it on a bed of onions, carrots and celery.** The vegetables lift the turkey off the base and release juices that become the gravy. Pour in just 100 ml of stock, since the turkey releases plenty of its own liquid.\n\nThe skin will be pale and soft, which is normal in a slow cooker. Put the breast under a hot grill for 5 minutes at the end to brown it. Check that a thermometer reads 74C in the thickest part, rest it for 15 minutes, and strain the juices into a pan to thicken with a little cornflour.',
     ing: [

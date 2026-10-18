@@ -221,6 +221,7 @@ module.exports = {
   },
 
   'pound-cake': {
+    cookMax: 70,
     untimed: ['cooling completely'],
     d: 'A pound of each: butter, sugar, eggs and flour, creamed by hand until the batter is pale enough to be its own leavening. No baking powder, no shortcuts, and a crust that shatters slightly under the knife.',
     meta: 'A traditional pound cake — equal weights of butter, sugar, egg and flour, leavened by creaming alone.',

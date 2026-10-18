@@ -102,6 +102,7 @@ module.exports = {
   },
 
   'lu-rou-fan': {
+    cookMax: 115,
     d: 'Finely diced pork belly braised in soy, five spice and fried shallots until it becomes a glossy, gelatinous sauce, spooned over rice.',
     meta: 'Lu rou fan — Taiwanese braised pork belly over rice, glossy with soy, five spice and fried shallots.',
     kw: ['lu rou fan recipe', 'taiwanese braised pork rice', 'minced pork belly rice', 'soy braised pork'],
@@ -192,6 +193,7 @@ module.exports = {
   },
 
   'pineapple-cake': {
+    cookMax: 95,
     untimed: ['cooling the filling and the cakes'],
     d: 'Buttery shortbread cases filled with a firm, slightly tart pineapple and winter melon jam, baked in small square moulds.',
     meta: 'Pineapple cake — Taiwanese buttery shortbread squares filled with firm, tart pineapple jam.',

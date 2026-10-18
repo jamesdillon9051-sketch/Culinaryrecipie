@@ -54,7 +54,7 @@ module.exports = [
 
   /* Mains */
   c('hawawshi', 'Hawawshi', 'Egyptian', 'Dinner', 'Easy', 25, 25, 4, 0, 0, ['Dairy-Free'], ['new'], 'Hawawshi egyptian stuffed baked bread meat'),
-  c('macarona-bechamel', 'Macarona Bechamel', 'Egyptian', 'Dinner', 'Medium', 35, 50, 8, 0, 0, [], ['new'], 'Macarona bechamel egyptian pasta bake'),
+  c('macarona-bechamel', 'Macarona Bechamel', 'Egyptian', 'Dinner', 'Medium', 35, 95, 8, 0, 0, [], ['new'], 'Macarona bechamel egyptian pasta bake'),
   c('fattah', 'Fattah', 'Egyptian', 'Dinner', 'Medium', 30, 120, 8, 0, 0, ['Dairy-Free'], ['new'], 'Egyptian fattah rice bread lamb garlic'),
   c('mahshi-cromb', 'Mahshi Cromb', 'Egyptian', 'Dinner', 'Medium', 55, 65, 6, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free'], ['new'], 'Mahshi cromb egyptian stuffed cabbage'),
   c('kofta-masreya', 'Kofta Masreya', 'Egyptian', 'Dinner', 'Easy', 20, 25, 6, 0, 0, ['Dairy-Free'], ['new'], 'Egyptian kofta skewers grilled'),
@@ -64,10 +64,10 @@ module.exports = [
   c('ferakh-mashwi', 'Ferakh Mashwi', 'Egyptian', 'Dinner', 'Easy', 20, 45, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'Egyptian grilled chicken cumin garlic'),
   c('mombar', 'Mombar', 'Egyptian', 'Dinner', 'Hard', 60, 60, 6, 0, 0, ['Dairy-Free'], ['new'], 'Mombar egyptian stuffed sausage rice'),
   c('renga', 'Renga', 'Egyptian', 'Appetizers', 'Easy', 20, 0, 6, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'Renga egyptian smoked herring salad'),
-  c('goulash-masri', 'Goulash Masri', 'Egyptian', 'Dinner', 'Medium', 30, 45, 8, 0, 0, [], ['new'], 'Egyptian goulash filo minced meat pie'),
+  c('goulash-masri', 'Goulash Masri', 'Egyptian', 'Dinner', 'Medium', 30, 75, 8, 0, 0, [], ['new'], 'Egyptian goulash filo minced meat pie'),
 
   /* Bread and pastry */
-  c('aish-baladi', 'Aish Baladi', 'Egyptian', 'Baking', 'Medium', 30, 10, 8, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free'], ['new'], 'Aish baladi egyptian wholemeal bread'),
+  c('aish-baladi', 'Aish Baladi', 'Egyptian', 'Baking', 'Medium', 30, 15, 8, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free'], ['new'], 'Aish baladi egyptian wholemeal bread'),
   c('eish-merahrah', 'Eish Merahrah', 'Egyptian', 'Baking', 'Medium', 30, 20, 6, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free'], ['new'], 'Eish merahrah fenugreek flatbread'),
   c('feteer-meshaltet', 'Feteer Meshaltet', 'Egyptian', 'Baking', 'Hard', 45, 25, 8, 0, 0, ['Vegetarian'], ['new'], 'Feteer meshaltet layered egyptian pastry'),
   c('gebna-domiati', 'Gebna Domiati Salad', 'Egyptian', 'Appetizers', 'Easy', 15, 0, 6, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'Gebna domiati white cheese tomato salad'),

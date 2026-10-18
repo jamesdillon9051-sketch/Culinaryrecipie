@@ -43,6 +43,7 @@ module.exports = {
   },
 
   'efo-riro': {
+    cookMax: 70,
     d: 'A rich Nigerian stew of spinach in a base of red pepper, scotch bonnet and palm oil, with beef, smoked fish and ground crayfish. Eaten with pounded yam or rice.',
     meta: 'Efo riro: a rich Nigerian spinach stew built on a fried red pepper and scotch bonnet base with palm oil, beef, smoked fish and crayfish. Serve with rice.',
     kw: ['efo riro', 'nigerian efo riro', 'efo riro recipe', 'nigerian spinach stew', 'how to make efo riro'],
@@ -63,7 +64,7 @@ module.exports = {
     st: [
       'Put the beef, the half onion for boiling, stock cube, salt and water in a pot. Bring to a boil, then cover and simmer for 40 minutes, until the beef is tender. Keep the stock.',
       'Blend the red peppers, scotch bonnets and the other half of the onion to a coarse purée.',
-      'Cook the pepper purée in a wide pan over medium heat for 15 to 20 minutes, stirring often, until most of the water has gone and it has darkened.',
+      'While the beef simmers, cook the pepper purée in a wide pan over medium heat for 15 to 20 minutes, stirring often, until most of the water has gone and it has darkened.',
       'Heat the palm oil in a large pot over medium heat, add the chopped onion and cook for 3 minutes. Add the reduced pepper base and cook for 10 minutes, stirring, until the oil separates.',
       'Stir in the crayfish, the beef and 200 ml of its stock and simmer for 10 minutes.',
       'Add the smoked fish and spinach and cook, uncovered, for 5 minutes, until the spinach has wilted. Taste and adjust the salt.',

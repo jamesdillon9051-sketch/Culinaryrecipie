@@ -238,6 +238,7 @@ module.exports = {
   },
 
   'chicken-paprikash': {
+    cookMax: 70,
     d: 'Chicken braised in a sauce of onions and a great deal of sweet Hungarian paprika, finished with soured cream and served with nokedli dumplings.',
     meta: 'Chicken paprikash — chicken braised with onions and sweet Hungarian paprika, finished with soured cream.',
     kw: ['chicken paprikash recipe', 'paprikas csirke', 'hungarian chicken', 'paprika cream sauce'],
@@ -268,7 +269,7 @@ module.exports = {
       'Turn the heat back to low, add the tomatoes and pepper, and cook 5 minutes.',
       'Return the chicken skin side up with the stock and salt. It should come halfway up the meat.',
       'Cover and simmer gently for 35 minutes until the chicken is tender.',
-      'For the nokedli, beat the flour, eggs, water and salt to a thick batter and rest 15 minutes. Push it through a spätzle grater or a colander into boiling salted water, cook 3 minutes until they float, drain and toss with butter.',
+      'While the chicken simmers, make the nokedli: beat the flour, eggs, water and salt to a thick batter and rest 15 minutes. Push it through a spätzle grater or a colander into boiling salted water, cook 3 minutes until they float, drain and toss with butter.',
       'Lift the chicken out. Whisk the flour into the soured cream, then whisk in a ladle of the hot sauce to temper it.',
       'Stir the tempered cream back into the pan off the boil and warm through for 3 minutes without letting it bubble.',
       'Return the chicken and serve on the nokedli.'
@@ -512,6 +513,7 @@ module.exports = {
   },
 
   'lobio': {
+    cookMax: 125,
     rest: [480, 'soaking'],
     d: 'Red kidney beans stewed with onion, coriander, walnuts and blue fenugreek, mashed slightly and eaten hot from a clay pot with cornbread.',
     meta: 'Lobio — Georgian kidney bean stew with walnuts, coriander and blue fenugreek, served with cornbread.',

@@ -56,7 +56,7 @@ module.exports = {
   },
 
   'beer-bread': {
-    d: 'A quick bread with no yeast and no kneading: flour, sugar, salt and a bottle of lager stirred together and baked with melted butter poured over the top. Ready in an hour.',
+    d: 'A quick bread with no yeast and no kneading: flour, sugar, salt and a bottle of lager stirred together and baked with melted butter poured over the top. Ready in 1 hour 15 minutes.',
     meta: 'Beer bread: a quick bread with no yeast and no kneading, made from flour, sugar, salt and a bottle of lager and baked with melted butter poured over the top.',
     kw: ['beer bread', 'easy beer bread', 'three ingredient beer bread', 'no yeast beer bread', 'how to make beer bread'],
     why: 'Beer bread is the simplest loaf that can be made from scratch: self-raising flour, sugar, salt and a bottle of beer, stirred together in one bowl and baked. It became popular in American kitchens in the 1970s and 1980s as a quick bread that needed no yeast, no kneading and no rising time, and it has since become a standby for people who want fresh bread in an hour. The beer does two jobs. Its carbonation and the raising agents in the self-raising flour give the loaf its lift, and its malt and hops give it a distinctive toasty, slightly tangy flavour, with a hint of sweetness from the sugar. A lager gives a mild, neutral loaf, a pale ale a little more hop, and a dark stout or porter a richer, darker one. Melted butter poured over the top before and during the bake is what gives it its crisp, golden, buttery crust, which is the best part. The batter is thick and lumpy and should be stirred as little as possible, as with any quick bread, so that the crumb stays tender.',

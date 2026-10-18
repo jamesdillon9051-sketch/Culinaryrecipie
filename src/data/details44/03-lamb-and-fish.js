@@ -220,7 +220,7 @@ module.exports = {
       'Soften the onion, carrot and celery in the same pot for 8 minutes, then add the garlic and tomato purée for 2 minutes.',
       'Pour in the wine and boil until halved. Add the tomatoes, stock and rosemary and return the lamb. Cover and simmer for 2 hours.',
       'Lift out the lamb, shred the meat and discard the bones. Skim the fat from the sauce, return the meat and simmer for 10 minutes.',
-      'Boil the pappardelle for 9 minutes, drain, toss with the ragu and serve with the parmesan.'
+      'While the ragu simmers, boil the pappardelle for 9 minutes, then drain, toss with the ragu and serve with the parmesan.'
     ],
     tips: [
       'Brown the lamb thoroughly.',

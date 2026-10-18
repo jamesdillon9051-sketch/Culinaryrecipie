@@ -261,7 +261,7 @@ module.exports = {
       'Heat the oven to 200°C / 400°F. Brush the pepper halves inside and out with 3 tablespoons of the oil and season with 1 teaspoon of the salt.',
       'Lay them cut side down in a large roasting dish and roast 25 minutes, until slumped and blistered.',
       'Meanwhile cook the rice in salted water for 10 minutes only — it should be distinctly underdone, because it will finish in the peppers. Drain.',
-      'Heat the 2 tablespoons of oil and cook the onion 8 minutes, then the garlic, oregano and cinnamon for 1 minute.',
+      'At the same time, heat the 2 tablespoons of oil and cook the onion 8 minutes, then the garlic, oregano and cinnamon for 1 minute.',
       'Add the tomatoes and simmer 8 minutes until thick, then fold in the rice, pine nuts, raisins, feta, herbs, the remaining salt and the pepper.',
       'Turn the roasted pepper halves cut side up, pour the 100 ml of water into the base of the dish, and pack the filling into each one, mounding it.',
       'Scatter the extra feta over and drizzle with the last tablespoon of oil.',

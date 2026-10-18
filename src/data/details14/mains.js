@@ -102,6 +102,7 @@ module.exports = {
   },
 
   'marqa-hlouwa': {
+    cookMax: 120,
     d: 'Lamb stewed with quince, prunes and cinnamon into something sweet against the harissa. Made for Eid, and the sweetness is meant to be startling.',
     meta: 'Lamb stewed slowly with quince, prunes and cinnamon so the sweetness plays against harissa, made for Eid.',
     kw: ['marqa hlouwa', 'tunisian sweet stew', 'lamb quince stew', 'marqa recipe', 'tunisian eid dish'],
@@ -145,6 +146,7 @@ module.exports = {
   },
 
   'kamounia': {
+    cookMax: 110,
     d: 'Liver or beef stewed slowly with an aggressive quantity of cumin — kamoun — until the sauce is dark and thick. One spice, used at a volume that would be a mistake anywhere else.',
     meta: 'Beef or liver stewed slowly with a deliberately large quantity of cumin until the sauce turns dark, thick and earthy.',
     kw: ['kamounia', 'tunisian cumin stew', 'kamounia recipe', 'cumin beef stew', 'tunisian liver stew'],

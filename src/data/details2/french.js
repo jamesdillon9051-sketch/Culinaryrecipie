@@ -218,7 +218,7 @@ module.exports = {
     st: [
       'Mix the flour, yeast and salt, add the water and oil, and knead for 8 minutes to a smooth, slightly slack dough. Cover and prove for 1 hour.',
       'Meanwhile put the onions in a wide pan with the olive oil, thyme, bay and a pinch of salt. Cover and cook over low heat for 30 minutes, stirring occasionally.',
-      'Uncover, add the garlic, and cook 25 to 30 minutes more, stirring often, until the onions are pale gold, jammy and greatly reduced. Season with pepper and cool.',
+      'While the dough finishes proving, uncover the onions, add the garlic, and cook them 25 to 30 minutes more, stirring often, until the onions are pale gold, jammy and greatly reduced. Season with pepper and cool.',
       'Heat the oven to 220°C / 430°F with a baking sheet inside.',
       'Roll or press the dough into a 30 x 25 cm rectangle on an oiled sheet of baking paper, pushing up a slight rim.',
       'Fish out the herbs and drain the onions of any free oil, then spread them over the dough in an even, thick layer right to the rim.',

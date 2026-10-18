@@ -48,7 +48,7 @@ module.exports = {
 
   'szarlotka': {
     d: 'A Polish apple cake of shortcrust with a thick layer of cinnamon apples and a grated pastry top, baked for 45 minutes.',
-    meta: 'Szarlotka, Polish apple cake with grated pastry top and cinnamon apples, baked for 45 minutes at 180C. Ten servings, ready in 1 hour 10 minutes.',
+    meta: 'Szarlotka, Polish apple cake with grated pastry top and cinnamon apples, baked for 45 minutes at 180C. Ten servings, ready in 1 hour 40 minutes.',
     kw: ['szarlotka', 'polish apple cake', 'polish apple pie with grated pastry', 'szarlotka recipe', 'apple cake with shortcrust'],
     why: 'Flour, butter, sugar, apples: four things, one tin and no rolling pin. Szarlotka is the Polish apple cake, the one every grandmother makes, and the clever part is that the pastry is grated over the apples rather than rolled, so it bakes in a crisp, rough, shaggy top.\n\nMake a rich shortcrust of flour, butter, sugar, egg yolks and a spoonful of soured cream. Divide it into two parts, a larger one for the base and a smaller one for the top, and chill both for 30 minutes. For the apples, use a tart cooking variety such as Bramley, peeled and grated coarsely, with cinnamon, a little sugar and a spoonful of semolina to absorb the juice. **Chill the top part until very hard**, so it grates cleanly into flakes and does not smear.\n\nPress the base part into a tin, spread the apples over, and grate the cold dough on top in an even layer. Bake at 180C for 45 minutes, until golden. Cool in the tin, dust with icing sugar and cut into squares. It keeps for 3 days and is best the next day, with a cup of tea.',
     ing: [
@@ -197,9 +197,10 @@ module.exports = {
   },
 
   'pierogi-z-kapusta': {
+    cookMax: 30,
     untimed: ['cooling completely'],
-    d: 'Polish dumplings filled with sauerkraut and dried mushrooms, boiled for 10 minutes and fried in butter with onions.',
-    meta: 'Pierogi z kapustą, Polish dumplings filled with sauerkraut and mushrooms, boiled for 10 minutes. Six servings, ready in 1 hour 10 minutes.',
+    d: 'Polish dumplings filled with sauerkraut and dried mushrooms, boiled in batches and fried in butter with onions.',
+    meta: 'Pierogi z kapustą, Polish dumplings filled with sauerkraut and mushrooms, boiled in batches. Six servings, ready in at least 1 hour 45 minutes.',
     kw: ['pierogi z kapusta', 'sauerkraut and mushroom pierogi', 'polish cabbage pierogi', 'pierogi z kapusta i grzybami', 'polish christmas eve pierogi'],
     why: 'Most home pierogi burst in the pot, and the fix is to seal them well and not to overfill. Pierogi z kapustą are the dumplings of Christmas Eve in Poland, filled with sauerkraut and dried wild mushrooms and served without meat, and they are one of the twelve dishes of the meatless Wigilia supper.\n\nThe dough is flour, hot water, an egg, oil and salt, kneaded for 8 minutes until soft and elastic, and rested for 30 minutes under a bowl. For the filling, rinse the sauerkraut, chop it fine and simmer it with soaked, chopped mushrooms and onion for 25 minutes, until dry. **Squeeze the filling very dry and cool it completely.** A wet filling will not stay in the dough.\n\nRoll the dough out thin, cut rounds with a 8 cm cutter and put a teaspoon of filling on each. Fold over and pinch the edge tightly. Boil in salted water in small batches for 3 to 4 minutes after they float. Drain and fry in butter with onions until golden. Serve hot with soured cream, though traditionally they are eaten plain at Christmas.',
     ing: [
@@ -218,10 +219,10 @@ module.exports = {
     ],
     st: [
       'Knead the flour, egg, hot water, oil and salt for 8 minutes to a soft dough. Rest under a bowl for 30 minutes.',
-      'Fry the chopped onion in the oil for 5 minutes. Add the sauerkraut and mushrooms and simmer with a splash of water for 25 minutes until dry. Add the pepper and cool completely.',
+      'While the dough rests, fry the chopped onion in the oil for 5 minutes. Add the sauerkraut and mushrooms and simmer with a splash of water for 25 minutes until dry. Add the pepper and cool completely.',
       'Roll the dough thin and cut 8 cm rounds. Put a teaspoon of filling on each, fold over and pinch tightly.',
       'Boil in salted water in batches for 4 minutes after they float. Drain.',
-      'Fry the sliced onions in the butter for 10 minutes until golden. Toss in the pierogi for 3 minutes.'
+      'While the pierogi boil, fry the sliced onions in the butter for 10 minutes until golden. Toss in the pierogi for 3 minutes.'
     ],
     tips: [
       'Cool and squeeze the filling dry.',
@@ -234,8 +235,9 @@ module.exports = {
   },
 
   'pierogi-z-miesem': {
-    d: 'Polish dumplings filled with seasoned minced beef and pork, boiled for 10 minutes and served with fried onions.',
-    meta: 'Pierogi z mięsem, Polish dumplings filled with beef and pork, boiled for 10 minutes. Six servings, ready in 1 hour 10 minutes.',
+    cookMax: 30,
+    d: 'Polish dumplings filled with seasoned minced beef and pork, boiled in batches and served with fried onions.',
+    meta: 'Pierogi z mięsem, Polish dumplings filled with beef and pork, boiled in batches. Six servings, ready in 1 hour 45 minutes to 2 hours.',
     kw: ['pierogi z miesem', 'polish meat pierogi', 'pierogi with minced meat', 'pierogi z mięsem recipe', 'polish meat dumplings'],
     why: 'A Sunday dish for a table of six, and a good use for the leftovers of a roast. Pierogi z mięsem are the Polish dumplings filled with seasoned meat, served with fried onions and a spoonful of soured cream, and they are among the most common pierogi after the potato and cheese ones.\n\nUse a mix of cooked beef and pork, finely minced, or fresh mince cooked until dry. Fry onion in lard until golden, add the meat, marjoram, salt and pepper and a splash of stock, and cook for 10 minutes. **Bind the filling with a little of the cooking juices**, so it is moist enough to stay soft inside the dough, but not wet enough to leak. Cool completely.\n\nMake the dough as for any pierogi: flour, hot water, an egg and a spoonful of oil, rested for 30 minutes. Roll thin and cut 8 cm rounds. Put a heaped teaspoon of filling in each, fold, and pinch the edges firmly. Boil in salted water in batches for 4 minutes after they float. Toss with butter and fried onions. They can also be pan fried until crisp after boiling.',
     ing: [
@@ -257,10 +259,10 @@ module.exports = {
     ],
     st: [
       'Knead the flour, egg, hot water, oil and 1/2 tsp salt for 8 minutes to a soft dough. Rest under a bowl for 30 minutes.',
-      'Fry the chopped onions in the lard for 8 minutes. Add the beef and pork and cook for 10 minutes. Add the marjoram, stock, salt and pepper and cook for 10 minutes until moist but not wet. Cool.',
+      'While the dough rests, fry the chopped onions in the lard for 8 minutes. Add the beef and pork and cook for 10 minutes. Add the marjoram, stock, salt and pepper and cook for 10 minutes until moist but not wet. Cool.',
       'Roll the dough thin and cut 8 cm rounds. Fill, fold and pinch tightly.',
       'Boil in salted water in batches for 4 minutes after they float.',
-      'Fry the sliced onions in the butter for 10 minutes until golden and toss with the pierogi.'
+      'While the pierogi boil, fry the sliced onions in the butter for 10 minutes until golden, then toss with the pierogi.'
     ],
     tips: [
       'Cool the filling before filling the dough.',
@@ -274,7 +276,7 @@ module.exports = {
 
   'placki-po-wegiersku': {
     d: 'Potato pancakes topped with a thick paprika beef goulash and a spoonful of soured cream, a Polish pub classic.',
-    meta: 'Placki po węgiersku, Polish potato pancakes topped with beef goulash, cooked for 20 minutes. Four servings, ready in 40 minutes.',
+    meta: 'Placki po węgiersku, Polish potato pancakes topped with beef goulash, cooked for about 1 hour. Four servings, ready in 1 hour 20 minutes.',
     kw: ['placki po wegiersku', 'polish potato pancakes with goulash', 'hungarian style potato pancakes', 'placki ziemniaczane with goulash', 'potato pancake and goulash'],
     why: 'This is what to put on the table in the first cold week of the year, a plate of crisp potato pancakes under a deep red goulash. Placki po węgiersku, Hungarian style potato pancakes, are a Polish pub classic, a dish that is not Hungarian at all but borrows its goulash from that country.\n\nThe pancakes are made from grated potato and onion with an egg and a spoonful of flour. Squeeze the grated potato in a cloth and pour off the water, but keep the starch that settles. **Stir the starch back into the mixture**, as it holds the pancakes together. Season well. Fry spoonfuls in oil over medium heat for about 4 minutes on each side, until they are deep gold and crisp at the edge.\n\nThe goulash is a quick one: brown beef in lard, add onion, garlic, paprika, tomato purée and stock, and simmer for 45 minutes, until the beef is tender and the sauce has thickened. Take it off the heat before adding the paprika. Pile the sauce over the pancakes, top with soured cream and parsley and serve at once. A bit of extra chilli gives it a kick.',
     ing: [
@@ -297,7 +299,7 @@ module.exports = {
     st: [
       'Brown the beef in the lard in batches for 8 minutes. Lift out. Soften the 2 chopped onions and garlic in the pot for 8 minutes.',
       'Take the pot off the heat, stir in the paprika and purée, then the stock. Return the beef and add the pepper. Simmer for 45 minutes.',
-      'Grate the potatoes and the whole onion, squeeze in a cloth, pour off the water and stir the starch back in. Mix with the egg, flour and salt.',
+      'While the goulash simmers, grate the potatoes and the whole onion, squeeze in a cloth, pour off the water and stir the starch back in. Mix with the egg, flour and salt.',
       'Fry spoonfuls in the oil for 4 minutes on each side until deep gold. Drain.',
       'Top with the goulash and the soured cream.'
     ],
@@ -451,8 +453,8 @@ module.exports = {
 
   'kluski-slaskie': {
     untimed: ['cooling completely'],
-    d: 'Soft Silesian potato dumplings shaped into balls with a dent in the middle for gravy, boiled for 10 minutes.',
-    meta: 'Kluski śląskie, soft Silesian potato dumplings with a dent for gravy, cooked for 10 minutes. Four servings, ready in 40 minutes.',
+    d: 'Soft Silesian potato dumplings shaped into balls with a dent in the middle for gravy, simmered for 5 minutes.',
+    meta: 'Kluski śląskie, soft Silesian potato dumplings with a dent for gravy, simmered for 5 minutes. Four servings, ready in at least 1 hour.',
     kw: ['kluski slaskie', 'silesian potato dumplings', 'potato dumplings with a dent', 'kluski slaskie recipe', 'polish potato dumplings with gravy'],
     why: 'The first sign they are right is the dent: a shallow thumb print in the centre of each dumpling, where the gravy collects. Kluski śląskie are the Silesian potato dumplings, soft and smooth, made with boiled potatoes and potato starch, and served with roast beef rolls and a rich sauce.\n\nBoil floury potatoes in their skins, peel and mash them while hot and let the mash cool completely. Measure it: for every 3 parts of mashed potato, take away one part and replace it with potato starch. **Cut a cross in the mash with a knife, remove one quarter and fill the gap with starch**, which is the traditional method and gives the dumplings their lightness. Add an egg and a pinch of salt.\n\nKnead briefly to a smooth dough and roll into balls the size of a walnut, pressing a dent with your thumb. Simmer in salted water for about 5 minutes after they float. Lift out with a slotted spoon and serve at once. They are soft and slightly chewy. The dent should hold about a spoonful of gravy.',
     ing: [
@@ -553,7 +555,7 @@ module.exports = {
 
   'zrazy': {
     d: 'Polish beef rolls filled with mushrooms, onion and pickled cucumber, browned and braised in gravy for 60 minutes.',
-    meta: 'Zrazy, Polish beef rolls filled with mushrooms, onion and pickle, cooked for 60 minutes. Four servings, ready in 1 hour 30 minutes.',
+    meta: 'Zrazy, Polish beef rolls filled with mushrooms, onion and pickle, cooked for 60 minutes. Four servings, ready in 1 hour 50 minutes.',
     kw: ['zrazy', 'polish beef rolls', 'zrazy zawijane', 'beef rolls with mushrooms and pickles', 'zrazy recipe'],
     why: 'It looks like a small parcel of beef and tastes of the forest, from the mushrooms and the thick brown gravy. Zrazy are Polish beef rolls, closely related to the Silesian rolada, but filled with mushrooms, onion and pickled cucumber and cooked slowly in a gravy that is thickened with cream.\n\nCut slices from a piece of topside, about 1 cm thick, and beat each one out to 5 mm. Fry chopped onions and mushrooms in butter until all the moisture is gone and they begin to colour. Cool, then mix with chopped pickled cucumber and parsley. **Spread the filling only to 2 cm from the edge**, so it does not squeeze out as you roll.\n\nFold in the sides, roll the meat tightly and tie with string. Brown the rolls in lard in a casserole, then add stock, a bay leaf and some dried mushrooms. Cover and simmer for 60 minutes, turning once, until the beef is tender. Lift out, remove the string and thicken the sauce with flour mixed in cream. Serve with buckwheat or boiled potatoes and the gravy.',
     ing: [
@@ -657,7 +659,7 @@ module.exports = {
 
   'vepro-knedlo-zelo': {
     d: 'Czech roast pork with bread dumplings and sauerkraut, the national plate, roasted for 90 minutes with caraway and garlic.',
-    meta: 'Vepřo knedlo zelo, Czech roast pork with bread dumplings and sauerkraut, cooked for 90 minutes. Six servings, ready in 1 hour 55 minutes.',
+    meta: 'Vepřo knedlo zelo, Czech roast pork with bread dumplings and sauerkraut, cooked for 90 minutes. Six servings, ready in 2 hours 10 minutes.',
     kw: ['vepro knedlo zelo', 'czech roast pork dumplings and sauerkraut', 'czech national dish', 'vepřo knedlo zelo recipe', 'pork with dumplings and cabbage'],
     why: 'The name is the recipe: vepřo knedlo zelo means pork, dumpling, cabbage. It is the most famous plate in Czech cooking, served at pubs and Sunday tables across the country, and the three parts are cooked separately and brought together on the plate.\n\nFor the pork, use shoulder with the rind on. Score the rind, rub with salt, caraway and garlic and set in a tin on onions. Add a little water and roast at 180C for 90 minutes, basting. **Keep adding a splash of water to the tin**, so the juices do not burn, because they make the gravy. For the last 15 minutes, raise the heat to 220C to crisp the rind.\n\nThe dumplings are sliced bread dumplings, made as the Austrian napkin dumplings, simmered in a cloth and sliced. The sauerkraut is simmered with onion, a spoonful of sugar and caraway until soft, and sometimes thickened with grated potato. Serve the sliced pork with the dumplings and cabbage and a ladle of the pan gravy. A half litre of Czech lager is the usual drink.',
     ing: [
@@ -678,8 +680,8 @@ module.exports = {
     st: [
       'Heat the oven to 180C. Score the rind, rub with the salt, half the caraway and the garlic and set on the onions in a tin with half the water.',
       'Roast for 90 minutes, adding water as needed and basting. Turn up to 220C for the last 15 minutes.',
-      'Mix the bread with the milk, eggs and butter and leave for 20 minutes. Shape into a log, wrap in a cloth and simmer for 25 minutes.',
-      'Simmer the sauerkraut with the sugar, lard and remaining caraway for 30 minutes.',
+      'While the pork roasts, mix the bread with the milk, eggs and butter and leave for 20 minutes. Shape into a log, wrap in a cloth and simmer for 25 minutes.',
+      'Meanwhile, simmer the sauerkraut with the sugar, lard and remaining caraway for 30 minutes.',
       'Rest the pork for 15 minutes, slice and serve with the sliced dumplings, sauerkraut and the pan gravy.'
     ],
     tips: [
@@ -790,8 +792,9 @@ module.exports = {
   },
 
   'rajska-omacka': {
-    d: 'A sweet Czech tomato sauce with beef and bread dumplings, simmered for an hour, a classic school dinner.',
-    meta: 'Rajská omáčka, sweet Czech tomato sauce with boiled beef and dumplings, cooked for 1 hour. Four servings, ready in 1 hour 20 minutes.',
+    cookMax: 115,
+    d: 'A sweet Czech tomato sauce with beef and bread dumplings, the beef simmered for an hour and a half, a classic school dinner.',
+    meta: 'Rajská omáčka, sweet Czech tomato sauce with boiled beef and dumplings, cooked for about 1 hour 50 minutes. Four servings, ready in 2 hours 10 minutes to 2 hours 15 minutes.',
     kw: ['rajska omacka', 'czech tomato sauce', 'czech beef in tomato sauce with dumplings', 'rajska omacka recipe', 'sweet tomato sauce czech'],
     why: 'The sauce here is sweet, and anyone raised in Czechia would say so. Rajská omáčka, tomato sauce, is one of the traditional school dinners of the country, a smooth, pinkish sauce that is poured over slices of boiled beef and bread dumplings, and the surprise for visitors is that it contains sugar.\n\nSimmer a piece of beef brisket in water with a bay leaf for 1 hour 30 minutes, until tender, and keep the broth. For the sauce, cook flour in butter until pale, stir in tomato purée and sugar, then whisk in the broth a ladle at a time. **Cook the roux for 3 minutes before adding the broth**, so it loses its raw taste, and whisk well to avoid lumps. Simmer for 20 minutes, until it coats a spoon.\n\nSeason with salt, a splash of vinegar and a pinch of sugar to balance it, and add a little cream for a smooth finish. Slice the beef and lay it with the dumplings in a deep plate, ladle the sauce over and serve. The sauce is also good with boiled eggs or pasta. It keeps for 3 days.',
     ing: [

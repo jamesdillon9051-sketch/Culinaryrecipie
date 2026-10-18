@@ -186,6 +186,7 @@ module.exports = {
   },
 
   'cauliflower-shepherds-pie': {
+    cookMax: 50,
     d: 'Lamb mince, carrot, celery and peas in a rich gravy, topped with a buttery cauliflower mash instead of potato. Six servings in 70 minutes.',
     meta: 'Cauliflower shepherd\'s pie: lamb mince, carrot and peas in a rich gravy under a golden cauliflower mash instead of potato. Serves six.',
     kw: ['cauliflower shepherds pie', 'gluten free shepherds pie', 'shepherds pie with cauliflower mash', 'baked shepherds pie without potato'],

@@ -78,7 +78,7 @@
       }
     },
     "sweet-potato-casserole": {
-      "fingerprint": "41f2897f2996",
+      "fingerprint": "2d6610762869",
       "findings": {
         "required-wait-not-counted|Leave until cool enough to handle, then scoop the flesh into a bowl and discard the skins.": {
           "status": "exception",
@@ -150,12 +150,8 @@
       }
     },
     "ajvar": {
-      "fingerprint": "279b8d50dd4d",
+      "fingerprint": "ccca5860fd3b",
       "findings": {
-        "required-wait-not-counted|Leave to steam for 20 minutes, until cool enough to handle.": {
-          "status": "exception",
-          "reason": "handling pause: the 20-minute steam is counted; \"until cool enough to handle\" is the cue that ends it"
-        },
         "required-wait-not-counted|Let cool, then keep in the fridge.": {
           "status": "exception",
           "reason": "storage step: the ajvar is ready when cooked; cooling before refrigerating is for keeping it"
@@ -276,6 +272,69 @@
         "stages-exceed-cook|stages": {
           "status": "exception",
           "reason": "The method runs three tracks at once and now says so: the ragù (8 + 8 + 2 + 2 minutes, the wine reduced, 30 to 35 minutes simmering) is made while the aubergine salts (30 minutes, counted as waiting) and roasts (25 minutes), with the potatoes on a second tray alongside; the béchamel is made while the ragù simmers. The cooking path is the 25-minute roast and the 45 to 50-minute bake: 70 to 80 minutes in the row and cookMax. The checker adds every stage in sequence because only the first sentence of each parallel step starts with \"while\"."
+        }
+      }
+    },
+    "soft-pretzels": {
+      "fingerprint": "edc116d7a619",
+      "findings": {
+        "stages-exceed-cook|stages": {
+          "status": "exception",
+          "reason": "The hour of baking the soda runs while the dough is kneaded and proved, which the method now says; after the prove the cooking is the 30-second baths and a 13 to 16-minute bake, 15 to 20 minutes."
+        }
+      }
+    },
+    "philly-soft-pretzel": {
+      "fingerprint": "781e25de10c6",
+      "findings": {
+        "stages-exceed-cook|stages": {
+          "status": "exception",
+          "reason": "The hour of baking the soda runs while the dough is kneaded and proved, which the method now says; after that the cooking is the 30-second baths and a 13 to 15-minute bake, 15 to 20 minutes."
+        }
+      }
+    },
+    "pretzel-brezel": {
+      "fingerprint": "ed37ee61b622",
+      "findings": {
+        "stages-exceed-cook|stages": {
+          "status": "exception",
+          "reason": "The hour of baking the soda runs during the 45-minute prove and 45-minute chill, which the method now says; the cooking after them is the baths and a 14 to 16-minute bake."
+        }
+      }
+    },
+    "jamaican-patty": {
+      "fingerprint": "0af9784db6fa",
+      "findings": {
+        "stages-exceed-cook|stages": {
+          "status": "exception",
+          "reason": "The filling (8 + 1 + 8 + 2 + 12 + 3 minutes) and its cooling fit inside the pastry's chilling, which the method now says; the cooking after that is the 25 to 30-minute bake, the row's 30."
+        }
+      }
+    },
+    "doubles": {
+      "fingerprint": "286fbd577105",
+      "findings": {
+        "stages-exceed-cook|stages": {
+          "status": "exception",
+          "reason": "The channa (50 + 8 + 1 + 3 + 25 minutes) cooks during the 90-minute prove, which the method now says; after the prove the cooking is frying the bara, 20 seconds a side in batches."
+        }
+      }
+    },
+    "jamaican-patties": {
+      "fingerprint": "2feb0f44da05",
+      "findings": {
+        "stages-exceed-cook|stages": {
+          "status": "exception",
+          "reason": "The filling (6 + 2 + 10 + 1 + 8 minutes) is cooked while the pastry chills, which the method now says, and then cools for its hour; the cooking after that is the 30-minute bake, the row's cook time."
+        }
+      }
+    },
+    "vinegret": {
+      "fingerprint": "b12f4ca78653",
+      "findings": {
+        "stages-exceed-cook|stages": {
+          "status": "exception",
+          "reason": "The beetroot (35 minutes) and the potatoes and carrots (20) boil in two pans at once, which the method now says, so the cooking is 35 minutes, the row's cook time. The checker adds both times because they share one sentence."
         }
       }
     }

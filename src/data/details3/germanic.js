@@ -84,6 +84,7 @@ module.exports = {
   },
 
   'pretzel-brezel': {
+    cookMax: 20,
     rest: [90, 'proving'],
     d: 'The Bavarian shape: fat belly, thin crossed arms, split along the base as it bakes, with coarse salt on the dark lye crust.',
     meta: 'Bavarian brezel — lye-dipped pretzels with a fat belly, thin arms and a dark, salted crust.',
@@ -103,7 +104,7 @@ module.exports = {
       'Coarse pretzel salt or flaky sea salt'
     ],
     st: [
-      'Spread the bicarbonate of soda on a lined tray and bake at 150C fan for 1 hour, then cool. It becomes a stronger alkali — keep it away from your eyes and aluminium pans.',
+      'Set the soda baking first, since it runs while the dough proves and chills: spread the bicarbonate of soda on a lined tray and bake at 150C fan for 1 hour, then cool. It becomes a stronger alkali — keep it away from your eyes and aluminium pans.',
       'Mix the flour, yeast, sugar and salt. Add the water and oil and knead 10 minutes to a firm, smooth dough. It should feel stiffer than bread dough.',
       'Prove covered for 45 minutes — it will not double, and should not.',
       'Divide into 8. Roll each piece into a 55 cm rope that is fat in the middle and tapers to thin ends.',

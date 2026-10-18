@@ -76,8 +76,8 @@ module.exports = {
 
   'apple-slab-pie': {
     rest: [60, 'chilling'],
-    d: 'A large rectangular apple pie baked on a tray, with a lattice-free top and a simple glaze. Makes 12 in 1 hour 10 minutes.',
-    meta: 'Apple slab pie: a large rectangular apple pie baked on a tray with a simple glaze. A cheap way to feed a crowd, 12 pieces in 1 hour 10.',
+    d: 'A large rectangular apple pie baked on a tray, with a lattice-free top and a simple glaze. Makes 12 in 2 hours 10 minutes, chilling included.',
+    meta: 'Apple slab pie: a large rectangular apple pie baked on a tray with a simple glaze. A cheap way to feed a crowd, 12 pieces in 2 hours 10 minutes with chilling.',
     kw: ['apple slab pie', 'apple pie for a crowd', 'budget apple pie', 'homemade slab pie recipe', 'cheap dessert for twelve'],
     why: 'A slab pie is an apple pie that feeds twelve. It is baked in a shallow tray, so it has a high ratio of crust to filling, and no deep dish or lattice to fuss with.\n\nThe pastry is the standard: flour, cold butter, a little sugar and iced water. Chill it for 30 minutes before rolling, as warm pastry shrinks and tears.\n\nThe apples are cooked briefly with sugar, cinnamon and cornflour before they go in. **This pre-cook releases their juice** and thickens it, so the bottom crust does not turn soggy.\n\nRoll the base slightly larger than the tin and the top slightly smaller. Seal the edges firmly and cut slits in the top. A simple glaze of icing sugar and milk goes on while the pie is still warm. Slab pies are made to feed many people at once and are well suited to parties or school events. The pie is as good at room temperature as warm, and the glaze sets to a thin, sweet crust.',
     ing: [

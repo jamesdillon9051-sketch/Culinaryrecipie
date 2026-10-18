@@ -307,9 +307,10 @@ module.exports = {
   },
 
   'bolinhos-de-bacalhau': {
+    cookMax: 45,
     untimed: ['cooling completely'],
     d: 'Oval fritters of salt cod, potato, onion and parsley fried until golden, after a 24 hour soak, a Portuguese snack.',
-    meta: 'Bolinhos de bacalhau, Portuguese salt cod fritters with potato and parsley, fried for 10 minutes. Eight servings, ready in 35 minutes plus soaking.',
+    meta: 'Bolinhos de bacalhau, Portuguese salt cod fritters with potato and parsley, fried in batches. Eight servings, ready in 35 minutes plus soaking.',
     kw: ['bolinhos de bacalhau', 'portuguese salt cod fritters', 'bacalhau fritters', 'pasteis de bacalhau', 'salt cod and potato croquettes'],
     why: 'Bolinhos de bacalhau, also called pastéis de bacalhau, are made in every Portuguese home, and some say that there are a thousand ways to cook salt cod and these are the most popular. Their name just means little cod cakes. Crisp outside, they are soft and salty inside.\n\nSoak the cod for 24 hours, changing the water three times. Poach it in water or milk for 10 minutes, drain, and flake it, taking out the skin and bones. Boil floury potatoes, mash them dry, and mix with the cod, finely chopped onion, parsley, an egg and black pepper. **Let the mixture cool completely**, as a warm one is too soft to shape. Taste before adding salt, as the cod may still be salty.\n\nShape the mix into ovals with two tablespoons, dipping them in water so the mixture does not stick. Fry in oil at 175C for 3 minutes on each side, until deep gold. Drain on kitchen paper. They are served warm or at room temperature, with a salad of tomatoes, or as a starter with a glass of green wine.',
     ing: [
@@ -324,7 +325,7 @@ module.exports = {
     st: [
       'Soak the cod in cold water in the fridge for 24 hours, changing the water 3 times.',
       'Poach the cod in water for 10 minutes. Flake it, discarding skin and bones.',
-      'Boil the potatoes for 20 minutes. Drain well and mash dry. Cool completely.',
+      'Meanwhile, boil the potatoes for 20 minutes. Drain well and mash dry. Cool completely.',
       'Mix the cod, potato, onion, parsley, eggs and pepper. Shape into 16 ovals with wet spoons.',
       'Heat the oil to 175C and fry in batches for 3 minutes on each side. Drain on kitchen paper.'
     ],
@@ -402,7 +403,7 @@ module.exports = {
 
   'carne-de-porco-a-alentejana': {
     d: 'Cubes of pork marinated in wine and paprika paste, fried and finished with clams, fried potatoes and coriander.',
-    meta: 'Carne de porco à alentejana, Portuguese pork with clams, paprika paste and fried potatoes, cooked for 40 minutes. Four servings, ready in 1 hour.',
+    meta: 'Carne de porco à alentejana, Portuguese pork with clams, paprika paste and fried potatoes, cooked for 40 minutes. Four servings, ready in 1 hour 30 minutes.',
     kw: ['carne de porco a alentejana', 'portuguese pork and clams', 'alentejo pork with clams', 'pork and clams recipe', 'carne de porco alentejana'],
     why: 'Pork and clams in one pan seems odd until you taste it. Carne de porco à alentejana is a famous Portuguese dish from the Alentejo, where land and sea meet on a single plate: cubes of marinated pork, fried and cooked with clams, and served with golden potatoes.\n\nMarinate the pork cubes in white wine, garlic, bay and a spoonful of massa de pimentão, a paste of red peppers, for at least 30 minutes. Drain them and pat dry, because wet meat does not brown. **Fry the pork in a hot pan in batches** until each piece is crusted. Lift out and keep warm. Fry the potato cubes in oil until golden and crisp at the edges.\n\nIn the same pan, soften onion and garlic, add the marinade and the clams, cover and cook for 4 minutes, until the shells open. Throw away any that stay shut. Return the pork and potatoes to the pan, toss with the juices and scatter with coriander and lemon juice. Serve at once from the pan. The salt from the clams seasons the pork.',
     ing: [
@@ -507,7 +508,7 @@ module.exports = {
 
   'leitao-da-bairrada': {
     d: 'A suckling pig rubbed with garlic, lard and pepper and roasted for 4 hours until the skin is crisp, the Bairrada roast.',
-    meta: 'Leitão da Bairrada, roast suckling pig rubbed with garlic and pepper, cooked for 4 hours. Six servings, ready in 4 hours 20 minutes.',
+    meta: 'Leitão da Bairrada, roast suckling pig rubbed with garlic and pepper, cooked for 4 hours. Six servings, ready in 4 hours 35 minutes.',
     kw: ['leitao da bairrada', 'portuguese roast suckling pig', 'bairrada roast pig', 'leitao assado recipe', 'crispy suckling pig portugal'],
     why: 'Compare it to the Segovia roast and you find a different method: a rub of garlic and pepper, and a dry roast without water. Leitão da Bairrada is the suckling pig of central Portugal, roasted in a wood oven in restaurants along the old road from Lisbon to Porto, and the skin comes out thin, brittle and the colour of amber.\n\nA young pig has little fat, and the skin must be kept moist at first. Rub the pig inside and out with a paste of crushed garlic, black pepper, salt and lard, and leave it in the fridge overnight if you can. **Brush the skin with lard before and during roasting**, as this is what makes it blister and crisp. Lay the pig on a rack in a large tin, and roast at 160C for 3 hours.\n\nRaise the heat to 220C for the last 40 minutes and baste with the pan fat every 10 minutes until the skin is golden. Rest for 15 minutes. Carve into pieces with the skin on. Serve with sliced oranges, which cut the richness, and roast potatoes. The classic accompaniment is a glass of sparkling Bairrada wine.',
     ing: [

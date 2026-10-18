@@ -43,7 +43,7 @@ module.exports = {
   },
 
   'frittelle-di-carnevale': {
-    d: 'Small Italian fritters of a thick batter with raisins and lemon, fried until puffed and golden and rolled in sugar, in 35 minutes.',
+    d: 'Small Italian fritters of a thick batter with raisins and lemon, fried until puffed and golden and rolled in sugar.',
     meta: 'Frittelle di carnevale, fried batter fritters with raisins and lemon, cooked for 15 minutes. Six servings, ready in 55 minutes.',
     kw: ['frittelle di carnevale', 'italian carnival fritters', 'raisin fritters with lemon', 'italian fried sweet fritters', 'carnival fritters recipe'],
     why: 'Frittelle di carnevale means carnival fritters, and that is all the recipe says about them: they are made in the weeks before Lent, from a simple batter, and eaten hot with sugar. The batter is thick, closer to a drop scone mixture than a pancake, and the raisins are plumped in rum or warm water first.\n\nMix the flour, sugar, eggs, milk and yeast or baking powder, add the lemon zest and the drained raisins, and rest the batter for 20 minutes. **Keep the oil at about 170C**, hot enough to puff the fritters in 3 minutes but not so hot that the outsides burn before the middles are done. Drop in tablespoons and turn them once.\n\nThey are ready when they are deep gold all over and feel light for their size. Drain on kitchen paper and roll them in sugar while they are warm. Eat them at once. If you break one open and the centre is doughy, the oil was too hot, so turn it down for the next batch.',
@@ -77,7 +77,7 @@ module.exports = {
 
   'chiacchiere': {
     untimed: ['cooling completely'],
-    d: 'Thin ribbons of sweet dough fried until they blister and crisp, then dusted with icing sugar, in 50 minutes.',
+    d: 'Thin ribbons of sweet dough fried until they blister and crisp, then dusted with icing sugar.',
     meta: 'Chiacchiere, crisp fried carnival pastry ribbons dusted with icing sugar, cooked for 10 minutes. Eight servings, ready in 1 hour 10 minutes.',
     kw: ['chiacchiere', 'italian carnival pastry', 'fried pastry ribbons', 'angel wings pastry italian', 'chiacchiere recipe'],
     why: 'It looks like a ribbon of pastry and shatters like glass, which is the whole appeal. Chiacchiere, whose name means chatter, are the thin fried ribbons of dough sold across Italy at carnival time, and what makes them good is how thin they are rolled.\n\nThe dough is flour, sugar, eggs, butter and a splash of grappa or white wine, which helps it blister in the oil. Knead it for 5 minutes until smooth, then rest it for 20 minutes so it rolls easily. **Roll it until you can see the work surface through it**, a little over 1 mm, using a pasta machine if you have one. Thick dough comes out hard and bready.\n\nCut it into strips, make a slit in the middle of each and fry in oil at 170C for about 1 minute a side. They colour fast, so do not leave the pan. Drain on kitchen paper, cool, and dust heavily with icing sugar just before you serve them.',
@@ -719,7 +719,7 @@ module.exports = {
   },
 
   'malfatti': {
-    d: 'Soft dumplings of spinach and ricotta, poorly shaped by design, boiled for 5 minutes and served in sage butter, in 40 minutes.',
+    d: 'Soft dumplings of spinach and ricotta, poorly shaped by design, boiled for 5 minutes and served in sage butter.',
     meta: 'Malfatti, soft spinach and ricotta dumplings in sage butter, cooked for 10 minutes. Four servings, ready in 1 hour.',
     kw: ['malfatti', 'spinach and ricotta malfatti', 'italian ricotta dumplings', 'naked ravioli', 'malfatti with sage butter'],
     why: 'Malfatti means badly made, and it describes the shape on purpose: they are rough dumplings, not neat parcels. They are the filling of spinach ravioli without the pasta, which is why they are sometimes called naked ravioli.\n\nThe mixture must be dry, or the dumplings fall apart in the water. Squeeze the cooked spinach until no more water comes out, chop it very fine and beat it with drained ricotta, egg, Parmesan and nutmeg. **Stir in the flour last and no more than needed**, only enough to hold the shape. Chill the mixture for 20 minutes to firm it.\n\nRoll teaspoons of the mix in flour into short sausages. Test one in simmering water: if it holds, carry on, and if it breaks, add a spoon of flour. Simmer gently for 5 minutes, until they float. Lift them out with a slotted spoon, toss in melted butter with sage, and add a little Parmesan.',

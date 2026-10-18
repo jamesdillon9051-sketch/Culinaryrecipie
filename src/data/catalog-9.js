@@ -50,14 +50,14 @@ module.exports = [
   c('spaghetti-bolognese', 'Spaghetti Bolognese', 'Italian', 'Dinner', 'Easy', 25, 180, 6, 0, 0, [], ['new'], 'Spaghetti bolognese plate'),
 
   /* Pasta */
-  c('baked-ziti', 'Baked Ziti', 'American', 'Dinner', 'Easy', 30, 45, 8, 0, 0, ['Vegetarian'], ['new'], 'Baked ziti dish cheese'),
+  c('baked-ziti', 'Baked Ziti', 'American', 'Dinner', 'Easy', 30, 75, 8, 0, 0, ['Vegetarian'], ['new'], 'Baked ziti dish cheese'),
   c('penne-alla-vodka', 'Penne alla Vodka', 'Italian', 'Dinner', 'Easy', 10, 25, 4, 0, 0, ['Vegetarian'], ['new'], 'Penne alla vodka pink sauce'),
 
   /* Soups */
   c('broccoli-cheddar-soup', 'Broccoli Cheddar Soup', 'American', 'Lunch', 'Easy', 15, 30, 6, 0, 0, ['Vegetarian'], ['new'], 'Broccoli cheddar soup bowl'),
   c('split-pea-soup', 'Split Pea and Ham Soup', 'American', 'Lunch', 'Easy', 15, 90, 6, 0, 0, ['Gluten-Free', 'Dairy-Free'], ['new'], 'Split pea soup bowl'),
   c('chicken-tortilla-soup', 'Chicken Tortilla Soup', 'Mexican', 'Dinner', 'Easy', 20, 35, 6, 0, 0, ['Gluten-Free'], ['new'], 'Chicken tortilla soup'),
-  c('lobster-bisque', 'Lobster Bisque', 'French', 'Dinner', 'Hard', 30, 60, 4, 0, 0, ['Gluten-Free'], ['new'], 'Lobster bisque bowl'),
+  c('lobster-bisque', 'Lobster Bisque', 'French', 'Dinner', 'Hard', 30, 75, 4, 0, 0, ['Gluten-Free'], ['new'], 'Lobster bisque bowl'),
 
   /* Breakfast */
   c('frittata', 'Vegetable Frittata', 'Italian', 'Breakfast', 'Easy', 15, 25, 6, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'Frittata slice vegetables'),
@@ -66,9 +66,9 @@ module.exports = [
   c('mashed-potatoes', 'Creamy Mashed Potatoes', 'American', 'Dinner', 'Easy', 15, 25, 6, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'Creamy mashed potatoes bowl'),
   c('roast-potatoes', 'Crispy Roast Potatoes', 'British', 'Dinner', 'Easy', 15, 65, 6, 0, 0, ['Vegan', 'Vegetarian', 'Gluten-Free', 'Dairy-Free'], ['new'], 'Crispy roast potatoes'),
   c('baked-potato', 'Baked Potato', 'American', 'Dinner', 'Easy', 5, 70, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'Baked jacket potato butter'),
-  c('green-bean-casserole', 'Green Bean Casserole', 'American', 'Holiday Specials', 'Easy', 20, 35, 8, 0, 0, ['Vegetarian'], ['new'], 'Green bean casserole dish'),
-  c('sweet-potato-casserole', 'Sweet Potato Casserole', 'American', 'Holiday Specials', 'Easy', 25, 55, 10, 0, 0, ['Vegetarian'], ['new'], 'Sweet potato casserole pecan'),
-  c('stuffing', 'Sage and Onion Stuffing', 'British', 'Holiday Specials', 'Easy', 25, 45, 10, 0, 0, ['Vegetarian'], ['new'], 'Sage and onion stuffing dish'),
+  c('green-bean-casserole', 'Green Bean Casserole', 'American', 'Holiday Specials', 'Easy', 20, 60, 8, 0, 0, ['Vegetarian'], ['new'], 'Green bean casserole dish'),
+  c('sweet-potato-casserole', 'Sweet Potato Casserole', 'American', 'Holiday Specials', 'Easy', 25, 90, 10, 0, 0, ['Vegetarian'], ['new'], 'Sweet potato casserole pecan'),
+  c('stuffing', 'Sage and Onion Stuffing', 'British', 'Holiday Specials', 'Easy', 25, 70, 10, 0, 0, ['Vegetarian'], ['new'], 'Sage and onion stuffing dish'),
   c('cranberry-sauce', 'Cranberry Sauce', 'American', 'Holiday Specials', 'Easy', 5, 15, 10, 0, 0, ['Vegan', 'Vegetarian', 'Gluten-Free', 'Dairy-Free'], ['new'], 'Cranberry sauce bowl'),
   c('spinach-artichoke-dip', 'Spinach and Artichoke Dip', 'American', 'Appetizers', 'Easy', 15, 25, 8, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'Spinach artichoke dip'),
   c('ranch-dressing', 'Buttermilk Ranch Dressing', 'American', 'Appetizers', 'Easy', 10, 0, 12, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'Ranch dressing jar'),
@@ -85,7 +85,7 @@ module.exports = [
 
   /* Seafood */
   c('shrimp-scampi', 'Shrimp Scampi', 'Italian', 'Quick Meals', 'Easy', 10, 12, 4, 0, 0, [], ['new'], 'Shrimp scampi pasta garlic'),
-  c('tuna-casserole', 'Tuna Noodle Casserole', 'American', 'Dinner', 'Easy', 20, 30, 6, 0, 0, [], ['new'], 'Tuna noodle casserole dish'),
+  c('tuna-casserole', 'Tuna Noodle Casserole', 'American', 'Dinner', 'Easy', 20, 50, 6, 0, 0, [], ['new'], 'Tuna noodle casserole dish'),
   c('garlic-butter-shrimp', 'Garlic Butter Shrimp', 'American', 'Quick Meals', 'Easy', 10, 8, 4, 0, 0, ['Gluten-Free'], ['new'], 'Garlic butter shrimp skillet'),
 
   /* Sweets */

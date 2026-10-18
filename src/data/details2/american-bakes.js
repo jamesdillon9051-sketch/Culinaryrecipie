@@ -211,6 +211,7 @@ module.exports = {
   },
 
   'pecan-pie': {
+    cookMax: 90,
     rest: [330, 'cooling'],
     d: 'A dense, chewy custard of eggs, syrup and butter under a layer of toasted pecans, in a blind-baked shell. Thanksgiving\'s richest dessert, and the one most often ruined by an underbaked base.',
     meta: 'Classic pecan pie with a chewy syrup custard, toasted pecans and a properly blind-baked pastry base.',
