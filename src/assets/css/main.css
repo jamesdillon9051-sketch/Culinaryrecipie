@@ -1108,6 +1108,9 @@ a.tag:hover { border-color: var(--accent); color: var(--accent); }
   display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap;
   font-size: .82rem; color: #a2968a;
 }
+/* The legal links sit on one line of small text; give each a 24 px tall target (WCAG 2.2, 2.5.8)
+   without changing how the line looks. */
+.footer-bottom a { display: inline-block; min-height: 24px; line-height: 24px; }
 
 /* ------------------------------------------------------------- overlays */
 .toast {

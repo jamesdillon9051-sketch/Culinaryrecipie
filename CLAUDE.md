@@ -37,6 +37,8 @@ README.md           long-form docs; its counts are derived from the data (tools/
 | `node tools/diet-audit.js --conditional` | List every diet label that holds only with a swap the recipe offers, and the method steps that name only the non-compliant side. |
 | `node tools/robots-check.js --verbose` | What `robots.txt` allows and blocks for each crawler (part of `check`). |
 | `node tools/private-paths-check.js [--url https://weeklydelight.com]` | That `.htaccess` refuses the source and working files and still serves the site; with `--url`, against the live host (part of `check`, offline). |
+| `node tools/recipe-consistency.js [--list confirmed\|review] [--slug a,b] [--md FILE]` | Ingredients the method never names, step quantities above the list, cooking stages beyond the cook time, required waits left out, whole-recipe time claims, and the card/index/JSON-LD against the recipe (part of `check`, which fails on confirmed findings only). A finding judged correct goes in `src/data/consistency-reviewed.json` with its reason. |
+| `node tools/ads-unchanged.js [--against <ref>]` | That the ad and consent files, `ads.txt` and the ad markup on sample pages are unchanged from a ref. Run before merging any change that was not meant to touch advertising. |
 | `node tools/published-dates.js --dry-run` | Re-derive `src/data/published-dates.json` from git history (section 7). Only ever run to repair the register. |
 
 Before any commit: `npm run build && npm run check`.
@@ -73,11 +75,16 @@ c(slug, title, cuisine, category, difficulty, prepMin, cookMin, servings, rating
 | `nut` | Legacy: `[kcal, protein g, carbs g, fat g, fibre g, sugar g, sodium mg]` | Optional, and **not printed**. The page's figures are computed from `ing` on every build (section 9); a figure typed here has no effect. |
 | `kp` | Optional; its presence asks for `[potassium mg, phosphorus mg]` to be printed | The values printed are computed, like the rest, and marked "(est.)". |
 | `rest` | Optional `[minutes, 'Label']` for unattended waiting (proving, chilling) | The build reads the waiting from the method itself (`src/lib/timing.js`, as a floor and a ceiling: "12 to 24 hours", "overnight"). `rest` is optional; when given, its minutes must equal the detected floor (`npm run timing`). Where the wording cannot settle it, a reviewed override with its reason goes in `src/data/timing-overrides.json`; `tools/timing-corpus.js` (part of `check`) holds the hard cases the reader must get right: several waits, parallel prep, repeated folds, overnight, ranges, cooling before assembly, optional make-ahead. Every time a reader sees (cards, titles, descriptions, keywords, `totalTime`) is the elapsed time, waiting included. A `meta` that says "ready in N minutes" must name the wait ("plus rising"). |
+| `cookMax` | Optional; the top of the cooking time where the method gives a range ("simmer 2½ to 3 hours") | The row's cook time is the floor and what the schema's `cookTime` says; the page and the FAQ show the range. The row's cook time is the whole cooking chain in the method, stages that run alongside another left out; `npm run check` fails when the stages add up to far more. |
 | `layout`, `headings` | Optional, see section 4.2 | Usually written only by the rewrite pipeline. |
 
 Volumes are found by name (`catalog-N.js` + `detailsN/`) and sorted numerically by `src/data/volumes.js`. Nothing else needs registering.
 
 **Rewrites**: `src/data/rewrites/*.json`, written only by `tools/humanize.js` (section 6) and laid over the detail records when the catalogue loads. The detail files themselves are never edited by the pipeline.
+
+**Testing register**: `src/data/testing-notes.json` lists recipes to cook first, with empty fields for who cooked each, when and what changed. It is not published. Nothing on the site may say a recipe was tested until its entry says `"status": "cooked"` with `cookedBy` and `date`.
+
+**Food handling**: methods follow USDA FSIS guidance: marinate in the fridge, not on the counter; raw meat, and egg- or dairy-rich dishes, out of the fridge no more than 2 hours, cooling included; large cooked joints and pots refrigerated within 2 hours. Raw-egg dishes are traditional and stay as they are, listed for review in `docs/release-2026-10-corrective/food-handling-review.md`.
 
 **Content dates**: `src/data/content-dates.json` is the register behind every page's `dateModified` and the sitemap's `lastmod`. The build writes it, and it moves a date only when that recipe's content really changes. Do not edit it by hand. If a build changed it for recipes whose content you did not change, something is wrong, so find out why before committing.
 
