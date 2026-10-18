@@ -80,6 +80,17 @@ for (const recipe of recipes) {
   }
 }
 
+/* Sodium the prose states needs a sodium figure the page prints in full. */
+for (const recipe of recipes) {
+  for (const [field, text] of Object.entries({ description: recipe.description, meta: recipe.meta, why: recipe.why, tips: (recipe.tips || []).join(' ') })) {
+    for (const m of String(text || '').matchAll(/(\d[\d,]*) ?mg (?:of )?sodium\b/gi)) {
+      const n = recipe.nutrition;
+      if (recipe.nutritionTier !== 1 || recipe.sodiumStatus !== 'ok') failures.push(`${recipe.slug} — ${field} states "${m[0]}" but the page does not print a full sodium figure`);
+      else if (Math.abs(Number(m[1].replace(/,/g, '')) - n[6]) > 20) failures.push(`${recipe.slug} — ${field} states "${m[0]}" but the table prints ${n[6]} mg`);
+    }
+  }
+}
+
 for (const line of failures) console.log(`  ✗ ${line}`);
 console.log(failures.length
   ? `\n${failures.length} nutrition problem${failures.length === 1 ? '' : 's'} in ${recipes.length} recipes.`

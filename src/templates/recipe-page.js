@@ -141,8 +141,14 @@ function serveHtml(recipe, style, heading) {
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 const longDate = iso => { const [y, m, d] = String(iso).slice(0, 10).split('-').map(Number); return `${d} ${MONTHS[m - 1]} ${y}`; };
 
+const SALT_WATER_REASON = /salt for the cooking water/;
+
 function nutritionNote(recipe) {
-  const reasons = (recipe.nutritionReasons || []).filter(Boolean);
+  /* When sodium is not printed, the reason given is why it is missing, not why it would be high. */
+  const omitSodium = recipe.sodiumStatus === 'omit';
+  const reasons = (recipe.nutritionReasons || []).filter(Boolean)
+    .filter(r => !(omitSodium && SALT_WATER_REASON.test(r)))
+    .concat(omitSodium ? ['sodium is not given, because the salt for the cooking water is in the ingredient list but most of it is poured away with the water, so no figure from the list would be honest'] : []);
   const caveats = reasons.length ? ` ${reasons.map(r => r[0].toUpperCase() + r.slice(1)).join('. ')}.` : '';
   const listed = reasons.length ? ` ${reasons.join('; ')}.` : '';
   const alcohol = recipe.alcohol ? ` The calories include ${recipe.alcohol} g of alcohol a serving, which is not part of the protein, carbohydrate or fat.` : '';
@@ -155,16 +161,21 @@ function nutritionNote(recipe) {
   return `<p class="form-note">No nutrition figures are given for this recipe: they cannot be worked out reliably from its ingredient list (${esc(reasons[0] || 'some lines cannot be read')}). <a href="${SITE.base}about/#nutrition">Why some recipes have none</a>.</p>`;
 }
 
-function nutritionHtml(n, kp) {
+function nutritionHtml(n, kp, sodiumStatus) {
+  /* A figure that cannot be defended is shown as not given, never as 0 or a guess. */
+  const sodium = sodiumStatus === 'omit' ? ['Sodium: not given', null, 'mg']
+    : sodiumStatus === 'partial' ? ['Sodium, before salt to taste', n[6], 'mg'] : ['Sodium', n[6], 'mg'];
   const cells = [
     ['Calories', n[0], 'kcal'], ['Protein', n[1], 'g'], ['Carbs', n[2], 'g'],
-    ['Fat', n[3], 'g'], ['Fibre', n[4], 'g'], ['Sugar', n[5], 'g'], ['Sodium', n[6], 'mg']
-  ];
+    ['Fat', n[3], 'g'], ['Fibre', n[4], 'g'], ['Sugar', n[5], 'g'], sodium
+  ].filter(([, value]) => value === null || Number.isFinite(Number(value)));
   /* Potassium and phosphorus, only for the recipes that give them (volume 34). Calculated like
      the rest, and coverage of these two is patchier, so they say "est.". */
   if (kp) cells.push(['Potassium (est.)', kp[0], 'mg'], ['Phosphorus (est.)', kp[1], 'mg']);
   return `<div class="nutrition">${cells.map(([label, value, unit]) =>
-    `<div><strong>${value}${unit === 'kcal' ? '' : unit}</strong><span>${label}</span></div>`).join('')}</div>`;
+    value === null
+      ? `<div class="nutrition-na"><strong aria-hidden="true">&ndash;</strong><span>${label}</span></div>`
+      : `<div><strong>${value}${unit === 'kcal' ? '' : unit}</strong><span>${label}</span></div>`).join('')}</div>`;
 }
 
 /**
@@ -303,7 +314,8 @@ function recipeSchema(recipe) {
       fatContent: `${recipe.nutrition[3]} g`,
       fiberContent: `${recipe.nutrition[4]} g`,
       sugarContent: `${recipe.nutrition[5]} g`,
-      sodiumContent: `${recipe.nutrition[6]} mg`
+      /* Left out where the page withholds it or gives only a floor. */
+      sodiumContent: recipe.sodiumStatus === 'ok' ? `${recipe.nutrition[6]} mg` : undefined
     },
     recipeIngredient: plainList(recipe.ingredients),
     recipeInstructions: recipe.steps.map((text, i) => ({
@@ -431,7 +443,7 @@ function render(recipe, context) {
           `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</div>`,
     nutrition: () => `<h2>${esc(heading('nutrition'))}</h2>
         ${nutritionNote(recipe)}
-        ${recipe.nutrition ? nutritionHtml(recipe.nutrition, recipe.kp) : ''}
+        ${recipe.nutrition ? nutritionHtml(recipe.nutrition, recipe.kp, recipe.sodiumStatus) : ''}
         ${dietTags}`
   };
   const prose = shape.order.map(key => sections[key]()).filter(Boolean).join('\n\n        ');

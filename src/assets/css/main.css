@@ -955,6 +955,7 @@ body.cook-mode .cook-exit { display: inline-flex; }
 }
 .nutrition strong { display: block; font-size: 1.08rem; font-family: var(--font-display); color: var(--accent); }
 .nutrition span { font-size: .68rem; letter-spacing: .06em; text-transform: uppercase; color: var(--text-soft); }
+.nutrition-na strong { color: var(--text-soft); }
 
 /* Tag pills */
 .tag-row { display: flex; gap: .45rem; flex-wrap: wrap; }

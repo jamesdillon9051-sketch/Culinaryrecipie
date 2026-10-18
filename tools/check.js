@@ -1042,6 +1042,41 @@ if (!vercelCsp) {
   }
 }
 
+/* --- the testing register names real recipes and claims nothing yet ------ */
+{
+  const notes = require('../src/data/testing-notes.json').recipes;
+  const slugs = new Set(require('../src/build').loadRecipes().map(r => r.slug));
+  for (const [slug, n] of Object.entries(notes)) {
+    if (!slugs.has(slug)) problems.push(`src/data/testing-notes.json: no recipe "${slug}"`);
+    if (n.status === 'cooked' && !(n.cookedBy && n.date)) problems.push(`src/data/testing-notes.json: "${slug}" is marked cooked without who and when`);
+  }
+}
+
+/* --- one nutrient that cannot be defended is withheld, not printed -------- */
+/* Carbonara printed 2,710 mg of sodium because all the salt for the pasta water was counted. Where
+   the calculator flags that, the table says "not given" and the Recipe JSON-LD has no sodium; no
+   recipe's figures may read 0-for-unknown, NaN or undefined. */
+{
+  const calc = require('./nutrition-calc');
+  const built = require('../src/build').loadRecipes();
+  let checked = 0;
+  for (const r of built) {
+    if (!r.nutrition) continue;
+    const file = path.join(DIST, 'recipes', r.slug, 'index.html');
+    if (!fs.existsSync(file)) continue;
+    const html = fs.readFileSync(file, 'utf8');
+    const table = (html.match(/<div class="nutrition">[\s\S]*?<\/div><\/div>/) || [''])[0];
+    if (/NaN|undefined|null/.test(table)) problems.push(`recipes/${r.slug}: the nutrition table prints NaN, undefined or null`);
+    const flags = calc.computeRecipe(r.ingredients, r.servings, { drink: r.category === 'Drinks' }).flags;
+    if (flags.includes('salt-water')) {
+      checked++;
+      if (!/Sodium: not given/.test(table)) problems.push(`recipes/${r.slug}: sodium counts the cooking-water salt but the table prints a figure`);
+      if (/"sodiumContent"/.test(html)) problems.push(`recipes/${r.slug}: sodium counts the cooking-water salt but the JSON-LD gives sodiumContent`);
+    }
+  }
+  if (!checked) problems.push('nutrition: no recipe has a cooking-water salt flag, so the sodium check tested nothing');
+}
+
 /* --- no rating state where there are no reviews ------------------------- */
 /* An unrated recipe shows no stars at all: "0.0" says readers disliked it, and a "Not yet rated" line
    on every card and header (as the site printed until October 2026) is a public verdict of its own.

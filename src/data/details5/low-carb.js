@@ -74,7 +74,7 @@ module.exports = {
     tips: [
       'Serve it the moment it comes off the heat. Halloumi turns squeaky and firm within a few minutes of cooling and does not come back.',
       'Dry the slices. Wet halloumi will not take a mark however hot the pan is.',
-      'Salt at the end, if at all. The cheese carries around 1,200 mg of sodium a serving on its own.'
+      'Salt at the end, if at all. Halloumi is brined, and it seasons the salad on its own.'
     ],
     pair: ['A cold dry rosé', 'Warm flatbread, for anyone not counting carbohydrate', 'Olives and pickled chillies'],
     store: 'Best eaten immediately. The salad keeps a day undressed; halloumi does not keep once cooked and is better griddled fresh.',
@@ -273,7 +273,7 @@ module.exports = {
     tips: [
       'Low heat, and take them off early. Eggs left in a hot pan keep cooking and turn to rubber on the plate.',
       'The crème fraîche off the heat is a temperature brake as much as a flavour — it stops the carry-over cooking dead.',
-      'Do not salt smoked salmon. It is already at around 1,000 mg of sodium in this quantity.'
+      'Do not salt smoked salmon. It is cured in salt and already seasons the eggs.'
     ],
     pair: ['Buttered rye toast, for anyone not counting carbohydrate', 'A glass of cold Champagne, if the morning warrants it', 'Strong coffee'],
     store: 'Eat immediately. Scrambled eggs do not keep and reheating them is uniformly bad. Nothing here takes more than thirteen minutes, so make them fresh.',

@@ -1,0 +1,187 @@
+{
+  "about": "Provisional: recipes to cook first when someone cooks for the site, chosen without Search Console data from what this release changed, what the homepage features, and what is hardest to judge from the text. The testing fields are empty on purpose and are not published. Fill them only after a real cook: who cooked it (cookedBy), the day (date), what changed (notes), and set status to \"cooked\". Nothing on the site may say a recipe was tested until its entry here says so.",
+  "recipes": {
+    "macarons": {
+      "why": "Timing and egg handling were corrected this release from the method alone; shell rest and maturing times need a real bake.",
+      "status": "not cooked",
+      "cookedBy": null,
+      "date": null,
+      "notes": ""
+    },
+    "lasagna-bolognese": {
+      "why": "Cook time rebuilt from the stated stages (241 to 271 minutes); the overlap of besciamella and simmer is assumed.",
+      "status": "not cooked",
+      "cookedBy": null,
+      "date": null,
+      "notes": ""
+    },
+    "spaghetti-carbonara": {
+      "why": "Featured on the homepage; the sauce is the most common failure point and the sodium is not given.",
+      "status": "not cooked",
+      "cookedBy": null,
+      "date": null,
+      "notes": ""
+    },
+    "focaccia": {
+      "why": "Long cold and room-temperature proves; total time depends on dough temperature.",
+      "status": "not cooked",
+      "cookedBy": null,
+      "date": null,
+      "notes": ""
+    },
+    "chicken-biryani": {
+      "why": "Featured; dum timing and rice par-cooking are hard to judge without cooking.",
+      "status": "not cooked",
+      "cookedBy": null,
+      "date": null,
+      "notes": ""
+    },
+    "basque-cheesecake": {
+      "why": "Cooling cut from at least 4 hours to 2 hours at room temperature for food safety; check the centre still sets as described.",
+      "status": "not cooked",
+      "cookedBy": null,
+      "date": null,
+      "notes": ""
+    },
+    "lemon-meringue-pie": {
+      "why": "Cooling cut from 3 hours to 2 hours at room temperature; check the meringue does not weep in the fridge.",
+      "status": "not cooked",
+      "cookedBy": null,
+      "date": null,
+      "notes": ""
+    },
+    "prime-rib": {
+      "why": "Time out of the fridge cut from 3 hours to 2; roasting time depends on the joint shape.",
+      "status": "not cooked",
+      "cookedBy": null,
+      "date": null,
+      "notes": ""
+    },
+    "tamales": {
+      "why": "Cook time rebuilt (188 to 203 minutes); steaming time varies with the steamer.",
+      "status": "not cooked",
+      "cookedBy": null,
+      "date": null,
+      "notes": ""
+    },
+    "naengmyeon": {
+      "why": "Waits rebuilt from the method (about 9.5 hours); the broth chill and freeze need confirming.",
+      "status": "not cooked",
+      "cookedBy": null,
+      "date": null,
+      "notes": ""
+    },
+    "xiao-long-bao": {
+      "why": "Cook time rebuilt to include the 2.5-hour aspic; pleating and steaming are technique-heavy.",
+      "status": "not cooked",
+      "cookedBy": null,
+      "date": null,
+      "notes": ""
+    },
+    "croissants": {
+      "why": "Featured; lamination and proving times are the recipe.",
+      "status": "not cooked",
+      "cookedBy": null,
+      "date": null,
+      "notes": ""
+    },
+    "sourdough-bread": {
+      "why": "Starter activity makes every time in the method approximate.",
+      "status": "not cooked",
+      "cookedBy": null,
+      "date": null,
+      "notes": ""
+    },
+    "beef-wellington": {
+      "why": "Featured; resting, chilling and oven times interact.",
+      "status": "not cooked",
+      "cookedBy": null,
+      "date": null,
+      "notes": ""
+    },
+    "pork-pie": {
+      "why": "Jelly simmer treated as running alongside the pie; check the order works in one kitchen.",
+      "status": "not cooked",
+      "cookedBy": null,
+      "date": null,
+      "notes": ""
+    },
+    "banoffee-pie": {
+      "why": "Boiling a sealed tin for 3 hours: the method must be followed exactly, and the cooling time is not stated.",
+      "status": "not cooked",
+      "cookedBy": null,
+      "date": null,
+      "notes": ""
+    },
+    "dal-makhani": {
+      "why": "Cook time rebuilt (190 to 220 minutes) assuming the tempering overlaps the first simmer.",
+      "status": "not cooked",
+      "cookedBy": null,
+      "date": null,
+      "notes": ""
+    },
+    "chili-con-carne": {
+      "why": "The optional overnight chill is no longer counted as required.",
+      "status": "not cooked",
+      "cookedBy": null,
+      "date": null,
+      "notes": ""
+    },
+    "moussaka": {
+      "why": "Cook time rebuilt (102 to 112 minutes) assuming the aubergine roasts while the ragù simmers.",
+      "status": "not cooked",
+      "cookedBy": null,
+      "date": null,
+      "notes": ""
+    },
+    "tiramisu": {
+      "why": "Raw egg dish; see the food-handling review.",
+      "status": "not cooked",
+      "cookedBy": null,
+      "date": null,
+      "notes": ""
+    },
+    "steak-tartare": {
+      "why": "Raw beef and raw egg; see the food-handling review.",
+      "status": "not cooked",
+      "cookedBy": null,
+      "date": null,
+      "notes": ""
+    },
+    "kakuni": {
+      "why": "Cooling instruction changed to refrigerate within 2 hours.",
+      "status": "not cooked",
+      "cookedBy": null,
+      "date": null,
+      "notes": ""
+    },
+    "vitello-tonnato": {
+      "why": "Raw egg yolk sauce, and the cooling instruction changed to refrigerate within 2 hours.",
+      "status": "not cooked",
+      "cookedBy": null,
+      "date": null,
+      "notes": ""
+    },
+    "new-york-cheesecake": {
+      "why": "Featured; water bath and cooling times.",
+      "status": "not cooked",
+      "cookedBy": null,
+      "date": null,
+      "notes": ""
+    },
+    "chicken-tikka-masala": {
+      "why": "Featured on the homepage.",
+      "status": "not cooked",
+      "cookedBy": null,
+      "date": null,
+      "notes": ""
+    },
+    "tacos-al-pastor": {
+      "why": "Hero dish on the homepage.",
+      "status": "not cooked",
+      "cookedBy": null,
+      "date": null,
+      "notes": ""
+    }
+  }
+}

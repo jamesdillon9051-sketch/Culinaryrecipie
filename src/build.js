@@ -371,6 +371,11 @@ function loadRecipes() {
       /* False when salt is added to taste or poured away with cooking water,
          or the figures are not tier 1: nothing may then be said about sodium. */
       sodiumReliable: nut.sodiumReliable,
+      /* Sodium on its own, for the table and the schema: 'omit' when the salt for cooking water is
+         counted although most of it is poured away (the figure would overstate it several times
+         over, as carbonara's 2,710 mg did), 'partial' when salt to taste is left out (a floor), else
+         'ok'. The other figures stand or fall with the tier. */
+      sodiumStatus: nut.flags.includes('salt-water') ? 'omit' : nut.flags.includes('salt-unmeasured') ? 'partial' : 'ok',
       alcohol: nut.alcohol,
       cardBlurb: clamp(detail.d, 118),
       imageData: image.hero || null,
