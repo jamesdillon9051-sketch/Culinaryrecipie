@@ -1,0 +1,10 @@
+{
+  "about": "Waits the method's wording cannot settle on its own, each reviewed by a person. min and max are the unattended minutes the recipe takes beyond prep and cook. src/lib/timing.js uses these in place of what it reads from the method; tools/timing-audit.js lists them.",
+  "recipes": {
+    "brisket": {
+      "min": 120,
+      "max": 120,
+      "reason": "\"Close the lid and leave it alone for 3 hours\" is smoking time, already in the cook time; the wait counted is the rest of at least 2 hours (ideally 4, not counted as the ceiling because the method treats it as an ideal). The hour the seasoned brisket sits at room temperature before smoking is not counted; whether the prep time allows for it is open for review."
+    }
+  }
+}

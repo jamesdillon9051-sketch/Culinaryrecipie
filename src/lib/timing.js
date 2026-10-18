@@ -94,11 +94,13 @@ function waitIn(raw) {
   return { min: best.min + repeated, max: best.max + repeated };
 }
 
-/* Waits the sentence cannot disambiguate on its own. */
-const EXCEPT = {
-  /* "Close the lid and leave it alone for 3 hours" is time on the smoker. */
-  brisket: { min: 120, max: 120 },
-};
+/* Waits the sentence cannot disambiguate on its own, reviewed by a person and recorded with the
+   reason in src/data/timing-overrides.json. */
+const EXCEPT = Object.fromEntries(Object.entries(require('../data/timing-overrides.json').recipes)
+  .map(([slug, o]) => [slug, { min: o.min, max: o.max }]));
+
+/* "Every 30 minutes for 2 hours, stretch and fold": the span is unattended between the turns. */
+const SPAN = new RegExp(String.raw`\bevery\s+` + NUM + String.raw`\s*(?:minutes?|mins?|hours?)\s+for\s+(?:about\s+)?` + NUM + String.raw`(?:\s*(?:to|–|-)\s*(\d+(?:\.\d+)?))?\s*(minutes?|mins?|hours?)`, 'i');
 
 /* The waiting verbs a sentence uses, reduced to a stem so that "soaked",
    "soaking" and "soak" are recognised as the same wait. */
@@ -135,6 +137,16 @@ function detectWait(recipe) {
   const waited = new Set();
   for (const raw of (recipe.steps || recipe.st || []).join(' ').split(/(?<=[.!?])\s+/)) {
     const sentence = clause(raw);
+    const span = !overlaps(sentence) && SPAN.exec(sentence);
+    if (span) {
+      const lo = toMinutes(value(span[2]), span[4]);
+      const hi = span[3] ? toMinutes(parseFloat(span[3]), span[4]) : lo;
+      if (lo >= 30) {
+        min += lo; max += hi;
+        trace.push(`span ${lo}${hi > lo ? '–' + hi : ''} — ${sentence}`);
+        continue;
+      }
+    }
     if (notAWait(sentence) || overlaps(sentence)) continue;
     const w = waitIn(sentence);
     /* Under half an hour is a pause, not a plan. */
