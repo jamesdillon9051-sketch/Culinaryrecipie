@@ -505,8 +505,23 @@ const expectedRecipes = require('../src/data/stats').recipeCount;
 if (index.length !== expectedRecipes)
   problems.push(`search index has ${index.length} entries, expected ${expectedRecipes}`);
 for (const entry of index) {
-  if (entry.i && !existing.has(`/assets/img/recipes/${entry.i}.jpg`)) {
-    problems.push(`search index references a missing image: ${entry.i}`);
+  const file = entry.i === 1 ? entry.g : entry.i;
+  if (file && !existing.has(`/assets/img/recipes/${file}.jpg`)) {
+    problems.push(`search index references a missing image: ${file}`);
+  }
+}
+/* The index is fetched by everyone who searches. It carries the words a reader searches by, not
+   the generated search-phrase long tail or the quantities, and it must stay small enough to be. */
+{
+  const bytes = fs.statSync(path.join(DIST, 'search-index.json')).size;
+  if (bytes > 3.6 * 1024 * 1024) problems.push(`search-index.json is ${(bytes / 1048576).toFixed(2)} MB, over the 3.6 MB budget`);
+  const fold = t => require('../src/lib/keywords').fold(String(t).toLowerCase());
+  const filler = /(?:^| )(?:printable|photos|instructions)(?= |$)/;
+  for (const entry of index) {
+    if (filler.test(entry.s)) { problems.push(`search index: ${entry.g} still carries generated filler words`); break; }
+    if (entry.r === 0) { problems.push(`search index: ${entry.g} sends a zero rating`); break; }
+    const missing = fold(entry.t).split(/[^a-z0-9'-]+/).map(w => w.replace(/^['-]+|['-]+$/g, '')).filter(w => w.length > 2 && !entry.s.includes(w));
+    if (missing.length) problems.push(`search index: "${entry.t}" is not findable by ${missing.join(', ')}`);
   }
 }
 
@@ -1027,13 +1042,22 @@ if (!vercelCsp) {
   }
 }
 
-/* --- cards painted by script say "Not yet rated" too ---------------------- */
-/* src/lib/util.js prints it for a recipe nobody has rated, because "0.0" beside
-   five empty stars says readers disliked it. directory.js paints the cards on
-   the recipes, search and favourites pages itself, and printed "0.0" on all
-   2,415 of them until it was given the same rule. */
-if (!fs.readFileSync(path.join(DIST, 'src', 'assets', 'js', 'directory.js'), 'utf8').includes('stars--unrated')) {
-  problems.push('src/assets/js/directory.js: prints "0.0" for a recipe nobody has rated (no stars--unrated)');
+/* --- no rating state where there are no reviews ------------------------- */
+/* An unrated recipe shows no stars at all: "0.0" says readers disliked it, and a "Not yet rated" line
+   on every card and header (as the site printed until October 2026) is a public verdict of its own.
+   Stars appear only from real reviews in src/data/reviews.json, on the pages and on the cards
+   directory.js paints. */
+{
+  const reviewed = Object.keys(require('../src/data/reviews.json').reviews || require('../src/data/reviews.json') || {}).length;
+  const unrated = /Not yet rated|no ratings yet|stars--unrated/;
+  if (unrated.test(fs.readFileSync(path.join(DIST, 'src', 'assets', 'js', 'directory.js'), 'utf8'))) {
+    problems.push('src/assets/js/directory.js: paints a public "not yet rated" state on cards');
+  }
+  for (const page of ['index.html', 'recipes/index.html', 'recipes/spaghetti-carbonara/index.html', 'recipes/macarons/index.html', 'categories/dinner/index.html']) {
+    const html = fs.readFileSync(path.join(DIST, page), 'utf8');
+    if (unrated.test(html)) problems.push(`${page}: shows a public "not yet rated" state`);
+    if (!reviewed && /class="stars"/.test(html)) problems.push(`${page}: shows star ratings although src/data/reviews.json holds no reviews`);
+  }
 }
 
 /* --- the menu breakpoint is one number in two files ---------------------- */

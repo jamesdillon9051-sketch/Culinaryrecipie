@@ -30,7 +30,7 @@ const { esc, clamp, slugify, plural, isIllustration: isDrawing, CATEGORIES, CUIS
 function altText(row, detail, hero) {
   return clamp(hero && isDrawing(hero) ? `AI-generated illustration of ${row.title}` : row.title, 160);
 }
-const { plainList } = require('./lib/ingredients');
+const { plainList, parse } = require('./lib/ingredients');
 const { build: buildHubs } = require('./lib/ingredient-hubs');
 const { subcategories, assignRelated } = require('./lib/linking');
 const { enrichDescription, TAIL_CLAUSES } = require('./lib/seo');
@@ -104,7 +104,7 @@ const QUICK_MEAL_MINUTES = 30;
 
 const { expand: expandKeywords, forCategory: keywordsForCategory,
         forCuisine: keywordsForCuisine, forIngredient: keywordsForIngredient,
-        searchTerms } = require('./lib/keywords');
+        searchTerms, fold: keywordFold } = require('./lib/keywords');
 const { SITE, slug } = require('./templates/layout');
 const { recipeCount } = require('./data/stats');
 const ads = require('./templates/ads');
@@ -530,26 +530,29 @@ function searchIndex(recipes) {
     p: r.prep,
     o: r.cook,
     v: r.servings,
-    r: r.rating,
+    r: r.rating || undefined,
     w: r.popularity,
     z: r.published,
     e: r.cardBlurb,
-    a: r.imageAlt,
-    i: r.imageData ? r.imageData.file : null,
+    /* Alt text and image file only where they differ from the title and the
+       slug, which is almost never: the client falls back to those. i is 1 for
+       "the picture is named after the slug" and absent for no picture. */
+    a: r.imageAlt !== r.title ? r.imageAlt : undefined,
+    i: !r.imageData ? undefined : r.imageData.file === r.slug ? 1 : r.imageData.file,
     k: r.imageData ? r.imageData.color : null,
-    /* Pre-lowered searchable blob: title, cuisine, category, tags,
-       keywords and every ingredient name, reduced to its distinct words.
-       assets/js/app.js splits a query on whitespace and requires every term
-       to appear as a substring, so matching is per word and a word present
-       twice matches no better than a word present once. Ninety keyword
-       phrases repeat the same forty words; keeping one copy of each leaves
-       every query that worked working and takes a third off the file every
-       visitor downloads before the search box responds. */
-    s: distinctWords([
-      r.title, r.cuisine, r.category, r.difficulty,
-      r.tags.join(' '), searchTerms(r.title, r.keywords).join(' '),
-      plainList(r.ingredients).join(' ')
-    ].join(' '))
+    /* The searchable words: the dish's name (as written and without accents),
+       cuisine, category, difficulty, diet labels, the recipe's own search
+       phrases, the names of its ingredients and the cooking techniques its
+       method uses, accent-folded, lowered and reduced to distinct words.
+       assets/js/app.js folds a query the same way, splits it on whitespace and
+       requires every term to appear as a substring. The generated long tail
+       ("how to make", "best", "from scratch", "printable") and the quantities
+       ("500 g", "1 tsp") used to be in here too: they were two thirds of the
+       file every visitor downloads before search responds, and they matched
+       every recipe equally, so they could only add noise. */
+    s: searchWords(r),
+    /* Who reads what: app.js (header autocomplete) g, t, c, d, m, x, i, s;
+       directory.js the rest. r is only sent when a recipe has a real review. */
   }));
 }
 
@@ -568,6 +571,47 @@ function distinctWords(text) {
     out.push(word);
   }
   return out.join(' ');
+}
+
+/* Words that match nearly every recipe and so cannot narrow a search. */
+const SEARCH_STOP = new Set(('a an and or the of to for with in on at by from into over under per plus about ' +
+  'recipe recipes how make making made best simple homemade home style classic authentic ' +
+  'traditional ultimate perfect good great ideas idea at-home scratch g kg ml l tsp tbsp cup cups ' +
+  'large small fresh freshly finely roughly chopped sliced diced grated minced peeled ' +
+  'optional serve serving to taste extra pinch handful').split(' '));
+
+/* Techniques worth finding a recipe by, read from the method. */
+const TECHNIQUES = [
+  ['baked', /\bbak(?:e|ed|ing)\b/i], ['roasted', /\broast/i], ['grilled', /\bgrill/i],
+  ['barbecue', /\bbarbecue|\bbbq\b|\bcoals?\b/i], ['fried', /\bfr(?:y|ied|ying)\b/i],
+  ['deep-fried', /\bdeep[- ]fr/i], ['stir-fry', /\bstir[- ]fr/i], ['steamed', /\bsteam(?:ed|er|ing)?\b/i],
+  ['braised', /\bbrais/i], ['poached', /\bpoach/i], ['smoked', /\bsmok(?:e|ed|er|ing)\b/i],
+  ['slow-cooker', /\bslow cooker\b/i], ['air-fryer', /\bair fryer\b/i],
+  ['pressure-cooker', /\b(?:pressure cook|instant pot)/i], ['no-bake', /\bno[- ]bake\b/i],
+  ['one-pot', /\bone[- ]pot\b/i], ['sheet-pan', /\b(?:sheet pan|traybake|tray bake)\b/i],
+  ['simmered', /\bsimmer/i], ['raw', /\bno cooking\b/i]
+];
+
+const foldText = text => keywordFold(String(text).toLowerCase());
+
+function searchWords(r) {
+  const method = (r.steps || []).join(' ');
+  const foods = parse(r.ingredients).filter(item => !item.group)
+    .map(item => String(item.name || item.raw).split(/[,(]/)[0]);
+  const blob = [
+    r.title, r.cuisine, r.category, r.difficulty, r.tags.join(' '), withSwap(r).join(' '),
+    (r.curatedKeywords || []).join(' '), foods.join(' '),
+    TECHNIQUES.filter(([, re]) => re.test(method)).map(([word]) => word).join(' ')
+  ].join(' ');
+  const words = [];
+  const split = text => text.split(/[^a-z0-9\u00c0-\u024f'-]+/).map(w => w.replace(/^['-]+|['-]+$/g, ''));
+  /* Every word of the title stays, filler or not, so "Classic Meatloaf" is found by its name. */
+  for (const word of split([r.title.toLowerCase(), foldText(r.title)].join(' '))) if (word) words.push(word);
+  for (const word of split([blob.toLowerCase(), foldText(blob)].join(' '))) {
+    if (word.length < 2 || /^\d/.test(word) || SEARCH_STOP.has(word)) continue;
+    words.push(word);
+  }
+  return distinctWords(words.join(' '));
 }
 
 /* --------------------------------------------------------- site plumbing */

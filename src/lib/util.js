@@ -99,13 +99,10 @@ function clamp(text, max) {
 
 /** Star rating markup used on cards and recipe headers. */
 function starsHtml(rating, reviews) {
-  /* A recipe nobody has rated is not a recipe rated zero. Printing "0.0" beside
-     five empty stars says the readers hated it; this says what is true, which is
-     that no one has said anything yet. */
-  if (!rating) {
-    return '<span class="stars stars--unrated"><b>Not yet rated</b>'
-      + '<span class="sr-only">This recipe has no ratings yet</span></span>';
-  }
+  /* Stars appear only where readers have left real reviews (src/data/reviews.json, empty so far).
+     A recipe nobody has rated is not a recipe rated zero, and a public "Not yet rated" on every card
+     and header was a verdict of its own, so an unrated recipe shows nothing. */
+  if (!rating) return '';
   const pct = (rating / 5) * 100;
   return `<span class="stars">` +
     `<span class="stars-glyphs" aria-hidden="true">★★★★★<span style="width:${pct.toFixed(1)}%">★★★★★</span></span>` +
