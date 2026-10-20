@@ -3406,6 +3406,11 @@
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/martini.jpg</image:loc>
+      <image:title>Martini</image:title>
+      <image:caption>Martini</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/baked-spaghetti/</loc>
@@ -3986,6 +3991,11 @@
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/butterfly-cakes.jpg</image:loc>
+      <image:title>Butterfly Cakes</image:title>
+      <image:caption>Butterfly Cakes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/eggs-royale/</loc>
@@ -4003,6 +4013,11 @@
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/empire-biscuits.jpg</image:loc>
+      <image:title>Empire Biscuits</image:title>
+      <image:caption>Empire Biscuits</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/irish-apple-cake/</loc>

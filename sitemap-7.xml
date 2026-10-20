@@ -1564,6 +1564,11 @@
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sausage-hash.jpg</image:loc>
+      <image:title>Sausage Hash</image:title>
+      <image:caption>Sausage Hash</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kielbasa-and-cabbage/</loc>
@@ -2125,6 +2130,11 @@
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/roasted-vegetable-pasta.jpg</image:loc>
+      <image:title>Roasted Vegetable Pasta</image:title>
+      <image:caption>Roasted Vegetable Pasta</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lentil-bolognese/</loc>
@@ -2228,6 +2238,11 @@
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/eggy-bread.jpg</image:loc>
+      <image:title>Eggy Bread</image:title>
+      <image:caption>Eggy Bread</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/snag-in-bread/</loc>
@@ -2557,6 +2572,11 @@
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/garlic-parmesan-fries.jpg</image:loc>
+      <image:title>Garlic Parmesan Fries</image:title>
+      <image:caption>Garlic Parmesan Fries</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/potato-skins/</loc>
@@ -2697,6 +2717,11 @@
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/loaded-baked-potatoes.jpg</image:loc>
+      <image:title>Loaded Baked Potatoes</image:title>
+      <image:caption>Loaded Baked Potatoes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/jacket-potato-with-baked-beans/</loc>
@@ -2915,6 +2940,11 @@
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/milk-bread.jpg</image:loc>
+      <image:title>Milk Bread</image:title>
+      <image:caption>Milk Bread</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/white-bread/</loc>
@@ -4125,6 +4155,11 @@
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/almond-butter.jpg</image:loc>
+      <image:title>Almond Butter</image:title>
+      <image:caption>Almond Butter</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chocolate-spread/</loc>
@@ -4227,6 +4262,11 @@
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pizza-sauce.jpg</image:loc>
+      <image:title>Pizza Sauce</image:title>
+      <image:caption>Pizza Sauce</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mushroom-gravy/</loc>
@@ -4389,6 +4429,11 @@
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/oat-cakes.jpg</image:loc>
+      <image:title>Oat Cakes</image:title>
+      <image:caption>Oat Cakes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/meal-prep-chicken-and-rice/</loc>

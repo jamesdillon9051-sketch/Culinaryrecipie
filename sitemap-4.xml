@@ -5343,6 +5343,11 @@
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pickled-eggs.jpg</image:loc>
+      <image:title>Pickled Eggs</image:title>
+      <image:caption>Pickled Eggs</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cup-of-tea/</loc>

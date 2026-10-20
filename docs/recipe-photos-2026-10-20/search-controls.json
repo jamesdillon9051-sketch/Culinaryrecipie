@@ -1,0 +1,126 @@
+[
+  {
+    "slug": "control",
+    "title": "Oatcakes",
+    "cuisine": "British",
+    "tags": [],
+    "image_query": null,
+    "aliases": [],
+    "in_supplied_export": false,
+    "search_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=Oatcakes+filetype%3Abitmap&gsrnamespace=6&gsrlimit=20&prop=imageinfo&iiprop=url%7Cextmetadata%7Csize%7Csha1%7Cmime&iiurlwidth=1000&maxlag=5",
+    "archive_query": "Oatcakes filetype:bitmap",
+    "checked_at": "2026-10-20T20:06:44.807041+00:00",
+    "candidates": [
+      {
+        "title": "Staffordshire oatcake breakfast",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Staffordshire_oatcake_breakfast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Staffordshire_oatcake_breakfast.jpg",
+        "author": "Keilana",
+        "licence": "CC BY-SA 4.0",
+        "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "Wikimedia Commons",
+        "description": "A breakfast consisting of two Staffordshire oatcakes filled with cheese, tomatoes, and back bacon, served with a fried egg and a sausage.",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Staffordshire_oatcake_breakfast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "original_width": 540,
+        "original_height": 960,
+        "original_sha1": "36e0f205f8d449f9328fab7ab97746b5af2a86eb",
+        "commons_filename": "File:Staffordshire oatcake breakfast.jpg",
+        "metadata_notes": "",
+        "score": 1.0
+      },
+      {
+        "title": "Oatcakes (1)",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Oatcakes_%281%29.jpg/1280px-Oatcakes_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Oatcakes_(1).jpg",
+        "author": "Jon Thomson from London / Kingussie, UK",
+        "licence": "CC BY 2.0",
+        "licence_url": "https://creativecommons.org/licenses/by/2.0",
+        "source": "Wikimedia Commons",
+        "description": "Oatcakes",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Oatcakes_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "original_width": 3648,
+        "original_height": 2306,
+        "original_sha1": "4e95505a88e0b7613a94775a6948a76c9d46b59d",
+        "commons_filename": "File:Oatcakes (1).jpg",
+        "metadata_notes": "",
+        "score": 1.0
+      },
+      {
+        "title": "Staffordshire oatcakes 3730",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Staffordshire_oatcakes_3730.JPG/1280px-Staffordshire_oatcakes_3730.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Staffordshire_oatcakes_3730.JPG",
+        "author": "Photograph by Clem Rutter, Rochester, Kent. (www.clemrutter.net).",
+        "licence": "CC BY-SA 3.0",
+        "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "Wikimedia Commons",
+        "description": "The Gladstone Pottery Museum The Gladstone Pottery Museum is a grade II* listed site in Stoke-on-Trent, with many protected features including the bottle kilns. This is a photo of listed building number 1195854. Staffordshire bone china moulded menu holder",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Staffordshire_oatcakes_3730.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "original_width": 4608,
+        "original_height": 3456,
+        "original_sha1": "b6c5e967e3187e030ddca95d7c2a6c9a19c50caa",
+        "commons_filename": "File:Staffordshire oatcakes 3730.JPG",
+        "metadata_notes": "",
+        "score": 1.0
+      },
+      {
+        "title": "Staffordshire oatcakes 3729",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Staffordshire_oatcakes_3729.JPG/1280px-Staffordshire_oatcakes_3729.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Staffordshire_oatcakes_3729.JPG",
+        "author": "Photograph by Clem Rutter, Rochester, Kent. (www.clemrutter.net).",
+        "licence": "CC BY-SA 3.0",
+        "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "Wikimedia Commons",
+        "description": "The Gladstone Pottery Museum The Gladstone Pottery Museum is a grade II* listed site in Stoke-on-Trent, with many protected features including the bottle kilns. This is a photo of listed building number 1195854. Staffordshire oatcakes",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Staffordshire_oatcakes_3729.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "original_width": 4608,
+        "original_height": 3456,
+        "original_sha1": "da8c0a8ec74bacfc370becf1e3f5cf1de742e4b0",
+        "commons_filename": "File:Staffordshire oatcakes 3729.JPG",
+        "metadata_notes": "",
+        "score": 1.0
+      }
+    ],
+    "filter_counts": {
+      "not_a_prepared_dish_photo": 1,
+      "too_small": 1
+    },
+    "raw_result_count": 20,
+    "status": "candidates_need_visual_review"
+  },
+  {
+    "slug": "control",
+    "title": "Gooseberry Fool",
+    "cuisine": "British",
+    "tags": [],
+    "image_query": null,
+    "aliases": [],
+    "in_supplied_export": false,
+    "search_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=Gooseberry+Fool+filetype%3Abitmap&gsrnamespace=6&gsrlimit=20&prop=imageinfo&iiprop=url%7Cextmetadata%7Csize%7Csha1%7Cmime&iiurlwidth=1000&maxlag=5",
+    "archive_query": "Gooseberry Fool filetype:bitmap",
+    "checked_at": "2026-10-20T20:06:45.491874+00:00",
+    "candidates": [
+      {
+        "title": "Konstam at The Prince Albert, St Pancras, London (3660393323)",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Konstam_at_The_Prince_Albert%2C_St_Pancras%2C_London_%283660393323%29.jpg/1280px-Konstam_at_The_Prince_Albert%2C_St_Pancras%2C_London_%283660393323%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Konstam_at_The_Prince_Albert,_St_Pancras,_London_(3660393323).jpg",
+        "author": "Ewan Munro from London, UK",
+        "licence": "CC BY-SA 2.0",
+        "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "Wikimedia Commons",
+        "description": "A rather lovely and creamy gooseberry and elderflower fool, with a slice of shortbread. At Konstam at The Prince Albert, Acton Street.",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Konstam_at_The_Prince_Albert%2C_St_Pancras%2C_London_%283660393323%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "original_width": 3776,
+        "original_height": 2520,
+        "original_sha1": "5d9f2b28ee017d68551a6efad587020336f737bb",
+        "commons_filename": "File:Konstam at The Prince Albert, St Pancras, London (3660393323).jpg",
+        "metadata_notes": "",
+        "score": 0.0
+      }
+    ],
+    "filter_counts": {
+      "not_a_prepared_dish_photo": 2
+    },
+    "raw_result_count": 3,
+    "status": "candidates_need_visual_review"
+  }
+]

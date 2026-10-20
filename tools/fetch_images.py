@@ -1671,7 +1671,7 @@ def is_monochrome(im, threshold=14):
     return spread < threshold
 
 
-def process(raw, slug, suffix, width):
+def process(raw, slug, suffix, width, *, color_review=None):
     """Write webp + jpg, return metadata (dimensions, average colour, LQIP)."""
     try:
         im = Image.open(io.BytesIO(raw))
@@ -1683,9 +1683,12 @@ def process(raw, slug, suffix, width):
     if im.width < 400:
         return None
 
-    if is_monochrome(im):
+    if is_monochrome(im) and not (isinstance(color_review, str) and len(color_review.strip()) >= 40):
         log("    · monochrome — archival rather than a photograph of the food")
         return None
+    # White cookies and muted dried herbs can trip the archival heuristic even
+    # in genuine color photographs. Only an explicit, recorded full-size visual
+    # review may override it. Automated search callers retain the old behavior.
 
     # Crop to a 4:3 editorial frame, then resize.
     target = 4 / 3

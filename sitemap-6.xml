@@ -1010,6 +1010,11 @@
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/italian-wedding-cookies.jpg</image:loc>
+      <image:title>Italian Wedding Cookies</image:title>
+      <image:caption>Italian Wedding Cookies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/nut-roast/</loc>
@@ -2270,6 +2275,11 @@
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kir-royale.jpg</image:loc>
+      <image:title>Kir Royale</image:title>
+      <image:caption>Kir Royale</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/grasshopper/</loc>
@@ -2693,6 +2703,11 @@
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/italian-seasoning.jpg</image:loc>
+      <image:title>Italian Seasoning</image:title>
+      <image:caption>Italian Seasoning</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cajun-seasoning/</loc>
