@@ -399,7 +399,9 @@ ${breadcrumbs(trail)}
        whether or not the schema says so — this tells a crawler what it is
        looking at. Capped at 30 for the same reason the taxonomy pages are:
        ListItem entries are a summary, not a second copy of the sitemap. */
-    schema: options.noindex ? [breadcrumbSchema(trail)] : [
+    /* Search results are rendered in the reader's browser. A directory without
+       its server-rendered index must not declare a list of invisible recipes. */
+    schema: options.noindex || options.index === false ? [breadcrumbSchema(trail)] : [
       breadcrumbSchema(trail),
       {
         '@context': 'https://schema.org',

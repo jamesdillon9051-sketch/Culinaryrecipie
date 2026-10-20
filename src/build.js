@@ -455,6 +455,19 @@ function loadRecipes() {
       steps: recipe.steps, tips: recipe.tips, pairings: recipe.pairings,
       storage: recipe.storage, nutrition: recipe.nutrition,
       image: recipe.imageData ? recipe.imageData.file : null,
+      /* This is a real, one-time structured-data correction on every recipe,
+         not a build timestamp. It removes the accidental second Recipe and
+         stops claiming a complete total for untimed methods. Keep the version
+         stable on ordinary rebuilds; change only for meaningful recipe markup.
+         Capture computed facts that the older source-only hash missed, too. */
+      recipeMarkup: 'single-jsonld-v1',
+      timingRange: [recipe.cookMax, recipe.restMax, recipe.restConditional],
+      schemaTotal: recipe.untimed ? null : recipe.elapsedTime,
+      nutritionEvidence: [recipe.nutritionTier, recipe.nutritionReasons,
+        recipe.sodiumStatus, recipe.sodiumReliable, recipe.kp, recipe.alcohol],
+      imageEvidence: recipe.imageData,
+      publishedReviews: recipe.publishedReviews,
+      video: recipe.video,
       /* Only present when a label carries a condition, so the fingerprint of
          every recipe whose labels hold outright is what it was before. */
       ...(dietNotes(recipe).length ? { diet: dietNotes(recipe) } : {}),
@@ -647,7 +660,11 @@ function sitemap(recipes, ctx) {
      does. Fingerprinting that list is what stops the date moving on a rebuild
      that changed nothing. */
   const allSlugs = recipes.map(r => r.slug).sort();
-  const hubDate = (route, payload) => dates.dateFor(route, payload);
+  /* The legacy membership hash migrates without refreshing unchanged pages.
+     Thereafter a changed description, listed recipe/card, real image or useful
+     link also moves that page's date, even if its set of slugs is unchanged. */
+  const hubDate = (route, payload) => dates.dateFor(route, payload,
+    contentDates.pageContent(fs.readFileSync(path.join(OUT, route.slice(1), 'index.html'), 'utf8')));
   const entry = (loc, lastmod, changefreq, priority) =>
     `  <url>\n    <loc>${SITE.origin}${SITE.base}${loc}</loc>\n` +
     `    <lastmod>${lastmod}</lastmod>\n` +

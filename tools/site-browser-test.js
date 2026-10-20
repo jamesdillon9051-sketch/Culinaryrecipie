@@ -20,9 +20,12 @@ const { execSync } = require('child_process');
 
 const ROOT = path.join(__dirname, '..');
 let chromium;
-try { ({ chromium } = require(path.join(execSync('npm root -g').toString().trim(), 'playwright'))); }
-catch { console.log('  - site-browser-test skipped: Playwright is not installed'); process.exit(0); }
-const chrome = ['/opt/pw-browsers/chromium-1194/chrome-linux/chrome'].find(p => fs.existsSync(p));
+try { ({ chromium } = require('playwright')); }
+catch {
+  try { ({ chromium } = require(path.join(execSync('npm root -g').toString().trim(), 'playwright'))); }
+  catch { console.log('  - site-browser-test unavailable: install Playwright as a development tool'); process.exit(1); }
+}
+const chrome = [process.env.CHROMIUM_PATH, '/usr/bin/chromium', '/opt/pw-browsers/chromium-1194/chrome-linux/chrome'].filter(Boolean).find(p => fs.existsSync(p));
 
 const TYPES = { '.html': 'text/html', '.css': 'text/css', '.js': 'text/javascript', '.json': 'application/json',
   '.webp': 'image/webp', '.jpg': 'image/jpeg', '.png': 'image/png', '.svg': 'image/svg+xml', '.woff2': 'font/woff2' };

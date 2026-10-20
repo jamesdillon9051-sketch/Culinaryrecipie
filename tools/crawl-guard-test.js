@@ -1,0 +1,24 @@
+#!/usr/bin/env node
+'use strict';
+const assert = require('assert/strict');
+const { recipeDeclarations, indexability } = require('./crawl-guard');
+const ld = s => `<script type="application/ld+json">${JSON.stringify(s)}</script>`;
+const one = ld({ '@type': 'Recipe' });
+assert.deepEqual(recipeDeclarations(one), { jsonld: 1, microdata: 0, rdfa: 0 });
+assert.equal(recipeDeclarations(one + '<article itemscope itemtype="https://schema.org/Recipe">').microdata, 1);
+assert.equal(recipeDeclarations(one + "<div typeof='schema:Recipe'>").rdfa, 1);
+assert.equal(recipeDeclarations(ld({'@graph':[{'@type':['Thing','Recipe']},{'@type':'Recipe'}]})).jsonld, 2);
+assert.equal(recipeDeclarations(one + ld({'@type':'BreadcrumbList'})).jsonld, 1);
+assert.equal(recipeDeclarations('<script>const s = \'<article itemtype="https://schema.org/Recipe">\';</script>').microdata, 0);
+const canonical = '<link rel="canonical" href="https://weeklydelight.com/recipes/example/">';
+const url = 'https://weeklydelight.com/recipes/example/';
+assert.deepEqual(indexability(canonical + '<meta name="robots" content="index, follow">', url), []);
+assert.equal(indexability(canonical + '<meta name="googlebot" content="noindex">', url).length, 1);
+assert.equal(indexability(canonical + '<meta http-equiv="X-Robots-Tag" content="none">', url).length, 1);
+assert.equal(indexability(canonical + canonical, url).length, 1);
+assert.equal(indexability('', url).length, 1);
+assert.equal(indexability(canonical, url.replace('https://', 'http://')).length, 1);
+const { auditFailure } = require('./audit-failure');
+assert.match(auditFailure('audit', { code: 'EPERM', message: 'spawn blocked' })[0], /failed \(EPERM\)/);
+assert.match(auditFailure('audit', { stdout: '  ✗ confirmed defect' })[0], /confirmed defect/);
+console.log('  ✓ 14 crawl-guard cases passed');
