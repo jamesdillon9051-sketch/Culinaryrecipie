@@ -20,7 +20,7 @@ targets, ROOT, ORIGIN = live_tool.targets, live_tool.ROOT, live_tool.ORIGIN
 
 def write_csv(file, rows):
     with file.open('w', newline='', encoding='utf-8') as out:
-        writer = csv.DictWriter(out, fieldnames=list(rows[0]))
+        writer = csv.DictWriter(out, fieldnames=list(rows[0]), lineterminator='\n')
         writer.writeheader()
         writer.writerows(rows)
 

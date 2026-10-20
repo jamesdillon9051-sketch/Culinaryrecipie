@@ -1,0 +1,143 @@
+{
+  "base_commit": "40a2386f0f0b75eeac0ec54570f619b07f1f2a66",
+  "branch": "fix/sitewide-crawl-indexing-review",
+  "before": {
+    "expected": 5871,
+    "types": {
+      "recipe": 5515,
+      "category": 10,
+      "category-combination": 193,
+      "cuisine": 92,
+      "ingredient": 51,
+      "other": 10
+    },
+    "generated_nonad_html": 5875,
+    "sitemap_entries": 5871,
+    "sitemap_unique": 5871,
+    "ordinary_anchor_reachable": 5871,
+    "unique_followable_edges": 250154,
+    "unique_titles": 5871,
+    "unique_h1s": 5871,
+    "gsc_rows": 1000,
+    "gsc_types": {
+      "recipe": 920,
+      "category-combination": 40,
+      "other": 3,
+      "cuisine": 19,
+      "ingredient": 17,
+      "category": 1
+    },
+    "declared_sitemap_images": 4100,
+    "error_pages": 5516,
+    "errors": {
+      "primary Recipe declarations: 2 (JSON-LD 1, microdata 1, RDFa 0)": 5515,
+      "structured instruction URL has no matching HTML target": 5515,
+      "totalTime claims complete duration despite required untimed stage": 445,
+      "CollectionPage declares an item absent from ordinary HTML links": 1
+    },
+    "max_depth": 2,
+    "depth_distribution": {
+      "0": 1,
+      "1": 66,
+      "2": 5804
+    }
+  },
+  "after": {
+    "expected": 5871,
+    "types": {
+      "recipe": 5515,
+      "category": 10,
+      "category-combination": 193,
+      "cuisine": 92,
+      "ingredient": 51,
+      "other": 10
+    },
+    "generated_nonad_html": 5875,
+    "sitemap_entries": 5871,
+    "sitemap_unique": 5871,
+    "ordinary_anchor_reachable": 5871,
+    "unique_followable_edges": 250154,
+    "unique_titles": 5871,
+    "unique_h1s": 5871,
+    "gsc_rows": 1000,
+    "gsc_types": {
+      "recipe": 920,
+      "category-combination": 40,
+      "other": 3,
+      "cuisine": 19,
+      "ingredient": 17,
+      "category": 1
+    },
+    "declared_sitemap_images": 4100,
+    "error_pages": 0,
+    "errors": {},
+    "max_depth": 2,
+    "depth_distribution": {
+      "0": 1,
+      "1": 66,
+      "2": 5804
+    }
+  },
+  "sitemaps": {
+    "children": {
+      "https://weeklydelight.com/sitemap-1.xml": 490,
+      "https://weeklydelight.com/sitemap-2.xml": 490,
+      "https://weeklydelight.com/sitemap-3.xml": 490,
+      "https://weeklydelight.com/sitemap-4.xml": 490,
+      "https://weeklydelight.com/sitemap-5.xml": 490,
+      "https://weeklydelight.com/sitemap-6.xml": 490,
+      "https://weeklydelight.com/sitemap-7.xml": 490,
+      "https://weeklydelight.com/sitemap-8.xml": 490,
+      "https://weeklydelight.com/sitemap-9.xml": 490,
+      "https://weeklydelight.com/sitemap-10.xml": 490,
+      "https://weeklydelight.com/sitemap-11.xml": 490,
+      "https://weeklydelight.com/sitemap-12.xml": 481
+    },
+    "errors": [],
+    "extras": [],
+    "missing": [],
+    "duplicates": []
+  },
+  "csv_rows": 5915,
+  "noncatalogue_types": {
+    "redirect": 13,
+    "utility/helper": 4,
+    "missing-page probe/other": 2,
+    "alternate/filter": 10,
+    "sitemap/robots": 15
+  },
+  "live": {
+    "catalogue_200_verified": 1334,
+    "catalogue_unverified": 4537,
+    "export_urls_200_verified": 116,
+    "raw_requests_recorded": 1376,
+    "raw_result_counts": {
+      "('plumbing', 200)": 15,
+      "('probe', 200)": 15,
+      "('probe', 404)": 3,
+      "('page', 200)": 1333,
+      "('page', 503)": 10
+    },
+    "first_recorded_at": "2026-10-20T15:14:17.454059+00:00",
+    "last_recorded_at": "2026-10-20T15:21:45.121236+00:00"
+  },
+  "declared_images_local": 9168,
+  "missing_image_recipes": 1415,
+  "gsc_omitted_of_reported_2982": 1982,
+  "source_hashes": {
+    "static-after.json": "7199de8e9a888214426683ee7f11fff4a854fbd99e52e249a7fdafe8232e6d30",
+    "static-before.json": "e6337020a029178eba7c05e7eb877993e101845cbc9423e8697cf6f9e81cc298",
+    "manifest-after.json": "2d596898c3b06c9fe90b93f88d482ba508f736d9e867f60c53fb9ac4a3011583",
+    "manifest-before.json": "8bdb5a2083089a4bd529e4b6c12ea177be6b2dae9346e8f358c159e74e602763",
+    "network-retry.jsonl": "f9c9f7f35a8622e8d281d47aea47dd0c33e7a1aa758cd32a2f710e11c982fdd4",
+    "live.jsonl": "c5f2f78a39aeef260da894ab1613e21afeea9a2dd81d5ef651f2fd87e305d3c5",
+    "browser-after.json": "9b416b666092b12abaad43931a2bb5a6b20721af76fccfb7a196a07d41efc096",
+    "transport-recheck.json": "e8693a363ea88e1aa79097cad4a0825c4c0d835a2e4e88d9943a3b66846fcab5",
+    "browser-before.json": "01aee9a17b54a95104668a97527618718e2322953559da7ed278d48155e3504b"
+  },
+  "notes": [
+    "No URL labelled indexed; export is an exclusion subset with Pending validation.",
+    "Local checks are not Google Rich Results Test or live deployment proof.",
+    "No production merge or deployment."
+  ]
+}
