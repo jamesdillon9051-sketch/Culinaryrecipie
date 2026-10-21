@@ -30,7 +30,11 @@ const photos = shots.filter(s => !isDrawn(s));
 
 /* Recipes by picture, from the one inventory tools/image-inventory.js checks: each recipe in
    exactly one group, and a record whose file is missing counts as no picture. */
-const inv = require('../lib/image-inventory').inventory(catalog, images);
+/* This module loads before build() copies assets into the output directory.
+   Inspect the source files so a newly added photo counts on the first build. */
+const inv = require('../lib/image-inventory').inventory(catalog, images, {
+  imageDir: require('path').join(__dirname, '..', 'assets', 'img', 'recipes')
+});
 const withPhoto = inv.recipes.photo;
 const withDrawing = inv.recipes.illustration;
 const credited = photos.filter(s => NEEDS_CREDIT.test(s.licence)).length;

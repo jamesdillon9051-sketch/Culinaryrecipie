@@ -48,9 +48,11 @@ for (const recipe of catalog) {
     counts[data.licence] = (counts[data.licence] || 0) + 1;
 
     const author = (data.author || 'Unknown').replace(/\|/g, '/').trim() || 'Unknown';
+    const credit = typeof data.credit_url === 'string' && /^https:\/\//i.test(data.credit_url)
+      ? `[${author}](${data.credit_url})` : author;
     const title = (data.title || '').replace(/\|/g, '/').trim();
     rows.push(
-      `| \`${data.file}.webp\` / \`.jpg\` | ${recipe.title} | ${kind} | ${title} | ${author} | ` +
+      `| \`${data.file}.webp\` / \`.jpg\` | ${recipe.title} | ${kind} | ${title} | ${credit} | ` +
       `${data.licence} | [${data.source}](${secureUrl(data.page)}) |`
     );
   }

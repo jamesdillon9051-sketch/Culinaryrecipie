@@ -1165,6 +1165,8 @@ for (const audit of ['timing-audit.js', 'timing-corpus.js', 'consistency-corpus.
                      'robots-check.js', 'private-paths-check.js', 'image-inventory.js', ['mark-illustrations.js', '--check'],
                      ['voice-audit.js', '--strict'], ['voice-audit.js', '--check-docs'],
                      ['recipe-consistency.js', '--built', '--list', 'confirmed'],
+                     'photo-credit-test.js',
+                     'image-inventory-source-test.js',
                      ['food-handling-audit.js', '--selftest'], ['food-handling-audit.js', '--list', 'confirmed']]) {
   const [script, ...args] = [].concat(audit);
   try {
