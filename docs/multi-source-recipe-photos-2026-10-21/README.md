@@ -2,6 +2,8 @@
 
 34 further missing recipe photographs are prepared on `images/multi-source-recipe-photos-2026-10-21`: **26 Pexels, 6 Pixabay, 1 Kaboompics, 1 Stockvault**. These are additional to the 64 photos in unmerged draft PR #22. Nothing in this batch is merged or deployed.
 
+[Download the phone-size Claude handoff](WeeklyDelight-Multi-Source-Photo-Handoff.pdf) or read [the Markdown handoff](CLAUDE-HANDOFF.md). Implementation: `265a694f01d5a9e780f8f14dc16005f45811093e`.
+
 ## Base, ownership and counts
 
 - Exact base: `ee17093739845ae86a831be8347cfec9e2283092`, tip of `images/remaining-recipe-photos-2026-10-21` / PR #22. Production main was independently rechecked as `c8d95127862832f6f58e3717934dba1631483cad`.
