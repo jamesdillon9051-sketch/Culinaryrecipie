@@ -258,15 +258,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tender-coconut-pudding/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tender-coconut-pudding.jpg</image:loc>
+      <image:title>Tender Coconut Pudding</image:title>
+      <image:caption>Tender Coconut Pudding</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-chicken-tikka-masala/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/slow-cooker-chicken-tikka-masala.jpg</image:loc>
+      <image:title>Slow Cooker Chicken Tikka Masala</image:title>
+      <image:caption>Slow Cooker Chicken Tikka Masala</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/instant-pot-butter-chicken/</loc>
@@ -282,15 +292,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/instant-pot-chana-masala/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-chana-masala.jpg</image:loc>
+      <image:title>Instant Pot Chana Masala</image:title>
+      <image:caption>Instant Pot Chana Masala</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sheet-pan-chicken-tikka/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sheet-pan-chicken-tikka.jpg</image:loc>
+      <image:title>Sheet Pan Chicken Tikka</image:title>
+      <image:caption>Sheet Pan Chicken Tikka</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lime-pickle/</loc>
@@ -655,9 +675,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sweet-and-sour-prawns/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sweet-and-sour-prawns.jpg</image:loc>
+      <image:title>Sweet and Sour Prawns</image:title>
+      <image:caption>Sweet and Sour Prawns</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/honey-chilli-chicken/</loc>
@@ -694,9 +719,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lap-cheong-fried-rice/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lap-cheong-fried-rice.jpg</image:loc>
+      <image:title>Lap Cheong Fried Rice</image:title>
+      <image:caption>Lap Cheong Fried Rice</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/yuxiang-aubergine/</loc>
@@ -750,9 +780,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/xinjiang-lamb-skewers/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/xinjiang-lamb-skewers.jpg</image:loc>
+      <image:title>Xinjiang Lamb Skewers</image:title>
+      <image:caption>Xinjiang Lamb Skewers</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/roujiamo/</loc>
@@ -806,9 +841,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vietnamese-vermicelli-bowl/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/vietnamese-vermicelli-bowl.jpg</image:loc>
+      <image:title>Vietnamese Vermicelli Bowl</image:title>
+      <image:caption>Vietnamese Vermicelli Bowl</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/com-ga/</loc>
@@ -867,9 +907,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kari-ayam/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kari-ayam.jpg</image:loc>
+      <image:title>Kari Ayam</image:title>
+      <image:caption>Kari Ayam</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sambal-udang/</loc>
@@ -1306,9 +1351,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/wattalapam/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/wattalapam.jpg</image:loc>
+      <image:title>Wattalapam</image:title>
+      <image:caption>Wattalapam</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-choila/</loc>
@@ -1334,9 +1384,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/instant-pot-chicken-congee/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-chicken-congee.jpg</image:loc>
+      <image:title>Instant Pot Chicken Congee</image:title>
+      <image:caption>Instant Pot Chicken Congee</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salted-egg-yolk-chicken/</loc>
@@ -1650,9 +1705,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/spanish-chicken-and-rice/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/spanish-chicken-and-rice.jpg</image:loc>
+      <image:title>Spanish Chicken and Rice</image:title>
+      <image:caption>Spanish Chicken and Rice</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/taramasalata/</loc>
@@ -1933,9 +1993,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kitfo/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kitfo.jpg</image:loc>
+      <image:title>Kitfo</image:title>
+      <image:caption>Kitfo</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gomen/</loc>
@@ -2084,9 +2149,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/panettone-bread-pudding/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/panettone-bread-pudding.jpg</image:loc>
+      <image:title>Panettone Bread Pudding</image:title>
+      <image:caption>Panettone Bread Pudding</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chocolate-nest-cakes/</loc>
@@ -2534,9 +2604,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ratatouille-tart/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/ratatouille-tart.jpg</image:loc>
+      <image:title>Ratatouille Tart</image:title>
+      <image:caption>Ratatouille Tart</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/peri-peri-sauce/</loc>
@@ -2835,9 +2910,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cuban-flan/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cuban-flan.jpg</image:loc>
+      <image:title>Cuban Flan</image:title>
+      <image:caption>Cuban Flan</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/puerto-rican-pasteles/</loc>
@@ -2909,9 +2989,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/jamaican-curry-chicken/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/jamaican-curry-chicken.jpg</image:loc>
+      <image:title>Jamaican Curry Chicken</image:title>
+      <image:caption>Jamaican Curry Chicken</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/jamaican-brown-stew-chicken/</loc>
@@ -3401,9 +3486,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tres-leches-cupcakes/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tres-leches-cupcakes.jpg</image:loc>
+      <image:title>Tres Leches Cupcakes</image:title>
+      <image:caption>Tres Leches Cupcakes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pudim-de-leite/</loc>
@@ -3491,9 +3581,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/barbecue-rub/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/barbecue-rub.jpg</image:loc>
+      <image:title>Barbecue Rub</image:title>
+      <image:caption>Barbecue Rub</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/comeback-sauce/</loc>
@@ -3542,15 +3637,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-salad-sandwich-with-cranberries/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-salad-sandwich-with-cranberries.jpg</image:loc>
+      <image:title>Chicken Salad Sandwich with Cranberries</image:title>
+      <image:caption>Chicken Salad Sandwich with Cranberries</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/peanut-butter-and-banana-sandwich/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/peanut-butter-and-banana-sandwich.jpg</image:loc>
+      <image:title>Peanut Butter and Banana Sandwich</image:title>
+      <image:caption>Peanut Butter and Banana Sandwich</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/honey-garlic-wings/</loc>
@@ -3582,9 +3687,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tex-mex-migas/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tex-mex-migas.jpg</image:loc>
+      <image:title>Tex-Mex Migas</image:title>
+      <image:caption>Tex-Mex Migas</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/texas-beef-ribs/</loc>
@@ -3734,9 +3844,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cherry-cobbler/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cherry-cobbler.jpg</image:loc>
+      <image:title>Cherry Cobbler</image:title>
+      <image:caption>Cherry Cobbler</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/wisconsin-butter-burgers/</loc>
@@ -3904,9 +4019,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/witch-finger-cookies/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/witch-finger-cookies.jpg</image:loc>
+      <image:title>Witch Finger Cookies</image:title>
+      <image:caption>Witch Finger Cookies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/popcorn-balls/</loc>
@@ -3962,9 +4082,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-potato-wedges/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-potato-wedges.jpg</image:loc>
+      <image:title>Air Fryer Potato Wedges</image:title>
+      <image:caption>Air Fryer Potato Wedges</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-corn-ribs/</loc>
@@ -4014,9 +4139,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-sticky-ribs/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/slow-cooker-sticky-ribs.jpg</image:loc>
+      <image:title>Slow Cooker Sticky Ribs</image:title>
+      <image:caption>Slow Cooker Sticky Ribs</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-stuffed-peppers/</loc>
@@ -4133,9 +4263,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sourdough-pizza-crust/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sourdough-pizza-crust.jpg</image:loc>
+      <image:title>Sourdough Pizza Crust</image:title>
+      <image:caption>Sourdough Pizza Crust</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sourdough-cinnamon-rolls/</loc>
@@ -4347,9 +4482,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-burgers/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-burgers.jpg</image:loc>
+      <image:title>Air Fryer Burgers</image:title>
+      <image:caption>Air Fryer Burgers</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-chicken-nuggets/</loc>
@@ -4386,9 +4526,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-crab-cakes/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-crab-cakes.jpg</image:loc>
+      <image:title>Air Fryer Crab Cakes</image:title>
+      <image:caption>Air Fryer Crab Cakes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-drumsticks/</loc>
@@ -4421,21 +4566,36 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-falafel/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-falafel.jpg</image:loc>
+      <image:title>Air Fryer Falafel</image:title>
+      <image:caption>Air Fryer Falafel</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-fish-tacos/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-fish-tacos.jpg</image:loc>
+      <image:title>Air Fryer Fish Tacos</image:title>
+      <image:caption>Air Fryer Fish Tacos</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-fish-and-chips/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-fish-and-chips.jpg</image:loc>
+      <image:title>Air Fryer Fish and Chips</image:title>
+      <image:caption>Air Fryer Fish and Chips</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-fried-chicken/</loc>
@@ -4473,9 +4633,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-pierogies/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-pierogies.jpg</image:loc>
+      <image:title>Air Fryer Pierogies</image:title>
+      <image:caption>Air Fryer Pierogies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-pizza-rolls/</loc>
@@ -4485,15 +4650,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-popcorn-chicken/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-popcorn-chicken.jpg</image:loc>
+      <image:title>Air Fryer Popcorn Chicken</image:title>
+      <image:caption>Air Fryer Popcorn Chicken</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-pork-belly/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-pork-belly.jpg</image:loc>
+      <image:title>Air Fryer Pork Belly</image:title>
+      <image:caption>Air Fryer Pork Belly</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-quesadilla/</loc>
@@ -4503,21 +4678,36 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-spring-rolls/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-spring-rolls.jpg</image:loc>
+      <image:title>Air Fryer Spring Rolls</image:title>
+      <image:caption>Air Fryer Spring Rolls</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-stuffed-peppers/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-stuffed-peppers.jpg</image:loc>
+      <image:title>Air Fryer Stuffed Peppers</image:title>
+      <image:caption>Air Fryer Stuffed Peppers</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-tater-tots/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-tater-tots.jpg</image:loc>
+      <image:title>Air Fryer Tater Tots</image:title>
+      <image:caption>Air Fryer Tater Tots</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-turkey-breast/</loc>
