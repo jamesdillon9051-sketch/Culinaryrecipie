@@ -1750,9 +1750,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tuna-fish-cakes/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tuna-fish-cakes.jpg</image:loc>
+      <image:title>Tuna Fish Cakes</image:title>
+      <image:caption>Tuna Fish Cakes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tuna-rice-bowl/</loc>
@@ -2696,9 +2701,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/buttered-peas/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/buttered-peas.jpg</image:loc>
+      <image:title>Buttered Peas</image:title>
+      <image:caption>Buttered Peas</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fried-cabbage/</loc>
@@ -2820,9 +2830,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cornbread-stuffing/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cornbread-stuffing.jpg</image:loc>
+      <image:title>Cornbread Stuffing</image:title>
+      <image:caption>Cornbread Stuffing</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cheese-biscuits/</loc>
@@ -3259,9 +3274,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-samosas/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-samosas.jpg</image:loc>
+      <image:title>Air Fryer Samosas</image:title>
+      <image:caption>Air Fryer Samosas</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-donuts/</loc>
@@ -3783,9 +3803,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bbq-beef-brisket/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bbq-beef-brisket.jpg</image:loc>
+      <image:title>BBQ Beef Brisket</image:title>
+      <image:caption>BBQ Beef Brisket</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bbq-prawns/</loc>
@@ -4005,9 +4030,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cheese-grits/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cheese-grits.jpg</image:loc>
+      <image:title>Cheese Grits</image:title>
+      <image:caption>Cheese Grits</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/potato-bake-with-cream/</loc>
@@ -4068,9 +4098,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beetroot-relish/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/beetroot-relish.jpg</image:loc>
+      <image:title>Beetroot Relish</image:title>
+      <image:caption>Beetroot Relish</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/corn-relish/</loc>
@@ -4107,9 +4142,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/blackberry-jam/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/blackberry-jam.jpg</image:loc>
+      <image:title>Blackberry Jam</image:title>
+      <image:caption>Blackberry Jam</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/plum-jam/</loc>

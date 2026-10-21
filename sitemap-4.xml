@@ -4740,9 +4740,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gooseberry-fool/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gooseberry-fool.jpg</image:loc>
+      <image:title>Gooseberry Fool</image:title>
+      <image:caption>Gooseberry Fool</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/blackberry-and-apple-pie/</loc>
