@@ -401,35 +401,35 @@ module.exports = {
 
   'cookie-dough-bars': {
     untimed: ['cooling completely'],
-    d: 'A thick chocolate chip cookie base topped with a layer of edible cookie dough and a chocolate glaze, baked for 25 minutes.',
-    meta: 'Cookie dough bars with a chewy base, safe cookie dough topping and chocolate, baked for 25 minutes. 16 bars, ready in at least 1 hour 10 minutes.',
+    d: 'A thick chocolate chip cookie base, baked, topped with an unbaked cookie dough layer made with flour sold as ready to eat raw, and a chocolate glaze.',
+    meta: 'Cookie dough bars: a baked chewy base with an eggless dough topping made with ready-to-eat flour, and chocolate. 16 bars, ready in at least 1 hour 10 minutes.',
     kw: ['cookie dough bars', 'chocolate chip cookie dough bars', 'edible cookie dough bars', 'cookie bars with chocolate topping', 'cookie dough dessert bars'],
-    why: 'Two layers, one tin and not a lot of effort: that is the appeal. A chewy chocolate chip cookie bar sits at the bottom and an edible cookie dough, safe to eat raw, goes on top, covered with chocolate. It is cookie dough that you can eat with a spoon, built into something that looks respectable.\n\nThe topping is the part that needs care. Raw flour can carry bacteria, and raw eggs are best avoided. Heat-treat the flour by baking it spread on a tray at 175C for 5 minutes, or microwaving it until it reaches 74C. Leave the eggs out entirely and use a splash of milk to bring the mixture together. The result is a dense, sweet dough that tastes like the real thing.\n\n**Press the base evenly into the tin and bake it until just set.** Underbaked, the base stays gooey and the topping sinks. Overbaked, it dries out. The edges should be golden and the centre still slightly soft; it sets as it cools.\n\nCool the base completely before spreading on the cookie dough, then pour over melted chocolate and chill for 30 minutes to set. Cut into 16 bars with a hot knife, wiping between cuts.',
+    why: 'Two layers, one tin and not a lot of effort: that is the appeal. A chewy chocolate chip cookie bar, which is baked, sits at the bottom, and an unbaked cookie dough goes on top, covered with chocolate.\n\nThe topping is the part that needs care, and only the topping is unbaked. Raw flour can carry bacteria, so the topping uses flour sold as heat-treated and ready to eat raw; check the packet. Ordinary flour is for the baked base only, and this recipe does not offer a home method of treating flour. The topping has no egg; a splash of milk brings it together.\n\nPress the base evenly into the tin and bake it until just set. Underbaked, the base stays gooey and the topping sinks. Overbaked, it dries out. The edges should be golden and the centre still slightly soft; it sets as it cools.\n\nCool the base completely before spreading on the topping, then pour over melted chocolate and chill for 30 minutes to set. Cut into 16 bars with a hot knife, wiping between cuts.',
     ing: [
       '115 g butter, melted',
       '150 g light brown sugar',
       '1 egg',
       '1 tsp vanilla extract',
-      '150 g plain flour',
+      '150 g plain flour, for the baked base',
       '1/2 tsp baking powder',
       '1/4 tsp salt',
       '100 g dark chocolate chips',
       '115 g butter, softened, for the topping',
       '120 g light brown sugar, for the topping',
-      '150 g plain flour, heat-treated, for the topping',
+      '150 g heat-treated plain flour, sold as ready to eat raw, for the unbaked topping',
       '3 tbsp milk',
       '100 g dark chocolate chips, for the topping',
       '150 g dark chocolate, melted'
     ],
     st: [
-      'Heat the oven to 175C. Line a 20 cm square tin. Spread 150 g of flour for the topping on a tray and bake for 5 minutes, until a thermometer pushed into it reads 74°C / 165°F, then cool.',
-      'Mix the melted butter and 150 g brown sugar. Beat in the egg and vanilla, then stir in 150 g flour, baking powder, salt and 100 g chips.',
+      'Heat the oven to 175C. Line a 20 cm square tin.',
+      'Mix the melted butter and 150 g brown sugar. Beat in the egg and vanilla, then stir in the 150 g plain flour, baking powder, salt and 100 g chips.',
       'Press the dough into the tin and bake for 25 minutes. Cool completely.',
-      'Beat the soft butter and 120 g brown sugar until fluffy. Stir in the heat-treated flour, milk, salt and chips.',
+      'Beat the soft butter and 120 g brown sugar until fluffy. Stir in the heat-treated flour, milk, salt and chips. This topping is not baked.',
       'Spread the topping over the base, pour over the melted chocolate and chill for 30 minutes. Cut into 16.'
     ],
     tips: [
-      'Heat-treat the flour for the raw dough layer.',
+      'Use flour sold as heat-treated and ready to eat raw for the unbaked topping only; the base is baked and takes ordinary flour.',
       'Cool the base before adding the topping.',
       'Cut with a hot, wiped knife.'
     ],

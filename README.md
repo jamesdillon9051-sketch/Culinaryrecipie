@@ -281,7 +281,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       genuine reviews is every rich result on the domain. The fallback is gone
       and `src/data/reviews.json` is the only source, so all 809 read "Not yet
       rated" until somebody rates one
-- [x] **FAQPage** on 2,136 recipe pages and the about page — 2,136 questions,
+- [x] **FAQPage** on 2,135 recipe pages and the about page — 2,135 questions,
       built by `src/lib/faq.js` only where the answer adds something the page
       does not already say in one place: the waiting on recipes that have it,
       and why the sauce split on carbonara, alfredo and cacio e pepe. It used
@@ -305,7 +305,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 441,087 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 441,082 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe

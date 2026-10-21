@@ -1501,8 +1501,8 @@
  },
  "/ingredients/": {
   "hash": "e1b49f244bc3",
-  "lastmod": "2026-10-16",
-  "derivedHash": "aa6ec2ef735d"
+  "lastmod": "2026-10-21",
+  "derivedHash": "5866c4350f71"
  },
  "/ingredients/almonds/": {
   "hash": "311b89227601",
@@ -1685,9 +1685,9 @@
   "derivedHash": "05fe26a81974"
  },
  "/ingredients/pasta/": {
-  "hash": "53afa58cec85",
-  "lastmod": "2026-10-16",
-  "derivedHash": "b30ee708a90b"
+  "hash": "45689955d285",
+  "lastmod": "2026-10-21",
+  "derivedHash": "6c1c413714e5"
  },
  "/ingredients/peas/": {
   "hash": "38b5c384a1f9",
@@ -1766,8 +1766,8 @@
  },
  "/recipes/": {
   "hash": "f9ba74f6b706",
-  "lastmod": "2026-10-16",
-  "derivedHash": "a91ba045a45d"
+  "lastmod": "2026-10-21",
+  "derivedHash": "2e8b03f5dc0b"
  },
  "/recipes/3-ingredient-banana-pancakes/": {
   "hash": "74f0eda6277a",
@@ -7478,12 +7478,12 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/cookie-dough-bars/": {
-  "hash": "333d1b54ed7e",
-  "lastmod": "2026-10-20"
+  "hash": "ad0abc998662",
+  "lastmod": "2026-10-21"
  },
  "/recipes/cookie-dough-bites/": {
-  "hash": "feb539b9664c",
-  "lastmod": "2026-10-20"
+  "hash": "4fe1fa09f6d7",
+  "lastmod": "2026-10-21"
  },
  "/recipes/cookies-and-cream-cupcakes/": {
   "hash": "494779622a1f",
@@ -8702,8 +8702,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/edible-cookie-dough/": {
-  "hash": "51aadcda4ee3",
-  "lastmod": "2026-10-20"
+  "hash": "3233f303dd7d",
+  "lastmod": "2026-10-21"
  },
  "/recipes/efo-riro/": {
   "hash": "12316000a6b3",
@@ -22530,8 +22530,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/trenette-al-pesto/": {
-  "hash": "622e09c4e176",
-  "lastmod": "2026-10-20"
+  "hash": "e595f1a5d7fc",
+  "lastmod": "2026-10-21"
  },
  "/recipes/tres-leches-cake/": {
   "hash": "e3551568aec1",
@@ -23831,8 +23831,8 @@
  },
  "/search/": {
   "hash": "f9ba74f6b706",
-  "lastmod": "2026-10-20",
-  "derivedHash": "922889110105"
+  "lastmod": "2026-10-21",
+  "derivedHash": "d08ae9371d2e"
  },
  "/site-directory/": {
   "hash": "f9ba74f6b706",

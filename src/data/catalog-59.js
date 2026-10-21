@@ -62,7 +62,7 @@ module.exports = [
   c('pasta-alla-norcina', 'Pasta alla Norcina', 'Italian', 'Dinner', 'Easy', 10, 20, 4, 0, 0, [], ['new'], 'pasta alla norcina'),
   c('abbacchio-alla-scottadito', 'Abbacchio alla Scottadito', 'Italian', 'Dinner', 'Easy', 10, 15, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'abbacchio alla scottadito'),
   c('castagnaccio', 'Castagnaccio', 'Italian', 'Baking', 'Easy', 10, 40, 8, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'castagnaccio'),
-  c('trenette-al-pesto', 'Trenette al Pesto', 'Italian', 'Quick Meals', 'Easy', 10, 15, 4, 0, 0, ['Gluten-Free'], ['new'], 'trenette al pesto'),
+  c('trenette-al-pesto', 'Trenette al Pesto', 'Italian', 'Quick Meals', 'Easy', 10, 15, 4, 0, 0, [], ['new'], 'trenette al pesto'),
   c('torta-di-verdure', 'Torta di Verdure', 'Italian', 'Lunch', 'Easy', 25, 45, 8, 0, 0, [], ['new'], 'torta di verdure'),
   c('peperoni-ripieni', 'Peperoni Ripieni', 'Italian', 'Dinner', 'Easy', 20, 45, 4, 0, 0, [], ['new'], 'peperoni ripieni'),
   c('involtini-di-melanzane', 'Involtini di Melanzane', 'Italian', 'Appetizers', 'Medium', 25, 25, 6, 0, 0, ['Gluten-Free'], ['new'], 'involtini di melanzane'),
