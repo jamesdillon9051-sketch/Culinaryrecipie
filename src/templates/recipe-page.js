@@ -90,7 +90,7 @@ function boldLeadVerb(text) {
 function stepsHtml(steps) {
   return steps.map((text, i) => {
     const timer = detectTimer(text);
-    return `<li>
+    return `<li id="step-${i + 1}">
       <p class="step-text">${boldLeadVerb(text)}</p>
       <div class="step-actions">
         <button class="step-btn" type="button" data-step-done>Mark done</button>
@@ -285,7 +285,9 @@ function recipeSchema(recipe) {
     description: recipe.description,
     prepTime: isoDuration(recipe.prep),
     cookTime: isoDuration(recipe.cook),
-    totalTime: isoDuration(recipe.elapsedTime),
+    /* A lower bound is not a complete duration. Keep supported prep/cook
+       times, but omit totalTime while a required stage is explicitly untimed. */
+    ...(recipe.untimed ? {} : { totalTime: isoDuration(recipe.elapsedTime) }),
     recipeYield: `${recipe.servings} servings`,
     recipeCategory: recipe.category,
     recipeCuisine: recipe.cuisine,
@@ -455,14 +457,13 @@ function render(recipe, context) {
 ${breadcrumbs(trail)}
 <div class="wrap">
   <article data-recipe="${recipe.slug}" data-servings="${recipe.servings}"
-           data-image="${img ? `${SITE.origin}${SITE.base}assets/img/recipes/${img.file}.jpg` : ''}"
-           itemscope itemtype="https://schema.org/Recipe">
+           data-image="${img ? `${SITE.origin}${SITE.base}assets/img/recipes/${img.file}.jpg` : ''}">
 
     <div class="recipe-masthead">
       <header class="recipe-head">
         <span class="eyebrow">${esc(recipe.cuisine)} &middot; ${esc(recipe.category)}</span>
-        <h1 itemprop="name">${esc(recipe.title)}</h1>
-        <p class="lede" itemprop="description">${esc(recipe.description)}</p>
+        <h1>${esc(recipe.title)}</h1>
+        <p class="lede">${esc(recipe.description)}</p>
 
         <div class="recipe-meta">
           ${starsHtml(recipe.rating, recipe.reviews)}

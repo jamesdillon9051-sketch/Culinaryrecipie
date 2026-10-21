@@ -303,6 +303,14 @@ for (const file of htmlFiles) {
      here: a recipe with no photograph publishes none rather than a picture of
      something else (see recipe-page.js). */
   if (/^\/recipes\/[^/]+\/index\.html$/.test(rel)) {
+    const guard = require('./crawl-guard');
+    const declarations = guard.recipeDeclarations(html);
+    if (declarations.jsonld !== 1 || declarations.microdata || declarations.rdfa) {
+      problems.push(`${rel}: expected one primary JSON-LD Recipe, found ${JSON.stringify(declarations)}`);
+    }
+    for (const error of guard.indexability(html, 'https://weeklydelight.com' + rel.replace(/index\.html$/, ''))) {
+      problems.push(`${rel}: ${error}`);
+    }
     const blocks = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)]
       .map(m => { try { return JSON.parse(m[1]); } catch { return null; } }).filter(Boolean);
     const recipeLd = blocks.find(b => b['@type'] === 'Recipe');
@@ -317,6 +325,11 @@ for (const file of htmlFiles) {
       }
       if (recipeLd.datePublished && !/^\d{4}-\d{2}-\d{2}/.test(recipeLd.datePublished)) {
         problems.push(`${rel}: Recipe JSON-LD datePublished is not a date`);
+      }
+      for (const step of recipeLd.recipeInstructions || []) {
+        if (step.url && step.url.includes('#') && !ids.includes(step.url.split('#')[1])) {
+          problems.push(`${rel}: structured instruction URL has no matching HTML target: ${step.url}`);
+        }
       }
       const img = Array.isArray(recipeLd.image) ? recipeLd.image[0] : recipeLd.image;
       const imgUrl = img && (typeof img === 'string' ? img : img.url);
@@ -1121,9 +1134,7 @@ try {
   require('child_process').execFileSync(process.execPath,
     [require('path').join(__dirname, 'diet-audit.js')], { stdio: 'pipe' });
 } catch (err) {
-  for (const line of String(err.stdout || '').split('\n')) {
-    if (line.trim().startsWith('✗')) problems.push(line.replace(/^\s*✗\s*/, ''));
-  }
+  problems.push(...require('./audit-failure').auditFailure('diet-audit.js', err));
 }
 
 /* --- times and nutrition ------------------------------------------------- */
@@ -1149,7 +1160,7 @@ try {
    The food-handling audit fails on its confirmed findings too (oil preserves kept too long, jars
    kept in the cupboard unprocessed, raw egg without pasteurised eggs, raw fish with no parasite
    freezing, marinades left out of the fridge, raw flour), and its self-test pins each rule down. */
-for (const audit of ['timing-audit.js', 'timing-corpus.js', 'consistency-corpus.js', 'nutrition-audit.js', 'keyword-audit.js', 'seo-audit.js',
+for (const audit of ['timing-audit.js', 'timing-corpus.js', 'consistency-corpus.js', 'crawl-guard-test.js', 'crawl-dates-test.js', 'nutrition-audit.js', 'keyword-audit.js', 'seo-audit.js',
                      'substitutions-audit.js', 'duplicates-audit.js', 'health-audit.js',
                      'robots-check.js', 'private-paths-check.js', 'image-inventory.js', ['mark-illustrations.js', '--check'],
                      ['voice-audit.js', '--strict'], ['voice-audit.js', '--check-docs'],
@@ -1160,9 +1171,7 @@ for (const audit of ['timing-audit.js', 'timing-corpus.js', 'consistency-corpus.
     require('child_process').execFileSync(process.execPath,
       [require('path').join(__dirname, script), ...args], { stdio: 'pipe' });
   } catch (err) {
-    for (const line of String(err.stdout || '').split('\n')) {
-      if (line.trim().startsWith('✗')) problems.push(line.replace(/^\s*✗\s*/, ''));
-    }
+    problems.push(...require('./audit-failure').auditFailure(script, err));
   }
 }
 

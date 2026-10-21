@@ -29,11 +29,12 @@ const path = require('path');
 
 const STORE = path.join(__dirname, '..', 'data', 'content-dates.json');
 
-function load() {
+function load(file = STORE) {
   try {
-    return JSON.parse(fs.readFileSync(STORE, 'utf8'));
-  } catch {
-    return {};
+    return JSON.parse(fs.readFileSync(file, 'utf8'));
+  } catch (error) {
+    if (error.code === 'ENOENT') return {};
+    throw error; // A corrupt register must never silently reset every page's date.
   }
 }
 
@@ -53,21 +54,27 @@ function digest(payload) {
  * differs from the stored one. `save()` writes the register back, and reports
  * whether anything moved so the build can say so.
  */
-function register(today = new Date().toISOString().slice(0, 10)) {
-  const stored = load();
+function register(today = new Date().toISOString().slice(0, 10), file = STORE) {
+  const stored = load(file);
   const next = {};
   let changed = 0;
   let added = 0;
 
   return {
-    dateFor(route, payload) {
+    dateFor(route, payload, derivedPayload) {
       const hash = digest(payload);
       const previous = stored[route];
-      if (previous && previous.hash === hash) {
-        next[route] = previous;
+      const derivedHash = derivedPayload === undefined ? undefined : digest(derivedPayload);
+      /* Seed the previously untracked computed fields without inventing a change today.
+         The legacy source hash must still match. After this first migration, changes to
+         tier, sodium omission, ranges, etc. move only the affected recipe's date. */
+      const derivedChanged = previous && previous.derivedHash !== undefined
+        && derivedHash !== undefined && previous.derivedHash !== derivedHash;
+      if (previous && previous.hash === hash && !derivedChanged) {
+        next[route] = { ...previous, ...(derivedHash === undefined ? {} : { derivedHash }) };
       } else {
         if (previous) changed++; else added++;
-        next[route] = { hash, lastmod: today };
+        next[route] = { hash, lastmod: today, ...(derivedHash === undefined ? {} : { derivedHash }) };
       }
       return next[route].lastmod;
     },
@@ -80,9 +87,9 @@ function register(today = new Date().toISOString().slice(0, 10)) {
     save() {
       const ordered = {};
       for (const key of Object.keys(next).sort()) ordered[key] = next[key];
-      const before = JSON.stringify(load());
+      const before = JSON.stringify(load(file));
       const after = JSON.stringify(ordered);
-      if (before !== after) fs.writeFileSync(STORE, JSON.stringify(ordered, null, 1) + '\n');
+      if (before !== after) fs.writeFileSync(file, JSON.stringify(ordered, null, 1) + '\n');
       return { changed, added, removed: Object.keys(stored).filter(k => !(k in next)).length };
     }
   };
@@ -99,8 +106,7 @@ function register(today = new Date().toISOString().slice(0, 10)) {
 const PUBLISHED = path.join(__dirname, '..', 'data', 'published-dates.json');
 
 function publishedRegister(today = new Date().toISOString().slice(0, 10)) {
-  let stored = {};
-  try { stored = JSON.parse(fs.readFileSync(PUBLISHED, 'utf8')); } catch { stored = {}; }
+  const stored = load(PUBLISHED);
   let added = 0;
   return {
     dateFor(route) {
@@ -119,4 +125,20 @@ function publishedRegister(today = new Date().toISOString().slice(0, 10)) {
   };
 }
 
-module.exports = { register, publishedRegister, digest };
+/* Track collection/prose content, links, declared images and JSON-LD, without
+   hashing the shared header/footer, CSS cache keys, ad scripts or build clock.
+   Generated main elements do not nest, so this operates on the known template
+   boundary; the full HTML audit separately validates the output. */
+function pageContent(html) {
+  const main = (/<main\b[^>]*>([\s\S]*?)<\/main>/i.exec(html) || [])[1] || '';
+  const content = main.replace(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>/gi, '');
+  const links = [...content.matchAll(/<a\b[^>]*\bhref="([^"]*)"/gi)].map(m => m[1]);
+  const images = [...content.matchAll(/<img\b[^>]*\bsrc="([^"]*)"/gi)].map(m => m[1]);
+  const text = content.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+  const schema = [...html.matchAll(/<script\b[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/gi)]
+    .map(m => JSON.parse(m[1]));
+  const description = (/<meta name="description" content="([^"]*)"/.exec(html) || [])[1];
+  return { text, links, images, schema, description };
+}
+
+module.exports = { register, publishedRegister, digest, pageContent };

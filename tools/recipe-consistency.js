@@ -377,7 +377,7 @@ function builtAgreement(recipes) {
     if (!fs.existsSync(file)) continue;
     const html = fs.readFileSync(file, 'utf8');
     const total = /"totalTime":"([^"]+)"/.exec(html);
-    if (total && total[1] !== iso(r.elapsedTime)) out.push({ slug: r.slug, kind: 'confirmed', code: 'schema-time', detail: `JSON-LD totalTime ${total[1]}, the recipe ${iso(r.elapsedTime)}` });
+    if (r.untimed ? !!total : !total || total[1] !== iso(r.elapsedTime)) out.push({ slug: r.slug, kind: 'confirmed', code: 'schema-time', detail: r.untimed ? 'JSON-LD totalTime claims a complete duration despite an explicitly untimed required stage' : `JSON-LD totalTime ${total ? total[1] : 'missing'}, the recipe ${iso(r.elapsedTime)}` });
   }
   return out;
 }
