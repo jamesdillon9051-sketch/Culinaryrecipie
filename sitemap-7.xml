@@ -3349,9 +3349,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/instant-pot-chicken-soup/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-chicken-soup.jpg</image:loc>
+      <image:title>Instant Pot Chicken Soup</image:title>
+      <image:caption>Instant Pot Chicken Soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/instant-pot-pulled-pork/</loc>
@@ -3549,9 +3554,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-ham/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/slow-cooker-ham.jpg</image:loc>
+      <image:title>Slow Cooker Ham</image:title>
+      <image:caption>Slow Cooker Ham</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-porridge/</loc>

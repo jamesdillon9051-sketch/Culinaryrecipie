@@ -2018,9 +2018,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salted-caramel-sauce/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/salted-caramel-sauce.jpg</image:loc>
+      <image:title>Salted Caramel Sauce</image:title>
+      <image:caption>Salted Caramel Sauce</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sour-cream-raisin-pie/</loc>
@@ -2355,9 +2360,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/oyster-stew/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/oyster-stew.jpg</image:loc>
+      <image:title>Oyster Stew</image:title>
+      <image:caption>Oyster Stew</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/curried-sausages/</loc>
@@ -2461,9 +2471,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ham-and-cheese-sliders/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/ham-and-cheese-sliders.jpg</image:loc>
+      <image:title>Ham and Cheese Sliders</image:title>
+      <image:caption>Ham and Cheese Sliders</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lomi-lomi-salmon/</loc>

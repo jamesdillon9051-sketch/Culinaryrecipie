@@ -694,9 +694,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lap-cheong-fried-rice/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lap-cheong-fried-rice.jpg</image:loc>
+      <image:title>Lap Cheong Fried Rice</image:title>
+      <image:caption>Lap Cheong Fried Rice</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/yuxiang-aubergine/</loc>
@@ -867,9 +872,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kari-ayam/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kari-ayam.jpg</image:loc>
+      <image:title>Kari Ayam</image:title>
+      <image:caption>Kari Ayam</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sambal-udang/</loc>
@@ -1933,9 +1943,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kitfo/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kitfo.jpg</image:loc>
+      <image:title>Kitfo</image:title>
+      <image:caption>Kitfo</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gomen/</loc>
@@ -2084,9 +2099,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/panettone-bread-pudding/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/panettone-bread-pudding.jpg</image:loc>
+      <image:title>Panettone Bread Pudding</image:title>
+      <image:caption>Panettone Bread Pudding</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chocolate-nest-cakes/</loc>
@@ -2534,9 +2554,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ratatouille-tart/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/ratatouille-tart.jpg</image:loc>
+      <image:title>Ratatouille Tart</image:title>
+      <image:caption>Ratatouille Tart</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/peri-peri-sauce/</loc>
@@ -2914,9 +2939,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/jamaican-curry-chicken/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/jamaican-curry-chicken.jpg</image:loc>
+      <image:title>Jamaican Curry Chicken</image:title>
+      <image:caption>Jamaican Curry Chicken</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/jamaican-brown-stew-chicken/</loc>
@@ -3558,9 +3588,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/peanut-butter-and-banana-sandwich/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/peanut-butter-and-banana-sandwich.jpg</image:loc>
+      <image:title>Peanut Butter and Banana Sandwich</image:title>
+      <image:caption>Peanut Butter and Banana Sandwich</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/honey-garlic-wings/</loc>

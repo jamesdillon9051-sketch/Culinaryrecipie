@@ -50,9 +50,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/piri-piri-prawns/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/piri-piri-prawns.jpg</image:loc>
+      <image:title>Piri Piri Prawns</image:title>
+      <image:caption>Piri Piri Prawns</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ploughmans-sandwich/</loc>
@@ -733,9 +738,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pork-meatball-soup/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pork-meatball-soup.jpg</image:loc>
+      <image:title>Pork Meatball Soup</image:title>
+      <image:caption>Pork Meatball Soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pork-stuffed-peppers/</loc>
@@ -761,9 +771,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lamb-shawarma/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lamb-shawarma.jpg</image:loc>
+      <image:title>Lamb Shawarma</image:title>
+      <image:caption>Lamb Shawarma</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lamb-souvlaki/</loc>
@@ -856,9 +871,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salmon-tacos/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/salmon-tacos.jpg</image:loc>
+      <image:title>Salmon Tacos</image:title>
+      <image:caption>Salmon Tacos</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tuna-steaks-with-sesame/</loc>
@@ -952,9 +972,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sea-bream-with-fennel/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sea-bream-with-fennel.jpg</image:loc>
+      <image:title>Sea Bream with Fennel</image:title>
+      <image:caption>Sea Bream with Fennel</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/monkfish-curry/</loc>
@@ -1384,9 +1409,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/roasted-squash-and-apple-soup/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/roasted-squash-and-apple-soup.jpg</image:loc>
+      <image:title>Roasted Squash and Apple Soup</image:title>
+      <image:caption>Roasted Squash and Apple Soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/stracciatella/</loc>
@@ -1521,9 +1551,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/one-pan-sausage-pasta/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/one-pan-sausage-pasta.jpg</image:loc>
+      <image:title>One Pan Sausage Pasta</image:title>
+      <image:caption>One Pan Sausage Pasta</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/one-pan-mexican-rice/</loc>
@@ -2645,9 +2680,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/savoury-french-toast/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/savoury-french-toast.jpg</image:loc>
+      <image:title>Savoury French Toast</image:title>
+      <image:caption>Savoury French Toast</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/breakfast-fried-rice/</loc>
@@ -3577,9 +3617,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/persian-lentil-rice/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/persian-lentil-rice.jpg</image:loc>
+      <image:title>Persian Lentil Rice</image:title>
+      <image:caption>Persian Lentil Rice</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/turkish-bulgur-pilaf/</loc>
@@ -4592,9 +4637,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/paneer-jalfrezi/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/paneer-jalfrezi.jpg</image:loc>
+      <image:title>Paneer Jalfrezi</image:title>
+      <image:caption>Paneer Jalfrezi</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/paneer-pakora/</loc>
