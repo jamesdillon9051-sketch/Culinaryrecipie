@@ -493,13 +493,12 @@ module.exports = {
   },
 
   'cookie-dough-bites': {
-    untimed: ['cooling completely'],
-    d: 'Small balls of eggless cookie dough made with heat-treated flour, chilled and dipped in dark chocolate.',
-    meta: 'Cookie dough bites: eggless cookie dough made with heat-treated flour, dipped in dark chocolate. Makes twenty, cooked for 8 minutes.',
+    d: 'Small balls of eggless cookie dough made with flour sold as heat-treated and ready to eat raw, chilled and dipped in dark chocolate.',
+    meta: 'Cookie dough bites: eggless cookie dough made with heat-treated, ready-to-eat flour, dipped in dark chocolate. Makes twenty, 30 minutes chilling.',
     kw: ['cookie dough bites', 'edible cookie dough bites', 'chocolate dipped cookie dough bites', 'eggless cookie dough balls', 'cookie dough bites with chocolate'],
-    why: 'It looks like a cookie and eats like the dough from the bowl, and the reason it is safe is the flour. Raw flour can carry bacteria, so it must be heat-treated before you eat it unbaked.\n\nSpread the flour on a tray and bake it at 180°C for 5 minutes. Let it cool completely before you use it. **Do not skip the cooling.** Warm flour melts the butter and the dough turns greasy instead of firm.\n\nBeat the butter with the sugars, add the milk and vanilla, then stir in the flour, salt and chocolate chips. The dough should hold together when pressed and not stick to your hands. If it is crumbly, add milk a teaspoon at a time.\n\nRoll into 20 small balls and chill for 30 minutes. Melt the dark chocolate in short bursts, dip each ball and set on paper. These contain no egg, so they are not baked and are meant to be eaten cold. Keep them in the fridge.',
+    why: 'It looks like a cookie and eats like the dough from the bowl, and the flour is what needs care. Raw flour can carry bacteria, so the recipe asks for flour sold as heat-treated and ready to eat raw. Check the packet: ordinary flour is not labelled that way, and this recipe does not offer a home method of treating it.\n\nBeat the butter with the sugars, add the milk and vanilla, then stir in the flour, salt and chocolate chips. The dough should hold together when pressed and not stick to your hands. If it is crumbly, add milk a teaspoon at a time.\n\nRoll into 20 small balls and chill for 30 minutes. Melt the dark chocolate in short bursts, dip each ball and set on paper. These contain no egg and are not baked, so keep them in the fridge.',
     ing: [
-      '200 g plain flour',
+      '200 g heat-treated plain flour, sold as ready to eat raw',
       '115 g butter, softened',
       '100 g soft light brown sugar',
       '50 g caster sugar',
@@ -510,15 +509,13 @@ module.exports = {
       '150 g dark chocolate for dipping'
     ],
     st: [
-      'Heat the oven to 180°C. Spread the flour on a tray and bake for 5 minutes, until a thermometer pushed into the flour reads 74°C / 165°F. Cool completely.',
       'Beat the butter with the brown and caster sugars for 2 minutes. Beat in the milk and vanilla.',
-      'Stir in the cooled flour, salt and chocolate chips to a firm dough. Roll into 20 balls and chill for 30 minutes.',
+      'Stir in the heat-treated flour, salt and chocolate chips to a firm dough. Roll into 20 balls and chill for 30 minutes.',
       'Melt the dark chocolate in short bursts for 3 minutes, dip each ball and set on baking paper.'
     ],
     tips: [
-      'Heat-treat the flour.',
-      'Cool the flour completely.',
-      'If your oven runs hot, check the flour at 4 minutes.',
+      'Use flour sold as heat-treated and ready to eat raw; check the packet.',
+      'Add milk a teaspoon at a time if the dough is crumbly.',
       'Keep the bites in the fridge.'
     ],
     pair: ['Cold milk', 'Vanilla ice cream', 'Hot coffee', 'Fresh strawberries'],

@@ -55,3 +55,13 @@ The owner has now approved the merges. [PR #17](https://github.com/jamesdillon90
 [Download the current PDF or text handoff](handoff-2026-10-21/README.md). It records changes, counts, checks, exact source paths and remaining actions. Fresh build/full check/ad comparison pass; the rebuild makes no tracked-file changes. This follow-up is documentation only; it changes no source, generated pages, dates or assets.
 
 Claude still owns recipe content and subsequent integrated regeneration. The separate earlier validator/timing/neutral-ordering batch is not merged. The 236-record independent queue and IMAGE-CONTENT-01 remain open. No manual deployment was triggered; the 06:41 UTC Leche Flan sample still lacks the new image and its new JPG/WebP URLs return 404. Verify hosting rollout and live asset/markup consistency before claiming the photo changes are deployed. No Google indexing guarantee is made.
+
+
+## Claude update, 2026-10-21 (after Codex PRs #17-#19)
+Branch `claude/recipe-content-after-codex`, based on `origin/main` `c3bd2cbb`. Not merged, not deployed; generated output was rebuilt by Claude (integration owner) on this branch only.
+
+- **Live deployment (checked 2026-10-21):** main's content is live. 81 of 81 sampled recipe pages (80 random plus leche-flan) match the merged build byte-for-byte; leche-flan and its .jpg/.webp return 200 (one transient 500 seen during rollout, 200 on three rechecks); 25 random new-photo .webp files return 200. Not a full-site verification.
+- **IMAGE-CONTENT-01 fixed:** `trenette-al-pesto` lost its Gluten-Free tag (ingredient is ordinary wheat pasta; no ingredient change).
+- **Flour fixed:** `edible-cookie-dough`, `cookie-dough-bites`, `cookie-dough-bars` no longer rely on a home 74 C oven treatment (no validated source). The unbaked dough now calls for flour sold as heat-treated and ready to eat raw; the bars' baked base keeps ordinary flour. Row cook times updated (0 and 3 min) because the flour step was removed; no new times invented. `tools/food-handling-audit.js` raw-flour rule updated to match. Whether a specific product is truly ready to eat is the label's claim; not verified.
+- **Checks:** `npm run build`, `npm run check` (all passed), `selftest` 64/64, food-handling audit 0 confirmed, consistency audit 0 confirmed/0 open, ads unchanged vs 40a2386f.
+- **Not done:** the 236-record queue in `docs/release-2026-10-uncertainties/codex-review-findings.json` (231 open, 5 specialist) has not been worked through; the unmerged validator batch (`fix/recipe-validation-review`, not seen) was not reconciled; photo sourcing for the 1,237 gaps is out of scope for this round.

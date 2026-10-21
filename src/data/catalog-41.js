@@ -110,7 +110,7 @@ module.exports = [
   c('chocolate-beetroot-cake', 'Chocolate Beetroot Cake', 'British', 'Baking', 'Medium', 20, 45, 12, 0, 0, ['Vegetarian'], ['new'], 'chocolate beetroot cake'),
   c('chocolate-cream-pie', 'Chocolate Cream Pie', 'American', 'Desserts', 'Medium', 30, 25, 8, 0, 0, ['Vegetarian'], ['new'], 'chocolate cream pie'),
   c('chocolate-fondue', 'Chocolate Fondue', 'Swiss', 'Desserts', 'Easy', 5, 5, 6, 0, 0, [], ['new'], 'chocolate fondue'),
-  c('cookie-dough-bites', 'Cookie Dough Bites', 'American', 'Desserts', 'Easy', 15, 8, 20, 0, 0, ['Vegetarian'], ['new'], 'cookie dough bites'),
+  c('cookie-dough-bites', 'Cookie Dough Bites', 'American', 'Desserts', 'Easy', 15, 3, 20, 0, 0, ['Vegetarian'], ['new'], 'cookie dough bites'),
   c('courgette-and-lemon-cake', 'Courgette and Lemon Cake', 'British', 'Baking', 'Easy', 20, 45, 10, 0, 0, ['Vegetarian', 'Dairy-Free'], ['new'], 'courgette and lemon cake'),
   c('evaporated-milk-fudge', 'Evaporated Milk Fudge', 'American', 'Desserts', 'Easy', 10, 15, 36, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'evaporated milk fudge'),
   c('gingersnaps', 'Gingersnaps', 'American', 'Baking', 'Easy', 15, 12, 24, 0, 0, ['Vegetarian'], ['new'], 'gingersnaps'),

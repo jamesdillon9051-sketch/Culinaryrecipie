@@ -55,7 +55,7 @@ Where a page refused automated fetching from the build environment, the table sa
 | UK FSA, [Freezing fish and fishery products and treatment for parasites](https://www.food.gov.uk/business-guidance/freezing-fish-fishery-products-and-treatment-for-parasites) | −20 °C for 24 hours, or −35 °C for 15 hours (business guidance) | Raw fish | Search copy |
 | AESAN (Spain), anisakiasis guidance | At home, −20 °C for 5 days; vinegar, salt and marinades do not kill anisakis; boquerones en vinagre are named | Boquerones | Through Spanish press and consumer-site reports of the AESAN guidance; the AESAN PDF itself was not opened |
 | FDA Food Code 3-402.11(B) | Yellowfin, bigeye and bluefin tuna, and farmed fish raised on pellet feed, are exempt from parasite freezing | Tuna dishes left as written | Through a state adoption of the Food Code ([Delaware, Cornell LII](https://www.law.cornell.edu/regulations/delaware/16-Del-Admin-Code-SS-3-402.11)); check the edition your jurisdiction uses |
-| FDA, raw dough and raw flour | Raw flour can carry E. coli | Cookie dough | From the site's existing edible cookie dough recipe, which already heat-treats to 74 °C / 165 °F |
+| FDA, raw dough and raw flour | Raw flour can carry E. coli | Cookie dough | Raw-flour risk only. The home 74 °C oven method used earlier was withdrawn on 2026-10-21: no validated home process is cited. |
 | CDC | Botulinum toxin cannot be seen, smelled or tasted | Wording of the oil-preserve notes | Earlier in this release |
 
 ## What changed, by rule
@@ -138,7 +138,7 @@ Zabaglione and sabayon are cooked dishes, so instead of a pasteurised line they 
 - **Thawing.** Octopus and whitebait thaw in the fridge.
 - **Gildas.** Held for 2 hours at room temperature, not 4.
 - **Biscuits and gravy.** The gravy is kept in the fridge and reheated until piping hot.
-- **Cookie dough.** The bites and bars heat-treat the flour to 74 °C / 165 °F, as the site's edible cookie dough already did.
+- **Cookie dough (revised 2026-10-21).** The three recipes now call for flour sold as heat-treated and ready to eat raw, for the unbaked dough only. The home oven 74 °C step was removed because no validated home process is cited. The bars' base is baked and keeps ordinary flour. Whether a given product is truly ready to eat is the manufacturer's label claim; none was checked.
 
 ## Specialist list: what is missing
 
@@ -170,6 +170,6 @@ Lime pickle and mango pickle are recorded as exceptions to the oil rule in `src/
 Each rule is pinned down by 19 self-test cases (`node tools/food-handling-audit.js --selftest`, also run by `check`). They are built from the before and after texts:
 
 - **Must report:** pesto kept 5 days, chilli oil at room temperature, a jam kept in the cupboard for a year, aioli with raw yolks, hollandaise "cooked" by hot butter, ceviche of "very fresh" fish, chicken marinated overnight with no fridge, and flour baked 5 minutes with no temperature check.
-- **Must not report:** the same pesto at 4 days, an olive oil cake, a vinaigrette, jam kept in the fridge, tiramisu taken to 75 °C, tuna poke, a fridge marinade, a 20-minute marinade, and flour taken to 74 °C.
+- **Must not report:** the same pesto at 4 days, an olive oil cake, a vinaigrette, jam kept in the fridge, tiramisu taken to 75 °C, tuna poke, a fridge marinade, a 20-minute marinade, and flour sold as ready to eat raw.
 
 Rules the audit does not have: runny yolks, general leftover lives, and large-batch cooling worded in ways the scan does not recognise. Those still need a reader.

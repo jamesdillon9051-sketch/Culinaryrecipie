@@ -74,13 +74,12 @@ module.exports = {
   },
 
   'edible-cookie-dough': {
-    untimed: ['cooling completely'],
-    d: 'Soft, buttery chocolate chip cookie dough made with heat-treated flour and no raw egg, so it is safe to eat by the spoonful. Ready in 20 minutes.',
-    meta: 'Edible cookie dough: soft, buttery chocolate chip cookie dough made with heat-treated flour and no raw egg, safe to eat by the spoonful.',
+    d: 'Soft, buttery chocolate chip cookie dough made without egg and with flour sold as heat-treated and ready to eat raw. Ready in 10 minutes.',
+    meta: 'Edible cookie dough: soft, buttery chocolate chip cookie dough with no egg, made with flour sold as heat-treated and ready to eat raw.',
     kw: ['edible cookie dough', 'safe to eat cookie dough', 'edible chocolate chip cookie dough', 'cookie dough without eggs', 'edible cookie dough recipe'],
-    why: 'Most people have eaten raw cookie dough from the bowl at some time, and most of them have been told not to. The warning is a fair one, but it applies to two ingredients in the dough, not to the dough as a whole. Raw eggs can carry salmonella, and raw flour, which is an agricultural product that has not been treated to kill germs, can carry E. coli, and there have been outbreaks linked to raw flour in several countries. The solution is to make a dough without any egg and to heat-treat the flour first, and this recipe does both. The flour is spread on a tray and baked for a few minutes, until it reaches a safe temperature, and then it is cooled and sifted. There is no egg at all. A spoonful of milk brings the dough together, and the mixture of butter, brown sugar and vanilla tastes exactly like the dough of a chocolate chip cookie. It is best eaten in small amounts, since it is very rich. In the United States shops that sell nothing but edible cookie dough began to open in the 2010s, and the dough has become a flavour of ice cream and of bars and cakes too. This one is quick to make. Heat-treat the flour first, while it cools, beat the butter and sugars, and then mix everything together. Serve it as it is, in a bowl with spoons, or scoop it into balls and roll them in melted chocolate.',
+    why: 'Most people have eaten raw cookie dough from the bowl at some time, and most of them have been told not to. The warning applies to two ingredients, not to the dough as a whole. Raw eggs can carry salmonella, and raw flour, which is an agricultural product that has not been treated to kill germs, can carry E. coli; outbreaks have been linked to raw flour in several countries. This recipe leaves the egg out and asks for flour sold as heat-treated and ready to eat raw. Check the packet: ordinary flour is not labelled that way, and this recipe does not offer a home method of treating it.\n\nA spoonful of milk brings the dough together, and butter, brown sugar and vanilla taste like the dough of a chocolate chip cookie. It is rich, so serve small portions. Beat the butter and sugars, mix in the flour and chocolate chips, and serve it in a bowl with spoons or scoop it into balls.',
     ing: [
-      '150 g plain flour',
+      '150 g heat-treated plain flour, sold as ready to eat raw',
       '115 g butter, softened',
       '100 g light brown sugar',
       '50 g caster sugar',
@@ -90,15 +89,14 @@ module.exports = {
       '150 g chocolate chips'
     ],
     st: [
-      'Heat the oven to 175°C / 350°F (155°C fan). Spread the flour on a baking tray and bake for 5 to 8 minutes, until a thermometer pushed into the flour reads 74°C / 165°F. Tip it into a bowl, cool completely and sift to remove any lumps.',
       'Beat the butter with the brown sugar and caster sugar for 2 minutes, until creamy and light.',
       'Beat in the milk, vanilla and salt.',
-      'Stir in the cooled flour until just combined, then fold in the chocolate chips.',
+      'Stir in the heat-treated flour until just combined, then fold in the chocolate chips.',
       'Serve at once with spoons, or scoop into balls and keep in the fridge.'
     ],
     tips: [
-      'Do not skip the heat treatment. Raw flour is not safe to eat, and this step is what makes the dough safe.',
-      'Cool the flour completely before you add it. Warm flour melts the butter and makes the dough greasy.',
+      'Check that the flour packet says it is heat-treated and safe to eat raw. Ordinary flour is not, and baking or microwaving it at home is not a method this recipe can vouch for.',
+      'Beat the butter and sugars until creamy before the flour goes in, so the dough comes together without overmixing.',
       'Use mini chocolate chips if you can. They spread through the dough more evenly, and each bite has some.'
     ],
     pair: ['Vanilla ice cream', 'Cold milk', 'Strawberries'],

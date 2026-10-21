@@ -147,8 +147,8 @@ function check(r) {
 
   /* 6. Raw flour in a dough eaten unbaked. */
   if (/edible-cookie-dough|cookie-dough-(?:bites|bars|dip|truffles|balls)/i.test(r.slug) && ing.some(l => /\bflour\b/i.test(l))
-    && !/\b74\s*°C\b|\b165\s*°F\b/.test(steps.join(' '))) {
-    add('confirmed', 'raw-flour', 'flour eaten unbaked without heat treatment to 74°C / 165°F', 'flour');
+    && !/ready to eat raw|safe to eat raw|heat-treated and ready/i.test(ing.join(' '))) {
+    add('confirmed', 'raw-flour', 'flour eaten unbaked, with no commercially heat-treated, ready-to-eat flour named', 'flour');
   }
   return out;
 }
@@ -178,8 +178,8 @@ const CASES = [
   ['chicken marinated overnight with no fridge', R({ ingredients: ['8 chicken thighs'], steps: ['Coat the chicken in the marinade and leave to marinate overnight.'] }), 'marinade-out', true],
   ['chicken marinated overnight in the fridge', R({ ingredients: ['8 chicken thighs'], steps: ['Coat the chicken in the marinade, cover and marinate overnight in the fridge.'] }), 'marinade-out', false],
   ['a 20-minute marinade', R({ ingredients: ['8 chicken thighs'], steps: ['Turn the chicken through the marinade and leave 20 minutes.'] }), 'marinade-out', false],
-  ['cookie dough bites with flour baked 5 minutes', R({ slug: 'cookie-dough-bites', ingredients: ['200 g plain flour'], steps: ['Spread the flour on a tray and bake for 5 minutes.'] }), 'raw-flour', true],
-  ['cookie dough bites with flour taken to 74°C', R({ slug: 'cookie-dough-bites', ingredients: ['200 g plain flour'], steps: ['Bake the flour until a thermometer reads 74°C / 165°F.'] }), 'raw-flour', false],
+  ['cookie dough bites with plain flour', R({ slug: 'cookie-dough-bites', ingredients: ['200 g plain flour'], steps: ['Spread the flour on a tray and bake for 5 minutes.'] }), 'raw-flour', true],
+  ['cookie dough bites with ready-to-eat flour', R({ slug: 'cookie-dough-bites', ingredients: ['200 g heat-treated plain flour, sold as ready to eat raw'], steps: ['Stir in the flour.'] }), 'raw-flour', false],
 ];
 
 function main() {
