@@ -1,0 +1,156 @@
+{
+  "primary": [
+    {
+      "provider": "pxhere",
+      "scope": "exact recipe-title searches",
+      "catalogue_targets": 1173,
+      "attempted": 1173,
+      "not_attempted": 0,
+      "outcomes": {
+        "no_eligible_candidate_in_bounded_search": 1067,
+        "candidates_need_review": 60,
+        "unverified_search": 46
+      },
+      "positive_controls": 12,
+      "stop": null
+    },
+    {
+      "provider": "stocksnap",
+      "scope": "exact recipe-title searches",
+      "catalogue_targets": 1173,
+      "attempted": 459,
+      "not_attempted": 714,
+      "outcomes": {
+        "no_eligible_candidate_in_bounded_search": 364,
+        "unverified_search": 59,
+        "candidates_need_review": 36
+      },
+      "positive_controls": 5,
+      "stop": {
+        "url": "https://stocksnap.io/search/G%C3%A4nsebraten",
+        "errors": [
+          "HTTP 403"
+        ],
+        "pending_not_attempted": 714,
+        "access_challenge": true
+      }
+    },
+    {
+      "provider": "pixabay",
+      "scope": "exact recipe-title searches",
+      "catalogue_targets": 1173,
+      "attempted": 1173,
+      "not_attempted": 0,
+      "outcomes": {
+        "no_eligible_candidate_in_bounded_search": 814,
+        "candidates_need_review": 340,
+        "unverified_search": 19
+      },
+      "positive_controls": 12,
+      "stop": null
+    },
+    {
+      "provider": "pexels",
+      "scope": "exact recipe-title searches",
+      "catalogue_targets": 1173,
+      "attempted": 1173,
+      "not_attempted": 0,
+      "outcomes": {
+        "candidates_need_review": 834,
+        "no_eligible_candidate_in_bounded_search": 339
+      },
+      "positive_controls": 12,
+      "stop": null
+    }
+  ],
+  "supplemental": [
+    {
+      "provider": "pikwizard",
+      "scope": "food-family queries, not an exact-title pass of all recipes",
+      "planned_queries": 136,
+      "attempted": 136,
+      "photo_leads_unique_within_provider": 4143,
+      "queries_with_errors": 1,
+      "error_examples": [
+        {
+          "url": "https://pikwizard.com/s/photo/caramel/",
+          "errors": [
+            "TimeoutError: The read operation timed out"
+          ]
+        }
+      ]
+    },
+    {
+      "provider": "rawpixel",
+      "scope": "food-family queries, not an exact-title pass of all recipes",
+      "planned_queries": 136,
+      "attempted": 136,
+      "photo_leads_unique_within_provider": 850,
+      "queries_with_errors": 0,
+      "error_examples": []
+    },
+    {
+      "provider": "kaboompics",
+      "scope": "food-family queries, not an exact-title pass of all recipes",
+      "planned_queries": 136,
+      "attempted": 136,
+      "photo_leads_unique_within_provider": 2497,
+      "queries_with_errors": 0,
+      "error_examples": []
+    },
+    {
+      "provider": "picjumbo",
+      "scope": "food-family queries, not an exact-title pass of all recipes",
+      "planned_queries": 136,
+      "attempted": 1,
+      "photo_leads_unique_within_provider": 0,
+      "queries_with_errors": 1,
+      "error_examples": [
+        {
+          "url": "https://picjumbo.com/search/cake",
+          "errors": [
+            "HTTP 403"
+          ]
+        }
+      ]
+    },
+    {
+      "provider": "burst",
+      "scope": "food-family queries, not an exact-title pass of all recipes",
+      "planned_queries": 136,
+      "attempted": 2,
+      "photo_leads_unique_within_provider": 30,
+      "queries_with_errors": 1,
+      "error_examples": [
+        {
+          "url": "https://www.shopify.com/stock-photos/photos/search?q=cookies",
+          "errors": [
+            "HTTP 429",
+            "HTTP 429"
+          ]
+        }
+      ]
+    },
+    {
+      "provider": "stockvault",
+      "scope": "food-family queries, not an exact-title pass of all recipes",
+      "planned_queries": 136,
+      "attempted": 136,
+      "photo_leads_unique_within_provider": 1020,
+      "queries_with_errors": 0,
+      "error_examples": []
+    },
+    {
+      "provider": "foodiesfeed",
+      "scope": "food-family queries, not an exact-title pass of all recipes",
+      "planned_queries": 136,
+      "attempted": 136,
+      "photo_leads_unique_within_provider": 1328,
+      "queries_with_errors": 0,
+      "error_examples": []
+    }
+  ],
+  "thumbnail_candidates_screened": 667,
+  "full_size_candidates_reviewed": 90,
+  "selected": 34
+}

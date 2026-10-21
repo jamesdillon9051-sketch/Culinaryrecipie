@@ -1,0 +1,10 @@
+{
+  "method": "64-bit dHash, Hamming <=4 for visual followup; exact JPEG SHA-256; source-page uniqueness checked separately",
+  "existing_image_records_including_illustrations": 4825,
+  "existing_photographic_records": 4724,
+  "new_photos": 34,
+  "near_matches": [],
+  "exact_matches": [],
+  "normalized_source_ids_checked": 34,
+  "source_id_reuse_conflicts": []
+}

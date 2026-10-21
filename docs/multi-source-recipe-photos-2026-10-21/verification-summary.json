@@ -1,0 +1,22 @@
+{
+  "build_and_check": "passed",
+  "checked_html_pages": 5875,
+  "sitemap_urls": 5871,
+  "search_records": 5515,
+  "new_real_photos": 34,
+  "new_image_files": 68,
+  "recipe_total": 5515,
+  "recipes_with_photos_after_combined_regeneration": 4275,
+  "legacy_illustration_only": 101,
+  "no_picture_after_combined_regeneration": 1139,
+  "unchanged_rebuild_date_churn": 0,
+  "new_recipe_hash_changes_vs_built_parent": 34,
+  "other_hash_changes_vs_built_parent": 21,
+  "browser_cases": 16,
+  "old_populated_image_metadata_preserved": true,
+  "source_ads_unchanged": true,
+  "new_page_ad_markup_unchanged": 34,
+  "production_deployed": false,
+  "base": "ee17093739845ae86a831be8347cfec9e2283092",
+  "review_branch": "images/multi-source-recipe-photos-2026-10-21"
+}

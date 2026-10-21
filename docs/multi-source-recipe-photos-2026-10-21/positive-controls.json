@@ -1,0 +1,256 @@
+{
+  "pexels-controls": [
+    {
+      "url": "https://www.pexels.com/search/pancakes/",
+      "before_query": 1,
+      "photos": 24,
+      "checked_at": "2026-10-21T11:29:14.091342+00:00"
+    },
+    {
+      "url": "https://www.pexels.com/search/pancakes/",
+      "before_query": 101,
+      "photos": 24,
+      "checked_at": "2026-10-21T11:32:52.296701+00:00"
+    },
+    {
+      "url": "https://www.pexels.com/search/pancakes/",
+      "before_query": 201,
+      "photos": 24,
+      "checked_at": "2026-10-21T11:36:29.542988+00:00"
+    },
+    {
+      "url": "https://www.pexels.com/search/pancakes/",
+      "before_query": 301,
+      "photos": 24,
+      "checked_at": "2026-10-21T11:40:07.990044+00:00"
+    },
+    {
+      "url": "https://www.pexels.com/search/pancakes/",
+      "before_query": 401,
+      "photos": 24,
+      "checked_at": "2026-10-21T11:43:55.552540+00:00"
+    },
+    {
+      "url": "https://www.pexels.com/search/pancakes/",
+      "before_query": 501,
+      "photos": 24,
+      "checked_at": "2026-10-21T11:47:45.336398+00:00"
+    },
+    {
+      "url": "https://www.pexels.com/search/pancakes/",
+      "before_query": 601,
+      "photos": 24,
+      "checked_at": "2026-10-21T11:51:46.913055+00:00"
+    },
+    {
+      "url": "https://www.pexels.com/search/pancakes/",
+      "before_query": 701,
+      "photos": 24,
+      "checked_at": "2026-10-21T11:55:31.721295+00:00"
+    },
+    {
+      "url": "https://www.pexels.com/search/pancakes/",
+      "before_query": 801,
+      "photos": 24,
+      "checked_at": "2026-10-21T11:59:11.912263+00:00"
+    },
+    {
+      "url": "https://www.pexels.com/search/pancakes/",
+      "before_query": 901,
+      "photos": 24,
+      "checked_at": "2026-10-21T12:02:51.309138+00:00"
+    },
+    {
+      "url": "https://www.pexels.com/search/pancakes/",
+      "before_query": 1001,
+      "photos": 24,
+      "checked_at": "2026-10-21T12:06:41.436116+00:00"
+    },
+    {
+      "url": "https://www.pexels.com/search/pancakes/",
+      "before_query": 1101,
+      "photos": 24,
+      "checked_at": "2026-10-21T12:10:19.042431+00:00"
+    }
+  ],
+  "stocksnap-controls": [
+    {
+      "url": "https://stocksnap.io/search/pancakes",
+      "before_query": 1,
+      "photos": 10,
+      "checked_at": "2026-10-21T11:29:14.147567+00:00"
+    },
+    {
+      "url": "https://stocksnap.io/search/pancakes",
+      "before_query": 101,
+      "photos": 10,
+      "checked_at": "2026-10-21T11:31:34.920243+00:00"
+    },
+    {
+      "url": "https://stocksnap.io/search/pancakes",
+      "before_query": 201,
+      "photos": 10,
+      "checked_at": "2026-10-21T11:33:53.229550+00:00"
+    },
+    {
+      "url": "https://stocksnap.io/search/pancakes",
+      "before_query": 301,
+      "photos": 10,
+      "checked_at": "2026-10-21T11:36:12.811490+00:00"
+    },
+    {
+      "url": "https://stocksnap.io/search/pancakes",
+      "before_query": 401,
+      "photos": 10,
+      "checked_at": "2026-10-21T11:38:31.272571+00:00"
+    }
+  ],
+  "pixabay-controls": [
+    {
+      "url": "https://pixabay.com/photos/search/pancakes/",
+      "before_query": 1,
+      "photos": 100,
+      "checked_at": "2026-10-21T11:29:14.061588+00:00"
+    },
+    {
+      "url": "https://pixabay.com/photos/search/pancakes/",
+      "before_query": 101,
+      "photos": 100,
+      "checked_at": "2026-10-21T11:32:26.129201+00:00"
+    },
+    {
+      "url": "https://pixabay.com/photos/search/pancakes/",
+      "before_query": 201,
+      "photos": 100,
+      "checked_at": "2026-10-21T11:35:44.252903+00:00"
+    },
+    {
+      "url": "https://pixabay.com/photos/search/pancakes/",
+      "before_query": 301,
+      "photos": 100,
+      "checked_at": "2026-10-21T11:39:06.121283+00:00"
+    },
+    {
+      "url": "https://pixabay.com/photos/search/pancakes/",
+      "before_query": 401,
+      "photos": 100,
+      "checked_at": "2026-10-21T11:42:20.980956+00:00"
+    },
+    {
+      "url": "https://pixabay.com/photos/search/pancakes/",
+      "before_query": 501,
+      "photos": 100,
+      "checked_at": "2026-10-21T11:45:35.718901+00:00"
+    },
+    {
+      "url": "https://pixabay.com/photos/search/pancakes/",
+      "before_query": 601,
+      "photos": 100,
+      "checked_at": "2026-10-21T11:48:58.162798+00:00"
+    },
+    {
+      "url": "https://pixabay.com/photos/search/pancakes/",
+      "before_query": 701,
+      "photos": 100,
+      "checked_at": "2026-10-21T11:52:11.503651+00:00"
+    },
+    {
+      "url": "https://pixabay.com/photos/search/pancakes/",
+      "before_query": 801,
+      "photos": 100,
+      "checked_at": "2026-10-21T11:55:31.630580+00:00"
+    },
+    {
+      "url": "https://pixabay.com/photos/search/pancakes/",
+      "before_query": 901,
+      "photos": 100,
+      "checked_at": "2026-10-21T11:58:53.825719+00:00"
+    },
+    {
+      "url": "https://pixabay.com/photos/search/pancakes/",
+      "before_query": 1001,
+      "photos": 100,
+      "checked_at": "2026-10-21T12:02:09.114185+00:00"
+    },
+    {
+      "url": "https://pixabay.com/photos/search/pancakes/",
+      "before_query": 1101,
+      "photos": 100,
+      "checked_at": "2026-10-21T12:05:21.851209+00:00"
+    }
+  ],
+  "pxhere-controls": [
+    {
+      "url": "https://pxhere.com/en/photos?q=pancakes",
+      "before_query": 1,
+      "photos": 24,
+      "checked_at": "2026-10-21T11:29:14.070774+00:00"
+    },
+    {
+      "url": "https://pxhere.com/en/photos?q=pancakes",
+      "before_query": 101,
+      "photos": 24,
+      "checked_at": "2026-10-21T11:31:51.761741+00:00"
+    },
+    {
+      "url": "https://pxhere.com/en/photos?q=pancakes",
+      "before_query": 201,
+      "photos": 24,
+      "checked_at": "2026-10-21T11:36:24.540031+00:00"
+    },
+    {
+      "url": "https://pxhere.com/en/photos?q=pancakes",
+      "before_query": 301,
+      "photos": 24,
+      "checked_at": "2026-10-21T11:39:25.052880+00:00"
+    },
+    {
+      "url": "https://pxhere.com/en/photos?q=pancakes",
+      "before_query": 401,
+      "photos": 24,
+      "checked_at": "2026-10-21T11:41:42.657780+00:00"
+    },
+    {
+      "url": "https://pxhere.com/en/photos?q=pancakes",
+      "before_query": 501,
+      "photos": 24,
+      "checked_at": "2026-10-21T11:47:07.502251+00:00"
+    },
+    {
+      "url": "https://pxhere.com/en/photos?q=pancakes",
+      "before_query": 601,
+      "photos": 24,
+      "checked_at": "2026-10-21T11:49:44.954432+00:00"
+    },
+    {
+      "url": "https://pxhere.com/en/photos?q=pancakes",
+      "before_query": 701,
+      "photos": 24,
+      "checked_at": "2026-10-21T11:52:26.460511+00:00"
+    },
+    {
+      "url": "https://pxhere.com/en/photos?q=pancakes",
+      "before_query": 801,
+      "photos": 24,
+      "checked_at": "2026-10-21T11:55:12.784159+00:00"
+    },
+    {
+      "url": "https://pxhere.com/en/photos?q=pancakes",
+      "before_query": 901,
+      "photos": 24,
+      "checked_at": "2026-10-21T11:57:54.269334+00:00"
+    },
+    {
+      "url": "https://pxhere.com/en/photos?q=pancakes",
+      "before_query": 1001,
+      "photos": 24,
+      "checked_at": "2026-10-21T12:01:37.653445+00:00"
+    },
+    {
+      "url": "https://pxhere.com/en/photos?q=pancakes",
+      "before_query": 1101,
+      "photos": 24,
+      "checked_at": "2026-10-21T12:04:55.489055+00:00"
+    }
+  ]
+}
