@@ -374,9 +374,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/genoise/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/genoise.jpg</image:loc>
+      <image:title>Genoise</image:title>
+      <image:caption>Genoise</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vacherin-aux-fraises/</loc>
@@ -4414,9 +4419,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fiskgratang/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/fiskgratang.jpg</image:loc>
+      <image:title>Fiskgratang</image:title>
+      <image:caption>Fiskgratang</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/stegt-flaesk/</loc>
@@ -4625,9 +4635,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/finnish-pancake-pannukakku/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/finnish-pancake-pannukakku.jpg</image:loc>
+      <image:title>Finnish Pancake Pannukakku</image:title>
+      <image:caption>Finnish Pancake Pannukakku</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/irish-whiskey-cake/</loc>

@@ -1100,9 +1100,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/banoffee-cupcakes/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/banoffee-cupcakes.jpg</image:loc>
+      <image:title>Banoffee Cupcakes</image:title>
+      <image:caption>Banoffee Cupcakes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sticky-toffee-cupcakes/</loc>
@@ -2089,9 +2094,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fish-goujons/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/fish-goujons.jpg</image:loc>
+      <image:title>Fish Goujons</image:title>
+      <image:caption>Fish Goujons</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-goujons/</loc>

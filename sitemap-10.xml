@@ -2835,9 +2835,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cuban-flan/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cuban-flan.jpg</image:loc>
+      <image:title>Cuban Flan</image:title>
+      <image:caption>Cuban Flan</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/puerto-rican-pasteles/</loc>
@@ -3491,9 +3496,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/barbecue-rub/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/barbecue-rub.jpg</image:loc>
+      <image:title>Barbecue Rub</image:title>
+      <image:caption>Barbecue Rub</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/comeback-sauce/</loc>
@@ -3734,9 +3744,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cherry-cobbler/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cherry-cobbler.jpg</image:loc>
+      <image:title>Cherry Cobbler</image:title>
+      <image:caption>Cherry Cobbler</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/wisconsin-butter-burgers/</loc>

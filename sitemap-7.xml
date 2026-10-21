@@ -3239,9 +3239,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-sausages/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-sausages.jpg</image:loc>
+      <image:title>Air Fryer Sausages</image:title>
+      <image:caption>Air Fryer Sausages</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-roast-chicken/</loc>
@@ -4535,9 +4540,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chickpea-patties/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chickpea-patties.jpg</image:loc>
+      <image:title>Chickpea Patties</image:title>
+      <image:caption>Chickpea Patties</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lentil-dal/</loc>

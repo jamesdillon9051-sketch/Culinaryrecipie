@@ -261,9 +261,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/baked-penne/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/baked-penne.jpg</image:loc>
+      <image:title>Baked Penne</image:title>
+      <image:caption>Baked Penne</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/baked-pork-chops/</loc>
@@ -517,9 +522,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fried-oysters/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/fried-oysters.jpg</image:loc>
+      <image:title>Fried Oysters</image:title>
+      <image:caption>Fried Oysters</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gammon-and-pineapple/</loc>
@@ -573,9 +583,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/grilled-sea-bass/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/grilled-sea-bass.jpg</image:loc>
+      <image:title>Grilled Sea Bass</image:title>
+      <image:caption>Grilled Sea Bass</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/guinness-beef-stew/</loc>
@@ -1285,9 +1300,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-and-ham-pie/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-and-ham-pie.jpg</image:loc>
+      <image:title>Chicken and Ham Pie</image:title>
+      <image:caption>Chicken and Ham Pie</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/eggplant-rollatini/</loc>
@@ -1861,9 +1881,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/funfetti-cupcakes/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/funfetti-cupcakes.jpg</image:loc>
+      <image:title>Funfetti Cupcakes</image:title>
+      <image:caption>Funfetti Cupcakes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gluten-free-brownies/</loc>
@@ -3168,9 +3193,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cookie-butter-ice-cream/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cookie-butter-ice-cream.jpg</image:loc>
+      <image:title>Cookie Butter Ice Cream</image:title>
+      <image:caption>Cookie Butter Ice Cream</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/3-ingredient-biscuits/</loc>
