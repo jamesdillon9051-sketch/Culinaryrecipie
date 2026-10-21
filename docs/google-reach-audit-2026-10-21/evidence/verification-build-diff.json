@@ -1,0 +1,26 @@
+{
+  "base": "c8d95127862832f6f58e3717934dba1631483cad",
+  "changedGeneratedRecipes": 5515,
+  "removedNumberedNames": 31893,
+  "unexpectedTrackedDifferences": [],
+  "onlyStepNamesChanged": true,
+  "unchangedSitemapFiles": true,
+  "unchangedDateRegister": true,
+  "liveXMLFilesMatch": 14,
+  "liveSitemapEntries": 5871,
+  "liveSitemapUnique": 5871,
+  "liveLastmodDistribution": {
+    "2026-10-20": 5607,
+    "2026-10-21": 8,
+    "2026-09-05": 4,
+    "2026-10-16": 72,
+    "2026-10-18": 13,
+    "2026-10-15": 37,
+    "2026-10-13": 86,
+    "2026-09-30": 1,
+    "2026-09-29": 7,
+    "2026-10-08": 1,
+    "2026-10-10": 31,
+    "2026-10-17": 4
+  }
+}

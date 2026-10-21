@@ -1,0 +1,97 @@
+WEEKLY DELIGHT — FURTHER GOOGLE REACH AUDIT
+21 October 2026 | Codex to owner and Claude
+
+RESULT
+The current generated catalogue has no checked crawling/indexability defect, and all 63 intended pages in the fresh live sample match main. There are important remaining image and content opportunities. A small shared Recipe markup correction is prepared and verified on a separate branch. It is not merged or deployed. Technical improvements cannot guarantee that Google indexes a page or sends traffic.
+
+EXACT REPOSITORY STATE
+Repository: jamesdillon9051-sketch/Culinaryrecipie
+Audited main/base: c8d95127862832f6f58e3717934dba1631483cad
+Claude PR #20 is merged, including 134d8177a3ca93aeb533dd07535f0e4772c86afe.
+New review branch: audit/google-reach-2026-10-21
+New implementation: 7937897dd5d0a28154a19e37dd67079796973fc4
+Claude retains ownership of recipe content and regeneration of shared output.
+The older stronger validator/timing/neutral-ordering batch remains separate and unmerged.
+
+WHAT WAS CHECKED
+All 5,515 source recipes and 5,515 detail records, in 62 catalogue and 388 detail files.
+All 5,871 intended URLs: 5,515 recipes; 10 main categories; 193 category/cuisine combinations; 92 cuisines; 51 ingredient guides; 10 other pages.
+All generated HTML: 5,878 including ad frames; 5,875 non-ad pages, with four helper/private/noindex pages outside the intended inventory.
+All 12 child sitemaps, covering exactly 5,871 unique intended URLs.
+Ordinary HTML navigation: all intended pages reachable within two homepage links; zero broken internal links or orphans; unique titles and H1 identities.
+Fresh restrained live checks at 08:21–08:24 UTC: 277 targets, including 63 intended pages, all 14 XML files, robots.txt, host/path redirects and 181 declared image files. An additional 39 public/private hosting HEAD checks pass.
+This is full static coverage and sampled production coverage, not a fresh live request to every catalogue URL.
+
+HISTORICAL GOOGLE DATA IS INCOMPLETE
+The export contains 1,000 historical examples: 920 recipes, 41 categories/combinations, 19 cuisines, 17 ingredients and 3 other pages. They were labelled Discovered — currently not indexed, with Pending validation. The 1970 last-crawl value gives no useful crawl date.
+The other 1,982 identities from the historical 2,982 total were not supplied. There are no current confirmed-indexed comparison URLs or current search performance/query data. Do not describe the whole catalogue as unindexed or the old approximately 1,750 indexed count as current.
+
+PRIORITY 1 — MISSING DISH IMAGES
+1,237 recipes (22.4%) lack Recipe.image. Among the historical 920 recipe examples, 181 lack it. There are 4,177 photographed recipes and 101 legacy illustrated recipes; illustrations are counted separately, not automatically certified as Google-eligible.
+Google currently requires image and name for a Recipe rich result. A missing image is therefore a recipe rich-result eligibility gap, not proof that ordinary indexing is blocked.
+Use missing-recipe-images.csv for every exact URL and detail source file. Prioritize genuine matching photographs, appropriate licences and real cooking photos. Do not substitute logos, unrelated images, fake ratings or invented videos. Bulk photo sourcing was not performed in this audit.
+
+PRIORITY 2 — SHARED STEP-NAME CORRECTION, PREPARED
+All 31,893 structured instructions on the 5,515 recipe pages currently use non-descriptive names such as Step 1. Google explicitly discourages these labels; name is optional.
+The source fix omits the optional name and preserves the entire instruction text, position and existing step fragment URL. This is a documented markup improvement, not proof of an indexing blocker.
+Changed technical files:
+  src/templates/recipe-page.js
+  tools/recipe-step-schema-test.js (new)
+  tools/check.js (runs the new regression)
+The regression fails on base and passes after the correction across all 31,893 instructions. An isolated build/full check succeeds. The only changed generated files are the 5,515 recipe pages, and the only byte changes remove generic step names. Sitemaps and the content-date register stay identical. Ads, URLs, layout, ingredients, timing, reviews and other schema stay unchanged.
+Shared generated files are not committed in this review; Claude must regenerate them before integration. The source correction is not live yet.
+
+PRIORITY 3 — LASAGNA PHOTO MISMATCH
+URL: https://weeklydelight.com/recipes/lasagna-bolognese/
+Metadata: src/data/images.json, key lasagna-bolognese.hero.
+The source explicitly identifies Aubergine Lasagne with salad - Jollof Cafe; the crop was inspected at full size. The recipe specifies beef/pork Bolognese.
+Recipe source: src/data/details/italian.js, lasagna-bolognese, record near line 97.
+The mismatched photo is also declared as Recipe.image. Replace it only after a matching image, licence and full-size crop are verified. Do not use a placeholder to clear the warning.
+About-page prose in src/templates/pages.js near line 947 claims every photo is compared before publication; qualify that claim to actual evidence. No image or About prose was changed in this audit.
+Six pairs also share identical hero-photo bytes. They are manual review leads, not proof of duplicate recipes or a ranking penalty.
+
+PRIORITY 4 — REAL RECIPE REVIEW AND USEFUL COLLECTIONS
+All 26 provisional entries in src/data/testing-notes.json remain not cooked. Automated checks cannot establish taste, practical success or food safety. Prioritize actual cooking, corrected quantities/steps, clear timing and documented expertise. Changing headings alone provides no new cooking evidence.
+Claude's current flour and trenette fixes are confirmed in source and byte-matched live pages. Four old findings are superseded: three raw-flour specification records and the old edible-cookie-dough 20-minute/cooling claim. See queue-addendum.json; Claude should update its original ledger deliberately. A particular flour manufacturer's ready-to-eat label was not independently verified.
+The remaining 232 historical queue records are not newly confirmed defects or newly reviewed dispositions. Keep the stronger unmerged batch separate until reconciled. Specialist food-handling questions still require evidence.
+There are 70 collections with fewer than six recipes (52 category combinations, 18 cuisines), and 15 existing accepted alias/intent pairs in tools/duplicates-audit.js. Review their usefulness and actual query overlap. Small size or similar dish names alone does not justify bulk deletion, noindex, redirects or canonical consolidation.
+
+PRIORITY 5 — MOBILE PERFORMANCE AND MEASUREMENT
+The recipes directory creates 13,746 DOM elements at both tested widths. HTML is 457,983 bytes, 86,536 with local gzip. Its complete HTML A–Z links currently ensure discoverability. Investigate crawlable pagination if real-user measurements justify it; do not remove links before equivalent paths exist. No performance redesign or advertising change was made.
+The PageSpeed API returned its own quota 429. Chromium live navigation could not validate this environment's HTTPS certificates; verification was not bypassed. Trusted Python HTTPS/source checks succeeded. No current Core Web Vitals score, complete live DOM audit or Google Rich Results Test result is claimed.
+
+WHAT IS NOW VERIFIED
+Baked peaches' live source has one complete Recipe JSON-LD and no Recipe microdata/RDFa duplicate. The duplicate is absent throughout the generated catalogue. A third-party injected live DOM duplicate could not be fully rechecked in this browser environment.
+All 63 intended live pages and all sitemap files return 200 and match main. All 178 newly added WebP photos and three additional declared JPG probes return 200, including Leche Flan. The earlier Leche 404 rollout issue is resolved in this sample.
+No blocking website 403, 429, challenge or 5xx was observed in the sampled targets. Four 404s were expected probes: two nonexistent pages, an unconfigured image-credits path, and an unconfigured trenette JPG. Those last two are not declared catalogue links/assets; real credits are at /images-attribution.md.
+The established hostname is HTTPS non-www. HTTP/www homepage and deep-route redirects preserve paths, without loops. HTTP www takes two permanent redirects, a minor hosting improvement opportunity.
+Base/fixed full checks pass; fixed isolated build passes. Browser coverage: 17 local template cases before/after, including all six layouts; 24 phone feature checks; 18 additional mobile/desktop cases without unexpected overflow, missing loaded images or page JS errors. Local test harnesses block third parties only for testing; live monetization remains unchanged.
+
+SEARCH CONSOLE OWNERSHIP
+At 08:34:54 UTC Google public DNS returned a Google verification TXT entry different from the attached handoff token. This does not prove the current property/account is verified or unverified. Confirm the exact value shown by the intended Search Console property; preserve other valid DNS records, confirm propagation and press Verify if still pending.
+Verification grants report access. It is not required for public crawling and cannot force indexing. No DNS or hosting setting was changed.
+Obtain current indexing examples and page/query performance exports. Compare recent and previous 28-day impressions, clicks, CTR and position, then prioritize accurate pages with relevant actual demand. No traffic increase or keyword volume is invented here.
+
+EXACT ACTION FOR CLAUDE
+1. Review implementation 7937897dd5d0a28154a19e37dd67079796973fc4 on audit/google-reach-2026-10-21, based on c8d95127862832f6f58e3717934dba1631483cad.
+2. Regenerate shared output once on the review branch. Expect only 5,515 recipe HTML changes removing 31,893 generic names. See evidence/verification-build-diff.json. Preserve the added tools/check.js test entry when resolving validator conflicts.
+3. Run npm run build && npm run check, independent catalogue checks, browser checks and the ad comparison against c8d95127862832f6f58e3717934dba1631483cad.
+4. Reconcile the four queue records, review the photo mismatch and About claim, and claim source-file batches before any recipe-content correction. Do not silently close the rest of the old queue.
+5. Obtain the owner's approval before merging into main; a merge may auto-deploy. No new merge/deployment was done here.
+6. After approved deployment, test live source AND rendered DOM, step text/targets, image status, canonical/robots, sitemaps/dates and mobile features. Use Google's Rich Results Test and record actual results separately from local validation.
+7. Inspect representative recipes, categories, cuisines and ingredient pages in Search Console. Separate live-test accessibility from indexing status and last crawl. Monitor reporting updates, recrawls, canonicals, rich-result reports and page/query performance. Do not repeatedly delete/resubmit sitemaps or promise indexing.
+
+FILES TO READ
+Full report: docs/google-reach-audit-2026-10-21/REPORT.md
+All 5,871 URL results: url-audit.csv
+277 live probes: live-probes.csv
+1,237 image gaps: missing-recipe-images.csv
+70 collection candidates: small-collections.csv
+Four superseded findings: queue-addendum.json
+Logs, live source samples, screenshots and counts: evidence/
+Shared coordination: docs/HANDOFF.md, latest Codex section.
+
+GOOGLE REFERENCES CONSULTED 21 OCTOBER 2026
+https://developers.google.com/search/docs/appearance/structured-data/recipe
+https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+https://developers.google.com/search/docs/appearance/core-web-vitals

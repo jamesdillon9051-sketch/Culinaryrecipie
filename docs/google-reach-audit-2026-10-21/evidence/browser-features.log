@@ -1,0 +1,26 @@
+  ✓ the directory counts all 5515 recipes
+  ✓ High-Protein: the filter lists the 671 recipes that qualify as written
+  ✓ No Added Sugar: the filter lists the 2912 recipes that qualify as written
+  ✓ Vegetarian: the filter lists the 2775 recipes that qualify as written
+  ✓ Vegetarian: ticking the swaps box adds the 119 that need a swap
+  ✓ Vegan: the filter lists the 720 recipes that qualify as written
+  ✓ Vegan: ticking the swaps box adds the 46 that need a swap
+  ✓ Dairy-Free: the filter lists the 1910 recipes that qualify as written
+  ✓ Dairy-Free: ticking the swaps box adds the 47 that need a swap
+  ✓ Gluten-Free: the filter lists the 1812 recipes that qualify as written
+  ✓ Gluten-Free: ticking the swaps box adds the 78 that need a swap
+  ✓ Low-Carb: the filter lists the 1011 recipes that qualify as written
+  ✓ Keto: the filter lists the 625 recipes that qualify as written
+  ✓ under 30 minutes, start to finish: 1480 recipes (those with an untimed wait left out)
+  ✓ sorting by quickest orders the cards by time
+  ✓ "show more" pages through to every recipe (91 presses)
+  ✓ searching "Rosemary Focaccia" finds it near the top
+  ✓ the mobile menu opens, says so, and closes with Escape
+  ✓ raising the servings rescales the quantities
+  ✓ the unit switch changes the units
+  ✓ saving a recipe stores it in this browser
+  ✓ a private note is kept in this browser only
+  ✓ print hides the site header
+  ✓ the first Tab reaches the skip link
+
+  all 24 site checks passed

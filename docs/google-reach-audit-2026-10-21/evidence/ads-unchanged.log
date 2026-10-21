@@ -1,0 +1,18 @@
+  ✗ src/templates/ads.js is new
+  ✗ src/data/ads.js is new
+  ✗ src/data/consent.js is new
+  ✗ src/data/analytics.js is new
+  ✗ src/assets/js/ad-loader.js is new
+  ✗ src/assets/js/consent.js is new
+  ✗ src/assets/js/analytics.js is new
+  ✗ ads.txt is new
+  · index.html: not in both trees, skipped
+  · recipes/index.html: not in both trees, skipped
+  · recipes/spaghetti-carbonara/index.html: not in both trees, skipped
+  · recipes/macarons/index.html: not in both trees, skipped
+  · recipes/lasagna-bolognese/index.html: not in both trees, skipped
+  · categories/dinner/index.html: not in both trees, skipped
+  · contact/index.html: not in both trees, skipped
+  · about/index.html: not in both trees, skipped
+
+advertising differs from c8d95127862832f6f58e3717934dba1631483cad in 8 place(s)
