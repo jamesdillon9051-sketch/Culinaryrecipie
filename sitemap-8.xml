@@ -324,9 +324,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vegetable-barley-soup/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/vegetable-barley-soup.jpg</image:loc>
+      <image:title>Vegetable Barley Soup</image:title>
+      <image:caption>Vegetable Barley Soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pizza-quesadilla/</loc>
@@ -782,9 +787,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/trout-almondine/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/trout-almondine.jpg</image:loc>
+      <image:title>Trout Almondine</image:title>
+      <image:caption>Trout Almondine</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/prawn-curry/</loc>
@@ -2292,9 +2302,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tuscan-bean-soup/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tuscan-bean-soup.jpg</image:loc>
+      <image:title>Tuscan Bean Soup</image:title>
+      <image:caption>Tuscan Bean Soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ham-and-cheese-quiche/</loc>
@@ -2796,9 +2811,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/white-sangria/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/white-sangria.jpg</image:loc>
+      <image:title>White Sangria</image:title>
+      <image:caption>White Sangria</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chocolate-milk/</loc>
@@ -3799,9 +3819,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/smoked-salmon-blinis/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/smoked-salmon-blinis.jpg</image:loc>
+      <image:title>Smoked Salmon Blinis</image:title>
+      <image:caption>Smoked Salmon Blinis</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fried-wontons/</loc>
@@ -3917,9 +3942,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tortellini-salad/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tortellini-salad.jpg</image:loc>
+      <image:title>Tortellini Salad</image:title>
+      <image:caption>Tortellini Salad</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/warm-lentil-salad/</loc>
@@ -3935,15 +3965,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vietnamese-noodle-salad/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/vietnamese-noodle-salad.jpg</image:loc>
+      <image:title>Vietnamese Noodle Salad</image:title>
+      <image:caption>Vietnamese Noodle Salad</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/summer-rolls-with-prawns/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/summer-rolls-with-prawns.jpg</image:loc>
+      <image:title>Summer Rolls with Prawns</image:title>
+      <image:caption>Summer Rolls with Prawns</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/crab-salad/</loc>
@@ -4098,9 +4138,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/stuffed-butternut-squash/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/stuffed-butternut-squash.jpg</image:loc>
+      <image:title>Stuffed Butternut Squash</image:title>
+      <image:caption>Stuffed Butternut Squash</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vegetable-lasagne/</loc>

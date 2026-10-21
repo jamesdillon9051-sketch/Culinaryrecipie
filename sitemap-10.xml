@@ -258,9 +258,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tender-coconut-pudding/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tender-coconut-pudding.jpg</image:loc>
+      <image:title>Tender Coconut Pudding</image:title>
+      <image:caption>Tender Coconut Pudding</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-chicken-tikka-masala/</loc>
@@ -655,9 +660,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sweet-and-sour-prawns/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sweet-and-sour-prawns.jpg</image:loc>
+      <image:title>Sweet and Sour Prawns</image:title>
+      <image:caption>Sweet and Sour Prawns</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/honey-chilli-chicken/</loc>
@@ -755,9 +765,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/xinjiang-lamb-skewers/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/xinjiang-lamb-skewers.jpg</image:loc>
+      <image:title>Xinjiang Lamb Skewers</image:title>
+      <image:caption>Xinjiang Lamb Skewers</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/roujiamo/</loc>
@@ -811,9 +826,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vietnamese-vermicelli-bowl/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/vietnamese-vermicelli-bowl.jpg</image:loc>
+      <image:title>Vietnamese Vermicelli Bowl</image:title>
+      <image:caption>Vietnamese Vermicelli Bowl</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/com-ga/</loc>
@@ -1316,9 +1336,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/wattalapam/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/wattalapam.jpg</image:loc>
+      <image:title>Wattalapam</image:title>
+      <image:caption>Wattalapam</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-choila/</loc>
@@ -1660,9 +1685,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/spanish-chicken-and-rice/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/spanish-chicken-and-rice.jpg</image:loc>
+      <image:title>Spanish Chicken and Rice</image:title>
+      <image:caption>Spanish Chicken and Rice</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/taramasalata/</loc>
@@ -3436,9 +3466,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tres-leches-cupcakes/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tres-leches-cupcakes.jpg</image:loc>
+      <image:title>Tres Leches Cupcakes</image:title>
+      <image:caption>Tres Leches Cupcakes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pudim-de-leite/</loc>
@@ -3627,9 +3662,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tex-mex-migas/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tex-mex-migas.jpg</image:loc>
+      <image:title>Tex-Mex Migas</image:title>
+      <image:caption>Tex-Mex Migas</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/texas-beef-ribs/</loc>
@@ -3954,9 +3994,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/witch-finger-cookies/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/witch-finger-cookies.jpg</image:loc>
+      <image:title>Witch Finger Cookies</image:title>
+      <image:caption>Witch Finger Cookies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/popcorn-balls/</loc>
@@ -4183,9 +4228,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sourdough-pizza-crust/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sourdough-pizza-crust.jpg</image:loc>
+      <image:title>Sourdough Pizza Crust</image:title>
+      <image:caption>Sourdough Pizza Crust</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sourdough-cinnamon-rolls/</loc>

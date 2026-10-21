@@ -256,9 +256,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/steak-fried-rice/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/steak-fried-rice.jpg</image:loc>
+      <image:title>Steak Fried Rice</image:title>
+      <image:caption>Steak Fried Rice</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/steak-tacos/</loc>
@@ -1790,9 +1795,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/stuffing-balls/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/stuffing-balls.jpg</image:loc>
+      <image:title>Stuffing Balls</image:title>
+      <image:caption>Stuffing Balls</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/buttered-carrots/</loc>
@@ -2123,9 +2133,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/smoked-salmon-pate/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/smoked-salmon-pate.jpg</image:loc>
+      <image:title>Smoked Salmon Pate</image:title>
+      <image:caption>Smoked Salmon Pate</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fish-goujons/</loc>
@@ -2702,9 +2717,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sweet-potato-hash/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sweet-potato-hash.jpg</image:loc>
+      <image:title>Sweet Potato Hash</image:title>
+      <image:caption>Sweet Potato Hash</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/griessbrei/</loc>

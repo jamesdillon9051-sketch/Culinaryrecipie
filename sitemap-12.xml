@@ -720,9 +720,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/torta-al-limone/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/torta-al-limone.jpg</image:loc>
+      <image:title>Torta al Limone</image:title>
+      <image:caption>Torta al Limone</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/torta-di-ricotta/</loc>
@@ -748,9 +753,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tortino-al-cioccolato/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tortino-al-cioccolato.jpg</image:loc>
+      <image:title>Tortino al Cioccolato</image:title>
+      <image:caption>Tortino al Cioccolato</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bonet/</loc>
@@ -798,9 +808,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/torrone/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/torrone.jpg</image:loc>
+      <image:title>Torrone</image:title>
+      <image:caption>Torrone</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/brutti-ma-buoni/</loc>
@@ -916,9 +931,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/spaghetti-alla-bottarga/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/spaghetti-alla-bottarga.jpg</image:loc>
+      <image:title>Spaghetti alla Bottarga</image:title>
+      <image:caption>Spaghetti alla Bottarga</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/spaghetti-con-le-cozze/</loc>
@@ -1007,9 +1027,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/zuppa-di-ceci/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/zuppa-di-ceci.jpg</image:loc>
+      <image:title>Zuppa di Ceci</image:title>
+      <image:caption>Zuppa di Ceci</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/costoletta-alla-valdostana/</loc>
@@ -1543,9 +1568,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/torta-di-carote/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/torta-di-carote.jpg</image:loc>
+      <image:title>Torta di Carote</image:title>
+      <image:caption>Torta di Carote</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/torta-al-mascarpone/</loc>
@@ -1561,9 +1591,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tiramisu-alle-fragole/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tiramisu-alle-fragole.jpg</image:loc>
+      <image:title>Tiramisu alle Fragole</image:title>
+      <image:caption>Tiramisu alle Fragole</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/panna-cotta-ai-frutti-di-bosco/</loc>
@@ -4329,9 +4364,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/zlikrofi/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/zlikrofi.jpg</image:loc>
+      <image:title>Zlikrofi</image:title>
+      <image:caption>Zlikrofi</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/janssons-frestelse/</loc>

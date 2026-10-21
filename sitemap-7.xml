@@ -3593,9 +3593,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-sausage-casserole/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/slow-cooker-sausage-casserole.jpg</image:loc>
+      <image:title>Slow Cooker Sausage Casserole</image:title>
+      <image:caption>Slow Cooker Sausage Casserole</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-minestrone/</loc>
@@ -4533,9 +4538,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sweet-potato-brownies/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sweet-potato-brownies.jpg</image:loc>
+      <image:title>Sweet Potato Brownies</image:title>
+      <image:caption>Sweet Potato Brownies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lentil-burgers/</loc>

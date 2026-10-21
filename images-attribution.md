@@ -1,8 +1,8 @@
 # Image Attribution
 
 Every photograph on Weekly Delight is used under a licence that allows it here.
-Of 4864 photographs, **1585** are CC0 or public domain and carry no
-conditions at all, **3032** are **Creative Commons Attribution (CC BY)** — free
+Of 4909 photographs, **1586** are CC0 or public domain and carry no
+conditions at all, **3076** are **Creative Commons Attribution (CC BY)** — free
 to use, adapt and use commercially, on the single condition that the photographer
 is credited — and **247** use the stock-library licences named
 in the licence table below, which permit commercial recipe-page use and
@@ -181,26 +181,26 @@ wrong dish were deleted rather than kept.
 | | |
 |---|---|
 | Recipes | 5515 |
-| Hero photographs | 4381 |
+| Hero photographs | 4426 |
 | Secondary "process" photographs | 483 |
 | Generated illustrations | 101 |
-| Total image files | 9930 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 1033 |
+| Total image files | 10020 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 988 |
 
 ### Licences used
 
 | Licence | Images | Terms |
 |---|---:|---|
-| CC BY 2.0 | 1243 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY 2.0 | 1267 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC0 | 784 | No rights reserved — no attribution legally required |
-| CC BY-SA 4.0 | 704 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| CC BY-SA 2.0 | 506 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| CC0 1.0 | 455 | No rights reserved — no attribution legally required |
+| CC BY-SA 4.0 | 705 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY-SA 2.0 | 524 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC0 1.0 | 456 | No rights reserved — no attribution legally required |
 | CC BY-SA 3.0 | 330 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public domain | 243 | No rights reserved — no attribution legally required |
 | Pixabay Content License | 220 | The stock library's own licence: free to use, adapt and use commercially; no credit required (given anyway) |
 | Public Domain Mark 1.0 | 101 | No rights reserved — no attribution legally required |
-| CC BY 4.0 | 97 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY 4.0 | 98 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 3.0 | 84 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY-SA 2.5 | 29 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Pexels License | 26 | The stock library's own licence: free to use, adapt and use commercially; no credit required (given anyway) |
@@ -296,7 +296,6 @@ illustrations are not commissioned:
 - Kūmara Fritters (`kumara-fritters`)
 - Cajun Seasoning (`cajun-seasoning`)
 - Ranch Seasoning (`ranch-seasoning`)
-- Strawberry Pretzel Salad (`strawberry-pretzel-salad`)
 - White Christmas (`white-christmas`)
 - Sopapilla Cheesecake (`sopapilla-cheesecake`)
 - Caribou (`caribou`)
@@ -458,7 +457,6 @@ illustrations are not commissioned:
 - Slow Cooker Mac and Cheese (`slow-cooker-mac-and-cheese`)
 - Slow Cooker Meatballs (`slow-cooker-meatballs`)
 - Slow Cooker Apple Crumble (`slow-cooker-apple-crumble`)
-- Slow Cooker Sausage Casserole (`slow-cooker-sausage-casserole`)
 - Slow Cooker Minestrone (`slow-cooker-minestrone`)
 - Slow Cooker Bean Soup (`slow-cooker-bean-soup`)
 - Sheet Pan Chicken and Potatoes (`sheet-pan-chicken-and-potatoes`)
@@ -490,13 +488,11 @@ illustrations are not commissioned:
 - Freezer Burritos (`freezer-burritos`)
 - Freezer Meatballs (`freezer-meatballs`)
 - Freezer Soup (`freezer-soup`)
-- Sweet Potato Brownies (`sweet-potato-brownies`)
 - Pumpkin Pasta Bake (`pumpkin-pasta-bake`)
 - Egg and Cress Sandwich (`egg-and-cress-sandwich`)
 - Bounty Slice (`bounty-slice`)
 - Cornflake Cookies (`cornflake-cookies`)
 - Sweetcorn Chowder (`sweetcorn-chowder`)
-- Vegetable Barley Soup (`vegetable-barley-soup`)
 - Pizza Quesadilla (`pizza-quesadilla`)
 - Dripping Toast (`dripping-toast`)
 - Marmite Pasta (`marmite-pasta`)
@@ -510,7 +506,6 @@ illustrations are not commissioned:
 - Tuscan Chicken (`tuscan-chicken`)
 - Gammon Steak (`gammon-steak`)
 - Haddock Chowder (`haddock-chowder`)
-- Trout Almondine (`trout-almondine`)
 - Honey Sriracha Salmon Bites (`honey-sriracha-salmon-bites`)
 - Cheesy Ranch Chicken (`cheesy-ranch-chicken`)
 - Chicken Bacon Avocado Salad (`chicken-bacon-avocado-salad`)
@@ -560,7 +555,6 @@ illustrations are not commissioned:
 - Peanut Butter Smoothie (`peanut-butter-smoothie`)
 - Crispy Smashed Potatoes (`crispy-smashed-potatoes`)
 - Ratatouille Bake (`ratatouille-bake`)
-- Tuscan Bean Soup (`tuscan-bean-soup`)
 - Apple Pie Overnight Oats (`apple-pie-overnight-oats`)
 - Marmite Cheese Scrolls (`marmite-cheese-scrolls`)
 - Apricot Slice (`apricot-slice`)
@@ -578,7 +572,6 @@ illustrations are not commissioned:
 - Pumpkin Spice Smoothie (`pumpkin-spice-smoothie`)
 - Rhubarb Cordial (`rhubarb-cordial`)
 - Salted Caramel Hot Chocolate (`salted-caramel-hot-chocolate`)
-- White Sangria (`white-sangria`)
 - Strawberry Syrup (`strawberry-syrup`)
 - Fourth of July Berry Trifle (`fourth-of-july-berry-trifle`)
 - Spiderweb Dip (`spiderweb-dip`)
@@ -604,22 +597,17 @@ illustrations are not commissioned:
 - Whipped Feta (`whipped-feta`)
 - Black Bean Salsa (`black-bean-salsa`)
 - Antipasto Skewers (`antipasto-skewers`)
-- Smoked Salmon Blinis (`smoked-salmon-blinis`)
 - Taquitos (`taquitos`)
 - Cabbage Salad with Peanut Dressing (`cabbage-salad-with-peanut-dressing`)
 - Kale and Quinoa Salad (`kale-and-quinoa-salad`)
 - Pasta Salad with Italian Dressing (`pasta-salad-with-italian-dressing`)
-- Tortellini Salad (`tortellini-salad`)
 - Warm Lentil Salad (`warm-lentil-salad`)
 - Soba Noodle Salad (`soba-noodle-salad`)
-- Vietnamese Noodle Salad (`vietnamese-noodle-salad`)
-- Summer Rolls with Prawns (`summer-rolls-with-prawns`)
 - Sweet Potato Buddha Bowl (`sweet-potato-buddha-bowl`)
 - Grain Bowl with Tahini (`grain-bowl-with-tahini`)
 - Slow Cooker Vegetable Soup (`slow-cooker-vegetable-soup`)
 - Black Eyed Pea Stew (`black-eyed-pea-stew`)
 - Vegetable Pilau (`vegetable-pilau`)
-- Stuffed Butternut Squash (`stuffed-butternut-squash`)
 - Spinach and Ricotta Cannelloni (`spinach-and-ricotta-cannelloni`)
 - Roasted Vegetable Tart (`roasted-vegetable-tart`)
 - Vegetable Wellington (`vegetable-wellington`)
@@ -651,7 +639,6 @@ illustrations are not commissioned:
 - Pumpkin and Sage Pasta (`pumpkin-and-sage-pasta`)
 - Red Wine Gravy (`red-wine-gravy`)
 - Salmon Fillet with Dill Sauce (`salmon-fillet-with-dill-sauce`)
-- Steak Fried Rice (`steak-fried-rice`)
 - Sriracha Mayo (`sriracha-mayo`)
 - Chipotle Mayo (`chipotle-mayo`)
 - Thai Peanut Noodles (`thai-peanut-noodles`)
@@ -705,7 +692,6 @@ illustrations are not commissioned:
 - Eggs Sardou (`eggs-sardou`)
 - Cheese on Toast with Chutney (`cheese-on-toast-with-chutney`)
 - Fruit Salad with Honey Lime (`fruit-salad-with-honey-lime`)
-- Stuffing Balls (`stuffing-balls`)
 - Buttered Carrots (`buttered-carrots`)
 - Roasted Courgettes (`roasted-courgettes`)
 - BBQ Salmon (`bbq-salmon`)
@@ -722,7 +708,6 @@ illustrations are not commissioned:
 - Crostini with Ricotta (`crostini-with-ricotta`)
 - Deviled Ham Sandwiches (`deviled-ham-sandwiches`)
 - Pinwheel Sandwiches (`pinwheel-sandwiches`)
-- Smoked Salmon Pate (`smoked-salmon-pate`)
 - Cheesy Leek Bake (`cheesy-leek-bake`)
 - Pesto Chicken Traybake (`pesto-chicken-traybake`)
 - Garlic Mushroom Chicken (`garlic-mushroom-chicken`)
@@ -736,7 +721,6 @@ illustrations are not commissioned:
 - Egg Adobo (`egg-adobo`)
 - Egg Tostadas (`egg-tostadas`)
 - Thai Basil Fried Egg (`thai-basil-fried-egg`)
-- Sweet Potato Hash (`sweet-potato-hash`)
 - Masoor Dal (`masoor-dal`)
 - Roast Cabbage Wedges (`roast-cabbage-wedges`)
 - Potato Salad with Mustard Dressing (`potato-salad-with-mustard-dressing`)
@@ -783,7 +767,6 @@ illustrations are not commissioned:
 - Raw Mango Curry (`raw-mango-curry`)
 - Mint Chutney (`mint-chutney`)
 - Sol Kadhi (`sol-kadhi`)
-- Tender Coconut Pudding (`tender-coconut-pudding`)
 - Slow Cooker Chicken Tikka Masala (`slow-cooker-chicken-tikka-masala`)
 - Instant Pot Butter Chicken (`instant-pot-butter-chicken`)
 - Instant Pot Dal (`instant-pot-dal`)
@@ -796,11 +779,8 @@ illustrations are not commissioned:
 - Lemon Tahini Dressing (`lemon-tahini-dressing`)
 - Sesame Ginger Dressing (`sesame-ginger-dressing`)
 - Miso Dressing (`miso-dressing`)
-- Sweet and Sour Prawns (`sweet-and-sour-prawns`)
 - Yuxiang Aubergine (`yuxiang-aubergine`)
-- Xinjiang Lamb Skewers (`xinjiang-lamb-skewers`)
 - Khao Kai Jeow (`khao-kai-jeow`)
-- Vietnamese Vermicelli Bowl (`vietnamese-vermicelli-bowl`)
 - Turon (`turon`)
 - Japanese Ginger Dressing (`japanese-ginger-dressing`)
 - Shuwa (`shuwa`)
@@ -809,13 +789,11 @@ illustrations are not commissioned:
 - Moroccan Orange Salad (`moroccan-orange-salad`)
 - Baghali Polo (`baghali-polo`)
 - Sri Lankan Black Pork Curry (`sri-lankan-black-pork-curry`)
-- Wattalapam (`wattalapam`)
 - Instant Pot Chicken Congee (`instant-pot-chicken-congee`)
 - Singapore Chilli Prawns (`singapore-chilli-prawns`)
 - Roti John (`roti-john`)
 - Nasi Uduk (`nasi-uduk`)
 - Mashed Swede (`mashed-swede`)
-- Spanish Chicken and Rice (`spanish-chicken-and-rice`)
 - Melitzanosalata (`melitzanosalata`)
 - Lemon Granita (`lemon-granita`)
 - Croatian Peka (`croatian-peka`)
@@ -869,7 +847,6 @@ illustrations are not commissioned:
 - Pickled Okra (`pickled-okra`)
 - Cajeta (`cajeta`)
 - Buñuelos Mexicanos (`bunuelos-mexicanos`)
-- Tres Leches Cupcakes (`tres-leches-cupcakes`)
 - Green Lipped Mussels (`green-lipped-mussels`)
 - Chilli Mussels (`chilli-mussels`)
 - Sourdough Discard Crackers (`sourdough-discard-crackers`)
@@ -877,7 +854,6 @@ illustrations are not commissioned:
 - Apple Cabbage Slaw (`apple-cabbage-slaw`)
 - Chicken Salad Sandwich with Cranberries (`chicken-salad-sandwich-with-cranberries`)
 - Broccoli Cheddar Chicken (`broccoli-cheddar-chicken`)
-- Tex-Mex Migas (`tex-mex-migas`)
 - Kansas City Barbecue Sauce (`kansas-city-barbecue-sauce`)
 - Carolina Mustard Sauce (`carolina-mustard-sauce`)
 - Maine Lobster Stew (`maine-lobster-stew`)
@@ -893,7 +869,6 @@ illustrations are not commissioned:
 - Ozark Pudding (`ozark-pudding`)
 - Amish Oatmeal Pie (`amish-oatmeal-pie`)
 - Cranberry Brie Bites (`cranberry-brie-bites`)
-- Witch Finger Cookies (`witch-finger-cookies`)
 - Pizza Dip (`pizza-dip`)
 - Fruit Jello Salad (`fruit-jello-salad`)
 - Southern Chow Chow (`southern-chow-chow`)
@@ -911,7 +886,6 @@ illustrations are not commissioned:
 - Pull-Apart Cheese Bread (`pull-apart-cheese-bread`)
 - Pumpkin Cream Cheese Muffins (`pumpkin-cream-cheese-muffins`)
 - Bagel Bites (`bagel-bites`)
-- Sourdough Pizza Crust (`sourdough-pizza-crust`)
 - Sourdough Brownies (`sourdough-brownies`)
 - Chicken Françoise (`chicken-francoise`)
 - Chicken Murphy (`chicken-murphy`)
@@ -1013,16 +987,10 @@ illustrations are not commissioned:
 - Slow Cooker Pasta (`slow-cooker-pasta`)
 - Slow Cooker Pork Carnitas (`slow-cooker-pork-carnitas`)
 - Slow Cooker Risotto (`slow-cooker-risotto`)
-- Slow Cooker Short Ribs (`slow-cooker-short-ribs`)
 - Slow Cooker Stuffing (`slow-cooker-stuffing`)
-- Slow Cooker Turkey Breast (`slow-cooker-turkey-breast`)
-- Smoked Salmon Dip (`smoked-salmon-dip`)
 - Spaghetti alla Norma (`spaghetti-alla-norma`)
-- Stovetop Mac and Cheese (`stovetop-mac-and-cheese`)
-- Stuffed Grape Leaves (`stuffed-grape-leaves`)
 - Stuffed Zucchini Boats (`stuffed-zucchini-boats`)
 - Turkey Casserole (`turkey-casserole`)
-- Turkey Tetrazzini (`turkey-tetrazzini`)
 - White Bean Chili (`white-bean-chili`)
 - 5 Ingredient Chicken Casserole (`5-ingredient-chicken-casserole`)
 - 5 Ingredient Chili (`5-ingredient-chili`)
@@ -1056,7 +1024,6 @@ illustrations are not commissioned:
 - Pumpkin Bundt Cake (`pumpkin-bundt-cake`)
 - Maple Walnut Cookies (`maple-walnut-cookies`)
 - Salted Caramel Cookies (`salted-caramel-cookies`)
-- Strawberry Bread (`strawberry-bread`)
 - Yellow Cake (`yellow-cake`)
 - Zucchini Brownies (`zucchini-brownies`)
 - Zucchini Cookies (`zucchini-cookies`)
@@ -1150,12 +1117,8 @@ illustrations are not commissioned:
 - Low-Carb Tortillas (`low-carb-tortillas`)
 - Vegan Alfredo (`vegan-alfredo`)
 - Vegan Butter Chicken (`vegan-butter-chicken`)
-- Vegan Carbonara (`vegan-carbonara`)
 - Vegan Meatballs (`vegan-meatballs`)
 - Vegan Panna Cotta (`vegan-panna-cotta`)
-- Vegan Pizza (`vegan-pizza`)
-- Vegan Pot Pie (`vegan-pot-pie`)
-- Vegan Quiche (`vegan-quiche`)
 - Vegan Stew (`vegan-stew`)
 - Vegan Stuffing (`vegan-stuffing`)
 - Cheddar Jalapeno Bread (`cheddar-jalapeno-bread`)
@@ -1192,20 +1155,15 @@ illustrations are not commissioned:
 - Pollo alla Diavola (`pollo-alla-diavola`)
 - Coniglio alla Cacciatora (`coniglio-alla-cacciatora`)
 - Pomodori Ripieni (`pomodori-ripieni`)
-- Torta al Limone (`torta-al-limone`)
-- Tortino al Cioccolato (`tortino-al-cioccolato`)
-- Torrone (`torrone`)
 - Fave e Cicoria (`fave-e-cicoria`)
 - Pasta con le Zucchine (`pasta-con-le-zucchine`)
 - Pasta ai Quattro Formaggi (`pasta-ai-quattro-formaggi`)
 - Pasta alla Carrettiera (`pasta-alla-carrettiera`)
-- Spaghetti alla Bottarga (`spaghetti-alla-bottarga`)
 - Linguine allo Scoglio (`linguine-allo-scoglio`)
 - Cavatelli con Broccoli (`cavatelli-con-broccoli`)
 - Risotto al Radicchio (`risotto-al-radicchio`)
 - Risotto agli Asparagi (`risotto-agli-asparagi`)
 - Zuppa di Lenticchie (`zuppa-di-lenticchie`)
-- Zuppa di Ceci (`zuppa-di-ceci`)
 - Costoletta alla Valdostana (`costoletta-alla-valdostana`)
 - Pasta alla Norcina (`pasta-alla-norcina`)
 - Abbacchio alla Scottadito (`abbacchio-alla-scottadito`)
@@ -1232,10 +1190,8 @@ illustrations are not commissioned:
 - Penne al Gorgonzola (`penne-al-gorgonzola`)
 - Risotto allo Zafferano (`risotto-allo-zafferano`)
 - Uova in Purgatorio (`uova-in-purgatorio`)
-- Torta di Carote (`torta-di-carote`)
 - Torta al Mascarpone (`torta-al-mascarpone`)
 - Torta di Castagne (`torta-di-castagne`)
-- Tiramisu alle Fragole (`tiramisu-alle-fragole`)
 - Bomboloni al Forno (`bomboloni-al-forno`)
 - Erbsensuppe (`erbsensuppe`)
 - Rhabarberkuchen (`rhabarberkuchen`)
@@ -1271,7 +1227,6 @@ illustrations are not commissioned:
 - Rajska Omacka (`rajska-omacka`)
 - Placinta cu Branza (`placinta-cu-branza`)
 - Jota Soup (`jota-soup`)
-- Zlikrofi (`zlikrofi`)
 - Biff a la Lindstrom (`biff-a-la-lindstrom`)
 - Pepparkakor (`pepparkakor`)
 - Rabarberpaj (`rabarberpaj`)
@@ -3995,6 +3950,7 @@ licence as the rest of this project.
 | `caramel-cake.webp` / `.jpg` | Caramel Cake | Hero | Caramel Cake | Goose Green Photography | CC BY 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Caramel_Cake.jpg) |
 | `lefse.webp` / `.jpg` | Lefse | Hero | Lefse on a griddle | Lance Fisher | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lefse_on_a_griddle.jpg) |
 | `ladyfingers.webp` / `.jpg` | Ladyfingers | Hero | EWEN-Ladyfingers (3) | Fumikas Sagisavas | CC0 1.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=146487127) |
+| `strawberry-pretzel-salad.webp` / `.jpg` | Strawberry Pretzel Salad | Hero | Strawberry jello salad | Lydia Fizz | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/8727412@N02/6020417317) |
 | `dirt-cake.webp` / `.jpg` | Dirt Cake | Hero | Dirt cake (Flickr photo by Eric Hunsaker) | Eric Hunsaker | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Dirt_cake_(Flickr_photo_by_Eric_Hunsaker).jpg) |
 | `peppermint-patties.webp` / `.jpg` | Homemade Peppermint Patties | Hero | homemade peppermint patties | Stacy Spensley | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/21001756@N06/3107994367) |
 | `pecan-turtles.webp` / `.jpg` | Pecan Turtles | Hero | Flickr preppybyday 4129717270--Chocolate turtles | Evan Joshua Swigart | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Flickr_preppybyday_4129717270--Chocolate_turtles.jpg) |
@@ -4422,6 +4378,7 @@ licence as the rest of this project.
 | `slow-cooker-ham.webp` / `.jpg` | Slow Cooker Ham | Hero | Ham! | Laurel F | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/18295242@N00/4342948334) |
 | `slow-cooker-porridge.webp` / `.jpg` | Slow Cooker Porridge | Hero | Grain porridge | RitaE | Pixabay Content License | [Pixabay](https://pixabay.com/photos/cereal-porridge-breakfast-healthy-3186256/) |
 | `slow-cooker-chicken-curry.webp` / `.jpg` | Slow Cooker Chicken Curry | Hero | Curry chicken, chicken with vegetables | Sunday133 | Pixabay Content License | [Pixabay](https://pixabay.com/photos/asian-food-curry-chicken-4985984/) |
+| `slow-cooker-sausage-casserole.webp` / `.jpg` | Slow Cooker Sausage Casserole | Hero | Slow Cooker Wild Boar Sausage Casserole | Simon Wheatley | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/35034350173@N01/2337923425) |
 | `slow-cooker-chicken-tacos.webp` / `.jpg` | Slow Cooker Chicken Tacos | Hero | Tacos, chicken | guerita76 | Pixabay Content License | [Pixabay](https://pixabay.com/photos/tacos-food-chicken-mexican-4511272/) |
 | `slow-cooker-pea-and-ham-soup.webp` / `.jpg` | Slow Cooker Pea and Ham Soup | Hero | Pea soup, soup plate | RitaE | Pixabay Content License | [Pixabay](https://pixabay.com/photos/pea-soup-soup-starter-soup-plate-2786133/) |
 | `slow-cooker-corned-beef.webp` / `.jpg` | Slow Cooker Corned Beef | Hero | 1517429716-slow-cooker-corned-beef-delish-1 | dackelprincess | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/76168068@N00/40445869003) |
@@ -4490,6 +4447,7 @@ licence as the rest of this project.
 | `seeded-crackers.webp` / `.jpg` | Seeded Crackers | Hero | seed crackers | anasegota | CC0 1.0 | [Flickr](https://www.flickr.com/photos/150121377@N03/26242578639) |
 | `oat-cakes.webp` / `.jpg` | Oat Cakes | Hero | Oatcakes with pepper | Fitzhenrymort | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Oatcakes_with_pepper.jpg) |
 | `mason-jar-salad.webp` / `.jpg` | Mason Jar Salad | Hero | Salad jar, mason jar | soulinaearthsuit | Pixabay Content License | [Pixabay](https://pixabay.com/photos/salad-jar-salad-mason-jar-food-1244573/) |
+| `sweet-potato-brownies.webp` / `.jpg` | Sweet Potato Brownies | Hero | Sweet Potato Brownies-2 | jules | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/58367355@N00/23464742259) |
 | `lentil-burgers.webp` / `.jpg` | Lentil Burgers | Hero | Black Lentil Veggie burger (160167180) | Kari Sullivan from Austin, TX | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Black_Lentil_Veggie_burger_(160167180).jpg) |
 | `chickpea-patties.webp` / `.jpg` | Chickpea Patties | Hero | CookedPatties | Amy Stephenson | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/24013072@N05/6456685347) |
 | `lentil-dal.webp` / `.jpg` | Lentil Dal | Hero | Dal soup (Indian lentil dish) | Pelican | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Dal_soup_(Indian_lentil_dish).jpg) |
@@ -4525,6 +4483,7 @@ licence as the rest of this project.
 | `scones-with-jam-and-cream.webp` / `.jpg` | Scones with Jam and Cream | Hero | Scone Jam Cream Tea | Alpha from Melbourne, Australia | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Scone_Jam_Cream_Tea.jpg) |
 | `peach-crumble.webp` / `.jpg` | Peach Crumble | Hero | Leftover peach crumble at 3PM on a Saturday? Sure, why not? (9328443401) | Neil Conway from Oakland, USA | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Leftover_peach_crumble_at_3PM_on_a_Saturday%3F_Sure,_why_not%3F_(9328443401).jpg) |
 | `plum-crumble.webp` / `.jpg` | Plum Crumble | Hero | Plum cake with crumble, plums | katjasv | Pixabay Content License | [Pixabay](https://pixabay.com/photos/cakes-plum-cake-streusel-cake-1587090/) |
+| `vegetable-barley-soup.webp` / `.jpg` | Vegetable Barley Soup | Hero | Vegetable barley soup and bread | trenttsd | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/84335369@N00/5332744487) |
 | `pappa-al-pomodoro.webp` / `.jpg` | Pappa al Pomodoro | Hero | Pappa al pomodoro | fugzu from Pistoia, Italia | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pappa_al_pomodoro.jpg) |
 | `cheese-souffle.webp` / `.jpg` | Cheese Souffle | Hero | Soufflé (image of cheese soufflé on Wikidata Q47527989) | Pierre-alain dorange | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Souffl%C3%A9.JPG) |
 | `kiwi-fruit-pavlova.webp` / `.jpg` | Kiwi Fruit Pavlova | Hero | Pavlova with Fruit | Kimberly Vardeman | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/87542849@N00/5406345827/) |
@@ -4559,6 +4518,7 @@ licence as the rest of this project.
 | `lamb-meatballs.webp` / `.jpg` | Lamb Meatballs | Hero | Lamb Balls - Luke restaurant, New Orleans | Bart Everson | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lamb_Balls_-_Luke_restaurant,_New_Orleans.jpg) |
 | `lemon-butter-salmon.webp` / `.jpg` | Lemon Butter Salmon | Hero | Salmon fillet, lemon | RitaE | Pixabay Content License | [Pixabay](https://pixabay.com/photos/salmon-fish-scampi-fried-cook-3888828/) |
 | `cajun-salmon.webp` / `.jpg` | Cajun Salmon | Hero | Dinner | Bev Sykes | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/11399912@N00/3486340036/) |
+| `trout-almondine.webp` / `.jpg` | Trout Almondine | Hero | Trout almondine | Karen | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/56832361@N00/142523816) |
 | `prawn-curry.webp` / `.jpg` | Prawn Curry | Hero | Shrimp curry on plate (image of shrimp curry on Wikidata Q9696648) | Jon Sullivan | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Shrimp_curry_on_plate.jpg) |
 | `prawn-linguine.webp` / `.jpg` | Prawn Linguine | Hero | Linguine and prawns - Swiss Hotel - August 2022 - Sarah Stierch | Missvain | CC BY 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Linguine_and_prawns_-_Swiss_Hotel_-_August_2022_-_Sarah_Stierch.jpg) |
 | `mussels-marinara.webp` / `.jpg` | Mussels Marinara | Hero | Mussels with Sauce on Plate | Luiz Henrique  Mendes | Pexels License | [Pexels](https://www.pexels.com/photo/mussels-with-sauce-on-plate-26586448/) |
@@ -4669,6 +4629,7 @@ licence as the rest of this project.
 | `potatoes-au-gratin.webp` / `.jpg` | Potatoes Au Gratin | Hero | Potato gratin, potato wedges | Suppenkasper | Pixabay Content License | [Pixabay](https://pixabay.com/photos/potato-gratin-meal-oven-61106/) |
 | `duchess-potatoes.webp` / `.jpg` | Duchess Potatoes | Hero | Herzoginkartoffel (fcm) (image of Duchess potatoes on Wikidata Q1148776) | Frank C. Müller | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Herzoginkartoffel_(fcm).jpg) |
 | `mashed-cauliflower.webp` / `.jpg` | Mashed Cauliflower | Hero | Mashed Cauliflower-627 | DC Central Kitchen | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mashed_Cauliflower-627.jpg) |
+| `tuscan-bean-soup.webp` / `.jpg` | Tuscan Bean Soup | Hero | Tuscan White Bean Soup with Kale and Chard | Jay & Melissa Malouin | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/9027562@N05/720885901) |
 | `ham-and-cheese-quiche.webp` / `.jpg` | Ham and Cheese Quiche | Hero | Quiche, cheese | RitaE | Pixabay Content License | [Pixabay](https://pixabay.com/photos/quiche-vegetable-cakes-bacon-1403459/) |
 | `cinnamon-roll-pancakes.webp` / `.jpg` | Cinnamon Roll Pancakes | Hero | Cinnamon Roll Pancakes | Rose | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/30625405@N02/7540580214/) |
 | `savoury-waffles.webp` / `.jpg` | Savoury Waffles | Hero | Savoury Waffle - Malt Cafe 2025-11-30 | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Savoury_Waffle_-_Malt_Cafe_2025-11-30.jpg) |
@@ -4705,6 +4666,7 @@ licence as the rest of this project.
 | `sweet-tea.webp` / `.jpg` | Sweet Tea | Hero | Glass of Iced Tea (lead image of the zh.wikipedia article on Sweet tea) | No machine-readable author provided. Zantastik~commonswiki assumed | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Glass_of_Iced_Tea.jpg) |
 | `vanilla-milkshake.webp` / `.jpg` | Vanilla Milkshake | Hero | Vanilla milkshake at Lunchbox Laboratories | jencu from bay area, usa | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Vanilla_milkshake_at_Lunchbox_Laboratories.jpg) |
 | `white-hot-chocolate.webp` / `.jpg` | White Hot Chocolate | Hero | white hot chocolate | Unknown | CC0 1.0 | [Rawpixel](https://www.rawpixel.com/image/5944939/free-public-domain-cc0-photo) |
+| `white-sangria.webp` / `.jpg` | White Sangria | Hero | White Sangria | Ines Hegedus-Garcia | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/23245739@N02/5897943674) |
 | `chocolate-milk.webp` / `.jpg` | Chocolate Milk | Hero | Chocolate milk (image of chocolate milk on Wikidata Q13253) | stevepb | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chocolate_milk.JPG) |
 | `herb-roasted-turkey.webp` / `.jpg` | Herb Roasted Turkey | Hero | Herb crusted turkey on plate | Jon Sullivan | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Herb_crusted_turkey_on_plate.jpg) |
 | `honey-glazed-carrots.webp` / `.jpg` | Honey Glazed Carrots | Hero | Sous vide carrot | sousvideguy | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/140547216@N04/27607341317) |
@@ -4782,6 +4744,7 @@ licence as the rest of this project.
 | `puff-pastry-pinwheels.webp` / `.jpg` | Puff Pastry Pinwheels | Hero | Puff pastry appetizers, puff pastry snails | Lebensmittelfotos | Pixabay Content License | [Pixabay](https://pixabay.com/photos/puff-pastry-snack-74358/) |
 | `stuffed-dates.webp` / `.jpg` | Stuffed Dates | Hero | Stuffed Dates (30297512218) | Ella Olsson from Stockholm, Sweden | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Stuffed_Dates_(30297512218).jpg) |
 | `spring-onion-pancakes.webp` / `.jpg` | Spring Onion Pancakes | Hero | Pajeon (spring onion pancake) - Kogi, Brighton | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pajeon_(spring_onion_pancake)_-_Kogi,_Brighton.jpg) |
+| `smoked-salmon-blinis.webp` / `.jpg` | Smoked Salmon Blinis | Hero | Salmon | Charles Haynes | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/87232391@N00/928907877) |
 | `fried-wontons.webp` / `.jpg` | Fried Wontons | Hero | Fried wontons | Fumikas Sagisavas | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fried_wontons.jpg) |
 | `mini-pizzas.webp` / `.jpg` | Mini Pizzas | Hero | Pizza, mini | DonMarciano | Pixabay Content License | [Pixabay](https://pixabay.com/photos/pizza-mini-food-cheese-tasty-4242967/) |
 | `mac-and-cheese-cups.webp` / `.jpg` | Mac and Cheese Cups | Hero | Bacon Mac & Cheese | Red Lobster Lover Joe twitter:RLLoverJoe | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/164188154@N05/54109215237) |
@@ -4790,6 +4753,9 @@ licence as the rest of this project.
 | `massaged-kale-salad.webp` / `.jpg` | Massaged Kale Salad | Hero | Massaged Kale Salad with Mango (5102803193) | Vegan Feast Catering | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Massaged_Kale_Salad_with_Mango_(5102803193).jpg) |
 | `mango-salad.webp` / `.jpg` | Mango Salad | Hero | mango salad | GeorgeTan#2...INACTIVE NOW | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/171425013@N02/48622741516) |
 | `pear-and-parmesan-salad.webp` / `.jpg` | Pear and Parmesan Salad | Hero | Mescaline* 07/22/2007 | Diana House | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/94513428@N00/882228082) |
+| `tortellini-salad.webp` / `.jpg` | Tortellini Salad | Hero | tortellini salad | jeffreyw | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/7927684@N03/4651670644) |
+| `vietnamese-noodle-salad.webp` / `.jpg` | Vietnamese Noodle Salad | Hero | Vietnamese rice noodle salad | Jessica Rossi | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/66787975@N00/2798035289) |
+| `summer-rolls-with-prawns.webp` / `.jpg` | Summer Rolls with Prawns | Hero | Fresh summer rolls with prawns - Mục Đồng - Prague | Haydn Blackey | CC BY-SA 4.0 | [Flickr](https://www.flickr.com/photos/54549113@N00/54426248713) |
 | `crab-salad.webp` / `.jpg` | Crab Salad | Hero | Crab Louie Salad | Waspstar | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Crab_Louie_Salad.jpg) |
 | `quinoa-salad-with-roasted-vegetables.webp` / `.jpg` | Quinoa Salad with Roasted Vegetables | Hero | Salad, vegetables | Einladung_zum_Essen | Pixabay Content License | [Pixabay](https://pixabay.com/photos/salad-lenses-avocado-key-2157796/) |
 | `korean-beef-bowl.webp` / `.jpg` | Korean Beef Bowl | Hero | Korean Kimchi Beef Bowl | Mx. Granger | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Korean_Kimchi_Beef_Bowl.jpg) |
@@ -4801,6 +4767,7 @@ licence as the rest of this project.
 | `mujaddara.webp` / `.jpg` | Mujaddara | Hero | Mujaddara (image of mujadara on Wikidata Q2663815) | Bazel | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mujaddara.jpg) |
 | `pea-risotto.webp` / `.jpg` | Pea Risotto | Hero | Broad bean and pea risotto (5267182554) | Blue moon in her eyes from Helsinki, Finland | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Broad_bean_and_pea_risotto_(5267182554).jpg) |
 | `lemon-risotto.webp` / `.jpg` | Lemon Risotto | Hero | Lime and lemon risotto (8602096947) | Luca Nebuloni from Milan, Italy | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lime_and_lemon_risotto_(8602096947).jpg) |
+| `stuffed-butternut-squash.webp` / `.jpg` | Stuffed Butternut Squash | Hero | Stuffed Butternut Squash | @joefoodie | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/98178986@N00/2051619530) |
 | `vegetable-lasagne.webp` / `.jpg` | Vegetable Lasagne | Hero | Vegetable lasagne, Hahn | Gerda Arendt | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Vegetable_lasagne,_Hahn.jpg) |
 | `mushroom-wellington.webp` / `.jpg` | Mushroom Wellington | Hero | Mushroom wellington | Ben Sutherland | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/60179301@N00/5205231946) |
 | `buffalo-cauliflower.webp` / `.jpg` | Buffalo Cauliflower | Hero | Buffalo Cauliflower - Kozy Eats Vegan Restaurant - Riga - Latvia | Tony Webster | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Buffalo_Cauliflower_-_Kozy_Eats_Vegan_Restaurant_-_Riga_-_Latvia.jpg) |
@@ -4857,6 +4824,7 @@ licence as the rest of this project.
 | `scallops-with-pea-puree.webp` / `.jpg` | Scallops with Pea Puree | Hero | Mushy peas, scallops | RitaE | Pixabay Content License | [Pixabay](https://pixabay.com/photos/scallops-seafood-shellfish-food-7404270/) |
 | `seafood-stew.webp` / `.jpg` | Seafood Stew | Hero | Seafood stew (43431748030) | pelican from Tokyo, Japan | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Seafood_stew_(43431748030).jpg) |
 | `slow-cooked-lamb-shoulder.webp` / `.jpg` | Slow Cooked Lamb Shoulder | Hero | Lamb shank | limarga26 | Pixabay Content License | [Pixabay](https://pixabay.com/photos/lamb-lamb-shank-steak-food-meal-3529588/) |
+| `steak-fried-rice.webp` / `.jpg` | Steak Fried Rice | Hero | Steak & Eggs with Quick Kimchi Fried Rice #blueapron | Jarrett Campbell | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/77744839@N00/25557510673) |
 | `steak-tacos.webp` / `.jpg` | Steak Tacos | Hero | Tacos at La Casa Restaurant - July 2022 - Sarah Stierch 02 | Missvain | CC BY 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tacos_at_La_Casa_Restaurant_-_July_2022_-_Sarah_Stierch_02.jpg) |
 | `sticky-chicken-wings.webp` / `.jpg` | Sticky Chicken Wings | Hero | Chicken wings, chicken meat | RitaE | Pixabay Content License | [Pixabay](https://pixabay.com/photos/chicken-wing-chicken-wings-buffalo-1559579/) |
 | `sun-dried-tomato-pesto.webp` / `.jpg` | Sun Dried Tomato Pesto | Hero | Sun Dried Tomato Pesto Pasta (30712759877) | Ella Olsson from Stockholm, Sweden | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sun_Dried_Tomato_Pesto_Pasta_(30712759877).jpg) |
@@ -4967,6 +4935,7 @@ licence as the rest of this project.
 | `banana-bread-french-toast.webp` / `.jpg` | Banana Bread French Toast | Hero | Banana bread French toast with blueberries (35504201734) | Ruth Hartnup from Vancouver, Canada | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Banana_bread_French_toast_with_blueberries_(35504201734).jpg) |
 | `shepherds-pie-with-cheesy-mash.webp` / `.jpg` | Shepherd's Pie with Cheesy Mash | Hero | Shepherd's pie | TehzeebNoah | Pixabay Content License | [Pixabay](https://pixabay.com/photos/shepherds-pie-mashed-potato-meat-10366225/) |
 | `roast-lamb-dinner.webp` / `.jpg` | Roast Lamb Dinner | Hero | A roast lamb Sunday dinner at The Black Bull, Fyfield, Essex, England | Acabashi | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:A_roast_lamb_Sunday_dinner_at_The_Black_Bull,_Fyfield,_Essex,_England.jpg) |
+| `stuffing-balls.webp` / `.jpg` | Stuffing Balls | Hero | Stuffing balls yum | Candice Juniper | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/28170091@N03/4286929460) |
 | `corn-on-the-cob-with-chilli-butter.webp` / `.jpg` | Corn on the Cob with Chilli Butter | Hero | Corn on the cob, butter | furbymama | Pixabay Content License | [Pixabay](https://pixabay.com/photos/corn-butter-food-nourishment-yummy-5049970/) |
 | `grilled-corn-salad.webp` / `.jpg` | Grilled Corn Salad | Hero | Grilled corn, corn cobs | anuppanthi | Pixabay Content License | [Pixabay](https://pixabay.com/photos/corn-grilled-corn-corn-cobs-food-7358719/) |
 | `bbq-pulled-pork-nachos.webp` / `.jpg` | BBQ Pulled Pork Nachos | Hero | Pulled pork nachos | Lindell Dillon | Public domain | [Flickr](https://www.flickr.com/photos/38635198@N04/33590884200/) |
@@ -4988,6 +4957,7 @@ licence as the rest of this project.
 | `polenta-with-mushrooms.webp` / `.jpg` | Polenta with Mushrooms | Hero | Polenta con champiñones al vino blanco - Polenta with mushrooms and white wine (4708451937) | Lablascovegmenu from London | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Polenta_con_champi%C3%B1ones_al_vino_blanco_-_Polenta_with_mushrooms_and_white_wine_(4708451937).jpg) |
 | `antipasto-platter.webp` / `.jpg` | Antipasto Platter | Hero | Food platter, antipasto | stevepb | Pixabay Content License | [Pixabay](https://pixabay.com/photos/hors-doeuvre-starters-appetizers-2175326/) |
 | `pizza-bianca.webp` / `.jpg` | Pizza Bianca | Hero | Flour - Pizza Bianca | Edsel Little | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/27119975@N00/5841302390/) |
+| `smoked-salmon-pate.webp` / `.jpg` | Smoked Salmon Pate | Hero | time for another food picture... | In Memoriam: Andy / Andrew Fogg | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/69024001@N00/4158968216) |
 | `fish-goujons.webp` / `.jpg` | Fish Goujons | Hero | Fish Goujons at Rosalind's Kitchen | Annie Mole | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/21309047@N00/5766877611) |
 | `chicken-goujons.webp` / `.jpg` | Chicken Goujons | Hero | Lutong Bahay - Chicken Strips with "Chinese" Sauce | Dan Brian Gerona from Cebu City, Philippines | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lutong_Bahay_-_Chicken_Strips_with_%22Chinese%22_Sauce.jpg) |
 | `bechamel-sauce.webp` / `.jpg` | Bechamel Sauce | Hero | Bechamel sauce (2428653187) | Kai Hendry from Singapore, Malaysia | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bechamel_sauce_(2428653187).jpg) |
@@ -5033,6 +5003,7 @@ licence as the rest of this project.
 | `masala-toast.webp` / `.jpg` | Masala Toast | Hero | Masala Bread Sandwich | Princejain17 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Masala_Bread_Sandwich.jpg) |
 | `savoury-french-toast.webp` / `.jpg` | Savoury French Toast | Hero | 250319 French Toast | Caspia Jackmanson | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/58301516@N00/54395057847) |
 | `breakfast-fried-rice.webp` / `.jpg` | Breakfast Fried Rice | Hero | Yay. American-Fried Rice for Breakfast | Dennis S. Hurd | CC0 1.0 | [Flickr](https://www.flickr.com/photos/43296902@N00/46420786234) |
+| `sweet-potato-hash.webp` / `.jpg` | Sweet Potato Hash | Hero | egg over sweet potato hash | Karen | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/31887788@N00/3790059303) |
 | `griessbrei.webp` / `.jpg` | Griessbrei | Hero | Griessbrei 002 (50237915086) | Tauralbus | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Griessbrei_002_(50237915086).jpg) |
 | `sheera.webp` / `.jpg` | Sheera | Hero | Sheera | rusvaplauke | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/7440954@N05/817527699) |
 | `gobi-matar.webp` / `.jpg` | Gobi Matar | Hero | Aloo Gobi Matar (49653225183) | やましこ | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Aloo_Gobi_Matar_(49653225183).jpg) |
@@ -5212,6 +5183,7 @@ licence as the rest of this project.
 | `rava-kesari.webp` / `.jpg` | Rava Kesari | Hero | Easy Rava Kesari | Babithajcosta | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Easy_Rava_Kesari.JPG) |
 | `kashmiri-chai.webp` / `.jpg` | Kashmiri Chai | Hero | Kashmiri Chai | Miansari66 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kashmiri_Chai.JPG) |
 | `badam-milk.webp` / `.jpg` | Badam Milk | Hero | A cup of chilled Badam milk | Thamizhpparithi Maari | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:A_cup_of_chilled_Badam_milk.jpg) |
+| `tender-coconut-pudding.webp` / `.jpg` | Tender Coconut Pudding | Hero | Tender Coconut Pudding | caapri | CC BY 4.0 | [Flickr](https://www.flickr.com/photos/7241370@N08/54704286754) |
 | `lime-pickle.webp` / `.jpg` | Lime Pickle | Hero | Lemon Pickle (Assamese Nemur Aachar) | Kandarpajit Kallol | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lemon_Pickle_(Assamese_Nemur_Aachar).jpg) |
 | `mango-pickle.webp` / `.jpg` | Mango Pickle | Hero | Mango Pickle in pot (image of Mango pickle on Wikidata Q14558271) | Saileshpat | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mango_Pickle_in_pot.jpg) |
 | `aam-ras.webp` / `.jpg` | Aam Ras | Hero | Aam- ras | Kanikatwl | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Aam-_ras.JPG) |
@@ -5241,6 +5213,7 @@ licence as the rest of this project.
 | `lamb-karahi.webp` / `.jpg` | Lamb Karahi | Hero | Lamb Karachi Karahi - Bengal Bertie's 2025-12-15 | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lamb_Karachi_Karahi_-_Bengal_Bertie%27s_2025-12-15.jpg) |
 | `hong-kong-chow-mein.webp` / `.jpg` | Hong Kong Chow Mein | Hero | Chasiu chow mein in yuen long | Peachyeung316 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chasiu_chow_mein_in_yuen_long.jpg) |
 | `salt-and-pepper-chicken-wings.webp` / `.jpg` | Salt and Pepper Chicken Wings | Hero | Chicken wings, thai extra hot wings | quikish | Pixabay Content License | [Pixabay](https://pixabay.com/photos/chicken-wings-fried-spicy-chili-6649172/) |
+| `sweet-and-sour-prawns.webp` / `.jpg` | Sweet and Sour Prawns | Hero | Sweet and Sour Black Tiger Prawns | Debbie Tingzon | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/32031278@N03/15240059900) |
 | `honey-chilli-chicken.webp` / `.jpg` | Honey Chilli Chicken | Hero | Honey Chilli Chicken | MDRX | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Honey_Chilli_Chicken.jpg) |
 | `beef-in-oyster-sauce.webp` / `.jpg` | Beef in Oyster Sauce | Hero | Mala beef, sauce | Sunday133 | Pixabay Content License | [Pixabay](https://pixabay.com/photos/mala-beef-chinese-food-asian-4992014/) |
 | `steamed-chicken-with-mushrooms.webp` / `.jpg` | Steamed Chicken with Mushrooms | Hero | Steamed Chicken | chooyutshing | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/25802865@N08/54940825734) |
@@ -5249,10 +5222,12 @@ licence as the rest of this project.
 | `chongqing-chicken.webp` / `.jpg` | Chongqing Chicken | Hero | Freshippo spicy chicken | Fumikas Sagisavas | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Freshippo_spicy_chicken.jpg) |
 | `shanghai-fried-noodles.webp` / `.jpg` | Shanghai Fried Noodles | Hero | HK 港島北 Island North 東區 Eastern District 炮台山 Fortress 宏安道 Wang On Road 上海人家 Shanghai restaurant January 2021 SS2 上海粗炒 09 | Zihfaboecfoak | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:HK_%E6%B8%AF%E5%B3%B6%E5%8C%97_Island_North_%E6%9D%B1%E5%8D%80_Eastern_District_%E7%82%AE%E5%8F%B0%E5%B1%B1_Fortress_%E5%AE%8F%E5%AE%89%E9%81%93_Wang_On_Road_%E4%B8%8A%E6%B5%B7%E4%BA%BA%E5%AE%B6_Shanghai_restaurant_January_2021_SS2_%E4%B8%8A%E6%B5%B7%E7%B2%97%E7%82%92_09.jpg) |
 | `tea-smoked-duck.webp` / `.jpg` | Tea Smoked Duck | Hero | Zhangcha Duck at Restaurant Zen, Qianmen (20211008185323) | N509FZ | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Zhangcha_Duck_at_Restaurant_Zen,_Qianmen_(20211008185323).jpg) |
+| `xinjiang-lamb-skewers.webp` / `.jpg` | Xinjiang Lamb Skewers | Hero | Xinjiang Lamb Skewers - Ayiguli 323 Fast Food AUD2 each | Alpha | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/10559879@N00/4407962091) |
 | `roujiamo.webp` / `.jpg` | Roujiamo | Hero | Roujiamo, Ji Bai He, Paris 002 | Guilhem Vellut from Paris, France | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Roujiamo,_Ji_Bai_He,_Paris_002.jpg) |
 | `jungle-curry.webp` / `.jpg` | Jungle Curry | Hero | Fish Jungle Curry (8644200729) | Charles Haynes | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fish_Jungle_Curry_(8644200729).jpg) |
 | `gaeng-som.webp` / `.jpg` | Gaeng Som | Hero | Kaeng som-marum63 (image of Kaeng som on Wikidata Q6345997) | Xufanc | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kaeng_som-marum63.JPG) |
 | `thai-boat-noodles.webp` / `.jpg` | Thai Boat Noodles | Hero | Free Thai boat noodle image | Unknown | CC0 1.0 | [Rawpixel](https://www.rawpixel.com/image/5918540/image-public-domain-food-free) |
+| `vietnamese-vermicelli-bowl.webp` / `.jpg` | Vietnamese Vermicelli Bowl | Hero | Vietnamese Vermicelli Bowl | Andrew Choy | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/47141617@N00/3921539660) |
 | `com-ga.webp` / `.jpg` | Com Ga | Hero | Com Ga | Marie | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/14671121@N03/11963216533/) |
 | `hu-tieu.webp` / `.jpg` | Hu Tieu | Hero | Hủ tiếu Nam Vang | SauceSupreme | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:H%E1%BB%A7_ti%E1%BA%BFu_Nam_Vang.jpg) |
 | `mi-quang.webp` / `.jpg` | Mi Quang | Hero | Mi Quang at Ngoc Mai (with noodles uncovered) (image of Mì Quảng on Wikidata Q6950186) | Gary Stevens | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mi_Quang_at_Ngoc_Mai_(with_noodles_uncovered).jpg) |
@@ -5294,6 +5269,7 @@ licence as the rest of this project.
 | `kacchi-biryani.webp` / `.jpg` | Kacchi Biryani | Hero | Basmati Kacchi Biryani (2) (image of Kacchi Biryani on Wikidata Q12417662) | Nahian | CC BY 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Basmati_Kacchi_Biryani_(2).jpg) |
 | `sri-lankan-chicken-curry.webp` / `.jpg` | Sri Lankan Chicken Curry | Hero | Sri lankan chicken curry | Swarnamala Priyadarshani | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sri_lankan_chicken_curry.jpg) |
 | `lamprais.webp` / `.jpg` | Lamprais | Hero | Lamprais (image of Lamprais on Wikidata Q30587986) | Nirangunam | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lamprais.jpg) |
+| `wattalapam.webp` / `.jpg` | Wattalapam | Hero | 2006_05_20 | Dennis Sylvester Hurd | CC0 1.0 | [Flickr](https://www.flickr.com/photos/43296902@N00/150115694) |
 | `chicken-choila.webp` / `.jpg` | Chicken Choila | Hero | Chicken choila, beaten rice, and salad - Napier, New Zealand | Daderot | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chicken_choila,_beaten_rice,_and_salad_-_Napier,_New_Zealand.jpg) |
 | `israeli-bourekas.webp` / `.jpg` | Israeli Bourekas | Hero | Potato-Bourekas-11-08-2024 - Jerusalem, Israel | PeleYoetz | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Potato-Bourekas-11-08-2024_-_Jerusalem,_Israel.jpg) |
 | `salted-egg-yolk-chicken.webp` / `.jpg` | Salted Egg Yolk Chicken | Hero | Golden Salted Egg Chicken Wings - Aberdeen Seafood 2026-01-05 | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Golden_Salted_Egg_Chicken_Wings_-_Aberdeen_Seafood_2026-01-05.jpg) |
@@ -5322,6 +5298,7 @@ licence as the rest of this project.
 | `chicken-parmo.webp` / `.jpg` | Chicken Parmo | Hero | Chicken Parmo | Scarabocchio | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chicken_Parmo.jpg) |
 | `cheese-sauce-for-lasagne.webp` / `.jpg` | Cheese Sauce for Lasagne | Hero | モルネーソース (image of cheese sauce on Wikidata Q98775828) | 赤犬 | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E3%83%A2%E3%83%AB%E3%83%8D%E3%83%BC%E3%82%BD%E3%83%BC%E3%82%B9.jpg) |
 | `peri-peri-chicken-thighs.webp` / `.jpg` | Peri Peri Chicken Thighs | Hero | 2018-02-03 Chicken Piri-Piri, Albufeira (1) (image of peri peri chicken on Wikidata Q10285511) | Kolforn | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2018-02-03_Chicken_Piri-Piri,_Albufeira_(1).JPG) |
+| `spanish-chicken-and-rice.webp` / `.jpg` | Spanish Chicken and Rice | Hero | Chicken Paella close-up - Colmao Flamenco | Alpha | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/10559879@N00/447638440) |
 | `taramasalata.webp` / `.jpg` | Taramasalata | Hero | Taramasalata (that tasted of nothing) & Greek beer | Smoobs | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/43541636@N00/4620753479) |
 | `skordalia.webp` / `.jpg` | Skordalia | Hero | Skordalia (image of skordalia on Wikidata Q1753265) | Amymoni | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Skordalia.jpg) |
 | `tsoureki.webp` / `.jpg` | Tsoureki | Hero | Paskalya çöreği from Bulka Pastanesi | E4024 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Paskalya_%C3%A7%C3%B6re%C4%9Fi_from_Bulka_Pastanesi.jpg) |
@@ -5454,6 +5431,7 @@ licence as the rest of this project.
 | `mexican-chocolate-cake.webp` / `.jpg` | Mexican Chocolate Cake | Hero | Chocolate cake, sliced cake | Pexels | Pixabay Content License | [Pixabay](https://pixabay.com/photos/cake-chocolate-chocolate-cake-1850011/) |
 | `capirotada.webp` / `.jpg` | Capirotada | Hero | Capirotada in Mexican pottery (image of Capirotada on Wikidata Q368910) | PlumaLila | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Capirotada_in_Mexican_pottery.jpg) |
 | `flan-de-coco.webp` / `.jpg` | Flan de Coco | Hero | Flan de Coco | juzsan | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/44526250@N00/89708274) |
+| `tres-leches-cupcakes.webp` / `.jpg` | Tres Leches Cupcakes | Hero | Tres Leches cupcakes with Dulce de Leche Frosting | tawest64 | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/27785905@N08/2586106132) |
 | `pudim-de-leite.webp` / `.jpg` | Pudim de Leite | Hero | Flan or Pudim (19878426583) (image of pudim de leite condensado on Wikidata Q138311083) | Under the same moon... | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Flan_or_Pudim_(19878426583).jpg) |
 | `romeu-e-julieta.webp` / `.jpg` | Romeu e Julieta | Hero | Bar Guanabara - goiabada com queijo (4774966171) | Monica Kaneko from Sao Paulo, Brasil | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bar_Guanabara_-_goiabada_com_queijo_(4774966171).jpg) |
 | `huevos-divorciados.webp` / `.jpg` | Huevos Divorciados | Hero | Huevos divorciados | Pequeño mar | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Huevos_divorciados.jpg) |
@@ -5467,6 +5445,7 @@ licence as the rest of this project.
 | `peanut-butter-and-banana-sandwich.webp` / `.jpg` | Peanut Butter and Banana Sandwich | Hero | Gourmet Peanut Butter and Banana | The Marmot | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/38142119@N00/54144582020) |
 | `honey-garlic-wings.webp` / `.jpg` | Honey Garlic Wings | Hero | Chicken wings with honey-garlic sauce (lead image of the jv.wikipedia article on honey garlic sauce) | Alpha from Melbourne, Australia | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chicken_wings_with_honey-garlic_sauce.jpg) |
 | `chicken-scampi.webp` / `.jpg` | Chicken Scampi | Hero | chicken scampi | Ginny | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/78011127@N00/2841110715/) |
+| `tex-mex-migas.webp` / `.jpg` | Tex-Mex Migas | Hero | Migas & beans | goblinbox_(queen_of_ad_hoc_bento) | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/25977089@N00/21246748986) |
 | `texas-beef-ribs.webp` / `.jpg` | Texas Beef Ribs | Hero | Beef, ribs | jccamacholopez | Pixabay Content License | [Pixabay](https://pixabay.com/photos/meat-grill-beef-barbecue-steak-5993928/) |
 | `texas-toast.webp` / `.jpg` | Texas Toast | Hero | Cheese Toasts free creative commons (4269663447) | Pink Sherbet Photography from USA | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cheese_Toasts_free_creative_commons_(4269663447).jpg) |
 | `memphis-dry-rub-ribs.webp` / `.jpg` | Memphis Dry Rub Ribs | Hero | 313-365 Memphis Dry Ribs | elsie.hui | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/91188380@N05/12669141913) |
@@ -5488,6 +5467,7 @@ licence as the rest of this project.
 | `turkey-brine.webp` / `.jpg` | Turkey Brine | Hero | Oven roasted brine-soaked turkey | TheKohser | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Oven_roasted_brine-soaked_turkey.jpg) |
 | `brown-sugar-ham-glaze.webp` / `.jpg` | Brown Sugar Ham Glaze | Hero | Second dish: ham glazed with brown sugar and honey | colmmcsky | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/8166986@N04/4136124735) |
 | `glazed-baked-ham.webp` / `.jpg` | Glazed Baked Ham | Hero | Ham, glazed | vivienviv0 | Pixabay Content License | [Pixabay](https://pixabay.com/photos/christmas-food-ham-potato-food-587581/) |
+| `witch-finger-cookies.webp` / `.jpg` | Witch Finger Cookies | Hero | Witch Fingers Cookies | ruocaled | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/54063325@N07/8173155106) |
 | `popcorn-balls.webp` / `.jpg` | Popcorn Balls | Hero | Popcorn, ball | WikimediaImages | Pixabay Content License | [Pixabay](https://pixabay.com/photos/food-eat-diet-popcorn-ball-2202385/) |
 | `roscon-de-reyes.webp` / `.jpg` | Roscón de Reyes | Hero | Gateau des rois1 (image of roscón de reyes on Wikidata Q17015916) | No machine-readable author provided. David.Monniaux assumed (based on copyright claims). | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gateau_des_rois1.JPG) |
 | `slow-cooker-split-pea-soup.webp` / `.jpg` | Slow Cooker Split Pea Soup | Hero | Pea soup, soup plate | RitaE | Pixabay Content License | [Pixabay](https://pixabay.com/photos/pea-soup-soup-starter-soup-plate-2786118/) |
@@ -5499,6 +5479,7 @@ licence as the rest of this project.
 | `cast-iron-skillet-cookie.webp` / `.jpg` | Cast Iron Skillet Cookie | Hero | A skillet cookie this famous certainly deserves custom leather cast iron skillet holders. We did a special run of these for our local restaurant, Kendra's River Inn. YUM! | Geoffrey Franklin | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/47514124@N02/33439676316/) |
 | `cheese-twists.webp` / `.jpg` | Cheese Twists | Hero | Cheddar Cheese Twist - Costa Coffee 2025-11-06 | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cheddar_Cheese_Twist_-_Costa_Coffee_2025-11-06.jpg) |
 | `blueberry-streusel-muffins.webp` / `.jpg` | Blueberry Streusel Muffins | Hero | Made some blueberry muffins with a streusel topping. Not sure I'd do the streusel topping again but damn are these delicious. (49976701411) | Cristiano Betta from London, UK | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Made_some_blueberry_muffins_with_a_streusel_topping._Not_sure_I%27d_do_the_streusel_topping_again_but_damn_are_these_delicious._(49976701411).jpg) |
+| `sourdough-pizza-crust.webp` / `.jpg` | Sourdough Pizza Crust | Hero | Vegan Sourdough Pizza Crust | Veganbaking.net | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/31104779@N02/4836153379) |
 | `sourdough-cinnamon-rolls.webp` / `.jpg` | Sourdough Cinnamon Rolls | Hero | Cinnamon roll | TastyLens | Pixabay Content License | [Pixabay](https://pixabay.com/photos/food-sweet-dessert-pastry-bun-8385524/) |
 | `sourdough-waffles.webp` / `.jpg` | Sourdough Waffles | Hero | Sourdough waffles at Juliet's Cafe and Bar (52262293521) | Bex Walton from London, England | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sourdough_waffles_at_Juliet%27s_Cafe_and_Bar_(52262293521).jpg) |
 | `cottage-cheese-toast.webp` / `.jpg` | Cottage Cheese Toast | Hero | Cottage-cheese | piviso | Pixabay Content License | [Pixabay](https://pixabay.com/photos/food-breakfast-natural-light-2232487/) |
@@ -5582,13 +5563,19 @@ licence as the rest of this project.
 | `slow-cooker-lasagna.webp` / `.jpg` | Slow Cooker Lasagna | Hero | Lasagna | RitaE | Pixabay Content License | [Pixabay](https://pixabay.com/photos/lasagna-noodles-cheese-tomatoes-751504/) |
 | `slow-cooker-pulled-pork.webp` / `.jpg` | Slow Cooker Pulled Pork | Hero | Pulled pork | medamedia | Pixabay Content License | [Pixabay](https://pixabay.com/photos/food-connoisseur-delicious-dessert-3363116/) |
 | `slow-cooker-salmon.webp` / `.jpg` | Slow Cooker Salmon | Hero | Salmon | planet_fox | Pixabay Content License | [Pixabay](https://pixabay.com/photos/salmon-salmon-steak-food-6675201/) |
+| `slow-cooker-short-ribs.webp` / `.jpg` | Slow Cooker Short Ribs | Hero | slow cooker day two: short ribs | Matt Biddulph | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/51035707449@N01/23450494983) |
+| `slow-cooker-turkey-breast.webp` / `.jpg` | Slow Cooker Turkey Breast | Hero | Slow-Cooker-Holiday-Turkey-Breast at Karma in Mundelein | Kurman Communications LLC | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/62558987@N07/15108076463) |
 | `slow-cooker-whole-chicken.webp` / `.jpg` | Slow Cooker Whole Chicken | Hero | Chicken | Wow_Pho | Pixabay Content License | [Pixabay](https://pixabay.com/photos/chicken-roasted-whole-grilled-1199243/) |
+| `smoked-salmon-dip.webp` / `.jpg` | Smoked Salmon Dip | Hero | Smoked Salmon Dip | Laurel F | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/18295242@N00/766276718) |
 | `southern-mac-and-cheese.webp` / `.jpg` | Southern Mac and Cheese | Hero | The Food at Davids Kitchen 024 | David Reber from Kansas City, USA | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:The_Food_at_Davids_Kitchen_024.jpg) |
 | `spaghetti-pomodoro.webp` / `.jpg` | Spaghetti Pomodoro | Hero | Spaghetti pomodoro, Venice | Gerda Arendt | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Spaghetti_pomodoro,_Venice.jpg) |
 | `spare-ribs.webp` / `.jpg` | Spare Ribs | Hero | Spare ribs with Chinese barbecue sauce cropped | Spare_ribs_with_Chinese_barbecue_sauce.jpg: SpaceMonkey derivative work: Adrignola (talk) | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Spare_ribs_with_Chinese_barbecue_sauce_cropped.jpg) |
 | `spatchcock-chicken.webp` / `.jpg` | Spatchcock Chicken | Hero | Osteria Epoca Cafe Bar, Yeronga, Queensland, grilled spatchcock dish | Chris Olszewski | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Osteria_Epoca_Cafe_Bar,_Yeronga,_Queensland,_grilled_spatchcock_dish.jpg) |
+| `stovetop-mac-and-cheese.webp` / `.jpg` | Stovetop Mac and Cheese | Hero | The Food Lab's Ultra-Gooey Stovetop Mac and Cheese | Edsel Little | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/27119975@N00/21857647059) |
+| `stuffed-grape-leaves.webp` / `.jpg` | Stuffed Grape Leaves | Hero | Stuffed grape leaves | pelican | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/85936780@N00/4424995576) |
 | `stuffed-jalapenos.webp` / `.jpg` | Stuffed Jalapenos | Hero | Jalapenos stuffed food dinner cooking | Jon Sullivan | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jalapenos_stuffed_food_dinner_cooking.jpg) |
 | `sweet-corn-soup.webp` / `.jpg` | Sweet Corn Soup | Hero | Chicken sweet corn soup | Thamizhpparithi Maari | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chicken_sweet_corn_soup.jpg) |
+| `turkey-tetrazzini.webp` / `.jpg` | Turkey Tetrazzini | Hero | Turkey Tetrazzini from Saveur | citymama | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/70176840@N00/307255661) |
 | `udon-noodles.webp` / `.jpg` | Udon Noodles | Hero | Thai stir-fry style udon noodles - Itsu 2024-09-19 | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Thai_stir-fry_style_udon_noodles_-_Itsu_2024-09-19.jpg) |
 | `veal-parmesan.webp` / `.jpg` | Veal Parmesan | Hero | Veal parmesan | c h e e s e roc | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Veal_parmesan.jpg) |
 | `white-lasagna.webp` / `.jpg` | White Lasagna | Hero | Lasagna from South Africa | SamkelisiweNkosi | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lasagna_from_South_Africa.jpg) |
@@ -5666,6 +5653,7 @@ licence as the rest of this project.
 | `shortbread-cookies.webp` / `.jpg` | Shortbread Cookies | Hero | Shortbread | jhenning | Pixabay Content License | [Pixabay](https://pixabay.com/photos/shortbread-cookies-pastry-food-6988077/) |
 | `smores-cookies.webp` / `.jpg` | Smores Cookies | Hero | Smores made with choco-chip cookies (7490694764) | Virginia State Parks staff | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Smores_made_with_choco-chip_cookies_(7490694764).jpg) |
 | `sour-cream-pound-cake.webp` / `.jpg` | Sour Cream Pound Cake | Hero | Cakes Sour Cream Pound Cake Treats - Free photo on Pixabay | tncarlos | Pixabay Content License | [Pixabay](https://pixabay.com/photos/cakes-sour-cream-pound-cake-treats-3707536/) |
+| `strawberry-bread.webp` / `.jpg` | Strawberry Bread | Hero | Homemade Strawberry Bread | Jack | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/44458147@N00/48558825672) |
 | `strawberry-cupcakes.webp` / `.jpg` | Strawberry Cupcakes | Hero | Lemon Strawberry Cupcake | HarshLight | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lemon_Strawberry_Cupcake.jpg) |
 | `strawberry-rhubarb-crisp.webp` / `.jpg` | Strawberry Rhubarb Crisp | Hero | Strawberry rhubarb crisp (49913376242) | spurekar | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Strawberry_rhubarb_crisp_(49913376242).jpg) |
 | `vinegar-pie.webp` / `.jpg` | Vinegar Pie | Hero | Old-Fashioned Vinegar | Michon Boston Group Ltd | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Old-Fashioned_Vinegar.jpg) |
@@ -5753,6 +5741,7 @@ licence as the rest of this project.
 | `low-carb-pancakes.webp` / `.jpg` | Low-Carb Pancakes | Hero | coconut-flour-pancakes-1 | Stephen Pearson | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/138985252@N02/47764548262) |
 | `low-carb-pizza.webp` / `.jpg` | Low-Carb Pizza | Hero | Low carb pizza: the results, EAT | Deb Nystrom | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/98826299@N00/7155060920) |
 | `low-carb-zucchini-lasagna.webp` / `.jpg` | Low-Carb Zucchini Lasagna | Hero | Zucchini | Eleonorenfalke | Pixabay Content License | [Pixabay](https://pixabay.com/photos/casserole-vegetable-casserole-2770355/) |
+| `vegan-carbonara.webp` / `.jpg` | Vegan Carbonara | Hero | 😋😋😋 Vegan carbonara 🍝👌 💚💚 #delicious recipe from @exceedinglyvegan | Lablascovegmenu | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/35022955@N06/25469076897) |
 | `vegan-cinnamon-rolls.webp` / `.jpg` | Vegan Cinnamon Rolls | Hero | Vegan-cinnamon-rolls (11514387276) | Suzette - www.suzette.nu from Arnhem, Netherlands | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Vegan-cinnamon-rolls_(11514387276).jpg) |
 | `vegan-cornbread.webp` / `.jpg` | Vegan Cornbread | Hero | Vegan corn chowder with cornbread | Mercy For Animals MFA from Los Angeles, USA | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Vegan_corn_chowder_with_cornbread.jpg) |
 | `vegan-french-toast.webp` / `.jpg` | Vegan French Toast | Hero | Stuffed Vegan French Toast (4490197712) | Vegan Feast Catering | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Stuffed_Vegan_French_Toast_(4490197712).jpg) |
@@ -5763,6 +5752,9 @@ licence as the rest of this project.
 | `vegan-mayonnaise.webp` / `.jpg` | Vegan Mayonnaise | Hero | Vegan mayonnaise on bread | Mx. Granger | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Vegan_mayonnaise_on_bread.jpg) |
 | `vegan-muffins.webp` / `.jpg` | Vegan Muffins | Hero | Vegan Apple Cinnamon Muffins (3879653097) | Vegan Feast Catering | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Vegan_Apple_Cinnamon_Muffins_(3879653097).jpg) |
 | `vegan-pesto.webp` / `.jpg` | Vegan Pesto | Hero | Cilantro Vegan Pesto Mostaccioli with Veggies (3757172908) | Vegan Feast Catering | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cilantro_Vegan_Pesto_Mostaccioli_with_Veggies_(3757172908).jpg) |
+| `vegan-pizza.webp` / `.jpg` | Vegan Pizza | Hero | Vegan Pizza | Mad Ball | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/66843181@N00/4009554863) |
+| `vegan-pot-pie.webp` / `.jpg` | Vegan Pot Pie | Hero | Vegan Pot Pie | Sam Page | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/30562276@N08/4139050499) |
+| `vegan-quiche.webp` / `.jpg` | Vegan Quiche | Hero | Vegan quiche! | Sharon | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/11112304@N00/3071566715) |
 | `vegan-ramen.webp` / `.jpg` | Vegan Ramen | Hero | Spicy vegan ramen | T.Tseng | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Spicy_vegan_ramen.jpg) |
 | `vegan-burritos.webp` / `.jpg` | Vegan Burritos | Hero | Vegan breakfast burrito at Bell Tower Cafe | Mx. Granger | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Vegan_breakfast_burrito_at_Bell_Tower_Cafe.jpg) |
 | `vegan-shortbread.webp` / `.jpg` | Vegan Shortbread | Hero | Buttery Vegan Shortbread - 16213109930 | Veganbaking.net | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Buttery_Vegan_Shortbread_-_16213109930.jpg) |
@@ -5835,12 +5827,15 @@ licence as the rest of this project.
 | `tortelli-di-zucca.webp` / `.jpg` | Tortelli di Zucca | Hero | Piatto tipico con tortelli caserecci conditi con funghi Prugnoli e pecorino di Sasso Pisano (PI) | Edatoscana | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Piatto_tipico_con_tortelli_caserecci_conditi_con_funghi_Prugnoli_e_pecorino_di_Sasso_Pisano_(PI).JPG) |
 | `seadas.webp` / `.jpg` | Seadas | Hero | Seadas (image of Sebada on Wikidata Q3953541) | Terendo | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Seadas.JPG) |
 | `torta-di-mele.webp` / `.jpg` | Torta di Mele | Hero | Torta di mele e cannella 1 (4568682698) | ilaria from florence, italy | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Torta_di_mele_e_cannella_1_(4568682698).jpg) |
+| `torta-al-limone.webp` / `.jpg` | Torta al Limone | Hero | Torta margherita al limone | Marco Segato | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/11593682@N06/1497492826) |
 | `torta-di-ricotta.webp` / `.jpg` | Torta di Ricotta | Hero | Cassatine e tranci torta alla ricotta | OppidumNissenae | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cassatine_e_tranci_torta_alla_ricotta.jpg) |
 | `biscotti-savoiardi.webp` / `.jpg` | Biscotti Savoiardi | Hero | Biscotti savoiardi (01) | Gianni Careddu | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Biscotti_savoiardi_(01).jpg) |
+| `tortino-al-cioccolato.webp` / `.jpg` | Tortino al Cioccolato | Hero | Roberto's tortino al cioccolato | franzconde | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/79928508@N00/7995012476) |
 | `bonet.webp` / `.jpg` | Bonet | Hero | Bonet Saizeriya 2026-01 | Hanabishi | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bonet_Saizeriya_2026-01.jpg) |
 | `frittelle-di-carnevale.webp` / `.jpg` | Frittelle di Carnevale | Hero | Frittelle di Carnevale con ricotta | Albarubescens | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Frittelle_di_Carnevale_con_ricotta.jpg) |
 | `chiacchiere.webp` / `.jpg` | Chiacchiere | Hero | Faworki (close-up) (image of Angel wings on Wikidata Q35056) | Marcin Floryan | CC BY 2.5 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Faworki_(close-up).jpg) |
 | `castagnole.webp` / `.jpg` | Castagnole | Hero | Castagnole | Massimo Telò | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Castagnole.jpg) |
+| `torrone.webp` / `.jpg` | Torrone | Hero | Pistachio Torrone | Kate Hopkins | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/54151899@N00/5238037147) |
 | `brutti-ma-buoni.webp` / `.jpg` | Brutti ma Buoni | Hero | Ugly but delicious | Tulumnes | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ugly_but_delicious.jpg) |
 | `burrata-with-tomatoes.webp` / `.jpg` | Burrata with Tomatoes | Hero | Tomato salad with burrata, Limburg | Gerda Arendt | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tomato_salad_with_burrata,_Limburg.jpg) |
 | `pizza-fritta.webp` / `.jpg` | Pizza Fritta | Hero | Pizza fritta | Corrado Forino | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/29768027@N07/4346439292) |
@@ -5849,11 +5844,13 @@ licence as the rest of this project.
 | `spaghetti-alla-nerano.webp` / `.jpg` | Spaghetti alla Nerano | Hero | Spaghettiallanerano (image of spaghetti alla Nerano on Wikidata Q51127905) | Popo le Chien | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Spaghettiallanerano.jpg) |
 | `pasta-al-forno.webp` / `.jpg` | Pasta al Forno | Hero | Pasta al Forno 01 (image of pasta al forno on Wikidata Q3897485) | Blues 1911 | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pasta_al_Forno_01.jpg) |
 | `spaghetti-al-tonno.webp` / `.jpg` | Spaghetti al Tonno | Hero | Spaghetti al tonno | 10Rosso | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Spaghetti_al_tonno.jpg) |
+| `spaghetti-alla-bottarga.webp` / `.jpg` | Spaghetti alla Bottarga | Hero | spaghetti alla bottarga | mari | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/94862897@N00/2421938198) |
 | `spaghetti-con-le-cozze.webp` / `.jpg` | Spaghetti con le Cozze | Hero | Spaghetti con le cozze 1 | 10Rosso | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Spaghetti_con_le_cozze_1.jpg) |
 | `gnocchi-alla-romana.webp` / `.jpg` | Gnocchi alla Romana | Hero | Gnocchi alla romana (image of gnocchi alla romana on Wikidata Q1533235) | Utente:Valentinenba97 | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gnocchi_alla_romana.jpeg) |
 | `malfatti.webp` / `.jpg` | Malfatti | Hero | Piatto di malfatti | Teseo | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Piatto_di_malfatti.jpg) |
 | `risotto-alla-pescatora.webp` / `.jpg` | Risotto alla Pescatora | Hero | Risotto alla pescatora 1 | 10Rosso | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Risotto_alla_pescatora_1.jpg) |
 | `zuppa-di-farro.webp` / `.jpg` | Zuppa di Farro | Hero | Zuppa di farro della garfagnana | fugzu | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Zuppa_di_farro_della_garfagnana.jpg) |
+| `zuppa-di-ceci.webp` / `.jpg` | Zuppa di Ceci | Hero | Zuppa di Ceci | paPisc | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/20912428@N04/2442234321) |
 | `polenta-concia.webp` / `.jpg` | Polenta Concia | Hero | Polenta "uncia" servita al rifugio del Monte Palanzone "Rifugio Riella" (Como) - 08-11-2015 | Mænsard vokser | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Polenta_%22uncia%22_servita_al_rifugio_del_Monte_Palanzone_%22Rifugio_Riella%22_(Como)_-_08-11-2015.JPG) |
 | `castagnaccio.webp` / `.jpg` | Castagnaccio | Hero | Castagnaccio ligure (image of castagnaccio on Wikidata Q3662049) | Lemone | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Castagnaccio_ligure.jpg) |
 | `peperoni-ripieni.webp` / `.jpg` | Peperoni Ripieni | Hero | Peperoni ripieni | Marcuscalabresus (uploader) | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Peperoni_ripieni.jpg) |
@@ -5888,6 +5885,8 @@ licence as the rest of this project.
 | `lasagne-bianche.webp` / `.jpg` | Lasagne Bianche | Hero | Lasagne bianche | Xaura | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lasagne_bianche.jpg) |
 | `cannelloni-ricotta-e-spinaci.webp` / `.jpg` | Cannelloni Ricotta e Spinaci | Hero | Spinach and ricotta cannelloni | Alpha from Melbourne, Australia | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Spinach_and_ricotta_cannelloni.jpg) |
 | `rigatoni-allamatriciana.webp` / `.jpg` | Rigatoni all'Amatriciana | Hero | Tortiglioni all'Amatriciana (17137142927) | N i c o l a from Fiumicino (Rome), Italy | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tortiglioni_all%27Amatriciana_(17137142927).jpg) |
+| `torta-di-carote.webp` / `.jpg` | Torta di Carote | Hero | torta di carote | fugzu | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/70253321@N00/2423248810) |
+| `tiramisu-alle-fragole.webp` / `.jpg` | Tiramisu alle Fragole | Hero | Tiramisù alle fragole | Francesca | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/28461647@N06/2700655252) |
 | `panna-cotta-ai-frutti-di-bosco.webp` / `.jpg` | Panna Cotta ai Frutti di Bosco | Hero | Panna Cotta with cream and garnish (image of panna cotta on Wikidata Q504941) | hiro | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Panna_Cotta_with_cream_and_garnish.jpg) |
 | `crespelle.webp` / `.jpg` | Crespelle | Hero | Crespelle al radicchio | alepiccoli77 | Pixabay Content License | [Pixabay](https://pixabay.com/photos/baked-dish-radicchio-crepes-5718102/) |
 | `limoncello.webp` / `.jpg` | Limoncello | Hero | Homemade limoncello original | Alejo2083 | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Homemade_limoncello_original.jpg) |
@@ -6120,6 +6119,7 @@ licence as the rest of this project.
 | `potica.webp` / `.jpg` | Potica | Hero | Potica (9501040588) (image of Potica on Wikidata Q11700178) | Michael R Perry | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Potica_(9501040588).jpg) |
 | `kranjska-klobasa.webp` / `.jpg` | Kranjska Klobasa | Hero | Carniolian sausage - Kranjska klobasa - Klobasarna Ljubljana | ModriDirkac | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Carniolian_sausage_-_Kranjska_klobasa_-_Klobasarna_Ljubljana.jpg) |
 | `prekmurska-gibanica.webp` / `.jpg` | Prekmurska Gibanica | Hero | PrekmurskaGibanica1 (image of Prekmurska gibanica on Wikidata Q2524291) | Sl-Ziga | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:PrekmurskaGibanica1.JPG) |
+| `zlikrofi.webp` / `.jpg` | Zlikrofi | Hero | #Žlikrofi #bestmomentever #slovenija #idrija | Andrea Skerlavaj | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/13283928@N04/48386239806) |
 | `janssons-frestelse.webp` / `.jpg` | Janssons Frestelse | Hero | Janssons frestelse (image of Janssons frestelse on Wikidata Q1197873) | Andejons | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Janssons_frestelse.jpg) |
 | `kroppkakor.webp` / `.jpg` | Kroppkakor | Hero | Kroppkaka (image of kroppkaka on Wikidata Q175123) | Sendelbach (talk) | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kroppkaka.jpg) |
 | `pytt-i-panna.webp` / `.jpg` | Pytt i Panna | Hero | Pyttipanna serving (image of pyttipanna on Wikidata Q1580437) | Nilli | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pyttipanna_serving.jpg) |
