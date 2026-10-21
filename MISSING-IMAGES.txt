@@ -6,7 +6,7 @@ Save a photograph as BOTH files in  src/assets/img/recipes/
     <slug>.webp   800 px wide, quality ~68
 Then run:  python3 tools/adopt_images.py   (see its header for the credit and licence it needs)
 
-== American (368) ======================================
+== American (367) ======================================
   honey-garlic-glazed-salmon         Honey Garlic Glazed Salmon   [3 refused already]
   grape-jelly-meatballs              Grape Jelly Meatballs   [6 refused already]
   beef-and-noodles                   Beef and Noodles   [15 refused already]
@@ -148,7 +148,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   bacon-cheeseburger-bites           Bacon Cheeseburger Bites   [1 refused already]
   lemon-chicken-bites                Lemon Chicken Bites   [1 refused already]
   ice-box-cake                       Ice Box Cake   [2 refused already]
-  peanut-butter-chocolate-bars       Peanut Butter Chocolate Bars   [1 refused already]
   peanut-butter-smoothie             Peanut Butter Smoothie   [1 refused already]
   crispy-smashed-potatoes            Crispy Smashed Potatoes   [1 refused already]
   apple-pie-overnight-oats           Apple Pie Overnight Oats
@@ -486,7 +485,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   torta-di-castagne                  Torta di Castagne   [1 refused already]
   bomboloni-al-forno                 Bomboloni al Forno
 
-== British (107) =======================================
+== British (106) =======================================
   cumberland-sauce                   Cumberland Sauce   [6 refused already]
   lamb-bhuna                         Lamb Bhuna   [2 refused already]
   omelette-arnold-bennett            Omelette Arnold Bennett   [15 refused already]
@@ -526,7 +525,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   ham-and-egg-pie                    Ham and Egg Pie   [1 refused already]
   welsh-cheese-and-leek-pie          Welsh Cheese and Leek Pie   [1 refused already]
   vegetable-pasties                  Vegetable Pasties   [2 refused already]
-  egg-and-bacon-tart                 Egg and Bacon Tart   [1 refused already]
   pistachio-shortbread               Pistachio Shortbread
   blackcurrant-cordial               Blackcurrant Cordial   [1 refused already]
   ginger-cordial                     Ginger Cordial
@@ -595,11 +593,10 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   gluten-free-yorkshire-puddings     Gluten-Free Yorkshire Puddings   [1 refused already]
   vegan-stew                         Vegan Stew   [1 refused already]
 
-== French (41) =========================================
+== French (40) =========================================
   chicken-chasseur                   Chicken Chasseur   [9 refused already]
   sole-with-grapes                   Sole with Grapes   [7 refused already]
   french-onion-chicken               French Onion Chicken   [2 refused already]
-  french-lentils                     French Lentils   [2 refused already]
   ratatouille-bake                   Ratatouille Bake   [1 refused already]
   warm-lentil-salad                  Warm Lentil Salad   [1 refused already]
   roasted-vegetable-tart             Roasted Vegetable Tart
@@ -808,17 +805,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   dorada-a-la-sal                    Dorada a la Sal
   chuleton-de-buey                   Chuletón de Buey   [1 refused already]
 
-== German (9) ==========================================
-  german-meatballs                   German Meatballs   [1 refused already]
-  german-red-cabbage                 German Red Cabbage   [1 refused already]
-  erbsensuppe                        Erbsensuppe   [1 refused already]
-  rhabarberkuchen                    Rhabarberkuchen   [2 refused already]
-  wildgulasch                        Wildgulasch
-  selleriesuppe                      Selleriesuppe
-  rahmschnitzel                      Rahmschnitzel
-  gansebraten                        Gänsebraten   [1 refused already]
-  entenbrust-mit-rotkohl             Entenbrust mit Rotkohl
-
 == Pacific (9) =========================================
   samoan-palusami                    Samoan Palusami
   samoan-pani-popo                   Samoan Pani Popo
@@ -829,6 +815,16 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   tongan-otai                        Tongan Otai
   fijian-rourou                      Fijian Rourou
   fijian-curry                       Fijian Curry
+
+== German (8) ==========================================
+  german-red-cabbage                 German Red Cabbage   [1 refused already]
+  erbsensuppe                        Erbsensuppe   [1 refused already]
+  rhabarberkuchen                    Rhabarberkuchen   [2 refused already]
+  wildgulasch                        Wildgulasch
+  selleriesuppe                      Selleriesuppe
+  rahmschnitzel                      Rahmschnitzel
+  gansebraten                        Gänsebraten   [1 refused already]
+  entenbrust-mit-rotkohl             Entenbrust mit Rotkohl
 
 == Middle Eastern (8) ==================================
   cucumber-hummus-bites              Cucumber Hummus Bites   [8 refused already]
@@ -1040,4 +1036,4 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
 == Welsh (1) ===========================================
   anglesey-eggs                      Anglesey Eggs   [1 refused already]
 
-TOTAL 910 of 5515
+TOTAL 906 of 5515

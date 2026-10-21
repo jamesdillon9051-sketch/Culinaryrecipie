@@ -1,8 +1,8 @@
 # Image Attribution
 
 Every photograph on Weekly Delight is used under a licence that allows it here.
-Of 4987 photographs, **1590** are CC0 or public domain and carry no
-conditions at all, **3150** are **Creative Commons Attribution (CC BY)** — free
+Of 4991 photographs, **1591** are CC0 or public domain and carry no
+conditions at all, **3153** are **Creative Commons Attribution (CC BY)** — free
 to use, adapt and use commercially, on the single condition that the photographer
 is credited — and **247** use the stock-library licences named
 in the licence table below, which permit commercial recipe-page use and
@@ -181,27 +181,27 @@ wrong dish were deleted rather than kept.
 | | |
 |---|---|
 | Recipes | 5515 |
-| Hero photographs | 4504 |
+| Hero photographs | 4508 |
 | Secondary "process" photographs | 483 |
 | Generated illustrations | 101 |
-| Total image files | 10176 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 910 |
+| Total image files | 10184 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 906 |
 
 ### Licences used
 
 | Licence | Images | Terms |
 |---|---:|---|
 | CC BY 2.0 | 1316 | Free to use, adapt and use commercially **provided the photographer is credited** |
-| CC0 | 784 | No rights reserved — no attribution legally required |
-| CC BY-SA 4.0 | 705 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| CC BY-SA 2.0 | 548 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC0 | 785 | No rights reserved — no attribution legally required |
+| CC BY-SA 4.0 | 706 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY-SA 2.0 | 549 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | CC0 1.0 | 458 | No rights reserved — no attribution legally required |
 | CC BY-SA 3.0 | 330 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public domain | 245 | No rights reserved — no attribution legally required |
 | Pixabay Content License | 220 | The stock library's own licence: free to use, adapt and use commercially; no credit required (given anyway) |
 | Public Domain Mark 1.0 | 101 | No rights reserved — no attribution legally required |
 | CC BY 4.0 | 99 | Free to use, adapt and use commercially **provided the photographer is credited** |
-| CC BY 3.0 | 84 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY 3.0 | 85 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY-SA 2.5 | 29 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Pexels License | 26 | The stock library's own licence: free to use, adapt and use commercially; no credit required (given anyway) |
 | CC BY 2.5 | 19 | Free to use, adapt and use commercially **provided the photographer is credited** |
@@ -510,8 +510,6 @@ illustrations are not commissioned:
 - Greek Lamb Stew (`greek-lamb-stew`)
 - Tuscan White Bean Salad (`tuscan-white-bean-salad`)
 - French Onion Chicken (`french-onion-chicken`)
-- French Lentils (`french-lentils`)
-- German Meatballs (`german-meatballs`)
 - German Red Cabbage (`german-red-cabbage`)
 - Hamburger Helper Style Pasta (`hamburger-helper-style-pasta`)
 - Beef and Mushroom Stroganoff Bake (`beef-and-mushroom-stroganoff-bake`)
@@ -522,7 +520,6 @@ illustrations are not commissioned:
 - Ham and Egg Pie (`ham-and-egg-pie`)
 - Welsh Cheese and Leek Pie (`welsh-cheese-and-leek-pie`)
 - Vegetable Pasties (`vegetable-pasties`)
-- Egg and Bacon Tart (`egg-and-bacon-tart`)
 - Spaghetti Toasties (`spaghetti-toasties`)
 - Garlic Pull Apart Bread (`garlic-pull-apart-bread`)
 - Sausage Pull Apart (`sausage-pull-apart`)
@@ -532,7 +529,6 @@ illustrations are not commissioned:
 - Ice Box Cake (`ice-box-cake`)
 - Pineapple Lumps Slice (`pineapple-lumps-slice`)
 - Apple Slice (`apple-slice`)
-- Peanut Butter Chocolate Bars (`peanut-butter-chocolate-bars`)
 - Pistachio Shortbread (`pistachio-shortbread`)
 - Peanut Butter Smoothie (`peanut-butter-smoothie`)
 - Crispy Smashed Potatoes (`crispy-smashed-potatoes`)
@@ -4489,6 +4485,8 @@ licence as the rest of this project.
 | `persian-chicken.webp` / `.jpg` | Persian Chicken | Hero | Persian chicken | Titanas | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/96437548@N00/1712852153) |
 | `italian-sausage-soup.webp` / `.jpg` | Italian Sausage Soup | Hero | Mmm... Italian sausage soup (8078375968) | jeffreyw | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mmm..._Italian_sausage_soup_(8078375968).jpg) |
 | `spanish-garlic-soup.webp` / `.jpg` | Spanish Garlic Soup | Hero | Sopa castelhana | Adriao | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sopa_castelhana.JPG) |
+| `french-lentils.webp` / `.jpg` | French Lentils | Hero | French Lentil Soup (140491423) | J Doll | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:French_Lentil_Soup_(140491423).jpeg) |
+| `german-meatballs.webp` / `.jpg` | German Meatballs | Hero | Königsberger Klopse at Expo 2019 German pavilion restaurant (20190707112852) | N509FZ | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:K%C3%B6nigsberger_Klopse_at_Expo_2019_German_pavilion_restaurant_(20190707112852).jpg) |
 | `chicken-with-mushroom-sauce.webp` / `.jpg` | Chicken with Mushroom Sauce | Hero | Chicken mushrooms sauces | Jon Sullivan | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chicken_mushrooms_sauces.jpg) |
 | `chicken-thighs-with-potatoes.webp` / `.jpg` | Chicken Thighs with Potatoes | Hero | Mediterranean chicken, potatoes | RitaE | Pixabay Content License | [Pixabay](https://pixabay.com/photos/mediterranean-chicken-dish-food-8178029/) |
 | `lemon-pasta.webp` / `.jpg` | Lemon Pasta | Hero | Lemon, pasta | Einladung_zum_Essen | Pixabay Content License | [Pixabay](https://pixabay.com/photos/noodles-zucchini-lemon-pasta-1804433/) |
@@ -4510,6 +4508,7 @@ licence as the rest of this project.
 | `halloumi-fries.webp` / `.jpg` | Halloumi Fries | Hero | Halloumi fries | Ben Sutherland | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/60179301@N00/43682717502) |
 | `halloumi-burgers.webp` / `.jpg` | Halloumi Burgers | Hero | Halloumi burger at Cafe by the Lake (49035628031) | Ruth Hartnup from Vancouver, Canada | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Halloumi_burger_at_Cafe_by_the_Lake_(49035628031).jpg) |
 | `game-pie.webp` / `.jpg` | Game Pie | Hero | Game Pie and Chips in Gravy | Much Ramblings | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Game_Pie_and_Chips_in_Gravy.jpg) |
+| `egg-and-bacon-tart.webp` / `.jpg` | Egg and Bacon Tart | Hero | Bacon cheese egg tarts | Fumikas Sagisavas | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bacon_cheese_egg_tarts.jpg) |
 | `irish-potato-cakes.webp` / `.jpg` | Irish Potato Cakes | Hero | Irwins potato cakes modified | Gunk 78 via en.wikipedia.org (talk) Derivative work: Ubcule (talk) | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Irwins_potato_cakes_modified.jpg) |
 | `potato-cakes.webp` / `.jpg` | Potato Cakes | Hero | Irwins potato cakes | Gunk 78 via en.wikipedia.org (talk) | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Irwins_potato_cakes.JPG) |
 | `tomato-soup-with-grilled-cheese.webp` / `.jpg` | Tomato Soup with Grilled Cheese | Hero | Soup, tomato | dw_enc | Pixabay Content License | [Pixabay](https://pixabay.com/photos/soup-sandwich-food-bread-lunch-1116028/) |
@@ -4557,6 +4556,7 @@ licence as the rest of this project.
 | `caramel-apples.webp` / `.jpg` | Caramel Apples | Hero | Caramel Apples | popo.uw23 | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/10511576@N00/4002855002) |
 | `caramel-slice-bars.webp` / `.jpg` | Caramel Slice Bars | Hero | Millionaire's shortbread (image of caramel shortbread on Wikidata Q617216) | Aurore D | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Millionaire%27s_shortbread.jpg) |
 | `chocolate-chip-cookie-bars.webp` / `.jpg` | Chocolate Chip Cookie Bars | Hero | Baked Chocolate Chip Cookie Bar | [Chocolate-Dessert-Recipes.com](https://www.chocolate-dessert-recipes.com/) | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/66677611@N08/6064302347/) |
+| `peanut-butter-chocolate-bars.webp` / `.jpg` | Peanut Butter Chocolate Bars | Hero | Chocolate Peanut Butter Crunch Bar (3466999449) | Mack Male from Edmonton, AB, Canada | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chocolate_Peanut_Butter_Crunch_Bar_(3466999449).jpg) |
 | `double-chocolate-cookies.webp` / `.jpg` | Double Chocolate Cookies | Hero | 109 365 - Double Choc Chip Cookies (6343791094) | Kelly Hunter from Gold Coast, Australia | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:109_365_-_Double_Choc_Chip_Cookies_(6343791094).jpg) |
 | `lemon-cookies.webp` / `.jpg` | Lemon Cookies | Hero | Lemon meringue cookies on checkered tablecloth in 2009 | S. Mitchell | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lemon_meringue_cookies_on_checkered_tablecloth_in_2009.jpg) |
 | `jammy-dodgers.webp` / `.jpg` | Jammy Dodgers | Hero | DSC04851-'Jammie Dodgers' | suzyhazelwood | CC0 1.0 | [Flickr](https://www.flickr.com/photos/139228535@N05/39224704581) |

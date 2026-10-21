@@ -7,7 +7,7 @@
  "/about/": {
   "hash": "84b2dfd1c5ac",
   "lastmod": "2026-10-21",
-  "derivedHash": "f813f6de5bb5"
+  "derivedHash": "10878aab57b6"
  },
  "/categories/": {
   "hash": "ecb574fe73a3",
@@ -522,7 +522,7 @@
  "/categories/dinner/french/": {
   "hash": "8d5bc4938969",
   "lastmod": "2026-10-21",
-  "derivedHash": "cef05f2f117d"
+  "derivedHash": "a8874884d68f"
  },
  "/categories/dinner/georgian/": {
   "hash": "309dbc5fbe64",
@@ -532,7 +532,7 @@
  "/categories/dinner/german/": {
   "hash": "2941209d9d14",
   "lastmod": "2026-10-21",
-  "derivedHash": "f23eb52ca2b1"
+  "derivedHash": "8f15d6b5f41b"
  },
  "/categories/dinner/ghanaian/": {
   "hash": "7c3940f26a83",
@@ -896,8 +896,8 @@
  },
  "/categories/lunch/british/": {
   "hash": "184d640b94a4",
-  "lastmod": "2026-10-20",
-  "derivedHash": "3f05c2014a8f"
+  "lastmod": "2026-10-21",
+  "derivedHash": "06982ceed0dd"
  },
  "/categories/lunch/canadian/": {
   "hash": "dab0b692bec8",
@@ -1206,8 +1206,8 @@
  },
  "/cuisines/german/": {
   "hash": "2720fb9d9631",
-  "lastmod": "2026-10-20",
-  "derivedHash": "6b2763d6fc2d"
+  "lastmod": "2026-10-21",
+  "derivedHash": "de0cb67c0266"
  },
  "/cuisines/ghanaian/": {
   "hash": "cfe9052bfb37",
@@ -1647,7 +1647,7 @@
  "/ingredients/lentils/": {
   "hash": "11bb4526f773",
   "lastmod": "2026-10-21",
-  "derivedHash": "bbcc879662ea"
+  "derivedHash": "6ff5aa0e3890"
  },
  "/ingredients/lime/": {
   "hash": "d1a2e51c23f2",
@@ -8714,8 +8714,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/egg-and-bacon-tart/": {
-  "hash": "b220e5f89146",
-  "lastmod": "2026-10-20"
+  "hash": "270b0cfcfddf",
+  "lastmod": "2026-10-21"
  },
  "/recipes/egg-and-cabbage-stir-fry/": {
   "hash": "90096f0b4905",
@@ -9642,8 +9642,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/french-lentils/": {
-  "hash": "390f4e6349c4",
-  "lastmod": "2026-10-20"
+  "hash": "9a4d608a11b0",
+  "lastmod": "2026-10-21"
  },
  "/recipes/french-onion-chicken/": {
   "hash": "cf60e1da3a1b",
@@ -10178,8 +10178,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/german-meatballs/": {
-  "hash": "f8a3ce3fbd7d",
-  "lastmod": "2026-10-20"
+  "hash": "2890c04609ed",
+  "lastmod": "2026-10-21"
  },
  "/recipes/german-potato-salad/": {
   "hash": "193070df0061",
@@ -16546,8 +16546,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/peanut-butter-chocolate-bars/": {
-  "hash": "e88dc94f2e8b",
-  "lastmod": "2026-10-20"
+  "hash": "167bb95197f7",
+  "lastmod": "2026-10-21"
  },
  "/recipes/peanut-butter-chocolate-chip-cookies/": {
   "hash": "313e9fbda46c",

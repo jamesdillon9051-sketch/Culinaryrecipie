@@ -1,6 +1,6 @@
 # Flickr photograph rounds (21 October 2026)
 
-229 recipe photographs added from Flickr's public commercial-use CC and public-domain search, in four rounds. For every one, the per-photo page was fetched and its licence link and photographer name matched the search record (229 of 229), and the photograph was looked at at full size against the recipe and its diet labels. Not cooking evidence: these are other people's photographs of the dish. Licences accepted: CC0, public domain, CC BY, CC BY-SA. NonCommercial and NoDerivatives are not used.
+229 recipe photographs added from Flickr's public commercial-use CC and public-domain search, in four rounds, and 4 from Wikimedia Commons. For every one, the per-photo page was fetched and its licence link and photographer name matched the record (233 of 233), and the photograph was looked at at full size against the recipe and its diet labels. Not cooking evidence: these are other people's photographs of the dish. Licences accepted: CC0, public domain, CC BY, CC BY-SA. NonCommercial and NoDerivatives are not used.
 
 ## Round 1: 26 photographs
 
@@ -27,8 +27,15 @@
 - Where one photograph matched several sibling recipes (instant-pot, slow-cooker and sheet-pan versions of one dish), it was given to one recipe only. No archive page is used for two recipes.
 - Rejected after full-size review, among others: uncooked dough or raw ingredients (gnocchi), a photograph with a visible watermark or logo (a sous-vide blog, a recipe blog), a different dish under the same words (cabbage-roll soup shown as cabbage rolls; butter chicken shown as tandoori skewers; sticky toffee pudding shown as a chocolate pudding), cornbread croutons on a Gluten-Free split-pea soup, mashed potato on a Dairy-Free pot roast, eggs on a Vegan potato salad, marshmallow pieces in a Vegetarian fudge, a seafood risotto for a parmesan one, and photographs that were advertising, signs or people.
 
+## Wikimedia Commons and Wikipedia (4 photographs, partial)
+
+- A Commons text search covered all 1,113 recipes then without a picture, and an exact-title Wikipedia article lookup covered 988. Together they returned 1,242 candidates for 407 recipes that still had no picture after round 4.
+- Wikimedia's upload server rate-limits this network (HTTP 429 with no Retry-After), so the downloads ran at about 45 an hour and only 89 of the 721 planned (the top two for each recipe, in-export recipes first) had been attempted when this was committed; 68 downloaded. All 68 were reviewed. Most Commons text matches are not food (a park bench, a library interior, an archive page, a pain patch), so the yield was 4 adopted of 68.
+- Adopted (selected.csv, source "Wikimedia Commons", file page checked for licence and author): egg-and-bacon-tart (CC0), french-lentils (CC BY 3.0), german-meatballs (CC BY-SA 4.0), peanut-butter-chocolate-bars (CC BY-SA 2.0).
+- The remaining roughly 630 Commons candidates are neither downloaded nor reviewed. Treat the 906 recipes still without a picture as not exhausted for Commons.
+
 ## State after the rounds
 
-910 recipes still have no picture (MISSING-IMAGES.txt).
+906 recipes still have no picture (MISSING-IMAGES.txt).
 
-Sources that could not be used from this environment (blocked): Pexels, Pixabay, StockSnap, Unsplash, Rawpixel, Kaboompics, Stockvault. PxHere and Foodiesfeed were reachable but their reuse terms for this site were not clear enough to adopt from. Openverse returned no results to this environment's queries. A Wikimedia Commons text search for the remaining recipes was still running when this round was committed; its results are not part of the 229.
+Sources that could not be used from this environment (blocked): Pexels, Pixabay, StockSnap, Unsplash, Rawpixel, Kaboompics, Stockvault. PxHere and Foodiesfeed were reachable but their reuse terms for this site were not clear enough to adopt from. Openverse returned no results to this environment's queries. Wikimedia Commons was searched; see the section above for what could and could not be downloaded.

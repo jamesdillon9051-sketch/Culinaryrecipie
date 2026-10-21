@@ -1270,15 +1270,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/french-lentils/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/french-lentils.jpg</image:loc>
+      <image:title>French Lentils</image:title>
+      <image:caption>French Lentils</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/german-meatballs/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/german-meatballs.jpg</image:loc>
+      <image:title>German Meatballs</image:title>
+      <image:caption>German Meatballs</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/german-red-cabbage/</loc>
@@ -1573,9 +1583,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egg-and-bacon-tart/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/egg-and-bacon-tart.jpg</image:loc>
+      <image:title>Egg and Bacon Tart</image:title>
+      <image:caption>Egg and Bacon Tart</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/irish-potato-cakes/</loc>
@@ -2150,9 +2165,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/peanut-butter-chocolate-bars/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/peanut-butter-chocolate-bars.jpg</image:loc>
+      <image:title>Peanut Butter Chocolate Bars</image:title>
+      <image:caption>Peanut Butter Chocolate Bars</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/double-chocolate-cookies/</loc>
