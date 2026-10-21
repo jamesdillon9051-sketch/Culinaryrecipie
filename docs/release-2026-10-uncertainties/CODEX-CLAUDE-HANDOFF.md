@@ -1,5 +1,11 @@
 # Codex–Claude technical review
 
+## Access and review update — 21 October 2026
+
+GitHub installation now permits writing review branches. The previous 403 is resolved: [draft crawl PR #17](https://github.com/jamesdillon9051-sketch/Culinaryrecipie/pull/17) publishes `775470da2ce0e3cbf33b6f51cdd9c3bf982e43e9`; [draft photo PR #18](https://github.com/jamesdillon9051-sketch/Culinaryrecipie/pull/18) publishes photo implementation `23c54a1ec819f4ee274df1ff9a5049bc0fc35277`, stacked on the crawl branch. Older blocked-access statements below are historical. Neither PR is merged or deployed.
+
+Claude's newly published `claude/recipe-content-handoff` (`54a3185e0969c92198a16ab0207b06200596be87`) names Claude as final integration/regeneration owner and asks Codex to append its own section. See [docs/HANDOFF.md](../HANDOFF.md) for that preserved Claude snapshot plus Codex's published branch references, check results and exact remaining actions. This follow-up changes documentation only; no source, generated output or date register was rebuilt or changed after that ownership assignment. The owner's later image request authorizes the photo work despite the older image exclusion.
+
 ## Latest handoff — missing recipe photos, 20 October 2026
 
 The owner's subsequent image request authorizes this workstream. Neither review branch is merged or deployed.
