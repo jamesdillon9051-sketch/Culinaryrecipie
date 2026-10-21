@@ -1,0 +1,47 @@
+WEEKLY DELIGHT — REAL RECIPE PHOTOS
+21 October 2026 | Review branch; not merged or deployed
+
+RESULT
+64 additional real, licensed photos selected and added to source. No-picture recipes fall from 1,237 to 1,173 after regeneration. There are now 4,241 photographed recipes of 5,515. The 101 older illustration-only recipes remain separate.
+
+BRANCH AND COMMIT
+images/remaining-recipe-photos-2026-10-21
+Base: c8d95127862832f6f58e3717934dba1631483cad
+Implementation: 1cf3f5250b86fa0020bbecf50f1b794237aa0a93
+Claude owns the final integrated regeneration. Generated public pages, asset copies, sitemap files and content-date register are not committed in this source branch.
+
+SOURCE AND REVIEW
+62 selections came from Flickr and two from Wikimedia Commons. Every selected source page and licence was checked individually; each final crop was visually reviewed against the dish and its diet presentation. Licences: 44 CC BY 2.0, 19 CC BY-SA 2.0 and one Public Domain Mark. ShareAlike notices remain visible. No new AI photos or cooking-test claims.
+484 recipe/photo candidates were contact-screened; 111 candidates were checked at full size, plus eight custom crops. Plating, topping, cut and pasta-shape variations are disclosed in PREVIEWS.md and selected.csv. These are illustrative dish photos, not proof that anyone cooked this exact recipe.
+
+COVERAGE LIMITS
+Flickr later returned empty photo models even for the known-positive Beef Ragu and Gooseberry Fool controls. We stopped: 677 false-empty records were reclassified as unverified and 214 later recipes were not attempted. There are 891 unverified Flickr searches, 317 recipe records with candidates and 29 without an eligible candidate in a bounded response. This does not prove no usable photos exist. Openverse returned an access challenge and was left aside.
+The coverage CSV tracks all 1,237 starting gaps. Candidate leads exist for 257 still-unresolved recipes; those leads require review before use. None of these image counts establish current Google indexing status or guarantee indexing.
+
+WHAT CHANGED
+64 hero records and 128 source JPG/WebP files, all 800 × 600 (6.28 MB together). Existing populated image records and assets are preserved. Optional HTTPS attribution links honour the Cranberry Meatballs and Chocolate Chip Cookie Bars source requirements. Organisation image creators are typed correctly without changing the recipe author.
+The About-page statistics now inspect source images before output is copied, fixing the confirmed stale first-build count. Flickr searches normalize source URL trailing slashes, reject paid-ad imagery and require positive controls. Focused regressions cover the changes. Counts and attribution registers were refreshed; recipe-content files were not edited.
+
+VERIFICATION
+Build and check passed in an isolated checkout: 5,875 site pages checked, 5,871 sitemap URLs and 5,515 search records. The first build with stale output photos now counts all 4,241 photographed recipes correctly. An unchanged rebuild changes zero date records. Exactly 64 recipe dates and 36 collection/info records change for the photo additions.
+All new image pairs decode at 800 × 600 and match recorded hashes. The 64 pages have the intended image metadata, preferred canonical and no noindex. Advertising source and all 64 pages’ ad markup are unchanged. Sixteen desktop/mobile browser cases pass image load, credit links, licence, schema and overflow checks. Final selected photos have no exact or near matches against the 4,761 existing images at the recorded duplicate-screen threshold.
+
+CLAUDE CONTENT REVIEW
+PHOTO-CONTENT-02 — chocolate-pots
+src/data/details56/01-ice-cream-fudge-and-no-bake-a.js, record starting at line 18.
+The recipe lists “3 egg yolks” without a pasteurised qualifier, adds them after hot cream stands for two minutes, and chills without a specified safe custard-temperature step. The prose says to add the yolks while warm, not hot. Review against the repository egg-handling rule using substantiated guidance. Codex has not edited Claude’s recipe file; the selected photo is not food-safety evidence.
+
+EXACT NEXT STEPS FOR CLAUDE
+Review the selections and their serving variations in docs/remaining-recipe-photos-2026-10-21/PREVIEWS.md. Recheck ingredient, method and diet fingerprints against newer recipe edits. Preserve each source, photographer, licence and required credit link.
+Combine the source changes with the other reviewed work, keeping the new credit and inventory tests. PR #21’s generic step-name correction is separate and not included here.
+Run npm run build, npm run readme, npm run attribution, npm run missing, and npm run check. Regenerate public pages, asset copies, sitemaps and content dates together. Verify a second unchanged build has zero date churn; never hand-edit dates.
+Obtain owner approval for merge/deployment. After an approved deployment, check representative new JPG/WebP URLs, rendered mobile crops, credits, canonical and image schema against the deployed commit. No merge, deployment or current indexing claim is made in this report.
+Continue the 1,173 gap list and the separate 101 legacy illustration-only recipes with real, matching, commercially usable photos. Search failure stays “unverified”; candidate rows are not approval.
+
+FILES TO GIVE CLAUDE
+README.md — detailed report and integration checklist
+selected.csv / selected.json — 64 sources, credits, licences, hashes and review notes
+PREVIEWS.md — all selected photos and disclosed serving variations
+coverage.csv — all 1,237 starting image gaps and present branch outcomes
+candidate-leads.csv — remaining leads requiring review
+review-decisions.json, source-controls.json, verification-summary.json and browser-review.json — evidence

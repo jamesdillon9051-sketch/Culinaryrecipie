@@ -1,0 +1,14 @@
+{
+  "initial_positive_controls": {
+    "Beef Ragu": 25,
+    "Gooseberry Fool": 3
+  },
+  "later_positive_controls": {
+    "Beef Ragu": 0,
+    "Gooseberry Fool": 0
+  },
+  "later_model": "Both search and photo-model arrays empty; sponsored Getty images ignored",
+  "false_zero_records_reclassified": 677,
+  "not_attempted_after_stop": 214,
+  "total_inventory": 1237
+}

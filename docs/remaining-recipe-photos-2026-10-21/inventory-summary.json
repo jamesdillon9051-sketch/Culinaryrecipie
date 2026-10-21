@@ -1,0 +1,29 @@
+{
+  "starting_gaps": 1237,
+  "selected": 64,
+  "remaining_gaps": 1173,
+  "recipes_with_real_photos": 4241,
+  "legacy_illustration_only_unchanged": 101,
+  "total_recipes": 5515,
+  "flickr_results": {
+    "unverified_search": 891,
+    "candidates_need_visual_review": 317,
+    "no_eligible_candidate_in_bounded_search": 29
+  },
+  "new_search_source_counts": {
+    "Flickr_recipe_records": 1237,
+    "Commons_targeted_recipe_queries": 15,
+    "Commons_continued_categories": 7
+  },
+  "unique_full_size_candidates_reviewed": 111,
+  "custom_crops_reviewed": 8,
+  "selected_source_counts": {
+    "Flickr": 62,
+    "Wikimedia Commons": 2
+  },
+  "candidate_recipe_assignments": 1278,
+  "remaining_recipes_with_candidate_leads": 257,
+  "historical_export_sample_matches_among_selected": 31,
+  "recipe_photo_candidates_downloaded_and_contact_screened": 484,
+  "distinct_source_photo_pages_screened": 481
+}
