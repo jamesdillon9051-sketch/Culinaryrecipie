@@ -1,0 +1,275 @@
+[
+  {
+    "url": "https://weeklydelight.com/src/build.js",
+    "type": "private",
+    "status": 404,
+    "expected": "not served",
+    "final_url": "https://weeklydelight.com/src/build.js"
+  },
+  {
+    "url": "https://weeklydelight.com/src/data/catalog.js",
+    "type": "private",
+    "status": 404,
+    "expected": "not served",
+    "final_url": "https://weeklydelight.com/src/data/catalog.js"
+  },
+  {
+    "url": "https://weeklydelight.com/src/server/contact-send.php",
+    "type": "private",
+    "status": 404,
+    "expected": "not served",
+    "final_url": "https://weeklydelight.com/src/server/contact-send.php"
+  },
+  {
+    "url": "https://weeklydelight.com/tools/check.js",
+    "type": "private",
+    "status": 404,
+    "expected": "not served",
+    "final_url": "https://weeklydelight.com/tools/check.js"
+  },
+  {
+    "url": "https://weeklydelight.com/tools/keywords/KEYWORDS.csv",
+    "type": "private",
+    "status": 404,
+    "expected": "not served",
+    "final_url": "https://weeklydelight.com/tools/keywords/KEYWORDS.csv"
+  },
+  {
+    "url": "https://weeklydelight.com/CLAUDE.md",
+    "type": "private",
+    "status": 404,
+    "expected": "not served",
+    "final_url": "https://weeklydelight.com/CLAUDE.md"
+  },
+  {
+    "url": "https://weeklydelight.com/README.md",
+    "type": "private",
+    "status": 404,
+    "expected": "not served",
+    "final_url": "https://weeklydelight.com/README.md"
+  },
+  {
+    "url": "https://weeklydelight.com/package.json",
+    "type": "private",
+    "status": 404,
+    "expected": "not served",
+    "final_url": "https://weeklydelight.com/package.json"
+  },
+  {
+    "url": "https://weeklydelight.com/netlify.toml",
+    "type": "private",
+    "status": 404,
+    "expected": "not served",
+    "final_url": "https://weeklydelight.com/netlify.toml"
+  },
+  {
+    "url": "https://weeklydelight.com/vercel.json",
+    "type": "private",
+    "status": 404,
+    "expected": "not served",
+    "final_url": "https://weeklydelight.com/vercel.json"
+  },
+  {
+    "url": "https://weeklydelight.com/_redirects",
+    "type": "private",
+    "status": 404,
+    "expected": "not served",
+    "final_url": "https://weeklydelight.com/_redirects"
+  },
+  {
+    "url": "https://weeklydelight.com/suspects.json",
+    "type": "private",
+    "status": 404,
+    "expected": "not served",
+    "final_url": "https://weeklydelight.com/suspects.json"
+  },
+  {
+    "url": "https://weeklydelight.com/content_audit.csv",
+    "type": "private",
+    "status": 404,
+    "expected": "not served",
+    "final_url": "https://weeklydelight.com/content_audit.csv"
+  },
+  {
+    "url": "https://weeklydelight.com/quality_report.csv",
+    "type": "private",
+    "status": 404,
+    "expected": "not served",
+    "final_url": "https://weeklydelight.com/quality_report.csv"
+  },
+  {
+    "url": "https://weeklydelight.com/MISSING-IMAGES.txt",
+    "type": "private",
+    "status": 404,
+    "expected": "not served",
+    "final_url": "https://weeklydelight.com/MISSING-IMAGES.txt"
+  },
+  {
+    "url": "https://weeklydelight.com/.git/config",
+    "type": "private",
+    "status": 403,
+    "expected": "not served",
+    "final_url": "https://weeklydelight.com/.git/config"
+  },
+  {
+    "url": "https://weeklydelight.com/.gitignore",
+    "type": "private",
+    "status": 404,
+    "expected": "not served",
+    "final_url": "https://weeklydelight.com/.gitignore"
+  },
+  {
+    "url": "https://weeklydelight.com/backups/",
+    "type": "private",
+    "status": 404,
+    "expected": "not served",
+    "final_url": "https://weeklydelight.com/backups/"
+  },
+  {
+    "url": "https://weeklydelight.com/logs/x.jsonl",
+    "type": "private",
+    "status": 404,
+    "expected": "not served",
+    "final_url": "https://weeklydelight.com/logs/x.jsonl"
+  },
+  {
+    "url": "https://weeklydelight.com/docs/audit-2026-10/REPORT.md",
+    "type": "private",
+    "status": 404,
+    "expected": "not served",
+    "final_url": "https://weeklydelight.com/docs/audit-2026-10/REPORT.md"
+  },
+  {
+    "url": "https://weeklydelight.com/contact/_pages/sent.html",
+    "type": "private",
+    "status": 404,
+    "expected": "not served",
+    "final_url": "https://weeklydelight.com/contact/_pages/sent.html"
+  },
+  {
+    "url": "https://weeklydelight.com/contact/_pages/not-sent.html",
+    "type": "private",
+    "status": 404,
+    "expected": "not served",
+    "final_url": "https://weeklydelight.com/contact/_pages/not-sent.html"
+  },
+  {
+    "url": "https://weeklydelight.com/",
+    "type": "public",
+    "status": 200,
+    "expected": 200,
+    "final_url": "https://weeklydelight.com/"
+  },
+  {
+    "url": "https://weeklydelight.com/recipes/",
+    "type": "public",
+    "status": 200,
+    "expected": 200,
+    "final_url": "https://weeklydelight.com/recipes/"
+  },
+  {
+    "url": "https://weeklydelight.com/recipes/focaccia/",
+    "type": "public",
+    "status": 200,
+    "expected": 200,
+    "final_url": "https://weeklydelight.com/recipes/focaccia/"
+  },
+  {
+    "url": "https://weeklydelight.com/assets/css/main.css",
+    "type": "public",
+    "status": 200,
+    "expected": 200,
+    "final_url": "https://weeklydelight.com/assets/css/main.css"
+  },
+  {
+    "url": "https://weeklydelight.com/assets/js/app.js",
+    "type": "public",
+    "status": 200,
+    "expected": 200,
+    "final_url": "https://weeklydelight.com/assets/js/app.js"
+  },
+  {
+    "url": "https://weeklydelight.com/assets/img/recipes/focaccia.jpg",
+    "type": "public",
+    "status": 200,
+    "expected": 200,
+    "final_url": "https://weeklydelight.com/assets/img/recipes/focaccia.jpg"
+  },
+  {
+    "url": "https://weeklydelight.com/search-index.json",
+    "type": "public",
+    "status": 200,
+    "expected": 200,
+    "final_url": "https://weeklydelight.com/search-index.json"
+  },
+  {
+    "url": "https://weeklydelight.com/sitemap-index.xml",
+    "type": "public",
+    "status": 200,
+    "expected": 200,
+    "final_url": "https://weeklydelight.com/sitemap-index.xml"
+  },
+  {
+    "url": "https://weeklydelight.com/robots.txt",
+    "type": "public",
+    "status": 200,
+    "expected": 200,
+    "final_url": "https://weeklydelight.com/robots.txt"
+  },
+  {
+    "url": "https://weeklydelight.com/ads.txt",
+    "type": "public",
+    "status": 200,
+    "expected": 200,
+    "final_url": "https://weeklydelight.com/ads.txt"
+  },
+  {
+    "url": "https://weeklydelight.com/feed.xml",
+    "type": "public",
+    "status": 200,
+    "expected": 200,
+    "final_url": "https://weeklydelight.com/feed.xml"
+  },
+  {
+    "url": "https://weeklydelight.com/manifest.json",
+    "type": "public",
+    "status": 200,
+    "expected": 200,
+    "final_url": "https://weeklydelight.com/manifest.json"
+  },
+  {
+    "url": "https://weeklydelight.com/images-attribution.md",
+    "type": "public",
+    "status": 200,
+    "expected": 200,
+    "final_url": "https://weeklydelight.com/images-attribution.md"
+  },
+  {
+    "url": "https://weeklydelight.com/contact/",
+    "type": "public",
+    "status": 200,
+    "expected": 200,
+    "final_url": "https://weeklydelight.com/contact/"
+  },
+  {
+    "url": "https://weeklydelight.com/about/",
+    "type": "public",
+    "status": 200,
+    "expected": 200,
+    "final_url": "https://weeklydelight.com/about/"
+  },
+  {
+    "url": "https://weeklydelight.com/privacy/",
+    "type": "public",
+    "status": 200,
+    "expected": 200,
+    "final_url": "https://weeklydelight.com/privacy/"
+  },
+  {
+    "url": "https://weeklydelight.com/404.html",
+    "type": "public",
+    "status": 200,
+    "expected": 200,
+    "final_url": "https://weeklydelight.com/404.html"
+  }
+]

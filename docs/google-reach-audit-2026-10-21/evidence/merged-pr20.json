@@ -1,0 +1,14 @@
+[
+  {
+    "number": 20,
+    "title": "Trenette tag, unbaked flour specification, rebuilt output",
+    "state": "closed",
+    "merged": true,
+    "merged_at": "2026-10-21T07:52:43Z",
+    "merge_commit_sha": "c8d95127862832f6f58e3717934dba1631483cad",
+    "html_url": "https://github.com/jamesdillon9051-sketch/Culinaryrecipie/pull/20",
+    "head": "134d8177a3ca93aeb533dd07535f0e4772c86afe",
+    "head_branch": "claude/recipe-content-after-codex",
+    "base": "main"
+  }
+]

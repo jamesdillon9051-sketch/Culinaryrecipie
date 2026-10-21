@@ -1,0 +1,40 @@
+{
+  "base": "c8d95127862832f6f58e3717934dba1631483cad",
+  "historical_records": 236,
+  "reviewed_records": [
+    {
+      "historical_id": "edible-cookie-dough|time-claim-untimed|description: Ready in 20 minutes",
+      "recipe_slug": "edible-cookie-dough",
+      "source_file": "src/data/details31/04b-desserts-and-holidays.js",
+      "current_assessment": "Superseded in PR #20; historical finding no longer describes current source and byte-matched live sample",
+      "evidence": "Ready-to-eat flour explicitly required; home treatment and required flour-cooling step removed. Edible dough description now Ready in 10 minutes; no old 20-minute readiness claim. Product manufacturer label not independently verified.",
+      "ledger_owner": "Claude; review before updating original ledger"
+    },
+    {
+      "historical_id": "edible-cookie-dough|raw-flour|flour",
+      "recipe_slug": "edible-cookie-dough",
+      "source_file": "src/data/details31/04b-desserts-and-holidays.js",
+      "current_assessment": "Superseded in PR #20; historical finding no longer describes current source and byte-matched live sample",
+      "evidence": "Ready-to-eat flour explicitly required; home treatment and required flour-cooling step removed. Edible dough description now Ready in 10 minutes; no old 20-minute readiness claim. Product manufacturer label not independently verified.",
+      "ledger_owner": "Claude; review before updating original ledger"
+    },
+    {
+      "historical_id": "cookie-dough-bites|raw-flour|flour",
+      "recipe_slug": "cookie-dough-bites",
+      "source_file": "src/data/details41/05-puddings-cakes-and-sweet-bakes.js",
+      "current_assessment": "Superseded in PR #20; historical finding no longer describes current source and byte-matched live sample",
+      "evidence": "Ready-to-eat flour explicitly required; home treatment and required flour-cooling step removed. Edible dough description now Ready in 10 minutes; no old 20-minute readiness claim. Product manufacturer label not independently verified.",
+      "ledger_owner": "Claude; review before updating original ledger"
+    },
+    {
+      "historical_id": "cookie-dough-bars|raw-flour|flour",
+      "recipe_slug": "cookie-dough-bars",
+      "source_file": "src/data/details55/02-cookies-cakes-and-biscuits-b.js",
+      "current_assessment": "Superseded in PR #20; historical finding no longer describes current source and byte-matched live sample",
+      "evidence": "Ready-to-eat flour explicitly required; home treatment and required flour-cooling step removed. Edible dough description now Ready in 10 minutes; no old 20-minute readiness claim. Product manufacturer label not independently verified.",
+      "ledger_owner": "Claude; review before updating original ledger"
+    }
+  ],
+  "remaining_historical_records_not_newly_confirmed": 232,
+  "scope": "This is a four-record source review, not a rerun or disposition of the entire stronger unmerged validator queue."
+}

@@ -1,0 +1,424 @@
+{
+  "thirdPartiesBlockedLocally": true,
+  "fieldPerformance": false,
+  "results": [
+    {
+      "width": 390,
+      "path": "/",
+      "status": 200,
+      "title": "Weekly Delight — 5515 Famous Recipes Explained",
+      "scrollWidth": 390,
+      "viewport": 390,
+      "domNodes": 1153,
+      "h1s": 1,
+      "recipeLinks": 35,
+      "brokenImages": [],
+      "blankAlt": [],
+      "renderedImages": 44,
+      "transferBytes": 317288,
+      "navigation": [
+        {
+          "decodedBytes": 78184,
+          "encodedBytes": 14602,
+          "domContentLoadedMs": 443.8999999985099
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/recipes/",
+      "status": 200,
+      "title": "All Recipes | Weekly Delight",
+      "scrollWidth": 390,
+      "viewport": 390,
+      "domNodes": 13746,
+      "h1s": 1,
+      "recipeLinks": 5515,
+      "brokenImages": [],
+      "blankAlt": [],
+      "renderedImages": 60,
+      "transferBytes": 798175,
+      "navigation": [
+        {
+          "decodedBytes": 457983,
+          "encodedBytes": 86536,
+          "domContentLoadedMs": 159.40000000037253
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/recipes/baked-peaches-with-cinnamon/",
+      "status": 200,
+      "title": "Baked Peaches with Cinnamon Recipe — Easy | Weekly Delight",
+      "scrollWidth": 390,
+      "viewport": 390,
+      "domNodes": 667,
+      "h1s": 1,
+      "recipeLinks": 6,
+      "brokenImages": [],
+      "blankAlt": [],
+      "renderedImages": 5,
+      "transferBytes": 138797,
+      "navigation": [
+        {
+          "decodedBytes": 57567,
+          "encodedBytes": 15652,
+          "domContentLoadedMs": 171.19999999925494
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/recipes/leche-flan/",
+      "status": 200,
+      "title": "Leche Flan Recipe | Weekly Delight",
+      "scrollWidth": 390,
+      "viewport": 390,
+      "domNodes": 693,
+      "h1s": 1,
+      "recipeLinks": 6,
+      "brokenImages": [],
+      "blankAlt": [],
+      "renderedImages": 6,
+      "transferBytes": 170441,
+      "navigation": [
+        {
+          "decodedBytes": 58424,
+          "encodedBytes": 16035,
+          "domContentLoadedMs": 116.09999999962747
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/recipes/giardiniera/",
+      "status": 200,
+      "title": "Giardiniera Recipe — Easy | Weekly Delight",
+      "scrollWidth": 390,
+      "viewport": 390,
+      "domNodes": 743,
+      "h1s": 1,
+      "recipeLinks": 6,
+      "brokenImages": [],
+      "blankAlt": [],
+      "renderedImages": 5,
+      "transferBytes": 151575,
+      "navigation": [
+        {
+          "decodedBytes": 61775,
+          "encodedBytes": 16781,
+          "domContentLoadedMs": 129
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/categories/baking/italian/",
+      "status": 200,
+      "title": "Italian Baking Recipes — 52 Dishes | Weekly Delight",
+      "scrollWidth": 390,
+      "viewport": 390,
+      "domNodes": 1843,
+      "h1s": 1,
+      "recipeLinks": 52,
+      "brokenImages": [],
+      "blankAlt": [],
+      "renderedImages": 39,
+      "transferBytes": 230420,
+      "navigation": [
+        {
+          "decodedBytes": 111874,
+          "encodedBytes": 16225,
+          "domContentLoadedMs": 103.69999999925494
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/cuisines/bolivian/",
+      "status": 200,
+      "title": "Bolivian Recipes — 1 Dishes | Weekly Delight",
+      "scrollWidth": 390,
+      "viewport": 390,
+      "domNodes": 244,
+      "h1s": 1,
+      "recipeLinks": 1,
+      "brokenImages": [],
+      "blankAlt": [],
+      "renderedImages": 1,
+      "transferBytes": 167940,
+      "navigation": [
+        {
+          "decodedBytes": 26479,
+          "encodedBytes": 8511,
+          "domContentLoadedMs": 91.60000000149012
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/search/",
+      "status": 200,
+      "title": "Search Recipes | Weekly Delight",
+      "scrollWidth": 390,
+      "viewport": 390,
+      "domNodes": 2708,
+      "h1s": 1,
+      "recipeLinks": 60,
+      "brokenImages": [],
+      "blankAlt": [],
+      "renderedImages": 60,
+      "transferBytes": 798175,
+      "navigation": [
+        {
+          "decodedBytes": 47276,
+          "encodedBytes": 10355,
+          "domContentLoadedMs": 161.5
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "path": "/about/",
+      "status": 200,
+      "title": "About | Weekly Delight",
+      "scrollWidth": 390,
+      "viewport": 390,
+      "domNodes": 272,
+      "h1s": 1,
+      "recipeLinks": 0,
+      "brokenImages": [],
+      "blankAlt": [],
+      "renderedImages": 0,
+      "transferBytes": 109990,
+      "navigation": [
+        {
+          "decodedBytes": 34369,
+          "encodedBytes": 11377,
+          "domContentLoadedMs": 116.90000000037253
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 1280,
+      "path": "/",
+      "status": 200,
+      "title": "Weekly Delight — 5515 Famous Recipes Explained",
+      "scrollWidth": 1280,
+      "viewport": 1280,
+      "domNodes": 1153,
+      "h1s": 1,
+      "recipeLinks": 35,
+      "brokenImages": [],
+      "blankAlt": [],
+      "renderedImages": 44,
+      "transferBytes": 442262,
+      "navigation": [
+        {
+          "decodedBytes": 78184,
+          "encodedBytes": 14602,
+          "domContentLoadedMs": 499.40000000037253
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 1280,
+      "path": "/recipes/",
+      "status": 200,
+      "title": "All Recipes | Weekly Delight",
+      "scrollWidth": 1280,
+      "viewport": 1280,
+      "domNodes": 13746,
+      "h1s": 1,
+      "recipeLinks": 5515,
+      "brokenImages": [],
+      "blankAlt": [],
+      "renderedImages": 60,
+      "transferBytes": 986673,
+      "navigation": [
+        {
+          "decodedBytes": 457983,
+          "encodedBytes": 86536,
+          "domContentLoadedMs": 180.2000000011176
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 1280,
+      "path": "/recipes/baked-peaches-with-cinnamon/",
+      "status": 200,
+      "title": "Baked Peaches with Cinnamon Recipe — Easy | Weekly Delight",
+      "scrollWidth": 1280,
+      "viewport": 1280,
+      "domNodes": 667,
+      "h1s": 1,
+      "recipeLinks": 6,
+      "brokenImages": [],
+      "blankAlt": [],
+      "renderedImages": 5,
+      "transferBytes": 138797,
+      "navigation": [
+        {
+          "decodedBytes": 57567,
+          "encodedBytes": 15652,
+          "domContentLoadedMs": 137.5
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 1280,
+      "path": "/recipes/leche-flan/",
+      "status": 200,
+      "title": "Leche Flan Recipe | Weekly Delight",
+      "scrollWidth": 1280,
+      "viewport": 1280,
+      "domNodes": 693,
+      "h1s": 1,
+      "recipeLinks": 6,
+      "brokenImages": [],
+      "blankAlt": [],
+      "renderedImages": 6,
+      "transferBytes": 170441,
+      "navigation": [
+        {
+          "decodedBytes": 58424,
+          "encodedBytes": 16035,
+          "domContentLoadedMs": 111.89999999850988
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 1280,
+      "path": "/recipes/giardiniera/",
+      "status": 200,
+      "title": "Giardiniera Recipe — Easy | Weekly Delight",
+      "scrollWidth": 1280,
+      "viewport": 1280,
+      "domNodes": 743,
+      "h1s": 1,
+      "recipeLinks": 6,
+      "brokenImages": [],
+      "blankAlt": [],
+      "renderedImages": 5,
+      "transferBytes": 151575,
+      "navigation": [
+        {
+          "decodedBytes": 61775,
+          "encodedBytes": 16781,
+          "domContentLoadedMs": 145.09999999962747
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 1280,
+      "path": "/categories/baking/italian/",
+      "status": 200,
+      "title": "Italian Baking Recipes — 52 Dishes | Weekly Delight",
+      "scrollWidth": 1280,
+      "viewport": 1280,
+      "domNodes": 1843,
+      "h1s": 1,
+      "recipeLinks": 52,
+      "brokenImages": [],
+      "blankAlt": [],
+      "renderedImages": 39,
+      "transferBytes": 347916,
+      "navigation": [
+        {
+          "decodedBytes": 111874,
+          "encodedBytes": 16225,
+          "domContentLoadedMs": 97.80000000074506
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 1280,
+      "path": "/cuisines/bolivian/",
+      "status": 200,
+      "title": "Bolivian Recipes — 1 Dishes | Weekly Delight",
+      "scrollWidth": 1280,
+      "viewport": 1280,
+      "domNodes": 244,
+      "h1s": 1,
+      "recipeLinks": 1,
+      "brokenImages": [],
+      "blankAlt": [],
+      "renderedImages": 1,
+      "transferBytes": 167940,
+      "navigation": [
+        {
+          "decodedBytes": 26479,
+          "encodedBytes": 8511,
+          "domContentLoadedMs": 89.70000000111759
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 1280,
+      "path": "/search/",
+      "status": 200,
+      "title": "Search Recipes | Weekly Delight",
+      "scrollWidth": 1280,
+      "viewport": 1280,
+      "domNodes": 2708,
+      "h1s": 1,
+      "recipeLinks": 60,
+      "brokenImages": [],
+      "blankAlt": [],
+      "renderedImages": 60,
+      "transferBytes": 986673,
+      "navigation": [
+        {
+          "decodedBytes": 47276,
+          "encodedBytes": 10355,
+          "domContentLoadedMs": 104.19999999925494
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 1280,
+      "path": "/about/",
+      "status": 200,
+      "title": "About | Weekly Delight",
+      "scrollWidth": 1280,
+      "viewport": 1280,
+      "domNodes": 272,
+      "h1s": 1,
+      "recipeLinks": 0,
+      "brokenImages": [],
+      "blankAlt": [],
+      "renderedImages": 0,
+      "transferBytes": 109990,
+      "navigation": [
+        {
+          "decodedBytes": 34369,
+          "encodedBytes": 11377,
+          "domContentLoadedMs": 96.09999999962747
+        }
+      ],
+      "errors": []
+    },
+    {
+      "live": true,
+      "error": "Error: page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://weeklydelight.com/recipes/baked-peaches-with-cinnamon/\nCall log:\n\u001b[2m  - navigating to \"https://weeklydelight.com/recipes/baked-peaches-with-cinnamon/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+    }
+  ]
+}

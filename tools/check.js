@@ -1160,7 +1160,7 @@ try {
    The food-handling audit fails on its confirmed findings too (oil preserves kept too long, jars
    kept in the cupboard unprocessed, raw egg without pasteurised eggs, raw fish with no parasite
    freezing, marinades left out of the fridge, raw flour), and its self-test pins each rule down. */
-for (const audit of ['timing-audit.js', 'timing-corpus.js', 'consistency-corpus.js', 'crawl-guard-test.js', 'crawl-dates-test.js', 'nutrition-audit.js', 'keyword-audit.js', 'seo-audit.js',
+for (const audit of ['timing-audit.js', 'timing-corpus.js', 'consistency-corpus.js', 'crawl-guard-test.js', 'crawl-dates-test.js', 'recipe-step-schema-test.js', 'nutrition-audit.js', 'keyword-audit.js', 'seo-audit.js',
                      'substitutions-audit.js', 'duplicates-audit.js', 'health-audit.js',
                      'robots-check.js', 'private-paths-check.js', 'image-inventory.js', ['mark-illustrations.js', '--check'],
                      ['voice-audit.js', '--strict'], ['voice-audit.js', '--check-docs'],

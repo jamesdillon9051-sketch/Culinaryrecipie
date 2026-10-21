@@ -1,0 +1,9 @@
+{
+  "queried_at": "2026-10-21T08:34:54.263267+00:00",
+  "resolver": "https://dns.google/resolve",
+  "dns_status": 0,
+  "txt_count": 2,
+  "google_site_verification_record_count": 1,
+  "handoff_record_present": false,
+  "limitation": "Published DNS records do not establish Search Console ownership verification or indexing status."
+}

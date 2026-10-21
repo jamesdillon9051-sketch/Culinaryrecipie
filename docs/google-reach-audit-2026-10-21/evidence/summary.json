@@ -1,0 +1,111 @@
+{
+  "base_commit": "c8d95127862832f6f58e3717934dba1631483cad",
+  "implementation_commit": "7937897dd5d0a28154a19e37dd67079796973fc4",
+  "branch": "audit/google-reach-2026-10-21",
+  "counts": {
+    "expected": 5871,
+    "types": {
+      "recipe": 5515,
+      "category": 10,
+      "category-combination": 193,
+      "cuisine": 92,
+      "ingredient": 51,
+      "other": 10
+    },
+    "generated_nonad_html": 5875,
+    "sitemap_entries": 5871,
+    "sitemap_unique": 5871,
+    "ordinary_anchor_reachable": 5871,
+    "unique_followable_edges": 250155,
+    "unique_titles": 5871,
+    "unique_h1s": 5871,
+    "gsc_rows": 1000,
+    "gsc_types": {
+      "recipe": 920,
+      "category-combination": 40,
+      "other": 3,
+      "cuisine": 19,
+      "ingredient": 17,
+      "category": 1
+    },
+    "declared_sitemap_images": 4278,
+    "error_pages": 0,
+    "errors": {},
+    "max_depth": 2,
+    "depth_distribution": {
+      "0": 1,
+      "1": 66,
+      "2": 5804
+    }
+  },
+  "sitemaps": {
+    "children": {
+      "https://weeklydelight.com/sitemap-1.xml": 490,
+      "https://weeklydelight.com/sitemap-2.xml": 490,
+      "https://weeklydelight.com/sitemap-3.xml": 490,
+      "https://weeklydelight.com/sitemap-4.xml": 490,
+      "https://weeklydelight.com/sitemap-5.xml": 490,
+      "https://weeklydelight.com/sitemap-6.xml": 490,
+      "https://weeklydelight.com/sitemap-7.xml": 490,
+      "https://weeklydelight.com/sitemap-8.xml": 490,
+      "https://weeklydelight.com/sitemap-9.xml": 490,
+      "https://weeklydelight.com/sitemap-10.xml": 490,
+      "https://weeklydelight.com/sitemap-11.xml": 490,
+      "https://weeklydelight.com/sitemap-12.xml": 481
+    },
+    "errors": [],
+    "extras": [],
+    "missing": [],
+    "duplicates": []
+  },
+  "live_target_count": 277,
+  "live_intended_pages": 63,
+  "live_types": {
+    "other": 10,
+    "recipe": 32,
+    "category": 4,
+    "category-combination": 6,
+    "cuisine": 6,
+    "ingredient": 5
+  },
+  "http_counts": {
+    "200": 273,
+    "404": 4
+  },
+  "image_breakdown": {
+    "photographs": 4177,
+    "illustrations": 101,
+    "missing": 1237
+  },
+  "gsc_recipe_image_gaps": 181,
+  "missing_file_count": 0,
+  "small_collections": 70,
+  "live_DOM_limit": "Chromium HTTPS trust error in this environment; validated HTTP/source via trusted Python client",
+  "pagespeed_limit": "API quota 429, not website rate limit",
+  "verification": {
+    "base": "c8d95127862832f6f58e3717934dba1631483cad",
+    "changedGeneratedRecipes": 5515,
+    "removedNumberedNames": 31893,
+    "unexpectedTrackedDifferences": [],
+    "onlyStepNamesChanged": true,
+    "unchangedSitemapFiles": true,
+    "unchangedDateRegister": true,
+    "liveXMLFilesMatch": 14,
+    "liveSitemapEntries": 5871,
+    "liveSitemapUnique": 5871,
+    "liveLastmodDistribution": {
+      "2026-10-20": 5607,
+      "2026-10-21": 8,
+      "2026-09-05": 4,
+      "2026-10-16": 72,
+      "2026-10-18": 13,
+      "2026-10-15": 37,
+      "2026-10-13": 86,
+      "2026-09-30": 1,
+      "2026-09-29": 7,
+      "2026-10-08": 1,
+      "2026-10-10": 31,
+      "2026-10-17": 4
+    }
+  }
+}
