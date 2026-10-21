@@ -1012,9 +1012,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/crispy-fish-tacos-with-slaw/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/crispy-fish-tacos-with-slaw.jpg</image:loc>
+      <image:title>Crispy Fish Tacos with Slaw</image:title>
+      <image:caption>Crispy Fish Tacos with Slaw</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/one-pan-chicken-and-rice/</loc>
@@ -1029,9 +1034,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/one-pan-sausage-and-potatoes/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/one-pan-sausage-and-potatoes.jpg</image:loc>
+      <image:title>One Pan Sausage and Potatoes</image:title>
+      <image:caption>One Pan Sausage and Potatoes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/one-pot-lasagne-soup/</loc>
@@ -2995,9 +3005,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/banana-cake-with-cream-cheese-icing/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/banana-cake-with-cream-cheese-icing.jpg</image:loc>
+      <image:title>Banana Cake with Cream Cheese Icing</image:title>
+      <image:caption>Banana Cake with Cream Cheese Icing</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/banana-walnut-loaf/</loc>
@@ -3936,9 +3951,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pasta-salad-with-italian-dressing/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pasta-salad-with-italian-dressing.jpg</image:loc>
+      <image:title>Pasta Salad with Italian Dressing</image:title>
+      <image:caption>Pasta Salad with Italian Dressing</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tortellini-salad/</loc>
@@ -4043,9 +4063,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-vegetable-soup/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/slow-cooker-vegetable-soup.jpg</image:loc>
+      <image:title>Slow Cooker Vegetable Soup</image:title>
+      <image:caption>Slow Cooker Vegetable Soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/curry-noodle-soup/</loc>
@@ -4228,9 +4253,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-vegetables/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-vegetables.jpg</image:loc>
+      <image:title>Air Fryer Vegetables</image:title>
+      <image:caption>Air Fryer Vegetables</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/prawn-noodle-soup/</loc>

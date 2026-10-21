@@ -269,9 +269,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-chicken-tikka-masala/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/slow-cooker-chicken-tikka-masala.jpg</image:loc>
+      <image:title>Slow Cooker Chicken Tikka Masala</image:title>
+      <image:caption>Slow Cooker Chicken Tikka Masala</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/instant-pot-butter-chicken/</loc>
@@ -287,15 +292,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/instant-pot-chana-masala/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-chana-masala.jpg</image:loc>
+      <image:title>Instant Pot Chana Masala</image:title>
+      <image:caption>Instant Pot Chana Masala</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sheet-pan-chicken-tikka/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sheet-pan-chicken-tikka.jpg</image:loc>
+      <image:title>Sheet Pan Chicken Tikka</image:title>
+      <image:caption>Sheet Pan Chicken Tikka</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lime-pickle/</loc>
@@ -1369,9 +1384,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/instant-pot-chicken-congee/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-chicken-congee.jpg</image:loc>
+      <image:title>Instant Pot Chicken Congee</image:title>
+      <image:caption>Instant Pot Chicken Congee</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salted-egg-yolk-chicken/</loc>
@@ -3617,9 +3637,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-salad-sandwich-with-cranberries/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-salad-sandwich-with-cranberries.jpg</image:loc>
+      <image:title>Chicken Salad Sandwich with Cranberries</image:title>
+      <image:caption>Chicken Salad Sandwich with Cranberries</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/peanut-butter-and-banana-sandwich/</loc>
@@ -4057,9 +4082,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-potato-wedges/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-potato-wedges.jpg</image:loc>
+      <image:title>Air Fryer Potato Wedges</image:title>
+      <image:caption>Air Fryer Potato Wedges</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-corn-ribs/</loc>
@@ -4109,9 +4139,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-sticky-ribs/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/slow-cooker-sticky-ribs.jpg</image:loc>
+      <image:title>Slow Cooker Sticky Ribs</image:title>
+      <image:caption>Slow Cooker Sticky Ribs</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-stuffed-peppers/</loc>
@@ -4447,9 +4482,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-burgers/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-burgers.jpg</image:loc>
+      <image:title>Air Fryer Burgers</image:title>
+      <image:caption>Air Fryer Burgers</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-chicken-nuggets/</loc>
@@ -4486,9 +4526,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-crab-cakes/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-crab-cakes.jpg</image:loc>
+      <image:title>Air Fryer Crab Cakes</image:title>
+      <image:caption>Air Fryer Crab Cakes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-drumsticks/</loc>
@@ -4521,21 +4566,36 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-falafel/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-falafel.jpg</image:loc>
+      <image:title>Air Fryer Falafel</image:title>
+      <image:caption>Air Fryer Falafel</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-fish-tacos/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-fish-tacos.jpg</image:loc>
+      <image:title>Air Fryer Fish Tacos</image:title>
+      <image:caption>Air Fryer Fish Tacos</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-fish-and-chips/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-fish-and-chips.jpg</image:loc>
+      <image:title>Air Fryer Fish and Chips</image:title>
+      <image:caption>Air Fryer Fish and Chips</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-fried-chicken/</loc>
@@ -4573,9 +4633,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-pierogies/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-pierogies.jpg</image:loc>
+      <image:title>Air Fryer Pierogies</image:title>
+      <image:caption>Air Fryer Pierogies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-pizza-rolls/</loc>
@@ -4585,15 +4650,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-popcorn-chicken/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-popcorn-chicken.jpg</image:loc>
+      <image:title>Air Fryer Popcorn Chicken</image:title>
+      <image:caption>Air Fryer Popcorn Chicken</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-pork-belly/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-pork-belly.jpg</image:loc>
+      <image:title>Air Fryer Pork Belly</image:title>
+      <image:caption>Air Fryer Pork Belly</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-quesadilla/</loc>
@@ -4603,21 +4678,36 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-spring-rolls/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-spring-rolls.jpg</image:loc>
+      <image:title>Air Fryer Spring Rolls</image:title>
+      <image:caption>Air Fryer Spring Rolls</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-stuffed-peppers/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-stuffed-peppers.jpg</image:loc>
+      <image:title>Air Fryer Stuffed Peppers</image:title>
+      <image:caption>Air Fryer Stuffed Peppers</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-tater-tots/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-tater-tots.jpg</image:loc>
+      <image:title>Air Fryer Tater Tots</image:title>
+      <image:caption>Air Fryer Tater Tots</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-turkey-breast/</loc>

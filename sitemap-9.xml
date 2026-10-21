@@ -1475,9 +1475,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-zucchini-fries/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-zucchini-fries.jpg</image:loc>
+      <image:title>Air Fryer Zucchini Fries</image:title>
+      <image:caption>Air Fryer Zucchini Fries</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-pork-chops/</loc>
@@ -1487,9 +1492,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-lasagne/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/slow-cooker-lasagne.jpg</image:loc>
+      <image:title>Slow Cooker Lasagne</image:title>
+      <image:caption>Slow Cooker Lasagne</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-chilli-con-carne/</loc>
@@ -1504,9 +1514,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-beef-bourguignon/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/slow-cooker-beef-bourguignon.jpg</image:loc>
+      <image:title>Slow Cooker Beef Bourguignon</image:title>
+      <image:caption>Slow Cooker Beef Bourguignon</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-honey-garlic-chicken/</loc>
@@ -1567,9 +1582,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/one-pan-mexican-rice/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/one-pan-mexican-rice.jpg</image:loc>
+      <image:title>One Pan Mexican Rice</image:title>
+      <image:caption>One Pan Mexican Rice</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bacon-lettuce-and-tomato-sandwich/</loc>
@@ -3596,9 +3616,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egyptian-rice-with-vermicelli/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/egyptian-rice-with-vermicelli.jpg</image:loc>
+      <image:title>Egyptian Rice with Vermicelli</image:title>
+      <image:caption>Egyptian Rice with Vermicelli</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egyptian-bean-sandwich/</loc>
