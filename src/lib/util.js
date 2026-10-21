@@ -267,7 +267,12 @@ function photoCredit(img, { compact = false } = {}) {
   /* "Unknown" is a true answer for a public-domain archive that names nobody,
      but "Title by Unknown" reads as a person called Unknown. The credit is the
      title, the licence and the archive, which is what can actually be said. */
-  const byline = img.author === 'Unknown' ? '' : ` by ${esc(img.author)}`;
+  /* Some creators request attribution linked to their own site. Preserve
+     existing credits when no such URL is supplied; never render script URLs. */
+  const author = typeof img.credit_url === 'string' && /^https:\/\//i.test(img.credit_url)
+    ? `<a href="${esc(img.credit_url)}" rel="nofollow noopener">${esc(img.author)}</a>`
+    : esc(img.author);
+  const byline = img.author === 'Unknown' ? '' : ` by ${author}`;
   /* Openverse hands back a caption of up to two hundred characters as the title.
      It is link text, so it is shortened for the eye and the link still goes to
      the page it names. */

@@ -208,9 +208,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bengali-sandesh/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bengali-sandesh.jpg</image:loc>
+      <image:title>Bengali Sandesh</image:title>
+      <image:caption>Bengali Sandesh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/rava-kesari/</loc>
@@ -807,9 +812,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/com-ga/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/com-ga.jpg</image:loc>
+      <image:title>Com Ga</image:title>
+      <image:caption>Com Ga</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/hu-tieu/</loc>
@@ -1768,9 +1778,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/norwegian-waffles/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/norwegian-waffles.jpg</image:loc>
+      <image:title>Norwegian Waffles</image:title>
+      <image:caption>Norwegian Waffles</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/paczki/</loc>
@@ -2430,9 +2445,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-rice-pudding/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/slow-cooker-rice-pudding.jpg</image:loc>
+      <image:title>Slow Cooker Rice Pudding</image:title>
+      <image:caption>Slow Cooker Rice Pudding</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/skillet-gnocchi-with-spinach/</loc>
@@ -2526,9 +2546,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beurre-blanc-sauce/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/beurre-blanc-sauce.jpg</image:loc>
+      <image:title>Beurre Blanc Sauce</image:title>
+      <image:caption>Beurre Blanc Sauce</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vegetarian-gravy/</loc>
@@ -3540,9 +3565,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-scampi/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-scampi.jpg</image:loc>
+      <image:title>Chicken Scampi</image:title>
+      <image:caption>Chicken Scampi</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/broccoli-cheddar-chicken/</loc>
@@ -3603,9 +3633,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/alabama-white-sauce-chicken/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/alabama-white-sauce-chicken.jpg</image:loc>
+      <image:title>Alabama White Sauce Chicken</image:title>
+      <image:caption>Alabama White Sauce Chicken</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/st-louis-ribs/</loc>
@@ -4019,9 +4054,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cast-iron-pizza/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cast-iron-pizza.jpg</image:loc>
+      <image:title>Cast Iron Pizza</image:title>
+      <image:caption>Cast Iron Pizza</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cast-iron-steak/</loc>
@@ -4036,9 +4076,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cast-iron-skillet-cookie/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cast-iron-skillet-cookie.jpg</image:loc>
+      <image:title>Cast Iron Skillet Cookie</image:title>
+      <image:caption>Cast Iron Skillet Cookie</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dutch-oven-chicken/</loc>
@@ -4201,9 +4246,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bacon-wrapped-meatloaf/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bacon-wrapped-meatloaf.jpg</image:loc>
+      <image:title>Bacon Wrapped Meatloaf</image:title>
+      <image:caption>Bacon Wrapped Meatloaf</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pizza-casserole/</loc>
@@ -4253,9 +4303,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bacon-wrapped-scallops/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bacon-wrapped-scallops.jpg</image:loc>
+      <image:title>Bacon Wrapped Scallops</image:title>
+      <image:caption>Bacon Wrapped Scallops</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-baked-potato/</loc>
@@ -4270,15 +4325,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-banana-bread/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-banana-bread.jpg</image:loc>
+      <image:title>Air Fryer Banana Bread</image:title>
+      <image:caption>Air Fryer Banana Bread</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-brownies/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-brownies.jpg</image:loc>
+      <image:title>Air Fryer Brownies</image:title>
+      <image:caption>Air Fryer Brownies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-burgers/</loc>
@@ -4288,21 +4353,36 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-chicken-nuggets/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-chicken-nuggets.jpg</image:loc>
+      <image:title>Air Fryer Chicken Nuggets</image:title>
+      <image:caption>Air Fryer Chicken Nuggets</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-cinnamon-rolls/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-cinnamon-rolls.jpg</image:loc>
+      <image:title>Air Fryer Cinnamon Rolls</image:title>
+      <image:caption>Air Fryer Cinnamon Rolls</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-cookies/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-cookies.jpg</image:loc>
+      <image:title>Air Fryer Cookies</image:title>
+      <image:caption>Air Fryer Cookies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-crab-cakes/</loc>
@@ -4312,9 +4392,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-drumsticks/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-drumsticks.jpg</image:loc>
+      <image:title>Air Fryer Drumsticks</image:title>
+      <image:caption>Air Fryer Drumsticks</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-dumplings/</loc>
@@ -4371,9 +4456,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-gyoza/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-gyoza.jpg</image:loc>
+      <image:title>Air Fryer Gyoza</image:title>
+      <image:caption>Air Fryer Gyoza</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-lamb-chops/</loc>

@@ -1,0 +1,22 @@
+{
+  "selected": 34,
+  "jpeg_webp_pairs_decoded": 34,
+  "dimensions": "800 \u00d7 600",
+  "old_populated_image_fields_preserved": true,
+  "unique_primary_recipe_and_correct_image_schema_pages": 34,
+  "preferred_canonical_and_indexable_pages": 34,
+  "ad_markup_unchanged_pages": 34,
+  "licences": {
+    "Pixabay Content License": 6,
+    "Pexels License": 26,
+    "Kaboompics Standard License": 1,
+    "CC0 1.0": 1
+  },
+  "source_counts": {
+    "Pixabay": 6,
+    "Pexels": 26,
+    "Kaboompics": 1,
+    "Stockvault": 1
+  },
+  "source_asset_bytes": 3136431
+}

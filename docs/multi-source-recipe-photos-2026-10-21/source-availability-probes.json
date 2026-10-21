@@ -1,0 +1,188 @@
+[
+  {
+    "provider": "unsplash",
+    "url": "https://unsplash.com/s/photos/dolma",
+    "checked_at": "2026-10-21T11:19:30.265327+00:00",
+    "status": 401,
+    "error": "HTTP access error; no retries or bypass",
+    "reason": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "provider": "pexels",
+    "url": "https://www.pexels.com/search/pancakes/",
+    "checked_at": "2026-10-21T11:19:30.266066+00:00",
+    "status": 200,
+    "final_url": "https://www.pexels.com/search/pancakes/",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 799350,
+    "sha256": "1f6dd44b68a08b1bfcdfb4028ba70999c39a0687abe7744ecce888a6acb6a0dd",
+    "challenge": false,
+    "title": [
+      "Pancakes Photos, Download The BEST Free Pancakes Stock Photos &amp; HD Images"
+    ]
+  },
+  {
+    "provider": "pixabay",
+    "url": "https://pixabay.com/photos/search/dolma/",
+    "checked_at": "2026-10-21T11:19:30.266451+00:00",
+    "status": 200,
+    "final_url": "https://pixabay.com/photos/search/dolma/",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 235357,
+    "sha256": "7a9f05f9d5398550d5844e3e31917f942d45834c8ae7c9e066b770427207115a",
+    "challenge": false,
+    "title": [
+      "10+ Free Dolma &amp; Food Photos - Pixabay"
+    ]
+  },
+  {
+    "provider": "stocksnap",
+    "url": "https://stocksnap.io/search/pancakes",
+    "checked_at": "2026-10-21T11:19:30.417089+00:00",
+    "status": 200,
+    "final_url": "https://stocksnap.io/search/pancakes",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 39678,
+    "sha256": "f431a898715665608e679fdfa4065aff24294c7052e0ab80d850df86fd753b43",
+    "challenge": false,
+    "title": [
+      "10 Free Pancakes Images &amp; Stock Photos - StockSnap.io"
+    ]
+  },
+  {
+    "provider": "kaboompics",
+    "url": "https://kaboompics.com/gallery?search=pancakes",
+    "checked_at": "2026-10-21T11:19:30.424113+00:00",
+    "status": 200,
+    "final_url": "https://kaboompics.com/gallery?search=pancakes",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 47058,
+    "sha256": "9db7598b8f1934e2728166759ae5ed13e2fe04234c43bfeb313676b6be2e7820",
+    "challenge": false,
+    "title": [
+      "Free Stock Photos And Image Collections \u2013 Kaboompics"
+    ]
+  },
+  {
+    "provider": "foodiesfeed",
+    "url": "https://www.foodiesfeed.com/s/pancakes",
+    "checked_at": "2026-10-21T11:19:30.722446+00:00",
+    "status": 200,
+    "final_url": "https://www.foodiesfeed.com/s/pancakes",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 359894,
+    "sha256": "95c68472cc7c4277ae247c785a0078ce0286baaf09c4c306c5f58666521abd72",
+    "challenge": false,
+    "title": [
+      "Free Pancakes Photos &amp; Images (HD, CC0) | Foodiesfeed"
+    ]
+  },
+  {
+    "provider": "burst",
+    "url": "https://www.shopify.com/stock-photos/search?q=pancakes",
+    "checked_at": "2026-10-21T11:19:30.893819+00:00",
+    "status": 404,
+    "error": "HTTP access error; no retries or bypass",
+    "reason": "HTTP Error 404: Not Found"
+  },
+  {
+    "provider": "pxhere",
+    "url": "https://pxhere.com/en/photos?q=pancakes",
+    "checked_at": "2026-10-21T11:19:31.231437+00:00",
+    "status": 200,
+    "final_url": "https://pxhere.com/en/photos?q=pancakes",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 81240,
+    "sha256": "c597edfcbf8baf008d435c6d46db8e4f614e8b6d1ccb23d30e31f9e61e7995c6",
+    "challenge": false,
+    "title": [
+      "Search pancakes - Free Images & Free stock photos - PxHere"
+    ]
+  },
+  {
+    "provider": "rawpixel",
+    "url": "https://www.rawpixel.com/search/pancakes?freeOnly=true",
+    "checked_at": "2026-10-21T11:19:31.300139+00:00",
+    "status": 200,
+    "final_url": "https://www.rawpixel.com/search/pancakes?freeOnly=true",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 945100,
+    "sha256": "23e14e160a0eaa2aa3310d9f7c3a2e26c6f7fcd13146bc76dc1d7b6869524f6a",
+    "challenge": false,
+    "title": [
+      "Pancakes Images | Free Photos, PNG Stickers, Wallpapers &amp; Backgrounds - rawpixel"
+    ]
+  },
+  {
+    "provider": "stockvault",
+    "url": "https://www.stockvault.net/search/?query=pancakes",
+    "checked_at": "2026-10-21T11:19:31.483619+00:00",
+    "status": 200,
+    "final_url": "https://www.stockvault.net/free-photos/pancakes/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 67448,
+    "sha256": "7046f073e07312c7f1e8a7eae69d37710b6b9fe9ad6bb15fcdb43c3a3343fc7e",
+    "challenge": false,
+    "title": [
+      "Free pancakes Stock Photos - Stockvault.net"
+    ]
+  },
+  {
+    "provider": "pikwizard",
+    "url": "https://pikwizard.com/s/?q=pancakes",
+    "checked_at": "2026-10-21T11:19:31.662457+00:00",
+    "status": 404,
+    "error": "HTTP access error; no retries or bypass",
+    "reason": "HTTP Error 404: Not Found"
+  },
+  {
+    "provider": "freeimages",
+    "url": "https://www.freeimages.com/search/pancakes",
+    "checked_at": "2026-10-21T11:19:31.836878+00:00",
+    "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "provider": "openverse",
+    "url": "https://api.openverse.org/v1/images/?q=dolma&license=cc0,pdm,by,by-sa&page_size=5",
+    "checked_at": "2026-10-21T11:19:31.925121+00:00",
+    "status": 403,
+    "error": "HTTP access error; no retries or bypass",
+    "reason": "HTTP Error 403: Forbidden"
+  },
+  {
+    "provider": "library-of-congress",
+    "url": "https://www.loc.gov/photos/?fo=json&c=5&fa=online-format:image&q=food",
+    "checked_at": "2026-10-21T11:19:32.049479+00:00",
+    "status": 403,
+    "error": "HTTP access error; no retries or bypass",
+    "reason": "HTTP Error 403: Forbidden"
+  },
+  {
+    "provider": "picjumbo",
+    "url": "https://picjumbo.com/?s=pancakes",
+    "checked_at": "2026-10-21T11:19:32.132885+00:00",
+    "status": 200,
+    "final_url": "https://picjumbo.com/search/pancakes",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 169360,
+    "sha256": "dd41694456d6aa5355fb6c66339aa7d5bae61dc8d698c1ea44585c47a0637c22",
+    "challenge": false,
+    "title": [
+      "Searching pancakes images | picjumbo"
+    ]
+  },
+  {
+    "provider": "gratisography",
+    "url": "https://gratisography.com/?s=food",
+    "checked_at": "2026-10-21T11:19:32.309780+00:00",
+    "status": 200,
+    "final_url": "https://gratisography.com/?s=food",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 67306,
+    "sha256": "196c07663e200167ba6136801468b894e0e2ec70c6eafa03f7bb03a4c2b6af39",
+    "challenge": false,
+    "title": [
+      "Search results for food"
+    ]
+  }
+]

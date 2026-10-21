@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+'use strict';
+const assert=require('assert/strict');
+const {photoCredit}=require('../src/lib/util');
+const image={author:'Named photographer',title:'Prepared dish',page:'https://www.flickr.com/photos/1/2/',licence:'CC BY 2.0',licence_url:'https://creativecommons.org/licenses/by/2.0/'};
+const original=photoCredit(image);
+assert.ok(original.includes(' by Named photographer'));
+assert.ok(!original.includes('https://creator.example/'));
+const linked=photoCredit({...image,credit_url:'https://creator.example/'});
+assert.ok(linked.includes('<a href="https://creator.example/" rel="nofollow noopener">Named photographer</a>'));
+assert.equal(photoCredit({...image,credit_url:'javascript:alert(1)'}),original);
+assert.equal(photoCredit({...image,credit_url:'http://creator.example/'}),original);
+const {loadRecipes}=require('../src/build');
+const {recipeSchema}=require('../src/templates/recipe-page');
+const recipe=loadRecipes()[0];
+const data={...recipe.imageData,author:'Credited newspaper',author_type:'Organization'};
+assert.equal(recipeSchema({...recipe,imageData:data}).image[0].creator['@type'],'Organization');
+assert.equal(recipeSchema({...recipe,imageData:{...data,author_type:undefined}}).image[0].creator['@type'],'Person');
+assert.ok(photoCredit({...image,licence:'CC BY-SA 2.0'}).includes('shared under the same licence'));
+console.log('  ✓ Photo credits: optional attribution links, safe URL handling, organisation identity and ShareAlike notice pass');

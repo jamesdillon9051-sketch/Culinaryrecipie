@@ -2450,9 +2450,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fried-apples/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/fried-apples.jpg</image:loc>
+      <image:title>Fried Apples</image:title>
+      <image:caption>Fried Apples</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ham-and-cheese-sliders/</loc>
@@ -2473,9 +2478,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pineapple-casserole/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pineapple-casserole.jpg</image:loc>
+      <image:title>Pineapple Casserole</image:title>
+      <image:caption>Pineapple Casserole</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/charro-beans/</loc>
@@ -2910,9 +2920,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/coca-cola-cake/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/coca-cola-cake.jpg</image:loc>
+      <image:title>Coca-Cola Cake</image:title>
+      <image:caption>Coca-Cola Cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/caramel-cake/</loc>

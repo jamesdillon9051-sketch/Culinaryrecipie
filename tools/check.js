@@ -810,7 +810,7 @@ if (!vercelCsp) {
       if (ads.socialBar && !html.includes(ads.socialBar)) missing.socialBar.push(where);
       /* Two slots on every page: the first embeds the snippet, the second is an
          iframe onto the one-slot document. One of either is a broken layout. */
-      const slots = (html.match(/container-|native-banner\.html/g) || []).length;
+      const slots = require('./native-ad-slot-count')(html);
       if (slots !== 2) missing.slots.push(`${where} (${slots})`);
     }
     for (const [what, list] of [['the popunder', missing.popunder],
@@ -1165,6 +1165,8 @@ for (const audit of ['timing-audit.js', 'timing-corpus.js', 'consistency-corpus.
                      'robots-check.js', 'private-paths-check.js', 'image-inventory.js', ['mark-illustrations.js', '--check'],
                      ['voice-audit.js', '--strict'], ['voice-audit.js', '--check-docs'],
                      ['recipe-consistency.js', '--built', '--list', 'confirmed'],
+                     'photo-credit-test.js', 'native-ad-slot-count-test.js',
+                     'image-inventory-source-test.js',
                      ['food-handling-audit.js', '--selftest'], ['food-handling-audit.js', '--list', 'confirmed']]) {
   const [script, ...args] = [].concat(audit);
   try {

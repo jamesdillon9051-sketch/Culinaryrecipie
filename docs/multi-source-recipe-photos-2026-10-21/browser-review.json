@@ -1,0 +1,834 @@
+{
+  "thirdPartiesBlockedLocally": true,
+  "productionAdCodeUnchanged": true,
+  "results": [
+    {
+      "width": 390,
+      "slug": "air-fryer-cookies",
+      "status": 200,
+      "scrollWidth": 390,
+      "viewport": 390,
+      "hero": [
+        {
+          "src": "http://localhost:4177/assets/img/recipes/air-fryer-cookies.webp",
+          "loaded": true,
+          "alt": "Air Fryer Cookies"
+        }
+      ],
+      "credits": [
+        {
+          "text": "Photograph credit:\nOverhead Close-Up of Chocolate Chip Cookies inside a Clear Glass Jar by Karolina Grabowska · Kaboompics Standard License · Kaboompics",
+          "links": [
+            "https://kaboompics.com/photo/20139/overhead-close-up-of-chocolate-chip-cookies-inside-a-clear-glass-jar",
+            "https://kaboompics.com/photographer/karolina",
+            "https://kaboompics.com/page/license-and-faq"
+          ]
+        }
+      ],
+      "recipes": [
+        {
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://weeklydelight.com/assets/img/recipes/air-fryer-cookies.jpg",
+              "contentUrl": "https://weeklydelight.com/assets/img/recipes/air-fryer-cookies.jpg",
+              "width": 800,
+              "height": 600,
+              "caption": "Air Fryer Cookies",
+              "name": "Air Fryer Cookies recipe",
+              "creator": {
+                "@type": "Person",
+                "name": "Karolina Grabowska"
+              },
+              "creditText": "Karolina Grabowska, Kaboompics Standard License via Kaboompics",
+              "license": "https://kaboompics.com/page/license-and-faq",
+              "acquireLicensePage": "https://kaboompics.com/photo/20139/overhead-close-up-of-chocolate-chip-cookies-inside-a-clear-glass-jar"
+            }
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Turab",
+            "url": "https://weeklydelight.com/about/"
+          }
+        }
+      ],
+      "canonical": "https://weeklydelight.com/recipes/air-fryer-cookies/",
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "air-fryer-brownies",
+      "status": 200,
+      "scrollWidth": 390,
+      "viewport": 390,
+      "hero": [
+        {
+          "src": "http://localhost:4177/assets/img/recipes/air-fryer-brownies.webp",
+          "loaded": true,
+          "alt": "Air Fryer Brownies"
+        }
+      ],
+      "credits": [
+        {
+          "text": "Photograph credit:\nFree photo of Fudge Brownies · CC0 1.0 · Stockvault (archive uploader: Pixabay)",
+          "links": [
+            "https://www.stockvault.net/photo/208819/fudge-brownies",
+            "https://creativecommons.org/publicdomain/zero/1.0/"
+          ]
+        }
+      ],
+      "recipes": [
+        {
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://weeklydelight.com/assets/img/recipes/air-fryer-brownies.jpg",
+              "contentUrl": "https://weeklydelight.com/assets/img/recipes/air-fryer-brownies.jpg",
+              "width": 800,
+              "height": 600,
+              "caption": "Air Fryer Brownies",
+              "name": "Air Fryer Brownies recipe",
+              "creditText": "CC0 1.0 via Stockvault (archive uploader: Pixabay)",
+              "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+              "acquireLicensePage": "https://www.stockvault.net/photo/208819/fudge-brownies"
+            }
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Turab",
+            "url": "https://weeklydelight.com/about/"
+          }
+        }
+      ],
+      "canonical": "https://weeklydelight.com/recipes/air-fryer-brownies/",
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "gildas",
+      "status": 200,
+      "scrollWidth": 390,
+      "viewport": 390,
+      "hero": [
+        {
+          "src": "http://localhost:4177/assets/img/recipes/gildas.webp",
+          "loaded": true,
+          "alt": "Gildas"
+        }
+      ],
+      "credits": [
+        {
+          "text": "Photograph credit:\nGilda Skewer Olive - Free photo on Pixabay by maitesan · Pixabay Content License · Pixabay",
+          "links": [
+            "https://pixabay.com/photos/gilda-skewer-olive-anchovy-333931/",
+            "https://pixabay.com/service/license-summary/"
+          ]
+        }
+      ],
+      "recipes": [
+        {
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://weeklydelight.com/assets/img/recipes/gildas.jpg",
+              "contentUrl": "https://weeklydelight.com/assets/img/recipes/gildas.jpg",
+              "width": 800,
+              "height": 600,
+              "caption": "Gildas",
+              "name": "Gildas recipe",
+              "creator": {
+                "@type": "Person",
+                "name": "maitesan"
+              },
+              "creditText": "maitesan, Pixabay Content License via Pixabay",
+              "license": "https://pixabay.com/service/license-summary/",
+              "acquireLicensePage": "https://pixabay.com/photos/gilda-skewer-olive-anchovy-333931/"
+            }
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Turab",
+            "url": "https://weeklydelight.com/about/"
+          }
+        }
+      ],
+      "canonical": "https://weeklydelight.com/recipes/gildas/",
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "creamy-pesto-gnocchi",
+      "status": 200,
+      "scrollWidth": 390,
+      "viewport": 390,
+      "hero": [
+        {
+          "src": "http://localhost:4177/assets/img/recipes/creamy-pesto-gnocchi.webp",
+          "loaded": true,
+          "alt": "Creamy Pesto Gnocchi"
+        }
+      ],
+      "credits": [
+        {
+          "text": "Photograph credit:\nA Close-Up Shot of a Person Eating a Bowl of Gnocchi by Kaboompics · Pexels License · Pexels",
+          "links": [
+            "https://www.pexels.com/photo/a-close-up-shot-of-a-person-eating-a-bowl-of-gnocchi-6659543/",
+            "https://kaboompics.com/",
+            "https://www.pexels.com/license/"
+          ]
+        }
+      ],
+      "recipes": [
+        {
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://weeklydelight.com/assets/img/recipes/creamy-pesto-gnocchi.jpg",
+              "contentUrl": "https://weeklydelight.com/assets/img/recipes/creamy-pesto-gnocchi.jpg",
+              "width": 800,
+              "height": 600,
+              "caption": "Creamy Pesto Gnocchi",
+              "name": "Creamy Pesto Gnocchi recipe",
+              "creator": {
+                "@type": "Organization",
+                "name": "Kaboompics"
+              },
+              "creditText": "Kaboompics, Pexels License via Pexels",
+              "license": "https://www.pexels.com/license/",
+              "acquireLicensePage": "https://www.pexels.com/photo/a-close-up-shot-of-a-person-eating-a-bowl-of-gnocchi-6659543/"
+            }
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Turab",
+            "url": "https://weeklydelight.com/about/"
+          }
+        }
+      ],
+      "canonical": "https://weeklydelight.com/recipes/creamy-pesto-gnocchi/",
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "gnocchi-bake",
+      "status": 200,
+      "scrollWidth": 390,
+      "viewport": 390,
+      "hero": [
+        {
+          "src": "http://localhost:4177/assets/img/recipes/gnocchi-bake.webp",
+          "loaded": true,
+          "alt": "Gnocchi Bake"
+        }
+      ],
+      "credits": [
+        {
+          "text": "Photograph credit:\nAppetizing Tomato and Pasta Bake with Olive Oil by Max Griss · Pexels License · Pexels",
+          "links": [
+            "https://www.pexels.com/photo/appetizing-tomato-and-pasta-bake-with-olive-oil-11889305/",
+            "https://www.pexels.com/license/"
+          ]
+        }
+      ],
+      "recipes": [
+        {
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://weeklydelight.com/assets/img/recipes/gnocchi-bake.jpg",
+              "contentUrl": "https://weeklydelight.com/assets/img/recipes/gnocchi-bake.jpg",
+              "width": 800,
+              "height": 600,
+              "caption": "Gnocchi Bake",
+              "name": "Gnocchi Bake recipe",
+              "creator": {
+                "@type": "Person",
+                "name": "Max Griss"
+              },
+              "creditText": "Max Griss, Pexels License via Pexels",
+              "license": "https://www.pexels.com/license/",
+              "acquireLicensePage": "https://www.pexels.com/photo/appetizing-tomato-and-pasta-bake-with-olive-oil-11889305/"
+            }
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Turab",
+            "url": "https://weeklydelight.com/about/"
+          }
+        }
+      ],
+      "canonical": "https://weeklydelight.com/recipes/gnocchi-bake/",
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "sour-cream-pound-cake",
+      "status": 200,
+      "scrollWidth": 390,
+      "viewport": 390,
+      "hero": [
+        {
+          "src": "http://localhost:4177/assets/img/recipes/sour-cream-pound-cake.webp",
+          "loaded": true,
+          "alt": "Sour Cream Pound Cake"
+        }
+      ],
+      "credits": [
+        {
+          "text": "Photograph credit:\nCakes Sour Cream Pound Cake Treats - Free photo on Pixabay by tncarlos · Pixabay Content License · Pixabay",
+          "links": [
+            "https://pixabay.com/photos/cakes-sour-cream-pound-cake-treats-3707536/",
+            "https://pixabay.com/service/license-summary/"
+          ]
+        }
+      ],
+      "recipes": [
+        {
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://weeklydelight.com/assets/img/recipes/sour-cream-pound-cake.jpg",
+              "contentUrl": "https://weeklydelight.com/assets/img/recipes/sour-cream-pound-cake.jpg",
+              "width": 800,
+              "height": 600,
+              "caption": "Sour Cream Pound Cake",
+              "name": "Sour Cream Pound Cake recipe",
+              "creator": {
+                "@type": "Person",
+                "name": "tncarlos"
+              },
+              "creditText": "tncarlos, Pixabay Content License via Pixabay",
+              "license": "https://pixabay.com/service/license-summary/",
+              "acquireLicensePage": "https://pixabay.com/photos/cakes-sour-cream-pound-cake-treats-3707536/"
+            }
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Turab",
+            "url": "https://weeklydelight.com/about/"
+          }
+        }
+      ],
+      "canonical": "https://weeklydelight.com/recipes/sour-cream-pound-cake/",
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "nalesniki",
+      "status": 200,
+      "scrollWidth": 390,
+      "viewport": 390,
+      "hero": [
+        {
+          "src": "http://localhost:4177/assets/img/recipes/nalesniki.webp",
+          "loaded": true,
+          "alt": "Nalesniki"
+        }
+      ],
+      "credits": [
+        {
+          "text": "Photograph credit:\nnaleśniki z serem by Sylwester Ficek · Pexels License · Pexels",
+          "links": [
+            "https://www.pexels.com/photo/nalesniki-z-serem-27097266/",
+            "https://www.pexels.com/license/"
+          ]
+        }
+      ],
+      "recipes": [
+        {
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://weeklydelight.com/assets/img/recipes/nalesniki.jpg",
+              "contentUrl": "https://weeklydelight.com/assets/img/recipes/nalesniki.jpg",
+              "width": 800,
+              "height": 600,
+              "caption": "Nalesniki",
+              "name": "Nalesniki recipe",
+              "creator": {
+                "@type": "Person",
+                "name": "Sylwester Ficek"
+              },
+              "creditText": "Sylwester Ficek, Pexels License via Pexels",
+              "license": "https://www.pexels.com/license/",
+              "acquireLicensePage": "https://www.pexels.com/photo/nalesniki-z-serem-27097266/"
+            }
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Turab",
+            "url": "https://weeklydelight.com/about/"
+          }
+        }
+      ],
+      "canonical": "https://weeklydelight.com/recipes/nalesniki/",
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "fruit-loaf",
+      "status": 200,
+      "scrollWidth": 390,
+      "viewport": 390,
+      "hero": [
+        {
+          "src": "http://localhost:4177/assets/img/recipes/fruit-loaf.webp",
+          "loaded": true,
+          "alt": "Fruit Loaf"
+        }
+      ],
+      "credits": [
+        {
+          "text": "Photograph credit:\nDelicious Slice of Fruit and Nut Bread by Mariia Stepanova · Pexels License · Pexels",
+          "links": [
+            "https://www.pexels.com/photo/delicious-slice-of-fruit-and-nut-bread-36915992/",
+            "https://www.pexels.com/license/"
+          ]
+        }
+      ],
+      "recipes": [
+        {
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://weeklydelight.com/assets/img/recipes/fruit-loaf.jpg",
+              "contentUrl": "https://weeklydelight.com/assets/img/recipes/fruit-loaf.jpg",
+              "width": 800,
+              "height": 600,
+              "caption": "Fruit Loaf",
+              "name": "Fruit Loaf recipe",
+              "creator": {
+                "@type": "Person",
+                "name": "Mariia Stepanova"
+              },
+              "creditText": "Mariia Stepanova, Pexels License via Pexels",
+              "license": "https://www.pexels.com/license/",
+              "acquireLicensePage": "https://www.pexels.com/photo/delicious-slice-of-fruit-and-nut-bread-36915992/"
+            }
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Turab",
+            "url": "https://weeklydelight.com/about/"
+          }
+        }
+      ],
+      "canonical": "https://weeklydelight.com/recipes/fruit-loaf/",
+      "errors": []
+    },
+    {
+      "width": 1280,
+      "slug": "air-fryer-cookies",
+      "status": 200,
+      "scrollWidth": 1280,
+      "viewport": 1280,
+      "hero": [
+        {
+          "src": "http://localhost:4177/assets/img/recipes/air-fryer-cookies.webp",
+          "loaded": true,
+          "alt": "Air Fryer Cookies"
+        }
+      ],
+      "credits": [
+        {
+          "text": "Photograph credit:\nOverhead Close-Up of Chocolate Chip Cookies inside a Clear Glass Jar by Karolina Grabowska · Kaboompics Standard License · Kaboompics",
+          "links": [
+            "https://kaboompics.com/photo/20139/overhead-close-up-of-chocolate-chip-cookies-inside-a-clear-glass-jar",
+            "https://kaboompics.com/photographer/karolina",
+            "https://kaboompics.com/page/license-and-faq"
+          ]
+        }
+      ],
+      "recipes": [
+        {
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://weeklydelight.com/assets/img/recipes/air-fryer-cookies.jpg",
+              "contentUrl": "https://weeklydelight.com/assets/img/recipes/air-fryer-cookies.jpg",
+              "width": 800,
+              "height": 600,
+              "caption": "Air Fryer Cookies",
+              "name": "Air Fryer Cookies recipe",
+              "creator": {
+                "@type": "Person",
+                "name": "Karolina Grabowska"
+              },
+              "creditText": "Karolina Grabowska, Kaboompics Standard License via Kaboompics",
+              "license": "https://kaboompics.com/page/license-and-faq",
+              "acquireLicensePage": "https://kaboompics.com/photo/20139/overhead-close-up-of-chocolate-chip-cookies-inside-a-clear-glass-jar"
+            }
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Turab",
+            "url": "https://weeklydelight.com/about/"
+          }
+        }
+      ],
+      "canonical": "https://weeklydelight.com/recipes/air-fryer-cookies/",
+      "errors": []
+    },
+    {
+      "width": 1280,
+      "slug": "air-fryer-brownies",
+      "status": 200,
+      "scrollWidth": 1280,
+      "viewport": 1280,
+      "hero": [
+        {
+          "src": "http://localhost:4177/assets/img/recipes/air-fryer-brownies.webp",
+          "loaded": true,
+          "alt": "Air Fryer Brownies"
+        }
+      ],
+      "credits": [
+        {
+          "text": "Photograph credit:\nFree photo of Fudge Brownies · CC0 1.0 · Stockvault (archive uploader: Pixabay)",
+          "links": [
+            "https://www.stockvault.net/photo/208819/fudge-brownies",
+            "https://creativecommons.org/publicdomain/zero/1.0/"
+          ]
+        }
+      ],
+      "recipes": [
+        {
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://weeklydelight.com/assets/img/recipes/air-fryer-brownies.jpg",
+              "contentUrl": "https://weeklydelight.com/assets/img/recipes/air-fryer-brownies.jpg",
+              "width": 800,
+              "height": 600,
+              "caption": "Air Fryer Brownies",
+              "name": "Air Fryer Brownies recipe",
+              "creditText": "CC0 1.0 via Stockvault (archive uploader: Pixabay)",
+              "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+              "acquireLicensePage": "https://www.stockvault.net/photo/208819/fudge-brownies"
+            }
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Turab",
+            "url": "https://weeklydelight.com/about/"
+          }
+        }
+      ],
+      "canonical": "https://weeklydelight.com/recipes/air-fryer-brownies/",
+      "errors": []
+    },
+    {
+      "width": 1280,
+      "slug": "gildas",
+      "status": 200,
+      "scrollWidth": 1280,
+      "viewport": 1280,
+      "hero": [
+        {
+          "src": "http://localhost:4177/assets/img/recipes/gildas.webp",
+          "loaded": true,
+          "alt": "Gildas"
+        }
+      ],
+      "credits": [
+        {
+          "text": "Photograph credit:\nGilda Skewer Olive - Free photo on Pixabay by maitesan · Pixabay Content License · Pixabay",
+          "links": [
+            "https://pixabay.com/photos/gilda-skewer-olive-anchovy-333931/",
+            "https://pixabay.com/service/license-summary/"
+          ]
+        }
+      ],
+      "recipes": [
+        {
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://weeklydelight.com/assets/img/recipes/gildas.jpg",
+              "contentUrl": "https://weeklydelight.com/assets/img/recipes/gildas.jpg",
+              "width": 800,
+              "height": 600,
+              "caption": "Gildas",
+              "name": "Gildas recipe",
+              "creator": {
+                "@type": "Person",
+                "name": "maitesan"
+              },
+              "creditText": "maitesan, Pixabay Content License via Pixabay",
+              "license": "https://pixabay.com/service/license-summary/",
+              "acquireLicensePage": "https://pixabay.com/photos/gilda-skewer-olive-anchovy-333931/"
+            }
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Turab",
+            "url": "https://weeklydelight.com/about/"
+          }
+        }
+      ],
+      "canonical": "https://weeklydelight.com/recipes/gildas/",
+      "errors": []
+    },
+    {
+      "width": 1280,
+      "slug": "creamy-pesto-gnocchi",
+      "status": 200,
+      "scrollWidth": 1280,
+      "viewport": 1280,
+      "hero": [
+        {
+          "src": "http://localhost:4177/assets/img/recipes/creamy-pesto-gnocchi.webp",
+          "loaded": true,
+          "alt": "Creamy Pesto Gnocchi"
+        }
+      ],
+      "credits": [
+        {
+          "text": "Photograph credit:\nA Close-Up Shot of a Person Eating a Bowl of Gnocchi by Kaboompics · Pexels License · Pexels",
+          "links": [
+            "https://www.pexels.com/photo/a-close-up-shot-of-a-person-eating-a-bowl-of-gnocchi-6659543/",
+            "https://kaboompics.com/",
+            "https://www.pexels.com/license/"
+          ]
+        }
+      ],
+      "recipes": [
+        {
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://weeklydelight.com/assets/img/recipes/creamy-pesto-gnocchi.jpg",
+              "contentUrl": "https://weeklydelight.com/assets/img/recipes/creamy-pesto-gnocchi.jpg",
+              "width": 800,
+              "height": 600,
+              "caption": "Creamy Pesto Gnocchi",
+              "name": "Creamy Pesto Gnocchi recipe",
+              "creator": {
+                "@type": "Organization",
+                "name": "Kaboompics"
+              },
+              "creditText": "Kaboompics, Pexels License via Pexels",
+              "license": "https://www.pexels.com/license/",
+              "acquireLicensePage": "https://www.pexels.com/photo/a-close-up-shot-of-a-person-eating-a-bowl-of-gnocchi-6659543/"
+            }
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Turab",
+            "url": "https://weeklydelight.com/about/"
+          }
+        }
+      ],
+      "canonical": "https://weeklydelight.com/recipes/creamy-pesto-gnocchi/",
+      "errors": []
+    },
+    {
+      "width": 1280,
+      "slug": "gnocchi-bake",
+      "status": 200,
+      "scrollWidth": 1280,
+      "viewport": 1280,
+      "hero": [
+        {
+          "src": "http://localhost:4177/assets/img/recipes/gnocchi-bake.webp",
+          "loaded": true,
+          "alt": "Gnocchi Bake"
+        }
+      ],
+      "credits": [
+        {
+          "text": "Photograph credit:\nAppetizing Tomato and Pasta Bake with Olive Oil by Max Griss · Pexels License · Pexels",
+          "links": [
+            "https://www.pexels.com/photo/appetizing-tomato-and-pasta-bake-with-olive-oil-11889305/",
+            "https://www.pexels.com/license/"
+          ]
+        }
+      ],
+      "recipes": [
+        {
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://weeklydelight.com/assets/img/recipes/gnocchi-bake.jpg",
+              "contentUrl": "https://weeklydelight.com/assets/img/recipes/gnocchi-bake.jpg",
+              "width": 800,
+              "height": 600,
+              "caption": "Gnocchi Bake",
+              "name": "Gnocchi Bake recipe",
+              "creator": {
+                "@type": "Person",
+                "name": "Max Griss"
+              },
+              "creditText": "Max Griss, Pexels License via Pexels",
+              "license": "https://www.pexels.com/license/",
+              "acquireLicensePage": "https://www.pexels.com/photo/appetizing-tomato-and-pasta-bake-with-olive-oil-11889305/"
+            }
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Turab",
+            "url": "https://weeklydelight.com/about/"
+          }
+        }
+      ],
+      "canonical": "https://weeklydelight.com/recipes/gnocchi-bake/",
+      "errors": []
+    },
+    {
+      "width": 1280,
+      "slug": "sour-cream-pound-cake",
+      "status": 200,
+      "scrollWidth": 1280,
+      "viewport": 1280,
+      "hero": [
+        {
+          "src": "http://localhost:4177/assets/img/recipes/sour-cream-pound-cake.webp",
+          "loaded": true,
+          "alt": "Sour Cream Pound Cake"
+        }
+      ],
+      "credits": [
+        {
+          "text": "Photograph credit:\nCakes Sour Cream Pound Cake Treats - Free photo on Pixabay by tncarlos · Pixabay Content License · Pixabay",
+          "links": [
+            "https://pixabay.com/photos/cakes-sour-cream-pound-cake-treats-3707536/",
+            "https://pixabay.com/service/license-summary/"
+          ]
+        }
+      ],
+      "recipes": [
+        {
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://weeklydelight.com/assets/img/recipes/sour-cream-pound-cake.jpg",
+              "contentUrl": "https://weeklydelight.com/assets/img/recipes/sour-cream-pound-cake.jpg",
+              "width": 800,
+              "height": 600,
+              "caption": "Sour Cream Pound Cake",
+              "name": "Sour Cream Pound Cake recipe",
+              "creator": {
+                "@type": "Person",
+                "name": "tncarlos"
+              },
+              "creditText": "tncarlos, Pixabay Content License via Pixabay",
+              "license": "https://pixabay.com/service/license-summary/",
+              "acquireLicensePage": "https://pixabay.com/photos/cakes-sour-cream-pound-cake-treats-3707536/"
+            }
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Turab",
+            "url": "https://weeklydelight.com/about/"
+          }
+        }
+      ],
+      "canonical": "https://weeklydelight.com/recipes/sour-cream-pound-cake/",
+      "errors": []
+    },
+    {
+      "width": 1280,
+      "slug": "nalesniki",
+      "status": 200,
+      "scrollWidth": 1280,
+      "viewport": 1280,
+      "hero": [
+        {
+          "src": "http://localhost:4177/assets/img/recipes/nalesniki.webp",
+          "loaded": true,
+          "alt": "Nalesniki"
+        }
+      ],
+      "credits": [
+        {
+          "text": "Photograph credit:\nnaleśniki z serem by Sylwester Ficek · Pexels License · Pexels",
+          "links": [
+            "https://www.pexels.com/photo/nalesniki-z-serem-27097266/",
+            "https://www.pexels.com/license/"
+          ]
+        }
+      ],
+      "recipes": [
+        {
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://weeklydelight.com/assets/img/recipes/nalesniki.jpg",
+              "contentUrl": "https://weeklydelight.com/assets/img/recipes/nalesniki.jpg",
+              "width": 800,
+              "height": 600,
+              "caption": "Nalesniki",
+              "name": "Nalesniki recipe",
+              "creator": {
+                "@type": "Person",
+                "name": "Sylwester Ficek"
+              },
+              "creditText": "Sylwester Ficek, Pexels License via Pexels",
+              "license": "https://www.pexels.com/license/",
+              "acquireLicensePage": "https://www.pexels.com/photo/nalesniki-z-serem-27097266/"
+            }
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Turab",
+            "url": "https://weeklydelight.com/about/"
+          }
+        }
+      ],
+      "canonical": "https://weeklydelight.com/recipes/nalesniki/",
+      "errors": []
+    },
+    {
+      "width": 1280,
+      "slug": "fruit-loaf",
+      "status": 200,
+      "scrollWidth": 1280,
+      "viewport": 1280,
+      "hero": [
+        {
+          "src": "http://localhost:4177/assets/img/recipes/fruit-loaf.webp",
+          "loaded": true,
+          "alt": "Fruit Loaf"
+        }
+      ],
+      "credits": [
+        {
+          "text": "Photograph credit:\nDelicious Slice of Fruit and Nut Bread by Mariia Stepanova · Pexels License · Pexels",
+          "links": [
+            "https://www.pexels.com/photo/delicious-slice-of-fruit-and-nut-bread-36915992/",
+            "https://www.pexels.com/license/"
+          ]
+        }
+      ],
+      "recipes": [
+        {
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://weeklydelight.com/assets/img/recipes/fruit-loaf.jpg",
+              "contentUrl": "https://weeklydelight.com/assets/img/recipes/fruit-loaf.jpg",
+              "width": 800,
+              "height": 600,
+              "caption": "Fruit Loaf",
+              "name": "Fruit Loaf recipe",
+              "creator": {
+                "@type": "Person",
+                "name": "Mariia Stepanova"
+              },
+              "creditText": "Mariia Stepanova, Pexels License via Pexels",
+              "license": "https://www.pexels.com/license/",
+              "acquireLicensePage": "https://www.pexels.com/photo/delicious-slice-of-fruit-and-nut-bread-36915992/"
+            }
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Turab",
+            "url": "https://weeklydelight.com/about/"
+          }
+        }
+      ],
+      "canonical": "https://weeklydelight.com/recipes/fruit-loaf/",
+      "errors": []
+    }
+  ]
+}

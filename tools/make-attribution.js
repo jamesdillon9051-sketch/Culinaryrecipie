@@ -48,9 +48,11 @@ for (const recipe of catalog) {
     counts[data.licence] = (counts[data.licence] || 0) + 1;
 
     const author = (data.author || 'Unknown').replace(/\|/g, '/').trim() || 'Unknown';
+    const credit = typeof data.credit_url === 'string' && /^https:\/\//i.test(data.credit_url)
+      ? `[${author}](${data.credit_url})` : author;
     const title = (data.title || '').replace(/\|/g, '/').trim();
     rows.push(
-      `| \`${data.file}.webp\` / \`.jpg\` | ${recipe.title} | ${kind} | ${title} | ${author} | ` +
+      `| \`${data.file}.webp\` / \`.jpg\` | ${recipe.title} | ${kind} | ${title} | ${credit} | ` +
       `${data.licence} | [${data.source}](${secureUrl(data.page)}) |`
     );
   }
@@ -58,7 +60,7 @@ for (const recipe of catalog) {
 
 const NEEDS_CREDIT = /^(cc[-\s]?by|attribution)/i;
 const SHARE_ALIKE = /(\bsa\b|share[-\s]?alike)/i;
-const STOCK_LICENCE = /^(pixabay|pexels|unsplash)/i;
+const STOCK_LICENCE = /^(?:Pixabay Content|Pexels|Unsplash|Kaboompics Standard) Licen[cs]e$/i;
 const terms = name => STOCK_LICENCE.test(name)
   ? 'The stock library\'s own licence: free to use, adapt and use commercially; no credit required (given anyway)'
   : SHARE_ALIKE.test(name)
@@ -86,9 +88,10 @@ Every photograph on Weekly Delight is used under a licence that allows it here.
 Of ${heroes + process_} photographs, **${free}** are CC0 or public domain and carry no
 conditions at all, **${credited}** are **Creative Commons Attribution (CC BY)** — free
 to use, adapt and use commercially, on the single condition that the photographer
-is credited${stockCount ? ` — and **${stockCount}** come from Pixabay, under the Pixabay
-Content License, which allows commercial use and adaptation and asks for no
-credit; the photographer is credited anyway` : ''}.
+is credited${stockCount ? ` — and **${stockCount}** use the stock-library licences named
+in the licence table below, which permit commercial recipe-page use and
+adaptation. Courtesy credits are retained. These are not Creative Commons
+licences and do not permit unrestricted redistribution as stock photography` : ''}.
 
 That condition is met in two places: underneath the photograph on the recipe
 page itself, and in the table below. Both name the title, the photographer, the
@@ -119,10 +122,14 @@ Images were collected programmatically by \`tools/fetch_images.py\`, which:
 3. Scores each candidate for relevance against the dish name and rejects
    archival material, illustrations, packaging shots and portraits.
 4. Downloads, centre-crops to 4:3, resizes, and writes both WebP and JPEG.
-${stockCount ? `5. For recipes the archives held nothing for, searches **Pixabay**, a stock
-   library whose own licence allows commercial use and adaptation. Pictures
-   tagged as AI-generated are dropped, and every photograph was looked at
-   against the recipe before it was published.
+${stockCount ? `5. Also searches public stock-library collections, using
+   \`tools/source-online-photos.py\` as well as the API-based fetcher. Each selected
+   photo needs its individual source and licence checked, real-photography
+   evidence, full-size dish/diet review and a duplicate check. Search results
+   alone are unapproved leads; AI images, renders and paid sponsored results
+   are excluded. Kaboompics selections must allow commercial use; editorial-only
+   images are excluded. The review records document serving and preparation
+   differences; stock photographs do not demonstrate tests of these recipes.
 ` : ''}
 If no properly licensed photograph could be found for a dish, the site shows
 either a generated illustration, described in the next section, or a CSS
@@ -180,12 +187,16 @@ Licence texts:
 - **CC BY-SA 4.0** — <https://creativecommons.org/licenses/by-sa/4.0/>
 - **CC BY-SA 3.0** — <https://creativecommons.org/licenses/by-sa/3.0/>
 - **CC BY-SA 2.0** — <https://creativecommons.org/licenses/by-sa/2.0/>
-${stockCount ? '- **Pixabay Content License** — <https://pixabay.com/service/license-summary/>\n' : ''}
+${Object.keys(counts).some(n => /^Pixabay Content/i.test(n)) ? '- **Pixabay Content License** — <https://pixabay.com/service/license-summary/>\n' : ''}
+${Object.keys(counts).some(n => /^Pexels/i.test(n)) ? '- **Pexels License** — <https://www.pexels.com/license/>\n' : ''}
+${Object.keys(counts).some(n => /^Unsplash/i.test(n)) ? '- **Unsplash License** — <https://unsplash.com/license>\n' : ''}
+${Object.keys(counts).some(n => /^Kaboompics Standard/i.test(n)) ? '- **Kaboompics Standard License** — <https://kaboompics.com/page/license-and-faq>\n' : ''}
 ${missing.length ? `### Recipes without a photograph
 
-These use the built-in gradient placeholder because no CC0, public-domain,
-CC BY or CC BY-SA image of sufficient quality and relevance could be found,
-and no usable illustration of them could be drawn either:
+These currently use the built-in gradient placeholder. A suitable licensed
+photograph has not been approved. This is not proof that no photograph exists;
+some searches were limited or blocked, and further review remains. New AI
+illustrations are not commissioned:
 
 ${missing.map(r => `- ${r.title} (\`${r.slug}\`)`).join('\n')}
 ` : ''}

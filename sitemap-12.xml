@@ -76,9 +76,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bugnes/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bugnes.jpg</image:loc>
+      <image:title>Bugnes</image:title>
+      <image:caption>Bugnes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/baeckeoffe/</loc>
@@ -476,9 +481,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicons-au-gratin/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicons-au-gratin.jpg</image:loc>
+      <image:title>Chicons au Gratin</image:title>
+      <image:caption>Chicons au Gratin</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/boulets-liegeois/</loc>
@@ -2730,9 +2740,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gildas/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gildas.jpg</image:loc>
+      <image:title>Gildas</image:title>
+      <image:caption>Gildas</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ensaladilla-rusa/</loc>
@@ -3663,9 +3678,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/nalesniki/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/nalesniki.jpg</image:loc>
+      <image:title>Nalesniki</image:title>
+      <image:caption>Nalesniki</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pierogi-z-kapusta/</loc>
@@ -4288,9 +4308,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/artsoppa/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/artsoppa.jpg</image:loc>
+      <image:title>Ärtsoppa</image:title>
+      <image:caption>Ärtsoppa</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/biff-a-la-lindstrom/</loc>

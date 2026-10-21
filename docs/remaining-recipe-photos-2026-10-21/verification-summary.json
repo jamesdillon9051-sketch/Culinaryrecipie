@@ -1,0 +1,17 @@
+{
+  "build_and_check": "passed",
+  "checked_html_pages": 5875,
+  "sitemap_urls": 5871,
+  "search_records": 5515,
+  "new_real_photos": 64,
+  "recipe_total": 5515,
+  "recipes_with_photos": 4241,
+  "legacy_illustration_only": 101,
+  "no_picture": 1173,
+  "unchanged_rebuild_date_churn": 0,
+  "initial_recipe_dates_changed": 64,
+  "initial_other_dates_changed": 36,
+  "first_build_about_photo_count": 4241,
+  "browser_cases": 16,
+  "existing_assets_overwritten": 0
+}

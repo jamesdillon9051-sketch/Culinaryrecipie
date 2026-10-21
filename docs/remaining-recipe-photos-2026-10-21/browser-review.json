@@ -1,0 +1,842 @@
+{
+  "thirdPartiesBlockedLocally": true,
+  "productionAdCodeUnchanged": true,
+  "results": [
+    {
+      "width": 390,
+      "slug": "cranberry-meatballs",
+      "status": 200,
+      "scrollWidth": 390,
+      "viewport": 390,
+      "hero": [
+        {
+          "src": "http://localhost:4176/assets/img/recipes/cranberry-meatballs.webp",
+          "loaded": true,
+          "alt": "Cranberry Meatballs"
+        }
+      ],
+      "credits": [
+        {
+          "text": "Photograph credit:\nappetizer cranberry meatballs with sauce by Michael Wurm Jr · CC BY 2.0 · Flickr; photo for Shari’s Berries",
+          "links": [
+            "https://www.flickr.com/photos/126560659@N06/24298009686/",
+            "https://www.berries.com/",
+            "https://creativecommons.org/licenses/by/2.0/"
+          ]
+        }
+      ],
+      "recipes": [
+        {
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://weeklydelight.com/assets/img/recipes/cranberry-meatballs.jpg",
+              "contentUrl": "https://weeklydelight.com/assets/img/recipes/cranberry-meatballs.jpg",
+              "width": 800,
+              "height": 600,
+              "caption": "Cranberry Meatballs",
+              "name": "Cranberry Meatballs recipe",
+              "creator": {
+                "@type": "Person",
+                "name": "Michael Wurm Jr"
+              },
+              "creditText": "Michael Wurm Jr, CC BY 2.0 via Flickr; photo for Shari’s Berries",
+              "license": "https://creativecommons.org/licenses/by/2.0/",
+              "acquireLicensePage": "https://www.flickr.com/photos/126560659@N06/24298009686/"
+            }
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Turab",
+            "url": "https://weeklydelight.com/about/"
+          }
+        }
+      ],
+      "canonical": "https://weeklydelight.com/recipes/cranberry-meatballs/",
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "chocolate-chip-cookie-bars",
+      "status": 200,
+      "scrollWidth": 390,
+      "viewport": 390,
+      "hero": [
+        {
+          "src": "http://localhost:4176/assets/img/recipes/chocolate-chip-cookie-bars.webp",
+          "loaded": true,
+          "alt": "Chocolate Chip Cookie Bars"
+        }
+      ],
+      "credits": [
+        {
+          "text": "Photograph credit:\nBaked Chocolate Chip Cookie Bar by Chocolate-Dessert-Recipes.com · CC BY 2.0 · Flickr",
+          "links": [
+            "https://www.flickr.com/photos/66677611@N08/6064302347/",
+            "https://www.chocolate-dessert-recipes.com/",
+            "https://creativecommons.org/licenses/by/2.0/"
+          ]
+        }
+      ],
+      "recipes": [
+        {
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://weeklydelight.com/assets/img/recipes/chocolate-chip-cookie-bars.jpg",
+              "contentUrl": "https://weeklydelight.com/assets/img/recipes/chocolate-chip-cookie-bars.jpg",
+              "width": 800,
+              "height": 600,
+              "caption": "Chocolate Chip Cookie Bars",
+              "name": "Chocolate Chip Cookie Bars recipe",
+              "creator": {
+                "@type": "Organization",
+                "name": "Chocolate-Dessert-Recipes.com"
+              },
+              "creditText": "Chocolate-Dessert-Recipes.com, CC BY 2.0 via Flickr",
+              "license": "https://creativecommons.org/licenses/by/2.0/",
+              "acquireLicensePage": "https://www.flickr.com/photos/66677611@N08/6064302347/"
+            }
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Turab",
+            "url": "https://weeklydelight.com/about/"
+          }
+        }
+      ],
+      "canonical": "https://weeklydelight.com/recipes/chocolate-chip-cookie-bars/",
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "bugnes",
+      "status": 200,
+      "scrollWidth": 390,
+      "viewport": 390,
+      "hero": [
+        {
+          "src": "http://localhost:4176/assets/img/recipes/bugnes.webp",
+          "loaded": true,
+          "alt": "Bugnes"
+        }
+      ],
+      "credits": [
+        {
+          "text": "Photograph credit:\nBugnes by The Connexion · CC BY 2.0 · Flickr",
+          "links": [
+            "https://www.flickr.com/photos/129947512@N06/24547323439/",
+            "https://creativecommons.org/licenses/by/2.0/"
+          ]
+        }
+      ],
+      "recipes": [
+        {
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://weeklydelight.com/assets/img/recipes/bugnes.jpg",
+              "contentUrl": "https://weeklydelight.com/assets/img/recipes/bugnes.jpg",
+              "width": 800,
+              "height": 600,
+              "caption": "Bugnes",
+              "name": "Bugnes recipe",
+              "creator": {
+                "@type": "Organization",
+                "name": "The Connexion"
+              },
+              "creditText": "The Connexion, CC BY 2.0 via Flickr",
+              "license": "https://creativecommons.org/licenses/by/2.0/",
+              "acquireLicensePage": "https://www.flickr.com/photos/129947512@N06/24547323439/"
+            }
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Turab",
+            "url": "https://weeklydelight.com/about/"
+          }
+        }
+      ],
+      "canonical": "https://weeklydelight.com/recipes/bugnes/",
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "gooseberry-fool",
+      "status": 200,
+      "scrollWidth": 390,
+      "viewport": 390,
+      "hero": [
+        {
+          "src": "http://localhost:4176/assets/img/recipes/gooseberry-fool.webp",
+          "loaded": true,
+          "alt": "Gooseberry Fool"
+        }
+      ],
+      "credits": [
+        {
+          "text": "Photograph credit:\nKonstam at The Prince Albert, St Pancras, London by Ewan Munro · CC BY-SA 2.0 · Flickr · this resized copy is shared under the same licence",
+          "links": [
+            "https://www.flickr.com/photos/55935853@N00/3660393323/",
+            "https://creativecommons.org/licenses/by-sa/2.0/"
+          ]
+        }
+      ],
+      "recipes": [
+        {
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://weeklydelight.com/assets/img/recipes/gooseberry-fool.jpg",
+              "contentUrl": "https://weeklydelight.com/assets/img/recipes/gooseberry-fool.jpg",
+              "width": 800,
+              "height": 600,
+              "caption": "Gooseberry Fool",
+              "name": "Gooseberry Fool recipe",
+              "creator": {
+                "@type": "Person",
+                "name": "Ewan Munro"
+              },
+              "creditText": "Ewan Munro, CC BY-SA 2.0 via Flickr",
+              "license": "https://creativecommons.org/licenses/by-sa/2.0/",
+              "acquireLicensePage": "https://www.flickr.com/photos/55935853@N00/3660393323/"
+            }
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Turab",
+            "url": "https://weeklydelight.com/about/"
+          }
+        }
+      ],
+      "canonical": "https://weeklydelight.com/recipes/gooseberry-fool/",
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "roasted-red-pepper-hummus",
+      "status": 200,
+      "scrollWidth": 390,
+      "viewport": 390,
+      "hero": [
+        {
+          "src": "http://localhost:4176/assets/img/recipes/roasted-red-pepper-hummus.webp",
+          "loaded": true,
+          "alt": "Roasted Red Pepper Hummus"
+        }
+      ],
+      "credits": [
+        {
+          "text": "Photograph credit:\nRed-roasted bell pepper hummus by Yvonne Esperanza · CC BY 2.0 · Flickr",
+          "links": [
+            "https://www.flickr.com/photos/12052457@N06/4900918674/",
+            "https://creativecommons.org/licenses/by/2.0/"
+          ]
+        }
+      ],
+      "recipes": [
+        {
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://weeklydelight.com/assets/img/recipes/roasted-red-pepper-hummus.jpg",
+              "contentUrl": "https://weeklydelight.com/assets/img/recipes/roasted-red-pepper-hummus.jpg",
+              "width": 800,
+              "height": 600,
+              "caption": "Roasted Red Pepper Hummus",
+              "name": "Roasted Red Pepper Hummus recipe",
+              "creator": {
+                "@type": "Person",
+                "name": "Yvonne Esperanza"
+              },
+              "creditText": "Yvonne Esperanza, CC BY 2.0 via Flickr",
+              "license": "https://creativecommons.org/licenses/by/2.0/",
+              "acquireLicensePage": "https://www.flickr.com/photos/12052457@N06/4900918674/"
+            }
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Turab",
+            "url": "https://weeklydelight.com/about/"
+          }
+        }
+      ],
+      "canonical": "https://weeklydelight.com/recipes/roasted-red-pepper-hummus/",
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "vegan-cookies",
+      "status": 200,
+      "scrollWidth": 390,
+      "viewport": 390,
+      "hero": [
+        {
+          "src": "http://localhost:4176/assets/img/recipes/vegan-cookies.webp",
+          "loaded": true,
+          "alt": "Vegan Cookies"
+        }
+      ],
+      "credits": [
+        {
+          "text": "Photograph credit:\nTollhouse Style Vegan Chocolate Chip Cookies by Kari Sullivan · CC BY 2.0 · Wikimedia Commons",
+          "links": [
+            "https://commons.wikimedia.org/wiki/File:Tollhouse_Style_Vegan_Chocolate_Chip_Cookies.jpg",
+            "https://creativecommons.org/licenses/by/2.0"
+          ]
+        }
+      ],
+      "recipes": [
+        {
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://weeklydelight.com/assets/img/recipes/vegan-cookies.jpg",
+              "contentUrl": "https://weeklydelight.com/assets/img/recipes/vegan-cookies.jpg",
+              "width": 800,
+              "height": 600,
+              "caption": "Vegan Cookies",
+              "name": "Vegan Cookies recipe",
+              "creator": {
+                "@type": "Person",
+                "name": "Kari Sullivan"
+              },
+              "creditText": "Kari Sullivan, CC BY 2.0 via Wikimedia Commons",
+              "license": "https://creativecommons.org/licenses/by/2.0",
+              "acquireLicensePage": "https://commons.wikimedia.org/wiki/File:Tollhouse_Style_Vegan_Chocolate_Chip_Cookies.jpg"
+            }
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Turab",
+            "url": "https://weeklydelight.com/about/"
+          }
+        }
+      ],
+      "canonical": "https://weeklydelight.com/recipes/vegan-cookies/",
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "dairy-free-chocolate-cake",
+      "status": 200,
+      "scrollWidth": 390,
+      "viewport": 390,
+      "hero": [
+        {
+          "src": "http://localhost:4176/assets/img/recipes/dairy-free-chocolate-cake.webp",
+          "loaded": true,
+          "alt": "Dairy-Free Chocolate Cake"
+        }
+      ],
+      "credits": [
+        {
+          "text": "Photograph credit:\nDairy free, gluten free, refined sugar free, nut free chocolate cake of awesome!… by Fiona Henderson · CC BY 2.0 · Flickr",
+          "links": [
+            "https://www.flickr.com/photos/25925793@N00/8619141306/",
+            "https://creativecommons.org/licenses/by/2.0/"
+          ]
+        }
+      ],
+      "recipes": [
+        {
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://weeklydelight.com/assets/img/recipes/dairy-free-chocolate-cake.jpg",
+              "contentUrl": "https://weeklydelight.com/assets/img/recipes/dairy-free-chocolate-cake.jpg",
+              "width": 800,
+              "height": 600,
+              "caption": "Dairy-Free Chocolate Cake",
+              "name": "Dairy-Free Chocolate Cake recipe",
+              "creator": {
+                "@type": "Person",
+                "name": "Fiona Henderson"
+              },
+              "creditText": "Fiona Henderson, CC BY 2.0 via Flickr",
+              "license": "https://creativecommons.org/licenses/by/2.0/",
+              "acquireLicensePage": "https://www.flickr.com/photos/25925793@N00/8619141306/"
+            }
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Turab",
+            "url": "https://weeklydelight.com/about/"
+          }
+        }
+      ],
+      "canonical": "https://weeklydelight.com/recipes/dairy-free-chocolate-cake/",
+      "errors": []
+    },
+    {
+      "width": 390,
+      "slug": "cast-iron-skillet-cookie",
+      "status": 200,
+      "scrollWidth": 390,
+      "viewport": 390,
+      "hero": [
+        {
+          "src": "http://localhost:4176/assets/img/recipes/cast-iron-skillet-cookie.webp",
+          "loaded": true,
+          "alt": "Cast Iron Skillet Cookie"
+        }
+      ],
+      "credits": [
+        {
+          "text": "Photograph credit:\nA skillet cookie this famous certainly deserves custom leather cast iron skillet… by Geoffrey Franklin · CC BY 2.0 · Flickr",
+          "links": [
+            "https://www.flickr.com/photos/47514124@N02/33439676316/",
+            "https://creativecommons.org/licenses/by/2.0/"
+          ]
+        }
+      ],
+      "recipes": [
+        {
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://weeklydelight.com/assets/img/recipes/cast-iron-skillet-cookie.jpg",
+              "contentUrl": "https://weeklydelight.com/assets/img/recipes/cast-iron-skillet-cookie.jpg",
+              "width": 800,
+              "height": 600,
+              "caption": "Cast Iron Skillet Cookie",
+              "name": "Cast Iron Skillet Cookie recipe",
+              "creator": {
+                "@type": "Person",
+                "name": "Geoffrey Franklin"
+              },
+              "creditText": "Geoffrey Franklin, CC BY 2.0 via Flickr",
+              "license": "https://creativecommons.org/licenses/by/2.0/",
+              "acquireLicensePage": "https://www.flickr.com/photos/47514124@N02/33439676316/"
+            }
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Turab",
+            "url": "https://weeklydelight.com/about/"
+          }
+        }
+      ],
+      "canonical": "https://weeklydelight.com/recipes/cast-iron-skillet-cookie/",
+      "errors": []
+    },
+    {
+      "width": 1280,
+      "slug": "cranberry-meatballs",
+      "status": 200,
+      "scrollWidth": 1280,
+      "viewport": 1280,
+      "hero": [
+        {
+          "src": "http://localhost:4176/assets/img/recipes/cranberry-meatballs.webp",
+          "loaded": true,
+          "alt": "Cranberry Meatballs"
+        }
+      ],
+      "credits": [
+        {
+          "text": "Photograph credit:\nappetizer cranberry meatballs with sauce by Michael Wurm Jr · CC BY 2.0 · Flickr; photo for Shari’s Berries",
+          "links": [
+            "https://www.flickr.com/photos/126560659@N06/24298009686/",
+            "https://www.berries.com/",
+            "https://creativecommons.org/licenses/by/2.0/"
+          ]
+        }
+      ],
+      "recipes": [
+        {
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://weeklydelight.com/assets/img/recipes/cranberry-meatballs.jpg",
+              "contentUrl": "https://weeklydelight.com/assets/img/recipes/cranberry-meatballs.jpg",
+              "width": 800,
+              "height": 600,
+              "caption": "Cranberry Meatballs",
+              "name": "Cranberry Meatballs recipe",
+              "creator": {
+                "@type": "Person",
+                "name": "Michael Wurm Jr"
+              },
+              "creditText": "Michael Wurm Jr, CC BY 2.0 via Flickr; photo for Shari’s Berries",
+              "license": "https://creativecommons.org/licenses/by/2.0/",
+              "acquireLicensePage": "https://www.flickr.com/photos/126560659@N06/24298009686/"
+            }
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Turab",
+            "url": "https://weeklydelight.com/about/"
+          }
+        }
+      ],
+      "canonical": "https://weeklydelight.com/recipes/cranberry-meatballs/",
+      "errors": []
+    },
+    {
+      "width": 1280,
+      "slug": "chocolate-chip-cookie-bars",
+      "status": 200,
+      "scrollWidth": 1280,
+      "viewport": 1280,
+      "hero": [
+        {
+          "src": "http://localhost:4176/assets/img/recipes/chocolate-chip-cookie-bars.webp",
+          "loaded": true,
+          "alt": "Chocolate Chip Cookie Bars"
+        }
+      ],
+      "credits": [
+        {
+          "text": "Photograph credit:\nBaked Chocolate Chip Cookie Bar by Chocolate-Dessert-Recipes.com · CC BY 2.0 · Flickr",
+          "links": [
+            "https://www.flickr.com/photos/66677611@N08/6064302347/",
+            "https://www.chocolate-dessert-recipes.com/",
+            "https://creativecommons.org/licenses/by/2.0/"
+          ]
+        }
+      ],
+      "recipes": [
+        {
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://weeklydelight.com/assets/img/recipes/chocolate-chip-cookie-bars.jpg",
+              "contentUrl": "https://weeklydelight.com/assets/img/recipes/chocolate-chip-cookie-bars.jpg",
+              "width": 800,
+              "height": 600,
+              "caption": "Chocolate Chip Cookie Bars",
+              "name": "Chocolate Chip Cookie Bars recipe",
+              "creator": {
+                "@type": "Organization",
+                "name": "Chocolate-Dessert-Recipes.com"
+              },
+              "creditText": "Chocolate-Dessert-Recipes.com, CC BY 2.0 via Flickr",
+              "license": "https://creativecommons.org/licenses/by/2.0/",
+              "acquireLicensePage": "https://www.flickr.com/photos/66677611@N08/6064302347/"
+            }
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Turab",
+            "url": "https://weeklydelight.com/about/"
+          }
+        }
+      ],
+      "canonical": "https://weeklydelight.com/recipes/chocolate-chip-cookie-bars/",
+      "errors": []
+    },
+    {
+      "width": 1280,
+      "slug": "bugnes",
+      "status": 200,
+      "scrollWidth": 1280,
+      "viewport": 1280,
+      "hero": [
+        {
+          "src": "http://localhost:4176/assets/img/recipes/bugnes.webp",
+          "loaded": true,
+          "alt": "Bugnes"
+        }
+      ],
+      "credits": [
+        {
+          "text": "Photograph credit:\nBugnes by The Connexion · CC BY 2.0 · Flickr",
+          "links": [
+            "https://www.flickr.com/photos/129947512@N06/24547323439/",
+            "https://creativecommons.org/licenses/by/2.0/"
+          ]
+        }
+      ],
+      "recipes": [
+        {
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://weeklydelight.com/assets/img/recipes/bugnes.jpg",
+              "contentUrl": "https://weeklydelight.com/assets/img/recipes/bugnes.jpg",
+              "width": 800,
+              "height": 600,
+              "caption": "Bugnes",
+              "name": "Bugnes recipe",
+              "creator": {
+                "@type": "Organization",
+                "name": "The Connexion"
+              },
+              "creditText": "The Connexion, CC BY 2.0 via Flickr",
+              "license": "https://creativecommons.org/licenses/by/2.0/",
+              "acquireLicensePage": "https://www.flickr.com/photos/129947512@N06/24547323439/"
+            }
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Turab",
+            "url": "https://weeklydelight.com/about/"
+          }
+        }
+      ],
+      "canonical": "https://weeklydelight.com/recipes/bugnes/",
+      "errors": []
+    },
+    {
+      "width": 1280,
+      "slug": "gooseberry-fool",
+      "status": 200,
+      "scrollWidth": 1280,
+      "viewport": 1280,
+      "hero": [
+        {
+          "src": "http://localhost:4176/assets/img/recipes/gooseberry-fool.webp",
+          "loaded": true,
+          "alt": "Gooseberry Fool"
+        }
+      ],
+      "credits": [
+        {
+          "text": "Photograph credit:\nKonstam at The Prince Albert, St Pancras, London by Ewan Munro · CC BY-SA 2.0 · Flickr · this resized copy is shared under the same licence",
+          "links": [
+            "https://www.flickr.com/photos/55935853@N00/3660393323/",
+            "https://creativecommons.org/licenses/by-sa/2.0/"
+          ]
+        }
+      ],
+      "recipes": [
+        {
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://weeklydelight.com/assets/img/recipes/gooseberry-fool.jpg",
+              "contentUrl": "https://weeklydelight.com/assets/img/recipes/gooseberry-fool.jpg",
+              "width": 800,
+              "height": 600,
+              "caption": "Gooseberry Fool",
+              "name": "Gooseberry Fool recipe",
+              "creator": {
+                "@type": "Person",
+                "name": "Ewan Munro"
+              },
+              "creditText": "Ewan Munro, CC BY-SA 2.0 via Flickr",
+              "license": "https://creativecommons.org/licenses/by-sa/2.0/",
+              "acquireLicensePage": "https://www.flickr.com/photos/55935853@N00/3660393323/"
+            }
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Turab",
+            "url": "https://weeklydelight.com/about/"
+          }
+        }
+      ],
+      "canonical": "https://weeklydelight.com/recipes/gooseberry-fool/",
+      "errors": []
+    },
+    {
+      "width": 1280,
+      "slug": "roasted-red-pepper-hummus",
+      "status": 200,
+      "scrollWidth": 1280,
+      "viewport": 1280,
+      "hero": [
+        {
+          "src": "http://localhost:4176/assets/img/recipes/roasted-red-pepper-hummus.webp",
+          "loaded": true,
+          "alt": "Roasted Red Pepper Hummus"
+        }
+      ],
+      "credits": [
+        {
+          "text": "Photograph credit:\nRed-roasted bell pepper hummus by Yvonne Esperanza · CC BY 2.0 · Flickr",
+          "links": [
+            "https://www.flickr.com/photos/12052457@N06/4900918674/",
+            "https://creativecommons.org/licenses/by/2.0/"
+          ]
+        }
+      ],
+      "recipes": [
+        {
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://weeklydelight.com/assets/img/recipes/roasted-red-pepper-hummus.jpg",
+              "contentUrl": "https://weeklydelight.com/assets/img/recipes/roasted-red-pepper-hummus.jpg",
+              "width": 800,
+              "height": 600,
+              "caption": "Roasted Red Pepper Hummus",
+              "name": "Roasted Red Pepper Hummus recipe",
+              "creator": {
+                "@type": "Person",
+                "name": "Yvonne Esperanza"
+              },
+              "creditText": "Yvonne Esperanza, CC BY 2.0 via Flickr",
+              "license": "https://creativecommons.org/licenses/by/2.0/",
+              "acquireLicensePage": "https://www.flickr.com/photos/12052457@N06/4900918674/"
+            }
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Turab",
+            "url": "https://weeklydelight.com/about/"
+          }
+        }
+      ],
+      "canonical": "https://weeklydelight.com/recipes/roasted-red-pepper-hummus/",
+      "errors": []
+    },
+    {
+      "width": 1280,
+      "slug": "vegan-cookies",
+      "status": 200,
+      "scrollWidth": 1280,
+      "viewport": 1280,
+      "hero": [
+        {
+          "src": "http://localhost:4176/assets/img/recipes/vegan-cookies.webp",
+          "loaded": true,
+          "alt": "Vegan Cookies"
+        }
+      ],
+      "credits": [
+        {
+          "text": "Photograph credit:\nTollhouse Style Vegan Chocolate Chip Cookies by Kari Sullivan · CC BY 2.0 · Wikimedia Commons",
+          "links": [
+            "https://commons.wikimedia.org/wiki/File:Tollhouse_Style_Vegan_Chocolate_Chip_Cookies.jpg",
+            "https://creativecommons.org/licenses/by/2.0"
+          ]
+        }
+      ],
+      "recipes": [
+        {
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://weeklydelight.com/assets/img/recipes/vegan-cookies.jpg",
+              "contentUrl": "https://weeklydelight.com/assets/img/recipes/vegan-cookies.jpg",
+              "width": 800,
+              "height": 600,
+              "caption": "Vegan Cookies",
+              "name": "Vegan Cookies recipe",
+              "creator": {
+                "@type": "Person",
+                "name": "Kari Sullivan"
+              },
+              "creditText": "Kari Sullivan, CC BY 2.0 via Wikimedia Commons",
+              "license": "https://creativecommons.org/licenses/by/2.0",
+              "acquireLicensePage": "https://commons.wikimedia.org/wiki/File:Tollhouse_Style_Vegan_Chocolate_Chip_Cookies.jpg"
+            }
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Turab",
+            "url": "https://weeklydelight.com/about/"
+          }
+        }
+      ],
+      "canonical": "https://weeklydelight.com/recipes/vegan-cookies/",
+      "errors": []
+    },
+    {
+      "width": 1280,
+      "slug": "dairy-free-chocolate-cake",
+      "status": 200,
+      "scrollWidth": 1280,
+      "viewport": 1280,
+      "hero": [
+        {
+          "src": "http://localhost:4176/assets/img/recipes/dairy-free-chocolate-cake.webp",
+          "loaded": true,
+          "alt": "Dairy-Free Chocolate Cake"
+        }
+      ],
+      "credits": [
+        {
+          "text": "Photograph credit:\nDairy free, gluten free, refined sugar free, nut free chocolate cake of awesome!… by Fiona Henderson · CC BY 2.0 · Flickr",
+          "links": [
+            "https://www.flickr.com/photos/25925793@N00/8619141306/",
+            "https://creativecommons.org/licenses/by/2.0/"
+          ]
+        }
+      ],
+      "recipes": [
+        {
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://weeklydelight.com/assets/img/recipes/dairy-free-chocolate-cake.jpg",
+              "contentUrl": "https://weeklydelight.com/assets/img/recipes/dairy-free-chocolate-cake.jpg",
+              "width": 800,
+              "height": 600,
+              "caption": "Dairy-Free Chocolate Cake",
+              "name": "Dairy-Free Chocolate Cake recipe",
+              "creator": {
+                "@type": "Person",
+                "name": "Fiona Henderson"
+              },
+              "creditText": "Fiona Henderson, CC BY 2.0 via Flickr",
+              "license": "https://creativecommons.org/licenses/by/2.0/",
+              "acquireLicensePage": "https://www.flickr.com/photos/25925793@N00/8619141306/"
+            }
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Turab",
+            "url": "https://weeklydelight.com/about/"
+          }
+        }
+      ],
+      "canonical": "https://weeklydelight.com/recipes/dairy-free-chocolate-cake/",
+      "errors": []
+    },
+    {
+      "width": 1280,
+      "slug": "cast-iron-skillet-cookie",
+      "status": 200,
+      "scrollWidth": 1280,
+      "viewport": 1280,
+      "hero": [
+        {
+          "src": "http://localhost:4176/assets/img/recipes/cast-iron-skillet-cookie.webp",
+          "loaded": true,
+          "alt": "Cast Iron Skillet Cookie"
+        }
+      ],
+      "credits": [
+        {
+          "text": "Photograph credit:\nA skillet cookie this famous certainly deserves custom leather cast iron skillet… by Geoffrey Franklin · CC BY 2.0 · Flickr",
+          "links": [
+            "https://www.flickr.com/photos/47514124@N02/33439676316/",
+            "https://creativecommons.org/licenses/by/2.0/"
+          ]
+        }
+      ],
+      "recipes": [
+        {
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://weeklydelight.com/assets/img/recipes/cast-iron-skillet-cookie.jpg",
+              "contentUrl": "https://weeklydelight.com/assets/img/recipes/cast-iron-skillet-cookie.jpg",
+              "width": 800,
+              "height": 600,
+              "caption": "Cast Iron Skillet Cookie",
+              "name": "Cast Iron Skillet Cookie recipe",
+              "creator": {
+                "@type": "Person",
+                "name": "Geoffrey Franklin"
+              },
+              "creditText": "Geoffrey Franklin, CC BY 2.0 via Flickr",
+              "license": "https://creativecommons.org/licenses/by/2.0/",
+              "acquireLicensePage": "https://www.flickr.com/photos/47514124@N02/33439676316/"
+            }
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Turab",
+            "url": "https://weeklydelight.com/about/"
+          }
+        }
+      ],
+      "canonical": "https://weeklydelight.com/recipes/cast-iron-skillet-cookie/",
+      "errors": []
+    }
+  ]
+}

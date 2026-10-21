@@ -48,18 +48,20 @@ function jpegSize(file) {
 /**
  * @param {object[]} catalog   catalogue rows (slug, title)
  * @param {object} images      src/data/images.json
- * @param {{checkFiles?: boolean}} [opts]  false skips the disk reads (for a quick count)
+ * @param {{checkFiles?: boolean, imageDir?: string}} [opts]  By default checks generated files;
+ *   build-time statistics use the source directory, before output assets have been copied.
  */
 function inventory(catalog, images, opts = {}) {
   const checkFiles = opts.checkFiles !== false;
-  const onDisk = checkFiles && fs.existsSync(IMG_DIR) ? new Set(fs.readdirSync(IMG_DIR)) : null;
+  const imageDir = opts.imageDir || IMG_DIR;
+  const onDisk = checkFiles && fs.existsSync(imageDir) ? new Set(fs.readdirSync(imageDir)) : null;
   const fileState = new Map();
   const state = file => {
     if (fileState.has(file)) return fileState.get(file);
     let s = { ok: true };
     if (onDisk) {
       const jpg = onDisk.has(`${file}.jpg`); const webp = onDisk.has(`${file}.webp`);
-      const size = jpg ? jpegSize(path.join(IMG_DIR, `${file}.jpg`)) : null;
+      const size = jpg ? jpegSize(path.join(imageDir, `${file}.jpg`)) : null;
       s = { ok: jpg && webp && Boolean(size && size.w && size.h), jpg, webp, size };
     }
     fileState.set(file, s);

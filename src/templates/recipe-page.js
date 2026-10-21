@@ -260,7 +260,10 @@ function recipeSchema(recipe) {
     name: `${recipe.title} recipe`
   }, isIllustration(recipe.imageData) || !recipe.imageData.author ? {} : Object.assign({
     /* "Unknown" is not a Person. The credit text and licence still go out. */
-    ...(recipe.imageData.author === 'Unknown' ? {} : { creator: { '@type': 'Person', name: recipe.imageData.author } }),
+    ...(recipe.imageData.author === 'Unknown' ? {} : { creator: {
+      '@type': recipe.imageData.author_type === 'Organization' ? 'Organization' : 'Person',
+      name: recipe.imageData.author
+    } }),
     creditText: [recipe.imageData.author === 'Unknown' ? '' : recipe.imageData.author, recipe.imageData.licence].filter(Boolean).join(', ') +
       (recipe.imageData.source ? ' via ' + recipe.imageData.source : '')
   }, recipe.imageData.licence_url ? { license: secureUrl(recipe.imageData.licence_url) } : {},

@@ -65,11 +65,15 @@ WEBP_Q, JPEG_Q = 68, 70
 # the same two points: commercial use and modification are both allowed and no
 # credit is required (it forbids selling unaltered copies and implying an
 # endorsement, neither of which a recipe page does).
+# Kaboompics' Standard License was separately checked on 21 October 2026:
+# commercial recipe-page use and cropping are permitted; editorial-only photos,
+# standalone stock redistribution and AI training are outside that permission.
 _ALLOWED = re.compile(
     r"^(cc0|public domain|pdm|no restrictions"
     r"|cc[-\s]?by(?:[-\s]?sa)?\b"
     r"|attribution(?:[-\s]?share[-\s]?alike)?\b"
-    r"|pexels licen[cs]e$|unsplash licen[cs]e$|pixabay content licen[cs]e$)", re.I)
+    r"|pexels licen[cs]e$|unsplash licen[cs]e$|pixabay content licen[cs]e$"
+    r"|kaboompics standard licen[cs]e$)", re.I)
 # Checked separately rather than as a lookahead: "CC BY-SA-NC" backtracks past a
 # lookahead placed after the optional SA and comes out accepted. A clause that
 # may appear anywhere in the string is safer read anywhere in the string.
