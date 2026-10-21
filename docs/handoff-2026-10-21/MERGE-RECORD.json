@@ -1,0 +1,30 @@
+{
+  "report_generated_at": "2026-10-21 06:46 UTC",
+  "approved_by": "repository owner in conversation on 21 October 2026",
+  "production_base": "40a2386f0f0b75eeac0ec54570f619b07f1f2a66",
+  "crawl_merge_commit": "b076ac8f03bbcad191a51ec6ea71522b26b3f3c8",
+  "photo_merge_commit": "260ad311d43ed3833fd52384f3ae8af9f4e90d19",
+  "reviewed_tree_head": "ab4c2107772e11ed733ddc36009ad3c031c2ddbd",
+  "reviewed_tree_sha": "bb183bb44313f2cf8861d411fcaa24343c48f2ad",
+  "implementation_tree_matches_reviewed_tree": true,
+  "implementation_changed_files": 6391,
+  "fresh_build_passed": true,
+  "fresh_full_check_passed": true,
+  "fresh_ads_comparison_passed": true,
+  "selected_photos": 178,
+  "remaining_missing_images": 1237,
+  "manual_hosting_deployment_performed": false,
+  "full_production_deployment_verified": false,
+  "prs": [
+    {
+      "number": 17,
+      "merged": true,
+      "url": "https://github.com/jamesdillon9051-sketch/Culinaryrecipie/pull/17"
+    },
+    {
+      "number": 18,
+      "merged": true,
+      "url": "https://github.com/jamesdillon9051-sketch/Culinaryrecipie/pull/18"
+    }
+  ]
+}

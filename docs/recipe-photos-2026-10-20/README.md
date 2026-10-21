@@ -1,5 +1,7 @@
 # Missing recipe photographs — 20 October 2026
 
+Merge update, 21 October: PRs #17 and #18 are merged into main. The implementation merge is `260ad311d43ed3833fd52384f3ae8af9f4e90d19`. See the [current PDF/text handoff](../handoff-2026-10-21/README.md). Earlier pre-merge wording below is historical. The new photos are present in GitHub; the sampled live Leche Flan photo URLs still returned 404 at 06:41 UTC, so production rollout remains unverified.
+
 Publication update, 21 October: GitHub write access is restored. [Draft photo PR #18](https://github.com/jamesdillon9051-sketch/Culinaryrecipie/pull/18) targets [draft crawl PR #17](https://github.com/jamesdillon9051-sketch/Culinaryrecipie/pull/17). Photo implementation is `23c54a1ec819f4ee274df1ff9a5049bc0fc35277`. Claude owns final integration/regeneration; nothing is merged or deployed. See [the current shared handoff](../HANDOFF.md).
 
 **178 licensed real photographs** are prepared on `images/missing-recipe-photos`, based on crawl-review tip `775470da2ce0e3cbf33b6f51cdd9c3bf982e43e9` (production/main base `40a2386f0f0b75eeac0ec54570f619b07f1f2a66`). This implements the owner's subsequent request to find missing recipe images. Nothing is merged or deployed. The delivery manifest records the final image commit and artifact hashes.
