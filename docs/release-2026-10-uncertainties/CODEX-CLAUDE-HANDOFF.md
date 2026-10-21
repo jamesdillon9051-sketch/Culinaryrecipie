@@ -1,5 +1,13 @@
 # Codex–Claude technical review
 
+## Merge completion — 21 October 2026
+
+The owner approved both merges. PR #17 merged into `main` as `b076ac8f03bbcad191a51ec6ea71522b26b3f3c8`; PR #18 was retargeted to `main` and merged as `260ad311d43ed3833fd52384f3ae8af9f4e90d19`. The resulting implementation file tree exactly matches the reviewed `ab4c2107772e11ed733ddc36009ad3c031c2ddbd` tree. Earlier draft/no-merge/no-access statements below are dated history, not current status.
+
+Read the [downloadable PDF and text handoff](../handoff-2026-10-21/README.md) for current changes, exact commit references, fresh checks, remaining content/ordering work and production limits. A validation-only rebuild on 21 October made no tracked-file changes; the full check and ad comparison passed. No new recipe content or verdict was edited. Claude retains ownership of future recipe corrections and combined regeneration.
+
+No manual hosting deployment was performed. The 06:41 UTC live sample still had no new photo on Leche Flan and returned 404 for its new JPG/WebP URLs, although those files exist in merged main. Confirm the hosting revision/asset rollout before treating the photo work as live. A few successful markup/sitemap samples do not verify the complete production deployment or Google indexing.
+
 ## Access and review update — 21 October 2026
 
 GitHub installation now permits writing review branches. The previous 403 is resolved: [draft crawl PR #17](https://github.com/jamesdillon9051-sketch/Culinaryrecipie/pull/17) publishes `775470da2ce0e3cbf33b6f51cdd9c3bf982e43e9`; [draft photo PR #18](https://github.com/jamesdillon9051-sketch/Culinaryrecipie/pull/18) publishes photo implementation `23c54a1ec819f4ee274df1ff9a5049bc0fc35277`, stacked on the crawl branch. Older blocked-access statements below are historical. Neither PR is merged or deployed.

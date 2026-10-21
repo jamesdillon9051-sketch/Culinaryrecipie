@@ -1,0 +1,14 @@
+{
+  "WeeklyDelight-Claude-Handoff.pdf": {
+    "bytes": 61965,
+    "sha256": "77535da57ad22e4a750a4fa2edd0cb9a3f50e94aae3f3d5a2381e4292fd25832"
+  },
+  "WeeklyDelight-Claude-Handoff.txt": {
+    "bytes": 15200,
+    "sha256": "777ba0127b421e2ad0c2fa10b8094dd6a62f806334e09120e2758c3b29047be2"
+  },
+  "WeeklyDelight-Claude-Handoff-Evidence.zip": {
+    "bytes": 836552,
+    "sha256": "cbb33cf448853a3fd5d6b14687adeefde2d2b5402e32a2850fcaa084e43b0c7c"
+  }
+}

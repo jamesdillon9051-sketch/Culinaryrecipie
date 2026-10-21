@@ -1,5 +1,7 @@
 # Weekly Delight crawl and indexing technical review — 20 October 2026
 
+Merge update, 21 October: PR #17 merged into main as `b076ac8f03bbcad191a51ec6ea71522b26b3f3c8`, followed by the photo work in PR #18 (`260ad311d43ed3833fd52384f3ae8af9f4e90d19`). Read the [current PDF/text handoff](../handoff-2026-10-21/README.md) for present status. This dated audit retains its original pre-merge observations and coverage limits.
+
 The review output fixes confirmed shared markup defects across the catalogue. It is **not deployed**, and this report does not label any URL indexed. Google decides whether and when to crawl or index technically eligible pages.
 
 Base: `40a2386f0f0b75eeac0ec54570f619b07f1f2a66`. Local branch: `fix/sitewide-crawl-indexing-review`, worktree `/workspace/Culinaryrecipie-crawl`. Implementation commit: `b7bd747db61ae7a7d2420a92c4b6a2bb16623d19`. See the shared [Claude/Codex handoff](../release-2026-10-uncertainties/CODEX-CLAUDE-HANDOFF.md) for ownership and integration conflicts. The delivery manifest records the final documentation commit and artifact hashes.

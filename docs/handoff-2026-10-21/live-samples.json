@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://weeklydelight.com/robots.txt",
+    "checked_at": "2026-10-21T06:37:43.661843+00:00",
+    "http": 200,
+    "final_url": "https://weeklydelight.com/robots.txt",
+    "content_type": "text/plain",
+    "x_robots_tag": null,
+    "sha256": "241c7203a5fb8aba095ebd5e23d202dc9eaaaa598798276eb03e1330475f3f79"
+  },
+  {
+    "url": "https://weeklydelight.com/sitemap.xml",
+    "checked_at": "2026-10-21T06:37:43.662486+00:00",
+    "http": 200,
+    "final_url": "https://weeklydelight.com/sitemap.xml",
+    "content_type": "application/xml",
+    "x_robots_tag": null,
+    "sha256": "71701a880215386628462c3ff9db905b157aeb516859c95d63a4d16604071e8f"
+  },
+  {
+    "url": "https://weeklydelight.com/recipes/baked-peaches-with-cinnamon/",
+    "checked_at": "2026-10-21T06:37:44.218152+00:00",
+    "http": 200,
+    "final_url": "https://weeklydelight.com/recipes/baked-peaches-with-cinnamon/",
+    "content_type": "text/html",
+    "x_robots_tag": null,
+    "sha256": "50c931892c697bc0e03a866dc5e0079e71db252745d1bd47b89bd87dbf1eb848",
+    "recipe_microdata_present": false,
+    "jsonld_recipe_mentions": 1,
+    "canonical": [
+      "https://weeklydelight.com/recipes/baked-peaches-with-cinnamon/"
+    ]
+  },
+  {
+    "url": "https://weeklydelight.com/assets/img/recipes/leche-flan.webp",
+    "checked_at": "2026-10-21T06:37:44.230747+00:00",
+    "http": 404,
+    "error": "HTTP Error 404: Not Found",
+    "detail": "<!doctype html>\n<html lang=\"en-GB\" data-theme=\"light\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<title>Page not found | Weekly Delight</title>\n<meta name=\"description\" content=\"That page could not be found. Search 5515 rec"
+  },
+  {
+    "url": "https://weeklydelight.com/recipes/leche-flan/",
+    "checked_at": "2026-10-21T06:41:19.750933+00:00",
+    "http": 200,
+    "content_type": "text/html",
+    "final_url": "https://weeklydelight.com/recipes/leche-flan/",
+    "new_photo_reference_present": false
+  },
+  {
+    "url": "https://weeklydelight.com/assets/img/recipes/leche-flan.jpg",
+    "checked_at": "2026-10-21T06:41:20.326610+00:00",
+    "http": 404,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://weeklydelight.com/assets/img/recipes/leche-flan.webp",
+    "checked_at": "2026-10-21T06:41:20.846834+00:00",
+    "http": 404,
+    "error": "HTTP Error 404: Not Found"
+  }
+]

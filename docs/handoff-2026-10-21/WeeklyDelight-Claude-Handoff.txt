@@ -1,0 +1,143 @@
+WEEKLY DELIGHT — CLAUDE HANDOFF
+Merged crawling fixes and 178 licensed recipe photographs
+21 October 2026
+
+Prepared for the owner to download and give to Claude. Generated 2026-10-21 06:46 UTC. This report describes the implementation merged by PRs #17 and #18; later report/documentation commits do not change that implementation.
+
+
+1. MERGE OUTCOME AND EXACT REFERENCES
+
+The owner explicitly approved merging both reviews on 21 October 2026. GitHub confirms both pull requests are merged into main. The earlier HTTP 403 is resolved after installing ChatGPT Codex Connector for this repository.
+
+- PR #17: crawling and Recipe markup. Merged at 06:32:38 UTC on 21 October 2026. Merge commit: b076ac8f03bbcad191a51ec6ea71522b26b3f3c8
+
+- PR #18: 178 licensed recipe photographs. Retargeted from the crawl branch to main, then merged at 06:34:32 UTC. Merge commit / verified implementation on main: 260ad311d43ed3833fd52384f3ae8af9f4e90d19
+
+- Original production base: 40a2386f0f0b75eeac0ec54570f619b07f1f2a66
+
+- Reviewed file tree: ab4c2107772e11ed733ddc36009ad3c031c2ddbd; exact tree SHA: bb183bb44313f2cf8861d411fcaa24343c48f2ad. After both merges, every repository file matched this reviewed tree.
+
+- Technical implementation: b7bd747db61ae7a7d2420a92c4b6a2bb16623d19; technical evidence: 775470da2ce0e3cbf33b6f51cdd9c3bf982e43e9; photo implementation: 23c54a1ec819f4ee274df1ff9a5049bc0fc35277; shared-handoff update: ab4c2107772e11ed733ddc36009ad3c031c2ddbd.
+
+A total of 6391 repository paths changed between the original production base and the implementation merge. Much of this is generated HTML and image files; the complete changed-files.csv is included with the evidence.
+
+Merged crawl review — PR #17: https://github.com/jamesdillon9051-sketch/Culinaryrecipie/pull/17
+
+Merged photo review — PR #18: https://github.com/jamesdillon9051-sketch/Culinaryrecipie/pull/18
+
+
+2. WHAT CHANGED ACROSS THE WEBSITE
+
+- One coherent primary recipe: removed the accidental incomplete HTML microdata Recipe alongside the complete JSON-LD on all 5,515 recipe pages. Preserved unrelated breadcrumbs, organization/publisher and other valid schema. The baked-peaches example was a shared-template defect.
+
+- Instruction links: added real step fragment IDs so HowToStep URLs resolve to the corresponding visible method steps across the recipe catalogue.
+
+- Honest timing: omitted unsupported totalTime for 445 recipes with required untimed stages. Retained supported timing and visible lower-bound explanations. No cooking minutes were invented.
+
+- Search markup: stopped /search/ declaring an invisible recipe ItemList when those recipes were not in its original HTML. Existing search behavior was preserved. This is not completion of the separate neutral-ordering review described below.
+
+- Meaningful dates: recipe and collection fingerprints include actual derived facts, visible content and images. Dates move for meaningful changes, not just a rebuild. Recipe publication dates are unchanged. The markup correction changed recipe modification dates once on 20 October; photo changes then updated relevant identities/collections.
+
+- Reliable checks: child-audit crashes, spawn failures and output overflows now fail the shared runner. Added catalogue checks, schema/indexability guards, timing/date regressions, and representative browser tests.
+
+- No mass URL removal: recipe slugs, preferred https://weeklydelight.com hostname, sitemap membership, category navigation, design, ads and monetization were preserved. No bulk deletion, redirect or noindex was applied to lower Search Console exclusions.
+
+Principal sources: src/templates/recipe-page.js; src/templates/pages.js; src/build.js; src/lib/content-dates.js; src/data/content-dates.json; tools/check.js; tools/audit-failure.js; tools/recipe-consistency.js; tools/crawl-* and browser tooling. See changed-files.csv for every path.
+
+
+3. RECIPE PHOTOGRAPHS AND REMAINING IMAGE GAPS
+
+- Added 178 distinct real licensed hero photographs, with 356 source JPEG/WebP assets and matching generated copies. All earlier hero/process photos and existing image bytes were preserved; no new AI images were created.
+
+- Catalogue: 5,515 recipes total; 4,177 now have photographs; 101 retain existing labelled illustrations only; 1,237 still have no picture. Before this batch, 3,999 had photos and 1,415 had no picture.
+
+- Every one of the 1,415 starting gaps has a coverage row. Article/category searches covered them, and corrected full-text searches covered all 1,368 remaining after the first batch. There were 1,857 successful candidate downloads, screened before individual selection. This was a bounded search, not proof that no suitable photograph exists for the remaining gaps.
+
+- Every selected photograph received full-size/final-crop review against the recipe and diet labels. Official Commons metadata for all 178 was re-fetched; source SHA-1 and compatible licence names matched. Licences: 16 CC0/public domain, 65 CC BY, 97 CC BY-SA. Keep author credits, source/licence links and ShareAlike notices.
+
+- Photo differences and original dimensions are disclosed in selected.csv / selected.json. These photographs illustrate dishes; they are not evidence that the site cooked or tested its exact recipes.
+
+Sources and tools: src/data/images.json; src/assets/img/recipes/; assets/img/recipes/; images-attribution.md; MISSING-IMAGES.txt; tools/source-missing-photos.py; tools/fetch_images.py; two focused photo regression scripts. Seven reviewed pale/muted color photos use an explicitly recorded monochrome-heuristic exception; automatic callers retain default rejection.
+
+
+4. COVERAGE AND WHAT SEARCH CONSOLE ESTABLISHES
+
+- Full intended indexable catalogue: 5,871 URLs = 5,515 recipes + 203 category/category-cuisine pages + 92 cuisines + 51 ingredient hubs + 10 other pages. All are in the 12 child sitemaps, without duplicate entries, and reachable through ordinary HTML anchors within two links of the homepage. Static audit found zero orphaned intended pages and zero broken page links.
+
+- Generated output: 5,878 HTML files; 5,875 non-ad documents plus three ad iframe documents. Four intentional non-catalogue helper/utility documents explain the difference from the 5,871 indexable pages.
+
+- Supplied Search Console export: 1,000 unique URLs, all recorded Pending for Discovered - currently not indexed. Breakdown: 920 recipes, 41 categories/combinations, 19 cuisines, 17 ingredient pages, three other pages. Last-crawled 1970-01-01 was treated as an unavailable/sentinel value.
+
+- The screenshots reported approximately 2,982 exclusions, so 1,982 affected URL identities were not supplied. No individual confirmed-indexed examples were provided. Indexing status outside supplied evidence remains unknown; the whole catalogue is not confirmed unindexed.
+
+- The 5,915-row URL CSV combines intended URLs, redirects, filter alternatives, utility documents, missing-page probes and sitemap/robots endpoints. Its live observations are dated 20 October; the separate 21 October live samples do not replace full live coverage.
+
+Technical eligibility, rich-result validation and actual Google indexing are separate outcomes. No claim is made that these changes force Google to index every page. No sitemap was repeatedly deleted or resubmitted.
+
+
+5. VERIFICATION: WHAT PASSED AND WHAT DID NOT
+
+- 21 October: verified merged main file tree exactly equals the reviewed tree. Re-ran the six image-processing and 16 photo-sourcing checks: all passed. Image inventory: 4,660 photo files including 483 process shots; zero broken, unused, shared or unpublished-recipe records.
+
+- 21 October validation rebuild: npm run build passed and made no tracked-file changes, including no modification-date churn across the day boundary. Fresh full npm run check: PASSED (5,875 HTML pages, 5,871 sitemap URLs, 5,515 index entries).
+
+- Fresh advertising comparison against the production base: PASSED; source/configuration and sampled page tags are unchanged.
+
+- 20 October retained evidence: catalogue-wide static checks; 19 HTML/audit regressions; 14 crawl guards; 10 date cases; 17 template render cases; 24 feature/mobile checks; 64 self-tests; and 16 photo browser cases passed. All 178 selected pages, their image hashes/copies, credits, canonical URLs and single Recipe entities were independently checked.
+
+- GitHub reported no commit-status checks and zero check runs on either review head at merge preflight. Therefore these are recorded local checks, not a claimed green GitHub Actions suite.
+
+- Google Rich Results Test execution was not completed. The original full live run verified 1,334 intended destinations and left 4,537 unverified because the environment transport failed. A local build or merged PR does not prove production configuration or indexing.
+
+
+6. LIVE DEPLOYMENT BOUNDARY — IMPORTANT NEXT STEP
+
+No manual hosting deployment was triggered. A merge may activate an existing automatic hosting integration. The active hosting commit and a complete production rollout have not been established.
+
+- 21 October, about 06:37 UTC: robots.txt and sitemap.xml returned 200. The live baked-peaches page returned 200, had its expected canonical, one JSON-LD Recipe and no Recipe microdata. This verifies that sample markup, not a site-wide deployment commit.
+
+- 21 October, about 06:41 UTC: /recipes/leche-flan/ returned 200 but did not reference the new photo. Both /assets/img/recipes/leche-flan.jpg and .webp returned 404. The photo deployment is therefore not confirmed. The files exist in merged main and match their reviewed hashes; investigate hosting rollout/current commit before treating the photo work as live.
+
+Claude/integration owner: verify that the host deploys the intended main revision, includes built assets/img/recipes files, and serves matching HTML and assets. Recheck those sample URLs after the hosting job finishes. Keep the observed 404s distinct from an environment proxy failure. Do not label the full site broken or fully deployed from these few samples.
+
+
+7. WHAT CLAUDE STILL NEEDS TO DO
+
+- Priority 1 — deployment: resolve/verify the new-photo rollout described above. Check successful image decoding and visible credits on mobile/desktop; sample a recipe, category, sitemap and robots. Confirm the preferred hostname and canonical behavior on the live host.
+
+- Priority 1 — IMAGE-CONTENT-01: trenette-al-pesto is tagged Gluten-Free at src/data/catalog-59.js:65, while src/data/details59/02-italian-c.js:303 lists ordinary “350 g trenette or linguine” without a gluten-free qualifier. The visible HTML prints the tag. No wheat-pasta image was selected. Correct the label/ingredient using recipe evidence; do not weaken a validator.
+
+- Priority 1 — flour specifications: edible-cookie-dough (src/data/details31/04b-desserts-and-holidays.js:76), cookie-dough-bites (src/data/details41/05-puddings-cakes-and-sweet-bakes.js:495), and cookie-dough-bars (src/data/details55/02-cookies-cakes-and-biscuits-b.js:402). Their unbaked dough/topping relies on ordinary/home-treated flour. Review a commercially treated product labelled ready-to-eat, a validated process or a cooked alternative; do not invent home heat-treatment evidence. Keep the bars’ baked base separate from its unbaked topping.
+
+- Independent queue: 236 records for 231 recipe identifiers remain in docs/release-2026-10-uncertainties/codex-review-findings.json. They include 224 consistency review items (220 recipes), three flour findings, four raw-fish exemption questions and specialist/pickle cases. Findings are review records, not cooking results. The historical 832 baseline findings and their recorded dispositions must not be treated as 832 confirmed broken recipes or as independent proof that this stronger queue is resolved.
+
+- Specialist evidence remains necessary for raw prawns/beef, fish freezing exemptions, acidified/oil-preserved foods, macarons timing, long fridge storage and runny yolks. Exact identifiers, evidence and source fingerprints are in the queue and Claude review document; preserve source/verdict ownership and avoid inventing pH, supplier or cooking evidence.
+
+- Separate technical batch NOT merged: /workspace/Culinaryrecipie on fix/recipe-validation-review contains the earlier uncommitted stronger validators/timing/neutral-ordering work. It is not an ancestor of PRs #17/#18. Reconcile overlaps deliberately. In merged src/build.js:421, popularity still equals row.reviews * row.rating as an editorial ordering weight; seeded ratings are not printed as real reviews. Do not claim the earlier rating-based ordering cleanup is complete.
+
+- Continue exact-dish photo sourcing for 1,237 unresolved recipes. Preserve existing images/process shots and licence notices; review full-size photos against actual ingredients and diet labels. A wrong or unlicensed image is worse than an explicit gap.
+
+- No bulk content deletion, noindex or redirect consolidation is approved by this report. Review duplicate-dish candidates and small categories individually with exact URL evidence. Claude remains recipe-content owner and final owner for combining future content work and regenerated output.
+
+
+8. FILES FOR CLAUDE AND FOLLOW-UP CHECKLIST
+
+Start with docs/HANDOFF.md and docs/release-2026-10-uncertainties/CODEX-CLAUDE-HANDOFF.md on current main. Read this report as the current merge-status update; the earlier dated audit reports preserve their original pre-merge wording and live limitations.
+
+Current shared handoff: https://github.com/jamesdillon9051-sketch/Culinaryrecipie/blob/main/docs/HANDOFF.md
+
+Crawl audit and 5,915-row URL CSV: https://github.com/jamesdillon9051-sketch/Culinaryrecipie/blob/main/docs/crawl-audit-2026-10-20/REPORT.md
+
+Independent content review with exact evidence: https://github.com/jamesdillon9051-sketch/Culinaryrecipie/blob/main/docs/crawl-audit-2026-10-20/CLAUDE-REVIEW.md
+
+236-record review queue: https://github.com/jamesdillon9051-sketch/Culinaryrecipie/blob/main/docs/release-2026-10-uncertainties/codex-review-findings.json
+
+Photo previews, licences and remaining-gap inventory: https://github.com/jamesdillon9051-sketch/Culinaryrecipie/blob/main/docs/recipe-photos-2026-10-20/README.md
+
+Post-deployment checklist: https://github.com/jamesdillon9051-sketch/Culinaryrecipie/blob/main/docs/crawl-audit-2026-10-20/DEPLOYMENT-CHECKLIST.md
+
+- After confirmed deployment: check representative live image URLs/credits and Recipe markup; run Google Rich Results Test on recipe variants; inspect representative recipe/category URLs in Search Console; monitor crawl/sitemap/indexing updates without promising inclusion or repeatedly resubmitting sitemaps.
+
+- The supplementary evidence ZIP includes UNMERGED-validator-source-review.patch and its README. That staged source patch is review-only, based on the old production base, and was not applied or merged. Reconcile overlaps before any use; generated output for that separate batch is not included.
+
+No recipe catalogue/detail/rewrite or culinary-verdict file was changed by these merged Codex reviews. No direct external Claude session was controlled; this document and the shared repository handoff are the coordination record.
