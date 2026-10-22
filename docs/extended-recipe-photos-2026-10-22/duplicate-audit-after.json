@@ -1,0 +1,95 @@
+{
+  "checked_at": "2026-10-22T08:20:57.788967+00:00",
+  "records": 5312,
+  "photographic_records": 5211,
+  "legacy_illustration_records": 101,
+  "duplicate_source_groups": {
+    "commons:Affogato with Amarretti Biscotti - Tavola Di Famiglia 2026-02-27.jpg": [
+      "affogato:process",
+      "biscotti:hero"
+    ],
+    "commons:Eggs Benedict Florentine - Pasadena, CA.jpg": [
+      "baked-eggs-spinach-feta:process",
+      "eggs-florentine:hero"
+    ],
+    "commons:Easy Fried Cauliflower Rice-1 (31717741910).jpg": [
+      "cauliflower-chicken-fried-rice:hero",
+      "cauliflower-rice:hero"
+    ],
+    "commons:Chicken katsu curry.jpg": [
+      "chicken-katsu-curry:hero",
+      "katsu-curry:hero"
+    ],
+    "commons:Chicken Quesadilla dish at Latin Bistro restaurant Summit NJ.JPG": [
+      "chicken-quesadilla:hero",
+      "quesadillas:process"
+    ],
+    "commons:Bánh mì Naan tỏi ở Tân Phú (1).jpg": [
+      "garlic-naan:hero",
+      "naan:hero"
+    ],
+    "commons:Cabbage rolls in oven pan.jpg": [
+      "golabki:hero",
+      "malfouf-mahshi:process"
+    ],
+    "commons:Knafeh From Yaffa Knafeh.jpg": [
+      "knafeh:hero",
+      "knafeh-nabulsi:hero"
+    ],
+    "commons:Rogan Josh.JPG": [
+      "lamb-rogan-josh:hero",
+      "rogan-josh:hero"
+    ],
+    "wordpress.org/photos/photo/3165c5006e": [
+      "paneer-butter-masala:process",
+      "paneer-tikka:hero"
+    ],
+    "commons:Meat pie samosa and spring roll.jpg": [
+      "samosas:process",
+      "nigerian-meat-pie:hero"
+    ],
+    "commons:Tuna fish sandwiches for the National School Lunch Program (1).jpg": [
+      "tuna-salad:hero",
+      "tuna-salad-sandwich:process"
+    ],
+    "commons:Finished sausage breakfast casserole.jpg": [
+      "breakfast-casserole:hero",
+      "sausage-casserole:hero"
+    ],
+    "commons:Saffron bun 20051213 001.jpg": [
+      "cornish-saffron-buns:process",
+      "lussekatter:hero"
+    ],
+    "flickr:4206872282": [
+      "honey-soy-baked-chicken:process",
+      "honey-soy-chicken-wings:hero"
+    ]
+  },
+  "duplicate_jpg_sha256_groups": {
+    "1ac417e212dfcb13c13eafe9dc79574054f87fd9a3096a28c4218f63145a3258": [
+      "cauliflower-chicken-fried-rice:hero",
+      "cauliflower-rice:hero"
+    ],
+    "729ededcbfd9f8230fe844fe594996ee7f90be5060c11cb507972ebf342e6f45": [
+      "chicken-katsu-curry:hero",
+      "katsu-curry:hero"
+    ],
+    "ee81515f8eb78e29e151ac83a0c7b9839840558acbe49aad6f6614cc7810def3": [
+      "garlic-naan:hero",
+      "naan:hero"
+    ],
+    "943ce7ef2611c78e34b1b45cd5ac755f19735fbf014f22236e0154852fa8137b": [
+      "knafeh:hero",
+      "knafeh-nabulsi:hero"
+    ],
+    "817329c52edb1f168e128ebea91245128295db88f4fdaa2b4db1010ba93db084": [
+      "lamb-rogan-josh:hero",
+      "rogan-josh:hero"
+    ],
+    "d6decc9457fc2474884ebba746bb9166fb1d2021fe24f31cbdf1198e7161474d": [
+      "breakfast-casserole:hero",
+      "sausage-casserole:hero"
+    ]
+  },
+  "missing_jpg_files": []
+}

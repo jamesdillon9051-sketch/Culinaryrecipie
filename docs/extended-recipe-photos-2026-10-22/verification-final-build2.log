@@ -1,0 +1,15 @@
+
+> weekly-delight@1.0.0 build
+> node src/build.js
+
+Weekly Delight build complete in 20131ms
+  recipes      5515 (4726 photographed, 101 illustrated, 688 using gradient placeholders)
+  html pages   5878
+  total files  16529
+  output size  894.6 MB
+  origin       https://weeklydelight.com/
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

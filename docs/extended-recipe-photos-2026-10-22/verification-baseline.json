@@ -1,0 +1,50 @@
+{
+  "base": "29fc1cb15d721efdb1aaca734d57323f60969c30",
+  "isolated_tree": "/workspace/verification-photos-2026-10-22",
+  "started_at": "2026-10-22T08:08:06Z",
+  "baseline_nontracked_assets_removed": 318,
+  "build": {
+    "exit_code": 0,
+    "elapsed_seconds": 17.7,
+    "log": "/workspace/artifacts/photo-long-search-2026-10-22/verification-baseline-build.log"
+  },
+  "check": {
+    "exit_code": 0,
+    "elapsed_seconds": 211.07,
+    "log": "/workspace/artifacts/photo-long-search-2026-10-22/verification-baseline-check.log",
+    "execution_permissions": "with_additional_permissions network.enabled=true"
+  },
+  "restricted_execution_attempt": {
+    "exit_code": 1,
+    "elapsed_seconds": 219.43,
+    "log": "/workspace/artifacts/photo-long-search-2026-10-22/verification-baseline-restricted-node-spawn-check.log"
+  },
+  "finished_at": "2026-10-22T08:17:23Z",
+  "counts": {
+    "recipes": 5515,
+    "photographed": 4508,
+    "illustration_only": 101,
+    "no_picture": 906,
+    "html_checked": 5875,
+    "sitemap_urls": 5871,
+    "search_records": 5515
+  },
+  "baseline_date_hash_differences": 0,
+  "source_equality_evidence": "verification-baseline-source-equality.json",
+  "baseline_generated_hashes": "verification-baseline-output-hashes.json",
+  "ads": [
+    {
+      "against": "29fc1cb15d721efdb1aaca734d57323f60969c30",
+      "exit_code": 0,
+      "log": "/workspace/artifacts/photo-long-search-2026-10-22/verification-baseline-ads-29fc1cb1.log"
+    },
+    {
+      "against": "ac8dbc13",
+      "exit_code": 0,
+      "log": "/workspace/artifacts/photo-long-search-2026-10-22/verification-baseline-ads-ac8dbc13.log"
+    }
+  ],
+  "source_copy_limits": "318 untracked new-photo files removed from isolated baseline; baseline registry is semantically identical with formatting differences. All other10878tracked src/tools/docs files exactly match git blobs.",
+  "original_worktree_untouched": true,
+  "count_basis_note": "Repository recipe photograph/illustration/no-picture counts refer to hero role, as implemented in src/lib/image-inventory.js; process images are counted separately."
+}

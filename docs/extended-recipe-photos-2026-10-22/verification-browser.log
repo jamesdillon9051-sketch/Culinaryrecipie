@@ -1,0 +1,41 @@
+PASS desktop korean-beef-lettuce-wraps 16checks
+PASS desktop bounty-slice 16checks
+PASS desktop painkiller 17checks
+PASS desktop huhnersuppe-mit-nudeln 15checks
+PASS desktop churro-waffles 16checks
+PASS desktop instant-pot-chicken-thighs 15checks
+PASS desktop witch-finger-cookies 15checks
+PASS desktop egyptian-rice-with-vermicelli 16checks
+PASS desktop ham-and-cheese-sliders 14checks
+PASS desktop instant-pot-beef-brisket 18checks
+PASS desktop po-boy-sandwich 16checks
+PASS desktop rhabarberkuchen 15checks
+PASS desktop risotto-agli-asparagi 15checks
+PASS desktop / 6checks
+PASS desktop /recipes/ 6checks
+PASS desktop /categories/dinner/ 5checks
+PASS mobile korean-beef-lettuce-wraps 16checks
+PASS mobile bounty-slice 16checks
+PASS mobile painkiller 17checks
+PASS mobile huhnersuppe-mit-nudeln 15checks
+PASS mobile churro-waffles 16checks
+PASS mobile instant-pot-chicken-thighs 15checks
+PASS mobile witch-finger-cookies 15checks
+PASS mobile egyptian-rice-with-vermicelli 16checks
+PASS mobile ham-and-cheese-sliders 14checks
+PASS mobile instant-pot-beef-brisket 18checks
+PASS mobile po-boy-sandwich 16checks
+PASS mobile rhabarberkuchen 15checks
+PASS mobile risotto-agli-asparagi 15checks
+PASS mobile / 6checks
+PASS mobile /recipes/ 6checks
+PASS mobile /categories/dinner/ 5checks
+{
+  "cases": 32,
+  "recipeCases": 26,
+  "passed": 32,
+  "failed": 0,
+  "checks": 442,
+  "failedChecks": [],
+  "blockedExternalURLs": 4
+}
