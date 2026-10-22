@@ -839,9 +839,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vinegar-cabbage/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/vinegar-cabbage.jpg</image:loc>
+      <image:title>Vinegar Cabbage</image:title>
+      <image:caption>Vinegar Cabbage</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lotus-root-stir-fry/</loc>
@@ -3210,9 +3215,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/paletas/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/paletas.jpg</image:loc>
+      <image:title>Paletas</image:title>
+      <image:caption>Paletas</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/conchas/</loc>
@@ -3986,9 +3996,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/maple-glazed-salmon/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/maple-glazed-salmon.jpg</image:loc>
+      <image:title>Maple Glazed Salmon</image:title>
+      <image:caption>Maple Glazed Salmon</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/roasted-root-vegetables/</loc>

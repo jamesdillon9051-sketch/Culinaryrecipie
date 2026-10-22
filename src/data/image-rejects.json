@@ -14150,6 +14150,10 @@
     {
       "page": "https://pixabay.com/photos/charcuterie-deli-delicatessen-338498/",
       "why": "a charcuterie board"
+    },
+    {
+      "page": "https://www.flickr.com/photos/97651299@N00/27964636171",
+      "why": "Photographer title explicitly Ready to pop in the oven: assembled sliders before baking. Retained as a credited process photograph."
     }
   ],
   "pineapple-casserole": [
@@ -27098,6 +27102,10 @@
     {
       "page": "https://www.flickr.com/photos/25977089@N00/37222172930",
       "why": "lentil stew photograph, not this dish"
+    },
+    {
+      "page": "https://www.pexels.com/photo/cooked-chicken-with-potatoes-on-black-metal-tray-4589138/",
+      "why": "Shows two small whole birds, wings and breast, that look like quail or poussin with potato and courgette, not bone-in chicken thighs. Claude integration review, 22 October 2026."
     }
   ],
   "instant-pot-split-pea-soup": [
@@ -33796,6 +33804,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Odia_thin_Rice_and_lentil_crepes_with_pieces_of_coconut.jpg",
       "why": "not the dish, a different dish, or an unusable picture"
+    },
+    {
+      "page": "https://www.flickr.com/photos/58819758@N00/2610270636",
+      "why": "Photographer explicitly describes beefy lentil stew. Target recipe is labelled Vegetarian and Vegan. Confirmed meat conflict."
     }
   ],
   "polish-cucumber-salad": [
@@ -36520,6 +36532,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Chocolate_Green_Smoothie_Bowl.jpg",
       "why": "a smoothie bowl"
+    },
+    {
+      "page": "https://pixabay.com/photos/chocolate-smoothie-milkshake-1058191/",
+      "why": "Near-identical same-scene photograph already used for mexican-hot-chocolate. Withheld after visual duplicate comparison."
     }
   ],
   "cinnamon-buns": [
@@ -37466,6 +37482,10 @@
     {
       "page": "https://www.flickr.com/photos/35034347371@N01/2277280",
       "why": "round 1 review: not a photograph of this dish, or one archive page shared by several dishes, or packaging or text"
+    },
+    {
+      "page": "https://www.flickr.com/photos/27874898@N00/52233773472/",
+      "why": "Chicken breast with melted cheese on rice and broccoli; the recipe is chicken thighs simmered with orzo, stock and cream, so the defining component is different. Claude integration review, 22 October 2026."
     }
   ],
   "one-pot-gnocchi": [
@@ -38134,6 +38154,10 @@
     {
       "page": "https://www.flickr.com/photos/25977089@N00/37222172930",
       "why": "round 2 review: not a photograph of this dish, or a page already refused or used by another dish"
+    },
+    {
+      "page": "https://www.flickr.com/photos/58545726@N02/6881392197",
+      "why": "Photographer caption explicitly Browning beef brisket. This will be used in the Classic Beef Brisket recipe: preparation stage. Retained as a credited process photograph."
     }
   ],
   "instant-pot-biryani": [
@@ -38982,6 +39006,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Klondike_Rib_and_Salmon_BBQ_-_Whitehorse,_Yukon_Territory_(12448168205).jpg",
       "why": "a restaurant interior"
+    },
+    {
+      "page": "https://www.pexels.com/photo/grilled-salmon-steak-on-a-smoky-barbecue-grill-36869542/",
+      "why": "The stock title says grilled salmon steak, but the block on the grill is pale and could be halloumi, tofu or white fish; it is not clearly salmon, and the recipe is labelled Dairy-Free. Claude integration review, 22 October 2026."
     }
   ],
   "bengali-sandesh": [
@@ -39230,6 +39258,12 @@
       "model": "sana",
       "prompt": "Tart gooseberries stewed and crushed, cooled and folded through whipped cream, A pale green early-summer pudding, with a wait in the fridge, made with gooseberries, elderflower cordial, double cream, Shortbread biscuits, a British dish called Gooseberry Fool, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a cup with a sprout, not a fool"
+    }
+  ],
+  "huhnersuppe-mit-nudeln": [
+    {
+      "page": "https://www.flickr.com/photos/115225894@N07/55553023791",
+      "why": "Creator original ccnull file 1135759 explicitly labels this image created with AI. Verified against the identical Flickr image. Real photographs only."
     }
   ]
 }

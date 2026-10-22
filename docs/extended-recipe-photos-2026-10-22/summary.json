@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-10-22T08:30:49.152727+00:00",
+  "base_commit": "29fc1cb15d721efdb1aaca734d57323f60969c30",
+  "working_branch": "images/extended-photo-search-2026-10-22",
+  "working_head": "b5b9cb889bc4d103b8575a12e8cedcd2886ef7ef",
+  "recipe_total": 5515,
+  "starting_no_picture_inventory": 906,
+  "starting_gaps_filled_with_new_hero": 220,
+  "starting_gaps_without_new_hero": 686,
+  "changed_registry_slots": 230,
+  "registered_new_or_replacement_hero_photos": 226,
+  "new_process_records": 2,
+  "hero_replacements": 6,
+  "hero_additions": 220,
+  "cleared_hero_slots": [
+    "ham-and-cheese-sliders",
+    "persian-lentil-rice"
+  ],
+  "selected_hero_sources": {
+    "Pexels": 83,
+    "Wikimedia Commons": 90,
+    "Pixabay": 25,
+    "Flickr": 26,
+    "Stockvault": 1,
+    "StockSnap": 1
+  },
+  "baseline_any_slot_picture_counts_metadata_snapshot": {
+    "photograph_in_hero_or_process": 4509,
+    "legacy_illustration_only": 100,
+    "no_picture": 906
+  },
+  "current_any_slot_picture_counts_valid_source_assets": {
+    "photograph_in_hero_or_process": 4728,
+    "legacy_illustration_only": 100,
+    "no_picture": 687
+  },
+  "current_repository_image_inventory": {
+    "recipes": {
+      "total": 5515,
+      "photo": 4726,
+      "illustration": 101,
+      "none": 688
+    },
+    "assets": {
+      "photoFiles": 5211,
+      "heroPhotoFiles": 4726,
+      "processPhotoFiles": 485,
+      "illustrationFiles": 101,
+      "unusedFiles": [],
+      "sharedFiles": [],
+      "brokenRefs": [],
+      "recordsForUnpublishedRecipes": []
+    },
+    "problems": []
+  },
+  "count_definition_caution": "Repository image-inventory groups recipe pictures by HERO only. The explicit any-slot counts here include a valid photographic process shot, including process-only recipes and an illustration hero paired with a photographic process shot. Do not equate those definitions.",
+  "baseline_any_slot_file_verification_note": "Baseline counts use saved registry metadata; withdrawn/replaced baseline files are no longer all present at current source paths. Use historical baseline evidence for baseline file verification.",
+  "full_size_candidates": 405,
+  "full_size_verdict_counts": {
+    "approved_visual": 229,
+    "rejected": 13,
+    "source_detail_pending": 52,
+    "rejected_visual": 111
+  },
+  "unreviewed_full_size_candidates": [],
+  "thumbnail_reviews": 3378,
+  "staged_candidates": 3378,
+  "processing_refusals": 8,
+  "selected_recipes_changed_since_review_snapshot": [],
+  "baseline_duplicate_source_groups": 15,
+  "baseline_identical_jpg_groups": 6,
+  "baseline_duplicates_scope": "Pre-existing baseline groups, not evidence that the new batch introduces those groups. Root must report the final new-photo duplicate check separately.",
+  "indexing_status_limit": "No URL is labelled indexed. The recipe-photo inventory and live accessibility checks do not establish Search Console indexing or Google traffic.",
+  "deployment_status": "Local source changes only; no merge/deployment established by this data exporter."
+}

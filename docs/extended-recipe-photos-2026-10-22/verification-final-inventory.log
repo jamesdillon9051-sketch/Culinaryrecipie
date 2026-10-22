@@ -1,0 +1,11 @@
+
+> weekly-delight@1.0.0 images
+> node tools/image-inventory.js
+
+Recipes (5515): 4726 with a photograph of the dish, 101 with an AI illustration only, 688 with no picture.
+Files: 5211 photographs (4726 main, 485 in-progress), 101 illustrations; 0 unused on disk, 0 shared, 0 broken, 0 records for unpublished recipes.
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

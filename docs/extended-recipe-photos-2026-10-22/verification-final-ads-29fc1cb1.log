@@ -1,0 +1,18 @@
+  ✓ src/templates/ads.js
+  ✓ src/data/ads.js
+  ✓ src/data/consent.js
+  ✓ src/data/analytics.js
+  ✓ src/assets/js/ad-loader.js
+  ✓ src/assets/js/consent.js
+  ✓ src/assets/js/analytics.js
+  ✓ ads.txt
+  ✓ index.html: 11 advertising tags, identical
+  ✓ recipes/index.html: 11 advertising tags, identical
+  ✓ recipes/spaghetti-carbonara/index.html: 11 advertising tags, identical
+  ✓ recipes/macarons/index.html: 11 advertising tags, identical
+  ✓ recipes/lasagna-bolognese/index.html: 11 advertising tags, identical
+  ✓ categories/dinner/index.html: 11 advertising tags, identical
+  ✓ contact/index.html: 11 advertising tags, identical
+  ✓ about/index.html: 11 advertising tags, identical
+
+advertising code, configuration and page markup unchanged from 29fc1cb15d721efdb1aaca734d57323f60969c30

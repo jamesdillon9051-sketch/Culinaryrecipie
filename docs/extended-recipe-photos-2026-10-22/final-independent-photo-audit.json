@@ -1,0 +1,499 @@
+{
+  "retained_changed_heroes": 226,
+  "hero_metadata_and_pair_errors": [],
+  "source_proof_verified": 226,
+  "new_source_duplicate_groups": [],
+  "new_identical_jpg_groups": [],
+  "baseline_process_records": 483,
+  "process_metadata_changes": [],
+  "baseline_process_asset_errors": [],
+  "existing_duplicate_source_groups": 15,
+  "existing_identical_jpg_groups": 6,
+  "all_registered_photo_records": 5211,
+  "selected_source_counts": {
+    "Pexels": 83,
+    "Pixabay": 25,
+    "Flickr": 26,
+    "Wikimedia Commons": 90,
+    "Stockvault": 1,
+    "StockSnap": 1
+  },
+  "audited_at_utc": "2026-10-22T08:28:24.980824+00:00",
+  "base_commit": "29fc1cb15d721efdb1aaca734d57323f60969c30",
+  "branch": "images/extended-photo-search-2026-10-22",
+  "legacy_illustration_records_excluded_from_source_id_groups": 101,
+  "all_registered_image_pair_missing_files": [],
+  "metadata_url_or_author_errors": [],
+  "source_proof_errors": [],
+  "processed_pair_byte_comparison": "All 226 published JPG/WebP pairs equal their approved processed candidate files byte for byte.",
+  "real_photo_hero_records": 4726,
+  "process_records_now": 485,
+  "new_process_slugs": [
+    "ham-and-cheese-sliders",
+    "instant-pot-beef-brisket"
+  ],
+  "selected_with_vegetarian_vegan_dairy_free_or_gluten_free_tag": 168,
+  "caption_ingredient_screen": "Screened all168 selected recipes with Vegetarian/Vegan/Dairy-Free/Gluten-Free tags against actual tags and primary title/caption. Only lexical hit was butter beans: a legume, not dairy. Reused full-size verdict/source proof for all226 selections.",
+  "independent_full_size_diet_sample": [
+    {
+      "slug": "nasi-uduk",
+      "tags": [
+        "Vegetarian",
+        "Gluten-Free",
+        "No Added Sugar"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Nasi_uduk_netherlands.jpg",
+      "source_caption": "Indonesian Nasi uduk (rice cooked in coconut milk) is very similar to nasi lemak from Malaysia. The nasi uduk in this photo is from the Netherlands. It came wrapped in banana leaf and featured fried tempeh (soya bean cake), omelet, serundeng (seasoned and roasted coconut flakes), and peanuts. Image from 10-10-2012.",
+      "actual_processed_image_reviewed_at": [
+        800,
+        600
+      ],
+      "observation": "Rice and egg match recipe. Primary source explicitly identifies brown pieces as fried tempeh, not meat, and names coconut flakes/peanuts. Added tempeh is disclosed; its hidden soy seasoning and cross-contact are not certified.",
+      "verdict": "no_new_confirmed_diet_conflict",
+      "uncertainty": "Image is not verification of hidden ingredients, allergen handling, cooking method, temperature or recipe testing."
+    },
+    {
+      "slug": "instant-pot-butter-chicken",
+      "tags": [
+        "Gluten-Free",
+        "High-Protein",
+        "Low-Carb",
+        "Keto",
+        "No Added Sugar"
+      ],
+      "source_page": "https://www.pexels.com/photo/delicious-butter-chicken-curry-with-cream-40262820/",
+      "source_caption": "Close-up of a butter chicken curry garnished with cream and mint leaves, served in a bowl.",
+      "actual_processed_image_reviewed_at": [
+        800,
+        600
+      ],
+      "observation": "Cooked chicken in orange creamy sauce with mint/cream, no bread/pasta accompaniment in the actual crop. Gluten-free sauce thickeners are not proved by a stock image.",
+      "verdict": "no_new_confirmed_diet_conflict",
+      "uncertainty": "Image is not verification of hidden ingredients, allergen handling, cooking method, temperature or recipe testing."
+    },
+    {
+      "slug": "slow-cooker-butter-chicken",
+      "tags": [
+        "Gluten-Free",
+        "High-Protein",
+        "Low-Carb",
+        "Keto"
+      ],
+      "source_page": "https://www.pexels.com/photo/delicious-butter-chicken-in-creamy-sauce-37295815/",
+      "source_caption": "A top view of a flavorful butter chicken dish garnished with cream and herbs.",
+      "actual_processed_image_reviewed_at": [
+        800,
+        600
+      ],
+      "observation": "Chicken in tomato/cream curry without naan or other visible wheat accompaniment. No claim that photograph proves slow-cooker preparation or hidden-ingredient compliance.",
+      "verdict": "no_new_confirmed_diet_conflict",
+      "uncertainty": "Image is not verification of hidden ingredients, allergen handling, cooking method, temperature or recipe testing."
+    },
+    {
+      "slug": "instant-pot-beans-and-ham",
+      "tags": [
+        "Dairy-Free",
+        "Gluten-Free",
+        "No Added Sugar"
+      ],
+      "source_page": "https://www.flickr.com/photos/69024001@N00/122092545/",
+      "source_caption": "Mr Slater strikes again. Ham braised with butter beans in tomato sauce. Boiled spuds if people wanted them, braised Sweetheart cabbage on the side, smoked salmon before and Rachel's excellent creme brulee afterwards. Urp..",
+      "actual_processed_image_reviewed_at": [
+        800,
+        600
+      ],
+      "observation": "Primary caption confirms braised ham and butter beans. Butter beans names a legume, not dairy butter. Mention of creme brulee afterwards describes another course outside photographed dish. No visible dairy/bread; tomato sauce/sliced ham differ from broth/hock target.",
+      "verdict": "no_new_confirmed_diet_conflict",
+      "uncertainty": "Image is not verification of hidden ingredients, allergen handling, cooking method, temperature or recipe testing."
+    },
+    {
+      "slug": "appalachian-soup-beans",
+      "tags": [
+        "Dairy-Free",
+        "Gluten-Free",
+        "No Added Sugar"
+      ],
+      "source_page": "https://www.pexels.com/photo/delicious-homemade-bean-soup-in-white-bowl-30635687/",
+      "source_caption": "Hearty homemade bean soup garnished with green onions served in a white bowl.",
+      "actual_processed_image_reviewed_at": [
+        800,
+        600
+      ],
+      "observation": "Cooked brown bean soup with scallions, no bread or dairy garnish. Exact pinto/ham formulation is not established by source, so broad bean-soup illustration only.",
+      "verdict": "no_new_confirmed_diet_conflict",
+      "uncertainty": "Image is not verification of hidden ingredients, allergen handling, cooking method, temperature or recipe testing."
+    },
+    {
+      "slug": "air-fryer-corn-ribs",
+      "tags": [
+        "Gluten-Free",
+        "No Added Sugar"
+      ],
+      "source_page": "https://www.flickr.com/photos/7633518@N08/54835536228/",
+      "source_caption": "Forge Napa, Napa, California",
+      "actual_processed_image_reviewed_at": [
+        800,
+        600
+      ],
+      "observation": "Actual lengthwise riblets of corn with shredded cheese, consistent with target Parmesan. Additional dip/drink are restaurant props, with exact formulas unverified; recipe is not Vegetarian-tagged.",
+      "verdict": "no_new_confirmed_diet_conflict",
+      "uncertainty": "Image is not verification of hidden ingredients, allergen handling, cooking method, temperature or recipe testing."
+    },
+    {
+      "slug": "air-fryer-green-beans",
+      "tags": [
+        "Vegan",
+        "Vegetarian",
+        "Dairy-Free",
+        "Gluten-Free",
+        "Low-Carb",
+        "Keto",
+        "No Added Sugar"
+      ],
+      "source_page": "https://pixabay.com/photos/green-bean-food-green-healthy-1443290/",
+      "source_caption": "Stir-fried green beans with garlic on a floral plate.",
+      "actual_processed_image_reviewed_at": [
+        800,
+        600
+      ],
+      "observation": "Cooked green beans and garlic with no visible meat/dairy. Source explicitly stir-fried; method varies and does not establish air-fryer use.",
+      "verdict": "no_new_confirmed_diet_conflict",
+      "uncertainty": "Image is not verification of hidden ingredients, allergen handling, cooking method, temperature or recipe testing."
+    },
+    {
+      "slug": "3-ingredient-fudge",
+      "tags": [
+        "Vegetarian",
+        "Gluten-Free",
+        "Low-Carb"
+      ],
+      "source_page": "https://www.pexels.com/photo/delicious-chocolate-fudge-squares-on-a-plate-37976959/",
+      "source_caption": "Rich chocolate fudge squares served on a brown plate, perfect for dessert indulgence.",
+      "actual_processed_image_reviewed_at": [
+        800,
+        600
+      ],
+      "observation": "Cut chocolate confection squares with nuts visible, matching chocolate-fudge subject but nuts add an ingredient and exact condensed-milk formulation is unproved. No visible cookie/wafer base was confirmed.",
+      "verdict": "no_new_confirmed_diet_conflict",
+      "uncertainty": "Image is not verification of hidden ingredients, allergen handling, cooking method, temperature or recipe testing."
+    },
+    {
+      "slug": "cheesy-cauliflower-casserole",
+      "tags": [
+        "Vegetarian",
+        "Gluten-Free",
+        "Low-Carb",
+        "Keto",
+        "No Added Sugar"
+      ],
+      "source_page": "https://www.pexels.com/photo/creamy-cauliflower-casserole-with-cashews-and-herbs-36367580/",
+      "source_caption": "Delicious cauliflower casserole topped with cashews and herbs in a creamy sauce.",
+      "actual_processed_image_reviewed_at": [
+        800,
+        600
+      ],
+      "observation": "Cooked brown cauliflower florets in pale creamy sauce with cashews/herbs. Source calls it cauliflower casserole. Cashew topping differs from almond/cheddar target; brown textured surface alone does not establish wheat breadcrumbs.",
+      "verdict": "no_new_confirmed_diet_conflict",
+      "uncertainty": "Image is not verification of hidden ingredients, allergen handling, cooking method, temperature or recipe testing."
+    },
+    {
+      "slug": "black-bean-and-rice-skillet",
+      "tags": [
+        "Vegetarian",
+        "Gluten-Free",
+        "No Added Sugar"
+      ],
+      "source_page": "https://www.pexels.com/photo/vegan-black-bean-chilli-28286173/",
+      "source_caption": "Top view of vegan black bean and corn chili with rice and spices on a wooden table.",
+      "actual_processed_image_reviewed_at": [
+        800,
+        600
+      ],
+      "observation": "Primary source explicitly vegan black-bean/corn chili with rice. Visible beans, corn, tomato and rice match core; plated separately rather than one-pan mixed serving.",
+      "verdict": "no_new_confirmed_diet_conflict",
+      "uncertainty": "Image is not verification of hidden ingredients, allergen handling, cooking method, temperature or recipe testing."
+    },
+    {
+      "slug": "freezer-soup",
+      "tags": [
+        "Vegetarian",
+        "Vegan",
+        "Dairy-Free",
+        "No Added Sugar"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Vegan_Arabian_Lentil_and_Rice_Soup_(7230462472).jpg",
+      "source_caption": "Vegan Arabian Lentil and Rice Soup",
+      "actual_processed_image_reviewed_at": [
+        800,
+        600
+      ],
+      "observation": "Primary source explicitly vegan lentil/rice soup. Lentils, rice and carrot visible; rice and brown-lentil texture differ from target red-lentil/tomato soup. No meat/dairy claim inferred from appearance.",
+      "verdict": "no_new_confirmed_diet_conflict",
+      "uncertainty": "Image is not verification of hidden ingredients, allergen handling, cooking method, temperature or recipe testing."
+    },
+    {
+      "slug": "fried-cabbage",
+      "tags": [
+        "Gluten-Free",
+        "Low-Carb",
+        "Keto",
+        "No Added Sugar"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Stir_Fried_Cabbage_and_Bacon_%E5%9F%B9%E6%A0%B9%E9%AB%98%E4%B8%BD%E8%8F%9C.jpg",
+      "source_caption": "培根高丽菜 - stir fried cabbage and bacon",
+      "actual_processed_image_reviewed_at": [
+        800,
+        600
+      ],
+      "observation": "Visible cabbage and bacon, explicitly named by source. Target contains bacon so pink pork is appropriate. Hidden stir-fry sauce gluten content remains unverified; no wheat ingredient established.",
+      "verdict": "no_new_confirmed_diet_conflict",
+      "uncertainty": "Image is not verification of hidden ingredients, allergen handling, cooking method, temperature or recipe testing."
+    },
+    {
+      "slug": "kala-chana",
+      "tags": [
+        "Vegetarian",
+        "Vegan",
+        "Dairy-Free",
+        "Gluten-Free",
+        "No Added Sugar"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Black_Chick_peas_soup_(Kala_Chana_curry).jpg",
+      "source_caption": "Soup, Curry",
+      "actual_processed_image_reviewed_at": [
+        800,
+        600
+      ],
+      "observation": "Primary source identifies kala chana curry/soup and visible dark chickpeas match. No curd garnish appears in selected crop; rejected earlier curd-garnished alternative was not used.",
+      "verdict": "no_new_confirmed_diet_conflict",
+      "uncertainty": "Image is not verification of hidden ingredients, allergen handling, cooking method, temperature or recipe testing."
+    },
+    {
+      "slug": "painkiller",
+      "tags": [
+        "Vegan",
+        "Vegetarian",
+        "Gluten-Free",
+        "Dairy-Free"
+      ],
+      "source_page": "https://www.flickr.com/photos/72547033@N06/23416412351/",
+      "source_caption": "Please credit all pictures (and link to) CestLaVibe.com If possible, it would also be appreciated if you link to the most applicable category instead on the homepage; Hiking Trinidad Cocktails etc",
+      "actual_processed_image_reviewed_at": [
+        800,
+        600
+      ],
+      "observation": "Primary source explicitly Pussers Painkiller, a rum/juice/coconut drink matching recipe; creamy colour is not evidence of dairy. Required CestLaVibe credit link retained.",
+      "verdict": "no_new_confirmed_diet_conflict",
+      "uncertainty": "Image is not verification of hidden ingredients, allergen handling, cooking method, temperature or recipe testing."
+    },
+    {
+      "slug": "divinity",
+      "tags": [
+        "Vegetarian",
+        "Gluten-Free",
+        "Dairy-Free",
+        "Low-Carb"
+      ],
+      "source_page": "https://www.flickr.com/photos/54151899@N00/4971215544/",
+      "source_caption": "",
+      "actual_processed_image_reviewed_at": [
+        800,
+        600
+      ],
+      "observation": "Primary source identifies pecan divinity; white aerated nut confection matches egg-white/syrup target. White colour does not establish dairy.",
+      "verdict": "no_new_confirmed_diet_conflict",
+      "uncertainty": "Image is not verification of hidden ingredients, allergen handling, cooking method, temperature or recipe testing."
+    },
+    {
+      "slug": "coffee-ice-cream",
+      "tags": [
+        "Vegetarian",
+        "Gluten-Free",
+        "Low-Carb"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Vegan_Hazelnut_Coffee_Ice_Cream_(5013027435).jpg",
+      "source_caption": "Vegan Hazelnut Coffee Ice Cream",
+      "actual_processed_image_reviewed_at": [
+        800,
+        600
+      ],
+      "observation": "Primary source explicitly vegan hazelnut coffee ice cream; actual bowl contains scoops without a wheat cone/wafer. Vegan analogue/added hazelnut is a variation from target custard.",
+      "verdict": "no_new_confirmed_diet_conflict",
+      "uncertainty": "Image is not verification of hidden ingredients, allergen handling, cooking method, temperature or recipe testing."
+    },
+    {
+      "slug": "spinach-stuffed-chicken",
+      "tags": [
+        "Gluten-Free",
+        "High-Protein",
+        "Low-Carb",
+        "Keto",
+        "No Added Sugar"
+      ],
+      "source_page": "https://www.pexels.com/photo/close-up-of-a-chicken-breast-roulade-with-spinach-filling-6358977/",
+      "source_caption": "Close-up of a tasty spinach stuffed chicken roulade, perfect for dinner.",
+      "actual_processed_image_reviewed_at": [
+        800,
+        600
+      ],
+      "observation": "Cross-section of cooked chicken rolled around spinach and white cheese, consistent with target. No breadcrumb crust confirmed; hidden GF ingredient provenance not certified.",
+      "verdict": "no_new_confirmed_diet_conflict",
+      "uncertainty": "Image is not verification of hidden ingredients, allergen handling, cooking method, temperature or recipe testing."
+    },
+    {
+      "slug": "risotto-agli-asparagi",
+      "tags": [
+        "Gluten-Free",
+        "No Added Sugar"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sundried_Tomato_Asparagus_Risotto_(3953677022).jpg",
+      "source_caption": "Sundried Tomato Asparagus Risotto",
+      "actual_processed_image_reviewed_at": [
+        800,
+        600
+      ],
+      "observation": "Primary source explicitly sundried-tomato asparagus risotto; swollen creamy rice and green asparagus visible. Extra tomato/grated garnish are variations; recipe stock and any hidden gluten not independently established by image.",
+      "verdict": "no_new_confirmed_diet_conflict",
+      "uncertainty": "Image is not verification of hidden ingredients, allergen handling, cooking method, temperature or recipe testing."
+    },
+    {
+      "slug": "gluten-free-chicken-nuggets",
+      "tags": [
+        "Gluten-Free",
+        "High-Protein",
+        "No Added Sugar"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:GFC_Nuggets_(10_pieces)_-_Leon_2023-11-13.jpg",
+      "source_caption": "Description on packaging: \"Chicken thigh chunks in a seasoned gluten free breadcrumb coating.\"",
+      "actual_processed_image_reviewed_at": [
+        800,
+        600
+      ],
+      "observation": "Primary caption quotes product packaging: chicken thigh chunks in a seasoned gluten free breadcrumb coating. This supplies specific GF evidence absent from generic nugget leads. Thigh vs target breast is a cut variation; brand packaging/dip incidental.",
+      "verdict": "no_new_confirmed_diet_conflict",
+      "uncertainty": "Image is not verification of hidden ingredients, allergen handling, cooking method, temperature or recipe testing."
+    },
+    {
+      "slug": "gluten-free-tortillas",
+      "tags": [
+        "Vegetarian",
+        "Vegan",
+        "Dairy-Free",
+        "Gluten-Free",
+        "No Added Sugar"
+      ],
+      "source_page": "https://www.pexels.com/photo/close-up-of-blue-corn-tortillas-11384152/",
+      "source_caption": "A high angle view of traditional blue corn tortillas placed in a woven basket, sprinkled with salt.",
+      "actual_processed_image_reviewed_at": [
+        800,
+        600
+      ],
+      "observation": "Primary source explicitly blue corn tortillas; target masa harina is maize flour. Colour comes from maize variety, matching food base. Photograph cannot certify cross-contamination controls.",
+      "verdict": "no_new_confirmed_diet_conflict",
+      "uncertainty": "Image is not verification of hidden ingredients, allergen handling, cooking method, temperature or recipe testing."
+    },
+    {
+      "slug": "south-african-pap",
+      "tags": [
+        "Vegetarian",
+        "Vegan",
+        "Dairy-Free",
+        "Gluten-Free"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Maize_pap_as_take_away_food_in_windhoeck_namibia_2018_mark_benecke.jpg",
+      "source_caption": "Maize pap in Namibia (Windhock). Bought in large supermarket in 'The Grove' mall. Price 30 U.S. cents (fork not included).",
+      "actual_processed_image_reviewed_at": [
+        800,
+        600
+      ],
+      "observation": "Primary source explicitly maize pap, and actual package says pap. Visible white maize porridge matches recipe; tomato-onion gravy omitted, commercial packaging incidental.",
+      "verdict": "no_new_confirmed_diet_conflict",
+      "uncertainty": "Image is not verification of hidden ingredients, allergen handling, cooking method, temperature or recipe testing."
+    },
+    {
+      "slug": "baingan-masala",
+      "tags": [
+        "Vegetarian",
+        "Vegan",
+        "Gluten-Free",
+        "Low-Carb",
+        "Keto",
+        "No Added Sugar"
+      ],
+      "source_page": "https://www.pexels.com/photo/delicious-indian-stuffed-eggplant-curry-dish-34217296/",
+      "source_caption": "Mouth-watering stuffed eggplant curry garnished with fresh coriander in a modern minimalist setting.",
+      "actual_processed_image_reviewed_at": [
+        800,
+        600
+      ],
+      "observation": "Cooked aubergine curry with coriander, source explicitly stuffed eggplant curry. Baby stuffed aubergines rather than target diced large aubergine is a form variation. No confirmed meat/dairy/wheat ingredients.",
+      "verdict": "no_new_confirmed_diet_conflict",
+      "uncertainty": "Image is not verification of hidden ingredients, allergen handling, cooking method, temperature or recipe testing."
+    },
+    {
+      "slug": "ratatouille-bake",
+      "tags": [
+        "Vegetarian",
+        "Vegan",
+        "Dairy-Free",
+        "Gluten-Free",
+        "No Added Sugar"
+      ],
+      "source_page": "https://www.pexels.com/photo/colorful-ratatouille-in-rustic-baking-dish-36863876/",
+      "source_caption": "A delicious and vibrant ratatouille dish featuring layers of sliced vegetables in a tomato sauce.",
+      "actual_processed_image_reviewed_at": [
+        800,
+        600
+      ],
+      "observation": "Baked aubergine/courgette/tomato slices in tomato sauce, no established meat/dairy. Sliced layered arrangement differs from target chunks; pale courgette flesh is not assumed cheese.",
+      "verdict": "no_new_confirmed_diet_conflict",
+      "uncertainty": "Image is not verification of hidden ingredients, allergen handling, cooking method, temperature or recipe testing."
+    },
+    {
+      "slug": "tian-provencal",
+      "tags": [
+        "Vegetarian",
+        "Vegan",
+        "Dairy-Free",
+        "Gluten-Free",
+        "Low-Carb",
+        "No Added Sugar"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tian_proven%C3%A7al_aux_aubergines_et_aux_tomates.jpg",
+      "source_caption": "Tian provençal aux aubergines et aux tomates",
+      "actual_processed_image_reviewed_at": [
+        800,
+        600
+      ],
+      "observation": "Primary source native tian with aubergine/tomato; actual baked vegetable layers match. Strong yellow colour cast retained, not corrected or treated as evidence of cheese.",
+      "verdict": "no_new_confirmed_diet_conflict",
+      "uncertainty": "Image is not verification of hidden ingredients, allergen handling, cooking method, temperature or recipe testing."
+    }
+  ],
+  "new_confirmed_photo_issues": [],
+  "limitations": [
+    "No new network requests or fresh source-page/HTTP revalidation in this independent pass; audited saved source proofs and current local selected files.",
+    "All226 pairs/static metadata and all483 baseline process records/assets checked; independent manual image re-view covered24 dietary-risk cases, not every226 anew.",
+    "Actual image identity is not proof of exact recipe formulation, allergens, cross-contact, temperatures, testing or cooking appliance.",
+    "15 repeated source-ID groups and6 identical-JPG groups predate this branch; not introduced by the226 selected heroes.",
+    "No merge, deployment, live accessibility or Google indexing result is established by this source-only audit."
+  ],
+  "counts_any_role": {
+    "photographed": 4728,
+    "legacy_illustration_only": 100,
+    "no_picture": 687
+  },
+  "catalogue_counts": {
+    "total": 5515,
+    "photo_hero": 4726,
+    "illustration_hero": 101,
+    "no_hero": 688
+  },
+  "count_definition_note": "Official repository inventory classifies the hero only. Counting any real hero/process separately yields4728 recipes with a real photograph,100 illustration-without-real-process,687 with no picture. Ham-and-cheese-sliders has only a process photo; tofu-edamame-stir-fry has an AI hero plus a pre-existing real process photo. Do not call the101 illustration heroes all illustration-only or all688 no-hero recipes entirely pictureless.",
+  "no_hero_with_process_only": [
+    "ham-and-cheese-sliders"
+  ],
+  "illustration_hero_with_real_process": [
+    "tofu-edamame-stir-fry"
+  ]
+}
