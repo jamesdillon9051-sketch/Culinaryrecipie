@@ -533,9 +533,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tarte-au-sucre-belge/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tarte-au-sucre-belge.jpg</image:loc>
+      <image:title>Tarte au Sucre Belge</image:title>
+      <image:caption>Tarte au Sucre Belge</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/luxembourg-judd-mat-gaardebounen/</loc>
@@ -2889,9 +2894,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cordero-asado-castellano/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cordero-asado-castellano.jpg</image:loc>
+      <image:title>Cordero Asado Castellano</image:title>
+      <image:caption>Cordero Asado Castellano</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chuletillas-de-cordero/</loc>

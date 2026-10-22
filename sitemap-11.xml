@@ -2413,6 +2413,11 @@
     <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/nutella-brownies.jpg</image:loc>
+      <image:title>Nutella Brownies</image:title>
+      <image:caption>Nutella Brownies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/nutella-cookies/</loc>
@@ -2576,9 +2581,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pumpkin-bundt-cake/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pumpkin-bundt-cake.jpg</image:loc>
+      <image:title>Pumpkin Bundt Cake</image:title>
+      <image:caption>Pumpkin Bundt Cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pumpkin-chocolate-chip-bread/</loc>
@@ -2916,9 +2926,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/no-bake-banana-pudding/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/no-bake-banana-pudding.jpg</image:loc>
+      <image:title>No Bake Banana Pudding</image:title>
+      <image:caption>No Bake Banana Pudding</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/no-bake-cheesecake/</loc>
@@ -3894,9 +3909,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dairy-free-cream-of-mushroom-soup/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/dairy-free-cream-of-mushroom-soup.jpg</image:loc>
+      <image:title>Dairy-Free Cream of Mushroom Soup</image:title>
+      <image:caption>Dairy-Free Cream of Mushroom Soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dairy-free-scones/</loc>
@@ -4231,9 +4251,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/high-protein-overnight-oats/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/high-protein-overnight-oats.jpg</image:loc>
+      <image:title>High-Protein Overnight Oats</image:title>
+      <image:caption>High-Protein Overnight Oats</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/high-protein-pancakes/</loc>
@@ -4497,9 +4522,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vegan-panna-cotta/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/vegan-panna-cotta.jpg</image:loc>
+      <image:title>Vegan Panna Cotta</image:title>
+      <image:caption>Vegan Panna Cotta</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vegan-pesto/</loc>

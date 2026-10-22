@@ -20,9 +20,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/parmesan-crusted-cod/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/parmesan-crusted-cod.jpg</image:loc>
+      <image:title>Parmesan Crusted Cod</image:title>
+      <image:caption>Parmesan Crusted Cod</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/parmesan-roasted-carrots/</loc>
@@ -1148,9 +1153,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lemon-drizzle-traybake/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-drizzle-traybake.jpg</image:loc>
+      <image:title>Lemon Drizzle Traybake</image:title>
+      <image:caption>Lemon Drizzle Traybake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/victoria-sandwich-cupcakes/</loc>
@@ -1855,9 +1865,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cheese-on-toast-with-chutney/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cheese-on-toast-with-chutney.jpg</image:loc>
+      <image:title>Cheese on Toast with Chutney</image:title>
+      <image:caption>Cheese on Toast with Chutney</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/banana-bread-french-toast/</loc>
@@ -2000,9 +2015,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/grilled-halloumi-skewers/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/grilled-halloumi-skewers.jpg</image:loc>
+      <image:title>Grilled Halloumi Skewers</image:title>
+      <image:caption>Grilled Halloumi Skewers</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/grilled-romaine-salad/</loc>
@@ -2463,9 +2483,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/shirataki-noodle-bowls/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/shirataki-noodle-bowls.jpg</image:loc>
+      <image:title>Shirataki Noodle Bowls</image:title>
+      <image:caption>Shirataki Noodle Bowls</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lentil-and-carrot-soup/</loc>
@@ -2480,9 +2505,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/red-lentil-and-tomato-soup/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/red-lentil-and-tomato-soup.jpg</image:loc>
+      <image:title>Red Lentil and Tomato Soup</image:title>
+      <image:caption>Red Lentil and Tomato Soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cabbage-and-potato-soup/</loc>
@@ -2602,9 +2632,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/persian-barley-soup/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/persian-barley-soup.jpg</image:loc>
+      <image:title>Persian Barley Soup</image:title>
+      <image:caption>Persian Barley Soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sausage-and-bean-stew/</loc>

@@ -2628,9 +2628,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/honey-glazed-gammon/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/honey-glazed-gammon.jpg</image:loc>
+      <image:title>Honey Glazed Gammon</image:title>
+      <image:caption>Honey Glazed Gammon</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cherries-jubilee/</loc>
@@ -3280,9 +3285,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/caribbean-rum-punch/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/caribbean-rum-punch.jpg</image:loc>
+      <image:title>Caribbean Rum Punch</image:title>
+      <image:caption>Caribbean Rum Punch</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/samoan-palusami/</loc>

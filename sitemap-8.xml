@@ -985,9 +985,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/greek-beef-pitas/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/greek-beef-pitas.jpg</image:loc>
+      <image:title>Greek Beef Pitas</image:title>
+      <image:caption>Greek Beef Pitas</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/korean-beef-lettuce-wraps/</loc>
@@ -1348,9 +1353,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/hamburger-helper-style-pasta/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/hamburger-helper-style-pasta.jpg</image:loc>
+      <image:title>Hamburger Helper Style Pasta</image:title>
+      <image:caption>Hamburger Helper Style Pasta</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beef-and-mushroom-stroganoff-bake/</loc>
@@ -2800,9 +2810,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/peanut-butter-banana-shake/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/peanut-butter-banana-shake.jpg</image:loc>
+      <image:title>Peanut Butter Banana Shake</image:title>
+      <image:caption>Peanut Butter Banana Shake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/peanut-butter-milkshake/</loc>
