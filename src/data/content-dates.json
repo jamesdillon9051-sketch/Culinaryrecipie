@@ -7,7 +7,7 @@
  "/about/": {
   "hash": "84b2dfd1c5ac",
   "lastmod": "2026-10-22",
-  "derivedHash": "27b83bc70c4d"
+  "derivedHash": "557e693c1703"
  },
  "/categories/": {
   "hash": "ecb574fe73a3",
@@ -147,7 +147,7 @@
  "/categories/baking/australian/": {
   "hash": "95ce3e1db918",
   "lastmod": "2026-10-22",
-  "derivedHash": "0695d502195b"
+  "derivedHash": "8f49b573a4a6"
  },
  "/categories/baking/british/": {
   "hash": "788ce1e52fb7",
@@ -567,7 +567,7 @@
  "/categories/dinner/italian/": {
   "hash": "6e349d52b483",
   "lastmod": "2026-10-22",
-  "derivedHash": "78ba9546aee2"
+  "derivedHash": "a0c6d8864357"
  },
  "/categories/dinner/jamaican/": {
   "hash": "2300892d9190",
@@ -1306,8 +1306,8 @@
  },
  "/cuisines/malaysian/": {
   "hash": "a29a0839a286",
-  "lastmod": "2026-10-21",
-  "derivedHash": "b1e8d75f3411"
+  "lastmod": "2026-10-22",
+  "derivedHash": "78f13f91e835"
  },
  "/cuisines/maltese/": {
   "hash": "5337450c6070",
@@ -3786,8 +3786,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/beef-short-rib-ragu/": {
-  "hash": "47018df7e00e",
-  "lastmod": "2026-10-20"
+  "hash": "4e7a475eb8b9",
+  "lastmod": "2026-10-22"
  },
  "/recipes/beef-stew-and-dumplings/": {
   "hash": "2b4200cce352",
@@ -8142,8 +8142,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/cumberland-sausage-hotpot/": {
-  "hash": "76d6d9f7e155",
-  "lastmod": "2026-10-20"
+  "hash": "7477123f5167",
+  "lastmod": "2026-10-22"
  },
  "/recipes/cumberland-sausage-ring/": {
   "hash": "c265e7b859e7",
@@ -14270,8 +14270,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/maple-walnut-cookies/": {
-  "hash": "e762896a0914",
-  "lastmod": "2026-10-20"
+  "hash": "f671f34efa71",
+  "lastmod": "2026-10-22"
  },
  "/recipes/maple-walnut-ice-cream/": {
   "hash": "317702c68f51",
@@ -14486,8 +14486,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/meatball-pasta-bake/": {
-  "hash": "43537caaa4bf",
-  "lastmod": "2026-10-20"
+  "hash": "4feec36834ca",
+  "lastmod": "2026-10-22"
  },
  "/recipes/meatball-sub/": {
   "hash": "8707452c2bc0",
@@ -18874,8 +18874,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/roti-john/": {
-  "hash": "66490a929ac5",
-  "lastmod": "2026-10-20"
+  "hash": "f343bd580b4c",
+  "lastmod": "2026-10-22"
  },
  "/recipes/roti-with-chicken-curry/": {
   "hash": "dfb551b197be",
@@ -22178,8 +22178,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/tim-tam-slice/": {
-  "hash": "f44a0ce6cb38",
-  "lastmod": "2026-10-20"
+  "hash": "1aeccd1a1bd2",
+  "lastmod": "2026-10-22"
  },
  "/recipes/timpana/": {
   "hash": "a8d55088fe2b",

@@ -1494,9 +1494,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/roti-john/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/roti-john.jpg</image:loc>
+      <image:title>Roti John</image:title>
+      <image:caption>Roti John</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/murtabak/</loc>

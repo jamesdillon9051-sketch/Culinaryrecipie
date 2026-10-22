@@ -6,7 +6,7 @@ Save a photograph as BOTH files in  src/assets/img/recipes/
     <slug>.webp   800 px wide, quality ~68
 Then run:  python3 tools/adopt_images.py   (see its header for the credit and licence it needs)
 
-== American (229) ======================================
+== American (228) ======================================
   honey-garlic-glazed-salmon         Honey Garlic Glazed Salmon   [3 refused already]
   grape-jelly-meatballs              Grape Jelly Meatballs   [6 refused already]
   beef-and-noodles                   Beef and Noodles   [15 refused already]
@@ -195,7 +195,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   mint-brownies                      Mint Brownies   [1 refused already]
   white-chocolate-raspberry-blondies White Chocolate Raspberry Blondies   [2 refused already]
   pumpkin-bars                       Pumpkin Bars   [2 refused already]
-  maple-walnut-cookies               Maple Walnut Cookies
   zucchini-brownies                  Zucchini Brownies
   zucchini-cookies                   Zucchini Cookies
   fantasy-fudge                      Fantasy Fudge   [1 refused already]
@@ -237,7 +236,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   low-carb-egg-muffins               Low-Carb Egg Muffins
   vegan-stuffing                     Vegan Stuffing   [2 refused already]
 
-== Italian (72) ========================================
+== Italian (70) ========================================
   chicken-scarpariello               Chicken Scarpariello   [3 refused already]
   pesto-chicken-bake                 Pesto Chicken Bake   [17 refused already]
   bruschetta-chicken                 Bruschetta Chicken   [14 refused already]
@@ -255,9 +254,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   penne-arrabbiata-bake              Penne Arrabbiata Bake
   spinach-and-ricotta-cannelloni     Spinach and Ricotta Cannelloni
   pumpkin-and-sage-pasta             Pumpkin and Sage Pasta
-  meatball-pasta-bake                Meatball Pasta Bake
   chicken-saltimbocca                Chicken Saltimbocca
-  beef-short-rib-ragu                Beef Short Rib Ragu
   roasted-courgettes                 Roasted Courgettes
   linguine-al-limone                 Linguine al Limone
   rigatoni-alla-vodka                Rigatoni alla Vodka
@@ -311,13 +308,12 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   torta-di-castagne                  Torta di Castagne   [1 refused already]
   bomboloni-al-forno                 Bomboloni al Forno
 
-== British (66) ========================================
+== British (65) ========================================
   cumberland-sauce                   Cumberland Sauce   [6 refused already]
   lamb-bhuna                         Lamb Bhuna   [2 refused already]
   omelette-arnold-bennett            Omelette Arnold Bennett   [15 refused already]
   cornflake-tart                     Cornflake Tart   [1 refused already]
   baked-haddock-with-herbs           Baked Haddock with Herbs   [9 refused already]
-  cumberland-sausage-hotpot          Cumberland Sausage Hotpot   [1 refused already]
   panackelty                         Panackelty   [5 refused already]
   sausage-pasta-bake                 Sausage Pasta Bake   [6 refused already]
   marrow-bake                        Marrow Bake   [1 refused already]
@@ -407,26 +403,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   moelleux-aux-pommes                Moelleux aux Pommes
   vacherin-aux-fraises               Vacherin aux Fraises
 
-== Australian (18) =====================================
-  mars-bar-slice                     Mars Bar Slice   [4 refused already]
-  tim-tam-slice                      Tim Tam Slice   [13 refused already]
-  weet-bix-slice                     Weet-Bix Slice   [4 refused already]
-  ice-cream-christmas-pudding        Ice Cream Christmas Pudding   [18 refused already]
-  white-christmas                    White Christmas   [13 refused already]
-  snag-in-bread                      Snag in Bread
-  honey-mustard-sausages             Honey Mustard Sausages   [8 refused already]
-  milo-slice                         Milo Slice   [3 refused already]
-  baked-bean-pasta                   Baked Bean Pasta   [6 refused already]
-  satay-sauce                        Satay Sauce   [6 refused already]
-  cornflake-cookies                  Cornflake Cookies
-  sweet-chilli-prawns                Sweet Chilli Prawns   [2 refused already]
-  steak-and-cheese-pasty             Steak and Cheese Pasty   [1 refused already]
-  spaghetti-toasties                 Spaghetti Toasties
-  milo-cake                          Milo Cake   [1 refused already]
-  passionfruit-curd                  Passionfruit Curd
-  bbq-salmon                         BBQ Salmon   [2 refused already]
-  australian-cheese-and-vegemite-scrolls Australian Cheese and Vegemite Scrolls   [1 refused already]
-
 == Mexican (18) ========================================
   almond-flour-tortillas             Almond Flour Tortillas   [3 refused already]
   chicken-fajita-soup                Chicken Fajita Soup   [17 refused already]
@@ -446,6 +422,25 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   freezer-enchiladas                 Freezer Enchiladas   [1 refused already]
   low-carb-taco-casserole            Low-Carb Taco Casserole
   low-carb-tortillas                 Low-Carb Tortillas
+
+== Australian (17) =====================================
+  mars-bar-slice                     Mars Bar Slice   [4 refused already]
+  weet-bix-slice                     Weet-Bix Slice   [4 refused already]
+  ice-cream-christmas-pudding        Ice Cream Christmas Pudding   [18 refused already]
+  white-christmas                    White Christmas   [13 refused already]
+  snag-in-bread                      Snag in Bread
+  honey-mustard-sausages             Honey Mustard Sausages   [8 refused already]
+  milo-slice                         Milo Slice   [3 refused already]
+  baked-bean-pasta                   Baked Bean Pasta   [6 refused already]
+  satay-sauce                        Satay Sauce   [6 refused already]
+  cornflake-cookies                  Cornflake Cookies
+  sweet-chilli-prawns                Sweet Chilli Prawns   [2 refused already]
+  steak-and-cheese-pasty             Steak and Cheese Pasty   [1 refused already]
+  spaghetti-toasties                 Spaghetti Toasties
+  milo-cake                          Milo Cake   [1 refused already]
+  passionfruit-curd                  Passionfruit Curd
+  bbq-salmon                         BBQ Salmon   [2 refused already]
+  australian-cheese-and-vegemite-scrolls Australian Cheese and Vegemite Scrolls   [1 refused already]
 
 == Canadian (17) =======================================
   maple-glazed-salmon                Maple Glazed Salmon   [3 refused already]
@@ -648,9 +643,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
 == Japanese (1) ========================================
   japanese-ginger-dressing           Japanese Ginger Dressing   [1 refused already]
 
-== Malaysian (1) =======================================
-  roti-john                          Roti John   [2 refused already]
-
 == Maltese (1) =========================================
   lampuki-pie                        Lampuki Pie
 
@@ -690,4 +682,4 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
 == Welsh (1) ===========================================
   anglesey-eggs                      Anglesey Eggs   [1 refused already]
 
-TOTAL 576 of 5515
+TOTAL 570 of 5515

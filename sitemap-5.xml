@@ -4104,9 +4104,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tim-tam-slice/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tim-tam-slice.jpg</image:loc>
+      <image:title>Tim Tam Slice</image:title>
+      <image:caption>Tim Tam Slice</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/paraoa-parai/</loc>

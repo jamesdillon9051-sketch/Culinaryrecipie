@@ -460,9 +460,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/meatball-pasta-bake/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/meatball-pasta-bake.jpg</image:loc>
+      <image:title>Meatball Pasta Bake</image:title>
+      <image:caption>Meatball Pasta Bake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lemon-pepper-salmon/</loc>
@@ -671,9 +676,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beef-short-rib-ragu/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/beef-short-rib-ragu.jpg</image:loc>
+      <image:title>Beef Short Rib Ragu</image:title>
+      <image:caption>Beef Short Rib Ragu</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beef-tagliata/</loc>
