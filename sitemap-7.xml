@@ -2085,9 +2085,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sweet-potato-chili/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sweet-potato-chili.jpg</image:loc>
+      <image:title>Sweet Potato Chili</image:title>
+      <image:caption>Sweet Potato Chili</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/roast-pumpkin-soup/</loc>
@@ -2639,9 +2644,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bean-wraps/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bean-wraps.jpg</image:loc>
+      <image:title>Bean Wraps</image:title>
+      <image:caption>Bean Wraps</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tuna-wraps/</loc>

@@ -4193,9 +4193,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/warm-lentil-salad/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/warm-lentil-salad.jpg</image:loc>
+      <image:title>Warm Lentil Salad</image:title>
+      <image:caption>Warm Lentil Salad</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/soba-noodle-salad/</loc>

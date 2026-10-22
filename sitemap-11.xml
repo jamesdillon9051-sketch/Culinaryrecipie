@@ -1566,9 +1566,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/stuffed-zucchini-boats/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/stuffed-zucchini-boats.jpg</image:loc>
+      <image:title>Stuffed Zucchini Boats</image:title>
+      <image:caption>Stuffed Zucchini Boats</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sweet-corn-soup/</loc>
@@ -2785,9 +2790,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/yellow-cake/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/yellow-cake.jpg</image:loc>
+      <image:title>Yellow Cake</image:title>
+      <image:caption>Yellow Cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/zucchini-brownies/</loc>

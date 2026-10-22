@@ -1803,9 +1803,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/melitzanosalata/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/melitzanosalata.jpg</image:loc>
+      <image:title>Melitzanosalata</image:title>
+      <image:caption>Melitzanosalata</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tsoureki/</loc>
@@ -3302,9 +3307,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/samoan-pani-popo/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/samoan-pani-popo.jpg</image:loc>
+      <image:title>Samoan Pani Popo</image:title>
+      <image:caption>Samoan Pani Popo</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/samoan-chop-suey/</loc>

@@ -1199,9 +1199,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/key-lime-bars/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/key-lime-bars.jpg</image:loc>
+      <image:title>Key Lime Bars</image:title>
+      <image:caption>Key Lime Bars</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/banoffee-cupcakes/</loc>
@@ -2065,9 +2070,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vegetarian-lasagne/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/vegetarian-lasagne.jpg</image:loc>
+      <image:title>Vegetarian Lasagne</image:title>
+      <image:caption>Vegetarian Lasagne</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vegetable-tagine/</loc>
@@ -3091,9 +3101,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/potato-salad-with-mustard-dressing/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/potato-salad-with-mustard-dressing.jpg</image:loc>
+      <image:title>Potato Salad with Mustard Dressing</image:title>
+      <image:caption>Potato Salad with Mustard Dressing</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cheesy-jacket-potatoes/</loc>

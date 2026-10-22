@@ -7,7 +7,7 @@
  "/about/": {
   "hash": "84b2dfd1c5ac",
   "lastmod": "2026-10-22",
-  "derivedHash": "bdffa8c984af"
+  "derivedHash": "27b83bc70c4d"
  },
  "/categories/": {
   "hash": "ecb574fe73a3",
@@ -57,7 +57,7 @@
  "/categories/appetizers/greek/": {
   "hash": "f0095ab05537",
   "lastmod": "2026-10-22",
-  "derivedHash": "ceec35a115be"
+  "derivedHash": "14918c9943f4"
  },
  "/categories/appetizers/indian/": {
   "hash": "5f62e6e197dd",
@@ -791,8 +791,8 @@
  },
  "/categories/healthy/french/": {
   "hash": "71a65c354a03",
-  "lastmod": "2026-10-16",
-  "derivedHash": "e5c24ec7c18f"
+  "lastmod": "2026-10-22",
+  "derivedHash": "059a00d96e80"
  },
  "/categories/healthy/greek/": {
   "hash": "91c4ec60c9b7",
@@ -946,8 +946,8 @@
  },
  "/categories/lunch/mexican/": {
   "hash": "c5b3143853c4",
-  "lastmod": "2026-10-10",
-  "derivedHash": "2cc548ba6f23"
+  "lastmod": "2026-10-22",
+  "derivedHash": "b9a7be9dbb76"
  },
  "/categories/lunch/new-zealand/": {
   "hash": "b2cd66cd89ca",
@@ -1037,7 +1037,7 @@
  "/cuisines/": {
   "hash": "7af26e1299cf",
   "lastmod": "2026-10-22",
-  "derivedHash": "c4c741b2e95f"
+  "derivedHash": "65b5330d28b2"
  },
  "/cuisines/afghan/": {
   "hash": "69b23f85c79d",
@@ -1352,7 +1352,7 @@
  "/cuisines/pacific/": {
   "hash": "6a48415da16e",
   "lastmod": "2026-10-22",
-  "derivedHash": "192488e11856"
+  "derivedHash": "e3abc8a3cbee"
  },
  "/cuisines/pakistani/": {
   "hash": "00bc9d66c46e",
@@ -1517,7 +1517,7 @@
  "/ingredients/aubergine/": {
   "hash": "fc7592c07178",
   "lastmod": "2026-10-22",
-  "derivedHash": "2f7c96d0314e"
+  "derivedHash": "3880d6575ec4"
  },
  "/ingredients/avocado/": {
   "hash": "6059aebb95a3",
@@ -1647,7 +1647,7 @@
  "/ingredients/lentils/": {
   "hash": "11bb4526f773",
   "lastmod": "2026-10-22",
-  "derivedHash": "1f66557583a2"
+  "derivedHash": "ea0d4947b9fc"
  },
  "/ingredients/lime/": {
   "hash": "d1a2e51c23f2",
@@ -3550,8 +3550,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/bean-wraps/": {
-  "hash": "17b3ed1b4f83",
-  "lastmod": "2026-10-20"
+  "hash": "dddc6f24e6af",
+  "lastmod": "2026-10-22"
  },
  "/recipes/beans-and-cheese-toastie/": {
   "hash": "39402ecbca38",
@@ -9222,8 +9222,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/fave-e-cicoria/": {
-  "hash": "a803e801295a",
-  "lastmod": "2026-10-20"
+  "hash": "745d0c0b8080",
+  "lastmod": "2026-10-22"
  },
  "/recipes/feijoa-cake/": {
   "hash": "9d1a093b8b0c",
@@ -12714,8 +12714,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/key-lime-bars/": {
-  "hash": "f508f8f55d3e",
-  "lastmod": "2026-10-20"
+  "hash": "759d067426c2",
+  "lastmod": "2026-10-22"
  },
  "/recipes/key-lime-pie/": {
   "hash": "490682672129",
@@ -14550,8 +14550,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/melitzanosalata/": {
-  "hash": "ba7467345442",
-  "lastmod": "2026-10-20"
+  "hash": "d3b1b8506bfd",
+  "lastmod": "2026-10-22"
  },
  "/recipes/melomakarona/": {
   "hash": "5ec3946937d0",
@@ -17310,8 +17310,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/pollo-al-limone/": {
-  "hash": "1c5502f6560d",
-  "lastmod": "2026-10-20"
+  "hash": "04b9ce23563e",
+  "lastmod": "2026-10-22"
  },
  "/recipes/pollo-alla-diavola/": {
   "hash": "0112e2684557",
@@ -17650,8 +17650,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/potato-salad-with-mustard-dressing/": {
-  "hash": "742768459a4b",
-  "lastmod": "2026-10-20"
+  "hash": "0ff9d4f1a347",
+  "lastmod": "2026-10-22"
  },
  "/recipes/potato-salad/": {
   "hash": "6e229d679cb7",
@@ -19262,8 +19262,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/samoan-pani-popo/": {
-  "hash": "a70384c74ae9",
-  "lastmod": "2026-10-20"
+  "hash": "bed4f32019d2",
+  "lastmod": "2026-10-22"
  },
  "/recipes/samoan-panikeke/": {
   "hash": "c04018dd394b",
@@ -21490,8 +21490,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/stuffed-zucchini-boats/": {
-  "hash": "e4734c40579a",
-  "lastmod": "2026-10-20"
+  "hash": "cc93a60875bc",
+  "lastmod": "2026-10-22"
  },
  "/recipes/stuffing-balls/": {
   "hash": "e778d31fa0d2",
@@ -21646,8 +21646,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/sweet-potato-chili/": {
-  "hash": "b4f98366b70f",
-  "lastmod": "2026-10-20"
+  "hash": "3229343a346a",
+  "lastmod": "2026-10-22"
  },
  "/recipes/sweet-potato-chips/": {
   "hash": "6b26344a1425",
@@ -23238,8 +23238,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/vegetarian-lasagne/": {
-  "hash": "aad54ebf2917",
-  "lastmod": "2026-10-20"
+  "hash": "3f4fc1b5d894",
+  "lastmod": "2026-10-22"
  },
  "/recipes/veggie-chilli/": {
   "hash": "15b90f89897f",
@@ -23362,8 +23362,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/warm-lentil-salad/": {
-  "hash": "24dd23374490",
-  "lastmod": "2026-10-20"
+  "hash": "42fc1e024693",
+  "lastmod": "2026-10-22"
  },
  "/recipes/watalappan/": {
   "hash": "ad8d341ab23b",
@@ -23594,8 +23594,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/yellow-cake/": {
-  "hash": "9ca0fa712aed",
-  "lastmod": "2026-10-20"
+  "hash": "d6d82e86a123",
+  "lastmod": "2026-10-22"
  },
  "/recipes/yogurt-marinated-chicken-skewers/": {
   "hash": "8784f02c51a9",

@@ -860,9 +860,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fave-e-cicoria/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/fave-e-cicoria.jpg</image:loc>
+      <image:title>Fave e Cicoria</image:title>
+      <image:caption>Fave e Cicoria</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/burrata-with-tomatoes/</loc>
@@ -1178,9 +1183,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pollo-al-limone/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pollo-al-limone.jpg</image:loc>
+      <image:title>Pollo al Limone</image:title>
+      <image:caption>Pollo al Limone</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pollo-con-i-peperoni/</loc>
