@@ -3730,9 +3730,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/marinated-vegetable-salad/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/marinated-vegetable-salad.jpg</image:loc>
+      <image:title>Marinated Vegetable Salad</image:title>
+      <image:caption>Marinated Vegetable Salad</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/black-bean-and-quinoa-bowl/</loc>
@@ -4419,9 +4424,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/veggie-egg-white-omelet/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/veggie-egg-white-omelet.jpg</image:loc>
+      <image:title>Veggie Egg White Omelet</image:title>
+      <image:caption>Veggie Egg White Omelet</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egg-white-breakfast-wrap/</loc>
@@ -4876,9 +4886,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/turkey-pinwheels/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/turkey-pinwheels.jpg</image:loc>
+      <image:title>Turkey Pinwheels</image:title>
+      <image:caption>Turkey Pinwheels</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mushroom-lettuce-cups/</loc>

@@ -1306,9 +1306,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-dal/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/slow-cooker-dal.jpg</image:loc>
+      <image:title>Slow Cooker Dal</image:title>
+      <image:caption>Slow Cooker Dal</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-egg-casserole/</loc>
@@ -1334,9 +1339,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-hash-brown-casserole/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/slow-cooker-hash-brown-casserole.jpg</image:loc>
+      <image:title>Slow Cooker Hash Brown Casserole</image:title>
+      <image:caption>Slow Cooker Hash Brown Casserole</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-jambalaya/</loc>
@@ -2275,9 +2285,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/funfetti-cookies/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/funfetti-cookies.jpg</image:loc>
+      <image:title>Funfetti Cookies</image:title>
+      <image:caption>Funfetti Cookies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/funfetti-cupcakes/</loc>
@@ -2944,9 +2959,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mug-mac-and-cheese/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mug-mac-and-cheese.jpg</image:loc>
+      <image:title>Mug Mac and Cheese</image:title>
+      <image:caption>Mug Mac and Cheese</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mug-omelette/</loc>
@@ -3011,9 +3031,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/no-bake-trifle/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/no-bake-trifle.jpg</image:loc>
+      <image:title>No Bake Trifle</image:title>
+      <image:caption>No Bake Trifle</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/no-churn-ice-cream/</loc>
@@ -3078,9 +3103,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/saltine-toffee/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/saltine-toffee.jpg</image:loc>
+      <image:title>Saltine Toffee</image:title>
+      <image:caption>Saltine Toffee</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/toffee-popcorn/</loc>
@@ -3183,9 +3213,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/peanut-butter-overnight-oats/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/peanut-butter-overnight-oats.jpg</image:loc>
+      <image:title>Peanut Butter Overnight Oats</image:title>
+      <image:caption>Peanut Butter Overnight Oats</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sheet-pan-apple-crisp/</loc>
@@ -3338,9 +3373,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mug-carrot-cake/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mug-carrot-cake.jpg</image:loc>
+      <image:title>Mug Carrot Cake</image:title>
+      <image:caption>Mug Carrot Cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mug-chocolate-chip-cookie/</loc>

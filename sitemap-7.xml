@@ -476,9 +476,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pineapple-chicken-skewers/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pineapple-chicken-skewers.jpg</image:loc>
+      <image:title>Pineapple Chicken Skewers</image:title>
+      <image:caption>Pineapple Chicken Skewers</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-and-pepper-stir-fry/</loc>
@@ -1508,9 +1513,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-pot-roast/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/slow-cooker-pot-roast.jpg</image:loc>
+      <image:title>Slow Cooker Pot Roast</image:title>
+      <image:caption>Slow Cooker Pot Roast</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/braised-pork-shoulder/</loc>
@@ -1669,9 +1679,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/haluski/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/haluski.jpg</image:loc>
+      <image:title>Haluski</image:title>
+      <image:caption>Haluski</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pierogi-casserole/</loc>
@@ -2216,9 +2231,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vegetable-chili/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/vegetable-chili.jpg</image:loc>
+      <image:title>Vegetable Chili</image:title>
+      <image:caption>Vegetable Chili</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/roasted-vegetable-pasta/</loc>
@@ -2361,9 +2381,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/snag-in-bread/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/snag-in-bread.jpg</image:loc>
+      <image:title>Snag in Bread</image:title>
+      <image:caption>Snag in Bread</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/porridge-with-brown-sugar/</loc>
@@ -2929,9 +2954,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/honey-mustard-sausages/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/honey-mustard-sausages.jpg</image:loc>
+      <image:title>Honey Mustard Sausages</image:title>
+      <image:caption>Honey Mustard Sausages</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/honey-garlic-meatballs/</loc>
@@ -2974,9 +3004,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cornbread-casserole/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cornbread-casserole.jpg</image:loc>
+      <image:title>Cornbread Casserole</image:title>
+      <image:caption>Cornbread Casserole</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cornbread-stuffing/</loc>
@@ -4056,9 +4091,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sheet-pan-gnocchi/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sheet-pan-gnocchi.jpg</image:loc>
+      <image:title>Sheet Pan Gnocchi</image:title>
+      <image:caption>Sheet Pan Gnocchi</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sheet-pan-pizza/</loc>

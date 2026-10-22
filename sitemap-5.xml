@@ -2874,9 +2874,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/garlic-butter-crayfish/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/garlic-butter-crayfish.jpg</image:loc>
+      <image:title>Garlic Butter Crayfish</image:title>
+      <image:caption>Garlic Butter Crayfish</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooked-lamb-shanks-in-red-wine/</loc>
@@ -4303,9 +4308,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/grape-jelly-meatballs/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/grape-jelly-meatballs.jpg</image:loc>
+      <image:title>Grape Jelly Meatballs</image:title>
+      <image:caption>Grape Jelly Meatballs</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kettle-corn/</loc>

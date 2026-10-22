@@ -638,9 +638,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-broccoli-rice-casserole/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-broccoli-rice-casserole.jpg</image:loc>
+      <image:title>Chicken Broccoli Rice Casserole</image:title>
+      <image:caption>Chicken Broccoli Rice Casserole</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/poppy-seed-chicken/</loc>
@@ -729,9 +734,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gammon-steak/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gammon-steak.jpg</image:loc>
+      <image:title>Gammon Steak</image:title>
+      <image:caption>Gammon Steak</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bacon-mac-and-cheese/</loc>
@@ -1028,9 +1038,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/honey-garlic-shrimp-stir-fry/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/honey-garlic-shrimp-stir-fry.jpg</image:loc>
+      <image:title>Honey Garlic Shrimp Stir Fry</image:title>
+      <image:caption>Honey Garlic Shrimp Stir Fry</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lemon-garlic-shrimp-pasta/</loc>
@@ -1283,9 +1298,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/persian-meatballs/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/persian-meatballs.jpg</image:loc>
+      <image:title>Persian Meatballs</image:title>
+      <image:caption>Persian Meatballs</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/turkish-meatballs/</loc>
@@ -1428,9 +1448,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/penne-arrabbiata-bake/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/penne-arrabbiata-bake.jpg</image:loc>
+      <image:title>Penne Arrabbiata Bake</image:title>
+      <image:caption>Penne Arrabbiata Bake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lemon-pasta/</loc>
@@ -3105,9 +3130,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fourth-of-july-berry-trifle/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/fourth-of-july-berry-trifle.jpg</image:loc>
+      <image:title>Fourth of July Berry Trifle</image:title>
+      <image:caption>Fourth of July Berry Trifle</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mummy-hot-dogs/</loc>
@@ -3128,9 +3158,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/leftover-ham-pie/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/leftover-ham-pie.jpg</image:loc>
+      <image:title>Leftover Ham Pie</image:title>
+      <image:caption>Leftover Ham Pie</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cranberry-relish/</loc>
@@ -3448,9 +3483,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/rhubarb-custard-cake/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/rhubarb-custard-cake.jpg</image:loc>
+      <image:title>Rhubarb Custard Cake</image:title>
+      <image:caption>Rhubarb Custard Cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/rhubarb-muffins/</loc>
@@ -4455,9 +4495,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/spinach-and-ricotta-cannelloni/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/spinach-and-ricotta-cannelloni.jpg</image:loc>
+      <image:title>Spinach and Ricotta Cannelloni</image:title>
+      <image:caption>Spinach and Ricotta Cannelloni</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/roasted-vegetable-tart/</loc>
