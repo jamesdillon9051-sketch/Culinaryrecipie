@@ -14150,6 +14150,10 @@
     {
       "page": "https://pixabay.com/photos/charcuterie-deli-delicatessen-338498/",
       "why": "a charcuterie board"
+    },
+    {
+      "page": "https://www.flickr.com/photos/97651299@N00/27964636171",
+      "why": "Photographer title explicitly Ready to pop in the oven: assembled sliders before baking. Retained as a credited process photograph."
     }
   ],
   "pineapple-casserole": [
@@ -33796,6 +33800,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Odia_thin_Rice_and_lentil_crepes_with_pieces_of_coconut.jpg",
       "why": "not the dish, a different dish, or an unusable picture"
+    },
+    {
+      "page": "https://www.flickr.com/photos/58819758@N00/2610270636",
+      "why": "Photographer explicitly describes beefy lentil stew. Target recipe is labelled Vegetarian and Vegan. Confirmed meat conflict."
     }
   ],
   "polish-cucumber-salad": [
@@ -36520,6 +36528,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Chocolate_Green_Smoothie_Bowl.jpg",
       "why": "a smoothie bowl"
+    },
+    {
+      "page": "https://pixabay.com/photos/chocolate-smoothie-milkshake-1058191/",
+      "why": "Near-identical same-scene photograph already used for mexican-hot-chocolate. Withheld after visual duplicate comparison."
     }
   ],
   "cinnamon-buns": [
@@ -38134,6 +38146,10 @@
     {
       "page": "https://www.flickr.com/photos/25977089@N00/37222172930",
       "why": "round 2 review: not a photograph of this dish, or a page already refused or used by another dish"
+    },
+    {
+      "page": "https://www.flickr.com/photos/58545726@N02/6881392197",
+      "why": "Photographer caption explicitly Browning beef brisket. This will be used in the Classic Beef Brisket recipe: preparation stage. Retained as a credited process photograph."
     }
   ],
   "instant-pot-biryani": [
@@ -39230,6 +39246,12 @@
       "model": "sana",
       "prompt": "Tart gooseberries stewed and crushed, cooled and folded through whipped cream, A pale green early-summer pudding, with a wait in the fridge, made with gooseberries, elderflower cordial, double cream, Shortbread biscuits, a British dish called Gooseberry Fool, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a cup with a sprout, not a fool"
+    }
+  ],
+  "huhnersuppe-mit-nudeln": [
+    {
+      "page": "https://www.flickr.com/photos/115225894@N07/55553023791",
+      "why": "Creator original ccnull file 1135759 explicitly labels this image created with AI. Verified against the identical Flickr image. Real photographs only."
     }
   ]
 }
