@@ -660,9 +660,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sesame-ginger-dressing/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sesame-ginger-dressing.jpg</image:loc>
+      <image:title>Sesame Ginger Dressing</image:title>
+      <image:caption>Sesame Ginger Dressing</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/miso-dressing/</loc>
@@ -3703,9 +3708,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fry-sauce/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/fry-sauce.jpg</image:loc>
+      <image:title>Fry Sauce</image:title>
+      <image:caption>Fry Sauce</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kale-salad-with-lemon/</loc>
@@ -4551,9 +4561,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/red-eye-gravy/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/red-eye-gravy.jpg</image:loc>
+      <image:title>Red Eye Gravy</image:title>
+      <image:caption>Red Eye Gravy</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cocktail-meatballs/</loc>

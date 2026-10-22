@@ -327,9 +327,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tarte-au-chocolat/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tarte-au-chocolat.jpg</image:loc>
+      <image:title>Tarte au Chocolat</image:title>
+      <image:caption>Tarte au Chocolat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gateau-nantais/</loc>
@@ -2030,9 +2035,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/wildgulasch/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/wildgulasch.jpg</image:loc>
+      <image:title>Wildgulasch</image:title>
+      <image:caption>Wildgulasch</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/matjes/</loc>
@@ -2411,9 +2421,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/entenbrust-mit-rotkohl/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/entenbrust-mit-rotkohl.jpg</image:loc>
+      <image:title>Entenbrust mit Rotkohl</image:title>
+      <image:caption>Entenbrust mit Rotkohl</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/wildschweinbraten/</loc>
@@ -2538,9 +2553,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/rindsuppe/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/rindsuppe.jpg</image:loc>
+      <image:title>Rindsuppe</image:title>
+      <image:caption>Rindsuppe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/frittatensuppe/</loc>
@@ -2688,9 +2708,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/rookworst/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/rookworst.jpg</image:loc>
+      <image:title>Rookworst</image:title>
+      <image:caption>Rookworst</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kapsalon/</loc>
@@ -4053,9 +4078,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gulas-cesky/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gulas-cesky.jpg</image:loc>
+      <image:title>Gulas Cesky</image:title>
+      <image:caption>Gulas Cesky</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/smazeny-syr/</loc>

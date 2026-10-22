@@ -1036,9 +1036,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sausage-stuffing/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sausage-stuffing.jpg</image:loc>
+      <image:title>Sausage Stuffing</image:title>
+      <image:caption>Sausage Stuffing</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sausage-and-mash/</loc>
@@ -1842,9 +1847,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/banana-cookies/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/banana-cookies.jpg</image:loc>
+      <image:title>Banana Cookies</image:title>
+      <image:caption>Banana Cookies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/banana-cupcakes/</loc>
@@ -2008,9 +2018,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cherry-almond-cookies/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cherry-almond-cookies.jpg</image:loc>
+      <image:title>Cherry Almond Cookies</image:title>
+      <image:caption>Cherry Almond Cookies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cherry-turnovers/</loc>
@@ -2335,9 +2350,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lemon-shortbread/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-shortbread.jpg</image:loc>
+      <image:title>Lemon Shortbread</image:title>
+      <image:caption>Lemon Shortbread</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mexican-wedding-cookies/</loc>
@@ -2379,6 +2399,11 @@
     <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/nutella-cookies.jpg</image:loc>
+      <image:title>Nutella Cookies</image:title>
+      <image:caption>Nutella Cookies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/oat-scones/</loc>
@@ -3016,9 +3041,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/brown-butter-rice-krispie-treats/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/brown-butter-rice-krispie-treats.jpg</image:loc>
+      <image:title>Brown Butter Rice Krispie Treats</image:title>
+      <image:caption>Brown Butter Rice Krispie Treats</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chocolate-covered-pretzels/</loc>
@@ -4227,9 +4257,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/low-carb-muffins/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/low-carb-muffins.jpg</image:loc>
+      <image:title>Low-Carb Muffins</image:title>
+      <image:caption>Low-Carb Muffins</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/low-carb-pancakes/</loc>

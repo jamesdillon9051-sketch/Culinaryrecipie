@@ -791,9 +791,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/haddock-chowder/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/haddock-chowder.jpg</image:loc>
+      <image:title>Haddock Chowder</image:title>
+      <image:caption>Haddock Chowder</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/trout-almondine/</loc>
@@ -908,9 +913,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-bacon-avocado-salad/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-bacon-avocado-salad.jpg</image:loc>
+      <image:title>Chicken Bacon Avocado Salad</image:title>
+      <image:caption>Chicken Bacon Avocado Salad</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/honey-lime-chicken-tacos/</loc>
@@ -1093,9 +1103,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/caprese-chicken/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/caprese-chicken.jpg</image:loc>
+      <image:title>Caprese Chicken</image:title>
+      <image:caption>Caprese Chicken</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bbq-chicken-pizza/</loc>
@@ -2243,9 +2258,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pistachio-shortbread/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pistachio-shortbread.jpg</image:loc>
+      <image:title>Pistachio Shortbread</image:title>
+      <image:caption>Pistachio Shortbread</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/jammy-dodgers/</loc>
@@ -3497,9 +3517,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vegan-cheesecake/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/vegan-cheesecake.jpg</image:loc>
+      <image:title>Vegan Cheesecake</image:title>
+      <image:caption>Vegan Cheesecake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vegan-chocolate-cake/</loc>
@@ -3859,9 +3884,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/black-bean-salsa/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/black-bean-salsa.jpg</image:loc>
+      <image:title>Black Bean Salsa</image:title>
+      <image:caption>Black Bean Salsa</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mango-salsa/</loc>
@@ -4052,9 +4082,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kale-and-quinoa-salad/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kale-and-quinoa-salad.jpg</image:loc>
+      <image:title>Kale and Quinoa Salad</image:title>
+      <image:caption>Kale and Quinoa Salad</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/massaged-kale-salad/</loc>
@@ -4708,9 +4743,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/duck-fat-roast-potatoes/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/duck-fat-roast-potatoes.jpg</image:loc>
+      <image:title>Duck Fat Roast Potatoes</image:title>
+      <image:caption>Duck Fat Roast Potatoes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egg-noodles-with-butter/</loc>

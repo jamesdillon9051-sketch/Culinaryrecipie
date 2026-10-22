@@ -622,9 +622,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beef-taco-skillet/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/beef-taco-skillet.jpg</image:loc>
+      <image:title>Beef Taco Skillet</image:title>
+      <image:caption>Beef Taco Skillet</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beef-samosas/</loc>
@@ -1141,9 +1146,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/red-velvet-whoopie-pies/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/red-velvet-whoopie-pies.jpg</image:loc>
+      <image:title>Red Velvet Whoopie Pies</image:title>
+      <image:caption>Red Velvet Whoopie Pies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/apple-pie-cookies/</loc>
@@ -2173,9 +2183,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/crostini-with-ricotta/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/crostini-with-ricotta.jpg</image:loc>
+      <image:title>Crostini with Ricotta</image:title>
+      <image:caption>Crostini with Ricotta</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/antipasto-platter/</loc>
