@@ -742,9 +742,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/apple-chicken-sausage/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/apple-chicken-sausage.jpg</image:loc>
+      <image:title>Apple Chicken Sausage</image:title>
+      <image:caption>Apple Chicken Sausage</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/onion-turkey-burgers/</loc>
@@ -787,9 +792,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/turkey-stir-fry-with-peppers/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/turkey-stir-fry-with-peppers.jpg</image:loc>
+      <image:title>Turkey Stir-Fry with Peppers</image:title>
+      <image:caption>Turkey Stir-Fry with Peppers</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/turkey-vegetable-soup/</loc>
@@ -3738,9 +3748,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/instant-pot-split-pea-soup/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-split-pea-soup.jpg</image:loc>
+      <image:title>Instant Pot Split Pea Soup</image:title>
+      <image:caption>Instant Pot Split Pea Soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-beef-stew/</loc>

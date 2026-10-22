@@ -242,9 +242,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/soupe-de-moules/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/soupe-de-moules.jpg</image:loc>
+      <image:title>Soupe de Moules</image:title>
+      <image:caption>Soupe de Moules</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tarte-fine-aux-tomates/</loc>
@@ -299,9 +304,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pommes-lyonnaises/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pommes-lyonnaises.jpg</image:loc>
+      <image:title>Pommes Lyonnaises</image:title>
+      <image:caption>Pommes Lyonnaises</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tarte-a-la-rhubarbe/</loc>
@@ -360,9 +370,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cake-au-citron/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cake-au-citron.jpg</image:loc>
+      <image:title>Cake au Citron</image:title>
+      <image:caption>Cake au Citron</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/moelleux-aux-pommes/</loc>
@@ -527,9 +542,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/boulets-liegeois/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/boulets-liegeois.jpg</image:loc>
+      <image:title>Boulets Liegeois</image:title>
+      <image:caption>Boulets Liegeois</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tarte-au-sucre-belge/</loc>
@@ -700,9 +720,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pomodori-ripieni/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pomodori-ripieni.jpg</image:loc>
+      <image:title>Pomodori Ripieni</image:title>
+      <image:caption>Pomodori Ripieni</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fagioli-alluccelletto/</loc>
@@ -1071,9 +1096,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/zuppa-di-lenticchie/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/zuppa-di-lenticchie.jpg</image:loc>
+      <image:title>Zuppa di Lenticchie</image:title>
+      <image:caption>Zuppa di Lenticchie</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/zuppa-di-ceci/</loc>
@@ -1389,9 +1419,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/budino-al-cioccolato/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/budino-al-cioccolato.jpg</image:loc>
+      <image:title>Budino al Cioccolato</image:title>
+      <image:caption>Budino al Cioccolato</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/budino-di-riso/</loc>
@@ -1567,15 +1602,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bruschetta-al-pomodoro/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bruschetta-al-pomodoro.jpg</image:loc>
+      <image:title>Bruschetta al Pomodoro</image:title>
+      <image:caption>Bruschetta al Pomodoro</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/carciofi-ripieni/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/carciofi-ripieni.jpg</image:loc>
+      <image:title>Carciofi Ripieni</image:title>
+      <image:caption>Carciofi Ripieni</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lasagne-bianche/</loc>
@@ -1714,9 +1759,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bomboloni-al-forno/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bomboloni-al-forno.jpg</image:loc>
+      <image:title>Bomboloni al Forno</image:title>
+      <image:caption>Bomboloni al Forno</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/limoncello/</loc>

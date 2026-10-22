@@ -24,6 +24,8 @@ const cases = [
   [['Gluten-Free'], ['400 g round white loaf'], 'Gluten-Free', 'contradicted'],
   [['Gluten-Free'], ['4 bagels, split'], 'Gluten-Free', 'contradicted'],
   [['Gluten-Free'], ['400 g gluten-free loaf'], 'Gluten-Free', 'clean'],
+  [['Vegetarian'], ['600 g grouper fillets, cut into 4 pieces'], 'Vegetarian', 'contradicted'],
+  [['Vegan'], ['4 walleye fillets'], 'Vegan', 'contradicted'],
   [['Gluten-Free'], ['250 g lasagne sheets made from rice or corn'], 'Gluten-Free', 'clean'],
   [['Dairy-Free'], ['200 g Nutella'], 'Dairy-Free', 'contradicted'],
   [['Dairy-Free'], ['100 g milk chocolate'], 'Dairy-Free', 'contradicted'],

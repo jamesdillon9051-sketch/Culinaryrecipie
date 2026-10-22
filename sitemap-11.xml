@@ -615,9 +615,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-with-40-cloves-of-garlic/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-with-40-cloves-of-garlic.jpg</image:loc>
+      <image:title>Chicken with 40 Cloves of Garlic</image:title>
+      <image:caption>Chicken with 40 Cloves of Garlic</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chorizo-and-potato-stew/</loc>
@@ -2000,9 +2005,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cathead-biscuits/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cathead-biscuits.jpg</image:loc>
+      <image:title>Cathead Biscuits</image:title>
+      <image:caption>Cathead Biscuits</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cheesecake-bars/</loc>
@@ -2580,9 +2590,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pumpkin-bars/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pumpkin-bars.jpg</image:loc>
+      <image:title>Pumpkin Bars</image:title>
+      <image:caption>Pumpkin Bars</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pumpkin-bundt-cake/</loc>
@@ -4242,9 +4257,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gluten-free-yorkshire-puddings/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gluten-free-yorkshire-puddings.jpg</image:loc>
+      <image:title>Gluten-Free Yorkshire Puddings</image:title>
+      <image:caption>Gluten-Free Yorkshire Puddings</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/high-protein-breakfast-burrito/</loc>
@@ -4295,9 +4315,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/low-carb-breakfast-casserole/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/low-carb-breakfast-casserole.jpg</image:loc>
+      <image:title>Low-Carb Breakfast Casserole</image:title>
+      <image:caption>Low-Carb Breakfast Casserole</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/low-carb-chicken-casserole/</loc>

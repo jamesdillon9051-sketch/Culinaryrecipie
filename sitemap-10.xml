@@ -1106,9 +1106,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/japanese-ginger-dressing/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/japanese-ginger-dressing.jpg</image:loc>
+      <image:title>Japanese Ginger Dressing</image:title>
+      <image:caption>Japanese Ginger Dressing</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/shuwa/</loc>
@@ -1118,9 +1123,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-machboos/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-machboos.jpg</image:loc>
+      <image:title>Chicken Machboos</image:title>
+      <image:caption>Chicken Machboos</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/luqaimat/</loc>
@@ -1747,9 +1757,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mashed-swede/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mashed-swede.jpg</image:loc>
+      <image:title>Mashed Swede</image:title>
+      <image:caption>Mashed Swede</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cheese-sauce-for-lasagne/</loc>
@@ -2428,9 +2443,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/calcots-with-romesco/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/calcots-with-romesco.jpg</image:loc>
+      <image:title>Calçots with Romesco</image:title>
+      <image:caption>Calçots with Romesco</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fideua/</loc>
@@ -2602,6 +2622,11 @@
     <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/slow-cooker-beef-ragu.jpg</image:loc>
+      <image:title>Slow Cooker Beef Ragu</image:title>
+      <image:caption>Slow Cooker Beef Ragu</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-rice-pudding/</loc>
@@ -3195,9 +3220,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/trinidadian-curry-duck/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/trinidadian-curry-duck.jpg</image:loc>
+      <image:title>Trinidadian Curry Duck</image:title>
+      <image:caption>Trinidadian Curry Duck</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/aloo-pie/</loc>
@@ -3692,9 +3722,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chilli-mussels/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chilli-mussels.jpg</image:loc>
+      <image:title>Chilli Mussels</image:title>
+      <image:caption>Chilli Mussels</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salsa-macha/</loc>
@@ -3937,9 +3972,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/maine-lobster-stew/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/maine-lobster-stew.jpg</image:loc>
+      <image:title>Maine Lobster Stew</image:title>
+      <image:caption>Maine Lobster Stew</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vermont-maple-cream-pie/</loc>
@@ -3977,9 +4017,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/virginia-ham-biscuits/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/virginia-ham-biscuits.jpg</image:loc>
+      <image:title>Virginia Ham Biscuits</image:title>
+      <image:caption>Virginia Ham Biscuits</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beer-brats/</loc>
@@ -4005,9 +4050,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/wisconsin-butter-burgers/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/wisconsin-butter-burgers.jpg</image:loc>
+      <image:title>Wisconsin Butter Burgers</image:title>
+      <image:caption>Wisconsin Butter Burgers</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kentucky-derby-pie/</loc>
@@ -4084,7 +4134,7 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/florida-grouper-sandwich/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4952,8 +5002,13 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-zucchini-chips/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-zucchini-chips.jpg</image:loc>
+      <image:title>Air Fryer Zucchini Chips</image:title>
+      <image:caption>Air Fryer Zucchini Chips</image:caption>
+    </image:image>
   </url>
 </urlset>

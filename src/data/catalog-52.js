@@ -68,7 +68,7 @@ module.exports = [
   c('navajo-fry-bread', 'Navajo Fry Bread', 'American', 'Baking', 'Medium', 15, 15, 6, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'navajo fry bread'),
   c('california-burrito', 'California Burrito', 'American', 'Lunch', 'Easy', 20, 15, 4, 0, 0, [], ['new'], 'california burrito'),
   c('marionberry-pie', 'Marionberry Pie', 'American', 'Desserts', 'Medium', 30, 50, 8, 0, 0, ['Vegetarian'], ['new'], 'marionberry pie'),
-  c('florida-grouper-sandwich', 'Florida Grouper Sandwich', 'American', 'Lunch', 'Easy', 15, 10, 4, 0, 0, ['Vegetarian'], ['new'], 'florida grouper sandwich'),
+  c('florida-grouper-sandwich', 'Florida Grouper Sandwich', 'American', 'Lunch', 'Easy', 15, 10, 4, 0, 0, [], ['new'], 'florida grouper sandwich'),
   c('appalachian-soup-beans', 'Appalachian Soup Beans', 'American', 'Dinner', 'Easy', 15, 120, 6, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'appalachian soup beans'),
   c('appalachian-stack-cake', 'Appalachian Stack Cake', 'American', 'Desserts', 'Hard', 60, 45, 12, 0, 0, ['Vegetarian'], ['new'], 'appalachian stack cake'),
   c('ozark-pudding', 'Ozark Pudding', 'American', 'Desserts', 'Easy', 20, 35, 6, 0, 0, ['Vegetarian'], ['new'], 'ozark pudding'),

@@ -527,9 +527,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-saltimbocca/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-saltimbocca.jpg</image:loc>
+      <image:title>Chicken Saltimbocca</image:title>
+      <image:caption>Chicken Saltimbocca</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-cordon-bleu-casserole/</loc>
@@ -1180,9 +1185,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/coffee-and-walnut-cupcakes/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/coffee-and-walnut-cupcakes.jpg</image:loc>
+      <image:title>Coffee and Walnut Cupcakes</image:title>
+      <image:caption>Coffee and Walnut Cupcakes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/red-velvet-whoopie-pies/</loc>
@@ -1231,9 +1241,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sticky-toffee-cupcakes/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sticky-toffee-cupcakes.jpg</image:loc>
+      <image:title>Sticky Toffee Cupcakes</image:title>
+      <image:caption>Sticky Toffee Cupcakes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/peanut-butter-blondies/</loc>
@@ -1625,9 +1640,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-honey-garlic-chicken/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/slow-cooker-honey-garlic-chicken.jpg</image:loc>
+      <image:title>Slow Cooker Honey Garlic Chicken</image:title>
+      <image:caption>Slow Cooker Honey Garlic Chicken</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-macaroni-and-cheese/</loc>

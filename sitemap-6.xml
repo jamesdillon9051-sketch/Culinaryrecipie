@@ -4971,9 +4971,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-cod/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-cod.jpg</image:loc>
+      <image:title>Air Fryer Cod</image:title>
+      <image:caption>Air Fryer Cod</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-cauliflower/</loc>
@@ -5054,9 +5059,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/baked-tilapia-with-tomatoes/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/baked-tilapia-with-tomatoes.jpg</image:loc>
+      <image:title>Baked Tilapia with Tomatoes</image:title>
+      <image:caption>Baked Tilapia with Tomatoes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/honey-lime-chicken-skewers/</loc>
