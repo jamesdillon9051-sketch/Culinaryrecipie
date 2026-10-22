@@ -2118,9 +2118,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/baked-feta-tomatoes/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/baked-feta-tomatoes.jpg</image:loc>
+      <image:title>Baked Feta Tomatoes</image:title>
+      <image:caption>Baked Feta Tomatoes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pasta-arrabbiata/</loc>

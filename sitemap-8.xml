@@ -2113,9 +2113,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ice-box-cake/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/ice-box-cake.jpg</image:loc>
+      <image:title>Ice Box Cake</image:title>
+      <image:caption>Ice Box Cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lemon-cheesecake/</loc>
@@ -2599,9 +2604,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/apricot-slice/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/apricot-slice.jpg</image:loc>
+      <image:title>Apricot Slice</image:title>
+      <image:caption>Apricot Slice</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/arnold-palmer/</loc>
@@ -2796,9 +2806,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/peanut-butter-milkshake/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/peanut-butter-milkshake.jpg</image:loc>
+      <image:title>Peanut Butter Milkshake</image:title>
+      <image:caption>Peanut Butter Milkshake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/peppermint-hot-chocolate/</loc>

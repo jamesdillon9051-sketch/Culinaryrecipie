@@ -1295,9 +1295,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/baghali-polo/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/baghali-polo.jpg</image:loc>
+      <image:title>Baghali Polo</image:title>
+      <image:caption>Baghali Polo</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mirza-ghasemi/</loc>
@@ -2230,9 +2235,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chocolate-nest-cakes/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chocolate-nest-cakes.jpg</image:loc>
+      <image:title>Chocolate Nest Cakes</image:title>
+      <image:caption>Chocolate Nest Cakes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/italian-easter-bread/</loc>
@@ -3646,9 +3656,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/green-lipped-mussels/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/green-lipped-mussels.jpg</image:loc>
+      <image:title>Green Lipped Mussels</image:title>
+      <image:caption>Green Lipped Mussels</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chilli-mussels/</loc>
@@ -4538,9 +4553,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/crown-roast-of-pork/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/crown-roast-of-pork.jpg</image:loc>
+      <image:title>Crown Roast of Pork</image:title>
+      <image:caption>Crown Roast of Pork</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/membrillo/</loc>

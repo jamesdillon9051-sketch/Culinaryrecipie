@@ -776,9 +776,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/honey-lemon-chicken/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/honey-lemon-chicken.jpg</image:loc>
+      <image:title>Honey Lemon Chicken</image:title>
+      <image:caption>Honey Lemon Chicken</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/jerk-chicken-wings/</loc>
@@ -2189,9 +2194,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cream-cheese-pound-cake/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cream-cheese-pound-cake.jpg</image:loc>
+      <image:title>Cream Cheese Pound Cake</image:title>
+      <image:caption>Cream Cheese Pound Cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/drop-biscuits/</loc>
@@ -2278,9 +2288,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kitchen-sink-cookies/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kitchen-sink-cookies.jpg</image:loc>
+      <image:title>Kitchen Sink Cookies</image:title>
+      <image:caption>Kitchen Sink Cookies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lemon-blueberry-bread/</loc>
@@ -3218,9 +3233,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ice-cream-pie/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/ice-cream-pie.jpg</image:loc>
+      <image:title>Ice Cream Pie</image:title>
+      <image:caption>Ice Cream Pie</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/frozen-hot-chocolate/</loc>
@@ -3497,9 +3517,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dairy-free-milkshake/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/dairy-free-milkshake.jpg</image:loc>
+      <image:title>Dairy-Free Milkshake</image:title>
+      <image:caption>Dairy-Free Milkshake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dairy-free-pumpkin-pie/</loc>
@@ -3871,9 +3896,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/freezer-biscuits/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/freezer-biscuits.jpg</image:loc>
+      <image:title>Freezer Biscuits</image:title>
+      <image:caption>Freezer Biscuits</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/freezer-dumplings/</loc>

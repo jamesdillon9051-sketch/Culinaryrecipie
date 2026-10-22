@@ -319,9 +319,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egg-white-frittata-with-peppers-and-onions/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/egg-white-frittata-with-peppers-and-onions.jpg</image:loc>
+      <image:title>Egg White Frittata with Peppers and Onions</image:title>
+      <image:caption>Egg White Frittata with Peppers and Onions</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egg-white-bites/</loc>
@@ -1811,9 +1816,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tuna-rice-bowl/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tuna-rice-bowl.jpg</image:loc>
+      <image:title>Tuna Rice Bowl</image:title>
+      <image:caption>Tuna Rice Bowl</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tuna-and-sweetcorn-pasta/</loc>
@@ -3223,9 +3233,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/peanut-butter-balls/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/peanut-butter-balls.jpg</image:loc>
+      <image:title>Peanut Butter Balls</image:title>
+      <image:caption>Peanut Butter Balls</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/peanut-butter-oat-bars/</loc>
