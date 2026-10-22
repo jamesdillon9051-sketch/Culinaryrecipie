@@ -1,10 +1,10 @@
 # Image Attribution
 
 Every photograph on Weekly Delight is used under a licence that allows it here.
-Of 5211 photographs, **1603** are CC0 or public domain and carry no
+Of 5209 photographs, **1603** are CC0 or public domain and carry no
 conditions at all, **3253** are **Creative Commons Attribution (CC BY)** — free
 to use, adapt and use commercially, on the single condition that the photographer
-is credited — and **355** use the stock-library licences named
+is credited — and **353** use the stock-library licences named
 in the licence table below, which permit commercial recipe-page use and
 adaptation. Courtesy credits are retained. These are not Creative Commons
 licences and do not permit unrestricted redistribution as stock photography.
@@ -181,11 +181,11 @@ wrong dish were deleted rather than kept.
 | | |
 |---|---|
 | Recipes | 5515 |
-| Hero photographs | 4726 |
+| Hero photographs | 4724 |
 | Secondary "process" photographs | 485 |
 | Generated illustrations | 101 |
-| Total image files | 10624 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 688 |
+| Total image files | 10620 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 690 |
 
 ### Licences used
 
@@ -199,7 +199,7 @@ wrong dish were deleted rather than kept.
 | CC BY-SA 3.0 | 341 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public domain | 245 | No rights reserved — no attribution legally required |
 | Pixabay Content License | 245 | The stock library's own licence: free to use, adapt and use commercially; no credit required (given anyway) |
-| Pexels License | 109 | The stock library's own licence: free to use, adapt and use commercially; no credit required (given anyway) |
+| Pexels License | 107 | The stock library's own licence: free to use, adapt and use commercially; no credit required (given anyway) |
 | Public Domain Mark 1.0 | 101 | No rights reserved — no attribution legally required |
 | CC BY 4.0 | 101 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 3.0 | 88 | Free to use, adapt and use commercially **provided the photographer is credited** |
@@ -574,6 +574,7 @@ illustrations are not commissioned:
 - Fruit Salad with Honey Lime (`fruit-salad-with-honey-lime`)
 - Buttered Carrots (`buttered-carrots`)
 - Roasted Courgettes (`roasted-courgettes`)
+- BBQ Salmon (`bbq-salmon`)
 - Grilled Halloumi Skewers (`grilled-halloumi-skewers`)
 - Veggie Chilli (`veggie-chilli`)
 - Vegetarian Lasagne (`vegetarian-lasagne`)
@@ -742,6 +743,7 @@ illustrations are not commissioned:
 - Glazed Parsnips (`glazed-parsnips`)
 - Honey Lemon Chicken (`honey-lemon-chicken`)
 - One Pot Cabbage Roll Soup (`one-pot-cabbage-roll-soup`)
+- One Pot Garlic Parmesan Chicken (`one-pot-garlic-parmesan-chicken`)
 - Sausage Stuffing (`sausage-stuffing`)
 - Sheet Pan Honey Mustard Chicken (`sheet-pan-honey-mustard-chicken`)
 - Sheet Pan Lemon Chicken (`sheet-pan-lemon-chicken`)
@@ -4115,7 +4117,7 @@ licence as the rest of this project.
 | `instant-pot-oatmeal.webp` / `.jpg` | Instant Pot Oatmeal | Hero | Oatmeal | Daniella Segura | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/77568040@N08/8483070607) |
 | `instant-pot-cheesecake.webp` / `.jpg` | Instant Pot Cheesecake | Hero | Cheesecake | Adam | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/38074672@N00/10049900) |
 | `instant-pot-bolognese.webp` / `.jpg` | Instant Pot Bolognese | Hero | bolognese | stu_spivack | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/35034346243@N01/5885442431) |
-| `instant-pot-chicken-thighs.webp` / `.jpg` | Instant Pot Chicken Thighs | Hero | Cooked Chicken With Potatoes on Black Metal Tray | ArtHouse Studio | Pexels License | [Pexels](https://www.pexels.com/photo/cooked-chicken-with-potatoes-on-black-metal-tray-4589138/) |
+| `instant-pot-chicken-thighs.webp` / `.jpg` | Instant Pot Chicken Thighs | Hero | Chicken thighs | Michael Salazar | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/57207346@N06/8578799240) |
 | `slow-cooker-beef-stew.webp` / `.jpg` | Slow Cooker Beef Stew | Hero | Southern germany beef | RitaE | Pixabay Content License | [Pixabay](https://pixabay.com/photos/goulash-flesh-beef-bread-dumplings-2872112/) |
 | `slow-cooker-chicken-soup.webp` / `.jpg` | Slow Cooker Chicken Soup | Hero | Chicken noodle soup | Ray_Shrewsberry | Pixabay Content License | [Pixabay](https://pixabay.com/photos/food-soup-crackers-6863665/) |
 | `slow-cooker-chili.webp` / `.jpg` | Slow Cooker Chili | Hero | Free photo of chili bowl | Tim Sullivan | CC0 1.0 | [StockSnap](https://stocksnap.io/photo/chili-bowl-TOPPXSZHAV) |
@@ -4763,7 +4765,6 @@ licence as the rest of this project.
 | `bbq-meatballs.webp` / `.jpg` | BBQ Meatballs | Hero | Cajun Meatballs in Peach BBQ Sauce at The Revel Patio Grill | Revelpatiogrill | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cajun_Meatballs_in_Peach_BBQ_Sauce_at_The_Revel_Patio_Grill.jpg) |
 | `bbq-baked-beans.webp` / `.jpg` | BBQ Baked Beans | Hero | Delicious Baked Beans on Red Checkered Tablecloth | tom davis | Pexels License | [Pexels](https://www.pexels.com/photo/delicious-baked-beans-on-red-checkered-tablecloth-30146171/) |
 | `bbq-chicken-drumsticks.webp` / `.jpg` | BBQ Chicken Drumsticks | Hero | Honey BBQ Drumsticks | TheCulinaryGeek | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Honey_BBQ_Drumsticks.jpg) |
-| `bbq-salmon.webp` / `.jpg` | BBQ Salmon | Hero | Grilled Salmon Steak on a Smoky Barbecue Grill | Mohamed  Olwy | Pexels License | [Pexels](https://www.pexels.com/photo/grilled-salmon-steak-on-a-smoky-barbecue-grill-36869542/) |
 | `grilled-romaine-salad.webp` / `.jpg` | Grilled Romaine Salad | Hero | Delicious Grilled Romaine Wedge Salad with Dressing | Valeria Boltneva | Pexels License | [Pexels](https://www.pexels.com/photo/delicious-grilled-romaine-wedge-salad-with-dressing-36179287/) |
 | `grilled-vegetable-platter.webp` / `.jpg` | Grilled Vegetable Platter | Hero | Vegetable pan, grilled vegetables | Mondgesicht | Pixabay Content License | [Pixabay](https://pixabay.com/photos/vegetable-pan-grilled-vegetables-8027678/) |
 | `grilled-garlic-prawns.webp` / `.jpg` | Grilled Garlic Prawns | Hero | Prawns, grilled | rudegoose | Pixabay Content License | [Pixabay](https://pixabay.com/photos/prawns-barbecue-charred-seafood-4782963/) |
@@ -5457,7 +5458,6 @@ licence as the rest of this project.
 | `one-pot-black-bean-soup.webp` / `.jpg` | One Pot Black Bean Soup | Hero | Black Bean Soup (140491813) | J Doll | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Black_Bean_Soup_(140491813).jpeg) |
 | `one-pot-breakfast.webp` / `.jpg` | One Pot Breakfast | Hero | Breakfast of Champs | Nikkorz | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/35839371@N04/50267979298/) |
 | `one-pot-fried-rice.webp` / `.jpg` | One Pot Fried Rice | Hero | Pineapple fried rice | zhangtingzhi | Pixabay Content License | [Pixabay](https://pixabay.com/photos/pineapple-fried-rice-cuisine-dish-6902993/) |
-| `one-pot-garlic-parmesan-chicken.webp` / `.jpg` | One Pot Garlic Parmesan Chicken | Hero | Garlic Parmesan Chicken (captioned photograph) | MattCC716 | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/27874898@N00/52233773472/) |
 | `one-pot-gnocchi.webp` / `.jpg` | One Pot Gnocchi | Hero | Homemade Gnocchi with Tomato Sauce and Spinach | Celia Ferreira | Pexels License | [Pexels](https://www.pexels.com/photo/homemade-gnocchi-with-tomato-sauce-and-spinach-35569021/) |
 | `one-pot-lentil-curry.webp` / `.jpg` | One Pot Lentil Curry | Hero | Lentil curry | rovingI | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/70522326@N00/559482494) |
 | `one-pot-paella.webp` / `.jpg` | One Pot Paella | Hero | Pot Spanish paella shrimp, rice | Unknown | CC0 1.0 | [Rawpixel](https://www.rawpixel.com/image/3282897/free-photo-image-shrimps-rice-paella-dinner) |

@@ -27102,6 +27102,10 @@
     {
       "page": "https://www.flickr.com/photos/25977089@N00/37222172930",
       "why": "lentil stew photograph, not this dish"
+    },
+    {
+      "page": "https://www.pexels.com/photo/cooked-chicken-with-potatoes-on-black-metal-tray-4589138/",
+      "why": "Shows two small whole birds, wings and breast, that look like quail or poussin with potato and courgette, not bone-in chicken thighs. Claude integration review, 22 October 2026."
     }
   ],
   "instant-pot-split-pea-soup": [
@@ -37478,6 +37482,10 @@
     {
       "page": "https://www.flickr.com/photos/35034347371@N01/2277280",
       "why": "round 1 review: not a photograph of this dish, or one archive page shared by several dishes, or packaging or text"
+    },
+    {
+      "page": "https://www.flickr.com/photos/27874898@N00/52233773472/",
+      "why": "Chicken breast with melted cheese on rice and broccoli; the recipe is chicken thighs simmered with orzo, stock and cream, so the defining component is different. Claude integration review, 22 October 2026."
     }
   ],
   "one-pot-gnocchi": [
@@ -38998,6 +39006,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Klondike_Rib_and_Salmon_BBQ_-_Whitehorse,_Yukon_Territory_(12448168205).jpg",
       "why": "a restaurant interior"
+    },
+    {
+      "page": "https://www.pexels.com/photo/grilled-salmon-steak-on-a-smoky-barbecue-grill-36869542/",
+      "why": "The stock title says grilled salmon steak, but the block on the grill is pale and could be halloumi, tofu or white fish; it is not clearly salmon, and the recipe is labelled Dairy-Free. Claude integration review, 22 October 2026."
     }
   ],
   "bengali-sandesh": [

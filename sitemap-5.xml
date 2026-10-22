@@ -4610,9 +4610,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/crispy-aromatic-duck/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/crispy-aromatic-duck.jpg</image:loc>
+      <image:title>Crispy Aromatic Duck</image:title>
+      <image:caption>Crispy Aromatic Duck</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lamb-kofta-curry/</loc>

@@ -72,9 +72,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/po-boy-sandwich/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/po-boy-sandwich.jpg</image:loc>
+      <image:title>Po Boy Sandwich</image:title>
+      <image:caption>Po Boy Sandwich</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pork-adobo/</loc>
@@ -206,9 +211,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salmon-fillet-with-dill-sauce/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/salmon-fillet-with-dill-sauce.jpg</image:loc>
+      <image:title>Salmon Fillet with Dill Sauce</image:title>
+      <image:caption>Salmon Fillet with Dill Sauce</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sausage-and-cheese-pasta/</loc>
@@ -356,9 +366,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/thai-peanut-noodles/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/thai-peanut-noodles.jpg</image:loc>
+      <image:title>Thai Peanut Noodles</image:title>
+      <image:caption>Thai Peanut Noodles</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/trout-with-almonds/</loc>
@@ -457,9 +472,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/brisket-with-onions/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/brisket-with-onions.jpg</image:loc>
+      <image:title>Brisket with Onions</image:title>
+      <image:caption>Brisket with Onions</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cumberland-sausage-ring/</loc>
@@ -580,9 +600,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lemon-chicken-orzo/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-chicken-orzo.jpg</image:loc>
+      <image:title>Lemon Chicken Orzo</image:title>
+      <image:caption>Lemon Chicken Orzo</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beef-pho/</loc>
@@ -859,9 +884,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salmon-poke-bowls/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/salmon-poke-bowls.jpg</image:loc>
+      <image:title>Salmon Poke Bowls</image:title>
+      <image:caption>Salmon Poke Bowls</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salmon-quiche/</loc>
@@ -898,9 +928,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tuna-poke-bowls/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tuna-poke-bowls.jpg</image:loc>
+      <image:title>Tuna Poke Bowls</image:title>
+      <image:caption>Tuna Poke Bowls</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cod-chowder/</loc>
@@ -1469,9 +1504,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kofte-with-yoghurt/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kofte-with-yoghurt.jpg</image:loc>
+      <image:title>Kofte with Yoghurt</image:title>
+      <image:caption>Kofte with Yoghurt</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-zucchini-fries/</loc>
@@ -1553,9 +1593,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-apple-crisp/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/slow-cooker-apple-crisp.jpg</image:loc>
+      <image:title>Slow Cooker Apple Crisp</image:title>
+      <image:caption>Slow Cooker Apple Crisp</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sheet-pan-salmon-and-broccoli/</loc>
@@ -1565,9 +1610,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sheet-pan-shrimp-boil/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sheet-pan-shrimp-boil.jpg</image:loc>
+      <image:title>Sheet Pan Shrimp Boil</image:title>
+      <image:caption>Sheet Pan Shrimp Boil</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/one-pan-sausage-pasta/</loc>
@@ -1916,9 +1966,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/grilled-romaine-salad/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/grilled-romaine-salad.jpg</image:loc>
+      <image:title>Grilled Romaine Salad</image:title>
+      <image:caption>Grilled Romaine Salad</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/grilled-vegetable-platter/</loc>
@@ -2079,9 +2134,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cannelloni/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cannelloni.jpg</image:loc>
+      <image:title>Cannelloni</image:title>
+      <image:caption>Cannelloni</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lasagne-rolls/</loc>
@@ -2376,9 +2436,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cabbage-and-potato-soup/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cabbage-and-potato-soup.jpg</image:loc>
+      <image:title>Cabbage and Potato Soup</image:title>
+      <image:caption>Cabbage and Potato Soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tomato-and-egg-soup/</loc>
@@ -2908,9 +2973,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/roast-cabbage-wedges/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/roast-cabbage-wedges.jpg</image:loc>
+      <image:title>Roast Cabbage Wedges</image:title>
+      <image:caption>Roast Cabbage Wedges</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/roast-cauliflower-with-garlic/</loc>
@@ -3081,9 +3151,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/baked-beans-from-scratch/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/baked-beans-from-scratch.jpg</image:loc>
+      <image:title>Baked Beans from Scratch</image:title>
+      <image:caption>Baked Beans from Scratch</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vegetable-fritters/</loc>
@@ -3616,7 +3691,7 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egyptian-rice-with-vermicelli/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -3633,9 +3708,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lebanese-cabbage-salad/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lebanese-cabbage-salad.jpg</image:loc>
+      <image:title>Lebanese Cabbage Salad</image:title>
+      <image:caption>Lebanese Cabbage Salad</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lebanese-garlic-potatoes/</loc>
@@ -3662,14 +3742,9 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/persian-lentil-rice/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/persian-lentil-rice.jpg</image:loc>
-      <image:title>Persian Lentil Rice</image:title>
-      <image:caption>Persian Lentil Rice</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/turkish-bulgur-pilaf/</loc>
@@ -3706,9 +3781,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/red-lentil-kofte/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/red-lentil-kofte.jpg</image:loc>
+      <image:title>Red Lentil Kofte</image:title>
+      <image:caption>Red Lentil Kofte</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/greek-fried-potatoes/</loc>
@@ -4427,9 +4507,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-reshmi-kebab/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-reshmi-kebab.jpg</image:loc>
+      <image:title>Chicken Reshmi Kebab</image:title>
+      <image:caption>Chicken Reshmi Kebab</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-pakora/</loc>
@@ -4544,9 +4629,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lamb-shami-kebab/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lamb-shami-kebab.jpg</image:loc>
+      <image:title>Lamb Shami Kebab</image:title>
+      <image:caption>Lamb Shami Kebab</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tandoori-lamb-chops/</loc>
@@ -4715,9 +4805,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kala-chana/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kala-chana.jpg</image:loc>
+      <image:title>Kala Chana</image:title>
+      <image:caption>Kala Chana</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/aloo-baingan/</loc>

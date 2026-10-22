@@ -168,9 +168,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/painkiller/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/painkiller.jpg</image:loc>
+      <image:title>Painkiller</image:title>
+      <image:caption>Painkiller</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salt-and-pepper-ribs/</loc>
@@ -2111,9 +2116,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/divinity/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/divinity.jpg</image:loc>
+      <image:title>Divinity</image:title>
+      <image:caption>Divinity</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/clotted-cream/</loc>
@@ -2348,9 +2358,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/irish-cream/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/irish-cream.jpg</image:loc>
+      <image:title>Irish Cream</image:title>
+      <image:caption>Irish Cream</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/stromboli/</loc>
@@ -2476,14 +2491,9 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ham-and-cheese-sliders/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/ham-and-cheese-sliders.jpg</image:loc>
-      <image:title>Ham and Cheese Sliders</image:title>
-      <image:caption>Ham and Cheese Sliders</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lomi-lomi-salmon/</loc>
@@ -3277,9 +3287,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ranch-water/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/ranch-water.jpg</image:loc>
+      <image:title>Ranch Water</image:title>
+      <image:caption>Ranch Water</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sea-breeze/</loc>
@@ -4076,9 +4091,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cheesy-cauliflower-casserole/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cheesy-cauliflower-casserole.jpg</image:loc>
+      <image:title>Cheesy Cauliflower Casserole</image:title>
+      <image:caption>Cheesy Cauliflower Casserole</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/roasted-asparagus-with-parmesan/</loc>

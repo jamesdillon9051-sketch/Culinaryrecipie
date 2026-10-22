@@ -377,7 +377,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   gluten-free-yorkshire-puddings     Gluten-Free Yorkshire Puddings   [1 refused already]
   vegan-stew                         Vegan Stew   [1 refused already]
 
-== Italian (79) ========================================
+== Italian (80) ========================================
   chicken-scarpariello               Chicken Scarpariello   [3 refused already]
   pesto-chicken-bake                 Pesto Chicken Bake   [17 refused already]
   bruschetta-chicken                 Bruschetta Chicken   [14 refused already]
@@ -413,6 +413,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   pasta-burro-e-salvia               Pasta Burro e Salvia   [3 refused already]
   lemon-granita                      Lemon Granita   [1 refused already]
   slow-cooker-beef-ragu              Slow Cooker Beef Ragu   [3 refused already]
+  one-pot-garlic-parmesan-chicken    One Pot Garlic Parmesan Chicken   [2 refused already]
   stuffed-zucchini-boats             Stuffed Zucchini Boats   [2 refused already]
   gluten-free-gnocchi                Gluten-Free Gnocchi   [2 refused already]
   gluten-free-meatballs              Gluten-Free Meatballs   [1 refused already]
@@ -515,7 +516,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   low-carb-taco-casserole            Low-Carb Taco Casserole
   low-carb-tortillas                 Low-Carb Tortillas
 
-== Australian (20) =====================================
+== Australian (21) =====================================
   mars-bar-slice                     Mars Bar Slice   [4 refused already]
   tim-tam-slice                      Tim Tam Slice   [13 refused already]
   weet-bix-slice                     Weet-Bix Slice   [4 refused already]
@@ -535,6 +536,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   apricot-slice                      Apricot Slice   [2 refused already]
   passionfruit-curd                  Passionfruit Curd
   fruit-salad-with-honey-lime        Fruit Salad with Honey Lime   [1 refused already]
+  bbq-salmon                         BBQ Salmon   [2 refused already]
   australian-cheese-and-vegemite-scrolls Australian Cheese and Vegemite Scrolls   [1 refused already]
 
 == Indian (18) =========================================
@@ -804,4 +806,4 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
 == Welsh (1) ===========================================
   anglesey-eggs                      Anglesey Eggs   [1 refused already]
 
-TOTAL 688 of 5515
+TOTAL 690 of 5515
