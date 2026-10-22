@@ -924,9 +924,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/honey-lime-chicken-tacos/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/honey-lime-chicken-tacos.jpg</image:loc>
+      <image:title>Honey Lime Chicken Tacos</image:title>
+      <image:caption>Honey Lime Chicken Tacos</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-roasted-pork-shoulder/</loc>
@@ -1377,9 +1382,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/brown-sugar-glazed-ham-steaks/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/brown-sugar-glazed-ham-steaks.jpg</image:loc>
+      <image:title>Brown Sugar Glazed Ham Steaks</image:title>
+      <image:caption>Brown Sugar Glazed Ham Steaks</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/penne-arrabbiata-bake/</loc>
@@ -3252,9 +3262,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/courgette-and-lemon-cake/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/courgette-and-lemon-cake.jpg</image:loc>
+      <image:title>Courgette and Lemon Cake</image:title>
+      <image:caption>Courgette and Lemon Cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/evaporated-milk-fudge/</loc>
@@ -4603,9 +4618,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/broccoli-pasta-bake/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/broccoli-pasta-bake.jpg</image:loc>
+      <image:title>Broccoli Pasta Bake</image:title>
+      <image:caption>Broccoli Pasta Bake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/butter-chicken-pie/</loc>

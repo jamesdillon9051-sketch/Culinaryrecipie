@@ -6,7 +6,7 @@ Save a photograph as BOTH files in  src/assets/img/recipes/
     <slug>.webp   800 px wide, quality ~68
 Then run:  python3 tools/adopt_images.py   (see its header for the credit and licence it needs)
 
-== American (265) ======================================
+== American (260) ======================================
   honey-garlic-glazed-salmon         Honey Garlic Glazed Salmon   [3 refused already]
   grape-jelly-meatballs              Grape Jelly Meatballs   [6 refused already]
   beef-and-noodles                   Beef and Noodles   [15 refused already]
@@ -46,13 +46,11 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   cucumber-noodle-salad              Cucumber Noodle Salad   [8 refused already]
   buffalo-chicken-lettuce-wraps      Buffalo Chicken Lettuce Wraps   [5 refused already]
   turkey-pinwheels                   Turkey Pinwheels   [4 refused already]
-  turkey-sausage-and-vegetable-skillet Turkey Sausage and Vegetable Skillet   [11 refused already]
   cajun-chicken-and-cabbage-skillet  Cajun Chicken and Cabbage Skillet   [8 refused already]
   shrimp-foil-packets                Shrimp Foil Packets   [3 refused already]
   air-fryer-cod                      Air Fryer Cod   [14 refused already]
   baked-tilapia-with-tomatoes        Baked Tilapia with Tomatoes   [18 refused already]
   philly-cheesesteak-stuffed-peppers Philly Cheesesteak Stuffed Peppers   [9 refused already]
-  lemon-roasted-broccoli             Lemon Roasted Broccoli   [13 refused already]
   cottage-cheese-ranch-dip           Cottage Cheese Ranch Dip   [21 refused already]
   cottage-cheese-ice-cream           Cottage Cheese Ice Cream   [12 refused already]
   frozen-chocolate-banana-bites      Frozen Chocolate Banana Bites   [8 refused already]
@@ -103,7 +101,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   cheesy-ranch-chicken               Cheesy Ranch Chicken   [1 refused already]
   honey-garlic-shrimp-stir-fry       Honey Garlic Shrimp Stir Fry   [2 refused already]
   hamburger-helper-style-pasta       Hamburger Helper Style Pasta   [1 refused already]
-  brown-sugar-glazed-ham-steaks      Brown Sugar Glazed Ham Steaks   [1 refused already]
   sausage-pull-apart                 Sausage Pull Apart   [1 refused already]
   bacon-cheeseburger-bites           Bacon Cheeseburger Bites   [1 refused already]
   lemon-chicken-bites                Lemon Chicken Bites   [1 refused already]
@@ -143,7 +140,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   marshmallow-fluff-fudge            Marshmallow Fluff Fudge
   oreo-truffles                      Oreo Truffles   [1 refused already]
   cookie-butter-bars                 Cookie Butter Bars
-  slow-cooker-pork-chops             Slow Cooker Pork Chops
   slow-cooker-honey-garlic-chicken   Slow Cooker Honey Garlic Chicken
   sheet-pan-salmon-and-broccoli      Sheet Pan Salmon and Broccoli
   loaded-sweet-potatoes              Loaded Sweet Potatoes
@@ -243,7 +239,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   dairy-free-cupcakes                Dairy-Free Cupcakes
   dairy-free-hot-chocolate           Dairy-Free Hot Chocolate
   dairy-free-milkshake               Dairy-Free Milkshake
-  dairy-free-pumpkin-pie             Dairy-Free Pumpkin Pie
   gluten-free-brownie-cookies        Gluten-Free Brownie Cookies
   high-protein-cheesecake            High-Protein Cheesecake
   high-protein-cookies               High-Protein Cookies
@@ -273,87 +268,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   low-carb-egg-muffins               Low-Carb Egg Muffins
   vegan-stuffing                     Vegan Stuffing   [2 refused already]
 
-== British (78) ========================================
-  cumberland-sauce                   Cumberland Sauce   [6 refused already]
-  lamb-bhuna                         Lamb Bhuna   [2 refused already]
-  omelette-arnold-bennett            Omelette Arnold Bennett   [15 refused already]
-  cornflake-tart                     Cornflake Tart   [1 refused already]
-  baked-haddock-with-herbs           Baked Haddock with Herbs   [9 refused already]
-  cumberland-sausage-hotpot          Cumberland Sausage Hotpot   [1 refused already]
-  panackelty                         Panackelty   [5 refused already]
-  sausage-and-potato-traybake        Sausage and Potato Traybake   [3 refused already]
-  sausage-pasta-bake                 Sausage Pasta Bake   [6 refused already]
-  marrow-bake                        Marrow Bake   [1 refused already]
-  egg-butty                          Egg Butty   [3 refused already]
-  egg-and-cheese-toastie             Egg and Cheese Toastie   [1 refused already]
-  beans-and-cheese-toastie           Beans and Cheese Toastie   [2 refused already]
-  curry-fries                        Curry Fries   [3 refused already]
-  potato-farls                       Potato Farls   [2 refused already]
-  cheese-and-onion-pasty             Cheese and Onion Pasty   [1 refused already]
-  coronation-chickpea-sandwich       Coronation Chickpea Sandwich
-  air-fryer-jacket-potato            Air Fryer Jacket Potato
-  black-pudding-hash                 Black Pudding Hash   [8 refused already]
-  green-tomato-chutney               Green Tomato Chutney   [5 refused already]
-  red-wine-sauce                     Red Wine Sauce   [6 refused already]
-  egg-and-cress-sandwich             Egg and Cress Sandwich   [1 refused already]
-  dripping-toast                     Dripping Toast   [1 refused already]
-  marmite-pasta                      Marmite Pasta
-  gammon-steak                       Gammon Steak   [1 refused already]
-  pork-and-apple-pie                 Pork and Apple Pie   [2 refused already]
-  welsh-cheese-and-leek-pie          Welsh Cheese and Leek Pie   [1 refused already]
-  vegetable-pasties                  Vegetable Pasties   [2 refused already]
-  blackcurrant-cordial               Blackcurrant Cordial   [1 refused already]
-  ginger-cordial                     Ginger Cordial
-  lime-cordial                       Lime Cordial   [1 refused already]
-  rhubarb-cordial                    Rhubarb Cordial
-  leftover-ham-pie                   Leftover Ham Pie
-  courgette-and-lemon-cake           Courgette and Lemon Cake
-  rhubarb-custard-cake               Rhubarb Custard Cake
-  sticky-toffee-sauce                Sticky Toffee Sauce   [1 refused already]
-  stewed-rhubarb                     Stewed Rhubarb   [1 refused already]
-  pea-and-mint-dip                   Pea and Mint Dip   [1 refused already]
-  broccoli-pasta-bake                Broccoli Pasta Bake
-  corned-beef-with-parsley-sauce     Corned Beef with Parsley Sauce   [1 refused already]
-  creamed-leeks                      Creamed Leeks   [2 refused already]
-  pork-and-apple-casserole           Pork and Apple Casserole
-  red-wine-gravy                     Red Wine Gravy   [1 refused already]
-  tuna-fishcakes                     Tuna Fishcakes
-  chicken-tikka-wraps                Chicken Tikka Wraps   [2 refused already]
-  pork-loin-with-cider-gravy         Pork Loin with Cider Gravy   [1 refused already]
-  smoked-haddock-risotto             Smoked Haddock Risotto
-  smoked-haddock-fishcakes           Smoked Haddock Fishcakes
-  mackerel-with-gooseberry-sauce     Mackerel with Gooseberry Sauce
-  lemon-drizzle-traybake             Lemon Drizzle Traybake
-  victoria-sandwich-cupcakes         Victoria Sandwich Cupcakes
-  coffee-and-walnut-cupcakes         Coffee and Walnut Cupcakes
-  raspberry-ripple-cheesecake        Raspberry Ripple Cheesecake
-  sticky-toffee-cupcakes             Sticky Toffee Cupcakes   [1 refused already]
-  cheese-on-toast-with-chutney       Cheese on Toast with Chutney   [2 refused already]
-  buttered-carrots                   Buttered Carrots   [2 refused already]
-  cheesy-leek-bake                   Cheesy Leek Bake   [1 refused already]
-  garlic-mushroom-chicken            Garlic Mushroom Chicken   [1 refused already]
-  red-lentil-and-tomato-soup         Red Lentil and Tomato Soup   [8 refused already]
-  cheesy-jacket-potatoes             Cheesy Jacket Potatoes   [3 refused already]
-  chicken-tray-bake                  Chicken Tray Bake   [10 refused already]
-  onion-chutney                      Onion Chutney   [8 refused already]
-  mashed-swede                       Mashed Swede   [1 refused already]
-  chocolate-nest-cakes               Chocolate Nest Cakes
-  brown-windsor-soup                 Brown Windsor Soup
-  honey-glazed-gammon                Honey Glazed Gammon   [1 refused already]
-  vegetarian-gravy                   Vegetarian Gravy   [2 refused already]
-  glazed-parsnips                    Glazed Parsnips
-  freezer-stew                       Freezer Stew
-  no-bake-trifle                     No Bake Trifle
-  dairy-free-custard                 Dairy-Free Custard
-  dairy-free-scones                  Dairy-Free Scones
-  gluten-free-apple-crumble          Gluten-Free Apple Crumble   [1 refused already]
-  gluten-free-beer-battered-fish     Gluten-Free Beer Battered Fish   [2 refused already]
-  gluten-free-gravy                  Gluten-Free Gravy   [1 refused already]
-  gluten-free-scones                 Gluten-Free Scones
-  gluten-free-yorkshire-puddings     Gluten-Free Yorkshire Puddings   [1 refused already]
-  vegan-stew                         Vegan Stew   [1 refused already]
-
-== Italian (78) ========================================
+== Italian (77) ========================================
   chicken-scarpariello               Chicken Scarpariello   [3 refused already]
   pesto-chicken-bake                 Pesto Chicken Bake   [17 refused already]
   bruschetta-chicken                 Bruschetta Chicken   [14 refused already]
@@ -374,7 +289,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   meatball-pasta-bake                Meatball Pasta Bake
   chicken-saltimbocca                Chicken Saltimbocca
   beef-short-rib-ragu                Beef Short Rib Ragu
-  lamb-ragu-pappardelle              Lamb Ragu Pappardelle
   roasted-courgettes                 Roasted Courgettes
   vegetarian-lasagne                 Vegetarian Lasagne   [1 refused already]
   linguine-al-limone                 Linguine al Limone
@@ -433,7 +347,82 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   torta-di-castagne                  Torta di Castagne   [1 refused already]
   bomboloni-al-forno                 Bomboloni al Forno
 
-== French (28) =========================================
+== British (73) ========================================
+  cumberland-sauce                   Cumberland Sauce   [6 refused already]
+  lamb-bhuna                         Lamb Bhuna   [2 refused already]
+  omelette-arnold-bennett            Omelette Arnold Bennett   [15 refused already]
+  cornflake-tart                     Cornflake Tart   [1 refused already]
+  baked-haddock-with-herbs           Baked Haddock with Herbs   [9 refused already]
+  cumberland-sausage-hotpot          Cumberland Sausage Hotpot   [1 refused already]
+  panackelty                         Panackelty   [5 refused already]
+  sausage-pasta-bake                 Sausage Pasta Bake   [6 refused already]
+  marrow-bake                        Marrow Bake   [1 refused already]
+  egg-butty                          Egg Butty   [3 refused already]
+  egg-and-cheese-toastie             Egg and Cheese Toastie   [1 refused already]
+  beans-and-cheese-toastie           Beans and Cheese Toastie   [2 refused already]
+  curry-fries                        Curry Fries   [3 refused already]
+  potato-farls                       Potato Farls   [2 refused already]
+  cheese-and-onion-pasty             Cheese and Onion Pasty   [1 refused already]
+  coronation-chickpea-sandwich       Coronation Chickpea Sandwich
+  air-fryer-jacket-potato            Air Fryer Jacket Potato
+  black-pudding-hash                 Black Pudding Hash   [8 refused already]
+  green-tomato-chutney               Green Tomato Chutney   [5 refused already]
+  red-wine-sauce                     Red Wine Sauce   [6 refused already]
+  egg-and-cress-sandwich             Egg and Cress Sandwich   [1 refused already]
+  dripping-toast                     Dripping Toast   [1 refused already]
+  marmite-pasta                      Marmite Pasta
+  gammon-steak                       Gammon Steak   [1 refused already]
+  pork-and-apple-pie                 Pork and Apple Pie   [2 refused already]
+  welsh-cheese-and-leek-pie          Welsh Cheese and Leek Pie   [1 refused already]
+  vegetable-pasties                  Vegetable Pasties   [2 refused already]
+  blackcurrant-cordial               Blackcurrant Cordial   [1 refused already]
+  ginger-cordial                     Ginger Cordial
+  lime-cordial                       Lime Cordial   [1 refused already]
+  rhubarb-cordial                    Rhubarb Cordial
+  leftover-ham-pie                   Leftover Ham Pie
+  rhubarb-custard-cake               Rhubarb Custard Cake
+  sticky-toffee-sauce                Sticky Toffee Sauce   [1 refused already]
+  stewed-rhubarb                     Stewed Rhubarb   [1 refused already]
+  pea-and-mint-dip                   Pea and Mint Dip   [1 refused already]
+  corned-beef-with-parsley-sauce     Corned Beef with Parsley Sauce   [1 refused already]
+  creamed-leeks                      Creamed Leeks   [2 refused already]
+  pork-and-apple-casserole           Pork and Apple Casserole
+  red-wine-gravy                     Red Wine Gravy   [1 refused already]
+  tuna-fishcakes                     Tuna Fishcakes
+  chicken-tikka-wraps                Chicken Tikka Wraps   [2 refused already]
+  pork-loin-with-cider-gravy         Pork Loin with Cider Gravy   [1 refused already]
+  smoked-haddock-risotto             Smoked Haddock Risotto
+  lemon-drizzle-traybake             Lemon Drizzle Traybake
+  victoria-sandwich-cupcakes         Victoria Sandwich Cupcakes
+  coffee-and-walnut-cupcakes         Coffee and Walnut Cupcakes
+  raspberry-ripple-cheesecake        Raspberry Ripple Cheesecake
+  sticky-toffee-cupcakes             Sticky Toffee Cupcakes   [1 refused already]
+  cheese-on-toast-with-chutney       Cheese on Toast with Chutney   [2 refused already]
+  buttered-carrots                   Buttered Carrots   [2 refused already]
+  cheesy-leek-bake                   Cheesy Leek Bake   [1 refused already]
+  garlic-mushroom-chicken            Garlic Mushroom Chicken   [1 refused already]
+  red-lentil-and-tomato-soup         Red Lentil and Tomato Soup   [8 refused already]
+  cheesy-jacket-potatoes             Cheesy Jacket Potatoes   [3 refused already]
+  chicken-tray-bake                  Chicken Tray Bake   [10 refused already]
+  onion-chutney                      Onion Chutney   [8 refused already]
+  mashed-swede                       Mashed Swede   [1 refused already]
+  chocolate-nest-cakes               Chocolate Nest Cakes
+  brown-windsor-soup                 Brown Windsor Soup
+  honey-glazed-gammon                Honey Glazed Gammon   [1 refused already]
+  vegetarian-gravy                   Vegetarian Gravy   [2 refused already]
+  glazed-parsnips                    Glazed Parsnips
+  freezer-stew                       Freezer Stew
+  no-bake-trifle                     No Bake Trifle
+  dairy-free-custard                 Dairy-Free Custard
+  dairy-free-scones                  Dairy-Free Scones
+  gluten-free-apple-crumble          Gluten-Free Apple Crumble   [1 refused already]
+  gluten-free-beer-battered-fish     Gluten-Free Beer Battered Fish   [2 refused already]
+  gluten-free-gravy                  Gluten-Free Gravy   [1 refused already]
+  gluten-free-scones                 Gluten-Free Scones
+  gluten-free-yorkshire-puddings     Gluten-Free Yorkshire Puddings   [1 refused already]
+  vegan-stew                         Vegan Stew   [1 refused already]
+
+== French (27) =========================================
   chicken-chasseur                   Chicken Chasseur   [9 refused already]
   sole-with-grapes                   Sole with Grapes   [7 refused already]
   french-onion-chicken               French Onion Chicken   [2 refused already]
@@ -445,7 +434,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   pommes-persillade                  Pommes Persillade   [1 refused already]
   lemon-butter-sauce                 Lemon Butter Sauce
   chicken-with-40-cloves-of-garlic   Chicken with 40 Cloves of Garlic
-  dairy-free-chocolate-mousse        Dairy-Free Chocolate Mousse
   petits-pois-a-la-francaise         Petits Pois a la Francaise
   haricots-verts-amandine            Haricots Verts Amandine
   paupiettes-de-veau                 Paupiettes de Veau
@@ -463,7 +451,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   moelleux-aux-pommes                Moelleux aux Pommes
   vacherin-aux-fraises               Vacherin aux Fraises
 
-== Mexican (22) ========================================
+== Mexican (21) ========================================
   paletas                            Paletas   [15 refused already]
   almond-flour-tortillas             Almond Flour Tortillas   [3 refused already]
   chicken-fajita-soup                Chicken Fajita Soup   [17 refused already]
@@ -474,7 +462,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   bean-wraps                         Bean Wraps   [3 refused already]
   meal-prep-burrito-bowls            Meal Prep Burrito Bowls   [1 refused already]
   freezer-burritos                   Freezer Burritos   [1 refused already]
-  honey-lime-chicken-tacos           Honey Lime Chicken Tacos   [2 refused already]
   chipotle-mayo                      Chipotle Mayo   [1 refused already]
   pork-carnitas-bowls                Pork Carnitas Bowls
   egg-tostadas                       Egg Tostadas   [6 refused already]
@@ -487,7 +474,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   low-carb-taco-casserole            Low-Carb Taco Casserole
   low-carb-tortillas                 Low-Carb Tortillas
 
-== Australian (21) =====================================
+== Australian (20) =====================================
   mars-bar-slice                     Mars Bar Slice   [4 refused already]
   tim-tam-slice                      Tim Tam Slice   [13 refused already]
   weet-bix-slice                     Weet-Bix Slice   [4 refused already]
@@ -506,7 +493,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   milo-cake                          Milo Cake   [1 refused already]
   apricot-slice                      Apricot Slice   [2 refused already]
   passionfruit-curd                  Passionfruit Curd
-  fruit-salad-with-honey-lime        Fruit Salad with Honey Lime   [1 refused already]
   bbq-salmon                         BBQ Salmon   [2 refused already]
   australian-cheese-and-vegemite-scrolls Australian Cheese and Vegemite Scrolls   [1 refused already]
 
@@ -771,4 +757,4 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
 == Welsh (1) ===========================================
   anglesey-eggs                      Anglesey Eggs   [1 refused already]
 
-TOTAL 655 of 5515
+TOTAL 641 of 5515

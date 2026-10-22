@@ -3468,9 +3468,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dairy-free-chocolate-mousse/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/dairy-free-chocolate-mousse.jpg</image:loc>
+      <image:title>Dairy-Free Chocolate Mousse</image:title>
+      <image:caption>Dairy-Free Chocolate Mousse</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dairy-free-cupcakes/</loc>
@@ -3498,9 +3503,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dairy-free-pumpkin-pie/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/dairy-free-pumpkin-pie.jpg</image:loc>
+      <image:title>Dairy-Free Pumpkin Pie</image:title>
+      <image:caption>Dairy-Free Pumpkin Pie</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/freezer-cookie-dough/</loc>

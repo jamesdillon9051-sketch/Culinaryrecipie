@@ -883,9 +883,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lamb-ragu-pappardelle/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lamb-ragu-pappardelle.jpg</image:loc>
+      <image:title>Lamb Ragu Pappardelle</image:title>
+      <image:caption>Lamb Ragu Pappardelle</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salmon-poke-bowls/</loc>
@@ -983,9 +988,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/smoked-haddock-fishcakes/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/smoked-haddock-fishcakes.jpg</image:loc>
+      <image:title>Smoked Haddock Fishcakes</image:title>
+      <image:caption>Smoked Haddock Fishcakes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fish-pie-with-cheddar-mash/</loc>
@@ -1034,9 +1044,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mackerel-with-gooseberry-sauce/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mackerel-with-gooseberry-sauce.jpg</image:loc>
+      <image:title>Mackerel with Gooseberry Sauce</image:title>
+      <image:caption>Mackerel with Gooseberry Sauce</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/prawn-risotto/</loc>
@@ -1536,9 +1551,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-pork-chops/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/slow-cooker-pork-chops.jpg</image:loc>
+      <image:title>Slow Cooker Pork Chops</image:title>
+      <image:caption>Slow Cooker Pork Chops</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-lasagne/</loc>
@@ -1847,9 +1867,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fruit-salad-with-honey-lime/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/fruit-salad-with-honey-lime.jpg</image:loc>
+      <image:title>Fruit Salad with Honey Lime</image:title>
+      <image:caption>Fruit Salad with Honey Lime</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/shepherds-pie-with-cheesy-mash/</loc>

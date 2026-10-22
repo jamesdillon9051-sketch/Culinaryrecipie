@@ -108,9 +108,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lemon-roasted-broccoli/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-roasted-broccoli.jpg</image:loc>
+      <image:title>Lemon Roasted Broccoli</image:title>
+      <image:caption>Lemon Roasted Broccoli</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cumin-roasted-carrots/</loc>
@@ -1578,9 +1583,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sausage-and-potato-traybake/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sausage-and-potato-traybake.jpg</image:loc>
+      <image:title>Sausage and Potato Traybake</image:title>
+      <image:caption>Sausage and Potato Traybake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sausage-pasta-bake/</loc>
