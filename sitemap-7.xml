@@ -3255,9 +3255,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/oatmeal-cake/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/oatmeal-cake.jpg</image:loc>
+      <image:title>Oatmeal Cake</image:title>
+      <image:caption>Oatmeal Cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/banana-fritters/</loc>
@@ -4243,9 +4248,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/party-pies/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/party-pies.jpg</image:loc>
+      <image:title>Party Pies</image:title>
+      <image:caption>Party Pies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/steak-and-kidney-pie/</loc>

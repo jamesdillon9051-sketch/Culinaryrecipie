@@ -7,7 +7,7 @@
  "/about/": {
   "hash": "84b2dfd1c5ac",
   "lastmod": "2026-10-22",
-  "derivedHash": "7ccc7c89c412"
+  "derivedHash": "e3123cdc46c2"
  },
  "/categories/": {
   "hash": "ecb574fe73a3",
@@ -31,8 +31,8 @@
  },
  "/categories/appetizers/australian/": {
   "hash": "eac431ae85fa",
-  "lastmod": "2026-10-21",
-  "derivedHash": "3198a61d8992"
+  "lastmod": "2026-10-22",
+  "derivedHash": "16f11d7cbde4"
  },
  "/categories/appetizers/british/": {
   "hash": "85b9a4d013ae",
@@ -381,8 +381,8 @@
  },
  "/categories/desserts/mexican/": {
   "hash": "9cab85650abe",
-  "lastmod": "2026-10-21",
-  "derivedHash": "d28d079cb13b"
+  "lastmod": "2026-10-22",
+  "derivedHash": "f4799a400969"
  },
  "/categories/desserts/middle-eastern/": {
   "hash": "ceca633631a8",
@@ -876,8 +876,8 @@
  },
  "/categories/holiday-specials/mexican/": {
   "hash": "51cd2d790939",
-  "lastmod": "2026-10-15",
-  "derivedHash": "aecf0c11063b"
+  "lastmod": "2026-10-22",
+  "derivedHash": "4e4beb92e6ae"
  },
  "/categories/lunch/": {
   "hash": "c89ce9d0f9a1",
@@ -1441,8 +1441,8 @@
  },
  "/cuisines/swedish/": {
   "hash": "e5a69577c9ea",
-  "lastmod": "2026-10-21",
-  "derivedHash": "f34bef23a740"
+  "lastmod": "2026-10-22",
+  "derivedHash": "3bb1707b71d6"
  },
  "/cuisines/swiss/": {
   "hash": "5fa5aba37aae",
@@ -1657,7 +1657,7 @@
  "/ingredients/mango/": {
   "hash": "d3e3e0c1d279",
   "lastmod": "2026-10-22",
-  "derivedHash": "051322639833"
+  "derivedHash": "b958796a11f4"
  },
  "/ingredients/mushrooms/": {
   "hash": "f175bd2e5a2b",
@@ -1767,7 +1767,7 @@
  "/recipes/": {
   "hash": "f9ba74f6b706",
   "lastmod": "2026-10-22",
-  "derivedHash": "87c19915ad67"
+  "derivedHash": "2c6893c9c869"
  },
  "/recipes/3-ingredient-banana-pancakes/": {
   "hash": "74f0eda6277a",
@@ -14622,8 +14622,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/mexican-wedding-cookies/": {
-  "hash": "37c9532c22c9",
-  "lastmod": "2026-10-20"
+  "hash": "003156c250f1",
+  "lastmod": "2026-10-22"
  },
  "/recipes/mhalbiya/": {
   "hash": "0b324bec706b",
@@ -14642,8 +14642,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/microwave-mug-cake/": {
-  "hash": "2365ec0e2b29",
-  "lastmod": "2026-10-20"
+  "hash": "136431d9f755",
+  "lastmod": "2026-10-22"
  },
  "/recipes/microwave-rice-pudding/": {
   "hash": "da1bc41e2a78",
@@ -15558,8 +15558,8 @@
   "lastmod": "2026-10-22"
  },
  "/recipes/oatmeal-cake/": {
-  "hash": "60587730f803",
-  "lastmod": "2026-10-20"
+  "hash": "8554072745b1",
+  "lastmod": "2026-10-22"
  },
  "/recipes/oatmeal-cranberry-cookies/": {
   "hash": "fdc9c816ed1e",
@@ -15982,8 +15982,8 @@
   "lastmod": "2026-10-21"
  },
  "/recipes/paletas/": {
-  "hash": "e6536650eb95",
-  "lastmod": "2026-10-20"
+  "hash": "f2498d5bf943",
+  "lastmod": "2026-10-22"
  },
  "/recipes/palmiers/": {
   "hash": "ef5f2f114947",
@@ -16030,8 +16030,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/pan-gravy/": {
-  "hash": "eb7b1dafaecc",
-  "lastmod": "2026-10-20"
+  "hash": "555142032f1e",
+  "lastmod": "2026-10-22"
  },
  "/recipes/pan-haggerty/": {
   "hash": "4965e65cb769",
@@ -16250,8 +16250,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/party-pies/": {
-  "hash": "d5d3fba549a8",
-  "lastmod": "2026-10-20"
+  "hash": "663235480ef2",
+  "lastmod": "2026-10-22"
  },
  "/recipes/paska/": {
   "hash": "3dd70fd6c71a",
@@ -16702,8 +16702,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/pepparkakor/": {
-  "hash": "d640f7cca4cf",
-  "lastmod": "2026-10-20"
+  "hash": "2cb9e63e399d",
+  "lastmod": "2026-10-22"
  },
  "/recipes/pepper-jelly/": {
   "hash": "32cd370d72fe",
@@ -17534,8 +17534,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/pork-vindaloo/": {
-  "hash": "21fbdbd179ed",
-  "lastmod": "2026-10-20"
+  "hash": "cbd1c78450db",
+  "lastmod": "2026-10-22"
  },
  "/recipes/porkkanalaatikko/": {
   "hash": "f01039425c86",
@@ -17938,8 +17938,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/pull-apart-cheese-bread/": {
-  "hash": "e4ed930eedcf",
-  "lastmod": "2026-10-20"
+  "hash": "14d2ef0f0c5d",
+  "lastmod": "2026-10-22"
  },
  "/recipes/pulla/": {
   "hash": "e47d3237dfd5",
@@ -18014,8 +18014,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/pumpkin-cream-cheese-muffins/": {
-  "hash": "223b773afc5b",
-  "lastmod": "2026-10-20"
+  "hash": "c54b63eb2d3e",
+  "lastmod": "2026-10-22"
  },
  "/recipes/pumpkin-cupcakes/": {
   "hash": "1d3418cf6ce1",
@@ -18182,8 +18182,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/rabarberpaj/": {
-  "hash": "1817774b1a35",
-  "lastmod": "2026-10-20"
+  "hash": "874c599ac4ee",
+  "lastmod": "2026-10-22"
  },
  "/recipes/rabbit-pie/": {
   "hash": "62422456e494",
@@ -23832,7 +23832,7 @@
  "/search/": {
   "hash": "f9ba74f6b706",
   "lastmod": "2026-10-22",
-  "derivedHash": "5754082e898c"
+  "derivedHash": "6bc3e21e1df1"
  },
  "/site-directory/": {
   "hash": "f9ba74f6b706",

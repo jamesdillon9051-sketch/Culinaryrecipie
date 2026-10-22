@@ -102,7 +102,7 @@ module.exports = [
   c('cast-iron-steak', 'Cast Iron Steak', 'American', 'Quick Meals', 'Easy', 5, 10, 2, 0, 0, ['Gluten-Free'], ['new'], 'cast iron steak'),
   c('cast-iron-skillet-cookie', 'Cast Iron Skillet Cookie', 'American', 'Desserts', 'Easy', 10, 20, 8, 0, 0, ['Vegetarian'], ['new'], 'cast iron skillet cookie'),
   c('dutch-oven-chicken', 'Dutch Oven Chicken', 'American', 'Dinner', 'Easy', 15, 75, 4, 0, 0, [], ['new'], 'dutch oven chicken'),
-  c('pull-apart-cheese-bread', 'Pull-Apart Cheese Bread', 'American', 'Baking', 'Medium', 25, 30, 8, 0, 0, ['Gluten-Free'], ['new'], 'pull-apart cheese bread'),
+  c('pull-apart-cheese-bread', 'Pull-Apart Cheese Bread', 'American', 'Baking', 'Medium', 25, 30, 8, 0, 0, [], ['new'], 'pull-apart cheese bread'),
   c('cheese-twists', 'Cheese Twists', 'American', 'Appetizers', 'Easy', 10, 15, 12, 0, 0, [], ['new'], 'cheese twists'),
   c('pumpkin-cream-cheese-muffins', 'Pumpkin Cream Cheese Muffins', 'American', 'Baking', 'Easy', 20, 25, 12, 0, 0, ['Vegetarian'], ['new'], 'pumpkin cream cheese muffins'),
   c('blueberry-streusel-muffins', 'Blueberry Streusel Muffins', 'American', 'Baking', 'Easy', 15, 25, 12, 0, 0, ['Vegetarian'], ['new'], 'blueberry streusel muffins'),

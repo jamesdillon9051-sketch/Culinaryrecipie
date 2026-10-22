@@ -4629,9 +4629,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pepparkakor/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pepparkakor.jpg</image:loc>
+      <image:title>Pepparkakor</image:title>
+      <image:caption>Pepparkakor</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chokladbollar/</loc>
@@ -4646,9 +4651,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/rabarberpaj/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/rabarberpaj.jpg</image:loc>
+      <image:title>Rabarberpaj</image:title>
+      <image:caption>Rabarberpaj</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/princess-cake/</loc>

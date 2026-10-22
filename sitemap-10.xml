@@ -4373,9 +4373,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pull-apart-cheese-bread/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pull-apart-cheese-bread.jpg</image:loc>
+      <image:title>Pull-Apart Cheese Bread</image:title>
+      <image:caption>Pull-Apart Cheese Bread</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cheese-twists/</loc>
@@ -4390,9 +4395,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pumpkin-cream-cheese-muffins/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pumpkin-cream-cheese-muffins.jpg</image:loc>
+      <image:title>Pumpkin Cream Cheese Muffins</image:title>
+      <image:caption>Pumpkin Cream Cheese Muffins</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/blueberry-streusel-muffins/</loc>
@@ -4575,9 +4585,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pan-gravy/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pan-gravy.jpg</image:loc>
+      <image:title>Pan Gravy</image:title>
+      <image:caption>Pan Gravy</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/red-eye-gravy/</loc>

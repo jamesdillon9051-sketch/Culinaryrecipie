@@ -2376,9 +2376,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mexican-wedding-cookies/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mexican-wedding-cookies.jpg</image:loc>
+      <image:title>Mexican Wedding Cookies</image:title>
+      <image:caption>Mexican Wedding Cookies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mint-brownies/</loc>
@@ -3266,9 +3271,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/microwave-mug-cake/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/microwave-mug-cake.jpg</image:loc>
+      <image:title>Microwave Mug Cake</image:title>
+      <image:caption>Microwave Mug Cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mug-brownie/</loc>

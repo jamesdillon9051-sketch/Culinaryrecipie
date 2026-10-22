@@ -734,9 +734,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pork-vindaloo/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pork-vindaloo.jpg</image:loc>
+      <image:title>Pork Vindaloo</image:title>
+      <image:caption>Pork Vindaloo</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pork-belly-bao/</loc>
