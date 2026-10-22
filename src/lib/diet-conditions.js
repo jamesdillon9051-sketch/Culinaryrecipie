@@ -19,7 +19,8 @@ const { parse } = require('./ingredients');
 
 const MEAT = 'chicken|beef|pork|lamb|mutton|bacon|ham|gammon|prosciutto|pancetta|guanciale|lardons?|chorizo|salami|pepperoni|mortadella|bresaola|speck|n?duja|jam[oó]n|serrano ham|ib[eé]rico|bologna|mortadella|spam|luncheon meat|meat|pastrami|corned|brisket|steaks?|biltong|jerky|sausages?|frankfurters?|hot dogs?|\\w*wurst|wei(?:ss|ß)wurst|kie?lbas[ay]|kabanos[yi]?|merguez|andouille|boerewors|chipolatas?|lap cheong|longaniza|lingui[cç]a|sobrasada|chistorra|cotechino|zampone|salsiccia|loukaniko|su[cj]uk|leberk[aä]se|cervelat|saucisson|morteau|toulouse sausages?|black pudding|morcilla|blood sausage|duck|turkey|veal|venison|goose|rabbit|hare|quail|pheasant|partridge|pigeon|grouse|boar|goat|kangaroo|liver|kidneys|tripe|sweetbreads|offal|oxtail|bone marrow|marrow bones|foie gras|chicharr[oó]n|fish|cod|haddock|salmon|gravlax|lox|kippers?|tuna|anchov\\w*|prawns?|shrimps?|scampi|langoustines?|squid|octopus|calamari|scallops?|trout|barramundi|halibut|bass|snapper|mahi|swordfish|tilapia|catfish|herring|sardines?|mackerel|pollock|hake|monkfish|plaice|sole|bream|turbot|pike|carp|whitebait|crayfish|eel|eels|crab|lobster|clams?|mussels?|oysters?|cockles|whelks|sea urchin|caviar|roe|bottarga|snails?|escargots?|frogs?|bonito|katsuobushi|dashi|nam pla|belacan|worcestershire|gelatin\\w*|isinglass|lard|dripping|tallow|suet|schmaltz';
 const CHEESE = 'cheese|parmesan|parmigiano|pecorino|grana padano|mozzarella|burrata|feta|ricotta|halloumi|mascarpone|paneer|labneh|cheddar|gruy[eè]re|emmental|comt[eé]|brie|camembert|gouda|manchego|provolone|fontina|taleggio|gorgonzola|roquefort|stilton|raclette|reblochon|queso|cotija|quark|skyr';
-const DAIRY = `butter|buttermilk|milk|cream|cr[eè]me fra[iî]che|yogh?urt|kefir|whey|casein|ghee|custard|${CHEESE}`;
+/* Nutella and its kind list milk powder; milk and white chocolate are made with it. */
+const DAIRY = `butter|buttermilk|milk|cream|cr[eè]me fra[iî]che|yogh?urt|kefir|whey|casein|ghee|custard|nutella|chocolate spread|hazelnut spread|milk chocolate|white chocolate|dulce de leche|${CHEESE}`;
 
 /* What each tag forbids. Stock, lard and gelatine are in here because they
    are the ones that get missed: nobody forgets that a vegan dish cannot
@@ -28,7 +29,7 @@ const FORBIDS = {
   'Vegan': new RegExp(`\\b(${MEAT}|honey|eggs?|egg whites?|egg yolks?|mayonnaise|aioli|meringue|${DAIRY})\\b`),
   'Vegetarian': new RegExp(`\\b(${MEAT})\\b`),
   'Dairy-Free': new RegExp(`\\b(${DAIRY})\\b`),
-  'Gluten-Free': /\b(flour|bread|breads|breadcrumbs?|flatbreads?|pitta|pita|naan|baguette|brioche|rolls?|buns?|crumpets?|tortilla wraps?|wraps|pasta|spaghetti|macaroni|orzo|noodles?|udon|ramen|soba|couscous|semolina|barley|farro|bulgur|freekeh|spelt|rye|wheat|seitan|malt|beer|lager|ale|stout|pastry|filo|phyllo|puff|soy sauce|panko|biscuits?|crackers?|croutons?|wafers?|sponge fingers|savoiardi|sourdough|toast|crispbreads?|broa|aish baladi|lavash|pide|simit|cornbread|croissants?|pretzels?|matzo|gnocchi|breadsticks|grissini|shortbread|dumplings?)\b/
+  'Gluten-Free': /\b(flour|bread|breads|breadcrumbs?|flatbreads?|pitta|pita|naan|baguette|brioche|rolls?|buns?|crumpets?|tortilla wraps?|wraps|pasta|spaghetti|macaroni|orzo|noodles?|udon|ramen|soba|couscous|semolina|pappardelle|tagliatelle|tagliolini|fettuccine|fettucine|linguine|linguini|penne|rigatoni|fusilli|farfalle|conchiglie|cavatappi|ditalini|rotini|bucatini|vermicelli|lasagn[ae]|cannelloni|manicotti|ravioli|tortellini|tortelloni|agnolotti|panettone|pandoro|focaccia|ciabatta|barley|farro|bulgur|freekeh|spelt|rye|wheat|seitan|malt|beer|lager|ale|stout|pastry|filo|phyllo|puff|soy sauce|panko|biscuits?|crackers?|croutons?|wafers?|sponge fingers|savoiardi|sourdough|toast|crispbreads?|broa|aish baladi|lavash|pide|simit|cornbread|croissants?|pretzels?|matzo|gnocchi|breadsticks|grissini|shortbread|dumplings?)\b/
 };
 
 /* Words on a line that mean the cook is not obliged to use it. */
@@ -39,7 +40,7 @@ const SERVED = /to serve|for serving|on the side|to accompany|alongside/i;
 /* Ingredients whose name trips a pattern without being the thing. */
 const NOT_REALLY = [
   /* A plant-based stand-in is named for the thing it replaces. */
-  [/\b(?:vegan|veggie|vegetarian|plant[- ]based|meat[- ]free|meatless|mock|faux|dairy[- ]free|non[- ]dairy|egg[- ]free|plant|nut|soy|soya|tofu|seitan|jackfruit|mushroom|cauliflower|celeriac|aubergine|eggplant|cabbage|squash|lentil|bean|chickpea|tvp|oat|almond|cashew|rice|coconut)\s+(?:(?!and\b|or\b|with\b)[\w-]+\s+)?(?:sausages?|mince|bacon|chicken|steaks?|meatballs?|burgers?|hot dogs?|chorizo|ham|salami|pepperoni|jerky|fish|tuna|cheese|parmesan|mozzarella|feta|butter|cream|yogh?urt|milk|mayonnaise|mayo|eggs?|ice cream|custard|kefir|whey|meat)\b/i, 'stand-in'],
+  [/\b(?:vegan|veggie|vegetarian|plant[- ]based|meat[- ]free|meatless|mock|faux|dairy[- ]free|non[- ]dairy|egg[- ]free|plant|nut|soy|soya|tofu|seitan|jackfruit|mushroom|cauliflower|celeriac|aubergine|eggplant|cabbage|squash|lentil|bean|chickpea|tvp|oat|almond|cashew|rice|coconut)\s+(?:(?!and\b|or\b|with\b)[\w-]+\s+)?(?:sausages?|mince|bacon|chicken|steaks?|meatballs?|burgers?|hot dogs?|chorizo|ham|salami|pepperoni|jerky|fish|tuna|cheese|parmesan|mozzarella|feta|butter|cream|yogh?urt|milk|mayonnaise|mayo|eggs?|ice cream|custard|kefir|whey|meat|chocolate|chocolate spread|hazelnut spread)\b/i, 'stand-in'],
   [/\bbutter (?:lettuce|beans?|nut|head)\b/i, 'butter'],
   [/\bbuttern\w*\b/i, 'butter'],
   [/\b(?:peanut|almond|nut|cashew|cocoa|shea|apple|seed|sunflower|hazelnut|pistachio) butter\b/i, 'butter'],
@@ -59,7 +60,7 @@ const NOT_REALLY = [
   [/\bmilk alternative\b/i, 'milk'],
   [/\bmalt(?= or [\w\s-]*vinegar)/i, 'malt'],
   [/\bvegetable spaghetti\b/i, 'spaghetti'],
-  [/\b(?:macaroni|pasta|spaghetti|penne|fusilli|noodles?) made from (?:rice|corn|maize|lentils?|chickpeas?|buckwheat|quinoa)\b|\b(?:rice|corn|maize|lentil|chickpea|buckwheat|quinoa) (?:pasta|macaroni|spaghetti|penne|fusilli)\b/i, 'pasta'],
+  [/\b(?:macaroni|pasta|spaghetti|penne|fusilli|rigatoni|tagliatelle|linguine|fettuccine|lasagne(?: sheets)?|pasta sheets|noodles?) made from (?:rice|corn|maize|lentils?|chickpeas?|buckwheat|quinoa)\b|\b(?:rice|corn|maize|lentil|chickpea|buckwheat|quinoa) (?:pasta|macaroni|spaghetti|penne|fusilli|rigatoni|tagliatelle|linguine|fettuccine|lasagne|vermicelli)\b/i, 'pasta'],
   [/\bpotato (?=gnocchi\b.*\bgluten[- ]free\b)/i, 'gnocchi'],
   /* "brown bread, butter for the bread": the bread names what the butter is for. */
   [/(?:^|,)\s*for (?:the|brushing|greasing|dusting|frying|serving|spreading)\b[^,]*/i, 'usage'],
