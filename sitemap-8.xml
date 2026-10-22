@@ -1213,9 +1213,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/four-cheese-pasta-bake/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/four-cheese-pasta-bake.jpg</image:loc>
+      <image:title>Four Cheese Pasta Bake</image:title>
+      <image:caption>Four Cheese Pasta Bake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-carbonara/</loc>
@@ -1402,9 +1407,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/german-red-cabbage/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/german-red-cabbage.jpg</image:loc>
+      <image:title>German Red Cabbage</image:title>
+      <image:caption>German Red Cabbage</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/hamburger-helper-style-pasta/</loc>
@@ -2168,9 +2178,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/milo-cake/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/milo-cake.jpg</image:loc>
+      <image:title>Milo Cake</image:title>
+      <image:caption>Milo Cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chocolate-peanut-butter-cake/</loc>

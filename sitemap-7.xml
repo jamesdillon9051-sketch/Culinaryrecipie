@@ -4597,9 +4597,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/green-tomato-chutney/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/green-tomato-chutney.jpg</image:loc>
+      <image:title>Green Tomato Chutney</image:title>
+      <image:caption>Green Tomato Chutney</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beetroot-relish/</loc>
@@ -4886,9 +4891,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-marinade/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-marinade.jpg</image:loc>
+      <image:title>Chicken Marinade</image:title>
+      <image:caption>Chicken Marinade</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lamb-marinade/</loc>
@@ -5025,9 +5035,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/freezer-meatballs/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/freezer-meatballs.jpg</image:loc>
+      <image:title>Freezer Meatballs</image:title>
+      <image:caption>Freezer Meatballs</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/freezer-soup/</loc>

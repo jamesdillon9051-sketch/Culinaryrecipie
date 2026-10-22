@@ -520,9 +520,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/anglesey-eggs/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/anglesey-eggs.jpg</image:loc>
+      <image:title>Anglesey Eggs</image:title>
+      <image:caption>Anglesey Eggs</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bbq-sauce/</loc>
@@ -4600,9 +4605,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egg-roll-soup/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/egg-roll-soup.jpg</image:loc>
+      <image:title>Egg Roll Soup</image:title>
+      <image:caption>Egg Roll Soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/escarole-and-bean-soup/</loc>
@@ -4793,9 +4803,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cucumber-noodle-salad/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cucumber-noodle-salad.jpg</image:loc>
+      <image:title>Cucumber Noodle Salad</image:title>
+      <image:caption>Cucumber Noodle Salad</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/turkey-taco-lettuce-wraps/</loc>
@@ -4849,9 +4864,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/portobello-pizzas/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/portobello-pizzas.jpg</image:loc>
+      <image:title>Portobello Pizzas</image:title>
+      <image:caption>Portobello Pizzas</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/turkey-zucchini-boats/</loc>

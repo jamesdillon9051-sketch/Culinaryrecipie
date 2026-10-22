@@ -413,9 +413,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tuna-fishcakes/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tuna-fishcakes.jpg</image:loc>
+      <image:title>Tuna Fishcakes</image:title>
+      <image:caption>Tuna Fishcakes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/turkey-pot-pie/</loc>
@@ -2874,9 +2879,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/parsi-akuri/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/parsi-akuri.jpg</image:loc>
+      <image:title>Parsi Akuri</image:title>
+      <image:caption>Parsi Akuri</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tortang-talong/</loc>
@@ -2930,9 +2940,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egg-tostadas/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/egg-tostadas.jpg</image:loc>
+      <image:title>Egg Tostadas</image:title>
+      <image:caption>Egg Tostadas</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kerala-egg-roast/</loc>
@@ -2980,9 +2995,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/thai-basil-fried-egg/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/thai-basil-fried-egg.jpg</image:loc>
+      <image:title>Thai Basil Fried Egg</image:title>
+      <image:caption>Thai Basil Fried Egg</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/strapatsada/</loc>
@@ -3982,9 +4002,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egyptian-bean-sandwich/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/egyptian-bean-sandwich.jpg</image:loc>
+      <image:title>Egyptian Bean Sandwich</image:title>
+      <image:caption>Egyptian Bean Sandwich</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lebanese-cabbage-salad/</loc>
@@ -4584,9 +4609,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/canadian-maple-baked-beans/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/canadian-maple-baked-beans.jpg</image:loc>
+      <image:title>Canadian Maple Baked Beans</image:title>
+      <image:caption>Canadian Maple Baked Beans</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sloppy-joe-casserole/</loc>

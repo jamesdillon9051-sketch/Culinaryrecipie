@@ -1792,9 +1792,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/freezer-stew/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/freezer-stew.jpg</image:loc>
+      <image:title>Freezer Stew</image:title>
+      <image:caption>Freezer Stew</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/shrimp-meal-prep-bowls/</loc>
@@ -2978,9 +2983,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mug-cornbread/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mug-cornbread.jpg</image:loc>
+      <image:title>Mug Cornbread</image:title>
+      <image:caption>Mug Cornbread</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mug-mac-and-cheese/</loc>
@@ -3634,9 +3644,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dairy-free-cupcakes/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/dairy-free-cupcakes.jpg</image:loc>
+      <image:title>Dairy-Free Cupcakes</image:title>
+      <image:caption>Dairy-Free Cupcakes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dairy-free-custard/</loc>
@@ -4131,9 +4146,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/freezer-muffins/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/freezer-muffins.jpg</image:loc>
+      <image:title>Freezer Muffins</image:title>
+      <image:caption>Freezer Muffins</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/freezer-pot-pie/</loc>
@@ -4585,9 +4605,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/low-carb-stir-fry/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/low-carb-stir-fry.jpg</image:loc>
+      <image:title>Low-Carb Stir Fry</image:title>
+      <image:caption>Low-Carb Stir Fry</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/low-carb-taco-casserole/</loc>

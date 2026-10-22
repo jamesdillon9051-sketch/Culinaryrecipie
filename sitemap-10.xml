@@ -2322,9 +2322,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/harissa-chicken/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/harissa-chicken.jpg</image:loc>
+      <image:title>Harissa Chicken</image:title>
+      <image:caption>Harissa Chicken</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cabinet-pudding/</loc>
@@ -3226,9 +3231,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/jamaican-pepper-pot-soup/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/jamaican-pepper-pot-soup.jpg</image:loc>
+      <image:title>Jamaican Pepper Pot Soup</image:title>
+      <image:caption>Jamaican Pepper Pot Soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/jamaican-red-pea-soup/</loc>
@@ -3243,9 +3253,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dhalpuri-roti/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/dhalpuri-roti.jpg</image:loc>
+      <image:title>Dhalpuri Roti</image:title>
+      <image:caption>Dhalpuri Roti</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/trinidadian-pelau/</loc>
@@ -4146,9 +4161,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kentucky-derby-pie/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kentucky-derby-pie.jpg</image:loc>
+      <image:title>Kentucky Derby Pie</image:title>
+      <image:caption>Kentucky Derby Pie</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/oklahoma-onion-burger/</loc>
