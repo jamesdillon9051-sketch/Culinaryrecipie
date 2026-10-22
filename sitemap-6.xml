@@ -4716,9 +4716,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/rainbow-slaw/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/rainbow-slaw.jpg</image:loc>
+      <image:title>Rainbow Slaw</image:title>
+      <image:caption>Rainbow Slaw</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salmon-salad-with-dill-and-cucumber/</loc>

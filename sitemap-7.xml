@@ -503,9 +503,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-and-cabbage-stir-fry/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-and-cabbage-stir-fry.jpg</image:loc>
+      <image:title>Chicken and Cabbage Stir-Fry</image:title>
+      <image:caption>Chicken and Cabbage Stir-Fry</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/apple-cranberry-chicken-salad/</loc>
@@ -1416,9 +1421,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cowboy-casserole/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cowboy-casserole.jpg</image:loc>
+      <image:title>Cowboy Casserole</image:title>
+      <image:caption>Cowboy Casserole</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ground-beef-and-potato-skillet/</loc>
@@ -2306,9 +2316,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/eggs-in-purgatory/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/eggs-in-purgatory.jpg</image:loc>
+      <image:title>Eggs in Purgatory</image:title>
+      <image:caption>Eggs in Purgatory</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/potato-frittata/</loc>
@@ -3415,9 +3430,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/baked-bean-pasta/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/baked-bean-pasta.jpg</image:loc>
+      <image:title>Baked Bean Pasta</image:title>
+      <image:caption>Baked Bean Pasta</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cheese-and-onion-pasty/</loc>
@@ -4988,9 +5008,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/meal-prep-burrito-bowls/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/meal-prep-burrito-bowls.jpg</image:loc>
+      <image:title>Meal Prep Burrito Bowls</image:title>
+      <image:caption>Meal Prep Burrito Bowls</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/freezer-burritos/</loc>

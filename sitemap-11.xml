@@ -637,9 +637,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cod-in-garlic-butter/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cod-in-garlic-butter.jpg</image:loc>
+      <image:title>Cod in Garlic Butter</image:title>
+      <image:caption>Cod in Garlic Butter</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/crab-mac-and-cheese/</loc>
@@ -858,9 +863,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/one-pot-cabbage-roll-soup/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/one-pot-cabbage-roll-soup.jpg</image:loc>
+      <image:title>One Pot Cabbage Roll Soup</image:title>
+      <image:caption>One Pot Cabbage Roll Soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/one-pot-fried-rice/</loc>
@@ -2439,9 +2449,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/white-chocolate-raspberry-blondies/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/white-chocolate-raspberry-blondies.jpg</image:loc>
+      <image:title>White Chocolate Raspberry Blondies</image:title>
+      <image:caption>White Chocolate Raspberry Blondies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/nutella-brownies/</loc>
@@ -3553,9 +3568,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/3-ingredient-cookies/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/3-ingredient-cookies.jpg</image:loc>
+      <image:title>3 Ingredient Cookies</image:title>
+      <image:caption>3 Ingredient Cookies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/3-ingredient-fudge/</loc>
@@ -3581,9 +3601,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dairy-free-cheesecake/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/dairy-free-cheesecake.jpg</image:loc>
+      <image:title>Dairy-Free Cheesecake</image:title>
+      <image:caption>Dairy-Free Cheesecake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dairy-free-chocolate-chip-cookies/</loc>
@@ -4443,9 +4468,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/high-protein-pasta/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/high-protein-pasta.jpg</image:loc>
+      <image:title>High-Protein Pasta</image:title>
+      <image:caption>High-Protein Pasta</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/high-protein-waffles/</loc>
@@ -4800,9 +4830,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vegan-stew/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/vegan-stew.jpg</image:loc>
+      <image:title>Vegan Stew</image:title>
+      <image:caption>Vegan Stew</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vegan-stuffing/</loc>
@@ -4960,9 +4995,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/petits-pois-a-la-francaise/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/petits-pois-a-la-francaise.jpg</image:loc>
+      <image:title>Petits Pois a la Francaise</image:title>
+      <image:caption>Petits Pois a la Francaise</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/haricots-verts-amandine/</loc>

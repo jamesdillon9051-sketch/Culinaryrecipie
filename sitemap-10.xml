@@ -542,9 +542,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/laal-maas/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/laal-maas.jpg</image:loc>
+      <image:title>Laal Maas</image:title>
+      <image:caption>Laal Maas</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pyaaz-kachori/</loc>
@@ -3399,9 +3404,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/samoan-panikeke/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/samoan-panikeke.jpg</image:loc>
+      <image:title>Samoan Panikeke</image:title>
+      <image:caption>Samoan Panikeke</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/samoan-koko-alaisa/</loc>
@@ -3931,9 +3941,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/broccoli-cheddar-chicken/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/broccoli-cheddar-chicken.jpg</image:loc>
+      <image:title>Broccoli Cheddar Chicken</image:title>
+      <image:caption>Broccoli Cheddar Chicken</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tex-mex-migas/</loc>
@@ -4349,9 +4364,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/appalachian-fried-apple-pies/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/appalachian-fried-apple-pies.jpg</image:loc>
+      <image:title>Appalachian Fried Apple Pies</image:title>
+      <image:caption>Appalachian Fried Apple Pies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/switchel/</loc>

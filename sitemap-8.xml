@@ -976,9 +976,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/maple-glazed-pork-chops/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/maple-glazed-pork-chops.jpg</image:loc>
+      <image:title>Maple Glazed Pork Chops</image:title>
+      <image:caption>Maple Glazed Pork Chops</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/apple-cider-pork-tenderloin/</loc>
@@ -1557,9 +1562,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/steak-and-cheese-pasty/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/steak-and-cheese-pasty.jpg</image:loc>
+      <image:title>Steak and Cheese Pasty</image:title>
+      <image:caption>Steak and Cheese Pasty</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-and-chorizo-pie/</loc>
@@ -1761,9 +1771,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/spaghetti-toasties/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/spaghetti-toasties.jpg</image:loc>
+      <image:title>Spaghetti Toasties</image:title>
+      <image:caption>Spaghetti Toasties</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tomato-soup-with-grilled-cheese/</loc>
@@ -1866,9 +1881,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sausage-pull-apart/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sausage-pull-apart.jpg</image:loc>
+      <image:title>Sausage Pull Apart</image:title>
+      <image:caption>Sausage Pull Apart</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pizza-pull-apart/</loc>
@@ -2666,9 +2686,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/apple-pie-overnight-oats/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/apple-pie-overnight-oats.jpg</image:loc>
+      <image:title>Apple Pie Overnight Oats</image:title>
+      <image:caption>Apple Pie Overnight Oats</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/marmite-cheese-scrolls/</loc>
@@ -2711,9 +2736,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/apple-pie-smoothie/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/apple-pie-smoothie.jpg</image:loc>
+      <image:title>Apple Pie Smoothie</image:title>
+      <image:caption>Apple Pie Smoothie</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/blackcurrant-cordial/</loc>
@@ -2950,9 +2980,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pumpkin-spice-smoothie/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pumpkin-spice-smoothie.jpg</image:loc>
+      <image:title>Pumpkin Spice Smoothie</image:title>
+      <image:caption>Pumpkin Spice Smoothie</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/rhubarb-cordial/</loc>
@@ -4390,9 +4425,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/grain-bowl-with-tahini/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/grain-bowl-with-tahini.jpg</image:loc>
+      <image:title>Grain Bowl with Tahini</image:title>
+      <image:caption>Grain Bowl with Tahini</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/korean-beef-bowl/</loc>
@@ -4479,9 +4519,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vegetable-pilau/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/vegetable-pilau.jpg</image:loc>
+      <image:title>Vegetable Pilau</image:title>
+      <image:caption>Vegetable Pilau</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mujaddara/</loc>

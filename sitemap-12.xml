@@ -240,9 +240,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/jambon-braise-madere/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/jambon-braise-madere.jpg</image:loc>
+      <image:title>Jambon Braise Madere</image:title>
+      <image:caption>Jambon Braise Madere</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dorade-royale/</loc>
@@ -664,9 +669,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ravioli-di-ricotta-e-spinaci/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/ravioli-di-ricotta-e-spinaci.jpg</image:loc>
+      <image:title>Ravioli di Ricotta e Spinaci</image:title>
+      <image:caption>Ravioli di Ricotta e Spinaci</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pizza-napoletana/</loc>
