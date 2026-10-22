@@ -1117,9 +1117,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/shrimp-lettuce-cups/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/shrimp-lettuce-cups.jpg</image:loc>
+      <image:title>Shrimp Lettuce Cups</image:title>
+      <image:caption>Shrimp Lettuce Cups</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tuna-patties/</loc>
@@ -1174,9 +1179,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/oven-baked-catfish/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/oven-baked-catfish.jpg</image:loc>
+      <image:title>Oven-Baked Catfish</image:title>
+      <image:caption>Oven-Baked Catfish</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/poached-cod-with-lemon-and-parsley/</loc>
@@ -1629,9 +1639,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sausage-pasta-bake/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sausage-pasta-bake.jpg</image:loc>
+      <image:title>Sausage Pasta Bake</image:title>
+      <image:caption>Sausage Pasta Bake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sausage-and-lentil-stew/</loc>
@@ -3568,9 +3583,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-jacket-potato/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-jacket-potato.jpg</image:loc>
+      <image:title>Air Fryer Jacket Potato</image:title>
+      <image:caption>Air Fryer Jacket Potato</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-hash-browns/</loc>

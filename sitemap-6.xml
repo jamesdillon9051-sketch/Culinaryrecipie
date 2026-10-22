@@ -432,9 +432,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pan-fried-walleye/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pan-fried-walleye.jpg</image:loc>
+      <image:title>Pan-Fried Walleye</image:title>
+      <image:caption>Pan-Fried Walleye</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pasta-primavera/</loc>

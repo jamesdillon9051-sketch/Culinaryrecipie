@@ -130,9 +130,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/potee-auvergnate/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/potee-auvergnate.jpg</image:loc>
+      <image:title>Potee Auvergnate</image:title>
+      <image:caption>Potee Auvergnate</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lapin-chasseur/</loc>
@@ -738,9 +743,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/coniglio-alla-cacciatora/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/coniglio-alla-cacciatora.jpg</image:loc>
+      <image:title>Coniglio alla Cacciatora</image:title>
+      <image:caption>Coniglio alla Cacciatora</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/trippa-alla-fiorentina/</loc>
@@ -1247,9 +1257,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pollo-alla-romana/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pollo-alla-romana.jpg</image:loc>
+      <image:title>Pollo alla Romana</image:title>
+      <image:caption>Pollo alla Romana</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pollo-al-limone/</loc>
@@ -1319,9 +1334,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salsiccia-e-friarielli/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/salsiccia-e-friarielli.jpg</image:loc>
+      <image:title>Salsiccia e Friarielli</image:title>
+      <image:caption>Salsiccia e Friarielli</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salsicce-e-fagioli/</loc>
@@ -1706,9 +1726,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/conchiglioni-ripieni/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/conchiglioni-ripieni.jpg</image:loc>
+      <image:title>Conchiglioni Ripieni</image:title>
+      <image:caption>Conchiglioni Ripieni</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/spaghetti-al-limone/</loc>
@@ -2736,9 +2761,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/griessknodel/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/griessknodel.jpg</image:loc>
+      <image:title>Griessknödel</image:title>
+      <image:caption>Griessknödel</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salzburger-nockerl/</loc>
@@ -5074,9 +5104,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/munkki/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/munkki.jpg</image:loc>
+      <image:title>Munkki</image:title>
+      <image:caption>Munkki</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/finnish-pancake-pannukakku/</loc>

@@ -425,9 +425,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/turkey-club-wrap/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/turkey-club-wrap.jpg</image:loc>
+      <image:title>Turkey Club Wrap</image:title>
+      <image:caption>Turkey Club Wrap</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/veggie-pasta-bake/</loc>
@@ -3940,6 +3945,11 @@
     <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/persian-lentil-rice.jpg</image:loc>
+      <image:title>Persian Lentil Rice</image:title>
+      <image:caption>Persian Lentil Rice</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/turkish-bulgur-pilaf/</loc>
@@ -4590,9 +4600,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/hot-and-sour-potato-strips/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/hot-and-sour-potato-strips.jpg</image:loc>
+      <image:title>Hot and Sour Potato Strips</image:title>
+      <image:caption>Hot and Sour Potato Strips</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sichuan-cucumber-salad/</loc>
@@ -4838,9 +4853,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lamb-pasanda/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lamb-pasanda.jpg</image:loc>
+      <image:title>Lamb Pasanda</image:title>
+      <image:caption>Lamb Pasanda</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lamb-shami-kebab/</loc>

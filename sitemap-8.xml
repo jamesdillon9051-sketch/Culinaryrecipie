@@ -3720,15 +3720,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sticky-toffee-sauce/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sticky-toffee-sauce.jpg</image:loc>
+      <image:title>Sticky Toffee Sauce</image:title>
+      <image:caption>Sticky Toffee Sauce</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/passionfruit-curd/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/passionfruit-curd.jpg</image:loc>
+      <image:title>Passionfruit Curd</image:title>
+      <image:caption>Passionfruit Curd</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/choux-buns/</loc>
