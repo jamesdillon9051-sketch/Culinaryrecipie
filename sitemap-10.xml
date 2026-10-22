@@ -1142,9 +1142,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/shuwa/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/shuwa.jpg</image:loc>
+      <image:title>Shuwa</image:title>
+      <image:caption>Shuwa</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-machboos/</loc>
@@ -1892,9 +1897,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lemon-granita/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-granita.jpg</image:loc>
+      <image:title>Lemon Granita</image:title>
+      <image:caption>Lemon Granita</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/torta-della-nonna/</loc>
@@ -3690,9 +3700,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bunuelos-mexicanos/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bunuelos-mexicanos.jpg</image:loc>
+      <image:title>Buñuelos Mexicanos</image:title>
+      <image:caption>Buñuelos Mexicanos</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tres-leches-cupcakes/</loc>
@@ -4600,9 +4615,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sourdough-brownies/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sourdough-brownies.jpg</image:loc>
+      <image:title>Sourdough Brownies</image:title>
+      <image:caption>Sourdough Brownies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sourdough-waffles/</loc>

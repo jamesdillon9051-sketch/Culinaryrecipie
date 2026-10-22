@@ -268,9 +268,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tarte-fine-aux-tomates/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tarte-fine-aux-tomates.jpg</image:loc>
+      <image:title>Tarte Fine aux Tomates</image:title>
+      <image:caption>Tarte Fine aux Tomates</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gratin-de-blettes/</loc>
@@ -296,9 +301,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/carottes-vichy/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/carottes-vichy.jpg</image:loc>
+      <image:title>Carottes Vichy</image:title>
+      <image:caption>Carottes Vichy</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salade-de-betteraves/</loc>
@@ -1024,9 +1034,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pasta-alla-carrettiera/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pasta-alla-carrettiera.jpg</image:loc>
+      <image:title>Pasta alla Carrettiera</image:title>
+      <image:caption>Pasta alla Carrettiera</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/spaghetti-al-tonno/</loc>
@@ -1074,9 +1089,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cavatelli-con-broccoli/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cavatelli-con-broccoli.jpg</image:loc>
+      <image:title>Cavatelli con Broccoli</image:title>
+      <image:caption>Cavatelli con Broccoli</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gnocchi-alla-romana/</loc>
@@ -1229,9 +1249,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/torta-di-verdure/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/torta-di-verdure.jpg</image:loc>
+      <image:title>Torta di Verdure</image:title>
+      <image:caption>Torta di Verdure</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/peperoni-ripieni/</loc>
@@ -1444,9 +1469,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gelato-al-cioccolato/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gelato-al-cioccolato.jpg</image:loc>
+      <image:title>Gelato al Cioccolato</image:title>
+      <image:caption>Gelato al Cioccolato</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/spumoni/</loc>
@@ -1748,9 +1778,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tagliolini-al-tartufo/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tagliolini-al-tartufo.jpg</image:loc>
+      <image:title>Tagliolini al Tartufo</image:title>
+      <image:caption>Tagliolini al Tartufo</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/penne-al-gorgonzola/</loc>
@@ -3389,9 +3424,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dorada-a-la-sal/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/dorada-a-la-sal.jpg</image:loc>
+      <image:title>Dorada a la Sal</image:title>
+      <image:caption>Dorada a la Sal</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/porra-antequerana/</loc>
@@ -3720,9 +3760,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sopa-de-feijao-verde/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sopa-de-feijao-verde.jpg</image:loc>
+      <image:title>Sopa de Feijao Verde</image:title>
+      <image:caption>Sopa de Feijao Verde</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/giouvetsi/</loc>

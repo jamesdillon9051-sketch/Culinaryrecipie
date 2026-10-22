@@ -190,9 +190,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egg-and-cress-sandwich/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/egg-and-cress-sandwich.jpg</image:loc>
+      <image:title>Egg and Cress Sandwich</image:title>
+      <image:caption>Egg and Cress Sandwich</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/marmite-on-toast/</loc>
@@ -345,9 +350,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pizza-quesadilla/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pizza-quesadilla.jpg</image:loc>
+      <image:title>Pizza Quesadilla</image:title>
+      <image:caption>Pizza Quesadilla</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pappa-al-pomodoro/</loc>
@@ -1564,9 +1574,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pork-and-apple-pie/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pork-and-apple-pie.jpg</image:loc>
+      <image:title>Pork and Apple Pie</image:title>
+      <image:caption>Pork and Apple Pie</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ham-and-egg-pie/</loc>
@@ -1680,9 +1695,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/welsh-cheese-and-leek-pie/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/welsh-cheese-and-leek-pie.jpg</image:loc>
+      <image:title>Welsh Cheese and Leek Pie</image:title>
+      <image:caption>Welsh Cheese and Leek Pie</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/game-pie/</loc>
@@ -2725,9 +2745,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cinderella-mocktail/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cinderella-mocktail.jpg</image:loc>
+      <image:title>Cinderella Mocktail</image:title>
+      <image:caption>Cinderella Mocktail</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cranberry-spritzer/</loc>
@@ -2937,9 +2962,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salted-caramel-hot-chocolate/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/salted-caramel-hot-chocolate.jpg</image:loc>
+      <image:title>Salted Caramel Hot Chocolate</image:title>
+      <image:caption>Salted Caramel Hot Chocolate</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salted-lassi/</loc>
@@ -3152,9 +3182,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/spiderweb-dip/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/spiderweb-dip.jpg</image:loc>
+      <image:title>Spiderweb Dip</image:title>
+      <image:caption>Spiderweb Dip</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/leftover-ham-pie/</loc>
@@ -4975,9 +5010,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/harissa-roasted-carrots/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/harissa-roasted-carrots.jpg</image:loc>
+      <image:title>Harissa Roasted Carrots</image:title>
+      <image:caption>Harissa Roasted Carrots</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/healthy-chicken-stir-fry/</loc>

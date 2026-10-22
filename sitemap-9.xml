@@ -1415,9 +1415,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/shortbread-stars/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/shortbread-stars.jpg</image:loc>
+      <image:title>Shortbread Stars</image:title>
+      <image:caption>Shortbread Stars</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/candy-apples/</loc>
@@ -2582,9 +2587,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ube-cupcakes/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/ube-cupcakes.jpg</image:loc>
+      <image:title>Ube Cupcakes</image:title>
+      <image:caption>Ube Cupcakes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/shirataki-noodle-bowls/</loc>
@@ -3584,9 +3594,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pizza-pinwheels/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pizza-pinwheels.jpg</image:loc>
+      <image:title>Pizza Pinwheels</image:title>
+      <image:caption>Pizza Pinwheels</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/spinach-pinwheels/</loc>

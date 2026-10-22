@@ -1179,9 +1179,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sheet-pan-steak-and-vegetables/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sheet-pan-steak-and-vegetables.jpg</image:loc>
+      <image:title>Sheet Pan Steak and Vegetables</image:title>
+      <image:caption>Sheet Pan Steak and Vegetables</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sheet-pan-teriyaki-chicken/</loc>
@@ -2836,9 +2841,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/zucchini-brownies/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/zucchini-brownies.jpg</image:loc>
+      <image:title>Zucchini Brownies</image:title>
+      <image:caption>Zucchini Brownies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/zucchini-cookies/</loc>
@@ -2970,9 +2980,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mug-omelette/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mug-omelette.jpg</image:loc>
+      <image:title>Mug Omelette</image:title>
+      <image:caption>Mug Omelette</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/no-bake-banana-pudding/</loc>
@@ -3606,9 +3621,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dairy-free-hot-chocolate/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/dairy-free-hot-chocolate.jpg</image:loc>
+      <image:title>Dairy-Free Hot Chocolate</image:title>
+      <image:caption>Dairy-Free Hot Chocolate</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dairy-free-milkshake/</loc>
@@ -3645,9 +3665,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gluten-free-brownie-cookies/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gluten-free-brownie-cookies.jpg</image:loc>
+      <image:title>Gluten-Free Brownie Cookies</image:title>
+      <image:caption>Gluten-Free Brownie Cookies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gluten-free-cookies/</loc>
@@ -3684,15 +3709,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/high-protein-cheesecake/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/high-protein-cheesecake.jpg</image:loc>
+      <image:title>High-Protein Cheesecake</image:title>
+      <image:caption>High-Protein Cheesecake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/high-protein-cookies/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/high-protein-cookies.jpg</image:loc>
+      <image:title>High-Protein Cookies</image:title>
+      <image:caption>High-Protein Cookies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/low-carb-brownies/</loc>
@@ -3944,9 +3979,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dairy-free-banana-bread/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/dairy-free-banana-bread.jpg</image:loc>
+      <image:title>Dairy-Free Banana Bread</image:title>
+      <image:caption>Dairy-Free Banana Bread</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dairy-free-mac-and-cheese/</loc>
@@ -3956,9 +3996,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dairy-free-mashed-potatoes/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/dairy-free-mashed-potatoes.jpg</image:loc>
+      <image:title>Dairy-Free Mashed Potatoes</image:title>
+      <image:caption>Dairy-Free Mashed Potatoes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dairy-free-pancakes/</loc>
@@ -3973,9 +4018,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dairy-free-ranch-dressing/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/dairy-free-ranch-dressing.jpg</image:loc>
+      <image:title>Dairy-Free Ranch Dressing</image:title>
+      <image:caption>Dairy-Free Ranch Dressing</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dairy-free-cream-of-mushroom-soup/</loc>
@@ -3990,9 +4040,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dairy-free-scones/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/dairy-free-scones.jpg</image:loc>
+      <image:title>Dairy-Free Scones</image:title>
+      <image:caption>Dairy-Free Scones</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/freezer-biscuits/</loc>
@@ -4018,9 +4073,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/freezer-enchiladas/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/freezer-enchiladas.jpg</image:loc>
+      <image:title>Freezer Enchiladas</image:title>
+      <image:caption>Freezer Enchiladas</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/freezer-lasagna/</loc>
@@ -4063,9 +4123,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gluten-free-apple-crumble/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gluten-free-apple-crumble.jpg</image:loc>
+      <image:title>Gluten-Free Apple Crumble</image:title>
+      <image:caption>Gluten-Free Apple Crumble</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gluten-free-banana-bread/</loc>
@@ -4130,9 +4195,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gluten-free-cinnamon-rolls/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gluten-free-cinnamon-rolls.jpg</image:loc>
+      <image:title>Gluten-Free Cinnamon Rolls</image:title>
+      <image:caption>Gluten-Free Cinnamon Rolls</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gluten-free-crackers/</loc>
@@ -4200,9 +4270,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gluten-free-meatloaf/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gluten-free-meatloaf.jpg</image:loc>
+      <image:title>Gluten-Free Meatloaf</image:title>
+      <image:caption>Gluten-Free Meatloaf</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gluten-free-muffins/</loc>
@@ -4217,9 +4292,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gluten-free-naan/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gluten-free-naan.jpg</image:loc>
+      <image:title>Gluten-Free Naan</image:title>
+      <image:caption>Gluten-Free Naan</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gluten-free-pancakes/</loc>
@@ -4240,15 +4320,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gluten-free-pie-crust/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gluten-free-pie-crust.jpg</image:loc>
+      <image:title>Gluten-Free Pie Crust</image:title>
+      <image:caption>Gluten-Free Pie Crust</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gluten-free-pizza-dough/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gluten-free-pizza-dough.jpg</image:loc>
+      <image:title>Gluten-Free Pizza Dough</image:title>
+      <image:caption>Gluten-Free Pizza Dough</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gluten-free-sandwich-bread/</loc>
@@ -4263,9 +4353,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gluten-free-scones/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gluten-free-scones.jpg</image:loc>
+      <image:title>Gluten-Free Scones</image:title>
+      <image:caption>Gluten-Free Scones</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gluten-free-stuffing/</loc>
@@ -4337,9 +4432,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/high-protein-pancakes/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/high-protein-pancakes.jpg</image:loc>
+      <image:title>High-Protein Pancakes</image:title>
+      <image:caption>High-Protein Pancakes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/high-protein-pasta/</loc>
@@ -4349,9 +4449,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/high-protein-waffles/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/high-protein-waffles.jpg</image:loc>
+      <image:title>High-Protein Waffles</image:title>
+      <image:caption>High-Protein Waffles</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/low-carb-breakfast-casserole/</loc>
@@ -4406,9 +4511,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/low-carb-meatballs/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/low-carb-meatballs.jpg</image:loc>
+      <image:title>Low-Carb Meatballs</image:title>
+      <image:caption>Low-Carb Meatballs</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/low-carb-muffins/</loc>
@@ -4696,9 +4806,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vegan-stuffing/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/vegan-stuffing.jpg</image:loc>
+      <image:title>Vegan Stuffing</image:title>
+      <image:caption>Vegan Stuffing</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vegan-sushi/</loc>

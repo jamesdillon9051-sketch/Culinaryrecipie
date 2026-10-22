@@ -2479,9 +2479,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-scarpariello/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-scarpariello.jpg</image:loc>
+      <image:title>Chicken Scarpariello</image:title>
+      <image:caption>Chicken Scarpariello</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fried-apples/</loc>
@@ -3712,9 +3717,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tuna-stuffed-avocados/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tuna-stuffed-avocados.jpg</image:loc>
+      <image:title>Tuna-Stuffed Avocados</image:title>
+      <image:caption>Tuna-Stuffed Avocados</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/crab-stuffed-avocados/</loc>
@@ -3858,9 +3868,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bruschetta-chicken/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bruschetta-chicken.jpg</image:loc>
+      <image:title>Bruschetta Chicken</image:title>
+      <image:caption>Bruschetta Chicken</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-saag/</loc>
@@ -4779,9 +4794,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/turkey-taco-lettuce-wraps/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/turkey-taco-lettuce-wraps.jpg</image:loc>
+      <image:title>Turkey Taco Lettuce Wraps</image:title>
+      <image:caption>Turkey Taco Lettuce Wraps</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/buffalo-chicken-lettuce-wraps/</loc>

@@ -3578,9 +3578,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-chasseur/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-chasseur.jpg</image:loc>
+      <image:title>Chicken Chasseur</image:title>
+      <image:caption>Chicken Chasseur</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/clapshot/</loc>
@@ -3634,9 +3639,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cipaille/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cipaille.jpg</image:loc>
+      <image:title>Cipaille</image:title>
+      <image:caption>Cipaille</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/jiggs-dinner/</loc>
@@ -3673,9 +3683,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mongolian-lamb/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mongolian-lamb.jpg</image:loc>
+      <image:title>Mongolian Lamb</image:title>
+      <image:caption>Mongolian Lamb</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/yaki-udon/</loc>

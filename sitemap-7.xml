@@ -263,9 +263,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cottage-cheese-ice-cream/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cottage-cheese-ice-cream.jpg</image:loc>
+      <image:title>Cottage Cheese Ice Cream</image:title>
+      <image:caption>Cottage Cheese Ice Cream</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/strawberry-sorbet/</loc>
@@ -2379,9 +2384,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egg-butty/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/egg-butty.jpg</image:loc>
+      <image:title>Egg Butty</image:title>
+      <image:caption>Egg Butty</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/eggy-bread/</loc>
@@ -2638,9 +2648,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beans-and-cheese-toastie/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/beans-and-cheese-toastie.jpg</image:loc>
+      <image:title>Beans and Cheese Toastie</image:title>
+      <image:caption>Beans and Cheese Toastie</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tuna-toastie/</loc>
@@ -2743,9 +2758,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/curry-fries/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/curry-fries.jpg</image:loc>
+      <image:title>Curry Fries</image:title>
+      <image:caption>Curry Fries</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/garlic-parmesan-fries/</loc>
