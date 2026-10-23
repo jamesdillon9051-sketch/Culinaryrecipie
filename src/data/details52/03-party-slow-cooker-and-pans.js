@@ -363,39 +363,6 @@ module.exports = {
     nut: [564, 39, 21, 36, 1, 17, 780]
   },
 
-  'slow-cooker-split-pea-soup': {
-    d: 'A thick green soup of split peas, ham hock, carrot and celery, cooked on low for six hours until the peas collapse.',
-    meta: 'Slow cooker split pea soup: a thick green soup of split peas, ham hock, carrot and celery, cooked on low until the peas collapse. Six servings, cooked for 360 minutes.',
-    kw: ['slow cooker split pea soup', 'split pea soup with ham hock', 'split pea and ham soup', 'split pea soup recipe', 'split pea soup in the slow cooker'],
-    why: 'Split pea is the soup that does not need soaking and does not need stirring. Split peas break down as they cook, so the soup thickens by itself, with no flour or cream, to a smooth, earthy purée with a texture somewhere between a soup and a porridge. Six hours on low is enough to melt them completely.\n\nThe ham hock supplies salt, smoke and body. As it cooks it gives up collagen and fat to the liquid, and the meat falls from the bone. Carrots and celery add sweetness and freshness, onion adds depth, and a bay leaf brings a herbal note. Rinse the peas first and pick out any small stones or discoloured ones.\n\n**Remove the hock and shred the meat** before serving, discarding the bone, skin and fat. Stir the meat back in. Taste before adding salt, as the ham may be salty enough. The soup thickens as it stands, so keep a little hot water to loosen it. Serve with crusty bread.',
-    ing: [
-      '400 g dried split green peas, rinsed',
-      '400 g smoked ham hock',
-      '2 carrots, about 200 g, diced',
-      '2 celery sticks, diced',
-      '1 onion, chopped',
-      '3 garlic cloves, crushed',
-      '1.8 litres water',
-      '1 bay leaf',
-      '1/2 tsp ground black pepper',
-      '1/2 tsp dried thyme'
-    ],
-    st: [
-      'Put the split peas, ham hock, carrots, celery, onion, garlic, bay leaf, thyme and pepper in the slow cooker.',
-      'Pour in the water and stir.',
-      'Cover and cook on low for 6 hours until the peas have collapsed and the soup is thick.',
-      'Lift out the hock, shred the meat and return it to the pot. Remove the bay leaf, taste for salt and serve.'
-    ],
-    tips: [
-      'Rinse the peas thoroughly and check for grit.',
-      'Add the salt only at the end.',
-      'Thin the soup with hot water if it becomes too thick.'
-    ],
-    pair: ['Crusty bread', 'Croutons', 'Green salad', 'Cheese toast'],
-    store: 'Keeps in the fridge for 4 days and freezes for up to 3 months.',
-    nut: [195, 18, 15, 7, 5, 6, 700]
-  },
-
   'slow-cooker-apple-butter': {
     d: 'A dark, spiced, spreadable apple preserve with no added fat, cooked for ten hours in the slow cooker with cinnamon and cloves.',
     meta: 'Slow cooker apple butter: a dark, spiced, spreadable apple preserve cooked for ten hours with cinnamon and cloves. Sixteen servings, cooked for 600 minutes.',

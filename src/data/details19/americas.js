@@ -662,46 +662,6 @@ module.exports = {
     rest: [120, 'cooling in the tin']
   },
 
-  'fluffy-pancakes': {
-    d: 'Thick American pancakes that rise in the pan. Twenty-five minutes, and the batter must be lumpy.',
-    meta: 'Thick American buttermilk pancakes raised with baking powder and soda, rested briefly and cooked on a medium griddle.',
-    kw: ['fluffy pancakes', 'pancake recipe', 'american pancakes', 'buttermilk pancakes', 'fluffy pancake batter'],
-    why: 'Stop mixing while the batter still has lumps in it. Every stir past the point where the flour is just wet develops gluten, and gluten makes pancakes chewy and flat — the lumps hydrate on their own during the rest and disappear in the pan. A rested batter also gives the raising agents a head start, which is where the height comes from.',
-    ing: [
-      '250 g plain flour',
-      '2 tbsp caster sugar',
-      '2 tsp baking powder',
-      '0.5 tsp bicarbonate of soda',
-      '0.5 tsp fine sea salt',
-      '350 ml buttermilk',
-      '2 eggs',
-      '50 g unsalted butter, melted and cooled',
-      '1 tsp vanilla extract',
-      '2 tbsp unsalted butter, for the pan',
-      '4 tbsp maple syrup'
-    ],
-    st: [
-      'Whisk the flour, sugar, baking powder, bicarbonate of soda and salt together.',
-      'Beat the buttermilk, eggs, melted butter and vanilla in a separate bowl.',
-      'Pour the wet into the dry and fold about 10 times only. The batter should still be visibly lumpy.',
-      'Rest 10 minutes without stirring again.',
-      'Heat a heavy frying pan over a medium heat — not high — and wipe it with a little butter.',
-      'Drop in 3 tbsp of batter per pancake, well apart.',
-      'Cook 2 minutes 30 seconds, until bubbles rise and burst across the surface and the edges look dry.',
-      'Flip once and cook 90 seconds more.',
-      'Keep warm in a low oven while you cook the rest.',
-      'Serve stacked with butter and maple syrup.'
-    ],
-    tips: [
-      'Lumpy batter. Ten folds, then stop.',
-      'Medium heat — high heat browns them before they rise.',
-      'One flip only.'
-    ],
-    pair: ['Streaky bacon', 'Blueberries', 'Strong coffee'],
-    store: 'Best fresh. Cooked pancakes freeze 1 month; reheat in a toaster.',
-    nut: [455, 12, 62, 18, 2, 20, 780]
-  },
-
   'grilled-cheese': {
     d: 'Bread buttered on the outside, cheese in the middle, cooked slowly until the crust is deep gold and the inside has gone. Thirteen minutes.',
     meta: 'A grilled cheese sandwich with mayonnaise and butter on the outside, two cheeses inside, cooked slowly over a medium-low heat.',

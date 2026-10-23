@@ -70,41 +70,6 @@ module.exports = {
     nut: [0, 0, 0, 0, 0, 0, 0]
   },
 
-  'sticky-date-cake': {
-    d: 'A moist date sponge cooked for 40 minutes and soaked in hot toffee sauce. Twelve servings in 1 hour.',
-    meta: 'Sticky date cake: a moist date sponge cooked for 40 minutes and soaked in a hot toffee sauce, served warm with cream.',
-    kw: ['sticky date cake', 'sticky date pudding cake', 'easy sticky date cake', 'australian sticky date cake', 'sticky date cake with toffee sauce'],
-    why: 'The cake is a vehicle for the sauce, and the dates are what make the cake worth it. Soaked in hot water with bicarbonate, they melt into the batter and turn it dark, moist and fudgy.\n\nPour boiling water over the chopped dates, add the bicarbonate and leave for 10 minutes. It fizzes, softens the skins and produces a thick, brown pulp. **Do not drain it**: the soaking liquid is part of the batter.\n\nCream the butter and sugar, beat in the eggs, and fold in the flour and the date mixture. The batter will be loose, and that is correct.\n\nCook at 180°C for 40 minutes until a skewer comes out clean. If your oven runs hot, check at 32 minutes. Poke holes in the hot cake and pour half the toffee sauce slowly over it, so it soaks in. Serve the rest alongside, with cream. Medjool dates make the richest cake, though ordinary packet dates work well when they are soft.',
-    ing: [
-      '250 g dates, chopped',
-      '250 ml boiling water',
-      '1 tsp bicarbonate of soda',
-      '80 g butter, softened',
-      '150 g brown sugar',
-      '2 eggs',
-      '200 g self-raising flour',
-      '1 tsp vanilla extract',
-      '150 g brown sugar, for the sauce',
-      '150 ml double cream',
-      '60 g butter, for the sauce'
-    ],
-    st: [
-      'Heat the oven to 180°C and line a 20 cm square tin. Pour the boiling water over the dates, stir in the bicarbonate and leave for 10 minutes.',
-      'Cream the butter and 150 g sugar, beat in the eggs and vanilla, then fold in the flour and the date mixture.',
-      'Pour into the tin and cook for 40 minutes until a skewer comes out clean.',
-      'Boil the sauce sugar, cream and butter for 5 minutes. Poke holes in the cake, pour over half the sauce and serve the rest alongside.'
-    ],
-    tips: [
-      'Do not drain the dates.',
-      'Expect a loose batter.',
-      'If your oven runs hot, check at 32 minutes.',
-      'Pour the sauce over while the cake is hot.'
-    ],
-    pair: ['Pouring cream', 'Vanilla ice cream', 'Custard', 'Pot of tea'],
-    store: 'Keeps in the fridge for up to 4 days. Warm gently before serving.',
-    nut: [0, 0, 0, 0, 0, 0, 0]
-  },
-
   'passionfruit-slice': {
     d: 'A biscuit base topped with a passionfruit and condensed milk filling, chilled until set. Sixteen servings in 3 hours 35 minutes, chilling included.',
     meta: 'Passionfruit slice: a crushed biscuit base topped with a tangy passionfruit and condensed milk filling, chilled until set.',

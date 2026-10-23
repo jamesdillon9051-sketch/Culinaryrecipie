@@ -120,7 +120,6 @@ module.exports = [
   c('fudge-brownies', 'Fudge Brownies', 'American', 'Desserts', 'Easy', 15, 25, 12, 0, 0, ['Vegetarian'], ['new'], 'Fudge brownies crackled top dense squares'),
 
   /* Europe and the Middle East */
-  c('fluffy-pancakes', 'Fluffy Pancakes', 'American', 'Breakfast', 'Easy', 10, 15, 4, 0, 0, ['Vegetarian'], ['new'], 'Fluffy american pancakes stack butter syrup'),
   c('garlic-bread', 'Garlic Bread', 'Italian', 'Baking', 'Easy', 10, 15, 6, 0, 0, ['Vegetarian'], ['new'], 'Garlic bread baguette parsley butter torn'),
   c('pesto-pasta', 'Pesto Pasta', 'Italian', 'Quick Meals', 'Easy', 10, 12, 4, 0, 0, ['Vegetarian'], ['new'], 'Pesto pasta basil green coating pine nuts'),
   c('minestrone', 'Minestrone', 'Italian', 'Lunch', 'Easy', 20, 55, 6, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free'], ['new'], 'Minestrone vegetable soup beans pasta'),

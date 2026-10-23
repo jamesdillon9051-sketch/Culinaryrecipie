@@ -1,11 +1,11 @@
 ingredient_overlap,recipe_a,recipe_b,cuisines,reading,status
 1.0,https://weeklydelight.com/recipes/instant-pot-beef-stew/,https://weeklydelight.com/recipes/slow-cooker-beef-stew/,American/American,"variant: different appliance, method or form",new
 1.0,https://weeklydelight.com/recipes/grilled-lamb-chops/,https://weeklydelight.com/recipes/air-fryer-lamb-chops/,Australian/British,"variant: different appliance, method or form",new
-1.0,https://weeklydelight.com/recipes/vegemite-scrolls/,https://weeklydelight.com/recipes/australian-cheese-and-vegemite-scrolls/,Australian/Australian,same dish under two names (read by eye),new
-0.94,https://weeklydelight.com/recipes/sticky-date-pudding/,https://weeklydelight.com/recipes/sticky-date-cake/,Australian/Australian,same dish under two names (read by eye),new
+1.0,https://weeklydelight.com/recipes/vegemite-scrolls/,https://weeklydelight.com/recipes/australian-cheese-and-vegemite-scrolls/,Australian/Australian,same dish under two names (read by eye),removed 23 Oct 2026: /recipes/australian-cheese-and-vegemite-scrolls/ now 301s to /recipes/vegemite-scrolls/
+0.94,https://weeklydelight.com/recipes/sticky-date-pudding/,https://weeklydelight.com/recipes/sticky-date-cake/,Australian/Australian,same dish under two names (read by eye),removed 23 Oct 2026: /recipes/sticky-date-cake/ now 301s to /recipes/sticky-date-pudding/
 0.94,https://weeklydelight.com/recipes/low-carb-brownies/,https://weeklydelight.com/recipes/low-carb-cookies/,American/American,"variant: different appliance, method or form",new
 0.91,https://weeklydelight.com/recipes/instant-pot-chicken-cacciatore/,https://weeklydelight.com/recipes/slow-cooker-chicken-cacciatore/,Italian/Italian,"variant: different appliance, method or form",new
-0.91,https://weeklydelight.com/recipes/buttermilk-pancakes/,https://weeklydelight.com/recipes/fluffy-pancakes/,American/American,same dish under two names (read by eye),new
+0.91,https://weeklydelight.com/recipes/buttermilk-pancakes/,https://weeklydelight.com/recipes/fluffy-pancakes/,American/American,same dish under two names (read by eye),removed 23 Oct 2026: /recipes/fluffy-pancakes/ now 301s to /recipes/buttermilk-pancakes/
 0.9,https://weeklydelight.com/recipes/instant-pot-chili/,https://weeklydelight.com/recipes/slow-cooker-chili/,American/American,"variant: different appliance, method or form",new
 0.89,https://weeklydelight.com/recipes/apple-sauce/,https://weeklydelight.com/recipes/slow-cooker-apple-sauce/,British/American,"variant: different appliance, method or form",new
 0.88,https://weeklydelight.com/recipes/cheesecake-bars/,https://weeklydelight.com/recipes/slow-cooker-cheesecake/,American/American,"variant: different appliance, method or form",new
@@ -26,7 +26,7 @@ ingredient_overlap,recipe_a,recipe_b,cuisines,reading,status
 0.82,https://weeklydelight.com/recipes/edible-cookie-dough/,https://weeklydelight.com/recipes/cookie-dough-bites/,American/American,"variant: different appliance, method or form",new
 0.82,https://weeklydelight.com/recipes/air-fryer-steak/,https://weeklydelight.com/recipes/grilled-steak/,American/American,"variant: different appliance, method or form",new
 0.81,https://weeklydelight.com/recipes/chocolate-chip-cookie-bars/,https://weeklydelight.com/recipes/mug-chocolate-chip-cookie/,American/American,"variant: different appliance, method or form",new
-0.81,https://weeklydelight.com/recipes/slow-cooker-pea-and-ham-soup/,https://weeklydelight.com/recipes/slow-cooker-split-pea-soup/,Australian/American,same dish under two names (read by eye),new
+0.81,https://weeklydelight.com/recipes/slow-cooker-pea-and-ham-soup/,https://weeklydelight.com/recipes/slow-cooker-split-pea-soup/,Australian/American,same dish under two names (read by eye),removed 23 Oct 2026: /recipes/slow-cooker-split-pea-soup/ now 301s to /recipes/slow-cooker-pea-and-ham-soup/
 0.81,https://weeklydelight.com/recipes/pork-fried-rice/,https://weeklydelight.com/recipes/shrimp-fried-rice/,Chinese/Chinese,variant: different protein or main ingredient,new
 0.81,https://weeklydelight.com/recipes/pork-fried-rice/,https://weeklydelight.com/recipes/beef-fried-rice/,Chinese/Chinese,variant: different protein or main ingredient,new
 0.81,https://weeklydelight.com/recipes/instant-pot-ribs/,https://weeklydelight.com/recipes/pork-ribs-in-the-oven/,American/American,"variant: different appliance, method or form",new

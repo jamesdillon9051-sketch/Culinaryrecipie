@@ -1163,7 +1163,7 @@ try {
 for (const audit of ['timing-audit.js', 'timing-corpus.js', 'consistency-corpus.js', 'crawl-guard-test.js', 'crawl-dates-test.js', 'nutrition-audit.js', 'keyword-audit.js', 'seo-audit.js',
                      'seo-claims-test.js', 'taxonomy-metadata-test.js', 'recipe-step-schema-test.js',
                      'substitutions-audit.js', 'duplicates-audit.js', 'health-audit.js',
-                     'robots-check.js', 'private-paths-check.js', 'image-inventory.js', ['mark-illustrations.js', '--check'],
+                     'robots-check.js', 'private-paths-check.js', 'retired-recipes-check.js', 'image-inventory.js', ['mark-illustrations.js', '--check'],
                      ['voice-audit.js', '--strict'], ['voice-audit.js', '--check-docs'],
                      ['recipe-consistency.js', '--built', '--list', 'confirmed'],
                      'photo-credit-test.js', 'native-ad-slot-count-test.js',

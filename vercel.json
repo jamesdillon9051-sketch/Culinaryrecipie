@@ -64,6 +64,26 @@
       ],
       "destination": "https://weeklydelight.com/:path*",
       "permanent": true
+    },
+    {
+      "source": "/recipes/australian-cheese-and-vegemite-scrolls/",
+      "destination": "/recipes/vegemite-scrolls/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/fluffy-pancakes/",
+      "destination": "/recipes/buttermilk-pancakes/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/sticky-date-cake/",
+      "destination": "/recipes/sticky-date-pudding/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/slow-cooker-split-pea-soup/",
+      "destination": "/recipes/slow-cooker-pea-and-ham-soup/",
+      "permanent": true
     }
   ]
 }

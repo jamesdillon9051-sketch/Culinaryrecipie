@@ -9656,22 +9656,6 @@
    "w": 640
   }
  },
- "fluffy-pancakes": {
-  "hero": {
-   "author": "Unknown",
-   "color": "#c9a581",
-   "file": "fluffy-pancakes",
-   "h": 600,
-   "licence": "CC0 1.0",
-   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC/dNJcTMEc7QenSi3ee2lXMn7snkMc1fuIlVdyjBNQiBHZd2fzrlblzbnQuXl2P//Z",
-   "page": "https://www.rawpixel.com/image/6033674/photo-image-public-domain-food-free",
-   "source": "Rawpixel",
-   "title": "Pancake, American breakfast",
-   "w": 800
-  },
-  "process": null
- },
  "focaccia": {
   "hero": {
    "author": "Klism",
@@ -53557,22 +53541,6 @@
   },
   "process": null
  },
- "sticky-date-cake": {
-  "hero": {
-   "w": 800,
-   "h": 600,
-   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCS71eGyu5be4hZgMAEGr1jdW8sMYiZirk7c9vas27tIr+SKWfO4jB2nGajvrh9LttlqFAHQsMkVk01JM00cT//2Q==",
-   "color": "#a1917d",
-   "title": "StickyToffeePudding (cropped) (image of sticky toffee pudding on Wikidata Q7616334)",
-   "author": "Chalk and Cheese",
-   "licence": "CC BY 2.0",
-   "licence_url": "https://creativecommons.org/licenses/by/2.0",
-   "page": "https://commons.wikimedia.org/wiki/File:StickyToffeePudding_(cropped).jpg",
-   "source": "Wikimedia Commons",
-   "file": "sticky-date-cake"
-  },
-  "process": null
- },
  "apple-pie-with-custard": {
   "hero": {
    "w": 800,
@@ -63729,22 +63697,6 @@
   },
   "process": null
  },
- "australian-cheese-and-vegemite-scrolls": {
-  "hero": {
-   "w": 800,
-   "h": 600,
-   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCK0ZmiG45YcE1He232qPoFdehNNhPzSgcY54qaImTAY9Urks1PQ7N4XZ//2Q==",
-   "color": "#a5744d",
-   "title": "Cheesymite 2014-05-26 17-09",
-   "author": "User:Tshay93",
-   "licence": "CC BY-SA 3.0",
-   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-   "page": "https://commons.wikimedia.org/wiki/File:Cheesymite_2014-05-26_17-09.jpg",
-   "source": "Wikimedia Commons",
-   "file": "australian-cheese-and-vegemite-scrolls"
-  },
-  "process": null
- },
  "new-zealand-mince-and-cheese-pie": {
   "hero": {
    "author": "CuriosityKat33",
@@ -70054,22 +70006,6 @@
    "page": "https://commons.wikimedia.org/wiki/File:Pulled_beef.jpg",
    "source": "Wikimedia Commons",
    "file": "slow-cooker-pulled-beef"
-  },
-  "process": null
- },
- "slow-cooker-split-pea-soup": {
-  "hero": {
-   "w": 800,
-   "h": 600,
-   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDRLpbAIi7VpbmUx25njUM68Yz1qZolkxu9azPEbmDTQseAC4FT73M+xknd3Z//2Q==",
-   "color": "#9fb6a0",
-   "title": "Pea soup, soup plate",
-   "author": "RitaE",
-   "licence": "Pixabay Content License",
-   "licence_url": "https://pixabay.com/service/license-summary/",
-   "page": "https://pixabay.com/photos/pea-soup-soup-starter-soup-plate-2786118/",
-   "source": "Pixabay",
-   "file": "slow-cooker-split-pea-soup"
   },
   "process": null
  },

@@ -38,6 +38,16 @@
   RewriteRule ^contact/_pages(?:/|$) - [R=404,L,NC]
   RewriteRule ^contact/(?:success|not-sent)/?$ /contact/ [R=302,L,NC]
 
+  # Recipes taken down because another page is the same dish
+  # (src/data/retired-recipes.json). Each old address, with or without its
+  # trailing slash or index.html, and from www or http, goes to the page that
+  # stays in one permanent hop. tools/retired-recipes-check.js holds these
+  # lines to the list.
+  RewriteRule ^recipes/australian-cheese-and-vegemite-scrolls(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/vegemite-scrolls/ [R=301,L,NC]
+  RewriteRule ^recipes/fluffy-pancakes(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/buttermilk-pancakes/ [R=301,L,NC]
+  RewriteRule ^recipes/sticky-date-cake(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/sticky-date-pudding/ [R=301,L,NC]
+  RewriteRule ^recipes/slow-cooker-split-pea-soup(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/slow-cooker-pea-and-ham-soup/ [R=301,L,NC]
+
   # /path/index.html -> /path/
   #
   # The same duplicate as www, from the other direction. DirectoryIndex serves

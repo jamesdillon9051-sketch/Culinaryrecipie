@@ -90,7 +90,6 @@ module.exports = [
   c('air-fryer-corn-ribs', 'Air Fryer Corn Ribs', 'American', 'Quick Meals', 'Easy', 10, 15, 4, 0, 0, ['Gluten-Free'], ['new'], 'air fryer corn ribs'),
   c('slow-cooker-pulled-beef', 'Slow Cooker Pulled Beef', 'American', 'Dinner', 'Easy', 10, 480, 8, 0, 0, [], ['new'], 'slow cooker pulled beef'),
   c('slow-cooker-honey-mustard-chicken', 'Slow Cooker Honey Mustard Chicken', 'American', 'Dinner', 'Easy', 10, 240, 4, 0, 0, ['Dairy-Free'], ['new'], 'slow cooker honey mustard chicken'),
-  c('slow-cooker-split-pea-soup', 'Slow Cooker Split Pea Soup', 'American', 'Dinner', 'Easy', 10, 360, 6, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'slow cooker split pea soup'),
   c('slow-cooker-apple-butter', 'Slow Cooker Apple Butter', 'American', 'Appetizers', 'Easy', 20, 600, 16, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'slow cooker apple butter'),
   c('slow-cooker-oatmeal', 'Slow Cooker Oatmeal', 'American', 'Breakfast', 'Easy', 5, 420, 4, 0, 0, ['Vegetarian'], ['new'], 'slow cooker oatmeal'),
   c('slow-cooker-sticky-ribs', 'Slow Cooker Sticky Ribs', 'American', 'Dinner', 'Easy', 10, 360, 4, 0, 0, ['Dairy-Free'], ['new'], 'slow cooker sticky ribs'),

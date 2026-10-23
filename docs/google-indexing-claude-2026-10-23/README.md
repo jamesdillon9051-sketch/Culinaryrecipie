@@ -74,6 +74,22 @@ Ingredient-word overlap, computed from the recipe data (1.0 would be identical):
 
 **Fixed: pages could not be cached by the CDN.** Every page and sitemap was sent with `Cache-Control: public, max-age=0, must-revalidate`, and Hostinger's CDN answered every one `x-hcdn-cache-status: DYNAMIC`, meaning it passed each request to the shared-hosting server ([How Hostinger CDN caching works](https://www.hostinger.com/support/?p=18721)). That server is where the 429s came from. `.htaccess` now sends `public, max-age=0, s-maxage=3600, must-revalidate` for `.html` and `.xml`: browsers still revalidate on every visit, and the CDN may serve a copy up to an hour old. The cost is that a deploy can take up to an hour to reach every CDN edge, unless the CDN cache is cleared in hPanel (Performance, CDN, Clear cache). Error pages are not affected (`Header set` applies to successful responses only). This lowers the load that makes Google hold back; it cannot make Google crawl faster than it chooses to.
 
-**Not fixed: same dish under two names.** Thirty-six pairs share 80% or more of their ingredient words; read by eye, 32 are real variants (a different appliance, protein or form) and four are the same dish twice, none of them among the 15 already acknowledged: `vegemite-scrolls` and `australian-cheese-and-vegemite-scrolls`, `buttermilk-pancakes` and `fluffy-pancakes`, `sticky-date-pudding` and `sticky-date-cake`, `slow-cooker-pea-and-ham-soup` and `slow-cooker-split-pea-soup`. List: [duplicate-candidates.csv](duplicate-candidates.csv). Merging one into the other needs a 301 redirect and is the owner's decision.
+**Not fixed: same dish under two names.** Thirty-six pairs share 80% or more of their ingredient words; read by eye, 32 are real variants (a different appliance, protein or form) and four are the same dish twice, none of them among the 15 already acknowledged: `vegemite-scrolls` and `australian-cheese-and-vegemite-scrolls`, `buttermilk-pancakes` and `fluffy-pancakes`, `sticky-date-pudding` and `sticky-date-cake`, `slow-cooker-pea-and-ham-soup` and `slow-cooker-split-pea-soup`. List: [duplicate-candidates.csv](duplicate-candidates.csv). **Removed on the owner's instruction (23 October):** in each pair the page published first stays and the other address answers a permanent redirect to it (table below).
 
 **Not changed:** the five one-or-two-recipe collections, and `/search/` (a filter page whose HTML holds no results). Each is one URL among 5,871 and none of them explains thousands of pages never being fetched.
+
+
+## Duplicates removed (23 October, owner's instruction)
+
+| Removed address | Now redirects (301) to | Why that one stays |
+| --- | --- | --- |
+| `/recipes/australian-cheese-and-vegemite-scrolls/` | `/recipes/vegemite-scrolls/` | published first (8 Oct) |
+| `/recipes/fluffy-pancakes/` | `/recipes/buttermilk-pancakes/` ("Fluffy Buttermilk Pancakes") | published first (5 Sep) |
+| `/recipes/sticky-date-cake/` | `/recipes/sticky-date-pudding/` | the dish's usual name; same method and tin |
+| `/recipes/slow-cooker-split-pea-soup/` | `/recipes/slow-cooker-pea-and-ham-soup/` | published first (8 Oct) |
+
+- The register is `src/data/retired-recipes.json`, with the reason for each. The build refuses a retired slug that comes back into the catalogue, or a redirect to a page that does not exist.
+- Redirects on all three host configurations: `.htaccess` (live; also catches the address without its trailing slash, with `index.html`, and from `www` or `http`, in one hop), `_redirects` (written by the build) and `vercel.json`. `tools/retired-recipes-check.js`, now part of `npm run check`, fails if any of them is missing, if an old page is still built, linked or in a sitemap, or if a target page is not built.
+- Removed with each recipe: its catalogue row, its detail record, its `images.json` entry and its two photo files; `images-attribution.md` regenerated. Kept on purpose: its `published-dates.json` entry (a published date is never reused) and its photo-refusal history in `image-rejects.json`.
+- Recipes: 5,515 → 5,511. 354 other pages changed (the recipes whose "You might also like" links, and the collections and hubs whose lists, included a removed page) and move their `lastmod`, which is the register working as intended.
+- The 15 pairs acknowledged earlier (`tools/duplicates-audit.js`) were not touched. Their ingredient overlap runs from 0.45 to 0.81 and each was kept on purpose when it was published; some are one dish under two names (`moules-mariniere` and `moules-marinieres`, `lamb-rogan-josh` and `rogan-josh`), and merging them is still open.

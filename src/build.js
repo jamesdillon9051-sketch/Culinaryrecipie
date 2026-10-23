@@ -184,6 +184,26 @@ function writePage(relPath, html) {
   fs.writeFileSync(target, html);
 }
 
+/**
+ * Recipes taken down because another page is the same dish
+ * (src/data/retired-recipes.json), each with the page its URL redirects to.
+ * A retired slug back in the catalogue would redirect a live page, and a target
+ * missing from it would send readers to a 404, so either stops the build.
+ */
+function retiredRecipes(recipes) {
+  const list = JSON.parse(fs.readFileSync(path.join(SRC, 'data', 'retired-recipes.json'), 'utf8'));
+  const live = new Set(recipes.map(r => r.slug));
+  return Object.entries(list).filter(([from]) => !from.startsWith('_')).map(([from, entry]) => {
+    if (live.has(from)) {
+      throw new Error(`retired recipe "${from}" is in the catalogue again; take it out of one or the other`);
+    }
+    if (!live.has(entry.to)) {
+      throw new Error(`retired recipe "${from}" redirects to "${entry.to}", which is not in the catalogue`);
+    }
+    return { from, to: entry.to };
+  });
+}
+
 function copyDir(from, to) {
   mkdir(to);
   for (const entry of fs.readdirSync(from, { withFileTypes: true })) {
@@ -1182,6 +1202,7 @@ function build() {
      matters here: the catch-all has to come last or nothing after it fires. */
   fs.writeFileSync(path.join(OUT, '_redirects'),
     `https://www.weeklydelight.com/*  https://weeklydelight.com/:splat  301!\n`
+    + retiredRecipes(recipes).map(r => `/recipes/${r.from}/  /recipes/${r.to}/  301!\n`).join('')
     + '/*  /404.html  404\n');
 
   /* Written after the sitemap, which is what asks for the dates. Committed, so

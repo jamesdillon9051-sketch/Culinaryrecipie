@@ -1,0 +1,23 @@
+{
+ "_about": "Recipe pages taken down because another page is the same dish. Each old URL answers a permanent (301) redirect to the page that stays: .htaccess on the live host, _redirects (written by the build) and vercel.json elsewhere. tools/retired-recipes-check.js (part of npm run check) holds the three to this list. Never reuse a slug listed here for a different dish.",
+ "australian-cheese-and-vegemite-scrolls": {
+  "to": "vegemite-scrolls",
+  "retired": "2026-10-23",
+  "reason": "Same dish: scone-dough scrolls with Vegemite and cheddar. vegemite-scrolls was published first (8 October 2026)."
+ },
+ "fluffy-pancakes": {
+  "to": "buttermilk-pancakes",
+  "retired": "2026-10-23",
+  "reason": "Same dish: fluffy American buttermilk pancakes. buttermilk-pancakes (Fluffy Buttermilk Pancakes) was published first (5 September 2026)."
+ },
+ "sticky-date-cake": {
+  "to": "sticky-date-pudding",
+  "retired": "2026-10-23",
+  "reason": "Same dish: date sponge soaked with toffee sauce, same method and tin. sticky-date-pudding is the dish's usual name."
+ },
+ "slow-cooker-split-pea-soup": {
+  "to": "slow-cooker-pea-and-ham-soup",
+  "retired": "2026-10-23",
+  "reason": "Same dish: split peas and ham hock on low in the slow cooker. slow-cooker-pea-and-ham-soup was published first (8 October 2026)."
+ }
+}
