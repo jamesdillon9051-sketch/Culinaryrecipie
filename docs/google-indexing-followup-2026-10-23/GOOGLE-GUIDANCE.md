@@ -15,7 +15,7 @@ Reviewed 22-23 October 2026. Observations refer to base `9ebb8489` and the exact
 | Required relevant Recipe image | Declared files exist; ten live images decoded successfully.288 recipes have no hero/image; no fake placeholder added. | These pages lack image-required recipe-rich-result eligibility, not necessarily ordinary web indexing. |
 | Helpful, reliable, original content | Generated timing/nutrition promises corrected; authorship/testing disclosures preserved.37 authored claims across 35 recipes and 15 known duplicate pairs assigned toClaude. | No invented kitchen testing, measured pH, supplier evidence or reviews. |
 | Scaled low-value pages | 70 collections with 1-5 recipes flagged for usefulness review; recipe source issues remain editorial tasks. | Scale or AI assistance alone does not establish a spam violation; no automatic mass noindex/deletion. |
-| Mobile rendering/page experience | Representative HTML variants pass, desktop Chromium cases observed through category. All ads preserved. | Final mobile/control report inaccessible after workspace loss; no new field-performance data. |
+| Mobile rendering/page experience | All 42 desktop/mobile page cases and both search/filter control flows pass, with unchanged inputs. All ads preserved. | Local/browser checks are not new field-performance or Google validation data. |
 | Manual actions, removals, security | No challenge/authentication observed in successful initial samples. | Search Console reports require owner access; cannot rule out manual actions/removals/hacking from local build. |
 
 Sources:

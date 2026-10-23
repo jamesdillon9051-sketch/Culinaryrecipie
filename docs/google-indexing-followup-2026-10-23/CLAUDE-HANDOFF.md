@@ -12,7 +12,7 @@
 ## Safe implementation ready for review
 Review all nine paths in verification.json: SEO snippet time/nutrition guards; ingredient-hub elapsed-time minimum; dynamic 92-cuisine heading; truthful category navigation/filter destination; omission of optional generic HowToStep.name; focused regressions wired into existing checks; honest wording for 15 existing duplicate exceptions.
 
-The exact source passed build/check/rebuild/ad comparisons before environment loss and matches recorded SHA256 after publication. Full report is README.md. Raw verification logs were inaccessible after environment_offline; verification.json records completed summaries and exact source hashes. Browser desktop cases through category passed; final mobile/controls and Google's Rich Results Test remain unverified.
+The exact source passed build/check/rebuild/ad comparisons before the temporary environment disconnection and matches recorded SHA256 after publication. The environment recovered: raw logs, original live URL records and the complete browser report are preserved in WeeklyDelight-Indexing-Evidence.zip. All 42 desktop/mobile page cases and two search/filter control flows passed with zero failures and unchanged inputs. Google's Rich Results Test remains unperformed; local checks do not substitute for it. Full report is README.md.
 
 On isolated regeneration: 427 descriptions and 26 titles change across 444 URLs, one H1 changes, and 31,893 optional names disappear. Other Recipe properties remain unchanged on all 5,515 pages; zero recipe date/hash changes and 291 collection date/hash changes. Second build changes nothing. Keep recipeMarkup version unchanged for this correction and do not force date refreshes.
 
@@ -55,7 +55,7 @@ tools/duplicates-audit.js retains 15 KNOWN pairs. Compare exact ingredients/meth
 ## Hosting and Google evidence
 Read HOSTINGER-HANDOFF.md before any config proposal. Earlier self-307 redirects on robots/sitemap/deep routes need host tracing; exact origin/CDN/intermediary is unverified. No authenticated hPanel access is available here. The later Canederli request failed in our envoy tunnel, not a confirmed site-origin 503.
 
-Coverage: 5,871 intended pages checked locally; 1,216 origin 200s confirmed (all 356 nonrecipes plus 860 recipes). 4,655 origin responses remain unknown because the proxy run stopped. The conservative recovered CSV does not guess the 860 recipe HTTP identities from missing row logs.
+Coverage: 5,871 intended pages checked locally; 1,216 origin 200s confirmed (all 356 nonrecipes plus 860 recipes). 4,655 origin responses remain unknown because the proxy run stopped. The original full CSV and JSONL were recovered after reconnection: exact identities, timestamps and HTTP observations are available in the evidence archive and the URL-level CSV. No live result was inferred from lexical ordering.
 
 Historical Search Console export has 1,000 examples, not all 2,982 screenshot exclusions. “Pending” is validation status; 1970-01-01 is sentinel/unavailable. No individual URLs were confirmed indexed; current Google statuses remain unknown. Manual actions/removals/security and crawl scheduling require fresh account evidence.
 
@@ -63,5 +63,5 @@ Historical Search Console export has 1,000 examples, not all 2,982 screenshot ex
 1. Review e822110 and current main. Integrate source only on Claude's review branch, preserving concurrent catalogue edits.
 2. Resolve/record content dispositions supported by evidence; do not clear warnings to obtain green output.
 3. Regenerate once as integration owner; run build/check/selftest and focused tests/ad comparisons. Review the 291 collection date/hash changes and confirm recipe dates were not mass-refreshed; repeat build must be stable.
-4. Complete mobile/control tests and Google's Rich Results Test. Finish restrained live coverage after transport recovery, and host-log investigation.
+4. Review the passing mobile/control tests and run Google's Rich Results Test. Finish restrained live coverage after transport recovery, and host-log investigation.
 5. Present review result to owner; do not merge/deploy until approval. After approved deployment, verify actual live revision, redirects/headers/robots/all 12 sitemaps/schema/error statuses and fresh Search Console observations.

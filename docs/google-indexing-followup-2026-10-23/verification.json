@@ -1,11 +1,11 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "report_date": "2026-10-23",
   "repository": "jamesdillon9051-sketch/Culinaryrecipie",
   "base_commit": "9ebb8489fcd60909be13623c24b25a86b5dbd115",
   "source_commit": "e822110d7075d4f2917559b465a1d15ac61f23c7",
   "branch": "audit/google-indexing-followup-2026-10-22",
-  "provenance": "Recovered from completed verification summaries and exact SHA256 source hashes after the execution environment disconnected. Raw logs and full browser report were not recoverable in this session. GitHub source content is checked byte-for-byte against the tested snapshot.",
+  "provenance": "Exact tested source hashes matched after GitHub publication. Execution recovered; original raw verification logs, full live URL records and complete browser report retrieved and archived.",
   "source_sha256": {
     "src/build.js": "f67bf2aa94315b710eb58ee0124ff4cc7da653f1e4e202f5602d62b759f25b97",
     "src/lib/seo.js": "e85992b767e7edc8dcda097e6d50d81d620259d3895aef3bca96eef2ad11a0c8",
@@ -160,20 +160,23 @@
   "browser": {
     "independent_code_review": "passed, no blockers",
     "html_template_regression": "passed:6layouts plus untimed/noimage/Organization-photo,9renderedvariants",
-    "chromium_desktop_observed": "passed through category hub",
-    "mobile_and_remaining_controls": "unverified: environment_offline409 before final report retrieval",
+    "chromium_desktop_observed": "complete and passed",
+    "mobile_and_remaining_controls": "complete and passed",
     "google_rich_results_test": "not run for this review branch",
-    "authenticated_search_console": "not available"
+    "authenticated_search_console": "not available",
+    "chromium_page_cases": 42,
+    "failed_cases": 0,
+    "control_flows": 2,
+    "failed_flows": 0,
+    "runtime_errors": [],
+    "inputs_unchanged": true,
+    "started_at": "2026-10-23T03:39:42.689Z",
+    "finished_at": "2026-10-23T03:40:25.098Z"
   },
   "recovered_csv": {
     "rows": 5871,
-    "http_mapping": "conservative; all356nonrecipes identifiable; individual860recipe identities not recovered; retained baked-peaches example marked separately",
+    "http_mapping": "Original JSONL/CSV recovered and validated; all1216successes individually identified;4655origins explicitly unverified.",
     "not_a_fresh_crawl": true
   },
-  "pdf": {
-    "pages": 5,
-    "bytes": 18286,
-    "xref_verified": true,
-    "rendered_visual_check": false
-  }
+  "evidence_archive": "WeeklyDelight-Indexing-Evidence.zip"
 }

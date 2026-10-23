@@ -35,7 +35,7 @@ All 1,000 supplied Search Console examples map to the intended catalogue: 920 re
 
 Historical screenshots described 2,982 excluded URLs; 1,982 of those historical affected identities were not supplied. Neither the rest of the catalogue nor the unlisted 1,982 are confirmed currently unindexed. No individual confirmed-indexed comparison URLs or fresh account-level reports were supplied; a recent decline/deindexing cannot be established from this evidence.
 
-[URL-level CSV](url-audit.csv) covers all 5,871 intended URLs. It is a conservative recovery after workspace loss, not a fresh crawl. Individual recipe HTTP-row mapping was not recoverable: it records that limitation instead of assigning 860 group successes to guessed URLs. All 356 nonrecipe URL successes are identifiable, and the retained baked-peaches live observation is identified separately. Per-URL current Google status remains unknown.
+[URL-level CSV](url-audit.csv) covers all 5,871 intended URLs and now uses the recovered original live records: exactly 1,216 successful origin responses and 4,655 origin-unverified results. Exact recipe identities, timestamps, canonical/header observations and request IDs are retained in the evidence archive. The temporary execution disconnection did not lose the saved logs. These are dated crawl observations, not a new crawl or proof of current Google indexing.
 
 ## Confirmed source defects and fixes
 | Defect | Scope and fix |
@@ -90,22 +90,24 @@ Expected regenerated differences: 427 descriptions, 26 titles (444 URLs in their
 
 Fresh recipe-consistency tools report zero confirmed/open/cooking/specialist items in their current rules, 40 documented exceptions across 39 recipes and no duplicate/stale entries. Food-handling tools report zero confirmed/open items, three specialist dependencies, two documented exceptions and no duplicate/stale entries. Those results do not close the separate historical 236-item editorial queue or establish cooking/safety evidence.
 
-Desktop Chromium passed the observed recipe/layout/untimed/withheld/no-image/Organization/home/cuisine/category cases through the category hub. Final mobile and remaining control results are unverified because the environment failed before retrieval. Google's Rich Results Test was not run for this branch; local validation is not Google validation.
+The recovered Chromium report confirms all 42 desktop/mobile page cases and both search/filter control flows passed, with zero failures, zero runtime errors and unchanged source/output inputs. Cases cover all six layouts, untimed and withheld-nutrition recipes, missing images, Organization photo credits, home, cuisine/category indexes, category combinations, ingredient hubs and search. Controls cover filters, quickest sort, search results, absent unsupported rating options and mobile navigation. Third-party requests were blocked only in the local test; production ads were preserved and compared separately. Google's Rich Results Test was not run for this branch; local/browser validation is not Google validation.
 
-The raw logs, browser report and original detailed CSV were in the disconnected workspace and could not be retrieved. Source was reconstructed through GitHub and every file matched its previously tested SHA256 exactly, then was fetched back from the published commit and checked again. [verification.json](verification.json) preserves these hashes and the completed summaries; it does not pretend to be recovered raw logs.
+During a temporary execution disconnection, source was safely reconstructed through GitHub: every file matched its previously tested SHA256 exactly, then was fetched back and checked again. After the environment recovered, the original logs, browser report and complete live CSV were retrieved and verified. [verification.json](verification.json) records the completed checks and hashes. [Evidence ZIP](WeeklyDelight-Indexing-Evidence.zip) contains raw reports/logs, exact live rows, original redirect evidence, static summaries and the complete browser report. The source worktree is synchronized with the published review branch; no source changed after its passing checks.
 
 ## Claude: exact remaining handoff
 [CLAUDE-HANDOFF.md](CLAUDE-HANDOFF.md) assigns integration steps and content review. [Authored timing CSV](authored-time-claims.csv) gives every one of the 37 still-present original phrases across 35 recipes, exact source paths, current record lines, fields and untimed evidence. [Full historical timing reconciliation](authored-time-reconciliation.json) retains all 72 old rows; 35 changed phrases are not silently closed.
 
-The separate 236-record queue remains stored as 231 open / five requires_specialist at its historical base. Current validators and historical editorial review measure different things. Review the 152 short-wait allocations, 15 acknowledged duplicate pairs, specialist/supplier/pH dependencies and 70 small collections on their evidence. Do not mass delete, redirect or noindex pages to reduce Search Console counts.
+The separate 236-record queue remains stored as 231 open / five requires_specialist at its historical base. Current validators and historical editorial review measure different things. Review the 152 short-wait allocations, [15 acknowledged duplicate pairs](duplicate-review.csv), specialist/supplier/pH dependencies and [70 small collections](small-collections-review.csv) on their evidence. Do not mass delete, redirect or noindex pages to reduce Search Console counts.
 
 ## Deployment and follow-up checklist
 1. Review this source commit and Claude's content dispositions. Claude integrates agreed changes on a separate review branch; do not import stale generated output or overwrite active content work.
 2. Run npm run build, npm run check, npm run selftest, relevant focused regressions and ad comparisons; repeat build and confirm no second-build date/output churn. Review generated file/date differences.
-3. Finish mobile/control tests, Google Rich Results Test on representative variants, and the incomplete live coverage when transport works. Hosting owner traces self307 evidence and verified crawler requests.
+3. Review the passing mobile/control report, run Google Rich Results Test on representative variants, and finish the incomplete live coverage when transport works. Hosting owner traces self307 evidence and verified crawler requests.
 4. Obtain owner approval before merging/deploying. Deploy complete generated pages/assets/sitemaps together; preserve URLs, design, monetization and error statuses.
 5. After deployment, verify correct production revision, robots and every sitemap, preferred-host deep redirects, representative schemas, missing-route 404s, and affected Search Console examples.
 6. Use Search Console for current Page indexing, Crawl Stats, selected canonical, manual actions, security and removals. Inspect a small useful set and request recrawl after meaningful fixes; avoid repeated bulk resubmission.
 7. Monitor subsequent Google crawl/indexing observations. Google controls discovery scheduling, canonical selection, inclusion and ranking; technical fixes cannot guarantee all pages or traffic.
 
 [Official Google comparison matrix](GOOGLE-GUIDANCE.md) lists sources and distinguishes confirmed defects, already-fixed issues and remaining unknowns.
+
+Downloads: [PDF handoff](WeeklyDelight-Indexing-Handoff.pdf), [full URL CSV](url-audit.csv), [before/after metadata](metadata-changes.csv), [evidence ZIP](WeeklyDelight-Indexing-Evidence.zip).
