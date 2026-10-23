@@ -2,39 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://weeklydelight.com/recipes/paneer-jalfrezi/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/paneer-jalfrezi.jpg</image:loc>
-      <image:title>Paneer Jalfrezi</image:title>
-      <image:caption>Paneer Jalfrezi</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/paneer-pakora/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/paneer-pakora.jpg</image:loc>
-      <image:title>Paneer Pakora</image:title>
-      <image:caption>Paneer Pakora</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/paneer-kofta/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/paneer-kofta.jpg</image:loc>
-      <image:title>Paneer Kofta</image:title>
-      <image:caption>Paneer Kofta</image:caption>
-    </image:image>
-  </url>
-  <url>
     <loc>https://weeklydelight.com/recipes/kala-chana/</loc>
     <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
@@ -5148,6 +5115,28 @@
       <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-pork-belly.jpg</image:loc>
       <image:title>Air Fryer Pork Belly</image:title>
       <image:caption>Air Fryer Pork Belly</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/air-fryer-quesadilla/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-quesadilla.jpg</image:loc>
+      <image:title>Air Fryer Quesadilla</image:title>
+      <image:caption>Air Fryer Quesadilla</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/air-fryer-spring-rolls/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-spring-rolls.jpg</image:loc>
+      <image:title>Air Fryer Spring Rolls</image:title>
+      <image:caption>Air Fryer Spring Rolls</image:caption>
     </image:image>
   </url>
 </urlset>

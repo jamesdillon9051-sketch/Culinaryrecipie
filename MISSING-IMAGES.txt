@@ -372,4 +372,4 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
 == Swedish (1) =========================================
   biff-a-la-lindstrom                Biff a la Lindstrom
 
-TOTAL 288 of 5511
+TOTAL 288 of 5499

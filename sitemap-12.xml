@@ -2,17 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://weeklydelight.com/recipes/fondant-au-chocolat/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/fondant-au-chocolat.jpg</image:loc>
-      <image:title>Fondant au Chocolat</image:title>
-      <image:caption>Fondant au Chocolat</image:caption>
-    </image:image>
-  </url>
-  <url>
     <loc>https://weeklydelight.com/recipes/savarin/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>

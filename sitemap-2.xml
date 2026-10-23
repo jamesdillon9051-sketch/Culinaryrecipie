@@ -464,17 +464,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://weeklydelight.com/recipes/pork-schnitzel/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/pork-schnitzel.jpg</image:loc>
-      <image:title>Pork Schnitzel</image:title>
-      <image:caption>Pork Schnitzel</image:caption>
-    </image:image>
-  </url>
-  <url>
     <loc>https://weeklydelight.com/recipes/soft-pretzels/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -3247,17 +3236,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://weeklydelight.com/recipes/lamb-rogan-josh/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/lamb-rogan-josh.jpg</image:loc>
-      <image:title>Lamb Rogan Josh</image:title>
-      <image:caption>Lamb Rogan Josh</image:caption>
-    </image:image>
-  </url>
-  <url>
     <loc>https://weeklydelight.com/recipes/dal-makhani/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -3310,17 +3288,6 @@
       <image:loc>https://weeklydelight.com/assets/img/recipes/misal-pav.jpg</image:loc>
       <image:title>Misal Pav</image:title>
       <image:caption>Misal Pav</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/naan/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/naan.jpg</image:loc>
-      <image:title>Garlic Naan</image:title>
-      <image:caption>Garlic Naan</image:caption>
     </image:image>
   </url>
   <url>
@@ -4190,17 +4157,6 @@
       <image:loc>https://weeklydelight.com/assets/img/recipes/knafeh-nabulsi.jpg</image:loc>
       <image:title>Knafeh Nabulsi</image:title>
       <image:caption>Knafeh Nabulsi</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/chicken-tagine-olives/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-tagine-olives.jpg</image:loc>
-      <image:title>Chicken Tagine with Olives</image:title>
-      <image:caption>Chicken Tagine with Olives</image:caption>
     </image:image>
   </url>
   <url>
@@ -5378,6 +5334,39 @@
       <image:loc>https://weeklydelight.com/assets/img/recipes/baked-eggs-spinach-feta.jpg</image:loc>
       <image:title>Baked Eggs with Spinach and Feta</image:title>
       <image:caption>Baked Eggs with Spinach and Feta</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/kutia/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kutia.jpg</image:loc>
+      <image:title>Kutia</image:title>
+      <image:caption>Kutia</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/vanocka/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/vanocka.jpg</image:loc>
+      <image:title>Vánočka</image:title>
+      <image:caption>Vánočka</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/julekake/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/julekake.jpg</image:loc>
+      <image:title>Julekake</image:title>
+      <image:caption>Julekake</image:caption>
     </image:image>
   </url>
 </urlset>

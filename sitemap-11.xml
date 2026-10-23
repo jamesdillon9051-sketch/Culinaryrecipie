@@ -2,28 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://weeklydelight.com/recipes/air-fryer-quesadilla/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-quesadilla.jpg</image:loc>
-      <image:title>Air Fryer Quesadilla</image:title>
-      <image:caption>Air Fryer Quesadilla</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/air-fryer-spring-rolls/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-spring-rolls.jpg</image:loc>
-      <image:title>Air Fryer Spring Rolls</image:title>
-      <image:caption>Air Fryer Spring Rolls</image:caption>
-    </image:image>
-  </url>
-  <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-stuffed-peppers/</loc>
     <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -5143,6 +5121,17 @@
       <image:loc>https://weeklydelight.com/assets/img/recipes/gateau-de-savoie.jpg</image:loc>
       <image:title>Gateau de Savoie</image:title>
       <image:caption>Gateau de Savoie</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/fondant-au-chocolat/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/fondant-au-chocolat.jpg</image:loc>
+      <image:title>Fondant au Chocolat</image:title>
+      <image:caption>Fondant au Chocolat</image:caption>
     </image:image>
   </url>
 </urlset>
