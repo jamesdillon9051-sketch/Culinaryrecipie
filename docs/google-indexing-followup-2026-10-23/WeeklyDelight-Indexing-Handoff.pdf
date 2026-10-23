@@ -1,0 +1,612 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R 10 0 R 12 0 R] /Count 5 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 3520 >>
+stream
+BT
+/F1 10 Tf
+13.4 TL
+39 800 Td
+(Weekly Delight: Google indexing follow-up) Tj
+T*
+(23 October 2026  -  Review only  -  No merge or deployment) Tj
+T*
+() Tj
+T*
+(Result and current repository state) Tj
+T*
+(The shared technical defects that could be safely fixed in source are corrected and) Tj
+T*
+(tested on audit/google-indexing-followup-2026-10-22. Source commit:) Tj
+T*
+(e822110d7075d4f2917559b465a1d15ac61f23c7) Tj
+T*
+(\(https://github.com/jamesdillon9051-sketch/Culinaryrecipie/commit/e822110d7075d4f2917) Tj
+T*
+(559b465a1d15ac61f23c7\).) Tj
+T*
+() Tj
+T*
+(Base/main: 9ebb8489fcd60909be13623c24b25a86b5dbd115, rechecked through GitHub after) Tj
+T*
+(the execution environment failed. PR #26 merged on 22 October at 20:14:52 UTC. Its) Tj
+T*
+(photo work, eight diet-label removals and egg-yolk correction are already in main.) Tj
+T*
+(The older "not merged" passages in docs/HANDOFF.md are dated history. PR #21 remains) Tj
+T*
+(an open draft at 21c77888338d683e58ed5a998da6db76ca62e5c4; its small optional) Tj
+T*
+(step-name correction is included here without importing its old tools/check.js.) Tj
+T*
+() Tj
+T*
+(Claude owns recipe content, food-safety dispositions and final combined regeneration.) Tj
+T*
+(Codex owns these technical sources/tests and independent review. No catalogue/detail) Tj
+T*
+(file, photo, advertising configuration or generated production page was committed by) Tj
+T*
+(this follow-up.) Tj
+T*
+() Tj
+T*
+(A local build cannot establish Google's indexing decision. No individual URL is) Tj
+T*
+(labelled indexed in this report.) Tj
+T*
+() Tj
+T*
+(Coverage and reconciliation) Tj
+T*
+(   Source / page type    Exact count   ) Tj
+T*
+() Tj
+T*
+(   Recipe source records and generated recipe pages    5,515   ) Tj
+T*
+(   Categories    10   ) Tj
+T*
+(   Category/cuisine combinations    193   ) Tj
+T*
+(   Cuisines    92   ) Tj
+T*
+(   Ingredient hubs    51   ) Tj
+T*
+(   Other intended indexable routes    10   ) Tj
+T*
+(   Intended indexable catalogue total    5,871   ) Tj
+T*
+(   Unique URLs across all 12 child sitemaps    5,871   ) Tj
+T*
+(   Ordinary followable HTML link edges    250,155   ) Tj
+T*
+(   Orphan intended routes / broken internal links    0 / 0   ) Tj
+T*
+(   Maximum shortest navigation depth from home    2   ) Tj
+T*
+(   Fragment links / unique checked targets    33,821 / 16,918   ) Tj
+T*
+(   Non-ad HTML files checked    5,875   ) Tj
+T*
+(   Additional intentional noindex ad-frame files    3   ) Tj
+T*
+(   Historical Search Console export rows    1,000   ) Tj
+T*
+() Tj
+T*
+(The four non-ad utility/error pages outside the sitemap intentionally use noindex.) Tj
+T*
+(All 5,871 intended routes have their expected preferred HTTPS non-www canonical,) Tj
+T*
+(substantive initial HTML, unique identity and no accidental noindex/contradictory) Tj
+T*
+(local robots directives. Declared local image files exist. Every intended route is) Tj
+T*
+(reachable with normal anchor links, so client filtering, search actions and "Show) Tj
+T*
+(more" are not the sole discovery path. No new giant link lists or artificial) Tj
+T*
+(pagination were added.) Tj
+T*
+() Tj
+T*
+(All 1,000 supplied Search Console examples map to the intended catalogue: 920) Tj
+T*
+(recipes, 40 category combinations, 19 cuisines, 17 ingredients, one category and) Tj
+T*
+(three other pages. Metadata calls the issue "Discovered - currently not indexed"; row) Tj
+T*
+("Pending" is validation state. "1970-01-01" is an unavailable/sentinel crawl value,) Tj
+ET
+BT
+/F1 8 Tf
+39 25 Td
+(Weekly Delight - 23 October 2026 - Review only - Page 1 of 5) Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 3596 >>
+stream
+BT
+/F1 10 Tf
+13.4 TL
+39 800 Td
+(not an actual 1970 crawl.) Tj
+T*
+() Tj
+T*
+(Historical screenshots described 2,982 excluded URLs; 1,982 of those historical) Tj
+T*
+(affected identities were not supplied. Neither the rest of the catalogue nor the) Tj
+T*
+(unlisted 1,982 are confirmed currently unindexed. No individual confirmed-indexed) Tj
+T*
+(comparison URLs or fresh account-level reports were supplied; a recent) Tj
+T*
+(decline/deindexing cannot be established from this evidence.) Tj
+T*
+() Tj
+T*
+(URL-level CSV \(url-audit.csv\) covers all 5,871 intended URLs. It is a conservative) Tj
+T*
+(recovery after workspace loss, not a fresh crawl. Individual recipe HTTP-row mapping) Tj
+T*
+(was not recoverable: it records that limitation instead of assigning 860 group) Tj
+T*
+(successes to guessed URLs. All 356 nonrecipe URL successes are identifiable, and the) Tj
+T*
+(retained baked-peaches live observation is identified separately. Per-URL current) Tj
+T*
+(Google status remains unknown.) Tj
+T*
+() Tj
+T*
+(Confirmed source defects and fixes) Tj
+T*
+(   Defect    Scope and fix   ) Tj
+T*
+() Tj
+T*
+(   Generated "in N minutes" / "Ready in" promises ignored an explicitly unquantified) Tj
+T*
+(required stage    Gate generated title/description timing clauses on quantified) Tj
+T*
+(complete elapsed time. All 443 untimed recipes are covered. Authored claims remain) Tj
+T*
+(separately assigned to Claude.   ) Tj
+T*
+(   Shared description padding promised nutrition where the page withheld figures   ) Tj
+T*
+(Split truthful general collection clauses from recipe-only nutrition clauses, used) Tj
+T*
+(only for tiers that display calculated figures. All 1,051 withheld-nutrition recipes) Tj
+T*
+(are guarded; 48 formerly emitted unsupported nutrition promises become zero. No) Tj
+T*
+(figures invented.   ) Tj
+T*
+(   Ingredient-hub minimum time used prep + cook, excluding waits    Use positive) Tj
+T*
+(finite complete elapsedTime and exclude explicitly untimed recipes from the claimed) Tj
+T*
+(minimum. An entirely untimed hub makes no numeric minimum promise.   ) Tj
+T*
+(   Cuisine index claimed "Twenty-nine cuisines" while listing 92    Derive the) Tj
+T*
+(heading from the actual rendered cuisine list.   ) Tj
+T*
+(   Category metadata/lede promised interactive filters on static hubs    Describe) Tj
+T*
+(cuisine browsing and the real linked full recipe directory's filters.   ) Tj
+T*
+(   HowToStep.name was "Step 1", "Step 2", etc.    Omit this optional field across all) Tj
+T*
+(31,893 instructions. Keep the complete visible text, order and fragment URL; do not) Tj
+T*
+(invent action headings.   ) Tj
+T*
+(   Duplicate audit success text implied there were no duplicate candidates despite 15) Tj
+T*
+(acknowledged exceptions    Report no new rule matches and explicitly state the 15) Tj
+T*
+(historical pairs still need editorial comparison. No rule, allowlist or warning was) Tj
+T*
+(weakened.   ) Tj
+T*
+() Tj
+T*
+(Changed source/test files:) Tj
+T*
+(- src/lib/seo.js) Tj
+T*
+(- src/build.js) Tj
+T*
+(- src/templates/pages.js) Tj
+T*
+(- src/templates/recipe-page.js) Tj
+T*
+(- tools/check.js) Tj
+T*
+(- tools/duplicates-audit.js) Tj
+T*
+(- tools/seo-claims-test.js \(new\)) Tj
+T*
+(- tools/taxonomy-metadata-test.js \(new\)) Tj
+T*
+(- tools/recipe-step-schema-test.js \(new\)) Tj
+T*
+() Tj
+T*
+(Google recommends short action summaries for optional step names, excluding numbered) Tj
+T*
+(labels: Recipe structured-data guidance) Tj
+T*
+(\(https://developers.google.com/search/docs/appearance/structured-data/recipe#how-to-s) Tj
+ET
+BT
+/F1 8 Tf
+39 25 Td
+(Weekly Delight - 23 October 2026 - Review only - Page 2 of 5) Tj
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 4012 >>
+stream
+BT
+/F1 10 Tf
+13.4 TL
+39 800 Td
+(tep\).) Tj
+T*
+() Tj
+T*
+(Duplicate Recipe investigation) Tj
+T*
+(The historical baked-peaches screenshot appeared to show two Recipe entities. Current) Tj
+T*
+(original HTML for that URL, byte-equal to main when fetched successfully, contains) Tj
+T*
+(one Recipe JSON-LD and no Recipe microdata/RDFa. The accidental shared microdata) Tj
+T*
+(entity was already removed in merged PR #17. Catalogue-wide source checks also find) Tj
+T*
+(one primary Recipe on every recipe page. The six shared layouts and additional) Tj
+T*
+(untimed/no-image/Organization-photo variants pass serialization checks; observed) Tj
+T*
+(desktop Chromium cases also pass.) Tj
+T*
+() Tj
+T*
+(Breadcrumb and Organization information remains. Every Recipe schema property except) Tj
+T*
+(the optional generic step names is unchanged across all 5,515 generated recipes,) Tj
+T*
+(including author, image, ingredients, instructions, yield, timing and dateModified.) Tj
+T*
+(No reviews, ratings, nutrition, videos, step images or cooking experience were) Tj
+T*
+(fabricated.) Tj
+T*
+() Tj
+T*
+(Google's current required recipe-rich-result fields include a relevant image. There) Tj
+T*
+(are 5,126 real-photo heroes, 101 disclosed legacy illustration heroes and 288 recipes) Tj
+T*
+(without a hero. Missing image-required eligibility is reported honestly; it is not by) Tj
+T*
+(itself proof that ordinary web indexing is blocked. No unrelated social card or) Tj
+T*
+(nonexistent image URL was substituted.) Tj
+T*
+() Tj
+T*
+(Live findings and unresolved hosting behavior) Tj
+T*
+(On 22 October, 61 unique URLs produced 80 observations: 60 HTTP 200, 16 HTTP 307, two) Tj
+T*
+(HTTP 301 and two HTTP 404. The 16 temporary redirects spanned ten URLs and repeated) Tj
+T*
+(the requested URL as Location, including robots, sitemap and deep-page observations.) Tj
+T*
+(Some requests alternated between 200 and 307. These need hosting tracing; repository) Tj
+T*
+(.htaccess uses 301 rules and does not explain a 307 loop. The generating) Tj
+T*
+(CDN/upstream/intermediary and Googlebot impact are unverified.) Tj
+T*
+() Tj
+T*
+(All 12 child sitemaps eventually returned well-formed XML equal to main, with 5,871) Tj
+T*
+(unique preferred canonicals. A successful fetch does not erase the intermittent) Tj
+T*
+(redirect evidence. Missing test routes returned proper 404/noindex. Ten declared) Tj
+T*
+(images returned 200 and decoded; CDN WebP content negotiation was not treated as) Tj
+T*
+(stale-byte evidence. No origin 403, 429, unexpected authentication/challenge or) Tj
+T*
+(origin 5xx was confirmed in the initial probe.) Tj
+T*
+() Tj
+T*
+(The 23 October full-catalogue run used four workers, approximately 4.88 ordinary) Tj
+T*
+(requests/second, no Googlebot spoofing and no bypasses. All 356 nonrecipe routes and) Tj
+T*
+(860 recipes returned correct 200 HTML: 1,216 successes, zero source/body differences) Tj
+T*
+(or origin-confirmed issues. Then the execution proxy failed while requesting) Tj
+T*
+(/recipes/canederli/, reporting an envoy cloudflare_https_tunnel transport error. This) Tj
+T*
+(is not a confirmed website HTTP 503. The run stopped: 4,654 URLs were not requested) Tj
+T*
+(and one origin response was unavailable, leaving 4,655 origin-unknown URLs. A single) Tj
+T*
+(ordinary robots recovery control at 03:36:16 UTC reproduced the proxy failure; no) Tj
+T*
+(more site requests followed.) Tj
+T*
+() Tj
+T*
+(The execution environment later disconnected entirely with HTTP 409) Tj
+T*
+(environment_offline. Authenticated hPanel access and Googlebot logs are unavailable.) Tj
+T*
+(Hostinger investigation and support draft \(HOSTINGER-HANDOFF.md\) includes retained) Tj
+T*
+(times/request IDs and conditional settings instructions. No hosting setting was) Tj
+T*
+(changed and no support message was sent.) Tj
+T*
+() Tj
+T*
+(Verification: completed versus unavailable) Tj
+T*
+(The exact nine source files passed an isolated build, full check and repeat build) Tj
+ET
+BT
+/F1 8 Tf
+39 25 Td
+(Weekly Delight - 23 October 2026 - Review only - Page 3 of 5) Tj
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 3903 >>
+stream
+BT
+/F1 10 Tf
+13.4 TL
+39 800 Td
+(before disconnection:) Tj
+T*
+(- Build passed \(31.21 s\); full check passed \(313.11 s\): 5,875 HTML, 5,871 sitemap) Tj
+T*
+(URLs, 5,515 search records.) Tj
+T*
+(- Repeat build passed \(29.97 s\), changing zero of 17,341 files or date/hash records.) Tj
+T*
+(- Advertising comparison passed against both main base 9ebb8489 and ac8dbc13.) Tj
+T*
+(- Focused regressions passed: 5,515 recipes; 443 untimed and 1,051 withheld-nutrition) Tj
+T*
+(recipes; 31,893 instructions; nine serialized variants; dynamic cuisine/category) Tj
+T*
+(metadata and hub wait-time cases.) Tj
+T*
+(- git diff --check passed; independent code review found no blockers.) Tj
+T*
+(- Search records/real-review gating are already in merged main. The highest-rated) Tj
+T*
+(option is hidden without actual published reviews; no seeded ratings are added by) Tj
+T*
+(this branch.) Tj
+T*
+() Tj
+T*
+(Expected regenerated differences: 427 descriptions, 26 titles \(444 URLs in their) Tj
+T*
+(union\), one H1 and 31,893 optional step names. Zero recipe content date/hash changes;) Tj
+T*
+(291 collection date/hash records change because their rendered metadata/navigation) Tj
+T*
+(changed. Rebuilding again does not refresh dates. No recipeMarkup version bump or) Tj
+T*
+(blanket lastmod update was introduced.) Tj
+T*
+() Tj
+T*
+(Fresh recipe-consistency tools report zero confirmed/open/cooking/specialist items in) Tj
+T*
+(their current rules, 40 documented exceptions across 39 recipes and no) Tj
+T*
+(duplicate/stale entries. Food-handling tools report zero confirmed/open items, three) Tj
+T*
+(specialist dependencies, two documented exceptions and no duplicate/stale entries.) Tj
+T*
+(Those results do not close the separate historical 236-item editorial queue or) Tj
+T*
+(establish cooking/safety evidence.) Tj
+T*
+() Tj
+T*
+(Desktop Chromium passed the observed) Tj
+T*
+(recipe/layout/untimed/withheld/no-image/Organization/home/cuisine/category cases) Tj
+T*
+(through the category hub. Final mobile and remaining control results are unverified) Tj
+T*
+(because the environment failed before retrieval. Google's Rich Results Test was not) Tj
+T*
+(run for this branch; local validation is not Google validation.) Tj
+T*
+() Tj
+T*
+(The raw logs, browser report and original detailed CSV were in the disconnected) Tj
+T*
+(workspace and could not be retrieved. Source was reconstructed through GitHub and) Tj
+T*
+(every file matched its previously tested SHA256 exactly, then was fetched back from) Tj
+T*
+(the published commit and checked again. verification.json \(verification.json\)) Tj
+T*
+(preserves these hashes and the completed summaries; it does not pretend to be) Tj
+T*
+(recovered raw logs.) Tj
+T*
+() Tj
+T*
+(Claude: exact remaining handoff) Tj
+T*
+(CLAUDE-HANDOFF.md \(CLAUDE-HANDOFF.md\) assigns integration steps and content review.) Tj
+T*
+(Authored timing CSV \(authored-time-claims.csv\) gives every one of the 37) Tj
+T*
+(still-present original phrases across 35 recipes, exact source paths, current record) Tj
+T*
+(lines, fields and untimed evidence. Full historical timing reconciliation) Tj
+T*
+(\(authored-time-reconciliation.json\) retains all 72 old rows; 35 changed phrases are) Tj
+T*
+(not silently closed.) Tj
+T*
+() Tj
+T*
+(The separate 236-record queue remains stored as 231 open / five requires_specialist) Tj
+T*
+(at its historical base. Current validators and historical editorial review measure) Tj
+T*
+(different things. Review the 152 short-wait allocations, 15 acknowledged duplicate) Tj
+T*
+(pairs, specialist/supplier/pH dependencies and 70 small collections on their) Tj
+T*
+(evidence. Do not mass delete, redirect or noindex pages to reduce Search Console) Tj
+T*
+(counts.) Tj
+T*
+() Tj
+T*
+(Deployment and follow-up checklist) Tj
+T*
+(1. Review this source commit and Claude's content dispositions. Claude integrates) Tj
+ET
+BT
+/F1 8 Tf
+39 25 Td
+(Weekly Delight - 23 October 2026 - Review only - Page 4 of 5) Tj
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R >> >> /Contents 13 0 R >>
+endobj
+13 0 obj
+<< /Length 1778 >>
+stream
+BT
+/F1 10 Tf
+13.4 TL
+39 800 Td
+(agreed changes on a separate review branch; do not import stale generated output or) Tj
+T*
+(overwrite active content work.) Tj
+T*
+(2. Run npm run build, npm run check, npm run selftest, relevant focused regressions) Tj
+T*
+(and ad comparisons; repeat build and confirm no second-build date/output churn.) Tj
+T*
+(Review generated file/date differences.) Tj
+T*
+(3. Finish mobile/control tests, Google Rich Results Test on representative variants,) Tj
+T*
+(and the incomplete live coverage when transport works. Hosting owner traces self307) Tj
+T*
+(evidence and verified crawler requests.) Tj
+T*
+(4. Obtain owner approval before merging/deploying. Deploy complete generated) Tj
+T*
+(pages/assets/sitemaps together; preserve URLs, design, monetization and error) Tj
+T*
+(statuses.) Tj
+T*
+(5. After deployment, verify correct production revision, robots and every sitemap,) Tj
+T*
+(preferred-host deep redirects, representative schemas, missing-route 404s, and) Tj
+T*
+(affected Search Console examples.) Tj
+T*
+(6. Use Search Console for current Page indexing, Crawl Stats, selected canonical,) Tj
+T*
+(manual actions, security and removals. Inspect a small useful set and request recrawl) Tj
+T*
+(after meaningful fixes; avoid repeated bulk resubmission.) Tj
+T*
+(7. Monitor subsequent Google crawl/indexing observations. Google controls discovery) Tj
+T*
+(scheduling, canonical selection, inclusion and ranking; technical fixes cannot) Tj
+T*
+(guarantee all pages or traffic.) Tj
+T*
+() Tj
+T*
+(Official Google comparison matrix \(GOOGLE-GUIDANCE.md\) lists sources and) Tj
+T*
+(distinguishes confirmed defects, already-fixed issues and remaining unknowns.) Tj
+T*
+() Tj
+ET
+BT
+/F1 8 Tf
+39 25 Td
+(Weekly Delight - 23 October 2026 - Review only - Page 5 of 5) Tj
+ET
+endstream
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000141 00000 n 
+0000000209 00000 n 
+0000000341 00000 n 
+0000003912 00000 n 
+0000004044 00000 n 
+0000007691 00000 n 
+0000007823 00000 n 
+0000011886 00000 n 
+0000012020 00000 n 
+0000015975 00000 n 
+0000016109 00000 n 
+trailer
+<< /Size 14 /Root 1 0 R >>
+startxref
+17939
+%%EOF
