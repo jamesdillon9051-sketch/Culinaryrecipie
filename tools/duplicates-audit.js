@@ -94,4 +94,5 @@ for (const r of recipes) {
 
 for (const f of failures) console.log(`  ✗ ${f}`);
 if (failures.length) process.exit(1);
-console.log(`No two of ${catalog.length} recipes are the same dish, share their method, or carry placeholder text.`);
+console.log(`No unacknowledged duplicate-rule matches, copied-method violations or placeholder text found across ${catalog.length} recipes.`);
+console.log(`${KNOWN.size} historical catalogue pairs remain acknowledged exceptions; compare their ingredients and methods editorially before considering consolidation.`);

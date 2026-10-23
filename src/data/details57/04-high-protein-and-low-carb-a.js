@@ -386,7 +386,7 @@ module.exports = {
   'low-carb-granola': {
     untimed: ['cooling completely'],
     d: 'A crunchy granola of almonds, pecans, seeds and unsweetened coconut, bound with egg white and lightly sweetened with maple syrup.',
-    meta: 'Low-carb granola with nuts, seeds and coconut, baked for 25 minutes at 160C. Ten servings, ready in 35 minutes.',
+    meta: 'Low-carb granola with nuts, seeds and coconut, baked for 25 minutes at 160C. Ten servings, ready in 35 minutes, plus cooling.',
     kw: ['low carb granola', 'nut and seed granola', 'granola without oats', 'baked nut granola', 'crunchy coconut granola'],
     why: 'Keep the heat low. That is most of the recipe, and the part people skip. Nuts and coconut go from golden to burnt in a minute or two, and a slow bake at 160C gives them time to dry out and crisp evenly.\n\nThere are no oats here, so the crunch comes from chopped almonds and pecans, pumpkin and sunflower seeds, and flaked coconut. A beaten egg white is the secret to clusters: it dries into a thin, crisp glaze that holds the pieces together. Mix it into the nuts thoroughly. A small amount of maple syrup adds flavour and colour; with ten servings it contributes little carbohydrate. **Stir the granola once, halfway through**, and press it down afterwards to form larger pieces.\n\nIt will feel soft when it comes out of the oven and crisp as it cools, so leave it alone on the tray until completely cold. Breaking it up before it has cooled gives crumbs, not clusters. Store in a jar and eat with yoghurt or milk.',
     ing: [

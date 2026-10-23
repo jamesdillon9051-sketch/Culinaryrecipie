@@ -82,7 +82,7 @@ module.exports = {
   'gluten-free-crackers': {
     untimed: ['cooling on the tray'],
     d: 'Thin, crisp rosemary and sesame crackers made from a gluten-free flour blend and olive oil, baked for 20 minutes at 180C.',
-    meta: 'Gluten-free crackers with rosemary and sesame, baked for 20 minutes at 180C. Makes about 40, ready in 35 minutes.',
+    meta: 'Gluten-free crackers with rosemary and sesame, baked for 20 minutes at 180C. Makes about 40, ready in 35 minutes, plus cooling.',
     kw: ['gluten free crackers', 'homemade crackers without wheat', 'rosemary sesame crackers', 'gluten free cheese board crackers', 'baked gluten free crackers'],
     why: 'For a cheese board, a batch of home-made crackers is made in the time it takes the oven to heat. This one is flour, oil, water and seasoning, so there is nothing in the cupboard that has to be bought specially except the flour blend.\n\nThe point is thinness. A cracker rolled to 2 mm snaps; one rolled to 5 mm is a biscuit. **Roll between two sheets of baking paper** so the dough does not stick and does not need extra flour, which would toughen it. Score the sheet into squares before baking, then break along the lines when cool.\n\nWatch the edges. They brown first and the middle lags behind, so if the tray has darker rims after 15 minutes, pull the outer crackers off and give the rest a few minutes more. Crackers crisp further as they cool, so if one is a little soft straight from the oven, wait.',
     ing: [

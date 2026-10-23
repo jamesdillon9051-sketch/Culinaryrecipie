@@ -1,0 +1,182 @@
+{
+  "schema_version": 2,
+  "report_date": "2026-10-23",
+  "repository": "jamesdillon9051-sketch/Culinaryrecipie",
+  "base_commit": "9ebb8489fcd60909be13623c24b25a86b5dbd115",
+  "source_commit": "e822110d7075d4f2917559b465a1d15ac61f23c7",
+  "branch": "audit/google-indexing-followup-2026-10-22",
+  "provenance": "Exact tested source hashes matched after GitHub publication. Execution recovered; original raw verification logs, full live URL records and complete browser report retrieved and archived.",
+  "source_sha256": {
+    "src/build.js": "f67bf2aa94315b710eb58ee0124ff4cc7da653f1e4e202f5602d62b759f25b97",
+    "src/lib/seo.js": "e85992b767e7edc8dcda097e6d50d81d620259d3895aef3bca96eef2ad11a0c8",
+    "src/templates/pages.js": "820e10cdf364c191fabaa9c84090a9b0baef9f04578f3d75924852e1d587f5e4",
+    "src/templates/recipe-page.js": "dc08be93dcb9e21bfcd51dae684fdb3629a579aaf01e0c143210886ac3737356",
+    "tools/check.js": "55492fe35364ef9929b6a54d6a2a99cfd3834c06d86039330eaa9d7b61118e92",
+    "tools/duplicates-audit.js": "73de08cbc3de826da70f1137576b6c3b4766207ca9ee4e414ec8acb33c0ff680",
+    "tools/recipe-step-schema-test.js": "936f1e00f99f05247e1b615483b685c11dbf44bc3a383b4595bf63af5841ecde",
+    "tools/seo-claims-test.js": "da9f59c8e863907e5c18b764dc7c622aec648ad4553809da3fd98e101d94f0cf",
+    "tools/taxonomy-metadata-test.js": "f4a2de149e921e11dab38c8010d30081e419f83019cc5438a77423aa41856d04"
+  },
+  "build": {
+    "command": "npm run build",
+    "passed": true,
+    "seconds": 31.21
+  },
+  "check": {
+    "command": "npm run check",
+    "passed": true,
+    "seconds": 313.11,
+    "html": 5875,
+    "sitemap_urls": 5871,
+    "search_records": 5515
+  },
+  "rebuild": {
+    "command": "npm run build",
+    "passed": true,
+    "seconds": 29.97,
+    "compared_files": 17341,
+    "changed_files": 0,
+    "changed_date_records": 0
+  },
+  "advertising": {
+    "unchanged": true,
+    "against": [
+      "9ebb8489fcd60909be13623c24b25a86b5dbd115",
+      "ac8dbc13"
+    ]
+  },
+  "source_only_review_branch": true,
+  "recipe_content_edited": false,
+  "generated_output_committed": false,
+  "production_merged": false,
+  "deployed": false,
+  "expected_generated_changes": {
+    "title_urls": 26,
+    "description_urls": 427,
+    "title_or_description_urls": 444,
+    "h1": 1,
+    "optional_generic_step_names_removed": 31893,
+    "other_recipe_schema_changes": 0,
+    "recipe_date_hash_changes": 0,
+    "collection_date_hash_changes": 291
+  },
+  "static": {
+    "intended_urls": 5871,
+    "recipes": 5515,
+    "categories": 10,
+    "category_combinations": 193,
+    "cuisines": 92,
+    "ingredients": 51,
+    "other": 10,
+    "child_sitemaps": 12,
+    "unique_sitemap_urls": 5871,
+    "orphan_urls": 0,
+    "max_html_navigation_depth": 2,
+    "followable_html_edges": 250155,
+    "fragment_links": 33821,
+    "unique_fragment_targets": 16918,
+    "canonical_errors": 0,
+    "accidental_noindex": 0,
+    "broken_internal_links": 0,
+    "duplicate_recipe_entities": 0,
+    "recipe_microdata_entities": 0,
+    "recipe_rdfa_entities": 0,
+    "missing_declared_image_files": 0,
+    "recipes_without_hero": 288,
+    "legacy_illustration_heroes": 101,
+    "real_photo_heroes": 5126,
+    "small_collections_1_to_5_recipes": 70
+  },
+  "search_console": {
+    "historical_export_rows": 1000,
+    "historical_screenshot_exclusions": 2982,
+    "historical_excluded_urls_not_supplied": 1982,
+    "current_individual_indexed_urls_confirmed": 0,
+    "current_google_indexing_statuses": "unknown"
+  },
+  "live": {
+    "attempt_date": "2026-10-23",
+    "target_urls": 5871,
+    "verified_origin_200": 1216,
+    "verified_nonrecipes": 356,
+    "verified_recipes": 860,
+    "origin_html_differences": 0,
+    "origin_verified_issues": 0,
+    "proxy_transport_failures": 1,
+    "not_requested": 4654,
+    "origin_unknown": 4655,
+    "complete_origin_live_coverage": false,
+    "proxy_failure_url": "https://weeklydelight.com/recipes/canederli/",
+    "stop_reason": "envoy cloudflare_https_tunnel transport failure; this was not a confirmed origin HTTP503",
+    "robots_recovery_control": "2026-10-23T03:36:16Z: same proxy failure; no further weeklydelight requests"
+  },
+  "historical_live": {
+    "date": "2026-10-22",
+    "unique_urls": 61,
+    "observations": 80,
+    "http_counts": {
+      "200": 60,
+      "301": 2,
+      "307": 16,
+      "404": 2
+    },
+    "self_redirect_observations": 16,
+    "self_redirect_unique_urls": 10,
+    "attribution": "unresolved; repository rules declare301, not307. HCDN request IDs available for host tracing. Googlebot impact unverified"
+  },
+  "review_tools": {
+    "recipe_consistency": {
+      "recipes": 5515,
+      "confirmed": 0,
+      "review": 0,
+      "requires_cooking": 0,
+      "requires_specialist": 0,
+      "valid_exceptions": 40,
+      "exception_recipes": 39,
+      "duplicate_entries": 0,
+      "stale_entries": 0
+    },
+    "food_handling": {
+      "confirmed": 0,
+      "review": 0,
+      "requires_specialist": 3,
+      "requires_cooking": 0,
+      "valid_exceptions": 2,
+      "duplicate_entries": 0,
+      "stale_entries": 0
+    },
+    "historical_editorial_queue": {
+      "records": 236,
+      "stored_open": 231,
+      "stored_requires_specialist": 5,
+      "current_automated_pass_does_not_close_queue": true
+    },
+    "authored_time_claims_remaining": {
+      "records": 37,
+      "recipes": 35
+    },
+    "acknowledged_duplicate_pairs": 15
+  },
+  "browser": {
+    "independent_code_review": "passed, no blockers",
+    "html_template_regression": "passed:6layouts plus untimed/noimage/Organization-photo,9renderedvariants",
+    "chromium_desktop_observed": "complete and passed",
+    "mobile_and_remaining_controls": "complete and passed",
+    "google_rich_results_test": "not run for this review branch",
+    "authenticated_search_console": "not available",
+    "chromium_page_cases": 42,
+    "failed_cases": 0,
+    "control_flows": 2,
+    "failed_flows": 0,
+    "runtime_errors": [],
+    "inputs_unchanged": true,
+    "started_at": "2026-10-23T03:39:42.689Z",
+    "finished_at": "2026-10-23T03:40:25.098Z"
+  },
+  "recovered_csv": {
+    "rows": 5871,
+    "http_mapping": "Original JSONL/CSV recovered and validated; all1216successes individually identified;4655origins explicitly unverified.",
+    "not_a_fresh_crawl": true
+  },
+  "evidence_archive": "WeeklyDelight-Indexing-Evidence.zip"
+}

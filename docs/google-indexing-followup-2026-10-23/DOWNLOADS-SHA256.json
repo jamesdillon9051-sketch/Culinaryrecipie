@@ -1,0 +1,16 @@
+{
+  ".gitattributes": "d573c6c667f2992cf4289e5520e4f2a3ca34181d28b6b170027a1be50e7572db",
+  "CLAUDE-HANDOFF.md": "30e128e615435f1ecebff68ef9fbd53d335b78e8393ae80f390522fd3a2da254",
+  "GOOGLE-GUIDANCE.md": "7285bf26504bf289b3dce66e1ee88fb62ee08bf8c12036a2fd4a205b5b271384",
+  "HOSTINGER-HANDOFF.md": "54f95f50b298b67fd93a8eb64380769be6677af72dabb8fdc5bd0364ee736dbf",
+  "README.md": "f33109cdab07002b19a866455dc22bf3e3cd3a5169b14ae198c39965e6560b4b",
+  "WeeklyDelight-Indexing-Evidence.zip": "6aa096cf2087de7e4a67302952979b37a05162f84d2b9ccf8d557c9ac4f9dbef",
+  "WeeklyDelight-Indexing-Handoff.pdf": "bb8b6d91fd3beac575a62f20d079bbfa30b0278a41030f3292842712cc70f945",
+  "authored-time-claims.csv": "e745427256fa3ae4c57a3629dde1671a594d2b7e49da6cbdae8abbee17679f5f",
+  "authored-time-reconciliation.json": "d0472ea7700f5e6fc43b841ae8bbdd7e7b45138fcb76b9f6ff61206ae015ef27",
+  "duplicate-review.csv": "590e1c0667ac538408ec1484151e07dcb3567243ee30fa8d4dc765e7ed92b577",
+  "metadata-changes.csv": "675c0d421afa99620daab622121b5f0e6f667975c9999f5dea3b370a2177c000",
+  "small-collections-review.csv": "77b6a82763b3d2334bbe20c28717998eae8a0a6b744489545f1226c1b27b3c1e",
+  "url-audit.csv": "15ec6abe0502e3a430e1f2177907fd9424040b95cf48b09d0d29c5812cbaa83d",
+  "verification.json": "23969c6a2316737c3a16275c6242771f5d5a5840819c71fd6fb2b82b768a861a"
+}

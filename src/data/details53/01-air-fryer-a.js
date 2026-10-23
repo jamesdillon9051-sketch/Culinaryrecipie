@@ -81,7 +81,7 @@ module.exports = {
   'air-fryer-brownies': {
     untimed: ['cooling completely'],
     d: 'Fudgy chocolate brownies baked in a small tin in the air fryer for 20 minutes, with a crackled top and a soft centre.',
-    meta: 'Air fryer brownies: fudgy squares with a crackled top, baked in a small tin. Nine servings, ready in 30 minutes.',
+    meta: 'Air fryer brownies: fudgy squares with a crackled top, baked in a small tin. Nine servings, ready in 30 minutes, plus cooling.',
     kw: ['air fryer brownies', 'brownies in air fryer', 'fudgy air fryer brownies', 'small batch brownies', 'air fryer chocolate brownies'],
     why: 'The top cracks like a thin sheet of ice when you press it, and that is the sign of a good brownie. The crust comes from whisking the sugar into the eggs until the mixture is pale and thick, which dissolves the sugar and floats it to the surface during baking.\n\nBrownies in an air fryer need a small square tin, about 18 cm, set on the basket rather than directly under the fan. Lower the temperature to 160C so the edges do not set before the middle has had time to cook through. A brownie is ready when the surface is dull and the middle still wobbles slightly.\n\n**Do not bake until a skewer comes out clean.** By then the centre has set past fudgy and into cake. A few damp crumbs on the skewer mean the brownie will finish setting as it cools in the tin.\n\nMelt the chocolate and butter gently and let them cool a little before adding the eggs, otherwise the heat scrambles them. Cut with a hot knife once completely cold.',
     ing: [
@@ -387,7 +387,7 @@ module.exports = {
   'air-fryer-empanadas': {
     untimed: ['cooling completely'],
     d: 'Beef and onion empanadas made with ready-rolled pastry discs, crimped by hand and air fried for 12 minutes until golden and crisp.',
-    meta: 'Air fryer empanadas with a spiced beef filling in crisp golden pastry. Eight servings, ready in 42 minutes.',
+    meta: 'Air fryer empanadas with a spiced beef filling in crisp golden pastry. Eight servings, ready in 42 minutes, plus cooling.',
     kw: ['air fryer empanadas', 'empanadas in air fryer', 'beef empanadas', 'air fried empanadas', 'empanada pastry'],
     why: 'An empanada is a pie that you hold in your hand. The name comes from the Spanish for to wrap in bread, and the idea of a pastry parcel with a savoury filling turns up in cooking from Argentina to the Philippines.\n\nThis version uses a beef and onion filling, seasoned with cumin and paprika, with a few chopped olives and a hard-boiled egg for the traditional Argentinian touch. Cook the filling until it is dry and thick, then let it cool completely. A warm or wet filling softens the pastry and splits the seam as it cooks.\n\n**Use no more than a heaped tablespoon of filling per disc.** An overfilled empanada bursts in the air fryer. Fold the disc over, press the edges with a fork, or crimp with the traditional twisted rope edge called a repulgue.\n\nBrush with beaten egg for a glossy finish, and cook in batches of four. The pastry puffs and colours quickly in the fast moving air, so check the empanadas at 10 minutes.',
     ing: [

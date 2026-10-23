@@ -707,7 +707,7 @@ module.exports = {
   'sbrisolona-mantovana': {
     untimed: ['cooling completely'],
     d: 'A crumbly almond and cornmeal cake from Mantua, broken up and eaten in shards, baked for 35 minutes at 180C.',
-    meta: 'Sbrisolona mantovana, crumbly almond and cornmeal cake from Mantua, baked for 35 minutes at 180C. Ten servings, ready in 55 minutes.',
+    meta: 'Sbrisolona mantovana, crumbly almond and cornmeal cake from Mantua, baked for 35 minutes at 180C. Ten servings, ready in 55 minutes, plus cooling.',
     kw: ['sbrisolona mantovana', 'italian crumble cake', 'almond and cornmeal crumble cake', 'sbrisolona recipe', 'mantua almond cake'],
     why: 'Sbrisolona comes from the word for crumble, and the name is the instruction: this cake is broken by hand, not cut. It is a flat, crumbly cake of almonds, flour, cornmeal and butter from Mantua, and it is served in jagged pieces after dinner, often with sweet wine for dipping.\n\nThe dough is not kneaded. Rub the cold butter and lard into the flour, cornmeal, sugar and coarsely chopped almonds with your fingertips, and add the egg yolks to make large, uneven crumbs. **Do not press it together**, as the cake should look like a field of lumps. Scatter the crumbs into a buttered tin and press down very lightly.\n\nBake at 180C for 35 minutes, until the top is golden and the crumbs are dry. Cool completely in the tin and break into pieces with your hands, or the tip of a knife. The cake is dry and sandy by design, and keeps for weeks in a tin, tasting better after a few days.',
     ing: [

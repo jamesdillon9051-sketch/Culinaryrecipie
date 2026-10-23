@@ -189,7 +189,7 @@ module.exports = {
 
   'caramel-popcorn': {
     untimed: ['cooling completely'],
-    d: 'Popcorn coated in a butter and brown sugar caramel and cooked for 15 minutes in a low oven until crisp. Eight servings in 30 minutes.',
+    d: 'Popcorn coated in a butter and brown sugar caramel and cooked for 15 minutes in a low oven until crisp. Eight servings in 30 minutes, plus cooling.',
     meta: 'Caramel popcorn: popcorn coated in a butter and brown sugar caramel and cooked for 15 minutes in a low oven until crisp.',
     kw: ['caramel popcorn', 'homemade caramel popcorn', 'easy caramel popcorn', 'crunchy caramel popcorn', 'caramel corn'],
     why: 'It sounds like a sweet shop snack and takes about as long as a film trailer. Popcorn, butter, brown sugar and a pinch of bicarbonate of soda: that is the whole list.\n\nThe bicarbonate matters. It makes the caramel foam and turn airy, so it cracks cleanly instead of setting like toffee. Add it off the heat and stand back, because it bubbles up.\n\nPop the corn first and pick out any unpopped kernels, which crack teeth. Pour the hot caramel over in a large bowl and fold gently with a spatula to coat every piece. **Work quickly**, since the caramel stiffens as it cools.\n\nSpread on trays and cook at 120°C for 15 minutes, stirring once, to dry the coating. If your oven runs hot, check at 10 minutes. Cool completely before breaking up, and keep it airtight. Mix in roasted peanuts or pecans at the coating stage for a crunchier version.',
@@ -372,7 +372,7 @@ module.exports = {
 
   'freezer-meatballs': {
     untimed: ['cooling completely'],
-    d: 'Beef and pork meatballs browned in the oven for 20 minutes and frozen on a tray, ready to drop into sauce. Eight servings in 40 minutes.',
+    d: 'Beef and pork meatballs browned in the oven for 20 minutes and frozen on a tray, ready to drop into sauce. Eight servings in 40 minutes, plus cooling.',
     meta: 'Freezer meatballs: beef and pork meatballs browned in the oven for 20 minutes and frozen on a tray, ready to drop into sauce.',
     kw: ['freezer meatballs', 'homemade freezer meatballs', 'freezer meatball recipe', 'frozen meatballs', 'meatballs to freeze'],
     why: 'A bag of meatballs in the freezer is the nearest thing to a convenience food that is still food. Brown them now and a simmer in sauce finishes them any night.\n\nMix the mince with breadcrumbs, milk, egg, onion and garlic, and handle it as little as possible. A soft, light mixture gives tender meatballs, and a squeezed one gives rubbery ones. **Wet your hands** to stop the mix sticking.\n\nShape into 32 balls of about 25 g each, and spread them on a lined tray. Cook at 200°C for 20 minutes, turning once, until browned all over. If your oven runs hot, check at 15 minutes.\n\nCool completely, then freeze flat on the tray before bagging, so they do not stick together. To use, drop frozen into simmering sauce for 20 minutes, until hot all the way through. A spoonful of grated parmesan in the mix adds flavour, and a little chopped basil makes them more Italian.',
@@ -472,7 +472,7 @@ module.exports = {
 
   'sweet-potato-brownies': {
     untimed: ['cooling completely'],
-    d: 'Mashed sweet potato, cocoa, dark chocolate and eggs mixed into a fudgy tray of brownies and cooked for 30 minutes. Twelve servings in 45 minutes.',
+    d: 'Mashed sweet potato, cocoa, dark chocolate and eggs mixed into a fudgy tray of brownies and cooked for 30 minutes. Twelve servings in 45 minutes, plus cooling.',
     meta: 'Sweet potato brownies: mashed sweet potato, cocoa, dark chocolate and eggs mixed into fudgy brownies and cooked for 30 minutes.',
     kw: ['sweet potato brownies', 'homemade sweet potato brownies', 'fudgy sweet potato brownies', 'easy sweet potato brownies', 'brownies with sweet potato'],
     why: 'The sweet potato does what butter and flour do in a regular brownie: it makes the crumb dense, soft and fudgy. You cannot taste it, only the chocolate.\n\nCook the potato until completely soft, then mash it smooth. Lumps leave pale pockets in the finished brownie. Weigh the mash and let it cool a little, so it does not scramble the eggs.\n\nMelt the chocolate with the butter, then stir in the sugar, eggs and mash, and finally fold in the flour and cocoa. **Stop as soon as no streaks of flour remain.** More mixing makes them tough.\n\nCook at 180°C for 30 minutes. The edges should be set and the middle slightly soft, because the brownies firm up as they cool. If your oven runs hot, check at 25 minutes. Cool in the tin before cutting, or they fall apart. A handful of chopped walnuts or chocolate chunks folded in at the end gives texture.',

@@ -266,7 +266,7 @@ module.exports = {
   'brunede-kartofler': {
     untimed: ['cooling'],
     d: 'Small boiled potatoes glazed in melted sugar and butter until golden and sticky, the sweet side of the Danish Christmas dinner.',
-    meta: 'Brunede kartofler, Danish caramelised potatoes in sugar and butter, cooked for 20 minutes. Four servings, ready in 40 minutes.',
+    meta: 'Brunede kartofler, Danish caramelised potatoes in sugar and butter, cooked for 20 minutes. Four servings, ready in 40 minutes, plus cooling.',
     kw: ['brunede kartofler', 'danish caramelised potatoes', 'sugar browned potatoes', 'danish christmas potatoes', 'brunede kartofler recipe'],
     why: 'Sugar, butter, potatoes: three things, and a side dish that confuses visitors, who find it sweet and then cannot stop. Brunede kartofler are the caramelised potatoes of Denmark, always on the table beside the roast pork at Christmas, where they are the counterpart to the salty crackling and the sour red cabbage.\n\nUse small, waxy potatoes, boiled in their skins, cooled and peeled. Cold potatoes hold their shape and take the caramel better than warm ones. Melt the sugar in a wide, heavy pan over medium heat, without stirring, until it is a pale golden brown. **Add the butter when the sugar is deep amber**, stirring in until combined. The mixture will bubble violently, so do it carefully.\n\nTip in the potatoes and toss to coat them, over a low heat, for about 5 minutes, until they are glossy and golden brown all over. Do not let the caramel go dark, or it will taste bitter. Serve hot, with a pinch of salt. They are best made at the last minute, as the caramel softens on standing.',
     ing: [
