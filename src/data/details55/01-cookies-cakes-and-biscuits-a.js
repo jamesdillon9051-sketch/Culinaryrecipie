@@ -329,7 +329,7 @@ module.exports = {
   'banana-cupcakes': {
     untimed: ['cooling completely'],
     d: 'Soft banana cupcakes baked for 22 minutes and topped with a swirl of cream cheese frosting and a sprinkle of cinnamon.',
-    meta: 'Banana cupcakes with cream cheese frosting, baked for 22 minutes. Twelve servings, ready in 45 minutes.',
+    meta: 'Banana cupcakes with cream cheese frosting, baked for 22 minutes. Twelve servings, ready in 45 minutes, plus cooling.',
     kw: ['banana cupcakes', 'banana cupcakes with cream cheese frosting', 'moist banana cupcakes', 'banana cupcake recipe', 'banana cake cupcakes'],
     why: 'Why do banana cupcakes taste so much better than banana cake? Because the small size means more of the golden, caramelised top and edge in every bite, and a proportionally larger amount of frosting. Banana and cream cheese is one of the best pairings in baking, with the tang of the frosting balancing the sweet, mellow fruit.\n\nThe batter uses oil rather than butter for a moist crumb that stays soft for days, with a little brown sugar for depth. Two ripe bananas, mashed, provide the flavour and most of the moisture. Add them last, once the dry ingredients are in, and fold gently so the crumb stays light.\n\n**Fill the paper cases two thirds full and no more.** Banana batter is heavy and rises quickly, so overfilled cases dome too high and crack or collapse as they cool. An ice cream scoop gives even portions.\n\nBake until a skewer comes out clean and the tops spring back. Cool completely on a rack before frosting, or the cream cheese melts into a slick. Beat the frosting from soft butter, cold cream cheese, icing sugar and vanilla, and pipe or swirl it on with a knife.',
     ing: [
@@ -648,7 +648,7 @@ module.exports = {
   'cakey-brownies': {
     untimed: ['cooling completely'],
     d: 'Light, soft brownies with a cake-like crumb and a deep chocolate flavour, baked for 30 minutes and finished with chocolate frosting.',
-    meta: 'Cakey brownies with a soft, light crumb and chocolate frosting, baked for 30 minutes. Twelve servings, ready in 50 minutes.',
+    meta: 'Cakey brownies with a soft, light crumb and chocolate frosting, baked for 30 minutes. Twelve servings, ready in 50 minutes, plus cooling.',
     kw: ['cakey brownies', 'cake like brownies', 'soft chocolate brownies', 'brownies with frosting', 'light brownies recipe'],
     why: 'Brownie lovers divide into two camps: the fudgy and the cakey. This recipe is for the second. A cakey brownie has a lighter, more open crumb that slices neatly, holds a thick layer of frosting, and tastes of chocolate cake in the shape of a bar.\n\nThe difference is the balance of fat and flour. A fudgy brownie has a lot of butter and chocolate and little flour. A cakey one has more flour, less fat, and a chemical raising agent in the form of baking powder, which puffs the batter in the oven. The eggs are beaten with the sugar to a thick mousse, which adds more air.\n\n**Use cocoa powder as well as melted chocolate.** Cocoa gives a drier, more cake-like texture and a bitter edge, while melted chocolate keeps it moist. Sift the cocoa with the flour to avoid lumps, since those bitter specks will not dissolve in the batter.\n\nBake until a skewer comes out clean, which is different from fudgy brownies. The top should spring back lightly. Cool in the tin, spread with the chocolate frosting, and cut into squares with a hot, dry knife.',
     ing: [
@@ -686,7 +686,7 @@ module.exports = {
   'caramel-blondies': {
     untimed: ['cooling completely'],
     d: 'Chewy brown sugar blondies with ribbons of caramel running through them, baked for 30 minutes and finished with flaky sea salt.',
-    meta: 'Caramel blondies, chewy with ribbons of caramel and sea salt, baked for 30 minutes. Twelve servings, ready in 50 minutes.',
+    meta: 'Caramel blondies, chewy with ribbons of caramel and sea salt, baked for 30 minutes. Twelve servings, ready in 50 minutes, plus cooling.',
     kw: ['caramel blondies', 'salted caramel blondies', 'chewy blondies', 'blondies with caramel', 'brown sugar blondies'],
     why: 'It looks like a brownie that forgot the chocolate and tastes like a toffee. Blondies are made from brown sugar, butter, eggs and flour, and the sugar is what gives them their flavour: deep, caramel and faintly molasses-like. Add ribbons of real caramel to the top and the whole bar becomes a sticky, chewy indulgence.\n\nThe recipe is a one bowl affair. Melt the butter, stir in the brown sugar until it dissolves into a thick paste, then beat in the eggs and vanilla. Add the flour last, folded in gently. Beating after the flour is in makes the blondies tough and cakey rather than dense and chewy.\n\n**Swirl the caramel in, do not mix it.** Spoon a third of the batter into the tin, drizzle over some caramel, add the rest of the batter and drizzle again. Drag a knife through the top in a figure of eight. Mixing would dissolve the caramel and lose the ribbons.\n\nUnderbake slightly, because blondies set as they cool and a fully set blondie in the oven turns dry. They are ready when the top is golden and crackled but the centre still has a soft wobble. Finish with flaky sea salt while warm and cool completely before cutting.',
     ing: [

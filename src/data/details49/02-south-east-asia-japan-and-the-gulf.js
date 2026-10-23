@@ -529,7 +529,7 @@ module.exports = {
   'spicy-tuna-roll': {
     untimed: ['cooling the rice'],
     d: 'Sushi rice and nori rolled around diced sushi-grade tuna mixed with sriracha mayonnaise and sesame oil, sliced into eight pieces.',
-    meta: 'Spicy tuna roll: sushi rice and nori rolled around diced sushi-grade tuna mixed with sriracha mayonnaise. Four servings, ready in 50 minutes.',
+    meta: 'Spicy tuna roll: sushi rice and nori rolled around diced tuna and sriracha mayonnaise. Four servings, ready in 50 minutes, plus cooling the rice.',
     kw: ['spicy tuna roll', 'spicy tuna roll recipe', 'homemade spicy tuna sushi', 'spicy tuna maki', 'sushi rolls with spicy tuna'],
     why: 'Buy the fish from someone who can tell you it is sushi-grade, and keep it cold until the moment it goes into the bowl. Spicy tuna roll is made with raw tuna, so the quality of the fish is a matter of safety as well as flavour. A reputable fishmonger will sell a block labelled for raw eating; if there is any doubt, do not use raw fish.\n\nThe rice is the other half. Short-grain sushi rice is rinsed until the water runs clear, cooked, and dressed while hot with a mixture of rice vinegar, sugar and salt. **Fan the rice as you fold in the dressing.** It cools quickly and takes on a glossy sheen. Cool it to room temperature before rolling, since warm rice cooks the fish and makes the nori go soft.\n\nDice the tuna into 5 mm cubes and mix with Japanese mayonnaise, sriracha, a few drops of sesame oil and chopped spring onion. The mixture should be creamy and bright orange-red.\n\nLay nori on a bamboo mat, spread rice over it with wet fingers, flip so the rice side is down, add the filling and roll tightly. Slice with a wet, sharp knife.',
     ing: [

@@ -768,8 +768,8 @@ module.exports = {
 
   'poire-belle-helene': {
     untimed: ['cooling'],
-    d: 'Pears poached in vanilla syrup, served cold with vanilla ice cream and a warm dark chocolate sauce, ready in 35 minutes.',
-    meta: 'Poire Belle Hélène, poached pears with ice cream and hot chocolate sauce, cooked for 25 minutes. Four servings, ready in 35 minutes.',
+    d: 'Pears poached in vanilla syrup, served cold with vanilla ice cream and a warm dark chocolate sauce, ready in 35 minutes, plus cooling.',
+    meta: 'Poire Belle Hélène, poached pears with ice cream and hot chocolate sauce, cooked for 25 minutes. Four servings, ready in 35 minutes, plus cooling.',
     kw: ['poire belle helene', 'poached pears with chocolate sauce', 'pears with ice cream and chocolate', 'french poached pear dessert', 'pear belle helene recipe'],
     why: 'The name has an unlikely meaning for a dessert this plain: it is a poached pear, ice cream and chocolate sauce, and the three parts are meant to be hot and cold at once. That contrast is why it works on a plate, and why it has stayed on menus.\n\nChoose firm pears that are ripe but not soft, such as Conference, and peel them with the stalk left on. Poach them in a sugar syrup scented with a vanilla pod and a strip of lemon zest, at a bare simmer for about 25 minutes. **Test with the point of a knife**: it should slide in with only slight resistance. Leave the pears to cool in the syrup, because they carry on cooking and absorb the flavour.\n\nThe chocolate sauce is dark chocolate melted into warm cream and a little of the poaching syrup, so it pours smoothly. Serve one pear per person, upright beside a scoop of ice cream, with the sauce poured over at the table. Poach the pears a day ahead and the dessert is ready in minutes.',
     ing: [

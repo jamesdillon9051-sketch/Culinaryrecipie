@@ -102,7 +102,7 @@ module.exports = {
 
   'greek-eggplant-salad': {
     untimed: ['cooling to room temperature'],
-    d: 'Roasted eggplant dressed while warm with olive oil, red wine vinegar and oregano, then mixed with tomato, red pepper, onion and herbs. Six servings in 40 minutes.',
+    d: 'Roasted eggplant dressed while warm with olive oil, red wine vinegar and oregano, then mixed with tomato, red pepper, onion and herbs. Six servings in 40 minutes, plus cooling.',
     meta: 'Greek eggplant salad: roasted eggplant, tomato, red pepper and red onion in a red wine vinegar and oregano dressing, served at room temperature.',
     kw: ['greek eggplant salad', 'vegan greek eggplant salad', 'gluten free roasted eggplant salad', 'dairy free eggplant salad with tomato and olives'],
     why: 'Eggplant, tomato, red pepper and red onion, dressed with olive oil, red wine vinegar and oregano: a Greek-style salad served at room temperature. It improves as it sits. Roasting the eggplant is the only cooking, and it can be done well ahead.\n\nCube the eggplant evenly and roast it hot, in a single layer, so it browns instead of stewing. Eggplant absorbs oil quickly. **Dress the eggplant while warm**, so it soaks up the vinegar and oil, and fold in the raw vegetables once it has cooled so they stay fresh and crisp. The olives are salty, so taste before adding more salt.\n\nServe at room temperature with cucumber slices as a dip, on a mezze table, or alongside grilled chicken or fish. Make it a day ahead. Cover it and keep it in the fridge, then take it out a little while before serving, since cold dulls the flavour.',

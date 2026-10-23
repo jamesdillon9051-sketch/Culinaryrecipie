@@ -84,7 +84,7 @@ module.exports = {
   'mazurek': {
     untimed: ['cooling the base', 'setting the topping for a few hours'],
     d: 'A flat Polish Easter cake of crisp shortcrust topped with chocolate or caramel and decorated with nuts and dried fruit.',
-    meta: 'Mazurek, flat Polish Easter shortcrust cake with a caramel topping and nuts, baked for 30 minutes. Sixteen servings, ready in 55 minutes.',
+    meta: 'Mazurek, Polish Easter shortcrust cake with caramel and nuts, baked for 30 minutes. Sixteen servings, ready in 55 minutes, plus cooling and setting.',
     kw: ['mazurek', 'polish easter cake', 'mazurek kajmakowy', 'polish flat shortcrust cake', 'mazurek recipe'],
     why: 'Pour the topping on warm, not hot. That is the quick tip for mazurek, the flat Easter cake of Poland, because a topping that is too hot soaks into the pastry and makes it soft, and a cold one will not spread. The cake is a base of crisp shortcrust with a thick layer of sweet topping, decorated with whole nuts, candied peel or dried fruit.\n\nThe pastry is flour, butter, sugar, egg yolks and a spoonful of soured cream, pressed into a lined tin and baked until pale gold. It must be crisp, so bake it until the edges colour. For the topping, a toffee of condensed milk, cooked in the tin, or a chocolate ganache, are both traditional. Spread over the cooled base and decorate while it is still soft.\n\nTry a pattern of halved almonds, walnut halves, raisins and glacé cherries, or write Wesołych Świąt, Happy Easter, in icing. Leave it for several hours at room temperature to set, and cut into small squares, since the cake is very sweet. It keeps for a week in a tin. The flavour improves after a day.',
     ing: [

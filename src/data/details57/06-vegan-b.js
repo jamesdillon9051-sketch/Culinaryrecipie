@@ -43,7 +43,7 @@ module.exports = {
   'vegan-granola': {
     untimed: ['cooling completely'],
     d: 'Oat granola with almonds, pumpkin seeds and raisins, bound with coconut oil and maple syrup and baked for 25 minutes.',
-    meta: 'Vegan granola with oats, almonds and raisins, baked for 25 minutes at 160C. Ten servings, ready in 35 minutes.',
+    meta: 'Vegan granola with oats, almonds and raisins, baked for 25 minutes at 160C. Ten servings, ready in 35 minutes, plus cooling.',
     kw: ['vegan granola', 'dairy free granola', 'maple and coconut oil granola', 'baked oat granola with almonds', 'homemade granola clusters'],
     why: 'It is a cousin of muesli, toasted until crisp and held together in clusters by a little oil and syrup. The difference from the packet kind is that you control the sweetness, and the whole batch fills the kitchen with a smell of toasting oats.\n\nThe binder is coconut oil and maple syrup, warmed together and stirred through the oats until every flake is coated. Coconut oil is solid when cool, which sets the clusters; rapeseed oil would also work but gives a softer result. **Bake low at 160C and stir only once**, halfway through. High heat burns the nuts before the oats are dry.\n\nWhen it comes out it will feel soft. It crisps as it cools, so leave it undisturbed on the tray until completely cold, and then break it into pieces. The raisins go in after baking, as they turn hard and bitter in the oven. Store in an airtight jar and serve with plant milk, yoghurt or fruit.',
     ing: [

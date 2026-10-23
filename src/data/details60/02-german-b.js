@@ -779,7 +779,7 @@ module.exports = {
   'kokosmakronen': {
     untimed: ['cooling'],
     d: 'Chewy, golden coconut macaroons of desiccated coconut, egg white and sugar, baked for 20 minutes at 170C.',
-    meta: 'Kokosmakronen, chewy golden German coconut macaroons, baked for 20 minutes at 170C. Thirty biscuits, ready in 35 minutes.',
+    meta: 'Kokosmakronen, chewy golden German coconut macaroons, baked for 20 minutes at 170C. Thirty biscuits, ready in 35 minutes, plus cooling.',
     kw: ['kokosmakronen', 'german coconut macaroons', 'chewy coconut macaroons', 'coconut macaroons with egg white', 'kokosmakronen recipe'],
     why: 'The first sign they are ready is the smell: toasted coconut and sugar drifting from the oven, and the edges turning gold. Kokosmakronen are German coconut macaroons, three or four ingredients, no flour and no fat, and they are chewy, sticky and sweet.\n\nThe mixture is stirred over a pan of simmering water until it thickens slightly, which cooks the egg white and makes the macaroons hold their peaks. **Stir for 5 minutes until the mix looks glossy and holds a shape**, then take it off the heat and cool for 5 minutes. A cold mix spoons into tidy mounds that keep their shape in the oven.\n\nUse two spoons to set small heaps on a lined tray, or press the mix into a small cup and tip it out for a neat dome. Bake at 170C for 20 minutes, until the tops are pale gold and the bases are set. Cool on the tray. Dip the base of each in melted dark chocolate for a classic finish. They keep for 2 weeks in a tin.',
     ing: [

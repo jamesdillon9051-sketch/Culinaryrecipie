@@ -213,8 +213,8 @@ module.exports = {
 
   'ovos-moles': {
     untimed: ['cooling completely'],
-    d: 'A sweet Portuguese cream of egg yolks and sugar syrup, spooned into small wafer shells, ready in 45 minutes.',
-    meta: 'Ovos moles, Portuguese sweet egg yolk cream in wafer shells, cooked for 20 minutes. Twelve servings, ready in 45 minutes.',
+    d: 'A sweet Portuguese cream of egg yolks and sugar syrup, spooned into small wafer shells, ready in 45 minutes, plus cooling.',
+    meta: 'Ovos moles, Portuguese sweet egg yolk cream in wafer shells, cooked for 20 minutes. Twelve servings, ready in 45 minutes, plus cooling.',
     kw: ['ovos moles', 'portuguese egg yolk sweet', 'aveiro ovos moles', 'egg yolk cream in wafers', 'ovos moles recipe'],
     why: 'Short and sharp: egg yolks and sugar, and nothing else. Ovos moles, soft eggs, is the famous sweet of Aveiro in Portugal, a thick golden cream of egg yolks cooked in a sugar syrup, and traditionally it is served in thin wafer shells shaped like shells or barrels.\n\nBoil sugar and water together for about 8 minutes until the syrup reaches 110C, the thread stage. Meanwhile whisk the egg yolks gently, without making them foam, and strain them through a sieve. **Pour the hot syrup into the yolks in a thin stream, whisking all the time**, so they warm slowly and do not scramble. Return the mix to the pan.\n\nStir over a low heat for 8 to 10 minutes, until it thickens enough for the spoon to leave a trail and you can see the base of the pan. Do not let it boil. Pour into a bowl and cool. Spoon into wafer shells, or serve in a small glass with a spoon. The cream is very sweet and rich, and small servings are enough. It keeps for a week in the fridge.',
     ing: [

@@ -160,8 +160,8 @@ module.exports = {
 
   'apple-turnovers': {
     untimed: ['cooling completely'],
-    d: 'Squares of puff pastry folded over a cinnamon apple filling and baked until they puff, flake and turn golden. Forty-five minutes.',
-    meta: 'Apple turnovers: flaky puff pastry folded over a spiced, lightly cooked apple filling, glazed and baked until puffed and golden. Ready in 45 minutes.',
+    d: 'Squares of puff pastry folded over a cinnamon apple filling and baked until they puff, flake and turn golden. Forty-five minutes, plus cooling.',
+    meta: 'Apple turnovers: flaky puff pastry folded over a spiced apple filling, glazed and baked until puffed and golden. Ready in 45 minutes, plus cooling.',
     kw: ['apple turnovers', 'apple turnovers recipe', 'puff pastry apple turnovers', 'flaky apple turnovers', 'homemade apple turnovers'],
     why: 'The apples are cooked first, briefly, in butter and sugar until they have softened and given up their juice and then cooled, because raw apple would still be crunchy when the pastry was done, and a hot or wet filling would melt the butter layers in the pastry and stop it puffing. Puff pastry rises because its layers of butter turn to steam, so it must be cold going in and baked hot, and the edges are pressed and sealed with a fork so the steam goes up rather than out. Scoring the top lets the filling breathe.',
     ing: [
