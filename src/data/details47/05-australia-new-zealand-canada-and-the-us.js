@@ -15,36 +15,6 @@
  */
 
 module.exports = {
-  'australian-cheese-and-vegemite-scrolls': {
-    d: 'Soft scone-dough scrolls spread with Vegemite and grated cheddar, rolled up, sliced and baked until golden.',
-    meta: 'Australian cheese and Vegemite scrolls: scone-dough scrolls spread with Vegemite and cheddar, baked until golden. Twelve scrolls, baked for 20 minutes.',
-    kw: ['australian cheese and vegemite scrolls', 'cheese and vegemite scrolls', 'vegemite and cheese scrolls', 'vegemite scrolls', 'savoury scrolls with cheese'],
-    why: 'The first sign they are ready is the smell: melting cheddar and the dark, salty, yeasty scent of Vegemite warming in the dough. If you like Vegemite, this is the best way to eat it; if you do not, a thin scrape is gentle enough to try.\n\nThe dough is a scone dough, not a yeast one, so there is no proving and no waiting. Rub the butter into the flour until it looks like breadcrumbs, then stir in milk until the dough just comes together. **Handle it as little as you can.** Overworked scone dough bakes tough, and these should be soft and tender.\n\nRoll it into a rectangle about 1 cm thick. Spread with a thin layer of Vegemite, since a little goes a long way, then scatter with the cheese. Roll up from the long side like a Swiss roll and slice into twelve rounds.\n\nPack them close together on the tray. As they bake, they rise into each other and the sides stay soft.',
-    ing: [
-      '350 g self-raising flour',
-      '1/2 tsp salt',
-      '60 g butter, cold and diced',
-      '220 ml whole milk',
-      '2 tbsp Vegemite',
-      '150 g cheddar, grated'
-    ],
-    st: [
-      'Heat the oven to 200°C (180°C fan) and line a tray with baking paper.',
-      'Rub the butter into the flour and salt until like breadcrumbs. Stir in the milk to make a soft dough.',
-      'Roll out on a floured surface to a rectangle about 30 cm by 25 cm. Spread thinly with the Vegemite and scatter with the cheese.',
-      'Roll up from a long side, slice into 12 rounds and pack close together on the tray. Bake for 20 minutes until golden.'
-    ],
-    tips: [
-      'Spread the Vegemite thin.',
-      'Do not overwork the dough.',
-      'Pack the scrolls close so they rise together.',
-      'Check at 17 minutes if your oven runs hot.'
-    ],
-    pair: ['Butter', 'Soup', 'Tea', 'Sliced tomato'],
-    store: 'Keeps in an airtight tin for 2 days. Freezes well for up to 2 months. Reheat until warm.',
-    nut: [205, 7, 24, 9, 1, 1, 270]
-  },
-
   'new-zealand-mince-and-cheese-pie': {
     untimed: ['cooling completely'],
     d: 'A double-crust pie of beef mince and onion in a thick gravy with melted cheddar, in a shortcrust base and puff pastry lid.',

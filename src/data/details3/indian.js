@@ -1,50 +1,6 @@
 /** Indian recipe details, volume three. See ../details2/italian.js for the schema. */
 
 module.exports = {
-  'lamb-rogan-josh': {
-    d: 'Kashmiri lamb braised in a yoghurt gravy stained deep red by Kashmiri chilli, scented with fennel and dried ginger rather than onion and garlic. The colour comes from the chilli, not from tomato.',
-    meta: 'Lamb rogan josh — Kashmiri lamb braised in yoghurt with Kashmiri chilli, fennel and dried ginger.',
-    kw: ['rogan josh recipe', 'kashmiri lamb curry', 'lamb rogan josh', 'indian lamb braise'],
-    why: 'A true Kashmiri rogan josh uses no onion, garlic or tomato — the body comes from yoghurt whisked in off the heat and the colour from Kashmiri chilli, which is mild and intensely red. Ground fennel and dried ginger stand in for the aromatics, which is why the dish tastes floral rather than savoury-sweet.',
-    ing: [
-      '1 kg lamb shoulder, on the bone, cut into large pieces',
-      '400 g thick yoghurt, whisked smooth',
-      '5 tbsp ghee or mustard oil',
-      '4 tbsp Kashmiri chilli powder',
-      '2 tbsp ground fennel',
-      '1 tbsp ground dried ginger (sonth)',
-      '1 tsp ground cardamom',
-      '4 green cardamom pods',
-      '2 black cardamom pods',
-      '1 cinnamon stick',
-      '4 cloves',
-      '2 bay leaves',
-      '1 tsp asafoetida',
-      '2 tsp fine sea salt',
-      '400 ml hot water',
-      'A pinch of saffron in 2 tbsp warm milk'
-    ],
-    st: [
-      'Heat the ghee in a heavy pot until shimmering. If using mustard oil, heat it until it just smokes and then let it cool slightly — this removes its raw pungency.',
-      'Add the whole spices and bay and fry 45 seconds until fragrant.',
-      'Add the lamb and brown it hard for 8 to 10 minutes, in batches if the pot is crowded.',
-      'Lower the heat, add the asafoetida, and stir for 15 seconds.',
-      'Mix the Kashmiri chilli with 3 tablespoons of water to a paste and add it. Fry 3 minutes, stirring, until the ghee runs red at the edges.',
-      'Take the pot off the heat entirely. Whisk the yoghurt smooth and add it a spoonful at a time, stirring constantly so it does not split.',
-      'Return to low heat and cook 10 minutes until the yoghurt has thickened around the meat.',
-      'Add the fennel, dried ginger, salt and hot water. Cover and simmer very gently for 75 to 90 minutes until the lamb pulls from the bone.',
-      'Stir in the ground cardamom and saffron milk, rest 10 minutes, and serve with rice or naan.'
-    ],
-    tips: [
-      'Kashmiri chilli, not ordinary chilli powder. It is mild and its whole job is colour.',
-      'Off the heat for the yoghurt, added slowly. This is the step where the dish usually goes wrong.',
-      'No onion, garlic or tomato. Adding them makes a decent curry but not a rogan josh.'
-    ],
-    pair: ['Steamed basmati or naan', 'A cucumber raita', 'A soft red or a lassi'],
-    store: 'Refrigerate up to 4 days — it improves — and freeze 3 months. Reheat gently without boiling.',
-    nut: [648, 46, 12, 46, 2, 6, 1180]
-  },
-
   'dal-makhani': {
     cookMax: 220,
     rest: [480, 'soaking'],
@@ -299,49 +255,6 @@ module.exports = {
     pair: ['Griddled pav rolls', 'Buttermilk or a cold lassi', 'Extra farsan on the table'],
     store: 'Usal and rassa keep 3 days refrigerated, separately, and freeze 2 months. Add farsan only at serving.',
     nut: [486, 22, 58, 18, 12, 8, 1180]
-  },
-
-  'naan': {
-    rest: [105, 'proving'],
-    d: 'A yoghurt-enriched flatbread slapped onto the wall of a tandoor, or in a home kitchen onto the underside of the hottest pan you own. Charred, blistered and brushed with garlic butter.',
-    meta: 'Garlic naan — yoghurt-enriched flatbread cooked in a screaming pan until charred and blistered, with garlic butter.',
-    kw: ['naan recipe', 'garlic naan', 'homemade naan bread', 'tandoori bread'],
-    why: 'Yoghurt does two things: its acid tenderises the gluten so the bread stays soft, and its protein browns fast under high heat, which is where the char spots come from. The pan must be dry and near-smoking — oil in the pan fries the surface rather than blistering it.',
-    ing: [
-      '500 g plain flour',
-      '7 g fast-action dried yeast',
-      '1 tsp caster sugar',
-      '1½ tsp fine sea salt',
-      '½ tsp baking powder',
-      '150 g plain yoghurt',
-      '150 ml warm milk',
-      '3 tbsp neutral oil',
-      '1 egg, optional',
-      '# For the garlic butter',
-      '80 g butter, melted',
-      '5 garlic cloves, minced',
-      '3 tbsp chopped coriander',
-      'Nigella seeds, optional'
-    ],
-    st: [
-      'Whisk the yeast and sugar into the warm milk and leave 10 minutes until frothy.',
-      'Mix the flour, salt and baking powder. Add the yeast milk, yoghurt, oil and egg, and knead 8 minutes to a soft, slightly tacky dough.',
-      'Prove, covered, for 90 minutes until doubled.',
-      'Divide into 8, roll each into a ball, and rest 15 minutes.',
-      'Melt the butter with the garlic and set aside with the coriander.',
-      'Heat a heavy cast-iron pan over the highest heat for 5 minutes until it is genuinely smoking. Use no oil.',
-      'Roll each ball into a teardrop about 4 mm thick, stretching rather than pressing so the air stays in.',
-      'Wet one side of the naan lightly with water and lay it wet side down in the pan. It will stick.',
-      'Cook 60 seconds until large bubbles rise, then either flip it or, better, invert the pan over the flame to char the top directly. Brush with garlic butter and scatter with coriander.'
-    ],
-    tips: [
-      'The pan must be smoking and dry. Any oil and you get a fried flatbread instead of a naan.',
-      'Wetting one side makes it stick to the pan, which is how a tandoor works and how you get the char.',
-      'Stack the cooked naans under a cloth so the steam keeps them soft.'
-    ],
-    pair: ['Any curry with a sauce worth mopping', 'Dal makhani', 'A mango lassi'],
-    store: 'Best within the hour. Keeps 1 day wrapped and freezes 1 month; reheat in a dry pan for 30 seconds a side.',
-    nut: [312, 9, 48, 10, 2, 3, 620]
   },
 
   'bhindi-masala': {

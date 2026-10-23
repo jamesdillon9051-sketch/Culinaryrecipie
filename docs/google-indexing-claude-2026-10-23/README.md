@@ -50,3 +50,71 @@ Ingredient-word overlap, computed from the recipe data (1.0 would be identical):
 1. **Hostinger, hPanel:** Websites, Dashboard, Performance, CDN, Manage, Security. Check the security level and "Under Attack" mode, bot protection and country or rate rules. A mode that challenges or rate-limits unknown clients will answer Googlebot with 429/403/5xx. Ask Hostinger support to trace the request IDs in [HOSTINGER-HANDOFF.md](../google-indexing-followup-2026-10-23/HOSTINGER-HANDOFF.md), to confirm verified Googlebot is not being limited, and to explain the self-redirecting 307s and intermittent 502s. Also check hPanel resource usage for limit hits. Turning the CDN off for a few days is a test you can choose to run; it can change what Google sees.
 2. **Search Console** (after the TXT record is added at Hostinger DNS and verified): Manual actions; Security issues; Page indexing (which statuses, and for which URL groups); Settings, Crawl stats (response codes and average response time, and the host status); URL Inspection, Live test on a handful of recipe URLs; Sitemaps (12 child sitemaps, "Success"). Run the Rich Results Test on two or three recipe pages.
 3. **Approve or decline** merging and deploying this branch. Once deployed, resubmit the sitemap index and request indexing for a few representative pages; do not expect an immediate effect.
+
+
+## Second audit, 23 October (after the merge)
+
+**What Google actually reported.** The Search Console export saved on 20 October (`docs/crawl-audit-2026-10-20/search-console/`) lists 1,000 URLs, every one "Discovered - currently not indexed" with "Last crawled 1970-01-01". Google found them (through the sitemaps) and never fetched them. Google's description of that status: it wanted to crawl the URL, but expected doing so to overload the site, so it rescheduled. Low crawl demand for a new, very large site also produces it. Neither is a page defect, and the audit below confirms there are none.
+
+**Every built page, checked by script (5,878 pages, 5,871 in the sitemaps).**
+
+| Check | Result |
+| --- | --- |
+| Titles and meta descriptions | All present; no two pages share either (the three ad frames aside, which are `noindex`) |
+| Canonical | Exactly one per page, pointing at itself, `https://weeklydelight.com/…/` |
+| Robots meta | `noindex` only on `404.html`, `favourites/`, the contact result templates and the ad frames; none of them is in a sitemap |
+| `<head>` | No element that would make Google stop reading the head before the canonical |
+| JSON-LD | Every block parses; Recipe step anchors and breadcrumb targets exist; no future dates; durations valid |
+| Internal links | None broken, none to a redirecting URL, none to `www`, `http` or `index.html`; every recipe has 5 to 29 linking pages (median 15) |
+| Sitemaps | Every indexable page exactly once; nothing non-canonical, `noindex` or missing; `lastmod` equals the page's `dateModified` |
+| Thin pages | Recipes: 795 to 1,449 words. Five collection pages list one or two recipes (Bolivian, Uruguayan, Cypriot, Ecuadorian, Slovak); 90 collection pages are under 300 words |
+| Repeated template text | A median 36% of a recipe page's words are sentences that appear on 20 or more pages (navigation, the notes and save panels, the nutrition note, the AI disclosure). Ordinary for a recipe site. |
+
+**Live checks (about 08:30 to 09:00 UTC, gentle rates).** A missing page answers a real 404, not a soft 404. `http://`, `www.`, a missing trailing slash and `/index.html` each reach the canonical page in one 301. No `X-Robots-Tag` header. A Googlebot user agent gets 200. Fifteen pages and fifteen images at one request a second all answered 200 (origin time about 0.25 s); the 429s seen at 06:33 did not recur. `robots.txt` blocks only the filter parameters and lets every crawler fetch CSS, scripts and images. A recipe page rendered in Chromium as a phone, with no clicks or scrolling for 12 seconds, stayed on its URL, opened no window and had no element covering the content; the three ad frames loaded. The Search Console verification TXT record is now in the domain's DNS.
+
+**Fixed: pages could not be cached by the CDN.** Every page and sitemap was sent with `Cache-Control: public, max-age=0, must-revalidate`, and Hostinger's CDN answered every one `x-hcdn-cache-status: DYNAMIC`, meaning it passed each request to the shared-hosting server ([How Hostinger CDN caching works](https://www.hostinger.com/support/?p=18721)). That server is where the 429s came from. `.htaccess` now sends `public, max-age=0, s-maxage=3600, must-revalidate` for `.html` and `.xml`: browsers still revalidate on every visit, and the CDN may serve a copy up to an hour old. The cost is that a deploy can take up to an hour to reach every CDN edge, unless the CDN cache is cleared in hPanel (Performance, CDN, Clear cache). Error pages are not affected (`Header set` applies to successful responses only). This lowers the load that makes Google hold back; it cannot make Google crawl faster than it chooses to.
+
+**Not fixed: same dish under two names.** Thirty-six pairs share 80% or more of their ingredient words; read by eye, 32 are real variants (a different appliance, protein or form) and four are the same dish twice, none of them among the 15 already acknowledged: `vegemite-scrolls` and `australian-cheese-and-vegemite-scrolls`, `buttermilk-pancakes` and `fluffy-pancakes`, `sticky-date-pudding` and `sticky-date-cake`, `slow-cooker-pea-and-ham-soup` and `slow-cooker-split-pea-soup`. List: [duplicate-candidates.csv](duplicate-candidates.csv). **Removed on the owner's instruction (23 October):** in each pair the page published first stays and the other address answers a permanent redirect to it (table below).
+
+**Not changed:** the five one-or-two-recipe collections, and `/search/` (a filter page whose HTML holds no results). Each is one URL among 5,871 and none of them explains thousands of pages never being fetched.
+
+
+## Duplicates removed (23 October, owner's instruction)
+
+| Removed address | Now redirects (301) to | Why that one stays |
+| --- | --- | --- |
+| `/recipes/australian-cheese-and-vegemite-scrolls/` | `/recipes/vegemite-scrolls/` | published first (8 Oct) |
+| `/recipes/fluffy-pancakes/` | `/recipes/buttermilk-pancakes/` ("Fluffy Buttermilk Pancakes") | published first (5 Sep) |
+| `/recipes/sticky-date-cake/` | `/recipes/sticky-date-pudding/` | the dish's usual name; same method and tin |
+| `/recipes/slow-cooker-split-pea-soup/` | `/recipes/slow-cooker-pea-and-ham-soup/` | published first (8 Oct) |
+
+- The register is `src/data/retired-recipes.json`, with the reason for each. The build refuses a retired slug that comes back into the catalogue, or a redirect to a page that does not exist.
+- Redirects on all three host configurations: `.htaccess` (live; also catches the address without its trailing slash, with `index.html`, and from `www` or `http`, in one hop), `_redirects` (written by the build) and `vercel.json`. `tools/retired-recipes-check.js`, now part of `npm run check`, fails if any of them is missing, if an old page is still built, linked or in a sitemap, or if a target page is not built.
+- Removed with each recipe: its catalogue row, its detail record, its `images.json` entry and its two photo files; `images-attribution.md` regenerated. Kept on purpose: its `published-dates.json` entry (a published date is never reused) and its photo-refusal history in `image-rejects.json`.
+- Recipes: 5,515 → 5,511. 354 pages move their `lastmod`: every collection and hub page (categories, cuisines, ingredients, home, about, the recipe index, search and the site directory), whose recipe lists and counts changed. Recipe pages that linked to a removed page are rebuilt with new "You might also like" links but keep their dates, because those links are not part of a recipe's own dated content. No recipe's date moved.
+- The 15 pairs acknowledged earlier (`tools/duplicates-audit.js`) were handled in a second round, below.
+
+## The 15 acknowledged pairs, read side by side (23 October, owner's instruction)
+
+Each pair's ingredients, method, times and serving were compared line by line. Twelve are one dish published twice and are retired the same way as the four above (the page published first stays; where both went up on 5 September, the page with the dish's usual name stays). Three are versions of a dish and both pages stay.
+
+| Removed address | Now redirects (301) to | Same dish because |
+| --- | --- | --- |
+| `/recipes/chicken-tagine-olives/` | `/recipes/moroccan-chicken-tagine/` | bone-in chicken with preserved lemon and green olives, 45 then 15 minutes; same day, usual name |
+| `/recipes/potato-salad/` | `/recipes/classic-potato-salad/` | American potato salad dressed warm with vinegar, then mayonnaise, mustard, egg, celery, pickle |
+| `/recipes/coleslaw/` | `/recipes/creamy-coleslaw/` | salted, drained cabbage and carrot in mayonnaise, cider vinegar, mustard and sugar |
+| `/recipes/naan/` | `/recipes/garlic-naan/` | the `naan` page was itself titled "Garlic Naan": same dough, same pan, same garlic butter |
+| `/recipes/kartoffelsalat/` | `/recipes/german-potato-salad/` | warm potatoes in bacon, vinegar and hot stock, no mayonnaise |
+| `/recipes/grilled-cheese/` | `/recipes/grilled-cheese-sandwich/` | two cheeses, mayonnaise and butter outside, medium-low heat |
+| `/recipes/lamb-rogan-josh/` | `/recipes/rogan-josh/` | Kashmiri lamb in yoghurt, Kashmiri chilli, fennel, dried ginger; same day, usual name |
+| `/recipes/moules-mariniere/` | `/recipes/moules-marinieres/` | mussels steamed in white wine, shallot, garlic and parsley |
+| `/recipes/pork-schnitzel/` | `/recipes/schnitzel/` | pork loin beaten thin, loosely breaded, swirled at 170 °C; same day, usual name |
+| `/recipes/pulled-pork-sandwich/` | `/recipes/pulled-pork/` | rubbed shoulder slow-roasted, pulled, cider-vinegar sauce, in buns with slaw; same day, usual name |
+| `/recipes/sfiha/` | `/recipes/sfiha-baalbakieh/` | small open lamb rounds with tomato, tahini and pomegranate molasses, baked hot |
+| `/recipes/sloppy-joe-mix/` | `/recipes/sloppy-joes/` | browned beef, onion, green pepper, tomato, sugar, Worcestershire, mustard, on buns |
+
+**Kept as versions of a dish** (still listed in `tools/duplicates-audit.js`): griddled `aubergine-parmigiana` against fried `melanzane-alla-parmigiana`; baked `kibbeh` against fried `kibbeh-mekliyeh`; `philly-soft-pretzel` against Bavarian `soft-pretzels`.
+
+- Removed with each: catalogue row, detail record, `images.json` entry and photo files (three had a second, step-by-step photograph; `kartoffelsalat` carried one of the remaining AI illustrations). `src/data/retired-recipes.json` now lists 16 recipes with their reasons; `.htaccess` and `vercel.json` carry 16 redirects and the build writes them to `_redirects`. `tools/retired-recipes-check.js` now also proves that no remaining recipe is caught by a retired page's rule (`naan` against `naan-pizza`, `sfiha` against `sfiha-baalbakieh`).
+- The photograph-sharing exceptions in `tools/check.js` for `rogan-josh`/`lamb-rogan-josh` and `naan`/`garlic-naan` are gone with the pages. The keyword plan (`tools/keywords/KEYWORDS.csv`) loses the 16 retired pages' rows; each had been aimed at the same search phrase as the page that stays.
+- Recipes: 5,511 → 5,499. As in the first round, the 354 collection and hub pages move their `lastmod`; no recipe's date moved.

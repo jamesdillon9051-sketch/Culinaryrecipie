@@ -269,47 +269,6 @@ module.exports = {
     nut: [545, 58, 18, 26, 4, 10, 1180]
   },
 
-  'moules-mariniere': {
-    d: 'Mussels steamed open in white wine, shallot and parsley, in the time it takes to lay the table.',
-    meta: 'Belgian moules marinière of mussels steamed with shallots, garlic, white wine, butter and parsley, served with the cooking liquor.',
-    kw: ['moules mariniere', 'moules mariniere recipe', 'mussels white wine', 'belgian mussels', 'moules frites'],
-    why: 'Cook them in a pan wide enough to hold them no more than three deep and shake rather than stir. Mussels open at slightly different rates, and stirring breaks the ones that opened first while the rest are still shut — shaking redistributes them without damage. Any that stay closed after four minutes should be thrown away, and any open before cooking tapped: if it does not close, discard it.',
-    ing: [
-      '2 kg live mussels',
-      '50 g unsalted butter',
-      '4 shallots, finely chopped',
-      '4 garlic cloves, finely chopped',
-      '2 celery sticks, finely diced',
-      '350 ml dry white wine',
-      '2 bay leaves',
-      '2 sprigs thyme',
-      '150 ml double cream',
-      '0.5 tsp ground black pepper',
-      '40 g flat-leaf parsley, chopped',
-      '1 baguette, to serve'
-    ],
-    st: [
-      'Scrub the mussels and pull the beards off.',
-      'Tap any that are open — if they do not close, throw them away. Discard any with broken shells.',
-      'Melt the butter in a very wide pan and cook the shallots, garlic and celery for 5 minutes, without colouring.',
-      'Add the wine, bay and thyme and bring to a hard boil for 2 minutes.',
-      'Tip the mussels in — they should be no more than three deep — and cover at once.',
-      'Steam 4 minutes, shaking the pan twice, until the shells have opened.',
-      'Lift the mussels out with a slotted spoon into warm bowls, discarding any that stayed shut.',
-      'Boil the liquor hard for 1 minute, then stir in the cream and pepper.',
-      'Taste it — it should not need salt.',
-      'Pour the liquor over the mussels, scatter the parsley and serve with the baguette (optional).'
-    ],
-    tips: [
-      'A wide pan, three deep at most.',
-      'Shake, never stir.',
-      'Anything still shut goes in the bin.'
-    ],
-    pair: ['Frites and mayonnaise', 'A crusty baguette', 'Belgian witbier'],
-    store: 'Eat immediately. Cooked mussels do not keep well.',
-    nut: [545, 42, 22, 28, 2, 4, 1290]
-  },
-
   'stoofvlees': {
     d: 'Beef braised in dark Belgian ale with a slice of mustard-spread bread stirred in to thicken it. Three hours.',
     meta: 'Flemish beef stew braised in dark Belgian ale with onions, thickened by a slice of mustard-spread bread and sweetened with syrup.',
@@ -592,48 +551,6 @@ module.exports = {
     pair: ['Spätzle', 'Red cabbage', 'Potato dumplings'],
     store: 'Better the next day. Keeps 3 days refrigerated, freezes 3 months.',
     nut: [620, 48, 22, 36, 3, 7, 1420]
-  },
-
-  'kartoffelsalat': {
-    d: 'Warm potato slices in a bacon, vinegar and stock dressing, with no mayonnaise anywhere near it.',
-    meta: 'Southern German potato salad dressed warm with hot stock, cider vinegar, mustard and bacon, with no mayonnaise.',
-    kw: ['german potato salad', 'kartoffelsalat recipe', 'warm potato salad', 'bacon vinegar potato salad', 'no mayo potato salad'],
-    why: 'Pour hot stock over the warm potato slices and let them stand for ten minutes before anything else goes in. They absorb it, which seasons the potato all the way through instead of coating it — this is the whole distinction from the mayonnaise version. The potatoes must be waxy and sliced while still hot, which means handling them with a cloth.',
-    ing: [
-      '1 kg waxy potatoes',
-      '1 tbsp fine sea salt, for the water',
-      '300 ml hot chicken or vegetable stock',
-      '4 tbsp cider vinegar',
-      '2 tbsp German or Dijon mustard',
-      '1 tsp caster sugar',
-      '1.25 tsp fine sea salt',
-      '0.5 tsp ground black pepper',
-      '200 g streaky bacon, diced',
-      '1 onion, finely chopped',
-      '4 tbsp vegetable oil',
-      '4 spring onions, finely sliced',
-      '3 tbsp chopped chives'
-    ],
-    st: [
-      'Boil the potatoes whole in salted water for 22 minutes, until tender.',
-      'Drain and peel them while hot, holding them in a cloth.',
-      'Slice into 5 mm rounds straight into a wide bowl.',
-      'Whisk the hot stock with the vinegar, mustard, sugar, salt and pepper.',
-      'Pour it over the warm potato slices and turn gently.',
-      'Leave 10 minutes for the potato to absorb the dressing.',
-      'Fry the bacon in a dry pan until crisp, then lift out with a slotted spoon.',
-      'Fry the onion in the bacon fat with the oil for 5 minutes.',
-      'Pour the onion and its fat over the potatoes and fold through with the bacon.',
-      'Rest 20 minutes, then fold in the spring onions and chives and serve warm.'
-    ],
-    tips: [
-      'Peel and slice while hot.',
-      'Hot stock first, and give it ten minutes to soak in.',
-      'Serve warm, never cold from the fridge.'
-    ],
-    pair: ['Bratwurst', 'Schnitzel', 'A cold Pilsner'],
-    store: 'Keeps 2 days refrigerated. Bring back to room temperature before serving.',
-    nut: [420, 12, 42, 22, 5, 5, 1180]
   },
 
   'black-forest-gateau': {

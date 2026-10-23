@@ -2,52 +2,6 @@
     See ../details2/italian.js for the schema. */
 
 module.exports = {
-  'chicken-tagine-olives': {
-    rest: [60, 'resting'],
-    d: 'Chicken cooked slowly with preserved lemon, green olives, ginger and saffron until the sauce reduces to a thick, salty-sour glaze.',
-    meta: 'Chicken tagine with olives — slow cooked with preserved lemon, green olives, ginger and saffron.',
-    kw: ['chicken tagine recipe', 'moroccan chicken with olives', 'preserved lemon tagine', 'djaj mqualli'],
-    why: 'Preserved lemon rind and olives are both already salty, so the tagine is barely salted at the start and adjusted only at the end — season early and it becomes inedible. Reducing the sauce hard after the chicken comes out is what turns a thin broth into the sticky glaze the dish is supposed to have.',
-    ing: [
-      '8 chicken thighs, bone in and skin on',
-      '3 tbsp olive oil',
-      '2 onions, grated',
-      '5 garlic cloves, crushed',
-      '1 tbsp grated fresh ginger',
-      '1 tsp ground ginger',
-      '1 tsp ground turmeric',
-      '1 tsp white pepper',
-      'A large pinch of saffron, steeped in 3 tbsp hot water',
-      '400 ml chicken stock',
-      '2 preserved lemons, flesh discarded, rind sliced',
-      '180 g green olives, such as Picholine, pitted',
-      'A large handful of coriander and parsley, tied in a bundle',
-      'Juice of 1/2 lemon',
-      'Salt, only at the end',
-      'Bread or couscous, to serve'
-    ],
-    st: [
-      'Rub the chicken with the grated onion, garlic, fresh and ground ginger, turmeric, white pepper and half the saffron water. Cover and refrigerate 1 hour, or overnight.',
-      'Heat the olive oil in a tagine or heavy casserole and brown the chicken skin side down for 6 minutes. Turn and give it 2 minutes.',
-      'Add all the marinade from the bowl and cook 5 minutes until the onion softens and the pot smells of ginger.',
-      'Pour in the stock and the rest of the saffron water and tuck in the herb bundle.',
-      'Cover and simmer very gently for 45 minutes, turning the chicken once.',
-      'Blanch the olives in boiling water for 2 minutes if they are very salty, then drain.',
-      'Add the olives and preserved lemon rind and cook uncovered for 15 minutes.',
-      'Lift the chicken onto a plate and boil the sauce hard for 8 to 10 minutes until it reduces to a thick glaze that coats a spoon.',
-      'Remove the herb bundle, return the chicken, add the lemon juice, and only now taste for salt.',
-      'Rest 5 minutes and serve with bread (optional) to mop the sauce.'
-    ],
-    tips: [
-      'Salt at the end, never at the start. The olives and lemons do that job.',
-      'Reduce the sauce properly after the chicken comes out.',
-      'Use the rind of the preserved lemon only — the flesh is bitter and salty.'
-    ],
-    pair: ['Warm flatbread or couscous', 'A tomato and pepper salad', 'Mint tea'],
-    store: 'Refrigerate up to 3 days and freeze 2 months. Reheat gently in the sauce.',
-    nut: [580, 34, 12, 44, 3, 4, 1320]
-  },
-
   'msemen': {
     d: 'Semolina dough stretched translucent, brushed with oil and semolina, folded into square layers and fried until it separates into flaky sheets.',
     meta: 'Msemen — Moroccan square laminated flatbread, folded and fried until it separates into flaky layers.',

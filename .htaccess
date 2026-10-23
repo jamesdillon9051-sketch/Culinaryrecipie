@@ -38,6 +38,28 @@
   RewriteRule ^contact/_pages(?:/|$) - [R=404,L,NC]
   RewriteRule ^contact/(?:success|not-sent)/?$ /contact/ [R=302,L,NC]
 
+  # Recipes taken down because another page is the same dish
+  # (src/data/retired-recipes.json). Each old address, with or without its
+  # trailing slash or index.html, and from www or http, goes to the page that
+  # stays in one permanent hop. tools/retired-recipes-check.js holds these
+  # lines to the list.
+  RewriteRule ^recipes/australian-cheese-and-vegemite-scrolls(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/vegemite-scrolls/ [R=301,L,NC]
+  RewriteRule ^recipes/fluffy-pancakes(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/buttermilk-pancakes/ [R=301,L,NC]
+  RewriteRule ^recipes/sticky-date-cake(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/sticky-date-pudding/ [R=301,L,NC]
+  RewriteRule ^recipes/slow-cooker-split-pea-soup(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/slow-cooker-pea-and-ham-soup/ [R=301,L,NC]
+  RewriteRule ^recipes/chicken-tagine-olives(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/moroccan-chicken-tagine/ [R=301,L,NC]
+  RewriteRule ^recipes/potato-salad(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/classic-potato-salad/ [R=301,L,NC]
+  RewriteRule ^recipes/coleslaw(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/creamy-coleslaw/ [R=301,L,NC]
+  RewriteRule ^recipes/naan(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/garlic-naan/ [R=301,L,NC]
+  RewriteRule ^recipes/kartoffelsalat(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/german-potato-salad/ [R=301,L,NC]
+  RewriteRule ^recipes/grilled-cheese(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/grilled-cheese-sandwich/ [R=301,L,NC]
+  RewriteRule ^recipes/lamb-rogan-josh(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/rogan-josh/ [R=301,L,NC]
+  RewriteRule ^recipes/moules-mariniere(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/moules-marinieres/ [R=301,L,NC]
+  RewriteRule ^recipes/pork-schnitzel(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/schnitzel/ [R=301,L,NC]
+  RewriteRule ^recipes/pulled-pork-sandwich(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/pulled-pork/ [R=301,L,NC]
+  RewriteRule ^recipes/sfiha(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/sfiha-baalbakieh/ [R=301,L,NC]
+  RewriteRule ^recipes/sloppy-joe-mix(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/sloppy-joes/ [R=301,L,NC]
+
   # /path/index.html -> /path/
   #
   # The same duplicate as www, from the other direction. DirectoryIndex serves
@@ -97,7 +119,8 @@ ErrorDocument 404 /404.html
 <IfModule mod_expires.c>
   ExpiresActive On
   ExpiresDefault "access plus 1 hour"
-  # Pages revalidate, so a rebuild shows up straight away.
+  # Browsers revalidate pages, so a rebuild shows up straight away (the CDN's
+  # own hour is set with s-maxage below).
   ExpiresByType text/html "access plus 0 seconds"
   ExpiresByType application/xml "access plus 1 hour"
   ExpiresByType application/json "access plus 1 hour"
@@ -123,7 +146,17 @@ ErrorDocument 404 /404.html
   <FilesMatch "\.(webp|jpg|png|svg)$">
     Header set Cache-Control "public, max-age=2592000"
   </FilesMatch>
+  # Pages, sitemaps and feeds: browsers revalidate every time (max-age=0), but
+  # the CDN in front (Hostinger, "server: hcdn") may keep a copy for an hour
+  # (s-maxage). With max-age=0 alone the CDN treated every page as uncacheable
+  # ("x-hcdn-cache-status: DYNAMIC"), so each crawler request went through to
+  # the shared-hosting server. That server answered bursts with HTTP 429, and
+  # Search Console listed the pages as "Discovered - currently not indexed",
+  # the status Google gives when it holds back so as not to overload a site.
+  # An hour of edge caching is the cost: a deploy can take up to an hour to
+  # reach every CDN edge unless the CDN cache is cleared in hPanel. Header set
+  # applies to successful responses only, so a 404 is never cached this way.
   <FilesMatch "\.(html|xml)$">
-    Header set Cache-Control "public, max-age=0, must-revalidate"
+    Header set Cache-Control "public, max-age=0, s-maxage=3600, must-revalidate"
   </FilesMatch>
 </IfModule>

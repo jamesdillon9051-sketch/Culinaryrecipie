@@ -130,7 +130,6 @@ module.exports = [
   c('mac-and-cheese', 'Baked Mac and Cheese', 'American', 'Dinner', 'Easy', 15, 30, 6, 4.8, 4655, ['Vegetarian'], ['trending'], 'Macaroni and cheese'),
   c('meatloaf', 'Classic Meatloaf', 'American', 'Dinner', 'Easy', 15, 60, 6, 4.6, 2133, [], [], 'Meatloaf'),
   c('philly-cheesesteak', 'Philly Cheesesteak', 'American', 'Lunch', 'Easy', 15, 15, 4, 4.8, 2977, [], [], 'Philly cheesesteak'),
-  c('pulled-pork-sandwich', 'Pulled Pork Sandwiches', 'American', 'Lunch', 'Easy', 20, 420, 8, 4.8, 2544, ['Dairy-Free'], [], 'Pulled pork sandwich'),
   c('grilled-cheese-sandwich', 'Skillet Grilled Cheese', 'American', 'Quick Meals', 'Easy', 5, 8, 2, 4.7, 3188, ['Vegetarian'], [], 'Grilled cheese sandwich'),
   c('new-england-clam-chowder', 'New England Clam Chowder', 'American', 'Lunch', 'Medium', 20, 35, 6, 4.7, 1622, [], [], 'Clam chowder'),
   c('chicken-noodle-soup', 'Chicken Noodle Soup', 'American', 'Healthy', 'Easy', 15, 95, 6, 4.8, 3411, ['Dairy-Free'], [], 'Chicken noodle soup'),
@@ -224,7 +223,6 @@ module.exports = [
   c('sticky-toffee-pudding', 'Sticky Toffee Pudding', 'British', 'Desserts', 'Easy', 20, 35, 8, 4.9, 2411, ['Vegetarian'], ['editors'], 'Sticky toffee pudding'),
 
   /* ----------------------------------------------------------- German (4) */
-  c('pork-schnitzel', 'Pork Schnitzel', 'German', 'Dinner', 'Easy', 20, 10, 4, 4.8, 2277, [], [], 'Schnitzel'),
   c('soft-pretzels', 'Bavarian Soft Pretzels', 'German', 'Baking', 'Medium', 40, 15, 8, 4.8, 2044, ['Vegetarian'], [], 'Pretzel bavarian'),
   c('black-forest-cake', 'Black Forest Cake', 'German', 'Desserts', 'Hard', 45, 35, 12, 4.7, 1755, ['Vegetarian'], [], 'Black forest cake'),
   c('german-potato-salad', 'Warm German Potato Salad', 'German', 'Lunch', 'Easy', 15, 25, 6, 4.6, 1188, ['Gluten-Free', 'Dairy-Free'], [], 'German potato salad'),

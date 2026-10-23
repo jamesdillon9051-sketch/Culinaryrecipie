@@ -571,46 +571,6 @@ module.exports = {
     nut: [768, 6, 82, 47, 3, 66, 480]
   },
 
-  'pork-schnitzel': {
-    d: 'Pounded thin, breaded loosely and fried in a generous amount of fat so the coating puffs away from the meat. That blistered, wrinkled crust is the sign of a schnitzel done right.',
-    meta: 'Crisp pork schnitzel with a puffed, blistered coating. The loose-breading and swirling technique explained.',
-    kw: ['schnitzel recipe', 'pork schnitzel', 'breaded pork cutlet', 'german recipe'],
-    why: 'The signature puffed crust forms when the breadcrumbs are applied loosely and the cutlet is fried in enough fat that hot oil can circulate underneath — the steam released by the meat lifts the coating away. Swirling the pan constantly keeps that hot fat washing over the top surface, cooking it evenly.',
-    ing: [
-      '4 pork loin steaks, 150 g each, bone removed',
-      '120 g plain flour',
-      '3 large eggs',
-      '2 tbsp whole milk',
-      '200 g fine dried breadcrumbs',
-      '1.5 tsp fine sea salt',
-      '0.5 tsp black pepper',
-      '300 ml neutral oil, or 200 g clarified butter',
-      '2 lemons, in wedges',
-      '1 small bunch flat-leaf parsley',
-      '2 tbsp capers, optional',
-      '4 anchovy fillets, optional'
-    ],
-    st: [
-      'Lay each pork steak between two sheets of cling film and pound with a mallet or heavy pan, working from the centre outward, until an even 4 to 5 mm thick.',
-      'Season both sides and leave for 10 minutes.',
-      'Set out three shallow dishes: flour, the eggs beaten with the milk, and the breadcrumbs.',
-      'Coat each cutlet in flour and pat off the excess, then dip in egg, letting it drip, then lay it in the breadcrumbs and spoon crumbs over the top. Press only very lightly — a loose coating is what puffs.',
-      'Heat the oil in a wide pan to about 170°C / 340°F. There should be enough to come 5 mm up the side.',
-      'Lay one schnitzel in and immediately begin swirling the pan in a continuous circular motion so the hot fat washes over the top.',
-      'Fry for 2 to 3 minutes until the underside is deep golden and the coating has puffed, then turn and fry 2 minutes more.',
-      'Drain on a rack, never on paper, and season with a little salt.',
-      'Serve immediately with lemon wedges, parsley, and capers and anchovy if making it Holstein style.'
-    ],
-    tips: [
-      'Press the crumbs on lightly. Compacting them glues the coating to the meat and it will not puff.',
-      'Swirling the pan is the technique that separates a good schnitzel from a great one.',
-      'Fry one at a time. Two in the pan drops the temperature and neither will blister.'
-    ],
-    pair: ['A cold Pilsner or a dry Riesling', 'Serve with potato salad, cucumber salad or fried potatoes', 'Finish with Black Forest cake'],
-    store: 'Best immediately. Keeps 2 days; re-crisp at 200°C / 390°F for 8 minutes on a rack.',
-    nut: [688, 46, 48, 34, 3, 3, 1180]
-  },
-
   'soft-pretzels': {
     cookMax: 20,
     rest: [90, 'proving'],

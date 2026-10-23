@@ -107,7 +107,6 @@ module.exports = [
   c('pakistani-daal-chawal', 'Pakistani Daal Chawal', 'Pakistani', 'Dinner', 'Easy', 10, 30, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'pakistani daal chawal'),
   c('afghan-dal', 'Afghan Dal', 'Afghan', 'Dinner', 'Easy', 10, 35, 4, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'afghan dal'),
   c('nepali-aloo-tama', 'Nepali Aloo Tama', 'Nepalese', 'Dinner', 'Easy', 10, 35, 4, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'nepali aloo tama'),
-  c('australian-cheese-and-vegemite-scrolls', 'Australian Cheese and Vegemite Scrolls', 'Australian', 'Baking', 'Easy', 20, 20, 12, 0, 0, ['Vegetarian'], ['new'], 'australian cheese and vegemite scrolls'),
   c('new-zealand-mince-and-cheese-pie', 'New Zealand Mince and Cheese Pie', 'New Zealand', 'Dinner', 'Medium', 30, 65, 6, 0, 0, [], ['new'], 'new zealand mince and cheese pie'),
   c('new-zealand-anzac-biscuits', 'New Zealand Anzac Biscuits', 'New Zealand', 'Baking', 'Easy', 10, 15, 16, 0, 0, ['Vegetarian'], ['new'], 'new zealand anzac biscuits'),
   c('new-zealand-corn-fritters', 'New Zealand Corn Fritters', 'New Zealand', 'Lunch', 'Easy', 10, 15, 4, 0, 0, ['Vegetarian'], ['new'], 'new zealand corn fritters'),

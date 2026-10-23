@@ -64,6 +64,86 @@
       ],
       "destination": "https://weeklydelight.com/:path*",
       "permanent": true
+    },
+    {
+      "source": "/recipes/australian-cheese-and-vegemite-scrolls/",
+      "destination": "/recipes/vegemite-scrolls/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/fluffy-pancakes/",
+      "destination": "/recipes/buttermilk-pancakes/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/sticky-date-cake/",
+      "destination": "/recipes/sticky-date-pudding/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/slow-cooker-split-pea-soup/",
+      "destination": "/recipes/slow-cooker-pea-and-ham-soup/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/chicken-tagine-olives/",
+      "destination": "/recipes/moroccan-chicken-tagine/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/potato-salad/",
+      "destination": "/recipes/classic-potato-salad/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/coleslaw/",
+      "destination": "/recipes/creamy-coleslaw/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/naan/",
+      "destination": "/recipes/garlic-naan/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/kartoffelsalat/",
+      "destination": "/recipes/german-potato-salad/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/grilled-cheese/",
+      "destination": "/recipes/grilled-cheese-sandwich/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/lamb-rogan-josh/",
+      "destination": "/recipes/rogan-josh/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/moules-mariniere/",
+      "destination": "/recipes/moules-marinieres/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/pork-schnitzel/",
+      "destination": "/recipes/schnitzel/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/pulled-pork-sandwich/",
+      "destination": "/recipes/pulled-pork/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/sfiha/",
+      "destination": "/recipes/sfiha-baalbakieh/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/sloppy-joe-mix/",
+      "destination": "/recipes/sloppy-joes/",
+      "permanent": true
     }
   ]
 }
