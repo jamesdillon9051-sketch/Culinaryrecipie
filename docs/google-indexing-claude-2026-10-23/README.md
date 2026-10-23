@@ -1,6 +1,6 @@
 # Why pages stop being indexed: Google's reasons, compared with weeklydelight.com (23 October 2026)
 
-Integration of Codex's `audit/google-indexing-followup-2026-10-22` (source `e822110d`, report in [../google-indexing-followup-2026-10-23/](../google-indexing-followup-2026-10-23/README.md)) on branch `claude/indexing-fixes`, plus the authored-timing corrections Codex assigned to Claude, plus a reason-by-reason comparison with Google's documentation. Not merged, not deployed: the owner has not yet approved either.
+Integration of Codex's `audit/google-indexing-followup-2026-10-22` (source `e822110d`, report in [../google-indexing-followup-2026-10-23/](../google-indexing-followup-2026-10-23/README.md)) on branch `claude/indexing-fixes`, plus the authored-timing corrections Codex assigned to Claude, plus a reason-by-reason comparison with Google's documentation. Merged on the owner's instruction as PR #28 and live from 08:04 UTC on 23 October; the second audit, the CDN caching rule and the duplicate retirements below were merged as PR #29 and are live from 11:54 UTC the same day.
 
 Nothing here can promise indexing or traffic. Google decides what to index. What follows separates what the repository can fix (and now does) from what only the host or Search Console can show.
 
@@ -118,3 +118,13 @@ Each pair's ingredients, method, times and serving were compared line by line. T
 - Removed with each: catalogue row, detail record, `images.json` entry and photo files (three had a second, step-by-step photograph; `kartoffelsalat` carried one of the remaining AI illustrations). `src/data/retired-recipes.json` now lists 16 recipes with their reasons; `.htaccess` and `vercel.json` carry 16 redirects and the build writes them to `_redirects`. `tools/retired-recipes-check.js` now also proves that no remaining recipe is caught by a retired page's rule (`naan` against `naan-pizza`, `sfiha` against `sfiha-baalbakieh`).
 - The photograph-sharing exceptions in `tools/check.js` for `rogan-josh`/`lamb-rogan-josh` and `naan`/`garlic-naan` are gone with the pages. The keyword plan (`tools/keywords/KEYWORDS.csv`) loses the 16 retired pages' rows; each had been aimed at the same search phrase as the page that stays.
 - Recipes: 5,511 → 5,499. As in the first round, the 354 collection and hub pages move their `lastmod`; no recipe's date moved.
+
+## Live after the deploy (23 October, from 11:54 UTC)
+
+PR #29 (`c0e994f3`) reached the live host at 11:54 UTC, about 40 minutes after the merge. Checked against the live site at a gentle rate:
+
+- **Redirects:** all 16 retired addresses answer one 301 to the page that stays, and every page that stays answers 200. `/recipes/naan`, `/recipes/grilled-cheese/index.html` and `https://www.weeklydelight.com/recipes/sfiha/` reach their target in one hop; `http://www.weeklydelight.com/recipes/coleslaw` takes two (the CDN upgrades to `https` first, then the rule sends it straight to `creamy-coleslaw`).
+- **Nothing caught by mistake:** `naan-pizza`, `keema-naan`, `peshwari-naan`, `garlic-naan`, `sfiha-baalbakieh`, `grilled-cheese-sandwich` and `potato-salad-with-mustard-dressing` all answer 200.
+- **Sitemaps:** the 12 child sitemaps list 5,855 URLs and none of the retired ones.
+- **Same as the build:** 16 sampled pages (home, cuisines index, two kept recipes, 12 random recipes) are byte-identical to the build, so the advertising markup is exactly as committed; `ads.txt` is identical.
+- **CDN caching:** pages now carry `Cache-Control: public, max-age=0, s-maxage=3600, must-revalidate`. Some requests are now answered from the CDN cache (`x-hcdn-cache-status: HIT`, with an `age`), which never happened before; most still pass through (`DYNAMIC`). Which requests the CDN stores is Hostinger's decision, not the repository's. Search Console's Crawl stats over the next days will show whether response times and errors improve.
