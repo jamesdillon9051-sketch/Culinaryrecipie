@@ -81,3 +81,27 @@ Claude cannot sign in to Hostinger for you, and you should never share your pass
 5. Check **Hosting, Usage** (or the resource-usage page) for CPU, memory or process limits being hit.
 6. Send the message in section 0 to Hostinger live chat with this file attached.
 7. A day later, open Search Console: **Settings, Crawl stats** (response codes and average response time; the share of 429, 307 and 5xx should fall) and **Page indexing**. Resubmit `sitemap-index.xml` once; do not delete and resubmit it repeatedly.
+
+## 8. Hostinger's answer (23 October 2026) and the follow-up
+
+Hostinger's support assistant checked the live setup and reported:
+
+- Premium Web Hosting with the CDN enabled; **Under Attack mode off**; WAF rules not blocking countries or IPs; JavaScript and CAPTCHA challenges disabled; CDN security level 2 with no country, IP or bot block lists.
+- The CDN metrics **do show 429 responses in the last 30 days, with a noticeable spike**, while the origin access log has no recent 307s. So the **429s are produced at the CDN or another edge layer, not by the site's `.htaccess`**.
+- Hostinger's CDN guidance says **rapid uncached crawler requests can trigger 429**, and verified search crawlers should normally be let through.
+- It cannot verify Googlebot by reverse DNS or count Googlebot errors over 60 days.
+- Storage is about 77% used and inodes about 15%; no sign of a storage or inode limit.
+- No reason to switch the CDN off or change the advertising or application paths.
+
+**What changed on the site because of it.** Pages had been sent with `max-age=0` and an `Expires` time of "now". Despite `s-maxage=3600` the CDN still answered nearly every page `DYNAMIC` (not cached). The files it does cache, `robots.txt` and the stylesheet, carry a real `max-age`. Pages, sitemaps and feeds now carry `Cache-Control: public, max-age=600, s-maxage=3600` and an `Expires` ten minutes ahead, so the CDN can serve them without going to the hosting server for every crawler request.
+
+**Follow-up to paste into the same Hostinger chat (after that change is live):**
+
+> Thank you. Three follow-ups. (1) Since the 429s come from the CDN layer, can you exempt verified search-engine crawlers (Googlebot, Bingbot) from the CDN rate limit for weeklydelight.com, or raise the limit for this site? (2) Pages are now sent with `Cache-Control: public, max-age=600, s-maxage=3600`; before, with `max-age=0`, they stayed `x-hcdn-cache-status: DYNAMIC`. Please confirm the CDN will now cache them, or tell me what else it needs. (3) On which dates and times was the 429 spike in the CDN metrics, and which URLs or user agents did it affect?
+
+**In Search Console** (what Hostinger suggested, with the right place for each):
+
+- `robots.txt`: **Settings → robots.txt** report (when Google last fetched it, and whether it got an error).
+- Sitemap: **Sitemaps**, `sitemap-index.xml` (status and discovered URLs). Resubmit once; do not delete and resubmit repeatedly.
+- A recipe page: **URL Inspection → Test live URL** (for example `https://weeklydelight.com/recipes/garlic-naan/`).
+- **Settings → Crawl stats**: the share of 429, 3xx and 5xx responses, and the average response time, over the next days.
