@@ -2,6 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://weeklydelight.com/recipes/paneer-jalfrezi/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/paneer-jalfrezi.jpg</image:loc>
+      <image:title>Paneer Jalfrezi</image:title>
+      <image:caption>Paneer Jalfrezi</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/paneer-pakora/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/paneer-pakora.jpg</image:loc>
+      <image:title>Paneer Pakora</image:title>
+      <image:caption>Paneer Pakora</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/paneer-kofta/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/paneer-kofta.jpg</image:loc>
+      <image:title>Paneer Kofta</image:title>
+      <image:caption>Paneer Kofta</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/kala-chana/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kala-chana.jpg</image:loc>
+      <image:title>Kala Chana</image:title>
+      <image:caption>Kala Chana</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/aloo-baingan/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/aloo-baingan.jpg</image:loc>
+      <image:title>Aloo Baingan</image:title>
+      <image:caption>Aloo Baingan</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/aloo-palak/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/aloo-palak.jpg</image:loc>
+      <image:title>Aloo Palak</image:title>
+      <image:caption>Aloo Palak</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://weeklydelight.com/recipes/sev-puri/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -4450,17 +4516,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://weeklydelight.com/recipes/slow-cooker-split-pea-soup/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/slow-cooker-split-pea-soup.jpg</image:loc>
-      <image:title>Slow Cooker Split Pea Soup</image:title>
-      <image:caption>Slow Cooker Split Pea Soup</image:caption>
-    </image:image>
-  </url>
-  <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-apple-butter/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -5093,72 +5148,6 @@
       <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-pork-belly.jpg</image:loc>
       <image:title>Air Fryer Pork Belly</image:title>
       <image:caption>Air Fryer Pork Belly</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/air-fryer-quesadilla/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-quesadilla.jpg</image:loc>
-      <image:title>Air Fryer Quesadilla</image:title>
-      <image:caption>Air Fryer Quesadilla</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/air-fryer-spring-rolls/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-spring-rolls.jpg</image:loc>
-      <image:title>Air Fryer Spring Rolls</image:title>
-      <image:caption>Air Fryer Spring Rolls</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/air-fryer-stuffed-peppers/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-stuffed-peppers.jpg</image:loc>
-      <image:title>Air Fryer Stuffed Peppers</image:title>
-      <image:caption>Air Fryer Stuffed Peppers</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/air-fryer-tater-tots/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-tater-tots.jpg</image:loc>
-      <image:title>Air Fryer Tater Tots</image:title>
-      <image:caption>Air Fryer Tater Tots</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/air-fryer-turkey-breast/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-turkey-breast.jpg</image:loc>
-      <image:title>Air Fryer Turkey Breast</image:title>
-      <image:caption>Air Fryer Turkey Breast</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/air-fryer-zucchini-chips/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-zucchini-chips.jpg</image:loc>
-      <image:title>Air Fryer Zucchini Chips</image:title>
-      <image:caption>Air Fryer Zucchini Chips</image:caption>
     </image:image>
   </url>
 </urlset>

@@ -2,6 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://weeklydelight.com/recipes/kutia/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kutia.jpg</image:loc>
+      <image:title>Kutia</image:title>
+      <image:caption>Kutia</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/vanocka/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/vanocka.jpg</image:loc>
+      <image:title>Vánočka</image:title>
+      <image:caption>Vánočka</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://weeklydelight.com/recipes/julekake/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -5346,39 +5368,6 @@
       <image:loc>https://weeklydelight.com/assets/img/recipes/rabbit-pie.jpg</image:loc>
       <image:title>Rabbit Pie</image:title>
       <image:caption>Rabbit Pie</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/stovies/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/stovies.jpg</image:loc>
-      <image:title>Stovies</image:title>
-      <image:caption>Stovies</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/bubble-and-squeak/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/bubble-and-squeak.jpg</image:loc>
-      <image:title>Bubble and Squeak</image:title>
-      <image:caption>Bubble and Squeak</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/mushy-peas/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/mushy-peas.jpg</image:loc>
-      <image:title>Mushy Peas</image:title>
-      <image:caption>Mushy Peas</image:caption>
     </image:image>
   </url>
 </urlset>

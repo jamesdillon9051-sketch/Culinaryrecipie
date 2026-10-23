@@ -2,6 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://weeklydelight.com/recipes/lemon-garlic-roast-chicken-thighs/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-garlic-roast-chicken-thighs.jpg</image:loc>
+      <image:title>Lemon Garlic Roast Chicken Thighs</image:title>
+      <image:caption>Lemon Garlic Roast Chicken Thighs</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/lemon-herb-cod/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/linguine-with-clams/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/linguine-with-clams.jpg</image:loc>
+      <image:title>Linguine with Clams</image:title>
+      <image:caption>Linguine with Clams</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/minted-peas/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/minted-peas.jpg</image:loc>
+      <image:title>Minted Peas</image:title>
+      <image:caption>Minted Peas</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/mornay-sauce/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mornay-sauce.jpg</image:loc>
+      <image:title>Mornay Sauce</image:title>
+      <image:caption>Mornay Sauce</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/mussels-with-chorizo/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mussels-with-chorizo.jpg</image:loc>
+      <image:title>Mussels with Chorizo</image:title>
+      <image:caption>Mussels with Chorizo</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://weeklydelight.com/recipes/one-pot-beef-and-rice/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -4542,17 +4603,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://weeklydelight.com/recipes/australian-cheese-and-vegemite-scrolls/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/australian-cheese-and-vegemite-scrolls.jpg</image:loc>
-      <image:title>Australian Cheese and Vegemite Scrolls</image:title>
-      <image:caption>Australian Cheese and Vegemite Scrolls</image:caption>
-    </image:image>
-  </url>
-  <url>
     <loc>https://weeklydelight.com/recipes/new-zealand-mince-and-cheese-pie/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -5133,72 +5183,6 @@
       <image:loc>https://weeklydelight.com/assets/img/recipes/paneer-do-pyaza.jpg</image:loc>
       <image:title>Paneer Do Pyaza</image:title>
       <image:caption>Paneer Do Pyaza</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/paneer-jalfrezi/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/paneer-jalfrezi.jpg</image:loc>
-      <image:title>Paneer Jalfrezi</image:title>
-      <image:caption>Paneer Jalfrezi</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/paneer-pakora/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/paneer-pakora.jpg</image:loc>
-      <image:title>Paneer Pakora</image:title>
-      <image:caption>Paneer Pakora</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/paneer-kofta/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/paneer-kofta.jpg</image:loc>
-      <image:title>Paneer Kofta</image:title>
-      <image:caption>Paneer Kofta</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/kala-chana/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/kala-chana.jpg</image:loc>
-      <image:title>Kala Chana</image:title>
-      <image:caption>Kala Chana</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/aloo-baingan/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/aloo-baingan.jpg</image:loc>
-      <image:title>Aloo Baingan</image:title>
-      <image:caption>Aloo Baingan</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/aloo-palak/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/aloo-palak.jpg</image:loc>
-      <image:title>Aloo Palak</image:title>
-      <image:caption>Aloo Palak</image:caption>
     </image:image>
   </url>
 </urlset>

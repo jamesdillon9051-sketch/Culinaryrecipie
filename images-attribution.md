@@ -1,10 +1,10 @@
 # Image Attribution
 
 Every photograph on Weekly Delight is used under a licence that allows it here.
-Of 5611 photographs, **1642** are CC0 or public domain and carry no
-conditions at all, **3616** are **Creative Commons Attribution (CC BY)** — free
+Of 5607 photographs, **1641** are CC0 or public domain and carry no
+conditions at all, **3614** are **Creative Commons Attribution (CC BY)** — free
 to use, adapt and use commercially, on the single condition that the photographer
-is credited — and **353** use the stock-library licences named
+is credited — and **352** use the stock-library licences named
 in the licence table below, which permit commercial recipe-page use and
 adaptation. Courtesy credits are retained. These are not Creative Commons
 licences and do not permit unrestricted redistribution as stock photography.
@@ -180,25 +180,25 @@ wrong dish were deleted rather than kept.
 
 | | |
 |---|---|
-| Recipes | 5515 |
-| Hero photographs | 5126 |
+| Recipes | 5511 |
+| Hero photographs | 5122 |
 | Secondary "process" photographs | 485 |
 | Generated illustrations | 101 |
-| Total image files | 11424 (WebP + JPEG for each) |
+| Total image files | 11416 (WebP + JPEG for each) |
 | Recipes using a gradient placeholder | 288 |
 
 ### Licences used
 
 | Licence | Images | Terms |
 |---|---:|---|
-| CC BY 2.0 | 1539 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY 2.0 | 1538 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC0 | 813 | No rights reserved — no attribution legally required |
 | CC BY-SA 4.0 | 793 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | CC BY-SA 2.0 | 659 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| CC0 1.0 | 472 | No rights reserved — no attribution legally required |
-| CC BY-SA 3.0 | 353 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC0 1.0 | 471 | No rights reserved — no attribution legally required |
+| CC BY-SA 3.0 | 352 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public domain | 254 | No rights reserved — no attribution legally required |
-| Pixabay Content License | 245 | The stock library's own licence: free to use, adapt and use commercially; no credit required (given anyway) |
+| Pixabay Content License | 244 | The stock library's own licence: free to use, adapt and use commercially; no credit required (given anyway) |
 | CC BY 4.0 | 109 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | Pexels License | 107 | The stock library's own licence: free to use, adapt and use commercially; no credit required (given anyway) |
 | Public Domain Mark 1.0 | 101 | No rights reserved — no attribution legally required |
@@ -2162,7 +2162,6 @@ licence as the rest of this project.
 | `tuna-salad.webp` / `.jpg` | Tuna Salad | Hero | Tuna fish sandwiches for the National School Lunch Program (1) (image of tuna salad on Wikidata Q2884546) | U.S. Department of Agriculture | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tuna_fish_sandwiches_for_the_National_School_Lunch_Program_(1).jpg) |
 | `chicken-salad.webp` / `.jpg` | Chicken Salad | Hero | Chicken Salad Chick Classic Carol scoop, Jan 2020 | Thomson200 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chicken_Salad_Chick_Classic_Carol_scoop,_Jan_2020.jpg) |
 | `fudge-brownies.webp` / `.jpg` | Fudge Brownies | Hero | Brownies Cockaigne from Joy of Cooking | WhatamIdoing | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Brownies_Cockaigne_from_Joy_of_Cooking.png) |
-| `fluffy-pancakes.webp` / `.jpg` | Fluffy Pancakes | Hero | Pancake, American breakfast | Unknown | CC0 1.0 | [Rawpixel](https://www.rawpixel.com/image/6033674/photo-image-public-domain-food-free) |
 | `garlic-bread.webp` / `.jpg` | Garlic Bread | Hero | Garlicbread (image of garlic bread on Wikidata Q1359006) | Popo le Chien | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Garlicbread.jpg) |
 | `pesto-pasta.webp` / `.jpg` | Pesto Pasta | Hero | Pesto Pasta | Unknown | CC0 1.0 | [Rawpixel](https://www.rawpixel.com/image/5969580/pesto-pasta) |
 | `pesto-pasta-process.webp` / `.jpg` | Pesto Pasta | Process | pasta-tomaat-pesto-vegetarisch_StockSnap_6VSO626JC8 | Archeduc - Vormingplus Halle-Vilvoorde | CC0 1.0 | [Flickr](https://www.flickr.com/photos/26346696@N02/33679024796) |
@@ -3917,7 +3916,6 @@ licence as the rest of this project.
 | `egg-and-cress-sandwich.webp` / `.jpg` | Egg and Cress Sandwich | Hero | Egg salad sandwich - cropped | jill, jellidonut... whatever from Raleigh, NC, USA | CC BY 2.5 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Egg_salad_sandwich_-_cropped.jpg) |
 | `marmite-on-toast.webp` / `.jpg` | Marmite on Toast | Hero | Marmite and cheese on toast | TheJackal | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Marmite_and_cheese_on_toast.jpg) |
 | `bounty-slice.webp` / `.jpg` | Bounty Slice | Hero | Homemade bounty - coconut bars (KETO, LCHF, Low Carb, Gluten free, FIT) - 52775014478 | [Ewelina Podrez-Siama](https://ms-fox.pl/) | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Homemade_bounty_-_coconut_bars_(KETO,_LCHF,_Low_Carb,_Gluten_free,_FIT)_-_52775014478.jpg) |
-| `sticky-date-cake.webp` / `.jpg` | Sticky Date Cake | Hero | StickyToffeePudding (cropped) (image of sticky toffee pudding on Wikidata Q7616334) | Chalk and Cheese | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:StickyToffeePudding_(cropped).jpg) |
 | `passionfruit-slice.webp` / `.jpg` | Passionfruit Slice | Hero | Passionfruit vanilla slice aus | Finbar.concaig | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Passionfruit_vanilla_slice_aus.jpg) |
 | `shortbread-fingers.webp` / `.jpg` | Shortbread Fingers | Hero | Shortbread fingers | User:Dave souza | CC BY-SA 2.5 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Shortbread_fingers.jpg) |
 | `apple-pie-with-custard.webp` / `.jpg` | Apple Pie with Custard | Hero | apple pie with custard | Unknown | CC0 1.0 | [Rawpixel](https://www.rawpixel.com/image/5958301/free-public-domain-cc0-photo) |
@@ -4742,7 +4740,6 @@ licence as the rest of this project.
 | `pakistani-daal-chawal.webp` / `.jpg` | Pakistani Daal Chawal | Hero | Daal Bhaat | deep1104 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Daal_Bhaat.jpg) |
 | `afghan-dal.webp` / `.jpg` | Afghan Dal | Hero | Dal curry 20230930 | Vis M | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Dal_curry_20230930.jpg) |
 | `nepali-aloo-tama.webp` / `.jpg` | Nepali Aloo Tama | Hero | Aloo Bodi Tama | Gaurav Dhwaj Khadka | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Aloo_Bodi_Tama.jpg) |
-| `australian-cheese-and-vegemite-scrolls.webp` / `.jpg` | Australian Cheese and Vegemite Scrolls | Hero | Cheesymite 2014-05-26 17-09 | User:Tshay93 | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cheesymite_2014-05-26_17-09.jpg) |
 | `new-zealand-mince-and-cheese-pie.webp` / `.jpg` | New Zealand Mince and Cheese Pie | Hero | Mince and cheese pie | CuriosityKat33 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mince_and_cheese_pie.jpg) |
 | `new-zealand-anzac-biscuits.webp` / `.jpg` | New Zealand Anzac Biscuits | Hero | Single ANZAC biscuit | me (w:User:pfctdayelise) | CC BY-SA 2.5 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Single_ANZAC_biscuit.jpg) |
 | `new-zealand-corn-fritters.webp` / `.jpg` | New Zealand Corn Fritters | Hero | Corn fritters with joghurt coriander dip | o.tacke | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Corn_fritters_with_joghurt_coriander_dip.jpg) |
@@ -5184,7 +5181,6 @@ licence as the rest of this project.
 | `air-fryer-potato-wedges.webp` / `.jpg` | Air Fryer Potato Wedges | Hero | Potato Wedges | Red Lobster Lover Joe instagram:redlobsterloverjoe1 | Public domain | [Flickr](https://www.flickr.com/photos/164188154@N05/48117805701) |
 | `air-fryer-corn-ribs.webp` / `.jpg` | Air Fryer Corn Ribs | Hero | Corn riblets | Sarah Stierch | CC0 1.0 | [Flickr](https://www.flickr.com/photos/7633518@N08/54835536228/) |
 | `slow-cooker-pulled-beef.webp` / `.jpg` | Slow Cooker Pulled Beef | Hero | Pulled beef | Autor: Thogru | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pulled_beef.jpg) |
-| `slow-cooker-split-pea-soup.webp` / `.jpg` | Slow Cooker Split Pea Soup | Hero | Pea soup, soup plate | RitaE | Pixabay Content License | [Pixabay](https://pixabay.com/photos/pea-soup-soup-starter-soup-plate-2786118/) |
 | `slow-cooker-apple-butter.webp` / `.jpg` | Slow Cooker Apple Butter | Hero | Apple-pear Butter After Cooling in the Slow Cooker | jfeuchter | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/76614238@N00/10719053185) |
 | `slow-cooker-oatmeal.webp` / `.jpg` | Slow Cooker Oatmeal | Hero | Delicious Oatmeal with Banana and Raspberry Topping | Iulian Sandu | Pexels License | [Pexels](https://www.pexels.com/photo/delicious-oatmeal-with-banana-and-raspberry-topping-33874707/) |
 | `slow-cooker-sticky-ribs.webp` / `.jpg` | Slow Cooker Sticky Ribs | Hero | Coconut Sticky Pork Ribs | Annie Mole | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/21309047@N00/5410239321) |

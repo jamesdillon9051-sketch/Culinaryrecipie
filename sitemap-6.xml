@@ -2,6 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://weeklydelight.com/recipes/chestnut-stuffing/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chestnut-stuffing.jpg</image:loc>
+      <image:title>Chestnut Stuffing</image:title>
+      <image:caption>Chestnut Stuffing</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/gypsy-tart/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gypsy-tart.jpg</image:loc>
+      <image:title>Gypsy Tart</image:title>
+      <image:caption>Gypsy Tart</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/partridgeberry-pie/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/paska/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/paska.jpg</image:loc>
+      <image:title>Paska</image:title>
+      <image:caption>Paska</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://weeklydelight.com/recipes/mango-cheesecake/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -5109,61 +5148,6 @@
       <image:loc>https://weeklydelight.com/assets/img/recipes/cabbage-roll-skillet.jpg</image:loc>
       <image:title>Cabbage Roll Skillet</image:title>
       <image:caption>Cabbage Roll Skillet</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/eggplant-lasagna-roll-ups/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/eggplant-lasagna-roll-ups.jpg</image:loc>
-      <image:title>Eggplant Lasagna Roll-Ups</image:title>
-      <image:caption>Eggplant Lasagna Roll-Ups</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/baked-tilapia-with-tomatoes/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/baked-tilapia-with-tomatoes.jpg</image:loc>
-      <image:title>Baked Tilapia with Tomatoes</image:title>
-      <image:caption>Baked Tilapia with Tomatoes</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/honey-lime-chicken-skewers/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/honey-lime-chicken-skewers.jpg</image:loc>
-      <image:title>Honey Lime Chicken Skewers</image:title>
-      <image:caption>Honey Lime Chicken Skewers</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/chickpea-veggie-burgers/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/chickpea-veggie-burgers.jpg</image:loc>
-      <image:title>Chickpea Veggie Burgers</image:title>
-      <image:caption>Chickpea Veggie Burgers</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/poached-chicken-breast/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/poached-chicken-breast.jpg</image:loc>
-      <image:title>Poached Chicken Breast</image:title>
-      <image:caption>Poached Chicken Breast</image:caption>
     </image:image>
   </url>
 </urlset>
