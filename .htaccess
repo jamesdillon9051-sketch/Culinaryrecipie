@@ -119,9 +119,9 @@ ErrorDocument 404 /404.html
 <IfModule mod_expires.c>
   ExpiresActive On
   ExpiresDefault "access plus 1 hour"
-  # Browsers revalidate pages, so a rebuild shows up straight away (the CDN's
-  # own hour is set with s-maxage below).
-  ExpiresByType text/html "access plus 0 seconds"
+  # Pages keep for ten minutes, matching max-age below. An Expires of "now"
+  # told the CDN not to cache them at all (see the Cache-Control note).
+  ExpiresByType text/html "access plus 10 minutes"
   ExpiresByType application/xml "access plus 1 hour"
   ExpiresByType application/json "access plus 1 hour"
   # Photographs keep their file names when one is swapped for a better picture,
@@ -146,17 +146,21 @@ ErrorDocument 404 /404.html
   <FilesMatch "\.(webp|jpg|png|svg)$">
     Header set Cache-Control "public, max-age=2592000"
   </FilesMatch>
-  # Pages, sitemaps and feeds: browsers revalidate every time (max-age=0), but
-  # the CDN in front (Hostinger, "server: hcdn") may keep a copy for an hour
-  # (s-maxage). With max-age=0 alone the CDN treated every page as uncacheable
-  # ("x-hcdn-cache-status: DYNAMIC"), so each crawler request went through to
-  # the shared-hosting server. That server answered bursts with HTTP 429, and
-  # Search Console listed the pages as "Discovered - currently not indexed",
-  # the status Google gives when it holds back so as not to overload a site.
-  # An hour of edge caching is the cost: a deploy can take up to an hour to
-  # reach every CDN edge unless the CDN cache is cleared in hPanel. Header set
-  # applies to successful responses only, so a 404 is never cached this way.
+  # Pages, sitemaps and feeds: browsers may keep a copy for ten minutes
+  # (max-age), the CDN in front (Hostinger, "server: hcdn") for an hour
+  # (s-maxage). With max-age=0 the CDN treated nearly every page as uncacheable
+  # ("x-hcdn-cache-status: DYNAMIC"), even with s-maxage added, so each crawler
+  # request went through to the hosting server, and Hostinger's CDN answers
+  # rapid uncached requests with HTTP 429 (Hostinger confirmed the 429s come
+  # from the CDN layer, not from these rules). Search Console listed the pages
+  # as "Discovered - currently not indexed", the status Google gives when it
+  # holds back so as not to overload a site. Files the CDN did cache, such as
+  # robots.txt (max-age=3600) and the stylesheet, all carry a real max-age.
+  # The cost: a reader may see a page up to ten minutes old, and a deploy can
+  # take up to an hour to reach every CDN edge unless the CDN cache is cleared
+  # in hPanel. Header set applies to successful responses only, so a 404 is
+  # never cached this way.
   <FilesMatch "\.(html|xml)$">
-    Header set Cache-Control "public, max-age=0, s-maxage=3600, must-revalidate"
+    Header set Cache-Control "public, max-age=600, s-maxage=3600"
   </FilesMatch>
 </IfModule>

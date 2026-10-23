@@ -128,3 +128,10 @@ PR #29 (`c0e994f3`) reached the live host at 11:54 UTC, about 40 minutes after t
 - **Sitemaps:** the 12 child sitemaps list 5,855 URLs and none of the retired ones.
 - **Same as the build:** 16 sampled pages (home, cuisines index, two kept recipes, 12 random recipes) are byte-identical to the build, so the advertising markup is exactly as committed; `ads.txt` is identical.
 - **CDN caching:** pages now carry `Cache-Control: public, max-age=0, s-maxage=3600, must-revalidate`. Some requests are now answered from the CDN cache (`x-hcdn-cache-status: HIT`, with an `age`), which never happened before; most still pass through (`DYNAMIC`). Which requests the CDN stores is Hostinger's decision, not the repository's. Search Console's Crawl stats over the next days will show whether response times and errors improve.
+
+## Hostinger's answer and the cache-header fix (23 October, afternoon)
+
+Hostinger's support assistant confirmed that Under Attack mode is off, no WAF, country, IP or bot rules block anyone, and challenges are disabled, but that the **CDN metrics show 429 responses over the last 30 days, with a spike, generated at the CDN layer** (the origin log has no recent 307s either). Its guidance: rapid uncached crawler requests can trigger 429. Full answer and the follow-up questions: [HOSTINGER-STEPS.md](HOSTINGER-STEPS.md), section 8.
+
+Live headers explained why pages stayed uncached after PR #29: every page carried `max-age=0` and `Expires` set to the moment of the request, and the CDN answered nearly all of them `DYNAMIC` despite `s-maxage=3600`; `robots.txt` (`max-age=3600`) and the stylesheet (one year) were cached normally. `.htaccess` now sends pages, sitemaps and feeds `Cache-Control: public, max-age=600, s-maxage=3600` with `Expires` ten minutes ahead. The trade-off is that a reader may see a page up to ten minutes old after a change.
+
