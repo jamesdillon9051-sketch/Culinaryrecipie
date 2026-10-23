@@ -97,7 +97,8 @@ ErrorDocument 404 /404.html
 <IfModule mod_expires.c>
   ExpiresActive On
   ExpiresDefault "access plus 1 hour"
-  # Pages revalidate, so a rebuild shows up straight away.
+  # Browsers revalidate pages, so a rebuild shows up straight away (the CDN's
+  # own hour is set with s-maxage below).
   ExpiresByType text/html "access plus 0 seconds"
   ExpiresByType application/xml "access plus 1 hour"
   ExpiresByType application/json "access plus 1 hour"
@@ -123,7 +124,17 @@ ErrorDocument 404 /404.html
   <FilesMatch "\.(webp|jpg|png|svg)$">
     Header set Cache-Control "public, max-age=2592000"
   </FilesMatch>
+  # Pages, sitemaps and feeds: browsers revalidate every time (max-age=0), but
+  # the CDN in front (Hostinger, "server: hcdn") may keep a copy for an hour
+  # (s-maxage). With max-age=0 alone the CDN treated every page as uncacheable
+  # ("x-hcdn-cache-status: DYNAMIC"), so each crawler request went through to
+  # the shared-hosting server. That server answered bursts with HTTP 429, and
+  # Search Console listed the pages as "Discovered - currently not indexed",
+  # the status Google gives when it holds back so as not to overload a site.
+  # An hour of edge caching is the cost: a deploy can take up to an hour to
+  # reach every CDN edge unless the CDN cache is cleared in hPanel. Header set
+  # applies to successful responses only, so a 404 is never cached this way.
   <FilesMatch "\.(html|xml)$">
-    Header set Cache-Control "public, max-age=0, must-revalidate"
+    Header set Cache-Control "public, max-age=0, s-maxage=3600, must-revalidate"
   </FilesMatch>
 </IfModule>

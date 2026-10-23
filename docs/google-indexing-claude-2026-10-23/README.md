@@ -50,3 +50,30 @@ Ingredient-word overlap, computed from the recipe data (1.0 would be identical):
 1. **Hostinger, hPanel:** Websites, Dashboard, Performance, CDN, Manage, Security. Check the security level and "Under Attack" mode, bot protection and country or rate rules. A mode that challenges or rate-limits unknown clients will answer Googlebot with 429/403/5xx. Ask Hostinger support to trace the request IDs in [HOSTINGER-HANDOFF.md](../google-indexing-followup-2026-10-23/HOSTINGER-HANDOFF.md), to confirm verified Googlebot is not being limited, and to explain the self-redirecting 307s and intermittent 502s. Also check hPanel resource usage for limit hits. Turning the CDN off for a few days is a test you can choose to run; it can change what Google sees.
 2. **Search Console** (after the TXT record is added at Hostinger DNS and verified): Manual actions; Security issues; Page indexing (which statuses, and for which URL groups); Settings, Crawl stats (response codes and average response time, and the host status); URL Inspection, Live test on a handful of recipe URLs; Sitemaps (12 child sitemaps, "Success"). Run the Rich Results Test on two or three recipe pages.
 3. **Approve or decline** merging and deploying this branch. Once deployed, resubmit the sitemap index and request indexing for a few representative pages; do not expect an immediate effect.
+
+
+## Second audit, 23 October (after the merge)
+
+**What Google actually reported.** The Search Console export saved on 20 October (`docs/crawl-audit-2026-10-20/search-console/`) lists 1,000 URLs, every one "Discovered - currently not indexed" with "Last crawled 1970-01-01". Google found them (through the sitemaps) and never fetched them. Google's description of that status: it wanted to crawl the URL, but expected doing so to overload the site, so it rescheduled. Low crawl demand for a new, very large site also produces it. Neither is a page defect, and the audit below confirms there are none.
+
+**Every built page, checked by script (5,878 pages, 5,871 in the sitemaps).**
+
+| Check | Result |
+| --- | --- |
+| Titles and meta descriptions | All present; no two pages share either (the three ad frames aside, which are `noindex`) |
+| Canonical | Exactly one per page, pointing at itself, `https://weeklydelight.com/…/` |
+| Robots meta | `noindex` only on `404.html`, `favourites/`, the contact result templates and the ad frames; none of them is in a sitemap |
+| `<head>` | No element that would make Google stop reading the head before the canonical |
+| JSON-LD | Every block parses; Recipe step anchors and breadcrumb targets exist; no future dates; durations valid |
+| Internal links | None broken, none to a redirecting URL, none to `www`, `http` or `index.html`; every recipe has 5 to 29 linking pages (median 15) |
+| Sitemaps | Every indexable page exactly once; nothing non-canonical, `noindex` or missing; `lastmod` equals the page's `dateModified` |
+| Thin pages | Recipes: 795 to 1,449 words. Five collection pages list one or two recipes (Bolivian, Uruguayan, Cypriot, Ecuadorian, Slovak); 90 collection pages are under 300 words |
+| Repeated template text | A median 36% of a recipe page's words are sentences that appear on 20 or more pages (navigation, the notes and save panels, the nutrition note, the AI disclosure). Ordinary for a recipe site. |
+
+**Live checks (about 08:30 to 09:00 UTC, gentle rates).** A missing page answers a real 404, not a soft 404. `http://`, `www.`, a missing trailing slash and `/index.html` each reach the canonical page in one 301. No `X-Robots-Tag` header. A Googlebot user agent gets 200. Fifteen pages and fifteen images at one request a second all answered 200 (origin time about 0.25 s); the 429s seen at 06:33 did not recur. `robots.txt` blocks only the filter parameters and lets every crawler fetch CSS, scripts and images. A recipe page rendered in Chromium as a phone, with no clicks or scrolling for 12 seconds, stayed on its URL, opened no window and had no element covering the content; the three ad frames loaded. The Search Console verification TXT record is now in the domain's DNS.
+
+**Fixed: pages could not be cached by the CDN.** Every page and sitemap was sent with `Cache-Control: public, max-age=0, must-revalidate`, and Hostinger's CDN answered every one `x-hcdn-cache-status: DYNAMIC`, meaning it passed each request to the shared-hosting server ([How Hostinger CDN caching works](https://www.hostinger.com/support/?p=18721)). That server is where the 429s came from. `.htaccess` now sends `public, max-age=0, s-maxage=3600, must-revalidate` for `.html` and `.xml`: browsers still revalidate on every visit, and the CDN may serve a copy up to an hour old. The cost is that a deploy can take up to an hour to reach every CDN edge, unless the CDN cache is cleared in hPanel (Performance, CDN, Clear cache). Error pages are not affected (`Header set` applies to successful responses only). This lowers the load that makes Google hold back; it cannot make Google crawl faster than it chooses to.
+
+**Not fixed: same dish under two names.** Thirty-six pairs share 80% or more of their ingredient words; read by eye, 32 are real variants (a different appliance, protein or form) and four are the same dish twice, none of them among the 15 already acknowledged: `vegemite-scrolls` and `australian-cheese-and-vegemite-scrolls`, `buttermilk-pancakes` and `fluffy-pancakes`, `sticky-date-pudding` and `sticky-date-cake`, `slow-cooker-pea-and-ham-soup` and `slow-cooker-split-pea-soup`. List: [duplicate-candidates.csv](duplicate-candidates.csv). Merging one into the other needs a 301 redirect and is the owner's decision.
+
+**Not changed:** the five one-or-two-recipe collections, and `/search/` (a filter page whose HTML holds no results). Each is one URL among 5,871 and none of them explains thousands of pages never being fetched.
