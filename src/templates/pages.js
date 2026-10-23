@@ -604,7 +604,7 @@ ${breadcrumbs(trail)}
   <header class="section-head">
     <div>
       <span class="eyebrow">Cuisine explorer</span>
-      <h1>Twenty-nine cuisines, mapped</h1>
+      <h1>${plural(ctx.topCuisines.length, 'cuisine')}, mapped</h1>
       <p class="lede">Every cuisine on the site, with the number of recipes and what makes each one tick. Start anywhere.</p>
       <p>Want every recipe in one list? Open the <a href="${SITE.base}site-directory/">site directory</a>.</p>
     </div>
@@ -659,7 +659,7 @@ ${breadcrumbs(trail)}
     <div>
       <span class="eyebrow">Browse by category</span>
       <h1>Ten ways in</h1>
-      <p class="lede">Breakfast through to holiday centrepieces. Each category is filtered further by cuisine, dietary needs, difficulty and time.</p>
+      <p class="lede">Breakfast through to holiday centrepieces. Browse each category by cuisine, or use the <a href="${SITE.base}recipes/">recipe directory</a> to filter by diet, difficulty and time.</p>
     </div>
   </header>
   <div class="tile-grid">${tiles}</div>

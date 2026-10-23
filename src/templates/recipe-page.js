@@ -329,7 +329,9 @@ function recipeSchema(recipe) {
     recipeInstructions: recipe.steps.map((text, i) => ({
       '@type': 'HowToStep',
       position: i + 1,
-      name: `Step ${i + 1}`,
+      /* Google asks for an action summary, not a numbered label. Names are
+         optional, and these steps have no authored headings: preserve the
+         complete visible instruction rather than inventing a summary. */
       text,
       url: `${url}#step-${i + 1}`
     })),

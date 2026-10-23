@@ -77,6 +77,18 @@ function enrichDescription(base, clauses = [], limits = {}) {
  * descending list always lands on the longest one the space allows.
  */
 const TAIL_CLAUSES = [
+  'Each recipe includes ingredients, method and serving notes.',
+  'Step-by-step methods, ingredients and storage notes.',
+  'Full method, ingredients and tips.',
+  'With ingredients and method.',
+  'With the full method.',
+  'Full method.'
+];
+
+/* Nutrition is deliberately withheld on some recipes. These clauses belong
+   only to individual recipes that actually print calculated figures; a
+   collection cannot promise nutrition for every recipe it lists. */
+const NUTRITION_TAIL_CLAUSES = [
   'Each with nutrition, method and the reasoning behind it.',
   'Step-by-step method, nutrition and storage notes.',
   'Full method, nutrition and tips.',
@@ -99,10 +111,13 @@ const elapsed = recipe => recipe.elapsedTime != null
   ? recipe.elapsedTime
   : (recipe.prep || 0) + (recipe.cook || 0) + (recipe.restTime || 0);
 
+const hasUntimed = recipe => Array.isArray(recipe.untimed)
+  ? recipe.untimed.length > 0 : Boolean(recipe.untimed);
+
 function recipeTitleHooks(recipe) {
   const total = elapsed(recipe);
   return [
-    total && total <= 30 ? `in ${total} Minutes` : null,
+    !hasUntimed(recipe) && total && total <= 30 ? `in ${total} Minutes` : null,
     recipe.difficulty === 'Easy' ? '— Easy' : null,
     recipe.cook >= 90 ? '— Slow-Cooked' : null
   ].filter(Boolean);
@@ -134,7 +149,7 @@ function recipeDescriptionClauses(recipe) {
     ['Vegan', 'Vegetarian', 'Gluten-Free', 'Dairy-Free'].includes(t) &&
     !(recipe.dietStatus && recipe.dietStatus[t] && recipe.dietStatus[t].status !== 'clean'));
   return [
-    total && !saysTime
+    !hasUntimed(recipe) && total && !saysTime
       ? (rest ? `Takes ${span} start to finish, mostly unattended.` : `Ready in ${total} minutes.`)
       : null,
     recipe.servings ? `Serves ${recipe.servings}.` : null,
@@ -143,7 +158,7 @@ function recipeDescriptionClauses(recipe) {
       ? `${diet}.` : null,
     /freez/i.test(storage) ? 'Freezer-friendly.' : null,
     /refrigerat|keeps|chill/i.test(storage) ? 'Make-ahead friendly.' : null,
-    ...TAIL_CLAUSES
+    ...([1, 2].includes(recipe.nutritionTier) ? NUTRITION_TAIL_CLAUSES : TAIL_CLAUSES)
   ].filter(Boolean);
 }
 

@@ -60,12 +60,17 @@ const { derivedTags } = require('./lib/diet-derived');
  * fourteen of these pages describing themselves in under seventy characters
  * and handing back half the snippet Google was willing to print. The rest is
  * derived from the hub itself, so it stays true as recipes come and go: the
- * cuisines actually represented, and the quickest hands-on time on the page.
+ * cuisines actually represented, and a supported complete elapsed time.
  */
 function hubDescription(hub) {
   const list = hub.recipes || [];
   const cuisines = [...new Set(list.map(r => r.cuisine))].slice(0, 3);
-  const quickest = Math.min(...list.map(r => r.prep + r.cook));
+  /* Prep + cook excludes required rising, chilling and similar waits. An
+     unquantified stage cannot support a complete-time promise at all. */
+  const quickest = Math.min(...list
+    .filter(r => !(r.untimed && (Array.isArray(r.untimed) ? r.untimed.length : true)))
+    .map(r => r.elapsedTime)
+    .filter(n => Number.isFinite(n) && n > 0));
   const name = hub.name.toLowerCase();
 
   /* Sentences are added only while the whole one fits. Clamping mid-phrase
@@ -97,6 +102,14 @@ function categoryNoun(name) {
   const adjective = CATEGORY_ADJECTIVE[name];
   if (!adjective) return name;
   return adjective.replace(/\b\w/g, c => c.toUpperCase());
+}
+
+/* Category hubs have cuisine links; the linked recipe directory owns the
+   interactive filters. Keep their description faithful to that navigation. */
+function categoryDescription(name, count) {
+  return enrichDescription(
+    `${plural(count, categoryNoun(name).toLowerCase() + ' recipe')} on Weekly Delight. ${CATEGORIES[name]}`,
+    ['Browse by cuisine, or filter the full recipe directory.', ...TAIL_CLAUSES]);
 }
 
 /* What the Quick Meals category page promises its readers. */
@@ -1065,9 +1078,7 @@ function build() {
       heading: `${name} recipes`,
       eyebrow: 'Category',
       intro: `${CATEGORIES[name]} ${plural(list.length, 'recipe')}, in a suggested order.`,
-      description: enrichDescription(
-        `${plural(list.length, categoryNoun(name).toLowerCase() + ' recipe')} on Weekly Delight. ${CATEGORIES[name]}`,
-        ['Filter by cuisine, diet, difficulty and time.', ...TAIL_CLAUSES]),
+      description: categoryDescription(name, list.length),
       keywords: keywordsForCategory(name, list),
       path: `categories/${slug(name)}/`,
       active: 'categories',
@@ -1265,4 +1276,4 @@ if (require.main === module) {
   }
 }
 
-module.exports = { build, loadRecipes, buildContext, searchIndex };
+module.exports = { build, loadRecipes, buildContext, searchIndex, categoryDescription, hubDescription };
