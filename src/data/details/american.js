@@ -313,55 +313,6 @@ module.exports = {
     nut: [812, 48, 52, 46, 3, 8, 1520]
   },
 
-  'pulled-pork-sandwich': {
-    d: 'Pork shoulder rubbed, slow-roasted for seven hours until it shreds under a fork, tossed in a vinegar sauce and piled onto a soft bun with slaw. Almost entirely hands-off.',
-    meta: 'Slow-roasted pulled pork sandwiches with a spice rub and Carolina vinegar sauce. Seven hands-off hours in the oven.',
-    kw: ['pulled pork recipe', 'slow roast pork shoulder', 'carolina vinegar sauce', 'bbq sandwich'],
-    why: 'Pork shoulder holds a great deal of collagen and intramuscular fat, and both need hours between 75 and 95°C to transform — collagen into gelatine, fat into moisture. The stall, when the meat sits at 70°C for an hour or more as surface evaporation cools it, is normal; the answer is patience, not more heat.',
-    ing: [
-      '# For the pork and rub',
-      '2.5 kg bone-in pork shoulder',
-      '3 tbsp light brown sugar',
-      '2 tbsp smoked paprika',
-      '1 tbsp fine sea salt',
-      '2 tsp black pepper',
-      '2 tsp garlic powder',
-      '2 tsp mustard powder',
-      '1 tsp cayenne pepper',
-      '1 tsp ground cumin',
-      '# For the vinegar sauce',
-      '250 ml cider vinegar',
-      '3 tbsp tomato ketchup',
-      '2 tbsp light brown sugar',
-      '1 tsp chilli flakes',
-      '1 tsp fine sea salt',
-      '0.5 tsp black pepper',
-      '# To serve',
-      '8 soft burger buns',
-      '400 g coleslaw',
-      '16 dill pickle slices'
-    ],
-    st: [
-      'Pat the pork dry and score the fat cap in a diamond pattern, cutting into the fat but not the meat.',
-      'Mix the rub and massage it into every surface, working it into the scores. Refrigerate uncovered overnight if you can.',
-      'Take the pork out 2 hours before cooking. Set it fat side up on a rack over a roasting tin with 300 ml of water in the bottom.',
-      'Roast at 150°C / 300°F for 6 to 7 hours. Do not open the oven for the first 4 hours.',
-      'The pork is ready when a probe slides in like warm butter and the internal temperature reaches 95°C. If it stalls around 70°C, that is expected — keep going.',
-      'Rest, loosely tented, for 45 minutes. This is a long rest and it matters; the gelatine needs to set.',
-      'Meanwhile simmer the vinegar sauce ingredients together for 5 minutes.',
-      'Pull the pork apart with two forks, discarding the bone and any hard gristle, and chop through the crisp bark so it distributes.',
-      'Toss with enough vinegar sauce to moisten, then pile onto buns with coleslaw and pickles.'
-    ],
-    tips: [
-      'Bone-in gives you more flavour and a built-in doneness indicator — the bone should pull out clean.',
-      'Do not discard the bark. Those dark crusty edges are the best part; chop them through the whole batch.',
-      'Sauce is added after pulling, not before roasting, so the bark stays crisp.'
-    ],
-    pair: ['A cold lager or a bourbon', 'Serve with coleslaw, cornbread and pickles', 'Finish with banana pudding'],
-    store: 'Refrigerate 4 days, freeze 3 months in its juices. Reheat covered with a splash of stock at 150°C / 300°F for 25 minutes.',
-    nut: [648, 46, 44, 30, 3, 14, 1420]
-  },
-
   'grilled-cheese-sandwich': {
     d: 'Mayonnaise on the outside instead of butter, two cheeses for flavour and melt, and eight minutes over patient medium-low heat. It is the small details that make this version different.',
     meta: 'The ultimate grilled cheese with a mayo-crusted exterior and a two-cheese blend. Eight minutes, golden and gooey.',

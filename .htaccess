@@ -47,6 +47,18 @@
   RewriteRule ^recipes/fluffy-pancakes(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/buttermilk-pancakes/ [R=301,L,NC]
   RewriteRule ^recipes/sticky-date-cake(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/sticky-date-pudding/ [R=301,L,NC]
   RewriteRule ^recipes/slow-cooker-split-pea-soup(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/slow-cooker-pea-and-ham-soup/ [R=301,L,NC]
+  RewriteRule ^recipes/chicken-tagine-olives(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/moroccan-chicken-tagine/ [R=301,L,NC]
+  RewriteRule ^recipes/potato-salad(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/classic-potato-salad/ [R=301,L,NC]
+  RewriteRule ^recipes/coleslaw(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/creamy-coleslaw/ [R=301,L,NC]
+  RewriteRule ^recipes/naan(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/garlic-naan/ [R=301,L,NC]
+  RewriteRule ^recipes/kartoffelsalat(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/german-potato-salad/ [R=301,L,NC]
+  RewriteRule ^recipes/grilled-cheese(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/grilled-cheese-sandwich/ [R=301,L,NC]
+  RewriteRule ^recipes/lamb-rogan-josh(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/rogan-josh/ [R=301,L,NC]
+  RewriteRule ^recipes/moules-mariniere(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/moules-marinieres/ [R=301,L,NC]
+  RewriteRule ^recipes/pork-schnitzel(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/schnitzel/ [R=301,L,NC]
+  RewriteRule ^recipes/pulled-pork-sandwich(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/pulled-pork/ [R=301,L,NC]
+  RewriteRule ^recipes/sfiha(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/sfiha-baalbakieh/ [R=301,L,NC]
+  RewriteRule ^recipes/sloppy-joe-mix(?:/(?:index\.html)?)?$ https://weeklydelight.com/recipes/sloppy-joes/ [R=301,L,NC]
 
   # /path/index.html -> /path/
   #

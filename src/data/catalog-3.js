@@ -60,13 +60,11 @@ module.exports = [
   c('wonton-noodle-soup', 'Wonton Noodle Soup', 'Chinese', 'Lunch', 'Medium', 35, 20, 4, 4.8, 2311, ['Dairy-Free'], [], 'Wonton noodle soup'),
 
   /* ----------------------------------------------------------- Indian (9) */
-  c('lamb-rogan-josh', 'Lamb Rogan Josh', 'Indian', 'Dinner', 'Medium', 25, 90, 6, 4.8, 2866, ['Gluten-Free'], ['editors'], 'Rogan josh'),
   c('dal-makhani', 'Dal Makhani', 'Indian', 'Dinner', 'Medium', 20, 190, 6, 4.9, 3644, ['Vegetarian', 'Gluten-Free'], ['trending'], 'Dal makhani'),
   c('hyderabadi-biryani', 'Hyderabadi Biryani', 'Indian', 'Dinner', 'Hard', 60, 80, 8, 4.9, 4122, [], [], 'Hyderabadi biryani'),
   c('vada-pav', 'Vada Pav', 'Indian', 'Lunch', 'Easy', 25, 20, 6, 4.7, 1866, ['Vegetarian'], [], 'Vada pav'),
   c('masala-chai', 'Masala Chai', 'Indian', 'Drinks', 'Easy', 5, 10, 4, 4.8, 3122, ['Vegetarian', 'Gluten-Free'], [], 'Masala chai'),
   c('misal-pav', 'Misal Pav', 'Indian', 'Appetizers', 'Medium', 30, 50, 6, 4.7, 1866, ['Vegetarian', 'Vegan'], ['trending'], 'Misal pav'),
-  c('naan', 'Garlic Naan', 'Indian', 'Baking', 'Easy', 90, 10, 8, 4.8, 3011, ['Vegetarian'], [], 'Naan bread'),
 
   /* ---------------------------------------------------------- Mexican (8) */
   c('enchiladas-verdes', 'Enchiladas Verdes', 'Mexican', 'Dinner', 'Easy', 25, 25, 4, 4.8, 2644, ['Gluten-Free'], [], 'Enchiladas verdes'),
@@ -202,7 +200,6 @@ module.exports = [
   c('knafeh-nabulsi', 'Knafeh Nabulsi', 'Middle Eastern', 'Desserts', 'Medium', 25, 30, 8, 4.8, 1544, ['Vegetarian'], [], 'Knafeh'),
 
   /* -------------------------------------------------------- Moroccan (4) */
-  c('chicken-tagine-olives', 'Chicken Tagine with Olives', 'Moroccan', 'Dinner', 'Medium', 25, 75, 6, 4.8, 2144, ['Gluten-Free'], ['editors'], 'Chicken tagine olives'),
   c('msemen', 'Msemen', 'Moroccan', 'Breakfast', 'Medium', 60, 20, 8, 4.7, 866, ['Vegetarian'], [], 'Msemen'),
   c('moroccan-mint-tea', 'Moroccan Mint Tea', 'Moroccan', 'Drinks', 'Easy', 5, 10, 4, 4.8, 1866, ['Vegan', 'Gluten-Free'], [], 'Moroccan mint tea'),
 

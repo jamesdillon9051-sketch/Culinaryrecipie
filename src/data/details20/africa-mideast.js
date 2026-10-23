@@ -339,51 +339,6 @@ module.exports = {
     nut: [890, 45, 61, 51, 3, 9, 1180]
   },
 
-  'sfiha': {
-    d: 'Open lamb pies the size of a saucer, tart with pomegranate molasses. Baalbek makes them flat and thin.',
-    meta: 'Lebanese sfiha of yeasted dough rounds topped with minced lamb, tomato, tahini and pomegranate molasses, baked hot.',
-    kw: ['sfiha', 'sfiha recipe', 'lebanese meat pies', 'lahm bi ajin', 'baalbek sfiha'],
-    why: 'Salt the onion and tomato and drain them before they go anywhere near the dough. Raw, they release their water in the oven, the topping poaches instead of roasting and the base underneath turns to paste. Ten minutes in a sieve with a teaspoon of salt takes out a surprising amount of liquid and leaves a topping that browns at the edges.',
-    ing: [
-      '400 g strong white bread flour',
-      '7 g fast-action dried yeast',
-      '1 tsp caster sugar',
-      '1 tsp fine sea salt',
-      '3 tbsp olive oil',
-      '250 ml warm water',
-      '400 g minced lamb',
-      '1 onion, very finely chopped',
-      '2 tomatoes, finely diced',
-      '1 tsp fine sea salt, for drawing out the water',
-      '2 tbsp pomegranate molasses',
-      '1 tbsp tahini',
-      '1 tsp Lebanese seven-spice',
-      '0.5 tsp chilli flakes',
-      '2 tbsp pine nuts'
-    ],
-    st: [
-      'Mix the flour, yeast, sugar and the first teaspoon of salt, then work in the oil and water to a soft dough.',
-      'Knead 8 minutes, then cover and prove 1 hour, until doubled.',
-      'Toss the onion and tomato with the second teaspoon of salt in a sieve and leave to drain 10 minutes.',
-      'Press the drained onion and tomato firmly with the back of a spoon to squeeze more out.',
-      'Mix them with the lamb, pomegranate molasses, tahini, seven-spice and chilli.',
-      'Heat the oven to 220C fan with a baking tray inside.',
-      'Divide the dough into 18 and roll each into a thin 10 cm round.',
-      'Spread a heaped tablespoon of the lamb over each, right to the edge, and press it down flat.',
-      'Scatter over the pine nuts.',
-      'Slide onto the hot tray in batches and bake 12 minutes, until the edges are brown and the meat is sizzling.'
-    ],
-    tips: [
-      'Drain the vegetables, then press them again.',
-      'Thin dough, thick topping — the reverse of a pizza.',
-      'A preheated tray is what stops the bases going soggy.'
-    ],
-    pair: ['Laban ayran', 'Fattoush', 'Pickled chillies'],
-    store: 'Refrigerate up to 2 days, freeze up to 2 months. Reheat on a hot tray for 6 minutes.',
-    nut: [535, 20, 59, 23, 4, 9, 840],
-    rest: [60, 'proving the dough']
-  },
-
   'fattet-hummus': {
     d: 'Crisp torn bread under warm chickpeas under garlicky yoghurt, finished with browned butter and pine nuts. Assembled, not cooked.',
     meta: 'Lebanese fattet hummus layering crisped pitta, warm chickpeas and garlic tahini yoghurt under browned butter and pine nuts.',

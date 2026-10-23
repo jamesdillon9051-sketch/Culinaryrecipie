@@ -34,24 +34,16 @@ const recipes = catalog.map(row => ({
     ...((details[row.slug] || {}).ing || [])].join(' ')
 }));
 
-/* Pairs already published before this audit existed, each one a candidate for
-   merging into a single page with a redirect. Sorted, slug|slug. */
+/* Pairs the duplicate rule matches that are kept on purpose, because they are
+   two versions of a dish rather than one dish twice: griddled against fried
+   aubergine, baked against fried kibbeh, Philadelphia against Bavarian
+   pretzels. The other twelve pairs that used to be listed here were one dish
+   under two names and were retired with redirects on 23 October 2026
+   (src/data/retired-recipes.json). Sorted, slug|slug. */
 const KNOWN = new Set([
   'aubergine-parmigiana|melanzane-alla-parmigiana',
-  'chicken-tagine-olives|moroccan-chicken-tagine',
-  'classic-potato-salad|potato-salad',
-  'coleslaw|creamy-coleslaw',
-  'garlic-naan|naan',
-  'german-potato-salad|kartoffelsalat',
-  'grilled-cheese|grilled-cheese-sandwich',
   'kibbeh|kibbeh-mekliyeh',
-  'lamb-rogan-josh|rogan-josh',
-  'moules-mariniere|moules-marinieres',
-  'philly-soft-pretzel|soft-pretzels',
-  'pork-schnitzel|schnitzel',
-  'pulled-pork|pulled-pork-sandwich',
-  'sfiha|sfiha-baalbakieh',
-  'sloppy-joe-mix|sloppy-joes'
+  'philly-soft-pretzel|soft-pretzels'
 ]);
 
 const failures = [];
@@ -95,4 +87,4 @@ for (const r of recipes) {
 for (const f of failures) console.log(`  ✗ ${f}`);
 if (failures.length) process.exit(1);
 console.log(`No unacknowledged duplicate-rule matches, copied-method violations or placeholder text found across ${catalog.length} recipes.`);
-console.log(`${KNOWN.size} historical catalogue pairs remain acknowledged exceptions; compare their ingredients and methods editorially before considering consolidation.`);
+console.log(`${KNOWN.size} catalogue pairs are kept on purpose as versions of a dish, not one dish twice.`);

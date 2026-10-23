@@ -91,5 +91,30 @@ Ingredient-word overlap, computed from the recipe data (1.0 would be identical):
 - The register is `src/data/retired-recipes.json`, with the reason for each. The build refuses a retired slug that comes back into the catalogue, or a redirect to a page that does not exist.
 - Redirects on all three host configurations: `.htaccess` (live; also catches the address without its trailing slash, with `index.html`, and from `www` or `http`, in one hop), `_redirects` (written by the build) and `vercel.json`. `tools/retired-recipes-check.js`, now part of `npm run check`, fails if any of them is missing, if an old page is still built, linked or in a sitemap, or if a target page is not built.
 - Removed with each recipe: its catalogue row, its detail record, its `images.json` entry and its two photo files; `images-attribution.md` regenerated. Kept on purpose: its `published-dates.json` entry (a published date is never reused) and its photo-refusal history in `image-rejects.json`.
-- Recipes: 5,515 → 5,511. 354 other pages changed (the recipes whose "You might also like" links, and the collections and hubs whose lists, included a removed page) and move their `lastmod`, which is the register working as intended.
-- The 15 pairs acknowledged earlier (`tools/duplicates-audit.js`) were not touched. Their ingredient overlap runs from 0.45 to 0.81 and each was kept on purpose when it was published; some are one dish under two names (`moules-mariniere` and `moules-marinieres`, `lamb-rogan-josh` and `rogan-josh`), and merging them is still open.
+- Recipes: 5,515 → 5,511. 354 pages move their `lastmod`: every collection and hub page (categories, cuisines, ingredients, home, about, the recipe index, search and the site directory), whose recipe lists and counts changed. Recipe pages that linked to a removed page are rebuilt with new "You might also like" links but keep their dates, because those links are not part of a recipe's own dated content. No recipe's date moved.
+- The 15 pairs acknowledged earlier (`tools/duplicates-audit.js`) were handled in a second round, below.
+
+## The 15 acknowledged pairs, read side by side (23 October, owner's instruction)
+
+Each pair's ingredients, method, times and serving were compared line by line. Twelve are one dish published twice and are retired the same way as the four above (the page published first stays; where both went up on 5 September, the page with the dish's usual name stays). Three are versions of a dish and both pages stay.
+
+| Removed address | Now redirects (301) to | Same dish because |
+| --- | --- | --- |
+| `/recipes/chicken-tagine-olives/` | `/recipes/moroccan-chicken-tagine/` | bone-in chicken with preserved lemon and green olives, 45 then 15 minutes; same day, usual name |
+| `/recipes/potato-salad/` | `/recipes/classic-potato-salad/` | American potato salad dressed warm with vinegar, then mayonnaise, mustard, egg, celery, pickle |
+| `/recipes/coleslaw/` | `/recipes/creamy-coleslaw/` | salted, drained cabbage and carrot in mayonnaise, cider vinegar, mustard and sugar |
+| `/recipes/naan/` | `/recipes/garlic-naan/` | the `naan` page was itself titled "Garlic Naan": same dough, same pan, same garlic butter |
+| `/recipes/kartoffelsalat/` | `/recipes/german-potato-salad/` | warm potatoes in bacon, vinegar and hot stock, no mayonnaise |
+| `/recipes/grilled-cheese/` | `/recipes/grilled-cheese-sandwich/` | two cheeses, mayonnaise and butter outside, medium-low heat |
+| `/recipes/lamb-rogan-josh/` | `/recipes/rogan-josh/` | Kashmiri lamb in yoghurt, Kashmiri chilli, fennel, dried ginger; same day, usual name |
+| `/recipes/moules-mariniere/` | `/recipes/moules-marinieres/` | mussels steamed in white wine, shallot, garlic and parsley |
+| `/recipes/pork-schnitzel/` | `/recipes/schnitzel/` | pork loin beaten thin, loosely breaded, swirled at 170 °C; same day, usual name |
+| `/recipes/pulled-pork-sandwich/` | `/recipes/pulled-pork/` | rubbed shoulder slow-roasted, pulled, cider-vinegar sauce, in buns with slaw; same day, usual name |
+| `/recipes/sfiha/` | `/recipes/sfiha-baalbakieh/` | small open lamb rounds with tomato, tahini and pomegranate molasses, baked hot |
+| `/recipes/sloppy-joe-mix/` | `/recipes/sloppy-joes/` | browned beef, onion, green pepper, tomato, sugar, Worcestershire, mustard, on buns |
+
+**Kept as versions of a dish** (still listed in `tools/duplicates-audit.js`): griddled `aubergine-parmigiana` against fried `melanzane-alla-parmigiana`; baked `kibbeh` against fried `kibbeh-mekliyeh`; `philly-soft-pretzel` against Bavarian `soft-pretzels`.
+
+- Removed with each: catalogue row, detail record, `images.json` entry and photo files (three had a second, step-by-step photograph; `kartoffelsalat` carried one of the remaining AI illustrations). `src/data/retired-recipes.json` now lists 16 recipes with their reasons; `.htaccess` and `vercel.json` carry 16 redirects and the build writes them to `_redirects`. `tools/retired-recipes-check.js` now also proves that no remaining recipe is caught by a retired page's rule (`naan` against `naan-pizza`, `sfiha` against `sfiha-baalbakieh`).
+- The photograph-sharing exceptions in `tools/check.js` for `rogan-josh`/`lamb-rogan-josh` and `naan`/`garlic-naan` are gone with the pages. The keyword plan (`tools/keywords/KEYWORDS.csv`) loses the 16 retired pages' rows; each had been aimed at the same search phrase as the page that stays.
+- Recipes: 5,511 → 5,499. As in the first round, the 354 collection and hub pages move their `lastmod`; no recipe's date moved.

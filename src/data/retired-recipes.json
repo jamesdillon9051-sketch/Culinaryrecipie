@@ -19,5 +19,65 @@
   "to": "slow-cooker-pea-and-ham-soup",
   "retired": "2026-10-23",
   "reason": "Same dish: split peas and ham hock on low in the slow cooker. slow-cooker-pea-and-ham-soup was published first (8 October 2026)."
+ },
+ "chicken-tagine-olives": {
+  "to": "moroccan-chicken-tagine",
+  "retired": "2026-10-23",
+  "reason": "Same dish: bone-in chicken braised with preserved lemon and green olives, 45 then 15 minutes. Both published 5 September 2026; moroccan-chicken-tagine carries the dish's usual name."
+ },
+ "potato-salad": {
+  "to": "classic-potato-salad",
+  "retired": "2026-10-23",
+  "reason": "Same dish: American potato salad, waxy potatoes dressed warm with vinegar, then mayonnaise, mustard, egg, celery and pickle. classic-potato-salad was published first (5 September 2026)."
+ },
+ "coleslaw": {
+  "to": "creamy-coleslaw",
+  "retired": "2026-10-23",
+  "reason": "Same dish: salted and drained cabbage and carrot in a mayonnaise, cider vinegar, mustard and sugar dressing. creamy-coleslaw was published first (6 September 2026)."
+ },
+ "naan": {
+  "to": "garlic-naan",
+  "retired": "2026-10-23",
+  "reason": "Same dish: the naan page was itself garlic naan (yoghurt dough, dry smoking cast-iron pan, garlic butter). garlic-naan was published first (5 September 2026)."
+ },
+ "kartoffelsalat": {
+  "to": "german-potato-salad",
+  "retired": "2026-10-23",
+  "reason": "Same dish: warm German potato salad in a bacon, vinegar and hot stock dressing, no mayonnaise. german-potato-salad was published first (5 September 2026)."
+ },
+ "grilled-cheese": {
+  "to": "grilled-cheese-sandwich",
+  "retired": "2026-10-23",
+  "reason": "Same dish: two-cheese sandwich with mayonnaise and butter outside, cooked slowly over medium-low heat. grilled-cheese-sandwich was published first (5 September 2026)."
+ },
+ "lamb-rogan-josh": {
+  "to": "rogan-josh",
+  "retired": "2026-10-23",
+  "reason": "Same dish: Kashmiri lamb shoulder in yoghurt with Kashmiri chilli, fennel and dried ginger, same method. Both published 5 September 2026; rogan-josh carries the dish's usual name."
+ },
+ "moules-mariniere": {
+  "to": "moules-marinieres",
+  "retired": "2026-10-23",
+  "reason": "Same dish: mussels steamed in white wine with shallot, garlic and parsley. moules-marinieres was published first (5 September 2026)."
+ },
+ "pork-schnitzel": {
+  "to": "schnitzel",
+  "retired": "2026-10-23",
+  "reason": "Same dish: pork loin beaten thin, breaded loosely and fried at 170 C while swirling the pan. Both published 5 September 2026; schnitzel carries the dish's usual name."
+ },
+ "pulled-pork-sandwich": {
+  "to": "pulled-pork",
+  "retired": "2026-10-23",
+  "reason": "Same dish: rubbed pork shoulder slow-roasted for hours, pulled and dressed with a cider-vinegar sauce, served in buns with slaw. Both published 5 September 2026; pulled-pork carries the dish's usual name."
+ },
+ "sfiha": {
+  "to": "sfiha-baalbakieh",
+  "retired": "2026-10-23",
+  "reason": "Same dish: small open yeasted rounds topped with minced lamb, tomato, tahini and pomegranate molasses, baked hot. sfiha-baalbakieh was published first (9 September 2026)."
+ },
+ "sloppy-joe-mix": {
+  "to": "sloppy-joes",
+  "retired": "2026-10-23",
+  "reason": "Same dish: beef mince browned undisturbed, simmered with onion, green pepper, tomato, sugar, Worcestershire and mustard, on soft buns. sloppy-joes was published first (5 September 2026)."
  }
 }

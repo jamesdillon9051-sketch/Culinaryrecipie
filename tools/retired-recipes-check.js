@@ -63,6 +63,18 @@ for (const [slug, entry] of retired) {
   if (sitemaps.includes(`${BASE}${from}<`)) failures.push(`a sitemap still lists /${from}`);
 }
 
+/* No page that stays may be caught by a retired page's rule: "naan" must not
+   redirect "naan-pizza", nor "sfiha" redirect "sfiha-baalbakieh". */
+for (const slug of fs.readdirSync(path.join(ROOT, 'recipes'))) {
+  if (!fs.existsSync(path.join(ROOT, 'recipes', slug, 'index.html'))) continue;
+  for (const variant of [`recipes/${slug}/`, `recipes/${slug}`, `recipes/${slug}/index.html`]) {
+    const target = htaccessTarget(variant);
+    if (target && /^https:\/\/weeklydelight\.com\/recipes\//.test(target)) {
+      failures.push(`.htaccess redirects the live page /${variant} to ${target}`);
+    }
+  }
+}
+
 const pattern = new RegExp(`href="(?:${BASE.replace(/[.]/g, '\\.')}|/)(recipes/(?:${retired.map(([s]) => s).join('|')})/)`, 'g');
 if (retired.length) {
   for (const file of pages) {
