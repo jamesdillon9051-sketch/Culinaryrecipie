@@ -55,6 +55,11 @@ function ingredientCount(lines) {
   return parse(lines).filter(item => !item.group).length;
 }
 
+/** "1 serving", "4 servings": the same words recipe.js writes when the count changes. */
+function servingsText(n) {
+  return `${n} serving${n === 1 ? '' : 's'}`;
+}
+
 /* Verbs a method step plausibly opens on. Checked against the first word
    only, so "Season" in "Season the flour before dredging" is bolded and
    "Seasoned home cooks will recognise this" — not a shape any step here
@@ -291,7 +296,7 @@ function recipeSchema(recipe) {
     /* A lower bound is not a complete duration. Keep supported prep/cook
        times, but omit totalTime while a required stage is explicitly untimed. */
     ...(recipe.untimed ? {} : { totalTime: isoDuration(recipe.elapsedTime) }),
-    recipeYield: `${recipe.servings} servings`,
+    recipeYield: servingsText(recipe.servings),
     recipeCategory: recipe.category,
     recipeCuisine: recipe.cuisine,
     keywords: forSchema(recipe.keywords, 6, recipe).join(', '),
@@ -353,8 +358,16 @@ function render(recipe, context) {
      recipeSchema() — both read recipe.steps below, and faq.js's own rule is
      the one to keep: "the visible text and the schema text are the same
      string, not two strings that are meant to agree." A shadow copy, not a
-     mutation, so the object callers passed in is untouched. */
-  recipe = { ...recipe, steps: recipe.steps.map(addFahrenheit) };
+     mutation, so the object callers passed in is untouched. The tips, the
+     why-panel and the storage note get the same Fahrenheit readings, so a
+     temperature reads the same wherever on the page it is mentioned. */
+  recipe = {
+    ...recipe,
+    steps: recipe.steps.map(addFahrenheit),
+    tipsRich: recipe.tipsRich && recipe.tipsRich.map(addFahrenheit),
+    whyRich: recipe.whyRich && addFahrenheit(recipe.whyRich),
+    storage: recipe.storage && addFahrenheit(recipe.storage)
+  };
   const img = recipe.imageData;
   /* Built once. The block below renders this list and the schema at the bottom
      serialises the same objects, so the markup cannot drift from what a reader
@@ -477,7 +490,7 @@ ${breadcrumbs(trail)}
           ${recipe.restConditional ? `<span>${ICONS.clock}plus up to <strong>${humanTime(recipe.restMax)}</strong> ${esc(recipe.restLabel)}, if your ingredients need it (see the method)</span>` : ''}
           ${recipe.untimed ? `<span>${ICONS.clock}plus time for ${esc(listWords(recipe.untimed))}, which the recipe does not time</span>` : ''}
           ${recipe.restTime || recipe.elapsedMax > recipe.elapsedTime || recipe.untimed ? `<span>${ICONS.clock}<strong>${recipe.untimed ? 'at least ' : ''}${humanWaitRange(recipe.elapsedTime, recipe.elapsedMax)}</strong> start to finish</span>` : ''}
-          <span>${ICONS.users}Serves <strong data-yield>${recipe.servings} servings</strong></span>
+          <span>${ICONS.users}Serves <strong data-yield>${servingsText(recipe.servings)}</strong></span>
           <span>${ICONS.gauge}<strong>${esc(recipe.difficulty)}</strong></span>
         </div>
 
@@ -518,7 +531,7 @@ ${breadcrumbs(trail)}
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
-                  style="margin-bottom:1rem">Reset to ${recipe.servings} servings</button>
+                  style="margin-bottom:1rem">Reset to ${servingsText(recipe.servings)}</button>
           ${hasConvertibleUnits ? `<div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
             <button class="chip" type="button" data-units="metric" aria-pressed="true">Metric</button>
             <button class="chip" type="button" data-units="us" aria-pressed="false">US customary</button>
@@ -591,7 +604,7 @@ ${breadcrumbs(trail)}
                 <div class="star-input" role="radiogroup" aria-labelledby="rating-label">
                   ${[5, 4, 3, 2, 1].map(n => `
                   <input type="radio" name="rating" id="star-${n}" value="${n}">
-                  <label for="star-${n}" title="${n} star${n > 1 ? 's' : ''}"><span class="sr-only">${n} stars</span>&#9733;</label>`).join('')}
+                  <label for="star-${n}" title="${n} star${n > 1 ? 's' : ''}"><span class="sr-only">${n} star${n > 1 ? 's' : ''}</span>&#9733;</label>`).join('')}
                 </div>
               </div>
               <div class="field">
