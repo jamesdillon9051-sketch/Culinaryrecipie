@@ -143,8 +143,18 @@ ErrorDocument 404 /404.html
   <FilesMatch "\.(css|js|woff2)$">
     Header set Cache-Control "public, max-age=31536000, immutable"
   </FilesMatch>
+  # Images: a month, and "no-transform". Hostinger's CDN was re-encoding
+  # every JPG and PNG on the way out (24 October 2026): a .jpg asked for by a
+  # browser that accepts WebP came back as a WebP larger than the original
+  # (168 KB for a 119 KB photograph), every other request got a re-encoded
+  # JPEG, and the re-encode dropped the IPTC "trainedAlgorithmicMedia" mark
+  # tools/mark-illustrations.js writes into each AI illustration. Some of those
+  # requests were answered 429 with an empty body while the .webp copies of
+  # the same pictures, which the CDN passes through untouched, answered 200.
+  # no-transform is the HTTP instruction to a proxy not to alter a response;
+  # if the CDN still converts, switch off its image optimisation in hPanel.
   <FilesMatch "\.(webp|jpg|png|svg)$">
-    Header set Cache-Control "public, max-age=2592000"
+    Header set Cache-Control "public, max-age=2592000, no-transform"
   </FilesMatch>
   # Pages, sitemaps and feeds: browsers may keep a copy for ten minutes
   # (max-age), the CDN in front (Hostinger, "server: hcdn") for an hour
