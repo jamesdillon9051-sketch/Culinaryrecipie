@@ -2,12 +2,12 @@
  "/": {
   "hash": "e453f3ee3b28",
   "lastmod": "2026-10-25",
-  "derivedHash": "fed3bcd9e89a"
+  "derivedHash": "232949a7399e"
  },
  "/about/": {
   "hash": "84b2dfd1c5ac",
   "lastmod": "2026-10-25",
-  "derivedHash": "742e580009ac"
+  "derivedHash": "d4396e100ae1"
  },
  "/categories/": {
   "hash": "ecb574fe73a3",
@@ -677,7 +677,7 @@
  "/categories/dinner/singaporean/": {
   "hash": "fb22418cbcc3",
   "lastmod": "2026-10-25",
-  "derivedHash": "d300dacbe901"
+  "derivedHash": "5065cfaafb29"
  },
  "/categories/dinner/south-african/": {
   "hash": "c2bcfc4d004f",
@@ -732,7 +732,7 @@
  "/categories/drinks/british/": {
   "hash": "dddcf3fc99e6",
   "lastmod": "2026-10-25",
-  "derivedHash": "025acd857136"
+  "derivedHash": "afa8af901c93"
  },
  "/categories/drinks/canadian/": {
   "hash": "eb95ca302678",
@@ -1407,7 +1407,7 @@
  "/cuisines/singaporean/": {
   "hash": "84e00a61794d",
   "lastmod": "2026-10-25",
-  "derivedHash": "f306787acb13"
+  "derivedHash": "ac1eb11cbca8"
  },
  "/cuisines/slovak/": {
   "hash": "cf9d38ba6de3",
@@ -3221,8 +3221,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/banana-cake-with-chocolate-icing/": {
-  "hash": "8fe74779beba",
-  "lastmod": "2026-10-20"
+  "hash": "15c3f072230e",
+  "lastmod": "2026-10-25"
  },
  "/recipes/banana-cake-with-cream-cheese-icing/": {
   "hash": "d0ebd604aa45",
@@ -4925,8 +4925,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/butter-tart-bars/": {
-  "hash": "d6afdb025ed5",
-  "lastmod": "2026-10-20"
+  "hash": "d90a22204cb5",
+  "lastmod": "2026-10-25"
  },
  "/recipes/butter-tarts/": {
   "hash": "7b6137cede48",
@@ -18229,8 +18229,8 @@
   "lastmod": "2026-10-22"
  },
  "/recipes/red-wine-sauce/": {
-  "hash": "3d751c6314c1",
-  "lastmod": "2026-10-20"
+  "hash": "2504d41d8d81",
+  "lastmod": "2026-10-25"
  },
  "/recipes/refried-beans/": {
   "hash": "e1fed5fd95e7",
@@ -18277,8 +18277,8 @@
   "lastmod": "2026-10-22"
  },
  "/recipes/rhubarb-cordial/": {
-  "hash": "8b44618c4e5b",
-  "lastmod": "2026-10-20"
+  "hash": "4c20c3769661",
+  "lastmod": "2026-10-25"
  },
  "/recipes/rhubarb-crumble/": {
   "hash": "b52277dc084a",
@@ -19941,8 +19941,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/singapore-chilli-prawns/": {
-  "hash": "dc410991e6e6",
-  "lastmod": "2026-10-20"
+  "hash": "948b1902bfd7",
+  "lastmod": "2026-10-25"
  },
  "/recipes/singapore-noodles/": {
   "hash": "e40e81c29613",
@@ -20581,8 +20581,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/southern-green-beans/": {
-  "hash": "e97f997b45b3",
-  "lastmod": "2026-10-20"
+  "hash": "66d2ea7a67aa",
+  "lastmod": "2026-10-25"
  },
  "/recipes/southern-mac-and-cheese/": {
   "hash": "13cf2aaf9730",
@@ -20897,8 +20897,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/sriracha-mayo/": {
-  "hash": "680bf3025aa8",
-  "lastmod": "2026-10-20"
+  "hash": "b2b2b98c2620",
+  "lastmod": "2026-10-25"
  },
  "/recipes/st-louis-ribs/": {
   "hash": "807c6f4dd45c",

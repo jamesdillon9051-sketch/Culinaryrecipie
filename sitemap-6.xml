@@ -1512,9 +1512,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/southern-green-beans/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/southern-green-beans.jpg</image:loc>
+      <image:title>Southern Green Beans</image:title>
+      <image:caption>Southern Green Beans</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/squash-casserole/</loc>

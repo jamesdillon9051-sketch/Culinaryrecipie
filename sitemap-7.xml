@@ -4816,9 +4816,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/red-wine-sauce/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/red-wine-sauce.jpg</image:loc>
+      <image:title>Red Wine Sauce</image:title>
+      <image:caption>Red Wine Sauce</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/barbecue-sauce/</loc>
