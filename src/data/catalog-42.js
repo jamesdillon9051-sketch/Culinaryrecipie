@@ -61,7 +61,6 @@ module.exports = [
   c('bacon-jam', 'Bacon Jam', 'American', 'Appetizers', 'Easy', 10, 60, 16, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'bacon jam'),
   c('date-balls', 'Date Balls', 'Middle Eastern', 'Healthy', 'Easy', 15, 0, 16, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'date balls'),
   c('protein-balls', 'Protein Balls', 'American', 'Healthy', 'Easy', 15, 0, 16, 0, 0, ['Vegetarian'], ['new'], 'protein balls'),
-  c('peanut-butter-energy-bites', 'Peanut Butter Energy Bites', 'American', 'Healthy', 'Easy', 15, 0, 16, 0, 0, ['Vegetarian'], ['new'], 'peanut butter energy bites'),
   c('spiced-nuts', 'Spiced Nuts', 'American', 'Appetizers', 'Easy', 5, 20, 10, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'spiced nuts'),
   c('trail-mix', 'Trail Mix', 'American', 'Healthy', 'Easy', 5, 0, 8, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'trail mix'),
   c('cheese-popcorn', 'Cheese Popcorn', 'American', 'Appetizers', 'Easy', 5, 5, 4, 0, 0, ['Gluten-Free'], ['new'], 'cheese popcorn'),
@@ -82,7 +81,6 @@ module.exports = [
   c('prosciutto-and-melon', 'Prosciutto and Melon', 'Italian', 'Appetizers', 'Easy', 10, 0, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'prosciutto and melon'),
   c('puff-pastry-pinwheels', 'Puff Pastry Pinwheels', 'American', 'Appetizers', 'Easy', 15, 20, 16, 0, 0, ['Vegetarian'], ['new'], 'puff pastry pinwheels'),
   c('stuffed-dates', 'Stuffed Dates', 'Spanish', 'Appetizers', 'Easy', 10, 10, 8, 0, 0, ['Vegetarian'], ['new'], 'stuffed dates'),
-  c('spring-onion-pancakes', 'Spring Onion Pancakes', 'Chinese', 'Appetizers', 'Medium', 30, 15, 6, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'spring onion pancakes'),
   c('smoked-salmon-blinis', 'Smoked Salmon Blinis', 'Russian', 'Appetizers', 'Medium', 20, 15, 12, 0, 0, [], ['new'], 'smoked salmon blinis'),
   c('fried-wontons', 'Fried Wontons', 'Chinese', 'Appetizers', 'Medium', 25, 8, 6, 0, 0, ['Dairy-Free'], ['new'], 'fried wontons'),
   c('taquitos', 'Taquitos', 'Mexican', 'Appetizers', 'Easy', 15, 20, 8, 0, 0, [], ['new'], 'taquitos'),
@@ -126,6 +124,5 @@ module.exports = [
   c('buffalo-cauliflower', 'Buffalo Cauliflower', 'American', 'Appetizers', 'Easy', 10, 25, 4, 0, 0, ['Vegetarian'], ['new'], 'buffalo cauliflower'),
   c('beet-burgers', 'Beet Burgers', 'American', 'Dinner', 'Medium', 20, 20, 6, 0, 0, ['Vegetarian'], ['new'], 'beet burgers'),
   c('vegan-burgers', 'Vegan Burgers', 'American', 'Dinner', 'Medium', 20, 15, 6, 0, 0, [], ['new'], 'vegan burgers'),
-  c('sweet-potato-gnocchi', 'Sweet Potato Gnocchi', 'Italian', 'Dinner', 'Hard', 30, 20, 4, 0, 0, [], ['new'], 'sweet potato gnocchi'),
   c('air-fryer-vegetables', 'Air Fryer Vegetables', 'American', 'Healthy', 'Easy', 10, 15, 4, 0, 0, ['Vegetarian', 'Vegan', 'Gluten-Free'], ['new'], 'air fryer vegetables')
 ];

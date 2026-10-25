@@ -53,6 +53,11 @@ const publishedReviews = require('./data/reviews.json');
 const volumes = require('./data/volumes');
 const inline = require('./lib/inline');
 const { derivedTags } = require('./lib/diet-derived');
+const { guide: hubGuide } = require('./lib/hub-guide');
+const HUB_INTROS = require('./data/hub-intros');
+/* What a listing page says above its cards: the hand-written paragraph where there is one
+   (src/data/hub-intros.js), then what the recipes on it add up to (src/lib/hub-guide.js). */
+const hubParagraphs = (pagePath, list, opts) => [HUB_INTROS[pagePath], ...hubGuide(list, opts)].filter(Boolean);
 /**
  * The meta description for an ingredient hub.
  *
@@ -203,6 +208,13 @@ function retiredRecipes(recipes) {
     return { from, to: entry.to };
   });
 }
+
+/* Listing pages that no longer have the four recipes a category-and-cuisine page needs
+   (SUBCATEGORY_MIN in src/lib/linking.js) after a duplicate was retired. Each old address goes,
+   in one 301, to the page that still lists its recipes; .htaccess and vercel.json carry the same. */
+const RETIRED_HUBS = [
+  { from: 'categories/appetizers/new-zealand/', to: 'cuisines/new-zealand/' }
+];
 
 function copyDir(from, to) {
   mkdir(to);
@@ -1063,6 +1075,7 @@ function build() {
       heading: `${hub.name} recipes`,
       eyebrow: 'Ingredient',
       intro: `${hub.blurb} ${plural(hub.recipes.length, 'recipe')} on the site call for ${hub.name.toLowerCase()}.`,
+      guide: hubParagraphs(`ingredients/${hub.slug}/`, hub.recipes, { kind: 'ingredient', name: hub.name }),
       description: enrichDescription(hubDescription(hub), TAIL_CLAUSES),
       keywords: keywordsForIngredient(hub),
       path: `ingredients/${hub.slug}/`,
@@ -1098,6 +1111,7 @@ function build() {
       heading: `${name} recipes`,
       eyebrow: 'Category',
       intro: `${CATEGORIES[name]} ${plural(list.length, 'recipe')}, in a suggested order.`,
+      guide: hubParagraphs(`categories/${slug(name)}/`, list, { kind: 'category', name }),
       description: categoryDescription(name, list.length),
       keywords: keywordsForCategory(name, list),
       path: `categories/${slug(name)}/`,
@@ -1123,8 +1137,10 @@ function build() {
       titleHooks: [`— ${hub.recipes.length} Dishes`],
       heading: `${hub.cuisine} ${noun.toLowerCase()} recipes`,
       eyebrow: `${hub.category} · ${hub.cuisine}`,
-      intro: `${plural(hub.recipes.length, hub.cuisine + ' ' + noun.toLowerCase() + ' recipe')}, in a suggested order. ` +
-        `Part of our ${hub.category.toLowerCase()} recipes and our ${hub.cuisine} cooking.`,
+      intro: `${plural(hub.recipes.length, hub.cuisine + ' ' + noun.toLowerCase() + ' recipe')}, in a suggested order.`,
+      guide: hubParagraphs(hub.path, hub.recipes, { kind: 'combo', category: hub.category, cuisine: hub.cuisine,
+        categoryTotal: recipes.filter(r => r.category === hub.category).length,
+        cuisineTotal: recipes.filter(r => r.cuisine === hub.cuisine).length }),
       description: enrichDescription(
         `${plural(hub.recipes.length, hub.cuisine + ' ' + noun.toLowerCase() + ' recipe')} on Weekly Delight.`,
         [`${CATEGORIES[hub.category]}`, ...TAIL_CLAUSES]),
@@ -1159,6 +1175,7 @@ function build() {
       heading: `${name} recipes`,
       eyebrow: `${meta.flag} Cuisine`,
       intro: `${meta.blurb} ${plural(list.length, name + ' recipe')}, from the everyday to the ambitious.`,
+      guide: hubParagraphs(`cuisines/${slug(name)}/`, list, { kind: 'cuisine', name }),
       description: enrichDescription(
         `${plural(list.length, name + ' recipe')} on Weekly Delight. ${meta.blurb}`,
         [`Authentic ${name} cooking explained step by step.`,
@@ -1203,6 +1220,7 @@ function build() {
   fs.writeFileSync(path.join(OUT, '_redirects'),
     `https://www.weeklydelight.com/*  https://weeklydelight.com/:splat  301!\n`
     + retiredRecipes(recipes).map(r => `/recipes/${r.from}/  /recipes/${r.to}/  301!\n`).join('')
+    + RETIRED_HUBS.map(h => `/${h.from}  /${h.to}  301!\n`).join('')
     + '/*  /404.html  404\n');
 
   /* Written after the sitemap, which is what asks for the dates. Committed, so

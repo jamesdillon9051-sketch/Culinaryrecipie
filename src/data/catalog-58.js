@@ -115,7 +115,6 @@ module.exports = [
   c('semifreddo', 'Semifreddo', 'Italian', 'Desserts', 'Medium', 25, 0, 8, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'semifreddo'),
   c('bombolone', 'Bombolone', 'Italian', 'Baking', 'Medium', 30, 15, 12, 0, 0, ['Vegetarian'], ['new'], 'bombolone'),
   c('polenta-taragna', 'Polenta Taragna', 'Italian', 'Dinner', 'Easy', 10, 50, 4, 0, 0, [], ['new'], 'polenta taragna'),
-  c('tajarin-al-tartufo', 'Tajarin al Tartufo', 'Italian', 'Dinner', 'Medium', 40, 3, 4, 0, 0, [], ['new'], 'tajarin al tartufo'),
   c('pollo-alla-diavola', 'Pollo alla Diavola', 'Italian', 'Dinner', 'Easy', 15, 40, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'pollo alla diavola'),
   c('coniglio-alla-cacciatora', 'Coniglio alla Cacciatora', 'Italian', 'Dinner', 'Medium', 20, 70, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'coniglio alla cacciatora'),
   c('trippa-alla-fiorentina', 'Trippa alla Fiorentina', 'Italian', 'Dinner', 'Medium', 20, 120, 6, 0, 0, ['Gluten-Free'], ['new'], 'trippa alla fiorentina'),

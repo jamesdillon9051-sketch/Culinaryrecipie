@@ -49,38 +49,6 @@ module.exports = {
     nut: [160, 4, 18, 8, 6, 7, 320]
   },
 
-  'collard-greens-with-ham-hock': {
-    d: 'Collard greens simmered for two hours with a smoked ham hock, onion and a splash of vinegar until silky, with a rich, savoury broth.',
-    meta: 'Collard greens with ham hock: greens simmered for two hours with smoked ham, onion and vinegar until silky. Six servings, cooked for 120 minutes.',
-    kw: ['collard greens with ham hock', 'southern collard greens', 'collard greens recipe', 'slow simmered collards with smoked ham hock', 'collard greens with pot likker'],
-    why: 'The first sign they are ready is the smell: smoke and onion drifting from the pot long before the greens are done. Collard greens are a tough, leathery leaf, and the long simmer in a smoked ham hock broth is what turns them from bitter to sweet and silky.\n\nThe broth is the other half of the dish. The ham hock gives up its smoke and its gelatin, the onion adds sweetness, and the liquid that is left at the bottom of the pot is called pot likker, which is traditionally sopped up with cornbread. A teaspoon of sugar and a splash of cider vinegar balance the bitterness.\n\n**Strip the leaves from the thick stems** and cut them into wide ribbons, then wash them well; collards hold grit. Cook them covered at a low simmer, stirring now and then. They are ready when a leaf can be cut with the side of a spoon.',
-    ing: [
-      '1 kg collard greens',
-      '500 g smoked ham hock',
-      '1 onion, chopped',
-      '3 garlic cloves, crushed',
-      '1.2 litres water',
-      '2 tbsp cider vinegar',
-      '1 tsp sugar',
-      '1/2 tsp crushed chilli flakes',
-      '1/2 tsp ground black pepper',
-      '1/2 tsp salt'
-    ],
-    st: [
-      'Put the ham hock, onion, garlic, water, chilli flakes and pepper in a large pot. Bring to a boil, then simmer for 30 minutes.',
-      'Strip the collard leaves from the stems, stack and cut into 3 cm ribbons, then wash in several changes of water.',
-      'Add the greens to the pot in batches, pressing them down as they wilt. Add the vinegar, sugar and salt.',
-      'Cover and simmer for 90 minutes until the greens are silky. Lift out the hock, shred the meat, discard the bone and skin and return the meat to the pot.'
-    ],
-    tips: [
-      'Wash the leaves in several changes of water; collards hide grit.',
-      'Taste the broth near the end; the ham hock is salty, so add salt last.',
-      'Keep the heat low; a hard boil makes the greens stringy.'
-    ],
-    pair: ['Cornbread', 'Black-eyed peas', 'Fried chicken', 'Hot pepper vinegar'],
-    store: 'Keeps in the fridge for 4 days and freezes for up to 3 months. The flavour improves overnight.',
-    nut: [217, 22, 12, 9, 7, 2, 1060]
-  },
 
   'southern-tomato-pie': {
     d: 'A baked shortcrust shell layered with salted ripe tomatoes, a mayonnaise and cheddar topping and fresh basil.',

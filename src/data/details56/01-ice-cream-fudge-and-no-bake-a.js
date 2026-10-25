@@ -497,37 +497,6 @@ module.exports = {
     nut: [570, 7, 41, 42, 1, 26, 320]
   },
 
-  'no-bake-energy-bites': {
-    d: 'Oats, peanut butter, honey, chia seeds and chocolate chips rolled into 20 balls and chilled, with no cooking at all.',
-    meta: 'No bake energy bites with oats, peanut butter and chocolate chips, made in 35 minutes. 20 bites, no cooking.',
-    kw: ['no bake energy bites', 'peanut butter oat energy balls', 'energy bites with chocolate chips', 'healthy snack balls', 'oat and honey energy bites'],
-    why: 'Four ingredients hold them together, and a few more give them flavour. Rolled oats provide the bulk and a chewy texture, peanut butter and honey act as the glue, and a handful of chocolate chips and chia seeds finish them. Nothing is cooked, and the whole batch takes about fifteen minutes to make.\n\nThe ratio is what matters. A good rule is two parts oats to one part nut butter to one part honey, by volume, which makes a dough that holds together when squeezed. If the mixture is too dry and crumbly, add a spoonful of honey or nut butter. If it is sticky and wet, add a few more oats. It should feel like a firm cookie dough.\n\n**Chill the mixture for 20 minutes before rolling.** The oats absorb moisture from the honey and nut butter, which firms up the dough and makes it much easier to shape. Wet your hands lightly for rolling, so the dough does not stick to your fingers.\n\nRoll into balls about the size of a walnut, and keep them in the fridge. They make a convenient snack, a quick breakfast on the go, or a pre-run bite. Substitute almond butter, seeds, dried cranberries or coconut flakes for variety.',
-    ing: [
-      '150 g rolled oats',
-      '120 g smooth peanut butter',
-      '80 g honey',
-      '40 g dark chocolate chips',
-      '2 tbsp chia seeds',
-      '2 tbsp ground flaxseed',
-      '1 tsp vanilla extract',
-      '1/4 tsp salt'
-    ],
-    st: [
-      'Mix the oats, peanut butter, honey, chocolate chips, chia seeds, flaxseed, vanilla and salt in a large bowl until combined.',
-      'Chill the mixture for 20 minutes.',
-      'With damp hands, roll into 20 balls, each about the size of a walnut.',
-      'Place on a tray lined with greaseproof paper.',
-      'Keep in an airtight container in the fridge.'
-    ],
-    tips: [
-      'Chill the mixture before rolling.',
-      'Add more oats if the mixture is too sticky.',
-      'Keep them in the fridge.'
-    ],
-    pair: ['Fresh fruit', 'Coffee', 'Yogurt', 'Hot tea'],
-    store: 'Keeps in the fridge for 1 week, or frozen for 2 months.',
-    nut: [101, 3, 11, 5, 2, 5, 30]
-  },
 
   'no-bake-oreo-dessert': {
     d: 'Layers of crushed Oreo biscuits, sweetened cream cheese and whipped cream chilled in a dish for 4 hours until set.',

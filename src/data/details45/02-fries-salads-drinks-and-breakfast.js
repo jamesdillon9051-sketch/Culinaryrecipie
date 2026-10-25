@@ -311,39 +311,6 @@ module.exports = {
     nut: [161, 14, 6, 9, 2, 3, 580]
   },
 
-  'roasted-beet-salad-with-goat-cheese': {
-    d: 'Roasted beetroot with rocket, goat cheese, toasted walnuts and an orange and balsamic dressing.',
-    meta: 'Roasted beet salad with goat cheese: roasted beetroot, rocket, goat cheese and walnuts. Four servings, baked for 50 minutes.',
-    kw: ['roasted beet salad with goat cheese', 'roasted beetroot and goat cheese salad', 'beet salad with walnuts and goat cheese', 'beetroot salad with rocket and goat cheese', 'roasted beet and goat cheese salad'],
-    why: 'This is what to make in the first cold week, when the beetroot are at their best and a warm salad makes sense. Roasting beetroot concentrates the sweetness in a way that boiling never does.\n\nScrub the beetroot, wrap each in foil with a splash of oil and roast at 200°C for 50 minutes. If your oven runs hot, check at 45 minutes. A knife should slide in easily. Let them cool a little, then rub off the skins with kitchen paper, which comes away easily when they are warm. **Wear gloves, or old clothes.** Beetroot stains hands and tea towels.\n\nCut into wedges and toss with the dressing of orange juice, balsamic vinegar and oil while still warm, so they absorb it.\n\nPile the rocket on a platter, scatter the beetroot over it, crumble the goat cheese on top and finish with the toasted walnuts. Pistachios make a good alternative to walnuts if you prefer them.',
-    ing: [
-      '600 g raw beetroot',
-      '1 tbsp olive oil',
-      '100 g rocket',
-      '120 g goat cheese, crumbled',
-      '40 g walnuts, toasted',
-      '2 tbsp orange juice',
-      '1 tbsp balsamic vinegar',
-      '3 tbsp olive oil, for the dressing',
-      '1/2 tsp salt',
-      '1/4 tsp black pepper'
-    ],
-    st: [
-      'Heat the oven to 200°C. Scrub the beetroot, wrap in foil with the 1 tbsp of oil and roast for 50 minutes until a knife slides in easily.',
-      'Cool slightly, rub off the skins and cut into wedges.',
-      'Whisk the orange juice, balsamic vinegar, 3 tbsp of oil, salt and pepper and toss with the warm beetroot.',
-      'Pile the rocket on a platter, top with the beetroot, goat cheese and walnuts.'
-    ],
-    tips: [
-      'Roast the beetroot in foil.',
-      'Dress them while warm.',
-      'If your oven runs hot, check at 45 minutes.',
-      'Wear gloves to peel them.'
-    ],
-    pair: ['Crusty bread', 'Roast chicken', 'Grilled salmon', 'Dry white wine'],
-    store: 'Keeps in the fridge for 2 days. Add the rocket and cheese just before serving.',
-    nut: [390, 11, 19, 30, 5, 12, 600]
-  },
 
   'rice-salad': {
     d: 'Cooled rice with peppers, sweetcorn, tuna, olives and parsley in a lemon and olive oil dressing.',

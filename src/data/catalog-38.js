@@ -113,7 +113,6 @@ module.exports = [
   c('bounty-slice', 'Bounty Slice', 'Australian', 'Desserts', 'Easy', 15, 0, 16, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'bounty slice'),
   c('cornflake-cookies', 'Cornflake Cookies', 'Australian', 'Baking', 'Easy', 15, 15, 20, 0, 0, ['Vegetarian'], ['new'], 'cornflake cookies'),
   c('passionfruit-slice', 'Passionfruit Slice', 'Australian', 'Desserts', 'Easy', 20, 0, 16, 0, 0, ['Vegetarian'], ['new'], 'passionfruit slice'),
-  c('shortbread-fingers', 'Shortbread Fingers', 'Scottish', 'Baking', 'Easy', 15, 25, 16, 0, 0, ['Vegetarian'], ['new'], 'shortbread fingers'),
   c('apple-pie-with-custard', 'Apple Pie with Custard', 'British', 'Desserts', 'Medium', 40, 50, 8, 0, 0, ['Vegetarian'], ['new'], 'apple pie with custard'),
   c('maple-pecan-tart', 'Maple Pecan Tart', 'Canadian', 'Desserts', 'Medium', 30, 60, 10, 0, 0, ['Vegetarian'], ['new'], 'maple pecan tart'),
   c('gingerbread-men', 'Gingerbread Men', 'British', 'Baking', 'Easy', 25, 12, 16, 0, 0, ['Vegetarian'], ['new'], 'gingerbread men'),

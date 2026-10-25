@@ -78,35 +78,6 @@ module.exports = {
     nut: [617, 14, 75, 29, 3, 46, 370]
   },
 
-  'shortbread-stars': {
-    d: 'Buttery shortbread cut into stars and baked until pale gold, with a sprinkle of sugar.',
-    meta: 'Shortbread stars: buttery shortbread cut into stars and baked until pale gold. Sixteen biscuits, baked for 20 minutes.',
-    kw: ['shortbread stars', 'christmas shortbread stars', 'scottish shortbread stars', 'buttery shortbread star biscuits', 'star shaped shortbread'],
-    why: 'What makes shortbread short? The butter. A high proportion of fat to flour coats the flour so that the gluten cannot develop, and the biscuit is crumbly rather than chewy. It needs very little else.\n\nBeat the butter and sugar together just until combined, not fluffy. Air makes the biscuits spread in the oven. Work in the flour and cornflour with your hands until a dough forms, and stop at once. **Handle the dough as little as possible.** Warm hands melt the butter, and the stars lose their edges.\n\nRoll the dough to 1 cm thick between two sheets of baking paper, cut out stars and set them on a tray with a little space between each. Prick them with a fork and sprinkle with sugar.\n\nBake at 160°C for 20 minutes. If your oven runs hot, check at 17 minutes. They should be pale gold, not brown. Cool on the tray, since they are fragile while warm.',
-    ing: [
-      '250 g butter, softened',
-      '100 g caster sugar',
-      '300 g plain flour',
-      '50 g cornflour',
-      '1/4 tsp salt',
-      '2 tbsp caster sugar, for sprinkling'
-    ],
-    st: [
-      'Heat the oven to 160°C and line two trays. Beat the butter and the 100 g of sugar together until just combined.',
-      'Work in the flour, cornflour and salt with your hands until a smooth dough forms.',
-      'Roll to 1 cm thick between sheets of baking paper and cut out sixteen stars. Set on the trays, prick with a fork and sprinkle with the 2 tbsp of sugar.',
-      'Bake for 20 minutes until pale gold. Cool on the trays.'
-    ],
-    tips: [
-      'Do not overbeat the butter.',
-      'Handle the dough lightly.',
-      'If your oven runs hot, check at 17 minutes.',
-      'Cool on the tray.'
-    ],
-    pair: ['Tea', 'Coffee', 'Hot chocolate', 'Fresh strawberries'],
-    store: 'Keeps in an airtight tin for 2 weeks.',
-    nut: [225, 2, 25, 13, 1, 8, 40]
-  },
 
   'candy-apples': {
     d: 'Small apples on sticks dipped in a hard red candy coating of sugar, glucose syrup and water.',

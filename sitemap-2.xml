@@ -2,6 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://weeklydelight.com/recipes/baklava/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/baklava.jpg</image:loc>
+      <image:title>Pistachio Baklava</image:title>
+      <image:caption>Pistachio Baklava</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/pad-thai/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pad-thai.jpg</image:loc>
+      <image:title>Pad Thai</image:title>
+      <image:caption>Pad Thai</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://weeklydelight.com/recipes/thai-green-curry/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -3093,17 +3115,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://weeklydelight.com/recipes/katsu-curry/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/katsu-curry.jpg</image:loc>
-      <image:title>Katsu Curry</image:title>
-      <image:caption>Katsu Curry</image:caption>
-    </image:image>
-  </url>
-  <url>
     <loc>https://weeklydelight.com/recipes/miso-ramen/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -5323,50 +5334,6 @@
       <image:loc>https://weeklydelight.com/assets/img/recipes/cauliflower-chicken-fried-rice.jpg</image:loc>
       <image:title>Chicken Cauliflower Fried Rice</image:title>
       <image:caption>Chicken Cauliflower Fried Rice</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/baked-eggs-spinach-feta/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/baked-eggs-spinach-feta.jpg</image:loc>
-      <image:title>Baked Eggs with Spinach and Feta</image:title>
-      <image:caption>Baked Eggs with Spinach and Feta</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/kutia/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/kutia.jpg</image:loc>
-      <image:title>Kutia</image:title>
-      <image:caption>Kutia</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/vanocka/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/vanocka.jpg</image:loc>
-      <image:title>Vánočka</image:title>
-      <image:caption>Vánočka</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/julekake/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/julekake.jpg</image:loc>
-      <image:title>Julekake</image:title>
-      <image:caption>Julekake</image:caption>
     </image:image>
   </url>
 </urlset>

@@ -361,37 +361,6 @@ module.exports = {
     nut: [213, 2, 31, 9, 0, 23, 10]
   },
 
-  'chewy-oat-granola-bars': {
-    untimed: ['cooling completely'],
-    d: 'Rolled oats, honey, butter and brown sugar pressed into a tin, baked and cut into chewy bars.',
-    meta: 'Chewy oat granola bars: rolled oats, honey, butter and brown sugar pressed into a tin and baked. Twelve bars, baked for 25 minutes.',
-    kw: ['chewy oat granola bars', 'homemade granola bars', 'oat granola bars with honey', 'chewy granola bars', 'baked oat bars'],
-    why: 'Keep them in the tin until they are cold. That is the short sharp rule for these bars, and the part people skip. Warm, they are soft and crumbly; cold, they set firm enough to cut and carry.\n\nThe mix is only oats, butter, honey and sugar, with raisins for chew. The butter, honey and sugar are melted together and poured over the oats, which coat each flake in a sticky syrup. **Press the mix down very firmly.** The bars hold together because the oats are packed tight, so use the back of a spoon or a flat-bottomed glass.\n\nBake until the edges are golden but the middle is still soft. It will not look done, and that is right. The bars firm up as they cool.\n\nCut into twelve with a sharp knife once completely cold. Swap the raisins for any dried fruit you have, or add seeds. Wrap the bars individually in paper for easy snacks.',
-    ing: [
-      '150 g butter',
-      '100 g honey',
-      '100 g soft brown sugar',
-      '300 g rolled oats',
-      '60 g raisins',
-      '1/2 tsp ground cinnamon',
-      '1/4 tsp salt'
-    ],
-    st: [
-      'Heat the oven to 180°C (160°C fan) and line a 20 cm square tin with baking paper.',
-      'Melt the butter, honey and sugar in a pan over a low heat, stirring until the sugar dissolves.',
-      'Stir in the oats, raisins, cinnamon and salt until coated. Press very firmly into the tin.',
-      'Bake for 25 minutes until golden at the edges. Cool completely in the tin, then cut into 12 bars.'
-    ],
-    tips: [
-      'Press the mix down hard.',
-      'Cool the bars fully before cutting.',
-      'Use a sharp knife and a sawing motion.',
-      'Swap the raisins for chopped dried apricots or chocolate chips.'
-    ],
-    pair: ['Banana', 'Milk', 'Yoghurt', 'Tea'],
-    store: 'Keeps in an airtight tin for 5 days. Freezes well for up to 2 months.',
-    nut: [268, 4, 36, 12, 3, 18, 60]
-  },
 
   'pizza-muffins': {
     d: 'Savoury muffins of flour, cheese, tomato paste and oregano with pepperoni, baked in a tin.',

@@ -28,7 +28,6 @@ function c(slug, title, cuisine, category, difficulty, prep, cook, servings, rat
 }
 
 module.exports = [
-  c('air-fryer-baked-potato', 'Air Fryer Baked Potato', 'American', 'Dinner', 'Easy', 5, 40, 2, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'air fryer baked potato'),
   c('air-fryer-banana-bread', 'Air Fryer Banana Bread', 'American', 'Baking', 'Easy', 10, 35, 8, 0, 0, ['Vegetarian'], ['new'], 'air fryer banana bread'),
   c('air-fryer-brownies', 'Air Fryer Brownies', 'American', 'Desserts', 'Easy', 10, 20, 9, 0, 0, ['Vegetarian'], ['new'], 'air fryer brownies'),
   c('air-fryer-burgers', 'Air Fryer Burgers', 'American', 'Dinner', 'Easy', 10, 12, 4, 0, 0, [], ['new'], 'air fryer burgers'),

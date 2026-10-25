@@ -414,36 +414,6 @@ module.exports = {
     nut: [525, 19, 47, 29, 5, 0, 1040]
   },
 
-  'tajarin-al-tartufo': {
-    d: 'Thin ribbons of egg yolk pasta from Piedmont tossed in butter and finished with shaved truffle, made in 1 hour 3 minutes.',
-    meta: 'Tajarin al tartufo, thin egg yolk pasta from Piedmont in butter with shaved truffle, cooked for 3 minutes. Four servings, ready in 1 hour 3 minutes.',
-    kw: ['tajarin al tartufo', 'piedmont truffle pasta', 'egg yolk tagliolini', 'tajarin with butter', 'truffle tagliolini'],
-    why: 'A Sunday dish for a table of four, and one where the extravagance is the truffle rather than the cooking. Tajarin are the thin ribbons of Piedmont, made with a lot of egg yolk, which gives a golden, rich dough.\n\nThe dough takes about 10 minutes of kneading. It will feel stiff at first, since there is little liquid beyond the yolks. Rest it for 20 minutes, then roll it out until it is nearly see through and cut it into ribbons about 2 mm wide. **Dust the ribbons with flour and loosen them into nests** so they do not stick together while you boil the water.\n\nThey cook in about 3 minutes. Drain, keeping a cup of the water, and toss them in melted butter with a splash of the water until glossy. Shave the truffle over the top at the table, because heat dulls the scent. A jar of truffle paste or a drizzle of truffle oil is a cheaper stand in for the fresh one.',
-    ing: [
-      '300 g plain flour',
-      '8 egg yolks',
-      '1 egg',
-      '1 tsp salt',
-      '80 g butter',
-      '20 g fresh black truffle, shaved',
-      '30 g grated Parmesan'
-    ],
-    st: [
-      'Mix the flour, yolks, egg and salt to a stiff dough. Knead for 10 minutes. Wrap and rest for 20 minutes.',
-      'Roll out thin, fold the sheets loosely and cut into 2 mm ribbons. Toss with flour into nests.',
-      'Boil the tajarin in a large pan of salted water for 3 minutes. Keep a cup of the water.',
-      'Melt the butter in a wide pan, add the pasta and a splash of the water and toss for 1 minute.',
-      'Plate, scatter with the Parmesan and shave the truffle over the top.'
-    ],
-    tips: [
-      'Cut the ribbons thin and loosen them into nests.',
-      'Keep a cup of cooking water for the butter sauce.',
-      'Shave the truffle at the table so the scent is not lost.'
-    ],
-    pair: ['Dry white wine', 'Green salad', 'Roast veal'],
-    store: 'Best fresh. Uncooked nests freeze for 1 month.',
-    nut: [602, 25, 58, 30, 2, 1, 850]
-  },
 
   'pollo-alla-diavola': {
     d: 'A flattened chicken marinated in chilli, lemon and garlic, roasted for 40 minutes at 220C until crisp and charred at the edges.',

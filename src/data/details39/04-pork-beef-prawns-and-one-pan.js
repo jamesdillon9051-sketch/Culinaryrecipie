@@ -449,40 +449,6 @@ module.exports = {
     nut: [556, 34, 51, 24, 5, 3, 850]
   },
 
-  'one-pan-chicken-and-rice': {
-    d: 'Chicken thighs browned in a single pan, then simmered with rice, stock, paprika and garlic for 25 minutes.',
-    meta: 'One pan chicken and rice: chicken thighs browned and simmered with rice, stock, paprika and garlic, all cooked in one pan. Four servings.',
-    kw: ['one pan chicken and rice', 'one pan chicken rice', 'easy one pan chicken and rice', 'chicken and rice skillet', 'one skillet chicken and rice'],
-    why: 'Everything cooks in the one pan, so the rice drinks the juices from the chicken, and there is only one thing to wash. It is a method rather than a recipe, and it works with whatever you have.\n\nBrown the thighs, skin-side down, for 6 minutes until the skin is crisp and a good deal of fat has rendered. **Pour off most of the fat** and keep a spoonful, since too much will make the rice greasy.\n\nSoften the onion in the same pan, add garlic and paprika, then the rice, and stir for a minute to coat each grain. Pour in the stock, bring to a boil and nestle the chicken on top, skin-side up.\n\nCover and cook on low heat for 25 minutes, without lifting the lid. If your hob runs hot, check at 20 minutes. The rice should be tender and the liquid absorbed. Rest for 5 minutes with the lid on, then fluff the rice and scatter with parsley and lemon.',
-    ing: [
-      '8 chicken thighs, bone in and skin on, about 1 kg',
-      '1 tsp salt',
-      '1 tbsp vegetable oil',
-      '1 onion, chopped',
-      '3 garlic cloves, chopped',
-      '2 tsp smoked paprika',
-      '300 g long-grain rice',
-      '600 ml chicken stock',
-      '150 g frozen peas',
-      '2 tbsp chopped parsley',
-      '1 lemon, cut into wedges'
-    ],
-    st: [
-      'Season the chicken with the salt. Heat the oil in a large lidded pan and brown the chicken skin-side down for 6 minutes. Pour off all but 1 tbsp of the fat.',
-      'Soften the onion in the same pan for 4 minutes, add the garlic and paprika, then the rice for 1 minute.',
-      'Pour in the stock, bring to the boil and set the chicken on top skin-side up. Cover and cook on low heat for 25 minutes.',
-      'Scatter the peas over for the last 5 minutes. Rest for 5 minutes, fluff and serve with the parsley and lemon.'
-    ],
-    tips: [
-      'Pour off excess fat.',
-      'Do not lift the lid.',
-      'If your hob runs hot, check at 20 minutes.',
-      'Rest before fluffing.'
-    ],
-    pair: ['Green salad', 'Roasted broccoli', 'Lemon wedges', 'Garlic bread'],
-    store: 'Keeps in the fridge for 3 days. Reheat with a splash of water.',
-    nut: [668, 59, 72, 16, 5, 4, 1320]
-  },
 
   'one-pan-sausage-and-potatoes': {
     d: 'Pork sausages, potatoes and onion roasted together in one pan for 35 minutes with rosemary and a little mustard.',

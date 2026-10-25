@@ -477,33 +477,6 @@ module.exports = {
     nut: [429, 12, 75, 9, 8, 34, 70]
   },
 
-  '3-ingredient-cookies': {
-    d: 'Peanut butter, sugar and an egg mixed into a dough and baked for 10 minutes into crisp-edged, chewy cookies with a crosshatch top.',
-    meta: 'Three ingredient peanut butter cookies, baked for 10 minutes. 12 cookies, ready in 20 minutes.',
-    kw: ['3 ingredient cookies', 'three ingredient peanut butter cookies', 'peanut butter sugar egg cookies', 'flourless peanut butter cookies', 'simple peanut butter cookies'],
-    why: 'Peanut butter, sugar and an egg: that is the full ingredient list, and the cookies they make are chewy, deeply nutty and need no flour. The recipe works because peanut butter has everything a cookie dough needs, fat for tenderness, protein for structure and a lot of body, and the egg binds it into a dough that holds together.\n\nThe type of peanut butter makes a big difference. Use a smooth, commercial brand such as Skippy or Jif. These are stabilised, so the oil does not separate. A natural peanut butter, with a layer of oil on top, makes a dough that is greasy and crumbles apart, and the cookies spread too much. If you use a natural one, stir it very well and chill the dough for 30 minutes.\n\n**Do not skip the flattening.** The dough does not spread in the oven, so the cookies keep the shape you give them. Roll into balls, place them 5 cm apart and press down with a fork in a crosshatch to about 1.5 cm thick. The pattern helps the centre cook through.\n\nBake for 10 minutes, until the edges are set and the tops look dry. They will be very soft and fragile when they come out, and firm as they cool. Leave them on the tray for 10 minutes before moving them. A pinch of salt on top turns them from good to excellent.',
-    ing: [
-      '250 g smooth peanut butter',
-      '100 g caster sugar',
-      '1 egg',
-      '1/4 tsp flaky sea salt'
-    ],
-    st: [
-      'Heat the oven to 180C and line a tray.',
-      'Mix the peanut butter, sugar and egg until a stiff dough forms.',
-      'Roll into 12 balls and place 5 cm apart on the tray.',
-      'Press each down with a fork in a crosshatch and sprinkle with the flaky salt.',
-      'Bake for 10 minutes until set at the edges. Cool on the tray for 10 minutes.'
-    ],
-    tips: [
-      'Use a stabilised smooth peanut butter.',
-      'Press down with a fork.',
-      'Cool on the tray before moving.'
-    ],
-    pair: ['Cold milk', 'Coffee', 'Hot chocolate', 'Fresh bananas'],
-    store: 'Keeps in an airtight tin for 4 days.',
-    nut: [175, 6, 13, 11, 2, 10, 60]
-  },
 
   '3-ingredient-fudge': {
     d: 'Dark chocolate chips and condensed milk melted together with vanilla and set in a tin for 2 hours into smooth squares.',

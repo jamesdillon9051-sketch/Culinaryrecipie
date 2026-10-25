@@ -43,7 +43,6 @@ module.exports = [
   c('gateau-basque', 'Gâteau Basque', 'French', 'Desserts', 'Medium', 35, 45, 10, 4.6, 744, ['Vegetarian'], [], 'Gateau basque'),
 
   /* --------------------------------------------------------- Japanese (8) */
-  c('katsu-curry', 'Katsu Curry', 'Japanese', 'Dinner', 'Medium', 25, 40, 4, 4.9, 4288, [], ['trending'], 'Katsu curry'),
   c('miso-ramen', 'Miso Ramen', 'Japanese', 'Dinner', 'Hard', 40, 90, 4, 4.8, 3122, [], ['editors'], 'Miso ramen'),
   c('unagi-don', 'Unagi Don', 'Japanese', 'Dinner', 'Medium', 15, 20, 2, 4.7, 1044, ['Dairy-Free'], [], 'Unagi don eel rice'),
   c('nikujaga', 'Nikujaga', 'Japanese', 'Dinner', 'Easy', 15, 35, 4, 4.6, 866, ['Dairy-Free'], [], 'Nikujaga'),

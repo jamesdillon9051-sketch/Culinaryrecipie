@@ -2,111 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://weeklydelight.com/recipes/savarin/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/savarin.jpg</image:loc>
-      <image:title>Savarin</image:title>
-      <image:caption>Savarin</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/veloute-de-champignons/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/veloute-de-champignons.jpg</image:loc>
-      <image:title>Veloute de Champignons</image:title>
-      <image:caption>Veloute de Champignons</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/joue-de-boeuf/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/joue-de-boeuf.jpg</image:loc>
-      <image:title>Joue de Boeuf</image:title>
-      <image:caption>Joue de Boeuf</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/paupiettes-de-veau/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/tournedos-rossini/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/tournedos-rossini.jpg</image:loc>
-      <image:title>Tournedos Rossini</image:title>
-      <image:caption>Tournedos Rossini</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/foie-gras/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/foie-gras.jpg</image:loc>
-      <image:title>Foie Gras</image:title>
-      <image:caption>Foie Gras</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/tuiles-aux-amandes/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/tuiles-aux-amandes.jpg</image:loc>
-      <image:title>Tuiles aux Amandes</image:title>
-      <image:caption>Tuiles aux Amandes</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/nougat-de-montelimar/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/nougat-de-montelimar.jpg</image:loc>
-      <image:title>Nougat de Montelimar</image:title>
-      <image:caption>Nougat de Montelimar</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/tarte-bourdaloue/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/tarte-bourdaloue.jpg</image:loc>
-      <image:title>Tarte Bourdaloue</image:title>
-      <image:caption>Tarte Bourdaloue</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/poire-belle-helene/</loc>
-    <lastmod>2026-10-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/poire-belle-helene.jpg</image:loc>
-      <image:title>Poire Belle Helene</image:title>
-      <image:caption>Poire Belle Helene</image:caption>
-    </image:image>
-  </url>
-  <url>
     <loc>https://weeklydelight.com/recipes/soupe-aux-choux/</loc>
     <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
@@ -803,17 +698,6 @@
       <image:loc>https://weeklydelight.com/assets/img/recipes/polenta-taragna.jpg</image:loc>
       <image:title>Polenta Taragna</image:title>
       <image:caption>Polenta Taragna</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/tajarin-al-tartufo/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/tajarin-al-tartufo.jpg</image:loc>
-      <image:title>Tajarin al Tartufo</image:title>
-      <image:caption>Tajarin al Tartufo</image:caption>
     </image:image>
   </url>
   <url>
@@ -1834,17 +1718,6 @@
       <image:loc>https://weeklydelight.com/assets/img/recipes/conchiglioni-ripieni.jpg</image:loc>
       <image:title>Conchiglioni Ripieni</image:title>
       <image:caption>Conchiglioni Ripieni</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/spaghetti-al-limone/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/spaghetti-al-limone.jpg</image:loc>
-      <image:title>Spaghetti al Limone</image:title>
-      <image:caption>Spaghetti al Limone</image:caption>
     </image:image>
   </url>
   <url>

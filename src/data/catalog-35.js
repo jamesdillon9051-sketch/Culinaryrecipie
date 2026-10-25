@@ -115,7 +115,6 @@ module.exports = [
   c('roast-pumpkin-soup', 'Roast Pumpkin Soup', 'Australian', 'Lunch', 'Easy', 15, 40, 4, 0, 0, ['Vegetarian', 'Vegan'], ['new'], 'roast pumpkin soup'),
   c('butternut-squash-pasta', 'Butternut Squash Pasta', 'American', 'Dinner', 'Easy', 10, 30, 4, 0, 0, [], ['new'], 'butternut squash pasta'),
   c('zucchini-pasta', 'Zucchini Pasta', 'Italian', 'Quick Meals', 'Easy', 5, 15, 4, 0, 0, [], ['new'], 'zucchini pasta'),
-  c('zucchini-bake', 'Zucchini Bake', 'Australian', 'Dinner', 'Easy', 15, 40, 4, 0, 0, [], ['new'], 'zucchini bake'),
   c('marrow-bake', 'Marrow Bake', 'British', 'Dinner', 'Easy', 15, 40, 4, 0, 0, ['Vegetarian'], ['new'], 'marrow bake'),
   c('vegetable-stew', 'Vegetable Stew', 'British', 'Dinner', 'Easy', 15, 40, 4, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'vegetable stew'),
   c('vegetable-pot-pie', 'Vegetable Pot Pie', 'American', 'Dinner', 'Medium', 25, 40, 6, 0, 0, ['Vegetarian'], ['new'], 'vegetable pot pie'),

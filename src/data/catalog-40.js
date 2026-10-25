@@ -55,7 +55,6 @@ module.exports = [
   c('game-pie', 'Game Pie', 'British', 'Dinner', 'Hard', 40, 120, 8, 0, 0, [], ['new'], 'game pie'),
   c('vegetable-pasties', 'Vegetable Pasties', 'British', 'Dinner', 'Medium', 35, 45, 6, 0, 0, ['Vegetarian'], ['new'], 'vegetable pasties'),
   c('egg-and-bacon-tart', 'Egg and Bacon Tart', 'British', 'Lunch', 'Easy', 20, 35, 6, 0, 0, [], ['new'], 'egg and bacon tart'),
-  c('irish-potato-cakes', 'Irish Potato Cakes', 'Irish', 'Breakfast', 'Easy', 15, 10, 4, 0, 0, ['Vegetarian'], ['new'], 'irish potato cakes'),
   c('potato-cakes', 'Potato Cakes', 'Australian', 'Appetizers', 'Easy', 10, 10, 4, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'potato cakes'),
   c('spaghetti-toasties', 'Spaghetti Toasties', 'Australian', 'Lunch', 'Easy', 5, 6, 2, 0, 0, ['Vegetarian'], ['new'], 'spaghetti toasties'),
   c('tomato-soup-with-grilled-cheese', 'Tomato Soup with Grilled Cheese', 'American', 'Lunch', 'Easy', 10, 25, 4, 0, 0, ['Vegetarian'], ['new'], 'tomato soup with grilled cheese'),

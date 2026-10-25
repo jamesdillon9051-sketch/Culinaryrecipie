@@ -169,36 +169,6 @@ module.exports = {
     nut: [967, 12, 43, 83, 4, 2, 440]
   },
 
-  'potato-gratin': {
-    d: 'Thin-sliced potatoes baked in garlicky cream and milk until tender with a golden top. Six servings in 1 hour 15 minutes.',
-    meta: 'Potato gratin: thin-sliced potatoes baked in garlicky cream and milk until tender with a golden top. A cheap side dish for six in 1 hour 15 minutes.',
-    kw: ['potato gratin', 'gratin dauphinois', 'budget creamy potato bake', 'easy french potato gratin', 'cheap side dish for six'],
-    why: 'Slice the potatoes thin and even, 2 mm if you can, and do not rinse them. The starch on the cut surface is what thickens the cream into a sauce, and washing it off leaves a thin, watery gratin.\n\nWarm the cream and milk with the garlic before it goes over the potatoes. Heating it first means the gratin starts cooking at once and takes less time in the oven.\n\nLayer the potatoes in overlapping rows, seasoning each layer. **Press them down firmly** so the liquid comes up and just covers them.\n\nBake slowly, uncovered for the second half, so the top browns and the sauce reduces. A knife should slide into the centre with no resistance. Rest it for 10 minutes. It firms up and cuts neatly. A gratin is among the best uses of cheap potatoes, and needs only cream and garlic to become a dinner party dish. It reheats well, so can be made the day before and warmed in the oven while the main course rests.',
-    ing: [
-      '1.2 kg floury potatoes, peeled and sliced 2 mm thick',
-      '300 ml double cream',
-      '300 ml milk',
-      '3 garlic cloves, crushed',
-      '1 tsp salt',
-      '1/2 tsp black pepper',
-      '1/4 tsp ground nutmeg',
-      '20 g butter'
-    ],
-    st: [
-      'Heat the oven to 170°C (150°C fan). Butter a 2 litre gratin dish with half the butter.',
-      'Warm the cream, milk, garlic, salt, pepper and nutmeg in a pan until just steaming.',
-      'Layer the potatoes in the dish, overlapping and pressing down. Pour over the hot cream mixture, which should just cover them. Dot with the remaining butter.',
-      'Bake for 1 hour 5 minutes, covering with foil if the top browns too fast, until a knife slides in easily and the top is golden. Rest for 10 minutes.'
-    ],
-    tips: [
-      'Do not wash the potato slices; the starch thickens the sauce.',
-      'Use a mandoline for even slices if you have one.',
-      'Cover with foil if the top darkens before the potatoes are tender.'
-    ],
-    pair: ['Roast chicken', 'Green beans', 'Roast lamb', 'Green salad'],
-    store: 'Keeps in the fridge for up to 3 days. Reheat covered at 160°C for 20 minutes.',
-    nut: [382, 7, 39, 22, 5, 6, 440]
-  },
 
   'potato-dumplings': {
     cookMax: 50,
@@ -373,33 +343,6 @@ module.exports = {
     nut: [219, 2, 28, 11, 6, 18, 730]
   },
 
-  'kumara-fries': {
-    d: 'Kumara cut into sticks, tossed in oil and cornflour and baked until the edges crisp. Four servings in 40 minutes.',
-    meta: 'Kumara fries: kumara cut into sticks, tossed in oil and cornflour and baked until the edges crisp. A cheap New Zealand-style snack for four in 40 minutes.',
-    kw: ['kumara fries', 'baked kumara chips', 'budget sweet potato fries', 'easy oven kumara fries', 'cheap snack for four'],
-    why: 'Kumara, the orange sweet potato of New Zealand, is soft when it cooks, and this is the challenge for any fry. A light coating of cornflour is the answer: it dries on the surface and gives the sticks a crust.\n\nCut them evenly, about 1 cm square. Thicker sticks cook through but never crisp; thinner ones burn.\n\nToss the sticks in a bowl with a spoonful of cornflour first, then the oil. **Do the cornflour before the oil**, so it clings dry to the kumara and forms a paste with the oil as the fries heat.\n\nBake on a hot tray, spread out, turning once. Space matters most: anything touching steams. Salt while still hot. Kumara fries crisp as they cool for a minute. Kumara has a natural sweetness that goes well with salty and sour dips. A bowl of yogurt with a squeeze of lemon, or a spoonful of sweet chilli sauce, makes a simple partner for the crisp edges.',
-    ing: [
-      '800 g kumara or orange sweet potato, cut into 1 cm sticks',
-      '1 tbsp cornflour',
-      '3 tbsp vegetable oil',
-      '1 tsp salt',
-      '1 tsp smoked paprika'
-    ],
-    st: [
-      'Heat the oven to 220°C (200°C fan) with two large trays inside.',
-      'Toss the kumara sticks with the cornflour in a large bowl, then with the oil, salt and paprika.',
-      'Spread on the hot trays in a single layer and bake for 30 minutes, turning once, until the edges are crisp and golden.',
-      'Rest for 2 minutes to crisp up and serve hot.'
-    ],
-    tips: [
-      'Use two trays so the fries are not crowded.',
-      'Toss in cornflour before the oil for a crisper result.',
-      'Eat at once; they soften as they cool.'
-    ],
-    pair: ['Burgers', 'Sour cream and chives', 'Sweet chilli sauce', 'Grilled sausages'],
-    store: 'Best eaten straight away. Reheat on a tray at 220°C for 8 minutes.',
-    nut: [279, 3, 42, 11, 6, 8, 700]
-  },
 
   'potato-wedges': {
     d: 'Potato wedges tossed in oil and spices and baked until crisp outside and fluffy inside. Four servings in 45 minutes.',
@@ -521,36 +464,6 @@ module.exports = {
     nut: [364, 15, 40, 16, 5, 6, 650]
   },
 
-  'loaded-baked-potatoes': {
-    d: 'Crisp-skinned baked potatoes piled with melted cheese, crispy bacon, soured cream and chives. Four servings in 1 hour 10 minutes.',
-    meta: 'Loaded baked potatoes: crisp-skinned potatoes topped with cheese, bacon, soured cream and chives. A cheap supper for four in 1 hour 10 minutes.',
-    kw: ['loaded baked potatoes', 'cheese and bacon baked potatoes', 'budget loaded potatoes', 'easy loaded jacket potatoes', 'cheap supper for four'],
-    why: 'Salt and oil the skins, and bake the potatoes straight on the oven shelf. The skin dries and crisps, and the inside turns light and floury.\n\nPierce each potato with a fork a few times so steam can escape. A sealed potato can burst, and a pierced one cooks more evenly.\n\nOnce baked, split along the top and press the ends toward each other to open it. Fluff the inside with a fork and add a knob of butter. **Salt the inside** before the toppings; it is the only seasoning the potato gets.\n\nBacon is best cooked until properly crisp in a dry pan, then crumbled. Soft bacon on a soft potato is a monotone. Put the cheese on first so the heat of the potato melts it. A baked potato is the most flexible base for a meal, and the toppings can be altered to use what is in the fridge. Leftover chili, baked beans or tuna mayonnaise all stand in for the bacon and cheese.',
-    ing: [
-      '4 large baking potatoes, about 300 g each',
-      '1 tbsp vegetable oil',
-      '1 tsp salt',
-      '100 g streaky bacon, fried until crisp and crumbled',
-      '30 g butter',
-      '150 g grated cheddar',
-      '100 g soured cream',
-      '2 tbsp chopped chives'
-    ],
-    st: [
-      'Heat the oven to 200°C (180°C fan). Prick the potatoes, rub with the oil and half the salt and bake directly on the shelf for 1 hour until the skins are crisp.',
-      'Split each potato along the top and open it. Fluff the flesh with a fork, add the butter and the remaining salt.',
-      'Scatter with the cheese and return to the oven for 5 minutes to melt.',
-      'Top with the bacon, soured cream and chives.'
-    ],
-    tips: [
-      'Bake unwrapped for crisp skins.',
-      'Open and fluff the flesh right away so steam escapes.',
-      'Keep the bacon crisp by adding it at the last moment.'
-    ],
-    pair: ['Green salad', 'Coleslaw', 'Baked beans', 'Sweetcorn'],
-    store: 'Keeps in the fridge for up to 2 days. Reheat at 180°C for 20 minutes.',
-    nut: [562, 20, 53, 30, 7, 4, 1240]
-  },
 
   'jacket-potato-with-baked-beans': {
     d: 'A baked potato with a crisp skin, split and topped with butter, baked beans and grated cheese. Two servings in 1 hour 5 minutes.',
@@ -676,33 +589,6 @@ module.exports = {
     nut: [302, 11, 33, 14, 5, 2, 660]
   },
 
-  'honey-mustard-sausages': {
-    d: 'Cocktail sausages baked and tossed in a sticky glaze of honey, wholegrain mustard and soy sauce. Eight servings in 25 minutes.',
-    meta: 'Honey mustard sausages: cocktail sausages baked and tossed in a sticky honey and wholegrain mustard glaze. A very cheap party snack for eight, 25 minutes.',
-    kw: ['honey mustard sausages', 'honey mustard cocktail sausages', 'budget party sausages', 'easy glazed sausages', 'cheap party snack'],
-    why: 'The glaze is the whole point, and it is made from three things: honey, mustard and a splash of soy. Together they are sweet, sharp and salty, and they stick to anything that comes out of the oven.\n\nBake the sausages first on their own, 15 minutes at 200°C, until they start to brown. They give off fat which you drain, so the glaze sticks instead of sliding off.\n\nToss them in the glaze while they are still hot. **The heat thins the honey** and it coats every sausage in a single stir.\n\nReturn to the oven for 5 minutes, until sticky and dark at the edges. Watch them for the last minute: honey goes from caramel to burnt quickly. Serve them warm with cocktail sticks. Cocktail sausages are inexpensive in the freezer section, and the glaze gives them a party feel. Keep them warm in a low oven, and put out cocktail sticks and a napkin for each guest.',
-    ing: [
-      '600 g cocktail sausages',
-      '3 tbsp honey',
-      '2 tbsp wholegrain mustard',
-      '1 tbsp soy sauce',
-      '1 tsp vegetable oil'
-    ],
-    st: [
-      'Heat the oven to 200°C (180°C fan). Spread the sausages on a lined tray, brush with the oil and bake for 15 minutes.',
-      'Mix the honey, mustard and soy sauce in a large bowl.',
-      'Drain off any fat from the tray, tip the hot sausages into the bowl and toss to coat.',
-      'Return to the tray and bake for 5 minutes more until sticky and dark at the edges.'
-    ],
-    tips: [
-      'Drain the fat before glazing so the sauce sticks.',
-      'Line the tray with paper; the glaze is hard to scrub.',
-      'Watch for the last minute to avoid burning.'
-    ],
-    pair: ['Cocktail sticks', 'Mustard dip', 'Coleslaw', 'Bread rolls'],
-    store: 'Keeps in the fridge for up to 3 days. Reheat at 180°C for 10 minutes.',
-    nut: [247, 10, 9, 19, 1, 7, 780]
-  },
 
   'honey-garlic-meatballs': {
     d: 'Beef and pork meatballs baked until browned and tossed in a sticky honey, garlic and soy glaze. Six servings in 45 minutes.',

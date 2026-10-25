@@ -281,36 +281,6 @@ module.exports = {
     nut: [343, 42, 19, 11, 4, 7, 1070]
   },
 
-  'slow-cooked-lamb-shoulder': {
-    d: 'A lamb shoulder roasted gently for four hours with garlic, rosemary and stock until it pulls apart with a spoon.',
-    meta: 'Slow cooked lamb shoulder: lamb roasted gently with garlic and rosemary until it falls apart. Six servings, baked for 4 hours.',
-    kw: ['slow cooked lamb shoulder', 'slow roast lamb shoulder', 'falling apart lamb shoulder', 'lamb shoulder with garlic and rosemary', 'four hour lamb shoulder'],
-    why: 'It looks like a roast and cooks like a stew, which is why it asks so little of you. A lamb shoulder is full of connective tissue that turns tender only after hours at a low heat.\n\nMake deep cuts across the skin and push slivers of garlic and sprigs of rosemary into them. Season well with salt and pepper. Set the joint on a bed of onions in a deep tin, pour in the stock and cover tightly with foil. **Seal the foil all round.** Steam is what does the work, and a loose lid lets it escape.\n\nRoast at 150°C for 3 hours 30 minutes, then take off the foil and raise the heat to 200°C for 30 minutes to brown the top. If your oven runs hot, check the meat at 3 hours.\n\nThe lamb is ready when a spoon pulls it apart. Rest for 15 minutes and serve with the juices.',
-    ing: [
-      '2 kg lamb shoulder, bone in',
-      '6 cloves garlic, sliced',
-      '4 sprigs rosemary, about 10 g',
-      '2 onions, about 300 g, thickly sliced',
-      '300 ml lamb stock',
-      '2 tsp salt',
-      '1 tsp black pepper'
-    ],
-    st: [
-      'Heat the oven to 150°C. Cut deep slits in the lamb and push in the garlic and half the rosemary. Rub with the salt and pepper.',
-      'Set on the onions in a deep tin, pour in the stock and cover tightly with foil.',
-      'Roast for 3 hours 30 minutes, then remove the foil, raise the oven to 200°C and roast for 30 minutes more to brown.',
-      'Rest for 15 minutes, then pull apart and serve with the juices.'
-    ],
-    tips: [
-      'Seal the foil tightly.',
-      'Cut deep slits for the garlic.',
-      'If your oven runs hot, check at 3 hours.',
-      'Rest the meat for 15 minutes.'
-    ],
-    pair: ['Roast potatoes', 'Mint sauce', 'Buttered carrots', 'Green beans'],
-    store: 'Keeps in the fridge for 3 days. Reheat in the juices until hot all the way through.',
-    nut: [863, 58, 7, 67, 2, 2, 1190]
-  },
 
   'steak-fried-rice': {
     d: 'Thin strips of steak stir-fried with cold cooked rice, egg, peas and spring onions in soy sauce.',

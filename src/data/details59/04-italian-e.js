@@ -273,35 +273,6 @@ module.exports = {
     nut: [444, 26, 40, 20, 3, 7, 670]
   },
 
-  'spaghetti-al-limone': {
-    d: 'Spaghetti in a sharp, creamy sauce of lemon juice and zest, butter and Parmesan, ready in 20 minutes.',
-    meta: 'Spaghetti al limone, spaghetti in a sharp creamy lemon, butter and Parmesan sauce, cooked for 15 minutes. Four servings, ready in 20 minutes.',
-    kw: ['spaghetti al limone', 'lemon spaghetti', 'italian lemon pasta', 'spaghetti with lemon and parmesan', 'creamy lemon pasta without cream'],
-    why: 'Why does a lemon sauce split? Because the juice meets hot cream or butter too fast. Spaghetti al limone is a sauce of lemon and Parmesan with no cream at all, and it stays smooth because it is built in the right order.\n\nGrate the zest first, then squeeze the juice. Melt the butter in a wide pan with the zest, add a ladle of starchy pasta water and let it bubble. **Add the lemon juice and the cheese off the heat**, a little at a time, tossing, so the starch and fat blend into a cream instead of separating. The more you toss, the glossier it gets.\n\nBoil the spaghetti until a minute short of done and finish it in the pan with the sauce for a minute, adding water if it tightens. Finish with black pepper and extra Parmesan. Taste for sharpness: a little more juice if it is flat, a little more butter if it is too acidic. Serve at once.',
-    ing: [
-      '400 g spaghetti',
-      '60 g butter',
-      '2 lemons, zest and 4 tbsp juice',
-      '80 g grated Parmesan',
-      '1/2 tsp black pepper',
-      '1 tsp salt'
-    ],
-    st: [
-      'Boil the spaghetti in salted water until 1 minute short of done. Keep 250 ml of the water.',
-      'Melt the butter in a wide pan with the lemon zest, add 100 ml of the pasta water and bubble for 1 minute.',
-      'Add the spaghetti and toss for 1 minute.',
-      'Take off the heat and add the lemon juice and most of the Parmesan, tossing, with more water until creamy.',
-      'Serve with the pepper and the remaining Parmesan.'
-    ],
-    tips: [
-      'Add the juice and cheese off the heat.',
-      'Toss constantly so the sauce turns creamy.',
-      'Use pasta water to loosen the sauce.'
-    ],
-    pair: ['Green salad', 'Dry white wine', 'Grilled prawns'],
-    store: 'Best fresh.',
-    nut: [576, 21, 78, 20, 4, 4, 900]
-  },
 
   'tagliolini-al-tartufo': {
     d: 'Fresh egg tagliolini tossed in butter and Parmesan with shaved black truffle, rolled and cut by hand.',

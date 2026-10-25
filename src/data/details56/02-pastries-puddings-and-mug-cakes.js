@@ -15,36 +15,6 @@
  */
 
 module.exports = {
-  'toffee-popcorn': {
-    d: 'Popped corn coated in a butter and brown sugar toffee and baked slowly at 120C for 45 minutes until crisp and glossy.',
-    meta: 'Toffee popcorn coated in butter and brown sugar and baked low for 45 minutes. Ten servings, ready in 1 hour.',
-    kw: ['toffee popcorn', 'caramel toffee popcorn', 'baked toffee popcorn', 'homemade toffee popcorn', 'crunchy toffee popcorn'],
-    why: 'What is the difference between caramel corn and toffee popcorn? Mostly the oven. A toffee popcorn is baked low and slow after it is coated, which dries the sugar coating into a thin, brittle glass that shatters when you bite it. A soft caramel corn is chewy. Both are good, but this one is for people who want crunch.\n\nStart with popped corn, about 5 litres of it, which is roughly 150 g of kernels. Remove every unpopped kernel, which can break a tooth. Spread the popcorn in a large roasting tin and keep it warm in the oven while you make the toffee. A warm tin helps the coating spread and cling.\n\n**Boil the toffee for exactly 4 minutes.** Butter, brown sugar, golden syrup and salt are brought to a boil and left for 4 minutes without stirring. Less, and the coating stays sticky. More, and it turns bitter and hard. Off the heat, whisk in the bicarbonate of soda, which makes the mixture foam and gives the toffee a lighter, airier texture.\n\nPour the toffee over the popcorn in a thin stream and fold with two spatulas, then bake at 120C for 45 minutes, stirring every 15 minutes to coat evenly. Cool the popcorn on baking paper, breaking apart the clusters, and store in an airtight tin.',
-    ing: [
-      '150 g popping corn, popped, about 5 litres',
-      '225 g butter',
-      '300 g light brown sugar',
-      '4 tbsp golden syrup',
-      '1 tsp salt',
-      '1/2 tsp bicarbonate of soda',
-      '1 tsp vanilla extract'
-    ],
-    st: [
-      'Heat the oven to 120C. Spread the popped corn in a large roasting tin, removing any unpopped kernels.',
-      'Boil the butter, sugar, golden syrup and salt in a heavy pan for 4 minutes without stirring.',
-      'Off the heat, whisk in the bicarbonate of soda and vanilla. The mixture will foam.',
-      'Pour over the popcorn and fold with 2 spatulas until coated.',
-      'Bake for 45 minutes, stirring every 15 minutes. Cool on baking paper and break into clusters.'
-    ],
-    tips: [
-      'Remove unpopped kernels.',
-      'Boil the toffee for exactly 4 minutes.',
-      'Stir the popcorn every 15 minutes while baking.'
-    ],
-    pair: ['Hot chocolate', 'Cold milk', 'Coffee', 'Movie night'],
-    store: 'Keeps in an airtight tin for 1 week.',
-    nut: [314, 1, 37, 18, 0, 34, 320]
-  },
 
   'bear-claws': {
     d: 'Puff pastry pockets filled with almond cream, slit into claws, baked for 25 minutes and glazed with icing and flaked almonds.',

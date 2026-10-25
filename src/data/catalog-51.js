@@ -104,7 +104,6 @@ module.exports = [
   c('newfoundland-fish-cakes', 'Newfoundland Fish Cakes', 'Canadian', 'Dinner', 'Easy', 25, 15, 4, 0, 0, ['Gluten-Free'], ['new'], 'newfoundland fish cakes'),
   c('cajun-boudin', 'Cajun Boudin', 'American', 'Dinner', 'Hard', 40, 60, 8, 0, 0, [], ['new'], 'cajun boudin'),
   c('creole-okra-and-tomatoes', 'Creole Okra and Tomatoes', 'American', 'Dinner', 'Easy', 10, 25, 4, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'creole okra and tomatoes'),
-  c('collard-greens-with-ham-hock', 'Collard Greens with Ham Hock', 'American', 'Dinner', 'Easy', 20, 120, 6, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'collard greens with ham hock'),
   c('southern-tomato-pie', 'Southern Tomato Pie', 'American', 'Lunch', 'Medium', 30, 35, 6, 0, 0, ['Vegetarian'], ['new'], 'southern tomato pie'),
   c('kentucky-burgoo', 'Kentucky Burgoo', 'American', 'Dinner', 'Medium', 40, 240, 10, 0, 0, ['Dairy-Free'], ['new'], 'kentucky burgoo'),
   c('pickled-okra', 'Pickled Okra', 'American', 'Appetizers', 'Easy', 20, 10, 8, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'pickled okra'),

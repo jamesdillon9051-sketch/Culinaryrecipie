@@ -51,37 +51,6 @@ module.exports = {
     nut: [745, 28, 48, 49, 3, 4, 1000]
   },
 
-  'new-zealand-anzac-biscuits': {
-    d: 'Chewy oat and coconut biscuits sweetened with golden syrup and butter, baked until golden at the edges.',
-    meta: 'New Zealand Anzac biscuits: chewy oat and coconut biscuits made with golden syrup and butter. Sixteen biscuits, baked for 15 minutes.',
-    kw: ['new zealand anzac biscuits', 'anzac biscuits', 'oat and coconut biscuits', 'anzac biscuits with golden syrup', 'chewy anzac biscuits'],
-    why: 'Melt the butter and the syrup together. That one step does the work of creaming, and it is what gives these biscuits their chew. There is no mixer, and no eggs: oats, flour, coconut and sugar are stirred into the melted mixture, and bicarbonate of soda goes in at the last moment.\n\nThe soda is dissolved in a spoonful of boiling water, then added to the butter and syrup, where it foams up immediately. That foam is what puffs the biscuits and gives them a tender, lacy edge. **Add it straight away, while it is still fizzing.** Left to stand, it loses its lift.\n\nRoll the dough into balls the size of a walnut and flatten them slightly on the tray. Leave space between them, since they spread.\n\nThe length of baking decides the texture. Bake for less time for a chewy biscuit, and more for a crisp one. They are soft when they leave the oven and firm as they cool on the tray.',
-    ing: [
-      '100 g rolled oats',
-      '100 g plain flour',
-      '80 g desiccated coconut',
-      '100 g caster sugar',
-      '125 g butter',
-      '2 tbsp golden syrup',
-      '1 tsp bicarbonate of soda',
-      '2 tbsp boiling water'
-    ],
-    st: [
-      'Heat the oven to 170°C (150°C fan) and line 2 trays with baking paper.',
-      'Mix the oats, flour, coconut and sugar in a large bowl.',
-      'Melt the butter and golden syrup in a pan. Dissolve the bicarbonate of soda in the boiling water, stir into the butter and pour straight into the dry ingredients. Mix well.',
-      'Roll into 16 balls, place on the trays 5 cm apart and flatten slightly. Bake for 15 minutes until golden. Cool on the tray.'
-    ],
-    tips: [
-      'Add the soda mix while it is still fizzing.',
-      'Leave space between the biscuits.',
-      'Bake less for a chewy biscuit, longer for a crisp one.',
-      'Cool them on the tray, because they are soft when hot.'
-    ],
-    pair: ['Tea', 'Coffee', 'A glass of milk', 'Vanilla ice cream'],
-    store: 'Keeps in an airtight tin for 1 week. Freezes well for up to 2 months.',
-    nut: [170, 2, 18, 10, 2, 8, 80]
-  },
 
   'new-zealand-corn-fritters': {
     d: 'Thick sweetcorn fritters with spring onion and a little flour, fried until golden and served with sour cream.',
@@ -116,39 +85,6 @@ module.exports = {
     nut: [414, 12, 51, 18, 3, 6, 480]
   },
 
-  'new-zealand-boil-up': {
-    d: 'A New Zealand pot of pork ribs, potatoes, kumara and cabbage simmered in a salty broth with flour dumplings.',
-    meta: 'New Zealand boil up: pork ribs, potatoes, kumara and cabbage simmered in broth with flour dumplings. Six servings, cooked for 90 minutes.',
-    kw: ['new zealand boil up', 'boil up', 'nz boil up with pork bones', 'boil up with dumplings', 'pork and kumara boil up'],
-    why: 'The long cooking is what makes a boil up: pork ribs simmered for an hour build a rich, salty broth, and the vegetables and dumplings cook in it for the last stretch. It is a pot meal that feeds a crowd for very little money.\n\nPork bones or ribs give the broth its flavour. Cover them with cold water, bring to the boil and skim any scum that rises. Then simmer gently, partly covered. **Skim early.** The scum looks grey and tastes bitter, and removing it keeps the broth clear.\n\nPotatoes and kumara, which is the New Zealand sweet potato, go in about 25 minutes before the end. Cut them into big chunks so they hold together. Cabbage goes in for the last 10 minutes.\n\nThe dumplings are simple: flour, baking powder, salt and water, mixed to a soft dough and dropped in by the spoonful. Cover and do not lift the lid for 10 minutes, since steam cooks them.',
-    ing: [
-      '800 g pork back ribs',
-      '2 litres water',
-      '1 onion, about 150 g, halved',
-      '500 g potatoes, peeled and cut into large chunks',
-      '400 g kumara, peeled and cut into large chunks',
-      '300 g cabbage, cut into wedges',
-      '1 tsp salt',
-      '150 g self-raising flour',
-      '1/4 tsp salt, for the dumplings',
-      '100 ml water, for the dumplings'
-    ],
-    st: [
-      'Put the ribs, water and onion in a large pot, bring to the boil, skim off the scum, then simmer partly covered for 50 minutes.',
-      'Add the potatoes, kumara and the first measure of salt and simmer for 15 minutes.',
-      'Mix the flour, remaining salt and water into a soft dough. Add the cabbage to the pot, then drop in spoonfuls of dough. Cover and simmer for 10 minutes without lifting the lid.',
-      'Serve in deep bowls with plenty of the broth.'
-    ],
-    tips: [
-      'Skim the scum early on.',
-      'Cut the vegetables into large pieces.',
-      'Do not lift the lid while the dumplings steam.',
-      'Taste the broth before adding any more salt.'
-    ],
-    pair: ['Buttered bread', 'Watercress', 'Pickled onions', 'Hot sauce'],
-    store: 'Keeps in the fridge for 3 days. Reheat gently; the dumplings soften.',
-    nut: [582, 26, 52, 30, 6, 6, 620]
-  },
 
   'new-zealand-kiwi-burger': {
     d: 'A beef patty burger with a fried egg, sliced beetroot, cheese and lettuce in a toasted bun.',

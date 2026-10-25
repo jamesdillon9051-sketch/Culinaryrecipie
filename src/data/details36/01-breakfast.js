@@ -213,38 +213,6 @@ module.exports = {
     nut: [234, 6, 39, 6, 5, 14, 70]
   },
 
-  'breakfast-cookies': {
-    d: 'Soft oat cookies made with banana, raisins and a little brown sugar, baked on one tray. Makes 12 in 25 minutes.',
-    meta: 'Breakfast cookies: soft oat cookies with banana, raisins and a little brown sugar. A cheap, easy grab-and-go breakfast, 12 cookies in 25 minutes.',
-    kw: ['breakfast cookies', 'banana oat breakfast cookies', 'budget oat cookies', 'easy breakfast cookie recipe', 'cheap grab and go breakfast'],
-    why: 'They are soft, not crisp, and that is the point: a breakfast cookie is a baked bowl of oats. The bananas keep the inside tender, and the oats give it chew.\n\nMash the banana until smooth, then beat in the oil and sugar. A lumpy mash leaves wet streaks in the baked cookie.\n\nThe batter is thick enough to hold a shape. Scoop heaped tablespoons onto the tray and flatten them slightly with the back of a spoon, because they do not spread in the oven. **What you shape is what you get.**\n\nBake until the edges are golden and the middle is still pale. They firm up on the tray as they cool for 5 minutes. Stir through chocolate chips or nuts if you have them. A cookie for breakfast makes sense when it is mostly oats and fruit. They keep well, and a batch made on Sunday covers several mornings, with a glass of milk or a piece of fruit alongside to make it a full meal.',
-    ing: [
-      '2 ripe bananas, mashed',
-      '60 ml vegetable oil',
-      '60 g light brown sugar',
-      '1 tsp vanilla extract',
-      '200 g rolled oats',
-      '60 g plain flour',
-      '1 tsp ground cinnamon',
-      '1/2 tsp baking powder',
-      '1/4 tsp salt',
-      '60 g raisins'
-    ],
-    st: [
-      'Heat the oven to 180°C (160°C fan) and line a baking tray.',
-      'Beat the bananas, oil, sugar and vanilla until smooth.',
-      'Stir in the oats, flour, cinnamon, baking powder, salt and raisins until just combined.',
-      'Drop 12 heaped tablespoons onto the tray and flatten slightly. Bake for 15 minutes until golden at the edges. Cool for 5 minutes on the tray.'
-    ],
-    tips: [
-      'Flatten the dough because it will not spread much in the oven.',
-      'Check at 12 minutes if your oven runs hot.',
-      'Use very ripe bananas for natural sweetness.'
-    ],
-    pair: ['Glass of milk', 'Yogurt', 'Fresh fruit', 'Cup of tea'],
-    store: 'Keep in an airtight tin for up to 3 days. Freezes for up to 2 months.',
-    nut: [178, 3, 28, 6, 3, 10, 70]
-  },
 
   'breakfast-quesadilla': {
     d: 'A flour tortilla filled with scrambled egg and melted cheese, folded and toasted in a pan. Two servings in 13 minutes.',
@@ -479,33 +447,6 @@ module.exports = {
     nut: [454, 14, 50, 22, 2, 24, 560]
   },
 
-  'banana-toast': {
-    d: 'Toast spread with peanut butter and topped with sliced banana, honey and a pinch of cinnamon. One serving in 7 minutes.',
-    meta: 'Banana toast: toast with peanut butter, sliced banana, honey and cinnamon. A very cheap breakfast or snack for one in 7 minutes.',
-    kw: ['banana toast', 'peanut butter and banana toast', 'budget quick breakfast', 'easy banana on toast', 'cheap breakfast for one'],
-    why: 'Toast the bread properly. It is the base for something soft, so it has to be crisp enough to hold it up.\n\nSpread the peanut butter while the toast is still hot. It melts slightly into the surface and glues the banana on, so slices stay in place when you bite.\n\nThe banana should be just ripe, yellow with a few freckles. Greener ones are starchy and dry; very spotty ones turn to mush.\n\n**Slice it 5 mm thick**, no thinner, and lay the slices overlapping. Honey and cinnamon finish it. A pinch of salt makes the sweetness taste rounder. Wholemeal bread gives the toast a nutty flavour that works well with banana, though white bread is fine. If peanut butter is not available, any nut butter or even a spread of cream cheese stands in, and the honey can be left out when the banana is very ripe. A pinch of salt on top lifts the sweetness.',
-    ing: [
-      '1 slice wholemeal bread',
-      '1 tbsp smooth peanut butter',
-      '1 banana, sliced',
-      '1 tsp honey',
-      '1 pinch ground cinnamon'
-    ],
-    st: [
-      'Toast the bread until golden.',
-      'Spread the peanut butter over the hot toast.',
-      'Lay the banana slices on top, overlapping.',
-      'Drizzle with the honey and sprinkle with the cinnamon.'
-    ],
-    tips: [
-      'Spread the peanut butter while the toast is hot.',
-      'Use a banana that is ripe but still firm.',
-      'Check for peanut allergies before serving.'
-    ],
-    pair: ['Glass of milk', 'Yogurt', 'Coffee'],
-    store: 'Best eaten straight away; the banana browns.',
-    nut: [326, 9, 50, 10, 6, 23, 150]
-  },
 
   'cinnamon-toast': {
     d: 'Hot buttered toast sprinkled with cinnamon sugar. Two servings in 8 minutes from three cupboard items.',

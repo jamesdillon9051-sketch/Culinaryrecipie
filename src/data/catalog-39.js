@@ -95,7 +95,6 @@ module.exports = [
   c('sweet-chilli-prawns', 'Sweet Chilli Prawns', 'Australian', 'Quick Meals', 'Easy', 10, 8, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'sweet chilli prawns'),
   c('creamy-tuscan-shrimp', 'Creamy Tuscan Shrimp', 'Italian', 'Quick Meals', 'Easy', 10, 12, 4, 0, 0, [], ['new'], 'creamy tuscan shrimp'),
   c('crispy-fish-tacos-with-slaw', 'Crispy Fish Tacos with Slaw', 'Mexican', 'Dinner', 'Medium', 20, 10, 4, 0, 0, ['Dairy-Free'], ['new'], 'crispy fish tacos with slaw'),
-  c('one-pan-chicken-and-rice', 'One Pan Chicken and Rice', 'American', 'Dinner', 'Easy', 10, 35, 4, 0, 0, ['Dairy-Free'], ['new'], 'one pan chicken and rice'),
   c('one-pan-sausage-and-potatoes', 'One Pan Sausage and Potatoes', 'British', 'Dinner', 'Easy', 10, 35, 4, 0, 0, [], ['new'], 'one pan sausage and potatoes'),
   c('one-pot-lasagne-soup', 'One Pot Lasagne Soup', 'Italian', 'Dinner', 'Easy', 10, 30, 6, 0, 0, [], ['new'], 'one pot lasagne soup'),
   c('one-pot-jambalaya', 'One Pot Jambalaya', 'American', 'Dinner', 'Easy', 15, 35, 6, 0, 0, [], ['new'], 'one pot jambalaya'),

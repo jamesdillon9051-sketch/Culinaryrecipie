@@ -67,7 +67,6 @@ module.exports = [
   c('poule-au-pot', 'Poule au Pot', 'French', 'Dinner', 'Medium', 40, 150, 8, 0, 0, [], ['new'], 'Poule au pot stuffed boiled chicken vegetables'),
   c('navarin-printanier', "Navarin d'Agneau", 'French', 'Dinner', 'Medium', 30, 105, 6, 0, 0, ['Dairy-Free'], ['new'], 'Navarin printanier lamb spring vegetables'),
   c('daube-provencale', 'Daube Provençale', 'French', 'Dinner', 'Easy', 30, 210, 6, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'Daube provencale beef red wine olives'),
-  c('carbonade-flamande', 'Carbonade Flamande', 'French', 'Dinner', 'Easy', 25, 150, 6, 0, 0, ['Dairy-Free'], ['new'], 'Carbonade flamande beef beer stew bread'),
   c('choucroute', 'Choucroute Garnie', 'French', 'Dinner', 'Medium', 30, 120, 8, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'Choucroute garnie alsace sauerkraut sausages'),
   c('magret-de-canard', 'Magret de Canard', 'French', 'Dinner', 'Medium', 15, 20, 4, 0, 0, ['Gluten-Free'], ['new'], 'Magret de canard duck breast scored skin'),
   c('poulet-roti', 'Poulet Rôti', 'French', 'Dinner', 'Easy', 20, 75, 4, 0, 0, ['Gluten-Free'], ['new'], 'Poulet roti french roast chicken butter'),

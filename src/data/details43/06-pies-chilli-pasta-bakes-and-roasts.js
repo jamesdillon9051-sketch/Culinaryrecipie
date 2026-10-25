@@ -153,38 +153,6 @@ module.exports = {
     nut: [420, 12, 66, 12, 5, 9, 760]
   },
 
-  'trout-with-almonds': {
-    d: 'Pan-fried trout fillets finished with browned butter, toasted flaked almonds and lemon juice.',
-    meta: 'Trout with almonds: pan-fried trout with browned butter, toasted almonds and lemon. Two servings, cooked for 15 minutes.',
-    kw: ['trout with almonds', 'pan fried trout with almonds', 'trout almondine', 'trout with brown butter and almonds', 'trout fillets with almonds'],
-    why: 'Watch the butter, not the fish. Trout fillets are thin and cook in 3 minutes a side, but butter goes from nutty to burnt in seconds.\n\nPat the fillets dry, dust them lightly with flour and season. Fry them skin-side down in a little oil for 3 minutes, until the skin is crisp and the flesh has turned opaque most of the way up, then turn for 1 minute. Lift them onto warm plates. **Wipe the pan before the butter goes in.** Burnt flour and scraps will taint the sauce.\n\nMelt the butter over a medium heat with the almonds. Swirl the pan until the butter smells nutty and the almonds turn gold. Take off the heat at once and stir in the lemon juice, which will foam, and the parsley.\n\nSpoon over the fish and serve with boiled potatoes and green beans. Ask the fishmonger to pin-bone the fillets, which saves you picking out the small bones afterwards.',
-    ing: [
-      '2 trout fillets, about 300 g',
-      '1 tbsp plain flour',
-      '1 tbsp vegetable oil',
-      '40 g butter',
-      '30 g flaked almonds',
-      '1 tbsp lemon juice',
-      '10 g flat-leaf parsley, chopped',
-      '1/2 tsp salt',
-      '1/2 tsp black pepper'
-    ],
-    st: [
-      'Pat the trout dry, season and dust lightly with the flour.',
-      'Fry skin-side down in the oil for 3 minutes, turn for 1 minute and lift onto warm plates. Wipe the pan.',
-      'Melt the butter with the almonds over a medium heat for 2 minutes, swirling, until nutty and gold.',
-      'Take off the heat, stir in the lemon juice and parsley and spoon over the fish.'
-    ],
-    tips: [
-      'Dry the fish well.',
-      'Wipe the pan before making the butter.',
-      'Take the butter off the heat the moment it smells nutty.',
-      'Serve straight away.'
-    ],
-    pair: ['Boiled new potatoes', 'Green beans', 'Steamed asparagus', 'Lemon wedges'],
-    store: 'Best eaten straight away. Keeps in the fridge for 1 day.',
-    nut: [510, 34, 8, 38, 2, 1, 670]
-  },
 
   'tuna-fishcakes': {
     d: 'Tinned tuna mixed with mashed potato, spring onions and parsley, coated in breadcrumbs and shallow-fried.',

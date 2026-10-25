@@ -837,40 +837,6 @@ module.exports = {
     nut: [547, 41, 53, 19, 3, 26, 1010]
   },
 
-  'rack-of-lamb': {
-    d: 'A French-trimmed rack of lamb seared, coated in a herb and mustard crust and roasted for 20 minutes until pink and tender.',
-    meta: 'Rack of lamb with a mustard and herb crust, roasted for 20 minutes. Four servings, ready in 45 minutes.',
-    kw: ['rack of lamb', 'herb crusted rack of lamb', 'roast rack of lamb', 'mustard crusted lamb', 'french trimmed lamb rack'],
-    why: 'Keep it short. A rack of lamb is a small, tender joint that is overcooked within minutes of passing its best, so the whole recipe revolves around timing. Twenty minutes in a hot oven, after a quick sear, leaves the centre pink and the fat crisp.\n\nAsk the butcher for a French-trimmed rack with the bones cleaned. Two racks of 8 bones each serve four. Score the fat in a diamond pattern with a knife, season with salt and pepper, and sear fat side down in a hot pan for 3 minutes until golden. The browning adds flavour that roasting alone cannot.\n\n**Brush the seared fat with mustard before the crumbs go on.** The Dijon acts as a glue for the herb crust, and its sharpness cuts through the richness of the meat. Mix breadcrumbs with parsley, rosemary, thyme and garlic, and press them on firmly.\n\nRoast at 200C for 18 to 22 minutes, until a thermometer reads 54C for medium-rare. Rest for 10 minutes under foil, then cut between the bones into cutlets. Cover the bare bone ends with foil during roasting so they do not char.',
-    ing: [
-      '800 g rack of lamb, French trimmed, 2 racks of 8 bones',
-      '1 tsp salt',
-      '1/2 tsp black pepper',
-      '1 tbsp olive oil',
-      '2 tbsp Dijon mustard',
-      '60 g fresh breadcrumbs',
-      '2 tbsp parsley, chopped',
-      '1 tbsp fresh rosemary, chopped',
-      '1 tbsp fresh thyme leaves',
-      '2 garlic cloves, crushed',
-      '20 g butter, melted'
-    ],
-    st: [
-      'Heat the oven to 200C. Score the lamb fat, season with the salt and pepper. Sear fat side down in the oil in a hot pan for 3 minutes, then for 1 minute on the other sides.',
-      'Mix the breadcrumbs, parsley, rosemary, thyme, garlic and melted butter.',
-      'Brush the fat side of each rack with the mustard and press on the crumb mixture. Wrap the bone ends in foil.',
-      'Roast on a tray for 20 minutes until a thermometer reads 54C for medium-rare.',
-      'Rest for 10 minutes under foil, then cut between the bones into cutlets.'
-    ],
-    tips: [
-      'Use a thermometer for the right doneness.',
-      'Press the crust on firmly.',
-      'Rest the lamb for 10 minutes.'
-    ],
-    pair: ['Dauphinoise potatoes', 'Green beans', 'Mint sauce', 'Roast garlic'],
-    store: 'Best eaten fresh. Leftovers keep for 2 days in the fridge.',
-    nut: [727, 37, 12, 59, 1, 1, 970]
-  },
 
   'rainbow-trout': {
     d: 'Trout fillets pan fried skin side down for 4 minutes in butter and finished with lemon and almonds in a total of 10 minutes.',

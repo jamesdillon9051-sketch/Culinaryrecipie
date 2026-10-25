@@ -121,7 +121,6 @@ module.exports = [
   c('frozen-banana-pops', 'Frozen Banana Pops', 'American', 'Desserts', 'Easy', 10, 0, 6, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'frozen banana pops'),
   c('vanilla-mug-cake', 'Vanilla Mug Cake', 'American', 'Desserts', 'Easy', 3, 2, 1, 0, 0, ['Vegetarian'], ['new'], 'vanilla mug cake'),
   c('fairy-cakes', 'Fairy Cakes', 'British', 'Baking', 'Easy', 15, 18, 12, 0, 0, ['Vegetarian'], ['new'], 'fairy cakes'),
-  c('chewy-oat-granola-bars', 'Chewy Oat Granola Bars', 'American', 'Baking', 'Easy', 10, 25, 12, 0, 0, ['Vegetarian'], ['new'], 'chewy oat granola bars'),
   c('pizza-muffins', 'Pizza Muffins', 'American', 'Lunch', 'Easy', 10, 20, 12, 0, 0, [], ['new'], 'pizza muffins'),
   c('pizza-pinwheels', 'Pizza Pinwheels', 'American', 'Appetizers', 'Easy', 15, 18, 12, 0, 0, [], ['new'], 'pizza pinwheels'),
   c('spinach-pinwheels', 'Spinach Pinwheels', 'American', 'Appetizers', 'Easy', 15, 20, 12, 0, 0, ['Vegetarian'], ['new'], 'spinach pinwheels'),

@@ -591,41 +591,4 @@ module.exports = {
     nut: [474, 26, 52, 18, 5, 5, 240]
   },
 
-  'fish-pie-with-cheddar-mash': {
-    d: 'Salmon, cod and prawns in a creamy parsley sauce, topped with cheddar mashed potato and baked until golden.',
-    meta: 'Fish pie with cheddar mash: salmon, cod and prawns in parsley sauce under cheddar mash. Six servings, baked for 40 minutes.',
-    kw: ['fish pie with cheddar mash', 'british fish pie', 'classic fish pie with cheesy mash', 'salmon cod and prawn fish pie', 'family fish pie with cheddar'],
-    why: 'Fish, sauce, potato: three layers, and the quality of each depends on how little you cook the one before. Fish that is fully cooked before it goes into the pie ends up dry after 40 minutes in the oven.\n\nPoach the cod and salmon in the milk for only 3 minutes, so that they are still raw in the middle, then lift them out and flake them. Use the same milk for the sauce, thickened with butter and flour, and finish it with parsley and a little lemon. Stir in the prawns raw. **Let the sauce cool a little before the potato goes on.** A hot sauce makes the mash sink.\n\nMake the mash with butter, milk and cheddar and spoon it over, then drag a fork across the top to make ridges that brown. Bake at 200°C for 40 minutes. If your oven runs hot, check at 30 minutes.\n\nRest for 10 minutes before serving.',
-    ing: [
-      '300 g cod fillet',
-      '300 g salmon fillet',
-      '500 ml whole milk',
-      '40 g butter',
-      '40 g plain flour',
-      '150 g raw peeled prawns',
-      '20 g flat-leaf parsley, chopped',
-      '1 tbsp lemon juice',
-      '1/2 tsp salt',
-      '1 kg potatoes, peeled and cut up',
-      '30 g butter, for the mash',
-      '60 ml whole milk, for the mash',
-      '100 g cheddar, grated'
-    ],
-    st: [
-      'Heat the oven to 200°C. Poach the cod and salmon in the 500 ml of milk for 3 minutes. Lift out, flake and discard any skin. Strain the milk.',
-      'Melt the 40 g of butter, stir in the flour for 1 minute and whisk in the milk. Simmer for 5 minutes, then stir in the parsley, lemon juice and salt. Cool slightly.',
-      'Fold in the fish and raw prawns and tip into a pie dish.',
-      'Boil the potatoes for 15 minutes, drain and mash with the 30 g of butter, 60 ml of milk and two thirds of the cheddar.',
-      'Spoon the mash over the pie, rake with a fork and scatter over the rest of the cheese. Bake for 40 minutes until golden and bubbling.'
-    ],
-    tips: [
-      'Undercook the fish at the poaching stage.',
-      'Cool the sauce slightly.',
-      'If your oven runs hot, check at 30 minutes.',
-      'Rest it before serving.'
-    ],
-    pair: ['Peas', 'Green beans', 'Buttered carrots', 'Steamed broccoli'],
-    store: 'Keeps in the fridge for 2 days. Reheat covered until hot all the way through.',
-    nut: [525, 36, 39, 25, 4, 6, 450]
-  }
 };

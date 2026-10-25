@@ -1,56 +1,6 @@
 /** Japanese recipe details, volume three. See ../details2/italian.js for the schema. */
 
 module.exports = {
-  'katsu-curry': {
-    d: 'A breaded cutlet sliced over rice and flooded with Japanese curry sauce — thicker, sweeter and darker than an Indian curry, and closer to a gravy. The most ordered dish in Japanese restaurants outside Japan.',
-    meta: 'Katsu curry — panko-crumbed cutlet over rice with thick, dark Japanese curry sauce made from a scratch roux.',
-    kw: ['katsu curry recipe', 'japanese curry', 'chicken katsu curry', 'kare raisu'],
-    why: 'Japanese curry gets its body from a browned flour-and-butter roux rather than from reduction, which is why it coats rice like gravy instead of running off. Cooking that roux to the colour of peanut butter before the curry powder goes in removes the raw flour taste that shop-bought blocks disguise with sugar.',
-    ing: [
-      '# For the curry sauce',
-      '50 g unsalted butter',
-      '50 g plain flour',
-      '2 tbsp mild curry powder',
-      '1 tbsp garam masala',
-      '2 onions, finely sliced',
-      '2 carrots, cut into chunks',
-      '2 potatoes, cut into chunks',
-      '900 ml chicken stock',
-      '1 tbsp tomato purée',
-      '1 tbsp soy sauce',
-      '1 tbsp honey',
-      '1 apple, grated',
-      '1½ tsp fine sea salt',
-      '# For the katsu',
-      '4 chicken breasts, butterflied and beaten to 1.5 cm',
-      '80 g plain flour',
-      '2 eggs, beaten',
-      '150 g panko breadcrumbs',
-      '800 ml neutral oil, for frying',
-      '# To serve',
-      'Steamed short-grain rice',
-      'Fukujinzuke pickles'
-    ],
-    st: [
-      'Fry the onions in a little oil over medium heat for 15 minutes until soft and golden. Add the carrots and potatoes and the stock, and simmer 20 minutes until tender.',
-      'Meanwhile make the roux: melt the butter, whisk in the flour, and cook over medium-low heat for 8 to 10 minutes, stirring, until it turns the colour of peanut butter.',
-      'Add the curry powder and garam masala to the roux and cook 60 seconds until fragrant.',
-      'Ladle the hot stock from the vegetable pan into the roux a little at a time, whisking each addition smooth before the next.',
-      'Pour the loosened roux back into the vegetables, add the tomato purée, soy, honey, grated apple and salt, and simmer 15 minutes until thick and glossy.',
-      'Season the flour, and dredge each cutlet in flour, then egg, then panko, pressing firmly.',
-      'Heat the oil to 175°C / 345°F and fry the cutlets 3 to 4 minutes a side until deep golden and cooked through.',
-      'Drain on a rack for 2 minutes, then slice across into 2 cm strips.',
-      'Mound rice on each plate, lay the sliced katsu alongside, and ladle the curry over. Serve with pickles.'
-    ],
-    tips: [
-      'Cook the roux to peanut-butter brown. Pale roux tastes of raw flour and no amount of curry powder hides it.',
-      'The grated apple is standard in Japan and does more for the balance than extra sugar would.',
-      'Rest the fried cutlet on a rack before slicing so the crumb stays crisp under the sauce.'
-    ],
-    pair: ['Fukujinzuke or rakkyo pickles', 'A cold Japanese lager', 'Miso soup'],
-    store: 'The sauce keeps 4 days refrigerated and freezes 3 months. Fry the katsu fresh.',
-    nut: [812, 48, 88, 32, 6, 14, 1620]
-  },
 
   'miso-ramen': {
     d: 'Sapporo-style ramen: a miso tare whisked into rich pork or chicken broth, stir-fried pork and vegetables piled on top, and a slick of aromatic oil sealing in the heat.',

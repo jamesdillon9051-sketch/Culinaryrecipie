@@ -144,6 +144,231 @@
       "source": "/recipes/sloppy-joe-mix/",
       "destination": "/recipes/sloppy-joes/",
       "permanent": true
+    },
+    {
+      "source": "/recipes/fish-goujons/",
+      "destination": "/recipes/homemade-fish-sticks/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/spaghetti-al-limone/",
+      "destination": "/recipes/pasta-al-limone/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/spring-onion-pancakes/",
+      "destination": "/recipes/scallion-pancakes/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/air-fryer-baked-potato/",
+      "destination": "/recipes/air-fryer-jacket-potato/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/slow-cooker-macaroni-and-cheese/",
+      "destination": "/recipes/slow-cooker-mac-and-cheese/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/katsu-curry/",
+      "destination": "/recipes/chicken-katsu-curry/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/devilled-eggs/",
+      "destination": "/recipes/deviled-eggs/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/tajarin-al-tartufo/",
+      "destination": "/recipes/tagliolini-al-tartufo/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/one-pan-chicken-and-rice/",
+      "destination": "/recipes/one-pot-chicken-and-rice/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/beetroot-burger/",
+      "destination": "/recipes/beet-burgers/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/slow-cooker-chilli-con-carne/",
+      "destination": "/recipes/slow-cooker-chili/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/kumara-fries/",
+      "destination": "/recipes/sweet-potato-fries/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/sweet-potato-gnocchi/",
+      "destination": "/recipes/kumara-gnocchi/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/fruit-loaf/",
+      "destination": "/recipes/tea-loaf/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/honey-mustard-sausages/",
+      "destination": "/recipes/cocktail-sausages/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/new-zealand-anzac-biscuits/",
+      "destination": "/recipes/anzac-biscuits/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/chicken-francoise/",
+      "destination": "/recipes/chicken-francese/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/shepherds-pie-with-cheesy-mash/",
+      "destination": "/recipes/shepherds-pie/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/collard-greens-with-ham-hock/",
+      "destination": "/recipes/collard-greens/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/potato-gratin/",
+      "destination": "/recipes/gratin-dauphinois/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/3-ingredient-cookies/",
+      "destination": "/recipes/three-ingredient-peanut-butter-cookies/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/trout-with-almonds/",
+      "destination": "/recipes/trout-almondine/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/carbonade-flamande/",
+      "destination": "/recipes/carbonnade-flamande/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/toffee-popcorn/",
+      "destination": "/recipes/caramel-popcorn/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/beef-pot-roast-with-gravy/",
+      "destination": "/recipes/pot-roast/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/slow-cooked-lamb-shoulder/",
+      "destination": "/recipes/roast-lamb-shoulder/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/rack-of-lamb/",
+      "destination": "/recipes/herb-crusted-rack-of-lamb/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/no-bake-energy-bites/",
+      "destination": "/recipes/energy-balls/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/peanut-butter-energy-bites/",
+      "destination": "/recipes/energy-balls/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/breakfast-cookies/",
+      "destination": "/recipes/banana-oat-breakfast-cookies/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/new-zealand-boil-up/",
+      "destination": "/recipes/boil-up/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/roasted-beet-salad-with-goat-cheese/",
+      "destination": "/recipes/beetroot-and-goat-cheese-salad/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/banana-toast/",
+      "destination": "/recipes/peanut-butter-banana-toast/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/fruit-salad-with-honey-lime/",
+      "destination": "/recipes/fruit-salad/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/fish-pie-with-cheddar-mash/",
+      "destination": "/recipes/fish-pie/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/fish-and-chips-with-mushy-peas/",
+      "destination": "/recipes/fish-and-chips/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/chewy-oat-granola-bars/",
+      "destination": "/recipes/homemade-granola-bars/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/onion-turkey-burgers/",
+      "destination": "/recipes/turkey-burgers/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/loaded-baked-potatoes/",
+      "destination": "/recipes/loaded-baked-potato/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/irish-potato-cakes/",
+      "destination": "/recipes/leftover-mashed-potato-cakes/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/zucchini-bake/",
+      "destination": "/recipes/zucchini-slice/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/shortbread-fingers/",
+      "destination": "/recipes/shortbread/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/shortbread-stars/",
+      "destination": "/recipes/shortbread/",
+      "permanent": true
+    },
+    {
+      "source": "/recipes/shortbread-cookies/",
+      "destination": "/recipes/shortbread/",
+      "permanent": true
+    },
+    {
+      "source": "/categories/appetizers/new-zealand/",
+      "destination": "/cuisines/new-zealand/",
+      "permanent": true
     }
   ]
 }

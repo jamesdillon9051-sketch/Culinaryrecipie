@@ -351,39 +351,6 @@ module.exports = {
     nut: [451, 16, 36, 27, 1, 6, 1040]
   },
 
-  'chicken-francoise': {
-    d: 'Thin chicken cutlets dipped in egg and Parmesan, pan-fried until golden and finished in a lemon and white wine sauce.',
-    meta: 'Chicken Françoise: thin chicken cutlets dipped in egg and Parmesan, pan-fried and finished in a lemon and white wine sauce. Four servings, cooked for 25 minutes.',
-    kw: ['chicken francoise', 'chicken françoise', 'chicken francaise recipe', 'egg battered chicken in lemon wine sauce', 'chicken in lemon butter sauce'],
-    why: 'Chicken, egg, lemon, wine: this dish is built from four plain things that become more than the sum of their parts. The cutlets are dipped in flour and egg, which makes a thin, soft coating that crisps lightly in the pan and then soaks up the sauce, so it is more like a tender omelette wrapper than a crust.\n\nSlice the chicken breasts in half horizontally, then pound them to an even thickness of about 1 cm. That way they cook in minutes and stay juicy. Coat in flour, then in beaten egg mixed with Parmesan, and fry in oil over medium heat. The coating should turn pale gold, not brown, for about 3 minutes a side.\n\n**Make the sauce in the same pan**, scraping up any browned bits. Wine, stock and lemon juice go in and reduce, then butter whisked in at the end gives the sauce a gloss and a rounder flavour. Return the chicken to the pan for a minute to soak up the sauce. Serve with pasta, rice or green beans.',
-    ing: [
-      '600 g chicken breast, sliced into 4 thin cutlets',
-      '40 g plain flour',
-      '2 eggs, beaten',
-      '30 g Parmesan, finely grated',
-      '3 tbsp vegetable oil',
-      '30 g butter',
-      '120 ml dry white wine',
-      '120 ml chicken stock',
-      '3 tbsp lemon juice',
-      '2 tbsp chopped fresh parsley',
-      '1/2 tsp salt'
-    ],
-    st: [
-      'Pound the cutlets to 1 cm thick and season with the salt. Mix the eggs with the Parmesan. Dredge the chicken in the flour, then dip in the egg.',
-      'Heat the oil in a large frying pan over medium heat and fry the cutlets for 3 minutes on each side until pale golden. Lift onto a plate.',
-      'Pour the wine and stock into the pan and boil for 5 minutes, scraping up the browned bits. Add the lemon juice.',
-      'Whisk in the butter, return the chicken to the sauce for 1 minute and scatter with the parsley.'
-    ],
-    tips: [
-      'Pound the chicken evenly so it cooks through.',
-      'Keep the heat at medium so the coating stays pale.',
-      'Whisk the butter in off the heat.'
-    ],
-    pair: ['Linguine', 'Steamed rice', 'Green beans', 'Crusty bread'],
-    store: 'Best eaten straight away. Keeps in the fridge for 2 days.',
-    nut: [429, 41, 10, 25, 0, 1, 610]
-  },
 
   'chicken-vesuvio': {
     d: 'Bone-in chicken roasted with potato wedges, garlic, peas and white wine, with a lemony pan sauce.',

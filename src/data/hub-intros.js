@@ -1,0 +1,49 @@
+'use strict';
+/**
+ * A hand-written paragraph for the larger listing pages, shown under the heading and before the
+ * paragraphs src/lib/hub-guide.js works out from the recipes. Keyed by the page's path.
+ *
+ * The same rules as recipe prose (CLAUDE.md, section 4): written to the cook, British English,
+ * nothing about the writer, no history, dates or named people the recipes do not already carry,
+ * and no claim about what readers like. Say what is on the page and how to choose from it.
+ */
+module.exports = {
+  /* --- categories ------------------------------------------------------ */
+  'categories/breakfast/': 'Eggs, porridge, pancakes, bakes and cooked breakfasts from many countries. On a weekday, read the time on each card first: it is the whole job, waiting included, so you can see what fits before work. The slower dishes, such as yeasted buns and baked eggs for a crowd, are the ones to keep for a weekend morning.',
+  'categories/lunch/': 'Soups, wraps and boxed lunches you can make the night before sit here alongside the sandwiches. Before you make a batch for the week, check the storage note at the foot of each recipe. It says how many days the dish keeps in the fridge and whether it freezes.',
+  'categories/dinner/': 'This is the largest part of the site, with pies and stir-fries from every cuisine here as well. The time on each card runs from start to finish, marinating and resting included. For a weeknight, the time filter on the recipe directory narrows the list to what you can cook tonight; the long braises and roasts are for an afternoon at home.',
+  'categories/desserts/': 'Everything here is for the end of a meal, from ices and tarts to set and baked puddings. The time on each card includes chilling and setting, which is where most dessert plans come unstuck: a cheesecake or mousse that needs the fridge overnight belongs on the day before. Breads, biscuits and tray bakes that are not puddings sit under baking.',
+  'categories/appetizers/': 'Starters for a sit-down meal sit here too, alongside snacks for a party. Plenty of them can be made ahead, and the storage note on each recipe says how far. Anything fried is the exception: cook it just before people eat.',
+  'categories/drinks/': 'Coffee, tea, lassis, smoothies, cordials and cocktails. Measures are in millilitres first, so a jigger or a small measuring jug gives the balance the recipe intends. Syrups and cordials keep for the time their storage note gives, so one batch can cover a week.',
+  'categories/baking/': 'Baking rewards weighing rather than guessing, and every recipe here gives metric measures first; a digital scale will do more for your results than any other tool. Cakes, biscuits and tray bakes sit alongside the breads and pastry, and the times on the cards include proving and cooling where the method needs them.',
+  'categories/healthy/': 'Lean proteins, vegetables and lighter versions of everyday food make up this category. The label describes the cooking, not a health claim. Each recipe calculates its nutrition from its own ingredients and says how far to trust the figures, and its diet labels say whether they hold as written or only with a swap.',
+  'categories/quick-meals/': 'Every recipe in this category takes 30 minutes or less of preparation and cooking, and the build refuses one that does not. Read the method through once and get everything chopped and measured before the pan goes on. At this pace, stopping to chop halfway through is what turns a 20-minute dish into a 40-minute one.',
+  'categories/holiday-specials/': 'These are the dishes that come out once a year: roasts, festive bakes and puddings. Many can be partly made ahead, and the storage notes say how. Plan the day backwards from the recipe that needs the oven longest, and fit the rest around it.',
+
+  /* --- cuisines -------------------------------------------------------- */
+  'cuisines/american/': 'Casseroles, Southern dishes and the cooking of every region sit here alongside the diner food. American recipes often give cups; here the quantities are metric first, and where they convert, the unit switch on the recipe shows US measures.',
+  'cuisines/british/': 'Pies and pasties, steamed puddings, roast trimmings and the café classics are all here. Much of it is forgiving rather than exact, so the methods tell you what to look and listen for as well as how long to wait. Check the cues as much as the clock.',
+  'cuisines/italian/': 'Pasta, risotto, braises, pizza and the sweets of Italy’s regions. Most of it depends on a few good ingredients handled carefully, and the methods say where care matters most: the pasta water that finishes a sauce, the heat under a risotto, the rest a dough needs.',
+  'cuisines/indian/': 'Curries, dals, biryanis, breads and snacks from across India. Much of the flavour is built at the start, as spices bloom in hot fat and onions cook down slowly, so give those steps the time the method asks for. Whole and ground spices are usually listed separately because they go in at different moments.',
+  'cuisines/french/': 'Braises, tarts, gratins, sauces and patisserie. French cooking is technique-led, and the methods explain the reason behind each step: why a custard stays below a boil, why butter goes into a sauce off the heat, why pastry rests cold.',
+  'cuisines/chinese/': 'Stir-fries, braises, dumplings, noodles and rice dishes. A stir-fry moves fast once the wok is hot, so cut and measure everything before you start, and keep the sauce mixed in a bowl beside the hob.',
+  'cuisines/mexican/': 'Tacos, enchiladas, moles, salsas, soups and drinks. Many recipes start with toasting dried chillies or charring tomatoes and onions, and those few minutes are where most of the flavour comes from. Watch the pan closely: a chilli that scorches turns bitter.',
+  'cuisines/middle-eastern/': 'Mezze, grills, rice dishes, stews and sweets from across the region. Plenty of the small plates keep for a day or two in the fridge, so a table of several dishes can be spread over the days before you serve them.',
+  'cuisines/japanese/': 'Noodles, rice bowls, curries, grilled and fried dishes, and sweets. Japanese recipes lean on a few seasonings (soy sauce, mirin, sake, dashi, miso) used in careful amounts, so measure them rather than pouring by eye.',
+  'cuisines/greek/': 'Pies, bakes, grills, salads and dips. Several of the bakes can be made the day before, and the storage notes say which reheat well.',
+  'cuisines/thai/': 'Curries, noodles, salads, soups and sweets. Thai cooking balances salt, sour, sweet and heat, so taste before serving and adjust with fish sauce, lime and sugar as the method suggests. Chilli heat varies a great deal from one batch to the next.',
+
+  /* --- ingredients ----------------------------------------------------- */
+  'ingredients/chicken/': 'Whole birds, breasts, thighs and wings behave differently, and each recipe names the cut it was written for. A probe thermometer takes the guessing out of when it is done, and many of the methods give the temperature to cook to.',
+  'ingredients/beef/': 'The cut decides the method: shin, chuck and brisket need long, gentle heat, while steaks and strips of sirloin want a short, fierce one. Each recipe names the cut it was written for, and the braises say what the meat should look like when it is ready.',
+  'ingredients/pork/': 'Lean cuts dry out quickly, so the methods give a temperature or a cue for when to stop; fatty cuts such as belly and shoulder take the opposite approach and want time. Sausages, bacon and ham turn up here too, in breakfasts, pasta and soups.',
+  'ingredients/lamb/': 'Shoulder and shanks want hours at a low heat until the meat pulls apart; cutlets, racks and leg can be served pink. Each recipe says which it is aiming for, and the curries and stews use the slow-cooking cuts.',
+  'ingredients/fish/': 'Fish cooks fast and keeps cooking off the heat, so the methods give a cue for when it is done: flakes that separate, flesh that has just turned opaque. Check the storage note before keeping leftovers, since cooked fish keeps for less time than most dishes.',
+  'ingredients/prawns/': 'Raw prawns cook in a few minutes and turn rubbery soon after, so add them near the end. The ingredient list says whether a recipe was written for raw or cooked prawns, and pasta and salads use them as well as curries and stir-fries.',
+  'ingredients/rice/': 'Fried rice, risotto, biryani, paella, pilaf, rice puddings and bowls. Each dish wants a particular rice (basmati, arborio, short-grain, long-grain), and the ingredient list names the kind, because swapping one for another changes how much liquid it takes and how it cooks.',
+  'ingredients/pasta/': 'Pasta dishes from quick weeknight sauces to baked dishes for a crowd. Salt the cooking water well and keep a cup of it back before draining: the starch in it is what brings many of these sauces together.',
+  'ingredients/potatoes/': 'Roasts, mash, chips, gratins, salads, soups and bakes. Floury potatoes fall apart into fluffy mash and crisp roast edges, while waxy ones hold their shape in salads and gratins; where it matters, the ingredient list says which kind to buy.',
+  'ingredients/eggs/': 'Eggs bind, raise and enrich far more of the site than the egg dishes themselves. Where a recipe serves eggs raw or only lightly cooked, the ingredient list asks for pasteurised eggs.',
+  'ingredients/noodles/': 'Stir-fried, soup and cold noodle dishes from across Asia. Wheat, rice, glass and buckwheat noodles all cook differently, and the method says how long to soak or boil each, and whether to rinse them.',
+  'ingredients/cabbage/': 'Slaws, stir-fries, soups, stuffed leaves, sauerkraut-style sides and braises. Raw cabbage stays crisp in a salad for a day or two, while long-cooked cabbage turns sweet; the recipes cover both, and the storage notes say how long each keeps.'
+};

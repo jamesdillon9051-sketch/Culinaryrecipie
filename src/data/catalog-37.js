@@ -115,7 +115,6 @@ module.exports = [
   c('lamb-burgers', 'Lamb Burgers', 'British', 'Dinner', 'Easy', 15, 12, 4, 0, 0, [], ['new'], 'lamb burgers'),
   c('pork-burgers', 'Pork Burgers', 'American', 'Dinner', 'Easy', 15, 12, 4, 0, 0, [], ['new'], 'pork burgers'),
   c('mushroom-burgers', 'Mushroom Burgers', 'American', 'Dinner', 'Easy', 10, 15, 4, 0, 0, ['Vegetarian'], ['new'], 'mushroom burgers'),
-  c('beetroot-burger', 'Beetroot Burger', 'Australian', 'Dinner', 'Easy', 15, 12, 4, 0, 0, ['Vegetarian'], ['new'], 'beetroot burger'),
   c('beef-and-guinness-pie', 'Beef and Guinness Pie', 'British', 'Dinner', 'Medium', 30, 150, 6, 0, 0, [], ['new'], 'beef and guinness pie'),
   c('party-pies', 'Party Pies', 'Australian', 'Appetizers', 'Medium', 40, 45, 12, 0, 0, [], ['new'], 'party pies'),
   c('steak-and-kidney-pie', 'Steak and Kidney Pie', 'British', 'Dinner', 'Medium', 30, 150, 6, 0, 0, [], ['new'], 'steak and kidney pie'),

@@ -12,40 +12,6 @@
  */
 
 module.exports = {
-  'onion-turkey-burgers': {
-    d: 'Lean turkey burgers with grated onion, smoked paprika and garlic, pan-cooked and served in small buns with lettuce, red onion and mustard. Four servings in 27 minutes.',
-    meta: 'Onion turkey burgers: extra-lean turkey with grated onion and smoked paprika, pan-cooked in small buns. Four servings in 27 minutes.',
-    kw: ['onion turkey burgers', 'easy turkey burgers for four', 'turkey burgers without added salt', 'onion turkey burgers recipe'],
-    why: 'Grate the onion. Do not chop it. Grated onion melts into the burger and keeps lean turkey moist, while chopped onion leaves crunchy pieces and gaps that crumble when the patty is turned. There are two spoonfuls of grated onion in every burger, and no salt in the mix at all.\n\nExtra-lean turkey breast mince is leaner than most, so it needs an egg white and a spoonful of oil to stay tender. **Mix gently, then chill**, because cold patties hold together and cook evenly. Shape four patties about 11 cm across. Make the centre slightly thinner than the edge, because patties swell as they cook and a thin centre keeps them level.\n\nSmoked paprika and garlic powder give the patty a barbecue note without any added salt. A small bun, red onion rings, lettuce and a thin spread of Dijon mustard finish the plate. The bun is the largest source of sodium here, which is why it is a small one. Eat the burger warm.',
-    ing: [
-      '440 g extra-lean ground turkey breast',
-      '100 g onion, grated',
-      '1 large egg white',
-      '1 tbsp olive oil',
-      '1 tsp smoked paprika',
-      '½ tsp garlic powder',
-      '¼ tsp black pepper',
-      '4 small burger buns, about 50 g each',
-      '60 g butter lettuce leaves',
-      '40 g red onion, in thin rings',
-      '2 tsp Dijon mustard'
-    ],
-    st: [
-      'Mix the turkey, grated onion, egg white, half the oil, paprika, garlic powder and pepper in a bowl until just combined.',
-      'Shape into 4 patties about 11 cm across, pressing the centres a little thinner. Chill for 10 minutes.',
-      'Heat the remaining oil in a large non-stick frying pan over medium heat. Cook the patties for 6 minutes a side, until browned and the centres reach 74°C.',
-      'Toast the buns in the pan for 30 seconds. Spread with the mustard and fill with the lettuce, patties and red onion rings.'
-    ],
-    tips: [
-      'Wet your hands before shaping so that the mince does not stick to them.',
-      'Turn the patties once only; handling them too much breaks the surface.',
-      'If the burgers look pale, give them a minute more per side rather than raising the heat.'
-    ],
-    pair: ['A cucumber salad', 'Shredded cabbage with lime', 'Fresh pineapple'],
-    store: 'Cooked patties keep in the fridge for up to 3 days. Raw patties can be frozen for up to 2 months.',
-    nut: [320, 33, 29, 8, 2, 5, 380],
-    kp: [490, 300],
-  },
 
   'turkey-and-noodles': {
     d: 'Extra-lean turkey, carrot and onion simmered in a thyme broth with flat rice noodles that cook in the pan, lightly thickened with cornflour. Four servings in 35 minutes.',

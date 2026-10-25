@@ -416,37 +416,6 @@ module.exports = {
     nut: [535, 17, 74, 19, 5, 7, 760]
   },
 
-  'zucchini-bake': {
-    d: 'Sliced zucchini layered with bacon, onion, eggs and cheese and baked until set. Four servings in 55 minutes.',
-    meta: 'Zucchini bake: sliced zucchini baked with bacon, onion, egg and cheese until set. A cheap Australian-style supper for four in 55 minutes.',
-    kw: ['zucchini bake', 'zucchini slice bake', 'budget zucchini dinner', 'easy zucchini and bacon bake', 'cheap egg bake'],
-    why: 'A zucchini bake is a way of using up a garden glut, and it works with whatever is in the fridge. Grated or sliced zucchini, a handful of bacon, some cheese and a few eggs are the basis.\n\nThe filling must be dry. Salt the zucchini, leave it for 10 minutes and squeeze out the liquid, or the bake turns watery and will not slice.\n\nBacon and onion go in cooked. They add flavour, and raw bacon would leave a pool of fat in the dish.\n\n**Bake it until the centre is firm to the touch.** A knife should come out clean. Jiggly in the middle means it needs another 5 minutes. It is good hot, warm or cold, which makes it useful for lunch boxes the next day. The bake can be cut into squares and packed into lunch boxes, where it keeps well at room temperature for the morning. Replace the bacon with chopped mushrooms or extra cheese for a meat-free version.',
-    ing: [
-      '700 g zucchini, coarsely grated',
-      '1 tsp salt',
-      '150 g bacon, chopped',
-      '1 onion, finely chopped',
-      '1 tbsp vegetable oil',
-      '6 eggs',
-      '100 g self-raising flour',
-      '150 g grated cheddar',
-      '1/2 tsp black pepper'
-    ],
-    st: [
-      'Heat the oven to 180°C (160°C fan) and grease a 23 cm square dish. Toss the zucchini with half the salt, leave for 10 minutes and squeeze out the liquid in a tea towel.',
-      'Fry the bacon in the oil for 5 minutes. Add the onion and cook for 4 minutes. Cool for 5 minutes.',
-      'Whisk the eggs in a large bowl. Stir in the flour, cheese, pepper and remaining salt, then fold in the zucchini, bacon and onion.',
-      'Pour into the dish and bake for 35 minutes until golden and firm in the middle. Rest for 10 minutes before cutting.'
-    ],
-    tips: [
-      'Squeeze the zucchini very dry for a bake that slices cleanly.',
-      'Cool the bacon mixture before adding it to the eggs.',
-      'A knife in the centre should come out clean.'
-    ],
-    pair: ['Green salad', 'Tomato relish', 'Crusty bread', 'Coleslaw'],
-    store: 'Keeps in the fridge for up to 3 days. Serve cold or reheat at 160°C for 15 minutes. Slices freeze for up to 2 months.',
-    nut: [484, 30, 28, 28, 3, 6, 1500]
-  },
 
   'marrow-bake': {
     d: 'Marrow rings baked in a tomato and onion sauce under a crisp cheese and breadcrumb topping. Four servings in 1 hour 10 minutes.',
