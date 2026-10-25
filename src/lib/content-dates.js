@@ -131,7 +131,10 @@ function publishedRegister(today = new Date().toISOString().slice(0, 10)) {
    boundary; the full HTML audit separately validates the output. */
 function pageContent(html) {
   const main = (/<main\b[^>]*>([\s\S]*?)<\/main>/i.exec(html) || [])[1] || '';
-  const content = main.replace(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>/gi, '');
+  const content = main.replace(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>/gi, '')
+    /* The directory link is shared navigation even when it sits in main.
+       Its site-wide counter is not a change to this collection's contents. */
+    .replace(/(<a\b[^>]*\bhref="[^"]*\/recipes\/"[^>]*>)All\s+[\d,]+\s+recipes(?=<\/a>)/gi, '$1All recipes');
   const links = [...content.matchAll(/<a\b[^>]*\bhref="([^"]*)"/gi)].map(m => m[1]);
   const images = [...content.matchAll(/<img\b[^>]*\bsrc="([^"]*)"/gi)].map(m => m[1]);
   const text = content.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();

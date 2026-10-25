@@ -33,5 +33,12 @@ try {
   dates = register('2026-10-21', file);
   assert.equal(dates.dateFor(recipeRoute, { recipeMarkup: 'single-jsonld-v1' }), '2026-10-20');
   assert.equal(dates.dateFor(route, payload, before), '2026-10-01');
-  console.log('  ✓ 10 modification-date cases passed');
+  const directory = '<main><h1>Japanese recipes: 86</h1><a href="/recipes/">All 5,455 recipes</a></main>';
+  assert.deepEqual(pageContent(directory), pageContent(directory.replace('5,455', '5,460')),
+    'Adding an unrelated recipe must not refresh this collection through the directory counter');
+  assert.notDeepEqual(pageContent(directory), pageContent(directory.replace('recipes: 86', 'recipes: 87')),
+    'This collection\'s own recipe count remains meaningful');
+  assert.notDeepEqual(pageContent(directory), pageContent(directory.replace('/recipes/', '/categories/')),
+    'Changing the navigation destination remains meaningful');
+  console.log('  ✓ 13 modification-date cases passed');
 } finally { fs.rmSync(tmp, { recursive: true, force: true }); }

@@ -1,0 +1,318 @@
+[
+  {
+    "url": "https://www.recipetineats.com/category/most-popular/page/13/",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.recipetineats.com/category/most-popular/page/14/",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.recipetineats.com/category/most-popular/page/15/",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.recipetineats.com/category/most-popular/page/16/",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.recipetineats.com/category/most-popular/page/17/",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.recipetineats.com/category/most-popular/page/18/",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.recipetineats.com/category/most-popular/page/19/",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.recipetineats.com/category/most-popular/page/20/",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.recipetineats.com/category/most-popular/page/21/",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.recipetineats.com/category/most-popular/page/22/",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.recipetineats.com/category/most-popular/page/23/",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.recipetineats.com/category/most-popular/page/24/",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.recipetineats.com/category/most-popular/page/25/",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.recipetineats.com/category/most-popular/page/26/",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.recipetineats.com/category/most-popular/page/27/",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.recipetineats.com/category/most-popular/page/28/",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.recipetineats.com/category/most-popular/page/29/",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.recipetineats.com/category/most-popular/page/30/",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.bbcgoodfood.com/recipes/collection/chicken-breast-recipes",
+    "status": 200,
+    "bytes": 758666
+  },
+  {
+    "url": "https://www.bbcgoodfood.com/recipes/collection/chicken-thigh-recipes",
+    "status": 200,
+    "bytes": 767452
+  },
+  {
+    "url": "https://www.bbcgoodfood.com/recipes/collection/chicken-traybake-recipes",
+    "status": 200,
+    "bytes": 761622
+  },
+  {
+    "url": "https://www.bbcgoodfood.com/recipes/collection/easy-curry-recipes",
+    "status": 200,
+    "bytes": 752134
+  },
+  {
+    "url": "https://www.bbcgoodfood.com/recipes/collection/mince-recipes",
+    "status": 200,
+    "bytes": 746202
+  },
+  {
+    "url": "https://www.bbcgoodfood.com/recipes/collection/beef-recipes",
+    "status": 200,
+    "bytes": 743229
+  },
+  {
+    "url": "https://www.bbcgoodfood.com/recipes/collection/salmon-recipes",
+    "status": 200,
+    "bytes": 764799
+  },
+  {
+    "url": "https://www.bbcgoodfood.com/recipes/collection/potato-recipes",
+    "status": 200,
+    "bytes": 782266
+  },
+  {
+    "url": "https://www.bbcgoodfood.com/recipes/collection/rice-recipes",
+    "status": 200,
+    "bytes": 757166
+  },
+  {
+    "url": "https://www.bbcgoodfood.com/recipes/collection/one-pot-recipes",
+    "status": 200,
+    "bytes": 760193
+  },
+  {
+    "url": "https://www.bbcgoodfood.com/recipes/collection/slow-cooker-recipes",
+    "status": 200,
+    "bytes": 760330
+  },
+  {
+    "url": "https://www.bbcgoodfood.com/recipes/collection/air-fryer-recipes",
+    "status": 200,
+    "bytes": 778425
+  },
+  {
+    "url": "https://www.bbcgoodfood.com/recipes/collection/easy-cake-recipes",
+    "status": 200,
+    "bytes": 762624
+  },
+  {
+    "url": "https://www.bbcgoodfood.com/recipes/collection/muffin-recipes",
+    "status": 200,
+    "bytes": 751487
+  },
+  {
+    "url": "https://www.bbcgoodfood.com/recipes/collection/biscuit-recipes",
+    "status": 200,
+    "bytes": 765225
+  },
+  {
+    "url": "https://www.bbcgoodfood.com/recipes/collection/traybake-recipes",
+    "status": 200,
+    "bytes": 758954
+  },
+  {
+    "url": "https://www.bbcgoodfood.com/recipes/collection/cookie-recipes",
+    "status": 200,
+    "bytes": 745290
+  },
+  {
+    "url": "https://www.bbcgoodfood.com/recipes/collection/pancake-recipes",
+    "status": 200,
+    "bytes": 781803
+  },
+  {
+    "url": "https://www.bbcgoodfood.com/recipes/collection/pudding-recipes",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.bbcgoodfood.com/recipes/collection/dessert-recipes",
+    "status": 200,
+    "bytes": 753784
+  },
+  {
+    "url": "https://www.chelsea.co.nz/recipes?category=Christmas",
+    "status": 200,
+    "bytes": 468234
+  },
+  {
+    "url": "https://www.chelsea.co.nz/recipes?category=Easter",
+    "status": 200,
+    "bytes": 441361
+  },
+  {
+    "url": "https://www.chelsea.co.nz/recipes?category=Winter",
+    "status": 200,
+    "bytes": 473977
+  },
+  {
+    "url": "https://www.chelsea.co.nz/recipes?category=Summer",
+    "status": 200,
+    "bytes": 457060
+  },
+  {
+    "url": "https://www.chelsea.co.nz/recipes?category=Birthday",
+    "status": 200,
+    "bytes": 453234
+  },
+  {
+    "url": "https://www.chelsea.co.nz/recipes?category=Gluten%20Free",
+    "status": 200,
+    "bytes": 440232
+  },
+  {
+    "url": "https://www.chelsea.co.nz/recipes?category=Kids",
+    "status": 200,
+    "bytes": 328811
+  },
+  {
+    "url": "https://www.chelsea.co.nz/recipes?category=Fudge",
+    "status": 200,
+    "bytes": 265162
+  },
+  {
+    "url": "https://www.canadianliving.com/recipes?page=30",
+    "status": 200,
+    "bytes": 174688
+  },
+  {
+    "url": "https://www.spendwithpennies.com/category/recipes/page/11/",
+    "status": 200,
+    "bytes": 433156
+  },
+  {
+    "url": "https://www.spendwithpennies.com/category/recipes/page/12/",
+    "status": 200,
+    "bytes": 430082
+  },
+  {
+    "url": "https://www.spendwithpennies.com/category/recipes/page/13/",
+    "status": 200,
+    "bytes": 432332
+  },
+  {
+    "url": "https://www.spendwithpennies.com/category/recipes/page/14/",
+    "status": 200,
+    "bytes": 433626
+  },
+  {
+    "url": "https://www.spendwithpennies.com/category/recipes/page/15/",
+    "status": 200,
+    "bytes": 429521
+  },
+  {
+    "url": "https://www.spendwithpennies.com/category/recipes/page/16/",
+    "status": 200,
+    "bytes": 429911
+  },
+  {
+    "url": "https://www.spendwithpennies.com/category/recipes/page/17/",
+    "status": 200,
+    "bytes": 432382
+  },
+  {
+    "url": "https://www.spendwithpennies.com/category/recipes/page/18/",
+    "status": 200,
+    "bytes": 430837
+  },
+  {
+    "url": "https://www.spendwithpennies.com/category/recipes/page/19/",
+    "status": 200,
+    "bytes": 431714
+  },
+  {
+    "url": "https://www.spendwithpennies.com/category/recipes/page/20/",
+    "status": 200,
+    "bytes": 430941
+  },
+  {
+    "url": "https://www.spendwithpennies.com/category/recipes/page/21/",
+    "status": 200,
+    "bytes": 429093
+  },
+  {
+    "url": "https://www.spendwithpennies.com/category/recipes/page/22/",
+    "status": 200,
+    "bytes": 431480
+  },
+  {
+    "url": "https://www.spendwithpennies.com/category/recipes/page/23/",
+    "status": 200,
+    "bytes": 433156
+  },
+  {
+    "url": "https://www.spendwithpennies.com/category/recipes/page/24/",
+    "status": 200,
+    "bytes": 434559
+  },
+  {
+    "url": "https://www.spendwithpennies.com/category/recipes/page/25/",
+    "status": 200,
+    "bytes": 429410
+  },
+  {
+    "url": "https://www.spendwithpennies.com/category/recipes/page/26/",
+    "status": 200,
+    "bytes": 433948
+  },
+  {
+    "url": "https://www.spendwithpennies.com/category/recipes/page/27/",
+    "status": 200,
+    "bytes": 432134
+  },
+  {
+    "url": "https://www.spendwithpennies.com/category/recipes/page/28/",
+    "status": 200,
+    "bytes": 432482
+  },
+  {
+    "url": "https://www.spendwithpennies.com/category/recipes/page/29/",
+    "status": 200,
+    "bytes": 429547
+  },
+  {
+    "url": "https://www.spendwithpennies.com/category/recipes/page/30/",
+    "status": 200,
+    "bytes": 429485
+  }
+]

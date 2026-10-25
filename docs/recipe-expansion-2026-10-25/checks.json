@@ -1,0 +1,22 @@
+[
+  {
+    "name": "expansion-selftest",
+    "exit_code": 0,
+    "seconds": 0.04
+  },
+  {
+    "name": "checkpoint-build",
+    "exit_code": 0,
+    "seconds": 28.37
+  },
+  {
+    "name": "checkpoint-check",
+    "exit_code": 0,
+    "seconds": 263.03
+  },
+  {
+    "name": "checkpoint-ads",
+    "exit_code": 0,
+    "seconds": 0.25
+  }
+]

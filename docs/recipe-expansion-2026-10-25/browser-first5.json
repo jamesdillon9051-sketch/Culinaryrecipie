@@ -1,0 +1,72 @@
+[
+  {
+    "mode": "desktop",
+    "slug": "cowboy-pie",
+    "pass": true,
+    "totalTime": null,
+    "errors": []
+  },
+  {
+    "mode": "desktop",
+    "slug": "chocolate-concrete",
+    "pass": true,
+    "totalTime": null,
+    "errors": []
+  },
+  {
+    "mode": "desktop",
+    "slug": "cheese-herb-quick-bread",
+    "pass": true,
+    "totalTime": "PT1H20M",
+    "errors": []
+  },
+  {
+    "mode": "desktop",
+    "slug": "chicken-cobbler",
+    "pass": true,
+    "totalTime": "PT1H3M",
+    "errors": []
+  },
+  {
+    "mode": "desktop",
+    "slug": "hundreds-and-thousands-biscuits",
+    "pass": true,
+    "totalTime": null,
+    "errors": []
+  },
+  {
+    "mode": "mobile",
+    "slug": "cowboy-pie",
+    "pass": true,
+    "totalTime": null,
+    "errors": []
+  },
+  {
+    "mode": "mobile",
+    "slug": "chocolate-concrete",
+    "pass": true,
+    "totalTime": null,
+    "errors": []
+  },
+  {
+    "mode": "mobile",
+    "slug": "cheese-herb-quick-bread",
+    "pass": true,
+    "totalTime": "PT1H20M",
+    "errors": []
+  },
+  {
+    "mode": "mobile",
+    "slug": "chicken-cobbler",
+    "pass": true,
+    "totalTime": "PT1H3M",
+    "errors": []
+  },
+  {
+    "mode": "mobile",
+    "slug": "hundreds-and-thousands-biscuits",
+    "pass": true,
+    "totalTime": null,
+    "errors": []
+  }
+]

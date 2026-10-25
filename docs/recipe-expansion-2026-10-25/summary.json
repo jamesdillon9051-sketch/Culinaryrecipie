@@ -1,0 +1,30 @@
+{
+  "base_commit": "373f10a67f",
+  "target_additional_recipes": 500,
+  "existing_catalogue": 5455,
+  "source_references": 1674,
+  "unique_recipe_references": 1520,
+  "screen_counts": {
+    "same-dish-review-required": 442,
+    "unapproved-lead": 529,
+    "existing-dish-or-alias": 548,
+    "not-a-recipe-lead": 1
+  },
+  "research_leads_selected": 500,
+  "complete_new_recipe_records": 5,
+  "new_recipe_pages": 5,
+  "merged": false,
+  "deployed": false,
+  "search_volume_data_available": false,
+  "warning": "Research checkpoint only: no complete new recipe records or pages. Names and publisher presence do not prove novelty or country search demand.",
+  "proposed_target_market_counts": {
+    "Canada": 16,
+    "Australia": 58,
+    "New Zealand": 75,
+    "USA": 109,
+    "UK": 242
+  },
+  "market_assignment_verified": false,
+  "remaining_recipe_target": 495,
+  "review_recipe_count": 5460
+}

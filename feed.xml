@@ -3,10 +3,50 @@
   <channel>
     <title>Weekly Delight</title>
     <link>https://weeklydelight.com/</link>
-    <description>5455 well-known recipes from around the world, explained step by step</description>
+    <description>5460 well-known recipes from around the world, explained step by step</description>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 23 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://weeklydelight.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cowboy Pie</title>
+      <link>https://weeklydelight.com/recipes/cowboy-pie/</link>
+      <guid isPermaLink="true">https://weeklydelight.com/recipes/cowboy-pie/</guid>
+      <pubDate>Sun, 25 Oct 2026 10:29:05 GMT</pubDate>
+      <category>Dinner</category>
+      <description>Cowboy pie with pork sausages, baked beans and smoky barbecue sauce under mashed potato and cheddar. Includes the filling and topping method.</description>
+    </item>
+    <item>
+      <title>Chocolate Concrete</title>
+      <link>https://weeklydelight.com/recipes/chocolate-concrete/</link>
+      <guid isPermaLink="true">https://weeklydelight.com/recipes/chocolate-concrete/</guid>
+      <pubDate>Sun, 25 Oct 2026 10:29:04 GMT</pubDate>
+      <category>Baking</category>
+      <description>Chocolate concrete is a cocoa biscuit traybake with a firm crumb and a sugared top. Includes mixing, baking and cooling instructions for squares.</description>
+    </item>
+    <item>
+      <title>Cheese and Herb Quick Bread</title>
+      <link>https://weeklydelight.com/recipes/cheese-herb-quick-bread/</link>
+      <guid isPermaLink="true">https://weeklydelight.com/recipes/cheese-herb-quick-bread/</guid>
+      <pubDate>Sun, 25 Oct 2026 10:29:03 GMT</pubDate>
+      <category>Baking</category>
+      <description>Cheese and herb quick bread made with yoghurt, garlic and bicarbonate of soda. A savoury loaf with no yeast, including its cooling instructions.</description>
+    </item>
+    <item>
+      <title>Chicken Cobbler</title>
+      <link>https://weeklydelight.com/recipes/chicken-cobbler/</link>
+      <guid isPermaLink="true">https://weeklydelight.com/recipes/chicken-cobbler/</guid>
+      <pubDate>Sun, 25 Oct 2026 10:29:02 GMT</pubDate>
+      <category>Dinner</category>
+      <description>Chicken cobbler layers cooked chicken, broccoli and cheddar beneath a savoury biscuit topping. Includes baking cues and the required resting stage.</description>
+    </item>
+    <item>
+      <title>Hundreds and Thousands Biscuits</title>
+      <link>https://weeklydelight.com/recipes/hundreds-and-thousands-biscuits/</link>
+      <guid isPermaLink="true">https://weeklydelight.com/recipes/hundreds-and-thousands-biscuits/</guid>
+      <pubDate>Sun, 25 Oct 2026 10:29:01 GMT</pubDate>
+      <category>Baking</category>
+      <description>Hundreds and thousands biscuits with butter, rice flour and pink white-chocolate icing. Includes rolling, baking, cooling and decorating instructions.</description>
+    </item>
     <item>
       <title>Canneles</title>
       <link>https://weeklydelight.com/recipes/canneles/</link>
@@ -166,46 +206,6 @@
       <pubDate>Fri, 16 Oct 2026 10:37:04 GMT</pubDate>
       <category>Baking</category>
       <description>Tuiles aux amandes, thin curved almond biscuits, baked for 10 minutes. Twenty biscuits, ready in 25 minutes.</description>
-    </item>
-    <item>
-      <title>Nougat de Montelimar</title>
-      <link>https://weeklydelight.com/recipes/nougat-de-montelimar/</link>
-      <guid isPermaLink="true">https://weeklydelight.com/recipes/nougat-de-montelimar/</guid>
-      <pubDate>Fri, 16 Oct 2026 10:37:03 GMT</pubDate>
-      <category>Desserts</category>
-      <description>Nougat de Montélimar with honey, almonds and pistachios, cooked for 25 minutes. Twenty-four pieces, ready in 45 minutes plus overnight setting.</description>
-    </item>
-    <item>
-      <title>Tarte Bourdaloue</title>
-      <link>https://weeklydelight.com/recipes/tarte-bourdaloue/</link>
-      <guid isPermaLink="true">https://weeklydelight.com/recipes/tarte-bourdaloue/</guid>
-      <pubDate>Fri, 16 Oct 2026 10:37:02 GMT</pubDate>
-      <category>Desserts</category>
-      <description>Tarte Bourdaloue, pears set in almond cream in a pastry case, baked for 40 minutes. Eight servings, ready in 1 hour 30 minutes.</description>
-    </item>
-    <item>
-      <title>Poire Belle Helene</title>
-      <link>https://weeklydelight.com/recipes/poire-belle-helene/</link>
-      <guid isPermaLink="true">https://weeklydelight.com/recipes/poire-belle-helene/</guid>
-      <pubDate>Fri, 16 Oct 2026 10:37:01 GMT</pubDate>
-      <category>Desserts</category>
-      <description>Poire Belle Hélène, poached pears with ice cream and hot chocolate sauce, cooked for 25 minutes. Four servings, ready in 35 minutes, plus cooling.</description>
-    </item>
-    <item>
-      <title>Soupe Aux Choux</title>
-      <link>https://weeklydelight.com/recipes/soupe-aux-choux/</link>
-      <guid isPermaLink="true">https://weeklydelight.com/recipes/soupe-aux-choux/</guid>
-      <pubDate>Fri, 16 Oct 2026 10:37:00 GMT</pubDate>
-      <category>Dinner</category>
-      <description>Soupe aux choux, a hearty cabbage and bacon soup, cooked for 1 hour. Six servings, ready in 1 hour 15 minutes.</description>
-    </item>
-    <item>
-      <title>Salade de Gesiers</title>
-      <link>https://weeklydelight.com/recipes/salade-de-gesiers/</link>
-      <guid isPermaLink="true">https://weeklydelight.com/recipes/salade-de-gesiers/</guid>
-      <pubDate>Fri, 16 Oct 2026 10:36:59 GMT</pubDate>
-      <category>Lunch</category>
-      <description>Salade de gésiers, warm duck gizzard salad with bacon and a sharp dressing, cooked for 20 minutes. Four servings, ready in 40 minutes.</description>
     </item>
   </channel>
 </rss>

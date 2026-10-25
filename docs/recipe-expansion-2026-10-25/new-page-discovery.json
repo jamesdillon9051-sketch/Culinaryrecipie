@@ -1,0 +1,37 @@
+{
+  "intended_urls": 5815,
+  "reachable": 5815,
+  "orphans": 0,
+  "new_pages": [
+    {
+      "URL": "https://weeklydelight.com/recipes/cowboy-pie/",
+      "incoming_pages": 20,
+      "depth": 1,
+      "sitemap_occurrences": 1
+    },
+    {
+      "URL": "https://weeklydelight.com/recipes/chocolate-concrete/",
+      "incoming_pages": 18,
+      "depth": 1,
+      "sitemap_occurrences": 1
+    },
+    {
+      "URL": "https://weeklydelight.com/recipes/cheese-herb-quick-bread/",
+      "incoming_pages": 18,
+      "depth": 1,
+      "sitemap_occurrences": 1
+    },
+    {
+      "URL": "https://weeklydelight.com/recipes/chicken-cobbler/",
+      "incoming_pages": 18,
+      "depth": 1,
+      "sitemap_occurrences": 1
+    },
+    {
+      "URL": "https://weeklydelight.com/recipes/hundreds-and-thousands-biscuits/",
+      "incoming_pages": 17,
+      "depth": 2,
+      "sitemap_occurrences": 1
+    }
+  ]
+}
