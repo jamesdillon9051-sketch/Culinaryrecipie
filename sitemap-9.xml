@@ -142,9 +142,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/philly-chicken-sandwich/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/philly-chicken-sandwich.jpg</image:loc>
+      <image:title>Philly Chicken Sandwich</image:title>
+      <image:caption>Philly Chicken Sandwich</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/piri-piri-prawns/</loc>
@@ -2465,9 +2470,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cheesy-leek-bake/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cheesy-leek-bake.jpg</image:loc>
+      <image:title>Cheesy Leek Bake</image:title>
+      <image:caption>Cheesy Leek Bake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beetroot-risotto/</loc>
@@ -3963,9 +3973,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lebanese-garlic-potatoes/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lebanese-garlic-potatoes.jpg</image:loc>
+      <image:title>Lebanese Garlic Potatoes</image:title>
+      <image:caption>Lebanese Garlic Potatoes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/iranian-eggs-and-tomatoes/</loc>

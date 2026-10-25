@@ -3889,9 +3889,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/parmesan-crusted-chicken/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/parmesan-crusted-chicken.jpg</image:loc>
+      <image:title>Parmesan-Crusted Chicken</image:title>
+      <image:caption>Parmesan-Crusted Chicken</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/spinach-and-feta-stuffed-chicken-breast/</loc>

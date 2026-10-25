@@ -4167,9 +4167,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mars-bar-slice/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mars-bar-slice.jpg</image:loc>
+      <image:title>Mars Bar Slice</image:title>
+      <image:caption>Mars Bar Slice</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tim-tam-slice/</loc>
@@ -4184,9 +4189,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/paraoa-parai/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/paraoa-parai.jpg</image:loc>
+      <image:title>Pāraoa Parai</image:title>
+      <image:caption>Pāraoa Parai</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/blackberry-cobbler/</loc>
@@ -4533,9 +4543,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beef-and-noodles/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/beef-and-noodles.jpg</image:loc>
+      <image:title>Beef and Noodles</image:title>
+      <image:caption>Beef and Noodles</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/blackened-salmon/</loc>
@@ -5134,9 +5149,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/omelette-arnold-bennett/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/omelette-arnold-bennett.jpg</image:loc>
+      <image:title>Omelette Arnold Bennett</image:title>
+      <image:caption>Omelette Arnold Bennett</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/rough-puff-pastry/</loc>

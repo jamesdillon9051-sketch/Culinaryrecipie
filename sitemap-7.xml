@@ -400,9 +400,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cucumber-hummus-bites/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cucumber-hummus-bites.jpg</image:loc>
+      <image:title>Cucumber Hummus Bites</image:title>
+      <image:caption>Cucumber Hummus Bites</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/zucchini-roll-ups/</loc>

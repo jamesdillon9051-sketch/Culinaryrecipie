@@ -1718,9 +1718,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/5-ingredient-soup/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/5-ingredient-soup.jpg</image:loc>
+      <image:title>5 Ingredient Soup</image:title>
+      <image:caption>5 Ingredient Soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beef-meal-prep-bowls/</loc>
@@ -1736,9 +1741,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/freezer-chili/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/freezer-chili.jpg</image:loc>
+      <image:title>Freezer Chili</image:title>
+      <image:caption>Freezer Chili</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/freezer-curry/</loc>
@@ -3936,9 +3946,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dairy-free-mac-and-cheese/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/dairy-free-mac-and-cheese.jpg</image:loc>
+      <image:title>Dairy-Free Mac and Cheese</image:title>
+      <image:caption>Dairy-Free Mac and Cheese</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dairy-free-mashed-potatoes/</loc>
@@ -4096,9 +4111,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gluten-free-beer-battered-fish/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gluten-free-beer-battered-fish.jpg</image:loc>
+      <image:title>Gluten-Free Beer Battered Fish</image:title>
+      <image:caption>Gluten-Free Beer Battered Fish</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gluten-free-biscuits/</loc>
@@ -4220,9 +4240,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gluten-free-meatballs/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gluten-free-meatballs.jpg</image:loc>
+      <image:title>Gluten-Free Meatballs</image:title>
+      <image:caption>Gluten-Free Meatballs</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gluten-free-meatloaf/</loc>
@@ -4942,9 +4967,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/haricots-verts-amandine/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/haricots-verts-amandine.jpg</image:loc>
+      <image:title>Haricots Verts Amandine</image:title>
+      <image:caption>Haricots Verts Amandine</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tarte-aux-fraises/</loc>
