@@ -443,8 +443,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-5116 of the 5455 recipes have a photograph. Of the 5598 images on the site,
-1627 are CC0 or public domain, 1774 are CC BY and 1857 are CC BY-SA. Anything
+5120 of the 5455 recipes have a photograph. Of the 5602 images on the site,
+1628 are CC0 or public domain, 1776 are CC BY and 1858 are CC BY-SA. Anything
 still without one falls back to a CSS gradient carrying the recipe name, the
 same fallback that catches any image that fails to load at runtime.
 
