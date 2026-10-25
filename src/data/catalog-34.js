@@ -86,7 +86,6 @@ module.exports = [
   c('ginger-chicken-soup', 'Ginger Chicken Soup', 'Chinese', 'Lunch', 'Easy', 10, 35, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'ginger chicken soup'),
   c('chicken-fajita-rice-bowls', 'Chicken Fajita Rice Bowls', 'Mexican', 'Dinner', 'Easy', 15, 20, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'chicken fajita bowl'),
   c('apple-chicken-sausage', 'Apple Chicken Sausage', 'American', 'Breakfast', 'Easy', 15, 12, 6, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'chicken sausage patties'),
-  c('onion-turkey-burgers', 'Onion Turkey Burgers', 'American', 'Dinner', 'Easy', 15, 12, 4, 0, 0, [], ['new'], 'turkey burger'),
   c('turkey-and-noodles', 'Turkey and Noodles', 'American', 'Dinner', 'Easy', 10, 25, 4, 0, 0, ['Dairy-Free'], ['new'], 'turkey and noodles'),
   c('lemon-turkey-cutlets', 'Lemon Turkey Cutlets', 'Italian', 'Dinner', 'Easy', 10, 12, 4, 0, 0, [], ['new'], 'turkey cutlets'),
   c('turkey-rice-skillet', 'Turkey Rice Skillet', 'American', 'Dinner', 'Easy', 10, 30, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'turkey and rice skillet'),

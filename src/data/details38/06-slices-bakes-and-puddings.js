@@ -100,33 +100,6 @@ module.exports = {
     nut: [0, 0, 0, 0, 0, 0, 0]
   },
 
-  'shortbread-fingers': {
-    d: 'Butter, sugar and flour pressed into a tin and cooked for 25 minutes into crumbly, golden shortbread fingers. Sixteen servings in 40 minutes.',
-    meta: 'Shortbread fingers: butter, sugar and flour pressed into a tin and cooked for 25 minutes into crumbly, golden Scottish shortbread.',
-    kw: ['shortbread fingers', 'scottish shortbread fingers', 'easy shortbread fingers', 'classic shortbread', 'buttery shortbread'],
-    why: 'Shortbread is the proof that three ingredients can be enough. Butter does everything: it gives flavour, it makes the texture crumble, and it is the reason these keep so well.\n\nUse good butter, softened but not oily, and rub it into the flour and sugar with your fingertips until it looks like damp sand. Then press it together gently into a dough. **Handle it as little as you can**, since warm hands melt the butter and make the dough greasy.\n\nPress into a lined tin and prick all over with a fork. The holes let steam escape and stop the surface from puffing.\n\nCook at 160°C for 25 minutes. It should be pale gold, not brown. If your oven runs hot, check at 20 minutes. Cut into fingers while hot, then leave to cool in the tin. If you wait until cold it shatters. Rice flour or cornflour swapped for a quarter of the flour gives an even sandier bite.',
-    ing: [
-      '250 g plain flour',
-      '75 g caster sugar',
-      '175 g butter, softened',
-      '1 tbsp caster sugar, for sprinkling',
-      '1/4 tsp salt'
-    ],
-    st: [
-      'Heat the oven to 160°C and line a 20 cm square tin. Rub the butter into the flour, sugar and salt until crumbly, then press together into a dough.',
-      'Press the dough into the tin and prick all over with a fork.',
-      'Cook for 25 minutes until pale gold. Cut into 16 fingers while hot, sprinkle with the sugar and cool in the tin.'
-    ],
-    tips: [
-      'Handle the dough as little as possible.',
-      'Prick the surface.',
-      'If your oven runs hot, check at 20 minutes.',
-      'Cut it while still hot.'
-    ],
-    pair: ['Pot of tea', 'Coffee', 'Fresh strawberries', 'Whipped cream'],
-    store: 'Keeps in an airtight tin for up to 1 week.',
-    nut: [0, 0, 0, 0, 0, 0, 0]
-  },
 
   'apple-pie-with-custard': {
     d: 'A double-crust apple pie cooked for 50 minutes and served with a jug of homemade vanilla custard. Eight servings in 1 hour 30 minutes.',

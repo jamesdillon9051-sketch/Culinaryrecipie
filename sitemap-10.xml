@@ -2,83 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://weeklydelight.com/recipes/kala-chana/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/kala-chana.jpg</image:loc>
-      <image:title>Kala Chana</image:title>
-      <image:caption>Kala Chana</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/aloo-baingan/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/aloo-baingan.jpg</image:loc>
-      <image:title>Aloo Baingan</image:title>
-      <image:caption>Aloo Baingan</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/aloo-palak/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/aloo-palak.jpg</image:loc>
-      <image:title>Aloo Palak</image:title>
-      <image:caption>Aloo Palak</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/sev-puri/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/sev-puri.jpg</image:loc>
-      <image:title>Sev Puri</image:title>
-      <image:caption>Sev Puri</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/dahi-puri/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/dahi-puri.jpg</image:loc>
-      <image:title>Dahi Puri</image:title>
-      <image:caption>Dahi Puri</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/papdi-chaat/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/papdi-chaat.jpg</image:loc>
-      <image:title>Papdi Chaat</image:title>
-      <image:caption>Papdi Chaat</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/moong-dal-kachori/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/moong-dal-kachori.jpg</image:loc>
-      <image:title>Moong Dal Kachori</image:title>
-      <image:caption>Moong Dal Kachori</image:caption>
-    </image:image>
-  </url>
-  <url>
     <loc>https://weeklydelight.com/recipes/khandvi/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -3597,17 +3520,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://weeklydelight.com/recipes/collard-greens-with-ham-hock/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/collard-greens-with-ham-hock.jpg</image:loc>
-      <image:title>Collard Greens with Ham Hock</image:title>
-      <image:caption>Collard Greens with Ham Hock</image:caption>
-    </image:image>
-  </url>
-  <url>
     <loc>https://weeklydelight.com/recipes/southern-tomato-pie/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -4720,17 +4632,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://weeklydelight.com/recipes/chicken-francoise/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-francoise.jpg</image:loc>
-      <image:title>Chicken Françoise</image:title>
-      <image:caption>Chicken Françoise</image:caption>
-    </image:image>
-  </url>
-  <url>
     <loc>https://weeklydelight.com/recipes/chicken-vesuvio/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -4867,17 +4768,6 @@
       <image:loc>https://weeklydelight.com/assets/img/recipes/bacon-wrapped-scallops.jpg</image:loc>
       <image:title>Bacon Wrapped Scallops</image:title>
       <image:caption>Bacon Wrapped Scallops</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/air-fryer-baked-potato/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-baked-potato.jpg</image:loc>
-      <image:title>Air Fryer Baked Potato</image:title>
-      <image:caption>Air Fryer Baked Potato</image:caption>
     </image:image>
   </url>
   <url>
@@ -5137,6 +5027,83 @@
       <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-spring-rolls.jpg</image:loc>
       <image:title>Air Fryer Spring Rolls</image:title>
       <image:caption>Air Fryer Spring Rolls</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/air-fryer-stuffed-peppers/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-stuffed-peppers.jpg</image:loc>
+      <image:title>Air Fryer Stuffed Peppers</image:title>
+      <image:caption>Air Fryer Stuffed Peppers</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/air-fryer-tater-tots/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-tater-tots.jpg</image:loc>
+      <image:title>Air Fryer Tater Tots</image:title>
+      <image:caption>Air Fryer Tater Tots</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/air-fryer-turkey-breast/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-turkey-breast.jpg</image:loc>
+      <image:title>Air Fryer Turkey Breast</image:title>
+      <image:caption>Air Fryer Turkey Breast</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/air-fryer-zucchini-chips/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-zucchini-chips.jpg</image:loc>
+      <image:title>Air Fryer Zucchini Chips</image:title>
+      <image:caption>Air Fryer Zucchini Chips</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/instant-pot-baked-beans/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-baked-beans.jpg</image:loc>
+      <image:title>Instant Pot Baked Beans</image:title>
+      <image:caption>Instant Pot Baked Beans</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/instant-pot-beans-and-ham/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-beans-and-ham.jpg</image:loc>
+      <image:title>Instant Pot Beans and Ham</image:title>
+      <image:caption>Instant Pot Beans and Ham</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/instant-pot-beef-bourguignon/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-beef-bourguignon.jpg</image:loc>
+      <image:title>Instant Pot Beef Bourguignon</image:title>
+      <image:caption>Instant Pot Beef Bourguignon</image:caption>
     </image:image>
   </url>
 </urlset>

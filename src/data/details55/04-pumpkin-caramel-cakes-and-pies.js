@@ -503,35 +503,6 @@ module.exports = {
     nut: [493, 3, 64, 25, 1, 51, 280]
   },
 
-  'shortbread-cookies': {
-    d: 'Classic Scottish shortbread rounds made with butter, sugar and flour, cut with a cutter and baked for 15 minutes at 160C.',
-    meta: 'Shortbread cookies, buttery rounds from three ingredients, baked for 15 minutes. 24 cookies, ready in 1 hour.',
-    kw: ['shortbread cookies', 'classic scottish shortbread', 'butter shortbread rounds', 'cut out shortbread cookies', 'traditional shortbread recipe'],
-    why: 'Three ingredients and plenty of butter is all that shortbread has ever needed. The name describes the texture: short, in baking terms, means crumbly and tender, because fat has interfered with the gluten strands in the flour. The more butter and the less liquid, the shorter the biscuit, and shortbread has no liquid at all.\n\nA traditional proportion is one part sugar to two parts butter to three parts flour by weight, and it is very simple to remember. Use a high quality butter, because it makes up over a third of the biscuit and is the main flavour. Cornflour or rice flour, replacing a quarter of the plain flour, adds a sandy fineness. Use caster sugar, which dissolves in the butter and gives a smooth surface.\n\n**Do not overwork the dough.** Rub the butter into the dry ingredients and press it together into a ball. Kneading develops gluten and makes the shortbread tough and chewy, the opposite of the delicate, crumbling bite that is intended. Roll it out between baking paper to 1 cm thick and chill for 30 minutes.\n\nCut rounds with a 6 cm cutter, prick with a fork, and bake at 160C until just pale. Shortbread should not brown, only turn pale gold at the edges. Sprinkle with caster sugar while hot, and cool on the tray for 10 minutes.',
-    ing: [
-      '225 g cold butter, cubed',
-      '110 g caster sugar',
-      '225 g plain flour',
-      '110 g cornflour',
-      '1/4 tsp salt',
-      '2 tbsp caster sugar, for sprinkling'
-    ],
-    st: [
-      'Heat the oven to 160C and line 2 trays. Mix the flour, cornflour, 110 g sugar and salt.',
-      'Rub in the butter, then press together into a ball without kneading.',
-      'Roll out between baking paper to 1 cm thick. Chill for 30 minutes.',
-      'Cut 24 rounds with a 6 cm cutter and place on the trays. Prick each with a fork.',
-      'Bake for 15 minutes until pale gold at the edges. Sprinkle with the 2 tbsp sugar and cool on the trays for 10 minutes.'
-    ],
-    tips: [
-      'Do not knead the dough.',
-      'Bake until pale, not brown.',
-      'Sprinkle with sugar while hot.'
-    ],
-    pair: ['Hot tea', 'Coffee', 'Fresh berries', 'Cheddar'],
-    store: 'Keeps in an airtight tin for 2 weeks.',
-    nut: [144, 1, 17, 8, 0, 6, 30]
-  },
 
   'smores-cookies': {
     d: 'Graham cracker cookies with chocolate chunks and mini marshmallows, baked for 11 minutes until the marshmallows turn golden.',

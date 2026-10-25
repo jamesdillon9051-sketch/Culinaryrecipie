@@ -79,5 +79,225 @@
   "to": "sloppy-joes",
   "retired": "2026-10-23",
   "reason": "Same dish: beef mince browned undisturbed, simmered with onion, green pepper, tomato, sugar, Worcestershire and mustard, on soft buns. sloppy-joes was published first (5 September 2026)."
+ },
+ "fish-goujons": {
+  "to": "homemade-fish-sticks",
+  "retired": "2026-10-25",
+  "reason": "Same dish: breaded strips of white fish baked until crisp (goujons and fish sticks are the British and American names). homemade-fish-sticks was published first (7 October 2026)."
+ },
+ "spaghetti-al-limone": {
+  "to": "pasta-al-limone",
+  "retired": "2026-10-25",
+  "reason": "Same dish: spaghetti in a lemon, butter and parmesan sauce. pasta-al-limone was published first (13 October 2026)."
+ },
+ "spring-onion-pancakes": {
+  "to": "scallion-pancakes",
+  "retired": "2026-10-25",
+  "reason": "Same dish: Chinese flaky flatbreads rolled with spring onion and pan-fried. scallion-pancakes was published first (5 September 2026)."
+ },
+ "air-fryer-baked-potato": {
+  "to": "air-fryer-jacket-potato",
+  "retired": "2026-10-25",
+  "reason": "Same dish: whole oiled and salted potatoes cooked in the air fryer. air-fryer-jacket-potato was published first (8 October 2026)."
+ },
+ "slow-cooker-macaroni-and-cheese": {
+  "to": "slow-cooker-mac-and-cheese",
+  "retired": "2026-10-25",
+  "reason": "Same dish: macaroni, evaporated milk and cheese cooked together in the slow cooker. slow-cooker-mac-and-cheese was published first (8 October 2026)."
+ },
+ "katsu-curry": {
+  "to": "chicken-katsu-curry",
+  "retired": "2026-10-25",
+  "reason": "Same dish: a panko-crusted cutlet sliced over rice with Japanese curry sauce. chicken-katsu-curry was published first (5 September 2026)."
+ },
+ "devilled-eggs": {
+  "to": "deviled-eggs",
+  "retired": "2026-10-25",
+  "reason": "Same dish: halved hard-boiled eggs with a mayonnaise and mustard yolk filling (devilled is the British spelling). deviled-eggs was published first (5 September 2026)."
+ },
+ "tajarin-al-tartufo": {
+  "to": "tagliolini-al-tartufo",
+  "retired": "2026-10-25",
+  "reason": "Same dish: thin egg pasta in butter with shaved truffle (tajarin is the Piedmontese name for tagliolini). Both were published on 16 October 2026; tagliolini-al-tartufo carries the more widely used name."
+ },
+ "one-pan-chicken-and-rice": {
+  "to": "one-pot-chicken-and-rice",
+  "retired": "2026-10-25",
+  "reason": "Same dish: chicken thighs browned, then rice cooked in the same pan in stock and paprika. one-pot-chicken-and-rice was published first (28 September 2026)."
+ },
+ "beetroot-burger": {
+  "to": "beet-burgers",
+  "retired": "2026-10-25",
+  "reason": "Same dish: vegetarian burgers of grated beetroot. Both were published on 8 October 2026; beet-burgers is the better-linked page."
+ },
+ "slow-cooker-chilli-con-carne": {
+  "to": "slow-cooker-chili",
+  "retired": "2026-10-25",
+  "reason": "Same dish: beef mince, kidney beans and tomatoes cooked slowly in the slow cooker. slow-cooker-chili was published first (8 October 2026)."
+ },
+ "kumara-fries": {
+  "to": "sweet-potato-fries",
+  "retired": "2026-10-25",
+  "reason": "Same dish: sweet potato (kumara) sticks tossed in oil and cornflour and baked crisp. sweet-potato-fries was published first (29 September 2026)."
+ },
+ "sweet-potato-gnocchi": {
+  "to": "kumara-gnocchi",
+  "retired": "2026-10-25",
+  "reason": "Same dish: sweet potato (kumara) gnocchi in sage brown butter with parmesan. kumara-gnocchi was published first (29 September 2026)."
+ },
+ "fruit-loaf": {
+  "to": "tea-loaf",
+  "retired": "2026-10-25",
+  "reason": "Same dish: a loaf of dried fruit soaked in hot tea. tea-loaf was published first (8 October 2026)."
+ },
+ "honey-mustard-sausages": {
+  "to": "cocktail-sausages",
+  "retired": "2026-10-25",
+  "reason": "Same dish: cocktail sausages roasted in a honey and wholegrain mustard glaze. Both were published on 8 October 2026; cocktail-sausages carries the more widely used name."
+ },
+ "new-zealand-anzac-biscuits": {
+  "to": "anzac-biscuits",
+  "retired": "2026-10-25",
+  "reason": "Same dish: oat, coconut and golden syrup biscuits. anzac-biscuits was published first (5 September 2026)."
+ },
+ "chicken-francoise": {
+  "to": "chicken-francese",
+  "retired": "2026-10-25",
+  "reason": "Same dish: egg-dipped chicken cutlets in a lemon and white wine sauce (Françoise is the Rochester name for francese). chicken-francese was published first (7 October 2026)."
+ },
+ "shepherds-pie-with-cheesy-mash": {
+  "to": "shepherds-pie",
+  "retired": "2026-10-25",
+  "reason": "Same dish: lamb mince in gravy under mashed potato. shepherds-pie was published first (5 September 2026)."
+ },
+ "collard-greens-with-ham-hock": {
+  "to": "collard-greens",
+  "retired": "2026-10-25",
+  "reason": "Same dish: collard greens simmered with a smoked ham hock. collard-greens was published first (28 September 2026)."
+ },
+ "potato-gratin": {
+  "to": "gratin-dauphinois",
+  "retired": "2026-10-25",
+  "reason": "Same dish: thin potatoes baked in garlicky cream and milk, without cheese. gratin-dauphinois was published first (6 September 2026)."
+ },
+ "3-ingredient-cookies": {
+  "to": "three-ingredient-peanut-butter-cookies",
+  "retired": "2026-10-25",
+  "reason": "Same dish: cookies of peanut butter, sugar and an egg. three-ingredient-peanut-butter-cookies was published first (13 October 2026)."
+ },
+ "trout-with-almonds": {
+  "to": "trout-almondine",
+  "retired": "2026-10-25",
+  "reason": "Same dish: pan-fried trout with brown butter, toasted almonds and lemon. Both were published on 8 October 2026; trout-almondine carries the more widely used name."
+ },
+ "carbonade-flamande": {
+  "to": "carbonnade-flamande",
+  "retired": "2026-10-25",
+  "reason": "Same dish: Flemish beef braised in dark beer with mustard-spread bread (the same name spelt two ways). carbonnade-flamande was published first (5 September 2026)."
+ },
+ "toffee-popcorn": {
+  "to": "caramel-popcorn",
+  "retired": "2026-10-25",
+  "reason": "Same dish: popcorn coated in butter and brown sugar and baked crisp. caramel-popcorn was published first (8 October 2026)."
+ },
+ "beef-pot-roast-with-gravy": {
+  "to": "pot-roast",
+  "retired": "2026-10-25",
+  "reason": "Same dish: a chuck joint braised with carrots and potatoes. pot-roast was published first (10 September 2026)."
+ },
+ "slow-cooked-lamb-shoulder": {
+  "to": "roast-lamb-shoulder",
+  "retired": "2026-10-25",
+  "reason": "Same dish: a lamb shoulder roasted low with garlic and rosemary until it pulls apart. roast-lamb-shoulder was published first (28 September 2026)."
+ },
+ "rack-of-lamb": {
+  "to": "herb-crusted-rack-of-lamb",
+  "retired": "2026-10-25",
+  "reason": "Same dish: a rack of lamb seared and roasted under a herb and mustard crust. herb-crusted-rack-of-lamb was published first (30 September 2026)."
+ },
+ "no-bake-energy-bites": {
+  "to": "energy-balls",
+  "retired": "2026-10-25",
+  "reason": "Same dish: no-bake balls of oats, peanut butter, honey and chocolate chips. energy-balls was published first (30 September 2026)."
+ },
+ "peanut-butter-energy-bites": {
+  "to": "energy-balls",
+  "retired": "2026-10-25",
+  "reason": "Same dish: no-bake balls of oats, peanut butter, honey and chocolate chips. energy-balls was published first (30 September 2026)."
+ },
+ "breakfast-cookies": {
+  "to": "banana-oat-breakfast-cookies",
+  "retired": "2026-10-25",
+  "reason": "Same dish: soft oat and banana breakfast cookies. banana-oat-breakfast-cookies was published first (7 October 2026)."
+ },
+ "new-zealand-boil-up": {
+  "to": "boil-up",
+  "retired": "2026-10-25",
+  "reason": "Same dish: pork bones simmered with potatoes, kumara, greens and dumplings. boil-up was published first (29 September 2026)."
+ },
+ "roasted-beet-salad-with-goat-cheese": {
+  "to": "beetroot-and-goat-cheese-salad",
+  "retired": "2026-10-25",
+  "reason": "Same dish: roasted beetroot with goat cheese, rocket and walnuts. beetroot-and-goat-cheese-salad was published first (8 October 2026)."
+ },
+ "banana-toast": {
+  "to": "peanut-butter-banana-toast",
+  "retired": "2026-10-25",
+  "reason": "Same dish: toast with peanut butter, sliced banana and cinnamon. peanut-butter-banana-toast was published first (7 October 2026)."
+ },
+ "fruit-salad-with-honey-lime": {
+  "to": "fruit-salad",
+  "retired": "2026-10-25",
+  "reason": "Same dish: mixed fruit in a honey, lime and mint dressing. fruit-salad was published first (29 September 2026)."
+ },
+ "fish-pie-with-cheddar-mash": {
+  "to": "fish-pie",
+  "retired": "2026-10-25",
+  "reason": "Same dish: fish and prawns in a creamy sauce under mashed potato. fish-pie was published first (9 September 2026)."
+ },
+ "fish-and-chips-with-mushy-peas": {
+  "to": "fish-and-chips",
+  "retired": "2026-10-25",
+  "reason": "Same dish: battered fish with chips and mushy peas. fish-and-chips was published first (5 September 2026)."
+ },
+ "chewy-oat-granola-bars": {
+  "to": "homemade-granola-bars",
+  "retired": "2026-10-25",
+  "reason": "Same dish: baked chewy oat and honey bars. homemade-granola-bars was published first (30 September 2026)."
+ },
+ "onion-turkey-burgers": {
+  "to": "turkey-burgers",
+  "retired": "2026-10-25",
+  "reason": "Same dish: turkey patties with grated onion, pan-cooked and served in buns. turkey-burgers was published first (28 September 2026)."
+ },
+ "loaded-baked-potatoes": {
+  "to": "loaded-baked-potato",
+  "retired": "2026-10-25",
+  "reason": "Same dish: baked potatoes filled with cheese, bacon and soured cream. loaded-baked-potato was published first (10 September 2026)."
+ },
+ "irish-potato-cakes": {
+  "to": "leftover-mashed-potato-cakes",
+  "retired": "2026-10-25",
+  "reason": "Same dish: pan-fried cakes of cold mashed potato and flour. Both were published on 8 October 2026; leftover-mashed-potato-cakes is the better-linked page."
+ },
+ "zucchini-bake": {
+  "to": "zucchini-slice",
+  "retired": "2026-10-25",
+  "reason": "Same dish: zucchini, bacon, onion and cheese baked in an egg batter. zucchini-slice was published first (29 September 2026)."
+ },
+ "shortbread-fingers": {
+  "to": "shortbread",
+  "retired": "2026-10-25",
+  "reason": "Same dish: plain butter shortbread (fingers, stars and rounds are shapes of the same dough). shortbread was published first (5 September 2026)."
+ },
+ "shortbread-stars": {
+  "to": "shortbread",
+  "retired": "2026-10-25",
+  "reason": "Same dish: plain butter shortbread (fingers, stars and rounds are shapes of the same dough). shortbread was published first (5 September 2026)."
+ },
+ "shortbread-cookies": {
+  "to": "shortbread",
+  "retired": "2026-10-25",
+  "reason": "Same dish: plain butter shortbread (fingers, stars and rounds are shapes of the same dough). shortbread was published first (5 September 2026)."
  }
 }

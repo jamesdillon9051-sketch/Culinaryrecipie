@@ -607,7 +607,6 @@ for (const dir of [path.join(__dirname, '..', 'src', 'assets', 'img', 'recipes')
 {
   const { isIllustration } = require('../src/lib/util');
   const MAY_SHARE = [
-    ['katsu-curry', 'chicken-katsu-curry'],
     ['knafeh', 'knafeh-nabulsi'],
     ['breakfast-casserole', 'sausage-casserole'],
     ['cauliflower-rice', 'cauliflower-chicken-fried-rice'],  // a fried cauliflower rice is cauliflower rice

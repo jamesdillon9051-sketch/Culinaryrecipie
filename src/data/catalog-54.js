@@ -51,7 +51,6 @@ module.exports = [
   c('pea-salad', 'Pea Salad', 'American', 'Lunch', 'Easy', 15, 0, 6, 0, 0, [], ['new'], 'pea salad'),
   c('pork-katsu', 'Pork Katsu', 'Japanese', 'Dinner', 'Medium', 20, 10, 4, 0, 0, [], ['new'], 'pork katsu'),
   c('bbq-chicken-sandwich', 'BBQ Chicken Sandwich', 'American', 'Lunch', 'Easy', 15, 25, 4, 0, 0, [], ['new'], 'bbq chicken sandwich'),
-  c('rack-of-lamb', 'Rack of Lamb', 'British', 'Dinner', 'Medium', 15, 25, 4, 0, 0, [], ['new'], 'rack of lamb'),
   c('rainbow-trout', 'Rainbow Trout', 'American', 'Dinner', 'Easy', 10, 10, 2, 0, 0, ['Gluten-Free'], ['new'], 'rainbow trout'),
   c('salmon-salad', 'Salmon Salad', 'American', 'Lunch', 'Easy', 10, 12, 2, 0, 0, ['Dairy-Free'], ['new'], 'salmon salad'),
   c('sausage-egg-bake', 'Sausage Egg Bake', 'American', 'Breakfast', 'Easy', 15, 35, 6, 0, 0, [], ['new'], 'sausage egg bake'),

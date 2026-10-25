@@ -96,37 +96,6 @@ module.exports = {
     nut: [193, 4, 33, 5, 3, 28, 80]
   },
 
-  'spring-onion-pancakes': {
-    d: 'Flaky, chewy flatbreads rolled with spring onion and sesame oil and pan-fried until golden.',
-    meta: 'Spring onion pancakes: flaky flatbreads rolled with spring onion and sesame oil and pan-fried. Six servings, cooked for 15 minutes.',
-    kw: ['spring onion pancakes', 'scallion pancakes', 'chinese spring onion pancakes', 'flaky spring onion pancakes', 'spring onion pancakes with dipping sauce'],
-    why: 'It looks like a pancake and has nothing in common with one: this is a dough, rolled thin, brushed with oil, rolled again into a spiral and flattened. The layers are what make it flaky.\n\nMake the dough with boiling water, which cooks some of the flour and makes it soft and stretchy. Knead it for 5 minutes, then cover and rest it for 30 minutes. The rest lets the gluten relax, and the dough rolls out without springing back. **Roll the dough as thin as you can.** Thin dough gives more layers when it is spiralled.\n\nBrush the sheet with sesame oil, scatter over the spring onions and salt, and roll it up like a Swiss roll. Coil the roll into a snail and flatten it with a rolling pin to 5 mm.\n\nFry in a little oil over medium heat for about 3 minutes on each side, until golden and crisp at the edges, pressing with a spatula. If your pan runs hot, lower the heat to stop the oil burning. Serve with soy and vinegar to dip.',
-    ing: [
-      '250 g plain flour',
-      '175 ml boiling water',
-      '4 spring onions, about 60 g, finely sliced',
-      '2 tbsp sesame oil',
-      '1 tsp salt',
-      '3 tbsp sunflower oil for frying',
-      '3 tbsp soy sauce',
-      '1 tbsp rice vinegar'
-    ],
-    st: [
-      'Stir the boiling water into the flour to a dough and knead for 5 minutes. Cover and rest for 30 minutes.',
-      'Divide into 3 pieces and roll each as thin as possible. Brush with the sesame oil and scatter with the spring onions and salt.',
-      'Roll each sheet into a log, coil it into a snail and flatten to 5 mm.',
-      'Fry in the sunflower oil over medium heat for 3 minutes on each side until golden. Mix the soy sauce and vinegar to dip.'
-    ],
-    tips: [
-      'Rest the dough.',
-      'Roll as thin as you can.',
-      'If your pan runs hot, lower the heat.',
-      'Press with a spatula while frying.'
-    ],
-    pair: ['Soy and vinegar dip', 'Chilli oil', 'Congee', 'Stir-fried greens'],
-    store: 'Best eaten at once. Keeps in the fridge for 2 days and reheats in a dry pan.',
-    nut: [260, 5, 33, 12, 2, 0, 840]
-  },
 
   'smoked-salmon-blinis': {
     d: 'Small, thick pancakes topped with crème fraîche, smoked salmon, dill and lemon.',

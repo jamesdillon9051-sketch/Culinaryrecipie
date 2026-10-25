@@ -475,33 +475,4 @@ module.exports = {
     nut: [113, 5, 12, 5, 1, 6, 20]
   },
 
-  'peanut-butter-energy-bites': {
-    d: 'Oats, peanut butter, honey, ground flaxseed and chocolate chips stirred together and rolled into bite-sized balls.',
-    meta: 'Peanut butter energy bites: oats, peanut butter, honey, flaxseed and chocolate chips rolled into balls. Sixteen bites, no cooking.',
-    kw: ['peanut butter energy bites', 'no bake peanut butter energy bites', 'oat peanut butter bites', 'peanut butter oat balls', 'easy energy bites'],
-    why: 'Autumn is when the lunchboxes come back out, and these are the bite that fits. They are made in a bowl in 15 minutes, with nothing to heat.\n\nStir the peanut butter, honey and vanilla together first. The mixture should be smooth and glossy, with no streaks of honey. **Use a no-stir peanut butter or stir the oil in thoroughly.** Oil that has separated makes the bites greasy on the outside and dry in the middle.\n\nAdd the oats and ground flaxseed and mix until the oats are coated. The mixture will be stiff. Press it with the back of a spoon to check it holds together, and add a splash of water if it does not.\n\nFold in the chocolate chips, then roll into 16 bites with wet hands. Chill for 30 minutes before eating, so the honey sets and the bites hold their shape. They keep for a week in the fridge in a covered tin.',
-    ing: [
-      '100 g rolled oats',
-      '100 g smooth peanut butter',
-      '60 g honey',
-      '30 g ground flaxseed',
-      '1 tsp vanilla extract',
-      '40 g chocolate chips'
-    ],
-    st: [
-      'Stir the peanut butter, honey and vanilla until smooth and glossy.',
-      'Stir in the oats and flaxseed until coated. Add a splash of water if the mixture will not hold together.',
-      'Fold in the chocolate chips and roll into 16 bites with wet hands.',
-      'Chill for 30 minutes.'
-    ],
-    tips: [
-      'Stir the oil in thoroughly.',
-      'Mix until the oats are coated.',
-      'Roll with wet hands.',
-      'Chill before eating.'
-    ],
-    pair: ['Hot coffee', 'Fresh fruit', 'Cold milk', 'Natural yoghurt'],
-    store: 'Keeps in the fridge for 1 week.',
-    nut: [88, 3, 10, 4, 2, 4, 5]
-  }
 };

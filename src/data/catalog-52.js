@@ -112,7 +112,6 @@ module.exports = [
   c('sourdough-waffles', 'Sourdough Waffles', 'American', 'Breakfast', 'Easy', 10, 20, 4, 0, 0, ['Vegetarian'], ['new'], 'sourdough waffles'),
   c('cottage-cheese-toast', 'Cottage Cheese Toast', 'American', 'Quick Meals', 'Easy', 5, 5, 2, 0, 0, ['Vegetarian'], ['new'], 'cottage cheese toast'),
   c('biscuits-and-gravy-casserole', 'Biscuits and Gravy Casserole', 'American', 'Breakfast', 'Easy', 20, 40, 8, 0, 0, [], ['new'], 'biscuits and gravy casserole'),
-  c('chicken-francoise', 'Chicken Françoise', 'American', 'Dinner', 'Medium', 20, 25, 4, 0, 0, [], ['new'], 'chicken françoise'),
   c('chicken-vesuvio', 'Chicken Vesuvio', 'American', 'Dinner', 'Medium', 20, 50, 4, 0, 0, [], ['new'], 'chicken vesuvio'),
   c('chicken-murphy', 'Chicken Murphy', 'American', 'Dinner', 'Medium', 20, 45, 4, 0, 0, [], ['new'], 'chicken murphy'),
   c('scalloped-corn', 'Scalloped Corn', 'American', 'Dinner', 'Easy', 10, 45, 6, 0, 0, ['Vegetarian'], ['new'], 'scalloped corn'),

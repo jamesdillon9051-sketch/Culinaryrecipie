@@ -417,40 +417,6 @@ module.exports = {
     nut: [206, 9, 11, 14, 1, 1, 630]
   },
 
-  'fish-goujons': {
-    d: 'Strips of white fish coated in flour, egg and breadcrumbs and baked until crisp, served with tartare sauce.',
-    meta: 'Fish goujons: strips of white fish in a crisp breadcrumb coating, baked for 10 minutes. Four servings.',
-    kw: ['fish goujons', 'crispy fish goujons', 'baked fish goujons', 'homemade fish goujons with tartare sauce', 'cod goujons'],
-    why: 'Goujons are strips of fish coated in breadcrumbs, and the name comes from a small river fish. They are what fish fingers aspire to be: crisp outside and soft, moist and flaky within.\n\nCut firm white fish such as cod or haddock into strips about 2 cm wide and 8 cm long. Pat them dry, since a wet strip sheds its coating. Dip each in flour, then beaten egg, then breadcrumbs mixed with a little parmesan and paprika, pressing the crumbs on firmly. **Use panko if you have it.** Its large, airy flakes give a crunchier crust than fine breadcrumbs.\n\nSpread the goujons on a hot, oiled tray with space around each, drizzle with oil and bake at 220°C for 10 minutes, turning once. If your oven runs hot, check at 8 minutes. They should be golden and the fish should flake.\n\nServe straight away with tartare sauce and lemon.',
-    ing: [
-      '500 g cod fillet, cut into strips',
-      '40 g plain flour',
-      '2 eggs, about 100 g, beaten',
-      '80 g panko breadcrumbs',
-      '20 g parmesan, grated',
-      '1/2 tsp smoked paprika',
-      '1/2 tsp salt',
-      '2 tbsp vegetable oil',
-      '4 tbsp tartare sauce',
-      '1 lemon, cut into wedges'
-    ],
-    st: [
-      'Heat the oven to 220°C and put an oiled tray inside. Pat the fish dry.',
-      'Mix the panko with the parmesan, paprika and salt.',
-      'Dip the strips in the flour, then the egg, then the crumbs, pressing on firmly.',
-      'Lay on the hot tray, drizzle with the oil and bake for 10 minutes, turning once, until golden.',
-      'Serve with the tartare sauce and lemon wedges.'
-    ],
-    tips: [
-      'Dry the fish first.',
-      'Use panko.',
-      'If your oven runs hot, check at 8 minutes.',
-      'Preheat the tray.'
-    ],
-    pair: ['Oven chips', 'Peas', 'Tartare sauce', 'Lemon wedges'],
-    store: 'Best eaten straight away. Keeps in the fridge for 1 day; reheat in a hot oven.',
-    nut: [381, 31, 26, 17, 1, 2, 630]
-  },
 
   'chicken-goujons': {
     d: 'Strips of chicken breast coated in flour, egg and seasoned breadcrumbs and shallow-fried until golden and crisp.',

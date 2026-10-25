@@ -12,37 +12,6 @@
  */
 
 module.exports = {
-  'air-fryer-baked-potato': {
-    cookMax: 45,
-    d: 'Scrubbed baking potatoes, oiled and salted, cooked in the air fryer for 40 minutes until the skin crackles and the middle is soft.',
-    meta: 'Air fryer baked potato with a crisp salted skin and a fluffy middle. Two servings, ready in 45 minutes with 5 minutes of prep.',
-    kw: ['air fryer baked potato', 'baked potato in air fryer', 'air fryer jacket potato', 'crispy skin baked potato', 'air fryer baked potatoes'],
-    why: 'Salt the skin and do not wrap the potato in foil. Foil traps steam, and steam is the enemy of a crisp skin. In the air fryer the moving air dries the surface as it cooks, so a potato rubbed with oil and coarse salt ends up with a skin you can hear.\n\nChoose a floury variety such as a russet or a King Edward. Their flesh breaks into dry, fluffy crumbs when cooked, where waxy potatoes stay dense and a little damp. Scrub the skins, dry them thoroughly and prick each one a few times with a fork so steam can leave through the holes instead of stressing the skin.\n\n**Turn the potatoes halfway** through the cooking time so that the side resting on the basket does not stay pale. A potato is fully baked when a skewer slides into the centre with no resistance and the skin feels papery when you squeeze it with a cloth.\n\nSplit it straight away. Left whole, the steam inside softens the skin as it sits.',
-    ing: [
-      '600 g baking potatoes, scrubbed, about 2 large',
-      '2 tsp olive oil',
-      '1 tsp coarse sea salt',
-      '20 g butter',
-      '40 g cheddar, grated',
-      '2 tbsp soured cream',
-      '1 tbsp chives, finely chopped'
-    ],
-    st: [
-      'Heat the air fryer to 200C. Scrub the potatoes, dry them very well and prick each one 4 or 5 times with a fork.',
-      'Rub the potatoes with the olive oil, then roll them in the coarse salt so the skin is evenly coated.',
-      'Place the potatoes in the basket with space between them. Air fry for 40 minutes, turning them over after 20 minutes.',
-      'Test with a skewer through the thickest part. It should slide in easily. If it meets resistance, cook for 5 minutes more.',
-      'Split each potato lengthways, push the ends together to open it and add the butter, cheddar, soured cream and chives.'
-    ],
-    tips: [
-      'Dry the skins completely before oiling, or the salt will not stick.',
-      'If the potatoes are small, check at 30 minutes.',
-      'Use a cloth to squeeze the potato: a papery skin means it is ready.'
-    ],
-    pair: ['Baked beans', 'Coleslaw', 'Chilli con carne', 'Green salad'],
-    store: 'Eat straight away. Leftover cooked potatoes keep for 2 days in the fridge and reheat well in the air fryer for 5 minutes.',
-    nut: [459, 11, 52, 23, 7, 3, 1330]
-  },
 
   'air-fryer-banana-bread': {
     d: 'A moist banana loaf baked in a small tin inside the air fryer, with a golden top and a soft crumb, ready to slice after cooling.',

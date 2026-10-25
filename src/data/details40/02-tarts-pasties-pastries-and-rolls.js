@@ -283,34 +283,6 @@ module.exports = {
     nut: [438, 17, 25, 30, 1, 3, 1000]
   },
 
-  'irish-potato-cakes': {
-    d: 'Soft pan-fried cakes of cold mashed potato, flour and butter, golden outside and fluffy within.',
-    meta: 'Irish potato cakes: cold mashed potato mixed with flour and butter and fried until golden. Four servings for 10 minutes of cooking.',
-    kw: ['irish potato cakes', 'easy irish potato cakes', 'potato cakes from leftover mash', 'fried potato cakes', 'irish potato farls'],
-    why: 'Short on time? Potato cakes ask only for the mash left from last night.\n\nThe potato must be cold. Warm mash is sticky and takes up too much flour, which makes the cakes heavy. Cold mash holds together on a light touch. **Work the dough as little as you can.** Stir in the flour, butter and salt until just combined, then stop.\n\nTip the dough onto a floured surface and pat it into a round about 1.5 cm thick. Cut it into eight wedges. A thinner cake turns crisp, and a thicker one stays raw in the middle.\n\nFry in a dry, medium-hot pan with a little butter for about 4 minutes on each side, until the surface is spotted brown. Eat them hot, with butter melting on top. Leftover cakes can be split and fried again the next morning until crisp, which many cooks prefer to the first round.',
-    ing: [
-      '500 g cold mashed potato',
-      '60 g plain flour',
-      '30 g butter, melted',
-      '1/2 tsp salt',
-      '1 tbsp butter for frying'
-    ],
-    st: [
-      'Mix the mash, flour, melted butter and salt until just combined.',
-      'Pat the dough into a round 1.5 cm thick on a floured surface and cut it into 8 wedges.',
-      'Melt the frying butter in a pan over medium heat.',
-      'Fry the wedges for 4 minutes on each side until golden brown. Serve hot.'
-    ],
-    tips: [
-      'Use cold mash.',
-      'Handle the dough lightly.',
-      'If the pan is too hot, the outside burns before the inside warms; lower the heat.',
-      'Flour the surface well so the cakes do not stick.'
-    ],
-    pair: ['Fried eggs', 'Grilled bacon', 'Grilled tomatoes', 'Strong tea'],
-    store: 'Keeps in the fridge for 2 days. Reheat in a dry pan for 3 minutes on each side.',
-    nut: [229, 4, 33, 9, 3, 1, 300]
-  },
 
   'potato-cakes': {
     d: 'Thin slices of potato dipped in a light batter and fried until crisp outside and soft within, salted while hot.',

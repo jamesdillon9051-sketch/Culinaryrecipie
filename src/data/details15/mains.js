@@ -238,47 +238,6 @@ module.exports = {
     nut: [625, 48, 20, 36, 3, 7, 890]
   },
 
-  'carbonade-flamande': {
-    d: 'Beef braised in dark beer with a slice of mustard-spread bread laid on top, which dissolves and thickens the sauce. Sweet, sour and unmistakably northern.',
-    meta: 'Beef braised in dark Belgian beer with mustard-spread bread laid on top to dissolve and thicken the sauce.',
-    kw: ['carbonade flamande', 'flemish beef stew', 'carbonade recipe', 'beef beer stew', 'belgian beef'],
-    why: 'The bread is the thickener and it must be laid on top rather than stirred in — it dissolves gradually from below over the two and a half hours, and the mustard on it disperses through the sauce as it goes. Stirred in at the start it simply becomes sludge. Use a genuinely dark beer and add the vinegar and sugar together at the end: the sweet-sour balance is the whole character of the dish and it is far easier to adjust once you can taste the reduced sauce.',
-    ing: [
-      '1.2 kg beef chuck, cut into large pieces',
-      '2 tsp fine sea salt',
-      '3 tbsp beef dripping or oil',
-      '4 onions, sliced thinly',
-      '2 tbsp plain flour',
-      '500 ml dark Belgian beer, such as a dubbel',
-      '300 ml beef stock',
-      '3 bay leaves',
-      '4 thyme sprigs',
-      '# The lid',
-      '2 thick slices country bread',
-      '3 tbsp Dijon mustard',
-      '# To finish',
-      '2 tbsp red wine vinegar',
-      '1 tbsp dark brown sugar',
-      '0.5 tsp black pepper'
-    ],
-    st: [
-      'Salt the beef and brown it hard in the dripping in two batches, 10 minutes. Lift out.',
-      'Cook the onions in the same pan over medium heat for 20 minutes, until soft and well coloured.',
-      'Dust with the flour and cook 2 minutes.',
-      'Return the beef, pour in the beer and stock, and add the bay and thyme.',
-      'Spread the bread thickly with the mustard and lay it mustard-side down on the surface. Do not stir it in.',
-      'Cover and cook at a bare simmer, or in a 150°C oven, for 150 minutes. The bread will disappear.',
-      'Stir the sauce to break up any remaining bread, then add the vinegar, sugar and pepper. Taste and balance the sweet against the sour before serving.'
-    ],
-    tips: [
-      'Bread on top, mustard down, never stirred in.',
-      'A properly dark beer — a lager gives you nothing.',
-      'Balance the vinegar and sugar at the end, by taste.'
-    ],
-    pair: ['Chips', 'Buttered noodles', 'The same beer'],
-    store: 'Refrigerated for 4 days and better on day two. It freezes for 3 months.',
-    nut: [580, 45, 26, 31, 3, 8, 920]
-  },
 
   'choucroute': {
     d: 'Sauerkraut cooked in riesling with a collection of pork and sausages piled on top. Alsace, and the sauerkraut should be rinsed before it goes near the pot.',

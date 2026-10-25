@@ -13,45 +13,6 @@
  */
 
 module.exports = {
-  'fish-and-chips-with-mushy-peas': {
-    d: 'Battered cod fillets fried until crisp, with oven chips and mushy peas made from marrowfat peas.',
-    meta: 'Fish and chips with mushy peas: battered cod, oven chips and mushy peas. Four servings, cooked for 30 minutes.',
-    kw: ['fish and chips with mushy peas', 'homemade fish and chips', 'battered cod and chips', 'british fish and chips with mushy peas', 'fish and chips recipe'],
-    why: 'What keeps a batter crisp instead of greasy? Cold liquid, a hot pan and a coating of flour on the fish first. The flour gives the batter something to hold onto, and the cold makes it puff up and set quickly.\n\nStir the batter just until it comes together, with a few lumps left in. Overmixing makes it tough. Use ice-cold sparkling water and keep it in the fridge until the last second. Dry the cod, dust it with flour, dip it in the batter and lower it into the hot oil gently, away from you. **Do not crowd the pan.** Two fillets at a time keep the oil hot enough to crisp the batter.\n\nFry for 5 to 6 minutes, turning once, until deep golden and crisp, and drain on a rack. Paper holds steam against the underside.\n\nThe chips roast in a hot oven while the fish fries, and the peas simmer with a pinch of sugar and a knob of butter. Serve with salt, vinegar and tartare sauce.',
-    ing: [
-      '800 g potatoes, cut into thick chips',
-      '2 tbsp vegetable oil',
-      '1 tsp salt',
-      '4 cod fillets, about 600 g',
-      '40 g plain flour, for dusting',
-      '150 g plain flour, for the batter',
-      '1/2 tsp baking powder',
-      '1/2 tsp salt, for the batter',
-      '200 ml ice-cold sparkling water',
-      '100 ml vegetable oil, for frying',
-      '400 g frozen peas',
-      '20 g butter',
-      '1 tsp sugar',
-      '2 tbsp malt vinegar'
-    ],
-    st: [
-      'Heat the oven to 230°C. Toss the chips with the 2 tbsp of oil and 1 tsp of salt and roast on a tray for 30 minutes, turning once.',
-      'Simmer the peas in a little water with the butter and sugar for 6 minutes, then mash roughly and keep warm.',
-      'Whisk the 150 g of flour, baking powder and 1/2 tsp of salt with the sparkling water just until combined.',
-      'Heat the frying oil in a wide pan until a drop of batter sizzles at once. Dry the cod, dust with the 40 g of flour and dip in the batter.',
-      'Fry two fillets at a time for 5 to 6 minutes, turning once, until deep golden. Drain on a rack.',
-      'Serve with the chips, peas and vinegar.'
-    ],
-    tips: [
-      'Keep the batter ice cold.',
-      'Do not overmix it.',
-      'Fry two fillets at a time.',
-      'Drain on a rack, not paper.'
-    ],
-    pair: ['Tartare sauce', 'Lemon wedges', 'Pickled onions', 'Curry sauce'],
-    store: 'Best eaten straight away. Reheat leftovers in a hot oven.',
-    nut: [828, 41, 85, 36, 12, 9, 1050]
-  },
 
   'sea-bass-with-lemon-butter': {
     d: 'Pan-fried sea bass fillets with crisp skin, finished with a sauce of browned butter, lemon juice and capers.',

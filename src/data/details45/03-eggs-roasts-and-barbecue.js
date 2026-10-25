@@ -12,37 +12,6 @@
  */
 
 module.exports = {
-  'devilled-eggs': {
-    d: 'Hard-boiled egg halves filled with a creamy yolk mixture of mayonnaise, mustard and paprika.',
-    meta: 'Devilled eggs: boiled egg halves filled with a creamy mayonnaise, mustard and paprika yolk filling. Twelve halves, cooked for 12 minutes.',
-    kw: ['devilled eggs', 'classic devilled eggs', 'devilled eggs with paprika', 'creamy devilled eggs', 'british devilled eggs'],
-    why: 'Most home versions come out with grey rings around the yolk and craters in the white, and both are easy to avoid. The grey is a sign of overcooking, and the craters come from eggs that were too fresh to peel cleanly.\n\nLower the eggs gently into boiling water and cook for exactly 10 minutes, then move them straight into iced water for 5 minutes. The cold stops the cooking and shrinks the egg slightly from the shell. Older eggs peel more easily than very fresh ones. **Peel them under running water.** The shell comes off in large pieces, and the white stays whole.\n\nHalve the eggs lengthways, pop out the yolks and mash them with the mayonnaise, mustard, vinegar and salt until completely smooth. Push the mix through a sieve for a very fine filling.\n\nSpoon or pipe the filling back into the whites and finish with a dusting of paprika. Chill until needed.',
-    ing: [
-      '6 eggs, about 300 g',
-      '3 tbsp mayonnaise',
-      '1 tsp Dijon mustard',
-      '1 tsp white wine vinegar',
-      '1/4 tsp salt',
-      '1/2 tsp smoked paprika',
-      '5 g chives, chopped'
-    ],
-    st: [
-      'Lower the eggs into boiling water and cook for 10 minutes. Move to iced water for 5 minutes.',
-      'Peel the eggs under running water and halve lengthways.',
-      'Pop out the yolks and mash with the mayonnaise, mustard, vinegar and salt until smooth.',
-      'Spoon or pipe the filling into the whites and dust with the paprika.',
-      'Scatter with the chives and chill until needed.'
-    ],
-    tips: [
-      'Time the boiling exactly.',
-      'Cool the eggs in iced water.',
-      'Peel them under running water.',
-      'Sieve the yolks for a smoother filling.'
-    ],
-    pair: ['Cold ham', 'Green salad', 'Smoked salmon', 'Prosecco'],
-    store: 'Keeps in the fridge for 2 days. Fill the whites on the day for the best texture.',
-    nut: [57, 3, 0, 5, 0, 0, 110]
-  },
 
   'frittata-with-spinach': {
     d: 'Eggs, spinach, onion and feta cooked in a pan on the hob and finished under the grill until set and golden.',
@@ -140,78 +109,7 @@ module.exports = {
     nut: [377, 8, 57, 13, 4, 38, 70]
   },
 
-  'fruit-salad-with-honey-lime': {
-    d: 'Mango, pineapple, kiwi, strawberries and grapes tossed in a dressing of honey, lime juice and mint.',
-    meta: 'Fruit salad with honey lime: mango, pineapple, kiwi and strawberries in a honey, lime and mint dressing. Six servings, no cooking.',
-    kw: ['fruit salad with honey lime', 'honey lime fruit salad', 'fresh fruit salad with lime and mint', 'fruit salad with honey and lime dressing', 'australian style fruit salad'],
-    why: 'It looks like a bowl of fruit and eats like a dessert, which is why a simple dressing matters. Lime juice keeps the fruit looking fresh and sharpens the sweetness, and the honey ties the flavours together.\n\nChoose fruit that is ripe but firm. Soft fruit turns to mush when tossed, and underripe fruit tastes of very little. Cut everything into pieces of a similar size, about 2 cm, so each spoonful has a bit of everything. Keep the strawberries and any soft fruit aside until the last moment. **Dress the fruit just before serving.** The acid and sugar draw out the juice, and the salad turns watery if it sits for long.\n\nWhisk the honey, lime juice and zest with a spoonful of warm water until smooth. Pour it over the fruit, add the chopped mint and fold gently.\n\nServe cold, in a big bowl, on its own or with yoghurt.',
-    ing: [
-      '1 mango, about 300 g, cubed',
-      '300 g pineapple, cubed',
-      '3 kiwi fruit, about 250 g, peeled and sliced',
-      '250 g strawberries, halved',
-      '200 g seedless grapes, halved',
-      '3 tbsp honey',
-      '2 limes, about 100 g, zested and juiced',
-      '1 tbsp warm water',
-      '10 g mint leaves, chopped'
-    ],
-    st: [
-      'Put the mango, pineapple, kiwi and grapes in a large bowl.',
-      'Whisk the honey, lime zest, lime juice and water until smooth.',
-      'Pour over the fruit, add the strawberries and mint and fold gently.',
-      'Serve cold.'
-    ],
-    tips: [
-      'Use ripe but firm fruit.',
-      'Cut the pieces the same size.',
-      'Dress at the last moment.',
-      'Fold gently.'
-    ],
-    pair: ['Greek yoghurt', 'Pancakes', 'Granola', 'Vanilla ice cream'],
-    store: 'Best eaten within a few hours. Keeps in the fridge for 1 day, though the fruit softens.',
-    nut: [177, 2, 40, 1, 4, 32, 5]
-  },
 
-  'shepherds-pie-with-cheesy-mash': {
-    d: 'Lamb mince cooked with carrots, peas and onions in a rich gravy, topped with cheddar mash and baked until golden.',
-    meta: 'Shepherd\'s pie with cheesy mash: lamb mince and vegetables in gravy under cheddar mash. Six servings, baked for 35 minutes.',
-    kw: ['shepherds pie with cheesy mash', 'lamb shepherds pie with cheddar mash', 'traditional shepherds pie with cheese topping', 'cheesy mash shepherds pie', 'british shepherds pie with cheesy mash'],
-    why: 'This is what to make in the first cold week, when a pie with a lid of mash is exactly what the weather asks for. A shepherd\'s pie is made with lamb, and a cottage pie with beef, and it is worth being exact about which is which.\n\nBrown the lamb well in a wide pan, breaking it up as it cooks, until it is dark and the fat has rendered. Pour off excess fat. Add the onion, carrots and garlic, then the flour and tomato purée, and pour in the stock with the Worcestershire sauce. Simmer for 20 minutes until thick. **Make the gravy thick.** A thin filling floods the mash.\n\nBoil the potatoes until soft, drain and steam dry, then mash with butter, milk and most of the cheese. Spoon the mash over the filling, rake it with a fork and scatter over the rest of the cheese.\n\nBake at 200°C for 35 minutes. If your oven runs hot, check at 28 minutes. The top should be golden and the edges bubbling.',
-    ing: [
-      '700 g lamb mince',
-      '1 tbsp vegetable oil',
-      '1 onion, about 150 g, chopped',
-      '2 carrots, about 200 g, diced',
-      '2 cloves garlic, crushed',
-      '2 tbsp plain flour',
-      '2 tbsp tomato purée',
-      '400 ml lamb stock',
-      '1 tbsp Worcestershire sauce',
-      '100 g frozen peas',
-      '1 kg potatoes, peeled and cut up',
-      '40 g butter',
-      '80 ml whole milk',
-      '120 g mature cheddar, grated',
-      '1 tsp salt'
-    ],
-    st: [
-      'Heat the oven to 200°C. Brown the lamb in the oil for 8 minutes, breaking it up, and pour off excess fat.',
-      'Add the onion, carrots and garlic for 6 minutes, then stir in the flour and tomato purée for 1 minute.',
-      'Pour in the stock and Worcestershire sauce and simmer for 20 minutes until thick. Stir in the peas and half the salt and tip into a baking dish.',
-      'While the filling simmers, boil the potatoes for 15 minutes, drain, steam dry and mash with the butter, milk, remaining salt and two thirds of the cheese.',
-      'Spoon over the filling, rake with a fork and scatter with the rest of the cheese. Bake for 35 minutes until golden and bubbling.'
-    ],
-    tips: [
-      'Brown the lamb well.',
-      'Make the gravy thick.',
-      'Steam the potatoes dry.',
-      'If your oven runs hot, check at 28 minutes.'
-    ],
-    pair: ['Green beans', 'Buttered cabbage', 'Pickled red cabbage', 'Baked beans'],
-    store: 'Keeps in the fridge for 3 days. Reheat covered until hot all the way through.',
-    nut: [635, 31, 40, 39, 6, 6, 900]
-  },
 
   'roast-lamb-dinner': {
     d: 'A roast leg of lamb studded with garlic and rosemary, with roast potatoes, carrots, gravy and mint sauce.',

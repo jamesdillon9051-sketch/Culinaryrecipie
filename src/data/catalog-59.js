@@ -111,7 +111,6 @@ module.exports = [
   c('lasagne-bianche', 'Lasagne Bianche', 'Italian', 'Dinner', 'Medium', 30, 55, 6, 0, 0, [], ['new'], 'lasagne bianche'),
   c('cannelloni-ricotta-e-spinaci', 'Cannelloni Ricotta e Spinaci', 'Italian', 'Dinner', 'Medium', 30, 40, 6, 0, 0, [], ['new'], 'cannelloni ricotta e spinaci'),
   c('conchiglioni-ripieni', 'Conchiglioni Ripieni', 'Italian', 'Dinner', 'Easy', 25, 40, 6, 0, 0, [], ['new'], 'conchiglioni ripieni'),
-  c('spaghetti-al-limone', 'Spaghetti al Limone', 'Italian', 'Quick Meals', 'Easy', 5, 15, 4, 0, 0, [], ['new'], 'spaghetti al limone'),
   c('tagliolini-al-tartufo', 'Tagliolini al Tartufo', 'Italian', 'Dinner', 'Medium', 30, 3, 4, 0, 0, [], ['new'], 'tagliolini al tartufo'),
   c('penne-al-gorgonzola', 'Penne al Gorgonzola', 'Italian', 'Quick Meals', 'Easy', 5, 15, 4, 0, 0, ['Vegetarian'], ['new'], 'penne al gorgonzola'),
   c('rigatoni-allamatriciana', 'Rigatoni all\'Amatriciana', 'Italian', 'Dinner', 'Easy', 10, 25, 4, 0, 0, [], ['new'], 'rigatoni all\'amatriciana'),

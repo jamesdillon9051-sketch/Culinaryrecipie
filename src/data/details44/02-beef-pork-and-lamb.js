@@ -120,42 +120,6 @@ module.exports = {
     nut: [533, 29, 66, 17, 5, 8, 960]
   },
 
-  'beef-pot-roast-with-gravy': {
-    d: 'A chuck roast braised for three hours on a bed of onions, carrots and potatoes, with the cooking juices made into gravy.',
-    meta: 'Beef pot roast with gravy: chuck roast braised on onions, carrots and potatoes, with a rich gravy. Six servings, baked for 3 hours.',
-    kw: ['beef pot roast with gravy', 'classic beef pot roast', 'oven beef pot roast with vegetables', 'beef chuck pot roast', 'sunday beef pot roast'],
-    why: 'It looks like a roast and cooks like a stew, which is why it asks only that you wait. A chuck roast is a hard-working, well-marbled cut that only gives up its tenderness after hours in moist heat.\n\nBrown the beef on every side for about 10 minutes until it is deep brown, and take the time to do it. The crust is the flavour of the gravy later. Set it on the onions in a deep pot and add the stock, tomato purée and thyme. Cover tightly, because steam does the work. **Do not open the lid in the first 2 hours.** Every peek lets out the heat and slows the cooking.\n\nCook at 160°C for 3 hours, adding the carrots and potatoes for the last 60 minutes so that they hold their shape. If your oven runs hot, check at 2 hours 30 minutes.\n\nLift out the meat and vegetables, thicken the juices with the cornflour and serve the gravy over everything.',
-    ing: [
-      '1.5 kg beef chuck roast',
-      '2 tbsp vegetable oil',
-      '1 tsp salt',
-      '1/2 tsp black pepper',
-      '2 onions, about 300 g, sliced',
-      '400 ml beef stock',
-      '2 tbsp tomato purée',
-      '4 sprigs thyme, about 5 g',
-      '4 carrots, about 400 g, cut into chunks',
-      '600 g potatoes, halved',
-      '1 tbsp cornflour',
-      '2 tbsp water'
-    ],
-    st: [
-      'Heat the oven to 160°C. Season the beef with the salt and pepper and brown it in the oil on all sides for 10 minutes.',
-      'Spread the onions in a deep pot, set the beef on top and add the stock, tomato purée and thyme. Cover tightly.',
-      'Cook for 2 hours, then add the carrots and potatoes and cook for 60 minutes more until the beef is tender.',
-      'Lift out the beef and vegetables. Stir the cornflour into the water, whisk it into the juices and simmer for 3 minutes until thick.',
-      'Slice or pull the beef and serve with the vegetables and gravy.'
-    ],
-    tips: [
-      'Brown the beef well.',
-      'Keep the lid on.',
-      'If your oven runs hot, check at 2 hours 30 minutes.',
-      'Add the vegetables late.'
-    ],
-    pair: ['Green beans', 'Yorkshire pudding', 'Crusty bread', 'Horseradish sauce'],
-    store: 'Keeps in the fridge for 4 days. Reheat in the gravy until hot all the way through.',
-    nut: [678, 53, 31, 38, 5, 6, 830]
-  },
 
   'pork-carnitas-bowls': {
     d: 'Pork shoulder braised with orange, cumin and oregano until tender, crisped under the grill and served over rice with beans and salsa.',

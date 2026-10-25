@@ -325,42 +325,6 @@ module.exports = {
     nut: [463, 31, 33, 23, 3, 7, 740]
   },
 
-  'slow-cooker-chilli-con-carne': {
-    d: 'Beef mince, kidney beans and tomatoes cooked slowly with cumin, chilli and smoked paprika until thick and deep red.',
-    meta: 'Slow cooker chilli con carne: beef mince and kidney beans with cumin and smoked paprika. Six servings, cooked for 5 hours.',
-    kw: ['slow cooker chilli con carne', 'crockpot chilli con carne', 'slow cooked chilli con carne', 'beef and kidney bean slow cooker chilli', 'slow cooker chilli with beans'],
-    why: 'A dish for a big table on a cold evening, and one that suits making ahead. A chilli is better the second day, when the spices have had time to settle into the beans and meat.\n\nBrown the mince in batches, until it has a dark crust, before it goes in the slow cooker. Raw mince cooked in liquid turns grey and gives a thin flavour. Soften the onion and pepper in the same pan, then add the garlic and spices for a minute to wake them up. Tip everything into the cooker with the tomatoes, tomato purée, stock and beans. **Add the beans later if they are tinned.** Beans cooked for five hours turn to mush.\n\nCook on low for 4 hours, then stir in the drained beans and cook for 1 hour more. If your cooker runs hot, check at 4 hours 30 minutes in total.\n\nThe chilli should be thick enough to coat a spoon. If it is too thin, take the lid off for the last 30 minutes.',
-    ing: [
-      '600 g beef mince',
-      '1 tbsp vegetable oil',
-      '1 onion, about 150 g, chopped',
-      '1 red pepper, about 150 g, diced',
-      '3 cloves garlic, crushed',
-      '2 tsp ground cumin',
-      '2 tsp smoked paprika',
-      '1 tsp chilli powder',
-      '400 g tinned chopped tomatoes',
-      '2 tbsp tomato purée',
-      '200 ml beef stock',
-      '480 g drained tinned kidney beans',
-      '1 tsp salt'
-    ],
-    st: [
-      'Brown the mince in the oil in batches for 6 minutes each.',
-      'Soften the onion and pepper in the same pan for 5 minutes, then add the garlic, cumin, paprika and chilli for 1 minute.',
-      'Tip into the slow cooker with the mince, tomatoes, tomato purée, stock and salt. Cook on low for 4 hours.',
-      'Stir in the kidney beans and cook for 1 hour more until thick.'
-    ],
-    tips: [
-      'Brown the mince first.',
-      'Add the tinned beans late.',
-      'If your cooker runs hot, check at 4 hours 30 minutes in total.',
-      'Make it a day ahead.'
-    ],
-    pair: ['Steamed rice', 'Soured cream', 'Grated cheddar', 'Tortilla chips'],
-    store: 'Keeps in the fridge for 4 days. Reheat until piping hot all the way through.',
-    nut: [350, 27, 20, 18, 7, 5, 830]
-  },
 
   'slow-cooker-beef-bourguignon': {
     d: 'Beef chuck cooked for six hours in red wine with bacon, mushrooms and pearl onions until it falls apart.',
@@ -437,38 +401,6 @@ module.exports = {
     nut: [787, 53, 38, 47, 1, 32, 1860]
   },
 
-  'slow-cooker-macaroni-and-cheese': {
-    d: 'Macaroni, evaporated milk, eggs and two cheeses cooked together on low for two hours into a creamy bake.',
-    meta: 'Slow cooker macaroni and cheese: macaroni, evaporated milk, eggs and cheddar cooked on low. Eight servings, cooked for 2 hours.',
-    kw: ['slow cooker macaroni and cheese', 'crockpot mac and cheese', 'creamy slow cooker mac and cheese', 'slow cooker mac and cheese with cheddar', 'slow cooked macaroni and cheese'],
-    why: 'It looks like a baked mac and cheese and cooks like a custard, which is why the eggs and evaporated milk matter. They set the sauce into something creamy and sliceable, instead of a thin, greasy pool.\n\nCook the macaroni for 3 minutes less than the packet says. It will go on cooking in the slow cooker, and pasta that starts soft ends up as mush. Drain it and tip it into the cooker with the butter, which coats the pasta and stops it sticking. Beat the eggs with the evaporated milk, milk, mustard, salt and most of the cheese and stir it in. **Check it early.** Overcooked mac and cheese turns dry and grainy.\n\nCover and cook on low for 2 hours, stirring once after 1 hour. If your cooker runs hot, check at 1 hour 30 minutes. The pasta should be tender and the sauce creamy.\n\nStir, scatter over the rest of the cheese, cover for 5 minutes and serve.',
-    ing: [
-      '350 g macaroni',
-      '30 g butter',
-      '2 eggs, about 100 g',
-      '400 ml evaporated milk',
-      '200 ml whole milk',
-      '1 tsp mustard powder',
-      '1 tsp salt',
-      '350 g mature cheddar, grated',
-      '1/2 tsp black pepper'
-    ],
-    st: [
-      'Boil the macaroni for 5 minutes, 3 minutes under the packet time, and drain. Stir through the butter in the slow cooker.',
-      'Beat the eggs with the evaporated milk, milk, mustard powder and salt and stir into the pasta with three quarters of the cheese.',
-      'Cover and cook on low for 2 hours, stirring once after 1 hour.',
-      'Stir, scatter over the rest of the cheese and pepper, cover for 5 minutes and serve.'
-    ],
-    tips: [
-      'Undercook the pasta.',
-      'Check it early.',
-      'Stir once while it cooks.',
-      'Use a mature cheddar.'
-    ],
-    pair: ['Green salad', 'Steamed broccoli', 'Roasted tomatoes', 'Baked beans'],
-    store: 'Keeps in the fridge for 3 days. Reheat with a splash of milk.',
-    nut: [468, 23, 40, 24, 2, 8, 660]
-  },
 
   'slow-cooker-mashed-potatoes': {
     d: 'Potatoes cooked in stock in the slow cooker until soft, then mashed with butter, cream cheese and warm milk.',

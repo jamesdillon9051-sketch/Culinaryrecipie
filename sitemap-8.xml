@@ -2,6 +2,100 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://weeklydelight.com/recipes/sweet-potato-brownies/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sweet-potato-brownies.jpg</image:loc>
+      <image:title>Sweet Potato Brownies</image:title>
+      <image:caption>Sweet Potato Brownies</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/lentil-burgers/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lentil-burgers.jpg</image:loc>
+      <image:title>Lentil Burgers</image:title>
+      <image:caption>Lentil Burgers</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/chickpea-patties/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chickpea-patties.jpg</image:loc>
+      <image:title>Chickpea Patties</image:title>
+      <image:caption>Chickpea Patties</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/lentil-dal/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lentil-dal.jpg</image:loc>
+      <image:title>Lentil Dal</image:title>
+      <image:caption>Lentil Dal</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/spinach-and-ricotta-pasta/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/spinach-and-ricotta-pasta.jpg</image:loc>
+      <image:title>Spinach and Ricotta Pasta</image:title>
+      <image:caption>Spinach and Ricotta Pasta</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/spinach-pie/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/spinach-pie.jpg</image:loc>
+      <image:title>Spinach Pie</image:title>
+      <image:caption>Spinach Pie</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/spinach-quiche/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/spinach-quiche.jpg</image:loc>
+      <image:title>Spinach Quiche</image:title>
+      <image:caption>Spinach Quiche</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/beetroot-soup/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/beetroot-soup.jpg</image:loc>
+      <image:title>Beetroot Soup</image:title>
+      <image:caption>Beetroot Soup</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/pumpkin-pasta-bake/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://weeklydelight.com/recipes/roast-pumpkin-salad/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -247,17 +341,6 @@
       <image:loc>https://weeklydelight.com/assets/img/recipes/passionfruit-slice.jpg</image:loc>
       <image:title>Passionfruit Slice</image:title>
       <image:caption>Passionfruit Slice</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/shortbread-fingers/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/shortbread-fingers.jpg</image:loc>
-      <image:title>Shortbread Fingers</image:title>
-      <image:caption>Shortbread Fingers</image:caption>
     </image:image>
   </url>
   <url>
@@ -1102,17 +1185,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://weeklydelight.com/recipes/one-pan-chicken-and-rice/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/one-pan-chicken-and-rice.jpg</image:loc>
-      <image:title>One Pan Chicken and Rice</image:title>
-      <image:caption>One Pan Chicken and Rice</image:caption>
-    </image:image>
-  </url>
-  <url>
     <loc>https://weeklydelight.com/recipes/one-pan-sausage-and-potatoes/</loc>
     <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -1755,17 +1827,6 @@
       <image:loc>https://weeklydelight.com/assets/img/recipes/egg-and-bacon-tart.jpg</image:loc>
       <image:title>Egg and Bacon Tart</image:title>
       <image:caption>Egg and Bacon Tart</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/irish-potato-cakes/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/irish-potato-cakes.jpg</image:loc>
-      <image:title>Irish Potato Cakes</image:title>
-      <image:caption>Irish Potato Cakes</image:caption>
     </image:image>
   </url>
   <url>
@@ -3981,17 +4042,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://weeklydelight.com/recipes/peanut-butter-energy-bites/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/peanut-butter-energy-bites.jpg</image:loc>
-      <image:title>Peanut Butter Energy Bites</image:title>
-      <image:caption>Peanut Butter Energy Bites</image:caption>
-    </image:image>
-  </url>
-  <url>
     <loc>https://weeklydelight.com/recipes/spiced-nuts/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -4199,17 +4249,6 @@
       <image:loc>https://weeklydelight.com/assets/img/recipes/stuffed-dates.jpg</image:loc>
       <image:title>Stuffed Dates</image:title>
       <image:caption>Stuffed Dates</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/spring-onion-pancakes/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/spring-onion-pancakes.jpg</image:loc>
-      <image:title>Spring Onion Pancakes</image:title>
-      <image:caption>Spring Onion Pancakes</image:caption>
     </image:image>
   </url>
   <url>
@@ -4671,17 +4710,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://weeklydelight.com/recipes/sweet-potato-gnocchi/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/sweet-potato-gnocchi.jpg</image:loc>
-      <image:title>Sweet Potato Gnocchi</image:title>
-      <image:caption>Sweet Potato Gnocchi</image:caption>
-    </image:image>
-  </url>
-  <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-vegetables/</loc>
     <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -5121,67 +5149,6 @@
       <image:loc>https://weeklydelight.com/assets/img/recipes/honey-sriracha-wings.jpg</image:loc>
       <image:title>Honey Sriracha Wings</image:title>
       <image:caption>Honey Sriracha Wings</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/jacket-potato-with-cheese/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/jacket-potato-with-cheese.jpg</image:loc>
-      <image:title>Jacket Potato with Cheese</image:title>
-      <image:caption>Jacket Potato with Cheese</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/lamb-saag/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/lamb-saag.jpg</image:loc>
-      <image:title>Lamb Saag</image:title>
-      <image:caption>Lamb Saag</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/lemon-garlic-roast-chicken-thighs/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-garlic-roast-chicken-thighs.jpg</image:loc>
-      <image:title>Lemon Garlic Roast Chicken Thighs</image:title>
-      <image:caption>Lemon Garlic Roast Chicken Thighs</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/lemon-herb-cod/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/linguine-with-clams/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/linguine-with-clams.jpg</image:loc>
-      <image:title>Linguine with Clams</image:title>
-      <image:caption>Linguine with Clams</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/minted-peas/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/minted-peas.jpg</image:loc>
-      <image:title>Minted Peas</image:title>
-      <image:caption>Minted Peas</image:caption>
     </image:image>
   </url>
 </urlset>

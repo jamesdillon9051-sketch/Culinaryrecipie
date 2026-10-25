@@ -718,38 +718,6 @@ module.exports = {
     nut: [696, 6, 51, 52, 3, 38, 140]
   },
 
-  'fruit-loaf': {
-    d: 'A British tea loaf made by soaking dried fruit in hot tea for 1 hour, folded into a spiced batter and baked for 1 hour 10 minutes.',
-    meta: 'Fruit loaf made with tea-soaked dried fruit and mixed spice, baked for 70 minutes. Ten servings, ready in 2 hours 30 minutes.',
-    kw: ['fruit loaf', 'tea loaf', 'british fruit tea loaf', 'tea soaked fruit loaf', 'fruit loaf recipe'],
-    why: 'Soak the fruit before anything else. That is the first step in a tea loaf and also its character. A mixed handful of raisins, sultanas and currants left in hot tea for an hour swells until it is plump and glossy, and the liquid they do not absorb becomes the moisture in the cake. A loaf made with dry fruit is always drier and has hard raisins in it.\n\nThe batter has almost no fat, which is a surprise to anyone used to a pound cake or a banana bread. Only an egg and the soaked tea hold it together, with self-raising flour, brown sugar and mixed spice. It makes a firm, close-textured loaf that slices thin and spreads well with butter, and it is built to be eaten sliced and buttered.\n\n**Do not drain the fruit.** Stir the whole lot, tea and all, into the batter. The leftover liquid is part of the recipe and its sweetness is part of the flavour. The batter will look loose and sloppy, but it sets in the oven.\n\nBake low, at 160C, for 1 hour 10 minutes, covering with foil if the top darkens. Cool in the tin. The loaf improves if wrapped in baking paper and kept for a day before cutting, as the flavours settle and the crumb becomes denser.',
-    ing: [
-      '350 g mixed dried fruit',
-      '300 ml hot strong tea',
-      '150 g light brown sugar',
-      '1 egg',
-      '300 g self-raising flour',
-      '2 tsp mixed spice',
-      '1/4 tsp salt',
-      '20 g butter, for the tin'
-    ],
-    st: [
-      'Put the dried fruit and hot tea in a bowl and leave to soak for 1 hour.',
-      'Heat the oven to 160C. Grease and line a 900 g loaf tin.',
-      'Stir the brown sugar and egg into the soaked fruit and any remaining tea.',
-      'Fold in the flour, mixed spice and salt until just combined. Pour into the tin.',
-      'Bake for 1 hour 10 minutes, covering with foil after 45 minutes, until a skewer comes out clean. Cool in the tin.'
-    ],
-    tips: [
-      'Do not drain the fruit.',
-      'Wrap and leave for a day for the best texture.',
-      'Cover with foil if the top darkens.'
-    ],
-    pair: ['Butter', 'Hot tea', 'Mature cheddar', 'Jam'],
-    store: 'Keeps wrapped for 1 week, or frozen for 2 months.',
-    rest: [60, 'Soaking'],
-    nut: [299, 5, 63, 3, 3, 36, 80]
-  },
 
   'funfetti-cookies': {
     d: 'Soft vanilla sugar cookies full of rainbow sprinkles, baked for 11 minutes and finished with a few extra on top.',

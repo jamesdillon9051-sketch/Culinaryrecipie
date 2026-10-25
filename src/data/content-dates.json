@@ -1,1033 +1,1028 @@
 {
  "/": {
-  "hash": "6eda24ea0168",
-  "lastmod": "2026-10-23",
-  "derivedHash": "5e5976ac12a5"
+  "hash": "e453f3ee3b28",
+  "lastmod": "2026-10-25",
+  "derivedHash": "b2229f4a7eb9"
  },
  "/about/": {
   "hash": "84b2dfd1c5ac",
-  "lastmod": "2026-10-23",
-  "derivedHash": "2666c87c06ff"
+  "lastmod": "2026-10-25",
+  "derivedHash": "e2b07a2d5bd2"
  },
  "/categories/": {
   "hash": "ecb574fe73a3",
-  "lastmod": "2026-10-23",
-  "derivedHash": "a6d2f9ff83be"
+  "lastmod": "2026-10-25",
+  "derivedHash": "cef0419ad8c7"
  },
  "/categories/appetizers/": {
-  "hash": "da1764ece3fd",
-  "lastmod": "2026-10-23",
-  "derivedHash": "eef795a0bc2b"
+  "hash": "f95c147259d0",
+  "lastmod": "2026-10-25",
+  "derivedHash": "209a3072a4c9"
  },
  "/categories/appetizers/american/": {
   "hash": "58a41de99638",
-  "lastmod": "2026-10-23",
-  "derivedHash": "d7e8a7f1e6e9"
+  "lastmod": "2026-10-25",
+  "derivedHash": "05112323d33a"
  },
  "/categories/appetizers/argentinian/": {
   "hash": "d6e85cc3241f",
-  "lastmod": "2026-10-23",
-  "derivedHash": "44e941d476d6"
+  "lastmod": "2026-10-25",
+  "derivedHash": "b81bab4af101"
  },
  "/categories/appetizers/australian/": {
-  "hash": "eac431ae85fa",
-  "lastmod": "2026-10-23",
-  "derivedHash": "551b72650f62"
+  "hash": "11420d16b6b1",
+  "lastmod": "2026-10-25",
+  "derivedHash": "140d76feb3d8"
  },
  "/categories/appetizers/british/": {
-  "hash": "85b9a4d013ae",
-  "lastmod": "2026-10-23",
-  "derivedHash": "3a03a29e2017"
+  "hash": "1f4f515ff9b4",
+  "lastmod": "2026-10-25",
+  "derivedHash": "5eb27803b1ff"
  },
  "/categories/appetizers/chinese/": {
-  "hash": "4f23fbd8bc49",
-  "lastmod": "2026-10-23",
-  "derivedHash": "9fc72225061d"
+  "hash": "eb6beda64393",
+  "lastmod": "2026-10-25",
+  "derivedHash": "b6b3b4b1d0bc"
  },
  "/categories/appetizers/egyptian/": {
   "hash": "0a15407c9626",
-  "lastmod": "2026-10-23",
-  "derivedHash": "bca507115c91"
+  "lastmod": "2026-10-25",
+  "derivedHash": "73b875bb7b40"
  },
  "/categories/appetizers/french/": {
   "hash": "782d24106a3a",
-  "lastmod": "2026-10-23",
-  "derivedHash": "8d2986629ecb"
+  "lastmod": "2026-10-25",
+  "derivedHash": "c811450244a7"
  },
  "/categories/appetizers/greek/": {
   "hash": "f0095ab05537",
-  "lastmod": "2026-10-23",
-  "derivedHash": "5d3ac9e77f93"
+  "lastmod": "2026-10-25",
+  "derivedHash": "ef81cd32c766"
  },
  "/categories/appetizers/indian/": {
   "hash": "5f62e6e197dd",
-  "lastmod": "2026-10-23",
-  "derivedHash": "0cfbef694af7"
+  "lastmod": "2026-10-25",
+  "derivedHash": "e593a2648a6e"
  },
  "/categories/appetizers/indonesian/": {
   "hash": "c67cbf755257",
-  "lastmod": "2026-10-23",
-  "derivedHash": "2bb69decbca9"
+  "lastmod": "2026-10-25",
+  "derivedHash": "572d1ddb00a3"
  },
  "/categories/appetizers/italian/": {
   "hash": "8e8f509da41a",
-  "lastmod": "2026-10-23",
-  "derivedHash": "bf1cfb56bf16"
+  "lastmod": "2026-10-25",
+  "derivedHash": "4ad39f9bf9d3"
  },
  "/categories/appetizers/japanese/": {
   "hash": "bd8980fc2126",
-  "lastmod": "2026-10-23",
-  "derivedHash": "ba7c6fa8d688"
+  "lastmod": "2026-10-25",
+  "derivedHash": "1fdbb3ff0aa4"
  },
  "/categories/appetizers/jewish/": {
   "hash": "6ff4f2196152",
-  "lastmod": "2026-10-23",
-  "derivedHash": "48fe20282f12"
+  "lastmod": "2026-10-25",
+  "derivedHash": "714871c2eb6c"
  },
  "/categories/appetizers/korean/": {
   "hash": "c3bb7047558a",
-  "lastmod": "2026-10-23",
-  "derivedHash": "c1d32157b74c"
+  "lastmod": "2026-10-25",
+  "derivedHash": "731efb092925"
  },
  "/categories/appetizers/lebanese/": {
   "hash": "35308f5c0250",
-  "lastmod": "2026-10-23",
-  "derivedHash": "ef50d6900ab7"
+  "lastmod": "2026-10-25",
+  "derivedHash": "3f5f5989c548"
  },
  "/categories/appetizers/mexican/": {
   "hash": "502e6335d9a7",
-  "lastmod": "2026-10-23",
-  "derivedHash": "f8e8e40ac59c"
+  "lastmod": "2026-10-25",
+  "derivedHash": "a81b5188b79e"
  },
  "/categories/appetizers/middle-eastern/": {
   "hash": "8351b5f1d1ec",
-  "lastmod": "2026-10-23",
-  "derivedHash": "afa1695371c8"
- },
- "/categories/appetizers/new-zealand/": {
-  "hash": "44f6729c2b83",
-  "lastmod": "2026-10-23",
-  "derivedHash": "23804fb9dec0"
+  "lastmod": "2026-10-25",
+  "derivedHash": "bc52ad564cd4"
  },
  "/categories/appetizers/peruvian/": {
   "hash": "90c4dfe0ef09",
-  "lastmod": "2026-10-23",
-  "derivedHash": "6f625f7c1df1"
+  "lastmod": "2026-10-25",
+  "derivedHash": "7f1679cee3b5"
  },
  "/categories/appetizers/portuguese/": {
   "hash": "03584b4a616c",
-  "lastmod": "2026-10-23",
-  "derivedHash": "9ed861d67538"
+  "lastmod": "2026-10-25",
+  "derivedHash": "18642ae78745"
  },
  "/categories/appetizers/spanish/": {
   "hash": "64f2990912d3",
-  "lastmod": "2026-10-23",
-  "derivedHash": "72fed2d8a507"
+  "lastmod": "2026-10-25",
+  "derivedHash": "7ae467272ae9"
  },
  "/categories/appetizers/tunisian/": {
   "hash": "ba3ab48367b6",
-  "lastmod": "2026-10-23",
-  "derivedHash": "d0a29c2ad330"
+  "lastmod": "2026-10-25",
+  "derivedHash": "3182353cd5ad"
  },
  "/categories/appetizers/turkish/": {
   "hash": "faf1918af969",
-  "lastmod": "2026-10-23",
-  "derivedHash": "a99a67944f6b"
+  "lastmod": "2026-10-25",
+  "derivedHash": "755f06155b76"
  },
  "/categories/baking/": {
-  "hash": "bcdf9e76d09f",
-  "lastmod": "2026-10-23",
-  "derivedHash": "259758c1ea4b"
+  "hash": "2885689b6cde",
+  "lastmod": "2026-10-25",
+  "derivedHash": "a422cd9fb2d6"
  },
  "/categories/baking/american/": {
-  "hash": "5ca5978d7473",
-  "lastmod": "2026-10-23",
-  "derivedHash": "ddbfc38047f4"
+  "hash": "35a9eb55520c",
+  "lastmod": "2026-10-25",
+  "derivedHash": "7df40f634b6d"
  },
  "/categories/baking/australian/": {
   "hash": "3a55c105fa0d",
-  "lastmod": "2026-10-23",
-  "derivedHash": "d1a15e58ce16"
+  "lastmod": "2026-10-25",
+  "derivedHash": "60df7ab5c1f7"
  },
  "/categories/baking/british/": {
-  "hash": "788ce1e52fb7",
-  "lastmod": "2026-10-23",
-  "derivedHash": "202d2c689a6a"
+  "hash": "e2af4f854ca0",
+  "lastmod": "2026-10-25",
+  "derivedHash": "25ad7965f824"
  },
  "/categories/baking/canadian/": {
   "hash": "d53e16b3d1d0",
-  "lastmod": "2026-10-23",
-  "derivedHash": "549594534e9c"
+  "lastmod": "2026-10-25",
+  "derivedHash": "4425705f524c"
  },
  "/categories/baking/chinese/": {
   "hash": "f946f4946a6f",
-  "lastmod": "2026-10-23",
-  "derivedHash": "6e839d254fa2"
+  "lastmod": "2026-10-25",
+  "derivedHash": "82c2712a04af"
  },
  "/categories/baking/dutch/": {
   "hash": "d2a8fb37ddaf",
-  "lastmod": "2026-10-23",
-  "derivedHash": "a90adbbd9cd9"
+  "lastmod": "2026-10-25",
+  "derivedHash": "534ccd63934e"
  },
  "/categories/baking/finnish/": {
   "hash": "a711ced41c95",
-  "lastmod": "2026-10-23",
-  "derivedHash": "6dcdb662bcd5"
+  "lastmod": "2026-10-25",
+  "derivedHash": "478643326f49"
  },
  "/categories/baking/french/": {
   "hash": "931cb86ef2a8",
-  "lastmod": "2026-10-23",
-  "derivedHash": "d29c2ecc83b1"
+  "lastmod": "2026-10-25",
+  "derivedHash": "88e651484893"
  },
  "/categories/baking/german/": {
   "hash": "d1e943d486fd",
-  "lastmod": "2026-10-23",
-  "derivedHash": "f5437d76cf9c"
+  "lastmod": "2026-10-25",
+  "derivedHash": "bac170fa1931"
  },
  "/categories/baking/greek/": {
   "hash": "a31fd728d67f",
-  "lastmod": "2026-10-23",
-  "derivedHash": "c22d75fcd599"
+  "lastmod": "2026-10-25",
+  "derivedHash": "04ff92bdd93a"
  },
  "/categories/baking/indian/": {
   "hash": "24a1366d0900",
-  "lastmod": "2026-10-23",
-  "derivedHash": "b7920fcbeb37"
+  "lastmod": "2026-10-25",
+  "derivedHash": "5a62d7e89a5b"
  },
  "/categories/baking/irish/": {
   "hash": "e783464077df",
-  "lastmod": "2026-10-23",
-  "derivedHash": "ba6b9248d6ed"
+  "lastmod": "2026-10-25",
+  "derivedHash": "d1fcbb22e78b"
  },
  "/categories/baking/italian/": {
   "hash": "99cfcadf282d",
-  "lastmod": "2026-10-23",
-  "derivedHash": "49caee08d8ad"
+  "lastmod": "2026-10-25",
+  "derivedHash": "8d1e841a4501"
  },
  "/categories/baking/lebanese/": {
   "hash": "2e0238f2ed0a",
-  "lastmod": "2026-10-23",
-  "derivedHash": "0d392a12d36a"
+  "lastmod": "2026-10-25",
+  "derivedHash": "c0885812c923"
  },
  "/categories/baking/mexican/": {
   "hash": "e6de127d9224",
-  "lastmod": "2026-10-23",
-  "derivedHash": "5c8eda60bc55"
+  "lastmod": "2026-10-25",
+  "derivedHash": "eafb50b9f3c7"
  },
  "/categories/baking/new-zealand/": {
-  "hash": "690d84bf95f8",
-  "lastmod": "2026-10-23",
-  "derivedHash": "44ef29ba1926"
+  "hash": "65b38c8c13b7",
+  "lastmod": "2026-10-25",
+  "derivedHash": "37d45e1d13a0"
  },
  "/categories/baking/scottish/": {
-  "hash": "7920d8fe622b",
-  "lastmod": "2026-10-23",
-  "derivedHash": "6373d56aa4f4"
+  "hash": "abc5c47b5d96",
+  "lastmod": "2026-10-25",
+  "derivedHash": "ae519b922abb"
  },
  "/categories/baking/swedish/": {
   "hash": "3f1a17f12630",
-  "lastmod": "2026-10-23",
-  "derivedHash": "442979efe8e8"
+  "lastmod": "2026-10-25",
+  "derivedHash": "511a18404b3c"
  },
  "/categories/breakfast/": {
-  "hash": "12afc1de736b",
-  "lastmod": "2026-10-23",
-  "derivedHash": "3a9dc3459c6b"
+  "hash": "d102e0cc2eb9",
+  "lastmod": "2026-10-25",
+  "derivedHash": "ee9c0058c86d"
  },
  "/categories/breakfast/american/": {
-  "hash": "3813eb1adace",
-  "lastmod": "2026-10-23",
-  "derivedHash": "f4f615210766"
+  "hash": "74ed77b05fc9",
+  "lastmod": "2026-10-25",
+  "derivedHash": "2fb1a7956a51"
  },
  "/categories/breakfast/australian/": {
   "hash": "9451d4612667",
-  "lastmod": "2026-10-23",
-  "derivedHash": "58d944f96d64"
+  "lastmod": "2026-10-25",
+  "derivedHash": "46f21431809c"
  },
  "/categories/breakfast/british/": {
   "hash": "b151464cfe90",
-  "lastmod": "2026-10-23",
-  "derivedHash": "32e9d17c7ce9"
+  "lastmod": "2026-10-25",
+  "derivedHash": "e677e0bf9c96"
  },
  "/categories/breakfast/chinese/": {
   "hash": "8952ad149991",
-  "lastmod": "2026-10-23",
-  "derivedHash": "7e718debda4a"
+  "lastmod": "2026-10-25",
+  "derivedHash": "57cbb44c0448"
  },
  "/categories/breakfast/french/": {
   "hash": "8c000e0c320b",
-  "lastmod": "2026-10-23",
-  "derivedHash": "5d95088e8f00"
+  "lastmod": "2026-10-25",
+  "derivedHash": "5f826cba14cd"
  },
  "/categories/breakfast/greek/": {
   "hash": "d67967200daf",
-  "lastmod": "2026-10-23",
-  "derivedHash": "0775062ed8fb"
+  "lastmod": "2026-10-25",
+  "derivedHash": "3e5965559f86"
  },
  "/categories/breakfast/indian/": {
   "hash": "db6a58a1a22e",
-  "lastmod": "2026-10-23",
-  "derivedHash": "fb9d7c380c1a"
+  "lastmod": "2026-10-25",
+  "derivedHash": "bff911be7fe3"
  },
  "/categories/breakfast/international/": {
   "hash": "e0ebd552574d",
-  "lastmod": "2026-10-23",
-  "derivedHash": "f24ab9574f34"
+  "lastmod": "2026-10-25",
+  "derivedHash": "29f387aee507"
  },
  "/categories/breakfast/irish/": {
-  "hash": "8f3b424c5a0e",
-  "lastmod": "2026-10-23",
-  "derivedHash": "9a1614d7d523"
+  "hash": "c2bd3ddd1670",
+  "lastmod": "2026-10-25",
+  "derivedHash": "269d429a741f"
  },
  "/categories/breakfast/italian/": {
   "hash": "e43248321887",
-  "lastmod": "2026-10-23",
-  "derivedHash": "5bc7fe6271f2"
+  "lastmod": "2026-10-25",
+  "derivedHash": "c9c7fa960ca2"
  },
  "/categories/breakfast/mexican/": {
   "hash": "5a93ef76c051",
-  "lastmod": "2026-10-23",
-  "derivedHash": "349abebc23c5"
+  "lastmod": "2026-10-25",
+  "derivedHash": "cbe3960590e1"
  },
  "/categories/breakfast/scottish/": {
   "hash": "248a8a54a139",
-  "lastmod": "2026-10-23",
-  "derivedHash": "54cb6a30a905"
+  "lastmod": "2026-10-25",
+  "derivedHash": "25a92d88ce3d"
  },
  "/categories/breakfast/tunisian/": {
   "hash": "68543c0e019e",
-  "lastmod": "2026-10-23",
-  "derivedHash": "b20e2388211f"
+  "lastmod": "2026-10-25",
+  "derivedHash": "a2ebe296c6f3"
  },
  "/categories/desserts/": {
-  "hash": "0b272ff079a1",
-  "lastmod": "2026-10-23",
-  "derivedHash": "b4ff1104da5c"
+  "hash": "b089564ee15e",
+  "lastmod": "2026-10-25",
+  "derivedHash": "0f1cc26f2081"
  },
  "/categories/desserts/american/": {
-  "hash": "e64a708bcd15",
-  "lastmod": "2026-10-23",
-  "derivedHash": "d11b529a6eb0"
+  "hash": "e963cf0139c8",
+  "lastmod": "2026-10-25",
+  "derivedHash": "10983dce5cf8"
  },
  "/categories/desserts/australian/": {
   "hash": "c80cd88b46d4",
-  "lastmod": "2026-10-23",
-  "derivedHash": "16b30d50d677"
+  "lastmod": "2026-10-25",
+  "derivedHash": "e9087fb463f7"
  },
  "/categories/desserts/austrian/": {
   "hash": "3a226e3eb962",
-  "lastmod": "2026-10-23",
-  "derivedHash": "1228cda51eab"
+  "lastmod": "2026-10-25",
+  "derivedHash": "a13f237e725f"
  },
  "/categories/desserts/brazilian/": {
   "hash": "fa99a3258e82",
-  "lastmod": "2026-10-23",
-  "derivedHash": "b8564d2e565c"
+  "lastmod": "2026-10-25",
+  "derivedHash": "7bbee38c30da"
  },
  "/categories/desserts/british/": {
   "hash": "5f46fb43adb2",
-  "lastmod": "2026-10-23",
-  "derivedHash": "b1509332c057"
+  "lastmod": "2026-10-25",
+  "derivedHash": "2e6f6f226914"
  },
  "/categories/desserts/canadian/": {
   "hash": "54dabfe46189",
-  "lastmod": "2026-10-23",
-  "derivedHash": "98aa3e3d5d77"
+  "lastmod": "2026-10-25",
+  "derivedHash": "cc2db71c4a31"
  },
  "/categories/desserts/chinese/": {
   "hash": "2a83aaf0d42b",
-  "lastmod": "2026-10-23",
-  "derivedHash": "0d452caaf6bf"
+  "lastmod": "2026-10-25",
+  "derivedHash": "fad51e69fb6d"
  },
  "/categories/desserts/egyptian/": {
   "hash": "f4fd8a147ebc",
-  "lastmod": "2026-10-23",
-  "derivedHash": "b1fe293c73a2"
+  "lastmod": "2026-10-25",
+  "derivedHash": "1b9e18e164b0"
  },
  "/categories/desserts/french/": {
   "hash": "e22725e5433f",
-  "lastmod": "2026-10-23",
-  "derivedHash": "6afa73b446e3"
+  "lastmod": "2026-10-25",
+  "derivedHash": "4d2cfb6ac106"
  },
  "/categories/desserts/german/": {
   "hash": "9ac1d2c99a5f",
-  "lastmod": "2026-10-23",
-  "derivedHash": "c3eea28f7377"
+  "lastmod": "2026-10-25",
+  "derivedHash": "6492e32aab4a"
  },
  "/categories/desserts/greek/": {
   "hash": "4822dc429141",
-  "lastmod": "2026-10-23",
-  "derivedHash": "5d21658dba88"
+  "lastmod": "2026-10-25",
+  "derivedHash": "dbe39e722097"
  },
  "/categories/desserts/indian/": {
   "hash": "28c6a83a610e",
-  "lastmod": "2026-10-23",
-  "derivedHash": "7548e9454de2"
+  "lastmod": "2026-10-25",
+  "derivedHash": "c8781723164a"
  },
  "/categories/desserts/italian/": {
   "hash": "d227c2796826",
-  "lastmod": "2026-10-23",
-  "derivedHash": "5dfabbd7bf36"
+  "lastmod": "2026-10-25",
+  "derivedHash": "4215c20dbc44"
  },
  "/categories/desserts/japanese/": {
   "hash": "fa8e84a5ad48",
-  "lastmod": "2026-10-23",
-  "derivedHash": "c434bcaf0ca9"
+  "lastmod": "2026-10-25",
+  "derivedHash": "8ad61e499209"
  },
  "/categories/desserts/lebanese/": {
   "hash": "9a8188f7f76c",
-  "lastmod": "2026-10-23",
-  "derivedHash": "9f17c452e264"
+  "lastmod": "2026-10-25",
+  "derivedHash": "fd211bf4ba79"
  },
  "/categories/desserts/mexican/": {
   "hash": "9cab85650abe",
-  "lastmod": "2026-10-23",
-  "derivedHash": "ea8f7730de0f"
+  "lastmod": "2026-10-25",
+  "derivedHash": "7593a492f353"
  },
  "/categories/desserts/middle-eastern/": {
   "hash": "ceca633631a8",
-  "lastmod": "2026-10-23",
-  "derivedHash": "a66fe8f932f5"
+  "lastmod": "2026-10-25",
+  "derivedHash": "e89d5a0c8721"
  },
  "/categories/desserts/new-zealand/": {
   "hash": "68caf420c072",
-  "lastmod": "2026-10-23",
-  "derivedHash": "19441f354719"
+  "lastmod": "2026-10-25",
+  "derivedHash": "7441a2ab676a"
  },
  "/categories/desserts/portuguese/": {
   "hash": "ef4b8a1f9023",
-  "lastmod": "2026-10-23",
-  "derivedHash": "1c79333b0dc3"
+  "lastmod": "2026-10-25",
+  "derivedHash": "9442f81a7252"
  },
  "/categories/desserts/spanish/": {
   "hash": "1654c4e3134c",
-  "lastmod": "2026-10-23",
-  "derivedHash": "732a1be9f615"
+  "lastmod": "2026-10-25",
+  "derivedHash": "8ea374b8b7b8"
  },
  "/categories/desserts/tunisian/": {
   "hash": "6bf45f93af24",
-  "lastmod": "2026-10-23",
-  "derivedHash": "70b70c7bac5a"
+  "lastmod": "2026-10-25",
+  "derivedHash": "584a93e4c357"
  },
  "/categories/dinner/": {
-  "hash": "7bc14b14c114",
-  "lastmod": "2026-10-23",
-  "derivedHash": "05ae5eae999c"
+  "hash": "5273bf7c23fa",
+  "lastmod": "2026-10-25",
+  "derivedHash": "549945e7b953"
  },
  "/categories/dinner/african/": {
   "hash": "5e31086abea7",
-  "lastmod": "2026-10-23",
-  "derivedHash": "49c84c15912a"
+  "lastmod": "2026-10-25",
+  "derivedHash": "214227ee37c7"
  },
  "/categories/dinner/american/": {
-  "hash": "b9b4d58e05ea",
-  "lastmod": "2026-10-23",
-  "derivedHash": "48d508e6900c"
+  "hash": "cac233ea163c",
+  "lastmod": "2026-10-25",
+  "derivedHash": "727a467775a1"
  },
  "/categories/dinner/australian/": {
-  "hash": "aded2c56b234",
-  "lastmod": "2026-10-23",
-  "derivedHash": "a50ffbd547d5"
+  "hash": "4f877c4443d6",
+  "lastmod": "2026-10-25",
+  "derivedHash": "9de5095414cd"
  },
  "/categories/dinner/austrian/": {
   "hash": "0c3cfffb659c",
-  "lastmod": "2026-10-23",
-  "derivedHash": "8823453ecae8"
+  "lastmod": "2026-10-25",
+  "derivedHash": "19b1b7b5bee0"
  },
  "/categories/dinner/balkan/": {
   "hash": "d9657bb0bda3",
-  "lastmod": "2026-10-23",
-  "derivedHash": "9b4a421a7df6"
+  "lastmod": "2026-10-25",
+  "derivedHash": "05f6d06b7396"
  },
  "/categories/dinner/bangladeshi/": {
   "hash": "4c42fd641092",
-  "lastmod": "2026-10-23",
-  "derivedHash": "cedc5f687858"
+  "lastmod": "2026-10-25",
+  "derivedHash": "cf57316e89c5"
  },
  "/categories/dinner/belgian/": {
   "hash": "eaa517683bbc",
-  "lastmod": "2026-10-23",
-  "derivedHash": "c4f3d73ab79d"
+  "lastmod": "2026-10-25",
+  "derivedHash": "b2574530a869"
  },
  "/categories/dinner/brazilian/": {
   "hash": "eecbf149f6ec",
-  "lastmod": "2026-10-23",
-  "derivedHash": "de8292c01e44"
+  "lastmod": "2026-10-25",
+  "derivedHash": "792aba657594"
  },
  "/categories/dinner/british/": {
-  "hash": "1298f38ec7c5",
-  "lastmod": "2026-10-23",
-  "derivedHash": "6e8d4b0ae6f3"
+  "hash": "73f5edf19456",
+  "lastmod": "2026-10-25",
+  "derivedHash": "c40b4a84239e"
  },
  "/categories/dinner/canadian/": {
   "hash": "72757ea68fb6",
-  "lastmod": "2026-10-23",
-  "derivedHash": "895d24f3388c"
+  "lastmod": "2026-10-25",
+  "derivedHash": "14c74d7e407a"
  },
  "/categories/dinner/caribbean/": {
   "hash": "2007a45c67ce",
-  "lastmod": "2026-10-23",
-  "derivedHash": "07b1eeed258f"
+  "lastmod": "2026-10-25",
+  "derivedHash": "176f44801207"
  },
  "/categories/dinner/chinese/": {
   "hash": "782d1b1702ad",
-  "lastmod": "2026-10-23",
-  "derivedHash": "4fd137861946"
+  "lastmod": "2026-10-25",
+  "derivedHash": "50ec82c94c61"
  },
  "/categories/dinner/croatian/": {
   "hash": "55a5e93ff1de",
-  "lastmod": "2026-10-23",
-  "derivedHash": "8b00e1f26b1a"
+  "lastmod": "2026-10-25",
+  "derivedHash": "880208895c75"
  },
  "/categories/dinner/cuban/": {
   "hash": "e691a0be1e42",
-  "lastmod": "2026-10-23",
-  "derivedHash": "4abed8e07d1d"
+  "lastmod": "2026-10-25",
+  "derivedHash": "7a7980cff61e"
  },
  "/categories/dinner/czech/": {
   "hash": "dc1cca226e38",
-  "lastmod": "2026-10-23",
-  "derivedHash": "65c76489b5a2"
+  "lastmod": "2026-10-25",
+  "derivedHash": "0603606443bc"
  },
  "/categories/dinner/danish/": {
   "hash": "d27734c6c189",
-  "lastmod": "2026-10-23",
-  "derivedHash": "fdd8914e750b"
+  "lastmod": "2026-10-25",
+  "derivedHash": "6dced0c440d8"
  },
  "/categories/dinner/dutch/": {
   "hash": "0d60b16bfa0b",
-  "lastmod": "2026-10-23",
-  "derivedHash": "711a8349b722"
+  "lastmod": "2026-10-25",
+  "derivedHash": "8f0d86e03833"
  },
  "/categories/dinner/egyptian/": {
   "hash": "b65bdd77a25d",
-  "lastmod": "2026-10-23",
-  "derivedHash": "0f614a93d2b9"
+  "lastmod": "2026-10-25",
+  "derivedHash": "618c3b790a2d"
  },
  "/categories/dinner/ethiopian/": {
   "hash": "12ed58066483",
-  "lastmod": "2026-10-23",
-  "derivedHash": "7c08b2ee092d"
+  "lastmod": "2026-10-25",
+  "derivedHash": "66b339b8af54"
  },
  "/categories/dinner/filipino/": {
   "hash": "af60dd4e9024",
-  "lastmod": "2026-10-23",
-  "derivedHash": "a4c25a899b59"
+  "lastmod": "2026-10-25",
+  "derivedHash": "ef7ff74a7e88"
  },
  "/categories/dinner/finnish/": {
   "hash": "daaa449b2bdc",
-  "lastmod": "2026-10-23",
-  "derivedHash": "fe2c6e48cb1e"
+  "lastmod": "2026-10-25",
+  "derivedHash": "f70b10fce1a4"
  },
  "/categories/dinner/french/": {
-  "hash": "8d5bc4938969",
-  "lastmod": "2026-10-23",
-  "derivedHash": "73aff3aafdf9"
+  "hash": "11f4e6fbfb5e",
+  "lastmod": "2026-10-25",
+  "derivedHash": "71d83136f594"
  },
  "/categories/dinner/georgian/": {
   "hash": "309dbc5fbe64",
-  "lastmod": "2026-10-23",
-  "derivedHash": "953339d378f8"
+  "lastmod": "2026-10-25",
+  "derivedHash": "7e99ccd0a79e"
  },
  "/categories/dinner/german/": {
   "hash": "bbd08419d0fd",
-  "lastmod": "2026-10-23",
-  "derivedHash": "2c2022226356"
+  "lastmod": "2026-10-25",
+  "derivedHash": "3eabf25ef4e9"
  },
  "/categories/dinner/ghanaian/": {
   "hash": "7c3940f26a83",
-  "lastmod": "2026-10-23",
-  "derivedHash": "dca1076bf58e"
+  "lastmod": "2026-10-25",
+  "derivedHash": "d13a7ed125b7"
  },
  "/categories/dinner/greek/": {
   "hash": "e89c66dec656",
-  "lastmod": "2026-10-23",
-  "derivedHash": "1b8362d0a5e9"
+  "lastmod": "2026-10-25",
+  "derivedHash": "21ddacc2e860"
  },
  "/categories/dinner/hungarian/": {
   "hash": "814aba5887fc",
-  "lastmod": "2026-10-23",
-  "derivedHash": "cd85f04175a3"
+  "lastmod": "2026-10-25",
+  "derivedHash": "dd84f9903359"
  },
  "/categories/dinner/indian/": {
   "hash": "c1035e0f919d",
-  "lastmod": "2026-10-23",
-  "derivedHash": "e80816777e25"
+  "lastmod": "2026-10-25",
+  "derivedHash": "5c33d4f2f1db"
  },
  "/categories/dinner/indonesian/": {
   "hash": "9f0d9ca57d35",
-  "lastmod": "2026-10-23",
-  "derivedHash": "a8399d4e9452"
+  "lastmod": "2026-10-25",
+  "derivedHash": "43eb62320b8e"
  },
  "/categories/dinner/irish/": {
   "hash": "5952db6e1b3d",
-  "lastmod": "2026-10-23",
-  "derivedHash": "3c0d362d2293"
+  "lastmod": "2026-10-25",
+  "derivedHash": "fd8bc9296301"
  },
  "/categories/dinner/italian/": {
-  "hash": "6e349d52b483",
-  "lastmod": "2026-10-23",
-  "derivedHash": "4e10003986dc"
+  "hash": "1a16262c0223",
+  "lastmod": "2026-10-25",
+  "derivedHash": "608ca224c992"
  },
  "/categories/dinner/jamaican/": {
   "hash": "2300892d9190",
-  "lastmod": "2026-10-23",
-  "derivedHash": "ac1341927736"
+  "lastmod": "2026-10-25",
+  "derivedHash": "8ebf76ed6603"
  },
  "/categories/dinner/japanese/": {
-  "hash": "2f619cbd8d6d",
-  "lastmod": "2026-10-23",
-  "derivedHash": "362e3c08a909"
+  "hash": "e9c48568bacc",
+  "lastmod": "2026-10-25",
+  "derivedHash": "1e55d9cd6e79"
  },
  "/categories/dinner/jewish/": {
   "hash": "e3fea2e734f7",
-  "lastmod": "2026-10-23",
-  "derivedHash": "ffbc7b0b7e1e"
+  "lastmod": "2026-10-25",
+  "derivedHash": "e6d6bec785df"
  },
  "/categories/dinner/kenyan/": {
   "hash": "769515c8d511",
-  "lastmod": "2026-10-23",
-  "derivedHash": "c3a639b4604d"
+  "lastmod": "2026-10-25",
+  "derivedHash": "ae28731cc0f0"
  },
  "/categories/dinner/korean/": {
   "hash": "2dca508ee015",
-  "lastmod": "2026-10-23",
-  "derivedHash": "d2f59f32e6fd"
+  "lastmod": "2026-10-25",
+  "derivedHash": "18c5ef82dd47"
  },
  "/categories/dinner/lebanese/": {
   "hash": "70c83c9723d0",
-  "lastmod": "2026-10-23",
-  "derivedHash": "7095b4586709"
+  "lastmod": "2026-10-25",
+  "derivedHash": "5ab358a84a78"
  },
  "/categories/dinner/malaysian/": {
   "hash": "d39406b305bb",
-  "lastmod": "2026-10-23",
-  "derivedHash": "3c8d51106ee3"
+  "lastmod": "2026-10-25",
+  "derivedHash": "7b4be52758f9"
  },
  "/categories/dinner/mexican/": {
   "hash": "caf4596e24e2",
-  "lastmod": "2026-10-23",
-  "derivedHash": "aa1c7c02ae05"
+  "lastmod": "2026-10-25",
+  "derivedHash": "4d1fdf9388f6"
  },
  "/categories/dinner/middle-eastern/": {
   "hash": "11fce15b2183",
-  "lastmod": "2026-10-23",
-  "derivedHash": "5e812280274e"
+  "lastmod": "2026-10-25",
+  "derivedHash": "1d54ec411406"
  },
  "/categories/dinner/moroccan/": {
   "hash": "3e7d032ba4d4",
-  "lastmod": "2026-10-23",
-  "derivedHash": "042daf7bdc80"
+  "lastmod": "2026-10-25",
+  "derivedHash": "c2b5a3a094a3"
  },
  "/categories/dinner/new-zealand/": {
-  "hash": "952a9ad1ff20",
-  "lastmod": "2026-10-23",
-  "derivedHash": "7c678b4e7cf3"
+  "hash": "df82b9bb3527",
+  "lastmod": "2026-10-25",
+  "derivedHash": "b7a090cbc0b6"
  },
  "/categories/dinner/nigerian/": {
   "hash": "0660676d2dc2",
-  "lastmod": "2026-10-23",
-  "derivedHash": "9e43f1bfa3e2"
+  "lastmod": "2026-10-25",
+  "derivedHash": "4ff4d8af8179"
  },
  "/categories/dinner/pacific/": {
   "hash": "41b7056272f6",
-  "lastmod": "2026-10-23",
-  "derivedHash": "30d8f002bc56"
+  "lastmod": "2026-10-25",
+  "derivedHash": "b4439c34bb32"
  },
  "/categories/dinner/pakistani/": {
   "hash": "8b2111b9bddd",
-  "lastmod": "2026-10-23",
-  "derivedHash": "6d7ac5e7e35f"
+  "lastmod": "2026-10-25",
+  "derivedHash": "d2e8b18bd302"
  },
  "/categories/dinner/persian/": {
   "hash": "5fa5dd1ad1ba",
-  "lastmod": "2026-10-23",
-  "derivedHash": "4937524ba530"
+  "lastmod": "2026-10-25",
+  "derivedHash": "a7491c1a6414"
  },
  "/categories/dinner/peruvian/": {
   "hash": "95fef9fca8d0",
-  "lastmod": "2026-10-23",
-  "derivedHash": "3a3d209a9dfd"
+  "lastmod": "2026-10-25",
+  "derivedHash": "a48d98e84923"
  },
  "/categories/dinner/polish/": {
   "hash": "0453c6a105c2",
-  "lastmod": "2026-10-23",
-  "derivedHash": "127d1fcb4b66"
+  "lastmod": "2026-10-25",
+  "derivedHash": "51194a0aba01"
  },
  "/categories/dinner/portuguese/": {
   "hash": "930421dd1c1c",
-  "lastmod": "2026-10-23",
-  "derivedHash": "041552061adc"
+  "lastmod": "2026-10-25",
+  "derivedHash": "489bfd52d4ca"
  },
  "/categories/dinner/puerto-rican/": {
   "hash": "4c5393654800",
-  "lastmod": "2026-10-23",
-  "derivedHash": "ce13f98f1fa9"
+  "lastmod": "2026-10-25",
+  "derivedHash": "0743742c5a58"
  },
  "/categories/dinner/romanian/": {
   "hash": "d2f7dca7c956",
-  "lastmod": "2026-10-23",
-  "derivedHash": "c43aff9e5b8b"
+  "lastmod": "2026-10-25",
+  "derivedHash": "47b2ea3dedde"
  },
  "/categories/dinner/russian/": {
   "hash": "f56cd95652d6",
-  "lastmod": "2026-10-23",
-  "derivedHash": "c3c3de8c95ec"
+  "lastmod": "2026-10-25",
+  "derivedHash": "2475755c1c2c"
  },
  "/categories/dinner/scottish/": {
   "hash": "4b11f72b0302",
-  "lastmod": "2026-10-23",
-  "derivedHash": "ad62427d4fd4"
+  "lastmod": "2026-10-25",
+  "derivedHash": "21fc9f571911"
  },
  "/categories/dinner/singaporean/": {
   "hash": "fb22418cbcc3",
-  "lastmod": "2026-10-23",
-  "derivedHash": "82a7e4f241cb"
+  "lastmod": "2026-10-25",
+  "derivedHash": "d300dacbe901"
  },
  "/categories/dinner/south-african/": {
   "hash": "c2bcfc4d004f",
-  "lastmod": "2026-10-23",
-  "derivedHash": "faf478957afa"
+  "lastmod": "2026-10-25",
+  "derivedHash": "ee5b7e55366e"
  },
  "/categories/dinner/spanish/": {
   "hash": "2dae8250228b",
-  "lastmod": "2026-10-23",
-  "derivedHash": "e596b072793f"
+  "lastmod": "2026-10-25",
+  "derivedHash": "06120fa71b93"
  },
  "/categories/dinner/sri-lankan/": {
   "hash": "13b1792bd0af",
-  "lastmod": "2026-10-23",
-  "derivedHash": "2a700ccf9594"
+  "lastmod": "2026-10-25",
+  "derivedHash": "440b6e6fa077"
  },
  "/categories/dinner/swedish/": {
   "hash": "4cb7a3d4cbaf",
-  "lastmod": "2026-10-23",
-  "derivedHash": "d5fa2bbf806a"
+  "lastmod": "2026-10-25",
+  "derivedHash": "735be5e1d3ea"
  },
  "/categories/dinner/thai/": {
   "hash": "f362d2eb98a2",
-  "lastmod": "2026-10-23",
-  "derivedHash": "621fdcdbee70"
+  "lastmod": "2026-10-25",
+  "derivedHash": "1c2e43b61a4a"
  },
  "/categories/dinner/tunisian/": {
   "hash": "cf4f44fdd3e2",
-  "lastmod": "2026-10-23",
-  "derivedHash": "7548fc163a73"
+  "lastmod": "2026-10-25",
+  "derivedHash": "e9a3d2514e4a"
  },
  "/categories/dinner/turkish/": {
   "hash": "be9644c1d0c6",
-  "lastmod": "2026-10-23",
-  "derivedHash": "9bff33b08411"
+  "lastmod": "2026-10-25",
+  "derivedHash": "9eac09e0d49e"
  },
  "/categories/dinner/vietnamese/": {
   "hash": "f497e6591667",
-  "lastmod": "2026-10-23",
-  "derivedHash": "84c7b61e1962"
+  "lastmod": "2026-10-25",
+  "derivedHash": "d1950837325d"
  },
  "/categories/drinks/": {
   "hash": "26bdf1c9731d",
-  "lastmod": "2026-10-23",
-  "derivedHash": "c3a5c1c10e27"
+  "lastmod": "2026-10-25",
+  "derivedHash": "b1dedcf0440e"
  },
  "/categories/drinks/american/": {
   "hash": "e1038d9b084d",
-  "lastmod": "2026-10-23",
-  "derivedHash": "2dbcf2fa3e47"
+  "lastmod": "2026-10-25",
+  "derivedHash": "0d8501879e8b"
  },
  "/categories/drinks/british/": {
   "hash": "dddcf3fc99e6",
-  "lastmod": "2026-10-23",
-  "derivedHash": "a9608e19cc81"
+  "lastmod": "2026-10-25",
+  "derivedHash": "025acd857136"
  },
  "/categories/drinks/canadian/": {
   "hash": "eb95ca302678",
-  "lastmod": "2026-10-23",
-  "derivedHash": "6c4966be8de1"
+  "lastmod": "2026-10-25",
+  "derivedHash": "d90229f49c5e"
  },
  "/categories/drinks/indian/": {
   "hash": "a649e8f252bd",
-  "lastmod": "2026-10-23",
-  "derivedHash": "4147ba11c166"
+  "lastmod": "2026-10-25",
+  "derivedHash": "8d5cbedfddc4"
  },
  "/categories/drinks/international/": {
   "hash": "8fed33145746",
-  "lastmod": "2026-10-23",
-  "derivedHash": "be552bd4b48c"
+  "lastmod": "2026-10-25",
+  "derivedHash": "994546adbbbc"
  },
  "/categories/drinks/italian/": {
   "hash": "66b4fb54b8fb",
-  "lastmod": "2026-10-23",
-  "derivedHash": "c3242bd34552"
+  "lastmod": "2026-10-25",
+  "derivedHash": "fc417582f3a8"
  },
  "/categories/drinks/mexican/": {
   "hash": "5b96224f4e83",
-  "lastmod": "2026-10-23",
-  "derivedHash": "292ead8e380b"
+  "lastmod": "2026-10-25",
+  "derivedHash": "d52391a0edb3"
  },
  "/categories/drinks/turkish/": {
   "hash": "508defae5e6c",
-  "lastmod": "2026-10-23",
-  "derivedHash": "3c9dc6209a23"
+  "lastmod": "2026-10-25",
+  "derivedHash": "b6ff44df8adf"
  },
  "/categories/healthy/": {
-  "hash": "2164e2b236e2",
-  "lastmod": "2026-10-23",
-  "derivedHash": "b660a9b0e23b"
+  "hash": "a44780df1668",
+  "lastmod": "2026-10-25",
+  "derivedHash": "65f7d0a67cbd"
  },
  "/categories/healthy/american/": {
-  "hash": "6f848969205f",
-  "lastmod": "2026-10-23",
-  "derivedHash": "da43f613de61"
+  "hash": "b39ed00ae7f5",
+  "lastmod": "2026-10-25",
+  "derivedHash": "02f1cf8eaa85"
  },
  "/categories/healthy/british/": {
   "hash": "5137e6df7806",
-  "lastmod": "2026-10-23",
-  "derivedHash": "38e03ff293c3"
+  "lastmod": "2026-10-25",
+  "derivedHash": "de7be6b29d34"
  },
  "/categories/healthy/chinese/": {
   "hash": "522e505e4b3c",
-  "lastmod": "2026-10-23",
-  "derivedHash": "1215e09b8c67"
+  "lastmod": "2026-10-25",
+  "derivedHash": "9547ed2b8b41"
  },
  "/categories/healthy/french/": {
   "hash": "71a65c354a03",
-  "lastmod": "2026-10-23",
-  "derivedHash": "6293fcbedc89"
+  "lastmod": "2026-10-25",
+  "derivedHash": "2d52aa8c28af"
  },
  "/categories/healthy/greek/": {
   "hash": "91c4ec60c9b7",
-  "lastmod": "2026-10-23",
-  "derivedHash": "b4b58e072e06"
+  "lastmod": "2026-10-25",
+  "derivedHash": "75dff5aedb30"
  },
  "/categories/healthy/indian/": {
   "hash": "a98441cc1c20",
-  "lastmod": "2026-10-23",
-  "derivedHash": "a24f37887ad2"
+  "lastmod": "2026-10-25",
+  "derivedHash": "9697f0c9b108"
  },
  "/categories/healthy/international/": {
   "hash": "bd706e16bda7",
-  "lastmod": "2026-10-23",
-  "derivedHash": "b7b06509e21e"
+  "lastmod": "2026-10-25",
+  "derivedHash": "8ad417320b01"
  },
  "/categories/healthy/italian/": {
   "hash": "14d2d74c2846",
-  "lastmod": "2026-10-23",
-  "derivedHash": "e40a1d74359e"
+  "lastmod": "2026-10-25",
+  "derivedHash": "79dc3e2b584c"
  },
  "/categories/healthy/japanese/": {
   "hash": "d559407ce052",
-  "lastmod": "2026-10-23",
-  "derivedHash": "42545375b292"
+  "lastmod": "2026-10-25",
+  "derivedHash": "986c17be0400"
  },
  "/categories/healthy/korean/": {
   "hash": "e262b370edd1",
-  "lastmod": "2026-10-23",
-  "derivedHash": "c9127271cfaf"
+  "lastmod": "2026-10-25",
+  "derivedHash": "f5d16aca16db"
  },
  "/categories/healthy/middle-eastern/": {
   "hash": "9297b0e22125",
-  "lastmod": "2026-10-23",
-  "derivedHash": "bfa144fe0f16"
+  "lastmod": "2026-10-25",
+  "derivedHash": "c6bcb57d8283"
  },
  "/categories/healthy/moroccan/": {
   "hash": "f7ceb40d9924",
-  "lastmod": "2026-10-23",
-  "derivedHash": "ac0dca9a8dd4"
+  "lastmod": "2026-10-25",
+  "derivedHash": "60b7e804750f"
  },
  "/categories/healthy/thai/": {
   "hash": "ed26cf17c266",
-  "lastmod": "2026-10-23",
-  "derivedHash": "b86df0cd7757"
+  "lastmod": "2026-10-25",
+  "derivedHash": "cfd5802b9dd6"
  },
  "/categories/healthy/turkish/": {
   "hash": "ad9815ccc301",
-  "lastmod": "2026-10-23",
-  "derivedHash": "babfd838d858"
+  "lastmod": "2026-10-25",
+  "derivedHash": "dfcd131525dd"
  },
  "/categories/holiday-specials/": {
   "hash": "67c45a01f068",
-  "lastmod": "2026-10-23",
-  "derivedHash": "77f2f15e61e9"
+  "lastmod": "2026-10-25",
+  "derivedHash": "4bf72c9dca59"
  },
  "/categories/holiday-specials/american/": {
   "hash": "787dfd0cce51",
-  "lastmod": "2026-10-23",
-  "derivedHash": "f0d6b9237a7a"
+  "lastmod": "2026-10-25",
+  "derivedHash": "c642e2c9fe60"
  },
  "/categories/holiday-specials/british/": {
   "hash": "bfd019d34c01",
-  "lastmod": "2026-10-23",
-  "derivedHash": "f2f4f3229c59"
+  "lastmod": "2026-10-25",
+  "derivedHash": "88b45b02720b"
  },
  "/categories/holiday-specials/french/": {
   "hash": "97407dca4567",
-  "lastmod": "2026-10-23",
-  "derivedHash": "764dd8ca72eb"
+  "lastmod": "2026-10-25",
+  "derivedHash": "d2e8b51ab49e"
  },
  "/categories/holiday-specials/german/": {
   "hash": "1c0909a0c3af",
-  "lastmod": "2026-10-23",
-  "derivedHash": "3f39641d2a0f"
+  "lastmod": "2026-10-25",
+  "derivedHash": "a09584024253"
  },
  "/categories/holiday-specials/italian/": {
   "hash": "8accb9aa0ae6",
-  "lastmod": "2026-10-23",
-  "derivedHash": "d5185d44d37f"
+  "lastmod": "2026-10-25",
+  "derivedHash": "afb86812641b"
  },
  "/categories/holiday-specials/mexican/": {
   "hash": "51cd2d790939",
-  "lastmod": "2026-10-23",
-  "derivedHash": "8fa619475297"
+  "lastmod": "2026-10-25",
+  "derivedHash": "f4fddfda3155"
  },
  "/categories/lunch/": {
   "hash": "e7cdb135921d",
-  "lastmod": "2026-10-23",
-  "derivedHash": "056bd06990e0"
+  "lastmod": "2026-10-25",
+  "derivedHash": "8f1bc2d7c178"
  },
  "/categories/lunch/american/": {
   "hash": "3afb904e671c",
-  "lastmod": "2026-10-23",
-  "derivedHash": "e80b329825bd"
+  "lastmod": "2026-10-25",
+  "derivedHash": "07dd78efd942"
  },
  "/categories/lunch/australian/": {
   "hash": "82c165dbd332",
-  "lastmod": "2026-10-23",
-  "derivedHash": "f1e1c6c4e749"
+  "lastmod": "2026-10-25",
+  "derivedHash": "28e3561acd20"
  },
  "/categories/lunch/british/": {
   "hash": "184d640b94a4",
-  "lastmod": "2026-10-23",
-  "derivedHash": "f285ebb127d1"
+  "lastmod": "2026-10-25",
+  "derivedHash": "b0975c193fae"
  },
  "/categories/lunch/canadian/": {
   "hash": "dab0b692bec8",
-  "lastmod": "2026-10-23",
-  "derivedHash": "ca13125ea2df"
+  "lastmod": "2026-10-25",
+  "derivedHash": "83276f345847"
  },
  "/categories/lunch/chinese/": {
   "hash": "805005ce00e2",
-  "lastmod": "2026-10-23",
-  "derivedHash": "147840534254"
+  "lastmod": "2026-10-25",
+  "derivedHash": "eca2b6d92fec"
  },
  "/categories/lunch/egyptian/": {
   "hash": "98f2f0d755eb",
-  "lastmod": "2026-10-23",
-  "derivedHash": "dc250bbdebfa"
+  "lastmod": "2026-10-25",
+  "derivedHash": "52e4da735db4"
  },
  "/categories/lunch/french/": {
   "hash": "df620889d868",
-  "lastmod": "2026-10-23",
-  "derivedHash": "f83d01d47b49"
+  "lastmod": "2026-10-25",
+  "derivedHash": "54f38d6d9043"
  },
  "/categories/lunch/german/": {
   "hash": "c96701828aef",
-  "lastmod": "2026-10-23",
-  "derivedHash": "dbaec1be7af3"
+  "lastmod": "2026-10-25",
+  "derivedHash": "2029b1a9a65a"
  },
  "/categories/lunch/greek/": {
   "hash": "fd327b2822d5",
-  "lastmod": "2026-10-23",
-  "derivedHash": "6f750ae2c382"
+  "lastmod": "2026-10-25",
+  "derivedHash": "70ed72ee29c8"
  },
  "/categories/lunch/indian/": {
   "hash": "1321f95e9e9a",
-  "lastmod": "2026-10-23",
-  "derivedHash": "060ff60d5962"
+  "lastmod": "2026-10-25",
+  "derivedHash": "893bfab87eaf"
  },
  "/categories/lunch/italian/": {
   "hash": "0ba98bc29c26",
-  "lastmod": "2026-10-23",
-  "derivedHash": "018a07b13c99"
+  "lastmod": "2026-10-25",
+  "derivedHash": "f87af901452c"
  },
  "/categories/lunch/japanese/": {
   "hash": "2de0fbf20c86",
-  "lastmod": "2026-10-23",
-  "derivedHash": "be62c3e2518e"
+  "lastmod": "2026-10-25",
+  "derivedHash": "f6b2d727a9dc"
  },
  "/categories/lunch/mexican/": {
   "hash": "c5b3143853c4",
-  "lastmod": "2026-10-23",
-  "derivedHash": "ee1e84330a77"
+  "lastmod": "2026-10-25",
+  "derivedHash": "e13ed438c24b"
  },
  "/categories/lunch/new-zealand/": {
   "hash": "b2cd66cd89ca",
-  "lastmod": "2026-10-23",
-  "derivedHash": "1f564b75d476"
+  "lastmod": "2026-10-25",
+  "derivedHash": "6e343f421a6b"
  },
  "/categories/lunch/scottish/": {
   "hash": "cf4a69619937",
-  "lastmod": "2026-10-23",
-  "derivedHash": "d0a18f7832c2"
+  "lastmod": "2026-10-25",
+  "derivedHash": "1ee11033d06c"
  },
  "/categories/lunch/spanish/": {
   "hash": "50c0056ee123",
-  "lastmod": "2026-10-23",
-  "derivedHash": "1f70fff9dc78"
+  "lastmod": "2026-10-25",
+  "derivedHash": "06d088edf74e"
  },
  "/categories/lunch/tunisian/": {
   "hash": "5d0b40baca1a",
-  "lastmod": "2026-10-23",
-  "derivedHash": "c67e1ed7ae20"
+  "lastmod": "2026-10-25",
+  "derivedHash": "ef3eb17e3fb1"
  },
  "/categories/lunch/vietnamese/": {
   "hash": "48f9d5178c2e",
-  "lastmod": "2026-10-23",
-  "derivedHash": "d4cfab2ae44c"
+  "lastmod": "2026-10-25",
+  "derivedHash": "530ea2538c5b"
  },
  "/categories/quick-meals/": {
-  "hash": "d2b1043e6abe",
-  "lastmod": "2026-10-23",
-  "derivedHash": "ab83deca1539"
+  "hash": "f39f21fc6fcc",
+  "lastmod": "2026-10-25",
+  "derivedHash": "c0ee74342952"
  },
  "/categories/quick-meals/american/": {
   "hash": "08090a69506a",
-  "lastmod": "2026-10-23",
-  "derivedHash": "6acc0ec41c65"
+  "lastmod": "2026-10-25",
+  "derivedHash": "eaee6ddd237f"
  },
  "/categories/quick-meals/australian/": {
   "hash": "63eaaa5dfb26",
-  "lastmod": "2026-10-23",
-  "derivedHash": "cc83f9f7faf9"
+  "lastmod": "2026-10-25",
+  "derivedHash": "2c19805342ac"
  },
  "/categories/quick-meals/british/": {
   "hash": "c06df0e5c7ef",
-  "lastmod": "2026-10-23",
-  "derivedHash": "b35caae99ac9"
+  "lastmod": "2026-10-25",
+  "derivedHash": "b4ffabe4508f"
  },
  "/categories/quick-meals/chinese/": {
   "hash": "e7f9682e5ded",
-  "lastmod": "2026-10-23",
-  "derivedHash": "0627cd029c22"
+  "lastmod": "2026-10-25",
+  "derivedHash": "ac4597b996ee"
  },
  "/categories/quick-meals/french/": {
   "hash": "be3d9014f157",
-  "lastmod": "2026-10-23",
-  "derivedHash": "946232564169"
+  "lastmod": "2026-10-25",
+  "derivedHash": "6f963f7adbf8"
  },
  "/categories/quick-meals/german/": {
   "hash": "f7ba15451351",
-  "lastmod": "2026-10-23",
-  "derivedHash": "4e7bc64f1891"
+  "lastmod": "2026-10-25",
+  "derivedHash": "50293b8d1b01"
  },
  "/categories/quick-meals/italian/": {
-  "hash": "82c1349da389",
-  "lastmod": "2026-10-23",
-  "derivedHash": "80f94c0308d3"
+  "hash": "fcd726ec482f",
+  "lastmod": "2026-10-25",
+  "derivedHash": "0782feb5bab8"
  },
  "/categories/quick-meals/japanese/": {
   "hash": "d968a75b3ad8",
-  "lastmod": "2026-10-23",
-  "derivedHash": "0d3a761692e5"
+  "lastmod": "2026-10-25",
+  "derivedHash": "0fa15f344752"
  },
  "/categories/quick-meals/mexican/": {
   "hash": "a792e2f88bda",
-  "lastmod": "2026-10-23",
-  "derivedHash": "5e0ce42f9266"
+  "lastmod": "2026-10-25",
+  "derivedHash": "daea49ab0d44"
  },
  "/categories/quick-meals/thai/": {
   "hash": "2702b7c7596d",
-  "lastmod": "2026-10-23",
-  "derivedHash": "fe6f7c0ced9c"
+  "lastmod": "2026-10-25",
+  "derivedHash": "8d953e5af005"
  },
  "/contact/": {
   "hash": "67bcc6b15752",
@@ -1035,729 +1030,729 @@
   "derivedHash": "dc5e3096b876"
  },
  "/cuisines/": {
-  "hash": "94b273f1b22e",
-  "lastmod": "2026-10-23",
-  "derivedHash": "625e8e0f8718"
+  "hash": "a7010e325054",
+  "lastmod": "2026-10-25",
+  "derivedHash": "c3ba78d63c71"
  },
  "/cuisines/afghan/": {
   "hash": "69b23f85c79d",
-  "lastmod": "2026-10-23",
-  "derivedHash": "3b4b0a560822"
+  "lastmod": "2026-10-25",
+  "derivedHash": "438b688f6c69"
  },
  "/cuisines/african/": {
   "hash": "199a3f49c8c3",
-  "lastmod": "2026-10-23",
-  "derivedHash": "273aa3d787e4"
+  "lastmod": "2026-10-25",
+  "derivedHash": "3348968045e5"
  },
  "/cuisines/american/": {
-  "hash": "10b71e40c087",
-  "lastmod": "2026-10-23",
-  "derivedHash": "d79ca6dc9974"
+  "hash": "138acc7acc1f",
+  "lastmod": "2026-10-25",
+  "derivedHash": "9047fb765cdf"
  },
  "/cuisines/argentinian/": {
   "hash": "ffb2abc0b576",
-  "lastmod": "2026-10-23",
-  "derivedHash": "4aa19f1c8ee3"
+  "lastmod": "2026-10-25",
+  "derivedHash": "cd3dc68ef6fc"
  },
  "/cuisines/australian/": {
-  "hash": "d91d3c90a26d",
-  "lastmod": "2026-10-23",
-  "derivedHash": "c6d60faf7b26"
+  "hash": "2ce852d43723",
+  "lastmod": "2026-10-25",
+  "derivedHash": "63bd0bf41483"
  },
  "/cuisines/austrian/": {
   "hash": "78955edc921f",
-  "lastmod": "2026-10-23",
-  "derivedHash": "da50bc505df1"
+  "lastmod": "2026-10-25",
+  "derivedHash": "d2d14753d471"
  },
  "/cuisines/balkan/": {
   "hash": "c19d4587480e",
-  "lastmod": "2026-10-23",
-  "derivedHash": "673a8f77150c"
+  "lastmod": "2026-10-25",
+  "derivedHash": "c4cd17eadc5a"
  },
  "/cuisines/bangladeshi/": {
   "hash": "80c5f7218a6d",
-  "lastmod": "2026-10-23",
-  "derivedHash": "a2a6c4b2a519"
+  "lastmod": "2026-10-25",
+  "derivedHash": "d05b5a0948e2"
  },
  "/cuisines/belgian/": {
   "hash": "ad156890c4be",
-  "lastmod": "2026-10-23",
-  "derivedHash": "664fd4230378"
+  "lastmod": "2026-10-25",
+  "derivedHash": "4c216b455e02"
  },
  "/cuisines/bolivian/": {
   "hash": "2911bbe4613b",
-  "lastmod": "2026-10-23",
-  "derivedHash": "92b6d121b5a6"
+  "lastmod": "2026-10-25",
+  "derivedHash": "ba1dadfd4b74"
  },
  "/cuisines/brazilian/": {
   "hash": "72d01c85233c",
-  "lastmod": "2026-10-23",
-  "derivedHash": "66067f247d41"
+  "lastmod": "2026-10-25",
+  "derivedHash": "4e43cedf047f"
  },
  "/cuisines/british/": {
-  "hash": "d41690302f9f",
-  "lastmod": "2026-10-23",
-  "derivedHash": "4330cb28856f"
+  "hash": "bd1450c9133b",
+  "lastmod": "2026-10-25",
+  "derivedHash": "2af37941f6ca"
  },
  "/cuisines/bulgarian/": {
   "hash": "8304f93c9034",
-  "lastmod": "2026-10-23",
-  "derivedHash": "6431a954a6af"
+  "lastmod": "2026-10-25",
+  "derivedHash": "162d95273226"
  },
  "/cuisines/burmese/": {
   "hash": "21a383194cc5",
-  "lastmod": "2026-10-23",
-  "derivedHash": "5e0d51d6f76f"
+  "lastmod": "2026-10-25",
+  "derivedHash": "f9801876b1d8"
  },
  "/cuisines/cambodian/": {
   "hash": "c591b7d37588",
-  "lastmod": "2026-10-23",
-  "derivedHash": "82e1668f8b7b"
+  "lastmod": "2026-10-25",
+  "derivedHash": "15609794f907"
  },
  "/cuisines/canadian/": {
   "hash": "bbcc31b7c579",
-  "lastmod": "2026-10-23",
-  "derivedHash": "2ef707cc73cd"
+  "lastmod": "2026-10-25",
+  "derivedHash": "d08cde43ab64"
  },
  "/cuisines/caribbean/": {
   "hash": "f2d2ace9afd9",
-  "lastmod": "2026-10-23",
-  "derivedHash": "152ebe286082"
+  "lastmod": "2026-10-25",
+  "derivedHash": "8bcbd3064f56"
  },
  "/cuisines/chilean/": {
   "hash": "7b35059c7026",
-  "lastmod": "2026-10-23",
-  "derivedHash": "624662bd5905"
+  "lastmod": "2026-10-25",
+  "derivedHash": "75d116b4a11e"
  },
  "/cuisines/chinese/": {
-  "hash": "e4611e7e5257",
-  "lastmod": "2026-10-23",
-  "derivedHash": "d916a9d8ea73"
+  "hash": "f985b2157692",
+  "lastmod": "2026-10-25",
+  "derivedHash": "46b2682fe8fa"
  },
  "/cuisines/colombian/": {
   "hash": "48d29443186f",
-  "lastmod": "2026-10-23",
-  "derivedHash": "f88ae03d6a8e"
+  "lastmod": "2026-10-25",
+  "derivedHash": "2d8ce860872e"
  },
  "/cuisines/croatian/": {
   "hash": "f74cdc3c1545",
-  "lastmod": "2026-10-23",
-  "derivedHash": "24c92fdcd470"
+  "lastmod": "2026-10-25",
+  "derivedHash": "88687b7d53fe"
  },
  "/cuisines/cuban/": {
   "hash": "e02a1634a495",
-  "lastmod": "2026-10-23",
-  "derivedHash": "369375736eb0"
+  "lastmod": "2026-10-25",
+  "derivedHash": "52136f15913f"
  },
  "/cuisines/cypriot/": {
   "hash": "9d60330286a6",
-  "lastmod": "2026-10-23",
-  "derivedHash": "2547b43f9fe8"
+  "lastmod": "2026-10-25",
+  "derivedHash": "cc4c2470551a"
  },
  "/cuisines/czech/": {
   "hash": "21db2a6def2a",
-  "lastmod": "2026-10-23",
-  "derivedHash": "46dc1dd80505"
+  "lastmod": "2026-10-25",
+  "derivedHash": "2ed655fece43"
  },
  "/cuisines/danish/": {
   "hash": "b1bd27191725",
-  "lastmod": "2026-10-23",
-  "derivedHash": "56c4e678c5fd"
+  "lastmod": "2026-10-25",
+  "derivedHash": "f287d87f0819"
  },
  "/cuisines/dutch/": {
   "hash": "58cbd870df7a",
-  "lastmod": "2026-10-23",
-  "derivedHash": "ae0d5166e594"
+  "lastmod": "2026-10-25",
+  "derivedHash": "9e2177fcb67b"
  },
  "/cuisines/ecuadorian/": {
   "hash": "85067e489a82",
-  "lastmod": "2026-10-23",
-  "derivedHash": "abeef6a4e4f9"
+  "lastmod": "2026-10-25",
+  "derivedHash": "344e52957f51"
  },
  "/cuisines/egyptian/": {
   "hash": "a1fb32b2d666",
-  "lastmod": "2026-10-23",
-  "derivedHash": "89705d71a0ef"
+  "lastmod": "2026-10-25",
+  "derivedHash": "b57500616faf"
  },
  "/cuisines/ethiopian/": {
   "hash": "554fa03e8c6f",
-  "lastmod": "2026-10-23",
-  "derivedHash": "d91e5028f2c5"
+  "lastmod": "2026-10-25",
+  "derivedHash": "8cc48b028015"
  },
  "/cuisines/filipino/": {
   "hash": "a1aed771283f",
-  "lastmod": "2026-10-23",
-  "derivedHash": "826e4f4e2c86"
+  "lastmod": "2026-10-25",
+  "derivedHash": "fc144d12e302"
  },
  "/cuisines/finnish/": {
   "hash": "9090f3a51d71",
-  "lastmod": "2026-10-23",
-  "derivedHash": "fb82e97aebf2"
+  "lastmod": "2026-10-25",
+  "derivedHash": "3b1785bddac8"
  },
  "/cuisines/french/": {
-  "hash": "890d906f10bd",
-  "lastmod": "2026-10-23",
-  "derivedHash": "b230fde4fb3e"
+  "hash": "a3905497431f",
+  "lastmod": "2026-10-25",
+  "derivedHash": "12bd4bf9250e"
  },
  "/cuisines/georgian/": {
   "hash": "2c67664fc7ef",
-  "lastmod": "2026-10-23",
-  "derivedHash": "5305b8549c1a"
+  "lastmod": "2026-10-25",
+  "derivedHash": "8d3c841963a2"
  },
  "/cuisines/german/": {
   "hash": "9863dfcbcf78",
-  "lastmod": "2026-10-23",
-  "derivedHash": "117a0255585f"
+  "lastmod": "2026-10-25",
+  "derivedHash": "777918ac58dd"
  },
  "/cuisines/ghanaian/": {
   "hash": "cfe9052bfb37",
-  "lastmod": "2026-10-23",
-  "derivedHash": "36a4273a6778"
+  "lastmod": "2026-10-25",
+  "derivedHash": "0a5cbabd2974"
  },
  "/cuisines/greek/": {
   "hash": "82047bb390ab",
-  "lastmod": "2026-10-23",
-  "derivedHash": "df41b8e710e2"
+  "lastmod": "2026-10-25",
+  "derivedHash": "53cba84a778f"
  },
  "/cuisines/hawaiian/": {
   "hash": "bdd9e4c757e0",
-  "lastmod": "2026-10-23",
-  "derivedHash": "ac03a99b1066"
+  "lastmod": "2026-10-25",
+  "derivedHash": "c2193e210363"
  },
  "/cuisines/hungarian/": {
   "hash": "2e8429a772a7",
-  "lastmod": "2026-10-23",
-  "derivedHash": "d75099351d9e"
+  "lastmod": "2026-10-25",
+  "derivedHash": "4b0dea322e26"
  },
  "/cuisines/icelandic/": {
   "hash": "9d013e2a9af7",
-  "lastmod": "2026-10-23",
-  "derivedHash": "7bdb249a7f86"
+  "lastmod": "2026-10-25",
+  "derivedHash": "f91647afa619"
  },
  "/cuisines/indian/": {
   "hash": "a46624746764",
-  "lastmod": "2026-10-23",
-  "derivedHash": "4967fb33136e"
+  "lastmod": "2026-10-25",
+  "derivedHash": "55d37db992ff"
  },
  "/cuisines/indonesian/": {
   "hash": "e2269ef18936",
-  "lastmod": "2026-10-23",
-  "derivedHash": "00c692f807bf"
+  "lastmod": "2026-10-25",
+  "derivedHash": "eabe7769bba8"
  },
  "/cuisines/international/": {
   "hash": "a0171ca3caab",
-  "lastmod": "2026-10-23",
-  "derivedHash": "186c1667a140"
+  "lastmod": "2026-10-25",
+  "derivedHash": "adc3917dcfd7"
  },
  "/cuisines/irish/": {
-  "hash": "2ac509643c45",
-  "lastmod": "2026-10-23",
-  "derivedHash": "846265ffbfa2"
+  "hash": "202a905ca0f9",
+  "lastmod": "2026-10-25",
+  "derivedHash": "34f0b2c25eab"
  },
  "/cuisines/israeli/": {
   "hash": "15268f395e8c",
-  "lastmod": "2026-10-23",
-  "derivedHash": "86a77b284448"
+  "lastmod": "2026-10-25",
+  "derivedHash": "9fe250674ef0"
  },
  "/cuisines/italian/": {
-  "hash": "3743d6e3a86b",
-  "lastmod": "2026-10-23",
-  "derivedHash": "f906749ae391"
+  "hash": "8cb3f072ae2d",
+  "lastmod": "2026-10-25",
+  "derivedHash": "349c35a76f2f"
  },
  "/cuisines/jamaican/": {
   "hash": "9e1524515bb8",
-  "lastmod": "2026-10-23",
-  "derivedHash": "b4aa8904b286"
+  "lastmod": "2026-10-25",
+  "derivedHash": "2f74c3081983"
  },
  "/cuisines/japanese/": {
-  "hash": "49a4c549ae50",
-  "lastmod": "2026-10-23",
-  "derivedHash": "faf1a011401f"
+  "hash": "f1ee433664d5",
+  "lastmod": "2026-10-25",
+  "derivedHash": "5fbdd3b84eb0"
  },
  "/cuisines/jewish/": {
   "hash": "0215444b9956",
-  "lastmod": "2026-10-23",
-  "derivedHash": "8308555568a9"
+  "lastmod": "2026-10-25",
+  "derivedHash": "1dc2d555d255"
  },
  "/cuisines/kenyan/": {
   "hash": "9072be50c8d7",
-  "lastmod": "2026-10-23",
-  "derivedHash": "2a6e66879d2c"
+  "lastmod": "2026-10-25",
+  "derivedHash": "05e802d59d4a"
  },
  "/cuisines/korean/": {
   "hash": "d4acc59f3031",
-  "lastmod": "2026-10-23",
-  "derivedHash": "47f887ce522e"
+  "lastmod": "2026-10-25",
+  "derivedHash": "20f5ceee5e5a"
  },
  "/cuisines/lebanese/": {
   "hash": "b4a71b9cf579",
-  "lastmod": "2026-10-23",
-  "derivedHash": "2864f8fa65a8"
+  "lastmod": "2026-10-25",
+  "derivedHash": "a4ee562595d0"
  },
  "/cuisines/lithuanian/": {
   "hash": "ae0370b0cb41",
-  "lastmod": "2026-10-23",
-  "derivedHash": "806d0bb26a13"
+  "lastmod": "2026-10-25",
+  "derivedHash": "fd205b71ac0a"
  },
  "/cuisines/luxembourgish/": {
   "hash": "ff0a93f39409",
-  "lastmod": "2026-10-23",
-  "derivedHash": "fd649cbcee24"
+  "lastmod": "2026-10-25",
+  "derivedHash": "f919b5ac86f1"
  },
  "/cuisines/malaysian/": {
   "hash": "a29a0839a286",
-  "lastmod": "2026-10-23",
-  "derivedHash": "1addd9a4bda0"
+  "lastmod": "2026-10-25",
+  "derivedHash": "1127fc492538"
  },
  "/cuisines/maltese/": {
   "hash": "5337450c6070",
-  "lastmod": "2026-10-23",
-  "derivedHash": "d82f97cf46c2"
+  "lastmod": "2026-10-25",
+  "derivedHash": "4ab94da5e65a"
  },
  "/cuisines/mexican/": {
   "hash": "5780cad07ee8",
-  "lastmod": "2026-10-23",
-  "derivedHash": "39140954dd5d"
+  "lastmod": "2026-10-25",
+  "derivedHash": "992fd23694ba"
  },
  "/cuisines/middle-eastern/": {
   "hash": "66ae2aef108b",
-  "lastmod": "2026-10-23",
-  "derivedHash": "9ed174cb16db"
+  "lastmod": "2026-10-25",
+  "derivedHash": "41014a9b9944"
  },
  "/cuisines/moroccan/": {
   "hash": "18c75feb4259",
-  "lastmod": "2026-10-23",
-  "derivedHash": "f21c0e17b2c8"
+  "lastmod": "2026-10-25",
+  "derivedHash": "8f93a00bb91d"
  },
  "/cuisines/nepalese/": {
   "hash": "38f9a083d117",
-  "lastmod": "2026-10-23",
-  "derivedHash": "ef62fc5e3139"
+  "lastmod": "2026-10-25",
+  "derivedHash": "8a55cf774faa"
  },
  "/cuisines/new-zealand/": {
-  "hash": "024bb02750aa",
-  "lastmod": "2026-10-23",
-  "derivedHash": "fd2e3de1352c"
+  "hash": "817e65626f27",
+  "lastmod": "2026-10-25",
+  "derivedHash": "42234b5a1572"
  },
  "/cuisines/nigerian/": {
   "hash": "fad291b081b3",
-  "lastmod": "2026-10-23",
-  "derivedHash": "fb285b729c98"
+  "lastmod": "2026-10-25",
+  "derivedHash": "3a03e3f41dfc"
  },
  "/cuisines/norwegian/": {
   "hash": "78b2d5422598",
-  "lastmod": "2026-10-23",
-  "derivedHash": "89957a1dcf88"
+  "lastmod": "2026-10-25",
+  "derivedHash": "8d33097ee251"
  },
  "/cuisines/pacific/": {
   "hash": "6a48415da16e",
-  "lastmod": "2026-10-23",
-  "derivedHash": "11e0e90f2143"
+  "lastmod": "2026-10-25",
+  "derivedHash": "975183b56d71"
  },
  "/cuisines/pakistani/": {
   "hash": "00bc9d66c46e",
-  "lastmod": "2026-10-23",
-  "derivedHash": "0265cdc6cf30"
+  "lastmod": "2026-10-25",
+  "derivedHash": "2a66a66f1137"
  },
  "/cuisines/persian/": {
   "hash": "1ea2833c06d2",
-  "lastmod": "2026-10-23",
-  "derivedHash": "1bff917316f2"
+  "lastmod": "2026-10-25",
+  "derivedHash": "30fca64f6452"
  },
  "/cuisines/peruvian/": {
   "hash": "13c72678036a",
-  "lastmod": "2026-10-23",
-  "derivedHash": "4cafc9656106"
+  "lastmod": "2026-10-25",
+  "derivedHash": "ebf9c0ee2640"
  },
  "/cuisines/polish/": {
   "hash": "b46fbf1cf6a8",
-  "lastmod": "2026-10-23",
-  "derivedHash": "9319ac4d395c"
+  "lastmod": "2026-10-25",
+  "derivedHash": "1144003cd959"
  },
  "/cuisines/portuguese/": {
   "hash": "4642b731a3d9",
-  "lastmod": "2026-10-23",
-  "derivedHash": "509e5634b1c3"
+  "lastmod": "2026-10-25",
+  "derivedHash": "376e429f15d1"
  },
  "/cuisines/puerto-rican/": {
   "hash": "97a54d8a076c",
-  "lastmod": "2026-10-23",
-  "derivedHash": "232333f60eaf"
+  "lastmod": "2026-10-25",
+  "derivedHash": "eabac5294dff"
  },
  "/cuisines/romanian/": {
   "hash": "9a795821252e",
-  "lastmod": "2026-10-23",
-  "derivedHash": "f8aab9155a9d"
+  "lastmod": "2026-10-25",
+  "derivedHash": "329f63ebdd86"
  },
  "/cuisines/russian/": {
   "hash": "a4f1199cef3f",
-  "lastmod": "2026-10-23",
-  "derivedHash": "b86c859b3f66"
+  "lastmod": "2026-10-25",
+  "derivedHash": "9aaa39e0cc13"
  },
  "/cuisines/salvadoran/": {
   "hash": "172d4a77fdd1",
-  "lastmod": "2026-10-23",
-  "derivedHash": "a99ebd707ca3"
+  "lastmod": "2026-10-25",
+  "derivedHash": "9d2e73070008"
  },
  "/cuisines/scottish/": {
-  "hash": "43fe708f0d16",
-  "lastmod": "2026-10-23",
-  "derivedHash": "7eb7cb49032f"
+  "hash": "a40924a16984",
+  "lastmod": "2026-10-25",
+  "derivedHash": "a2d0d3939612"
  },
  "/cuisines/senegalese/": {
   "hash": "aaca9984327b",
-  "lastmod": "2026-10-23",
-  "derivedHash": "b251aeb167d9"
+  "lastmod": "2026-10-25",
+  "derivedHash": "7e1204318710"
  },
  "/cuisines/singaporean/": {
   "hash": "84e00a61794d",
-  "lastmod": "2026-10-23",
-  "derivedHash": "1e76e76b165c"
+  "lastmod": "2026-10-25",
+  "derivedHash": "f306787acb13"
  },
  "/cuisines/slovak/": {
   "hash": "cf9d38ba6de3",
-  "lastmod": "2026-10-23",
-  "derivedHash": "1e8ecbb578d6"
+  "lastmod": "2026-10-25",
+  "derivedHash": "526856f16618"
  },
  "/cuisines/slovenian/": {
   "hash": "69b6a53e4080",
-  "lastmod": "2026-10-23",
-  "derivedHash": "0f49c318dca3"
+  "lastmod": "2026-10-25",
+  "derivedHash": "58d1746a6576"
  },
  "/cuisines/south-african/": {
   "hash": "b22b0a395d8e",
-  "lastmod": "2026-10-23",
-  "derivedHash": "45c273dae46d"
+  "lastmod": "2026-10-25",
+  "derivedHash": "b40ce53f4683"
  },
  "/cuisines/spanish/": {
   "hash": "b7c572e941b3",
-  "lastmod": "2026-10-23",
-  "derivedHash": "c7192dda4aab"
+  "lastmod": "2026-10-25",
+  "derivedHash": "b3ccaa650758"
  },
  "/cuisines/sri-lankan/": {
   "hash": "19e2b2f77778",
-  "lastmod": "2026-10-23",
-  "derivedHash": "c75e83501663"
+  "lastmod": "2026-10-25",
+  "derivedHash": "1f37c891502a"
  },
  "/cuisines/swedish/": {
   "hash": "e5a69577c9ea",
-  "lastmod": "2026-10-23",
-  "derivedHash": "b9b3a49fd747"
+  "lastmod": "2026-10-25",
+  "derivedHash": "086b17d8dd80"
  },
  "/cuisines/swiss/": {
   "hash": "5fa5aba37aae",
-  "lastmod": "2026-10-23",
-  "derivedHash": "9bb70ae57479"
+  "lastmod": "2026-10-25",
+  "derivedHash": "5dcf696eb9cb"
  },
  "/cuisines/taiwanese/": {
   "hash": "88a39d598232",
-  "lastmod": "2026-10-23",
-  "derivedHash": "d615d19468fb"
+  "lastmod": "2026-10-25",
+  "derivedHash": "aec118bdb89c"
  },
  "/cuisines/thai/": {
   "hash": "4cf3d12b6888",
-  "lastmod": "2026-10-23",
-  "derivedHash": "1b7c6c3d3c3d"
+  "lastmod": "2026-10-25",
+  "derivedHash": "f5d5151c91c3"
  },
  "/cuisines/trinidadian/": {
   "hash": "6bd6f3a68f5d",
-  "lastmod": "2026-10-23",
-  "derivedHash": "b30e9c36f585"
+  "lastmod": "2026-10-25",
+  "derivedHash": "4557ede14050"
  },
  "/cuisines/tunisian/": {
   "hash": "0d11a753edae",
-  "lastmod": "2026-10-23",
-  "derivedHash": "a1d5d723575d"
+  "lastmod": "2026-10-25",
+  "derivedHash": "ab77c40b6a3e"
  },
  "/cuisines/turkish/": {
   "hash": "e30032200c62",
-  "lastmod": "2026-10-23",
-  "derivedHash": "de8a39a58d51"
+  "lastmod": "2026-10-25",
+  "derivedHash": "f557e6553466"
  },
  "/cuisines/ukrainian/": {
   "hash": "1cfd3231f82c",
-  "lastmod": "2026-10-23",
-  "derivedHash": "f8e0b3453688"
+  "lastmod": "2026-10-25",
+  "derivedHash": "7e67fb3b5acc"
  },
  "/cuisines/uruguayan/": {
   "hash": "3fa566c600b4",
-  "lastmod": "2026-10-23",
-  "derivedHash": "51473cb51427"
+  "lastmod": "2026-10-25",
+  "derivedHash": "c4f1b1885c90"
  },
  "/cuisines/venezuelan/": {
   "hash": "ac11862c0d1f",
-  "lastmod": "2026-10-23",
-  "derivedHash": "a606b32eb35f"
+  "lastmod": "2026-10-25",
+  "derivedHash": "31372dae4aab"
  },
  "/cuisines/vietnamese/": {
   "hash": "41f761f6c2ba",
-  "lastmod": "2026-10-23",
-  "derivedHash": "96afcd460a43"
+  "lastmod": "2026-10-25",
+  "derivedHash": "6a707170ec18"
  },
  "/cuisines/welsh/": {
   "hash": "553fd5b6de32",
-  "lastmod": "2026-10-23",
-  "derivedHash": "8afc6ddff53e"
+  "lastmod": "2026-10-25",
+  "derivedHash": "59ab42329a98"
  },
  "/ingredients/": {
-  "hash": "e1b49f244bc3",
-  "lastmod": "2026-10-23",
-  "derivedHash": "80ee31b47ad2"
+  "hash": "733b69c44507",
+  "lastmod": "2026-10-25",
+  "derivedHash": "dc37e2cb3961"
  },
  "/ingredients/almonds/": {
-  "hash": "311b89227601",
-  "lastmod": "2026-10-23",
-  "derivedHash": "86c20b421aac"
+  "hash": "e1b955c013c9",
+  "lastmod": "2026-10-25",
+  "derivedHash": "37fc036067c1"
  },
  "/ingredients/apples/": {
-  "hash": "902fe0263123",
-  "lastmod": "2026-10-23",
-  "derivedHash": "8a7c2ff8d3b8"
+  "hash": "321a62412aaa",
+  "lastmod": "2026-10-25",
+  "derivedHash": "d0d46fdf214c"
  },
  "/ingredients/aubergine/": {
   "hash": "fc7592c07178",
-  "lastmod": "2026-10-23",
-  "derivedHash": "16de08a92b28"
+  "lastmod": "2026-10-25",
+  "derivedHash": "032f018e2aa5"
  },
  "/ingredients/avocado/": {
   "hash": "6059aebb95a3",
-  "lastmod": "2026-10-23",
-  "derivedHash": "8e97d45579b0"
+  "lastmod": "2026-10-25",
+  "derivedHash": "471174d23ca8"
  },
  "/ingredients/bacon/": {
-  "hash": "b14663ad813f",
-  "lastmod": "2026-10-23",
-  "derivedHash": "643897da07a3"
+  "hash": "d3cea662be2b",
+  "lastmod": "2026-10-25",
+  "derivedHash": "598676214829"
  },
  "/ingredients/bananas/": {
-  "hash": "0f50c968433d",
-  "lastmod": "2026-10-23",
-  "derivedHash": "eb60b4c1dc90"
+  "hash": "475976725d22",
+  "lastmod": "2026-10-25",
+  "derivedHash": "f5d881cf83b6"
  },
  "/ingredients/beans/": {
-  "hash": "1796cdb650e3",
-  "lastmod": "2026-10-23",
-  "derivedHash": "9c4eecdf1897"
+  "hash": "574957cb5627",
+  "lastmod": "2026-10-25",
+  "derivedHash": "126f8837e5c7"
  },
  "/ingredients/beef/": {
-  "hash": "2259622cc184",
-  "lastmod": "2026-10-23",
-  "derivedHash": "89617490f2e7"
+  "hash": "8612f1c0910f",
+  "lastmod": "2026-10-25",
+  "derivedHash": "2eada17095cc"
  },
  "/ingredients/butter/": {
-  "hash": "8d8b7d3cb4e3",
-  "lastmod": "2026-10-23",
-  "derivedHash": "60e4b6832c7d"
+  "hash": "d48980ce9084",
+  "lastmod": "2026-10-25",
+  "derivedHash": "fd6360d59e14"
  },
  "/ingredients/cabbage/": {
-  "hash": "740055558fae",
-  "lastmod": "2026-10-23",
-  "derivedHash": "f06155be12e3"
+  "hash": "e68f5b13fbbe",
+  "lastmod": "2026-10-25",
+  "derivedHash": "05a46ef40c27"
  },
  "/ingredients/carrots/": {
-  "hash": "0f5ebf082356",
-  "lastmod": "2026-10-23",
-  "derivedHash": "ca1488d6e9dc"
+  "hash": "13376d7e32c1",
+  "lastmod": "2026-10-25",
+  "derivedHash": "5d18ea61a729"
  },
  "/ingredients/cauliflower/": {
   "hash": "6135ebc47d24",
-  "lastmod": "2026-10-23",
-  "derivedHash": "11a79218114b"
+  "lastmod": "2026-10-25",
+  "derivedHash": "2a08ab7a54e2"
  },
  "/ingredients/cheese/": {
-  "hash": "c1d0ae2bd931",
-  "lastmod": "2026-10-23",
-  "derivedHash": "08185c225f83"
+  "hash": "c807ddcb1c61",
+  "lastmod": "2026-10-25",
+  "derivedHash": "2075253fdd29"
  },
  "/ingredients/chicken/": {
-  "hash": "614d821df61a",
-  "lastmod": "2026-10-23",
-  "derivedHash": "ac05f313b8c0"
+  "hash": "9a59697c2d19",
+  "lastmod": "2026-10-25",
+  "derivedHash": "bb9638c551d4"
  },
  "/ingredients/chickpeas/": {
   "hash": "f66f87698a9e",
-  "lastmod": "2026-10-23",
-  "derivedHash": "7d8566353048"
+  "lastmod": "2026-10-25",
+  "derivedHash": "6affe8c5276a"
  },
  "/ingredients/chillies/": {
-  "hash": "50ece71ed4f8",
-  "lastmod": "2026-10-23",
-  "derivedHash": "ed05920df5d4"
+  "hash": "d5155690c6db",
+  "lastmod": "2026-10-25",
+  "derivedHash": "a287bdfe86df"
  },
  "/ingredients/chocolate/": {
-  "hash": "66ca5f8242c5",
-  "lastmod": "2026-10-23",
-  "derivedHash": "c5881908b2ba"
+  "hash": "0288577b0f7e",
+  "lastmod": "2026-10-25",
+  "derivedHash": "4f54c9db3840"
  },
  "/ingredients/coconut-milk/": {
   "hash": "1f87b15cdea9",
-  "lastmod": "2026-10-23",
-  "derivedHash": "41cb18ac1cc1"
+  "lastmod": "2026-10-25",
+  "derivedHash": "3129e838eff4"
  },
  "/ingredients/coffee/": {
   "hash": "535c2870cd96",
-  "lastmod": "2026-10-23",
-  "derivedHash": "1e1f64b84216"
+  "lastmod": "2026-10-25",
+  "derivedHash": "02e3bf24add6"
  },
  "/ingredients/courgette/": {
-  "hash": "029fbc0c4bc2",
-  "lastmod": "2026-10-23",
-  "derivedHash": "bbf77965a691"
+  "hash": "64f72254de62",
+  "lastmod": "2026-10-25",
+  "derivedHash": "ceee5c51c462"
  },
  "/ingredients/cream/": {
-  "hash": "b06ea28a13bf",
-  "lastmod": "2026-10-23",
-  "derivedHash": "032d76a3ce6b"
+  "hash": "7ecc2b23615f",
+  "lastmod": "2026-10-25",
+  "derivedHash": "b3ace154ee04"
  },
  "/ingredients/eggs/": {
-  "hash": "138f3166b595",
-  "lastmod": "2026-10-23",
-  "derivedHash": "f3fd9b3468ea"
+  "hash": "79f859d887b0",
+  "lastmod": "2026-10-25",
+  "derivedHash": "faf13424b1e5"
  },
  "/ingredients/fish/": {
-  "hash": "6a488e49af75",
-  "lastmod": "2026-10-23",
-  "derivedHash": "c065734ddd04"
+  "hash": "527b05b0b805",
+  "lastmod": "2026-10-25",
+  "derivedHash": "f74f2da23fae"
  },
  "/ingredients/garlic/": {
-  "hash": "871a8376154d",
-  "lastmod": "2026-10-23",
-  "derivedHash": "0cb0c492cd04"
+  "hash": "92148429719a",
+  "lastmod": "2026-10-25",
+  "derivedHash": "1edf82039ca5"
  },
  "/ingredients/ginger/": {
   "hash": "a47550b11de7",
-  "lastmod": "2026-10-23",
-  "derivedHash": "b51049856eca"
+  "lastmod": "2026-10-25",
+  "derivedHash": "f4800a388457"
  },
  "/ingredients/honey/": {
-  "hash": "5ae7aa4cb0e3",
-  "lastmod": "2026-10-23",
-  "derivedHash": "8b841dc29bf9"
+  "hash": "baf9743b16c8",
+  "lastmod": "2026-10-25",
+  "derivedHash": "62153c10a506"
  },
  "/ingredients/lamb/": {
-  "hash": "e74f484d4bbf",
-  "lastmod": "2026-10-23",
-  "derivedHash": "005dea7bba08"
+  "hash": "4660b2bb5950",
+  "lastmod": "2026-10-25",
+  "derivedHash": "45ad4cb21a4a"
  },
  "/ingredients/lemon/": {
-  "hash": "571fd4789980",
-  "lastmod": "2026-10-23",
-  "derivedHash": "6695a22d0c43"
+  "hash": "849899047a67",
+  "lastmod": "2026-10-25",
+  "derivedHash": "7fe1009c1c7e"
  },
  "/ingredients/lentils/": {
   "hash": "11bb4526f773",
-  "lastmod": "2026-10-23",
-  "derivedHash": "8ae02e0d2003"
+  "lastmod": "2026-10-25",
+  "derivedHash": "dd7a60485a92"
  },
  "/ingredients/lime/": {
-  "hash": "d1a2e51c23f2",
-  "lastmod": "2026-10-23",
-  "derivedHash": "2ab535848503"
+  "hash": "dd95ad94b224",
+  "lastmod": "2026-10-25",
+  "derivedHash": "32af49328bb4"
  },
  "/ingredients/mango/": {
-  "hash": "d3e3e0c1d279",
-  "lastmod": "2026-10-23",
-  "derivedHash": "7337ffcda221"
+  "hash": "abeaf2d040f2",
+  "lastmod": "2026-10-25",
+  "derivedHash": "89930ca7b377"
  },
  "/ingredients/mushrooms/": {
   "hash": "f175bd2e5a2b",
-  "lastmod": "2026-10-23",
-  "derivedHash": "80b0de3df0a2"
+  "lastmod": "2026-10-25",
+  "derivedHash": "7e6a4189a51d"
  },
  "/ingredients/noodles/": {
   "hash": "84dc67e1f536",
-  "lastmod": "2026-10-23",
-  "derivedHash": "2fb04e9d7844"
+  "lastmod": "2026-10-25",
+  "derivedHash": "4414e8e385d8"
  },
  "/ingredients/oats/": {
-  "hash": "b28d1468ddec",
-  "lastmod": "2026-10-23",
-  "derivedHash": "c68855b4b3d2"
+  "hash": "f23cf9e4d20c",
+  "lastmod": "2026-10-25",
+  "derivedHash": "8305026e808f"
  },
  "/ingredients/onions/": {
-  "hash": "2ff554d85eae",
-  "lastmod": "2026-10-23",
-  "derivedHash": "f8d8dc0c08fb"
+  "hash": "e1b0c4b62b38",
+  "lastmod": "2026-10-25",
+  "derivedHash": "6f25f79539fe"
  },
  "/ingredients/paneer/": {
   "hash": "7a75e6bd0ef9",
-  "lastmod": "2026-10-23",
-  "derivedHash": "74a19d37c259"
+  "lastmod": "2026-10-25",
+  "derivedHash": "6cb84241d90d"
  },
  "/ingredients/pasta/": {
-  "hash": "45689955d285",
-  "lastmod": "2026-10-23",
-  "derivedHash": "8631c9728e05"
+  "hash": "9f3ae3a62cdf",
+  "lastmod": "2026-10-25",
+  "derivedHash": "b8539b86be66"
  },
  "/ingredients/peas/": {
-  "hash": "8ab5e29f647b",
-  "lastmod": "2026-10-23",
-  "derivedHash": "729a7466a764"
+  "hash": "9331a0497e3d",
+  "lastmod": "2026-10-25",
+  "derivedHash": "c4dc544a1654"
  },
  "/ingredients/peppers/": {
-  "hash": "4129a0ede3bc",
-  "lastmod": "2026-10-23",
-  "derivedHash": "08aa057493ea"
+  "hash": "a86a9940e82b",
+  "lastmod": "2026-10-25",
+  "derivedHash": "ca736abfcb0d"
  },
  "/ingredients/pork/": {
-  "hash": "018c253946bc",
-  "lastmod": "2026-10-23",
-  "derivedHash": "5a11a32cac6c"
+  "hash": "20427813baaf",
+  "lastmod": "2026-10-25",
+  "derivedHash": "9b617a5b0e68"
  },
  "/ingredients/potatoes/": {
-  "hash": "47b3bf345faf",
-  "lastmod": "2026-10-23",
-  "derivedHash": "35fa3bee4ee9"
+  "hash": "303b5f02b9df",
+  "lastmod": "2026-10-25",
+  "derivedHash": "fd072ab17b56"
  },
  "/ingredients/prawns/": {
-  "hash": "d6d4b23cf4f7",
-  "lastmod": "2026-10-23",
-  "derivedHash": "ee34cb11eaa3"
+  "hash": "7bff889c9fc1",
+  "lastmod": "2026-10-25",
+  "derivedHash": "595f9f03087f"
  },
  "/ingredients/rice/": {
-  "hash": "81df64cdab58",
-  "lastmod": "2026-10-23",
-  "derivedHash": "5f16cc8e2922"
+  "hash": "0b1aac27b7b8",
+  "lastmod": "2026-10-25",
+  "derivedHash": "e8cb2ae7b025"
  },
  "/ingredients/salmon/": {
-  "hash": "0cca48f3101f",
-  "lastmod": "2026-10-23",
-  "derivedHash": "63df871f148c"
+  "hash": "b1f0f79f0503",
+  "lastmod": "2026-10-25",
+  "derivedHash": "d6011e6ab171"
  },
  "/ingredients/soy-sauce/": {
-  "hash": "46bd341d0551",
-  "lastmod": "2026-10-23",
-  "derivedHash": "df8b7610ff02"
+  "hash": "f212d0ccf094",
+  "lastmod": "2026-10-25",
+  "derivedHash": "348bda992cee"
  },
  "/ingredients/spinach/": {
   "hash": "f942520641d1",
-  "lastmod": "2026-10-23",
-  "derivedHash": "90db3b097de9"
+  "lastmod": "2026-10-25",
+  "derivedHash": "0f2d6eb6d90f"
  },
  "/ingredients/strawberries/": {
-  "hash": "acf60b84a307",
-  "lastmod": "2026-10-23",
-  "derivedHash": "e03bf19cd27a"
+  "hash": "615624fb7157",
+  "lastmod": "2026-10-25",
+  "derivedHash": "663c3188b682"
  },
  "/ingredients/tofu/": {
   "hash": "d966287fe6fa",
-  "lastmod": "2026-10-23",
-  "derivedHash": "f3a254903333"
+  "lastmod": "2026-10-25",
+  "derivedHash": "90576205986c"
  },
  "/ingredients/tomatoes/": {
-  "hash": "553e457c1b95",
-  "lastmod": "2026-10-23",
-  "derivedHash": "ba0116aacc45"
+  "hash": "a2bcad3591e6",
+  "lastmod": "2026-10-25",
+  "derivedHash": "a89fa55029c2"
  },
  "/ingredients/vanilla/": {
-  "hash": "794060fd9f74",
-  "lastmod": "2026-10-23",
-  "derivedHash": "8ebeca6f9035"
+  "hash": "46b5ea9533de",
+  "lastmod": "2026-10-25",
+  "derivedHash": "c3f69b08b52a"
  },
  "/ingredients/yoghurt/": {
   "hash": "da1fecda3dc6",
-  "lastmod": "2026-10-23",
-  "derivedHash": "0452e0867bba"
+  "lastmod": "2026-10-25",
+  "derivedHash": "d0027381471c"
  },
  "/privacy/": {
   "hash": "a1cd4c20cb70",
@@ -1765,9 +1760,9 @@
   "derivedHash": "d3c06aed005e"
  },
  "/recipes/": {
-  "hash": "6eda24ea0168",
-  "lastmod": "2026-10-23",
-  "derivedHash": "fc1ad5fef93d"
+  "hash": "e453f3ee3b28",
+  "lastmod": "2026-10-25",
+  "derivedHash": "bd4b67aabb1a"
  },
  "/recipes/3-ingredient-banana-pancakes/": {
   "hash": "74f0eda6277a",
@@ -1775,10 +1770,6 @@
  },
  "/recipes/3-ingredient-biscuits/": {
   "hash": "b4a61ad8c4a3",
-  "lastmod": "2026-10-22"
- },
- "/recipes/3-ingredient-cookies/": {
-  "hash": "45f58481db2b",
   "lastmod": "2026-10-22"
  },
  "/recipes/3-ingredient-fudge/": {
@@ -1903,10 +1894,6 @@
  },
  "/recipes/air-fryer-bacon/": {
   "hash": "b98b50a2210b",
-  "lastmod": "2026-10-20"
- },
- "/recipes/air-fryer-baked-potato/": {
-  "hash": "bd377756184e",
   "lastmod": "2026-10-20"
  },
  "/recipes/air-fryer-banana-bread/": {
@@ -3301,10 +3288,6 @@
   "hash": "d327b9a59099",
   "lastmod": "2026-10-20"
  },
- "/recipes/banana-toast/": {
-  "hash": "8ca218367eb5",
-  "lastmod": "2026-10-20"
- },
  "/recipes/banana-walnut-loaf/": {
   "hash": "589dff55fc6d",
   "lastmod": "2026-10-20"
@@ -3753,10 +3736,6 @@
   "hash": "484f3f8fbab4",
   "lastmod": "2026-10-20"
  },
- "/recipes/beef-pot-roast-with-gravy/": {
-  "hash": "73702a1556f3",
-  "lastmod": "2026-10-20"
- },
  "/recipes/beef-ragu/": {
   "hash": "6538fbfbb650",
   "lastmod": "2026-10-21"
@@ -3879,10 +3858,6 @@
  },
  "/recipes/beetroot-and-goat-cheese-salad/": {
   "hash": "361b0acef364",
-  "lastmod": "2026-10-20"
- },
- "/recipes/beetroot-burger/": {
-  "hash": "f99f9109204a",
   "lastmod": "2026-10-20"
  },
  "/recipes/beetroot-dip/": {
@@ -4613,10 +4588,6 @@
   "hash": "c4dbf55d09b1",
   "lastmod": "2026-10-20"
  },
- "/recipes/breakfast-cookies/": {
-  "hash": "0617e4ce5aa9",
-  "lastmod": "2026-10-22"
- },
  "/recipes/breakfast-fried-rice/": {
   "hash": "2a354e124e39",
   "lastmod": "2026-10-20"
@@ -5289,10 +5260,6 @@
   "hash": "ff40ab8b345b",
   "lastmod": "2026-10-20"
  },
- "/recipes/carbonade-flamande/": {
-  "hash": "5da621fa69bd",
-  "lastmod": "2026-10-20"
- },
  "/recipes/carbonnade-flamande/": {
   "hash": "8dc1ff0d8270",
   "lastmod": "2026-10-20"
@@ -5913,10 +5880,6 @@
   "hash": "5a3e9bf00d84",
   "lastmod": "2026-10-21"
  },
- "/recipes/chewy-oat-granola-bars/": {
-  "hash": "856195192175",
-  "lastmod": "2026-10-20"
- },
  "/recipes/chex-mix/": {
   "hash": "354ef99335ea",
   "lastmod": "2026-10-20"
@@ -6184,10 +6147,6 @@
  "/recipes/chicken-francese/": {
   "hash": "ed257290c2cd",
   "lastmod": "2026-10-20"
- },
- "/recipes/chicken-francoise/": {
-  "hash": "c6858aa82d65",
-  "lastmod": "2026-10-22"
  },
  "/recipes/chicken-fricassee/": {
   "hash": "6fbdc299d281",
@@ -7373,10 +7332,6 @@
   "hash": "8ff3d966dc17",
   "lastmod": "2026-10-20"
  },
- "/recipes/collard-greens-with-ham-hock/": {
-  "hash": "2bce9daeab75",
-  "lastmod": "2026-10-22"
- },
  "/recipes/collard-greens/": {
   "hash": "a58d22150c76",
   "lastmod": "2026-10-20"
@@ -8405,10 +8360,6 @@
   "hash": "b6097e5d7544",
   "lastmod": "2026-10-22"
  },
- "/recipes/devilled-eggs/": {
-  "hash": "bba1b3750efb",
-  "lastmod": "2026-10-20"
- },
  "/recipes/devilled-kidneys/": {
   "hash": "7d6ebc42ecd0",
   "lastmod": "2026-10-20"
@@ -9329,10 +9280,6 @@
   "hash": "dbfb9d9114c2",
   "lastmod": "2026-10-20"
  },
- "/recipes/fish-and-chips-with-mushy-peas/": {
-  "hash": "7ee23a50369b",
-  "lastmod": "2026-10-20"
- },
  "/recipes/fish-and-chips/": {
   "hash": "9933e9a2f937",
   "lastmod": "2026-10-20"
@@ -9349,20 +9296,12 @@
   "hash": "a6dce4fff57a",
   "lastmod": "2026-10-20"
  },
- "/recipes/fish-goujons/": {
-  "hash": "f8937c14c0c5",
-  "lastmod": "2026-10-21"
- },
  "/recipes/fish-moilee/": {
   "hash": "792764dde216",
   "lastmod": "2026-10-20"
  },
  "/recipes/fish-pakora/": {
   "hash": "3e2595878708",
-  "lastmod": "2026-10-20"
- },
- "/recipes/fish-pie-with-cheddar-mash/": {
-  "hash": "ef0ac07a9f7d",
   "lastmod": "2026-10-20"
  },
  "/recipes/fish-pie/": {
@@ -9813,20 +9752,12 @@
   "hash": "2f47ad81b000",
   "lastmod": "2026-10-22"
  },
- "/recipes/fruit-loaf/": {
-  "hash": "6a20cef60543",
-  "lastmod": "2026-10-21"
- },
  "/recipes/fruit-pizza/": {
   "hash": "43ff2d5fb96e",
   "lastmod": "2026-10-20"
  },
  "/recipes/fruit-punch/": {
   "hash": "683a1ace7a14",
-  "lastmod": "2026-10-22"
- },
- "/recipes/fruit-salad-with-honey-lime/": {
-  "hash": "2d431bf811d8",
   "lastmod": "2026-10-22"
  },
  "/recipes/fruit-salad/": {
@@ -11445,10 +11376,6 @@
   "hash": "63e136faccb7",
   "lastmod": "2026-10-20"
  },
- "/recipes/honey-mustard-sausages/": {
-  "hash": "89874c029f81",
-  "lastmod": "2026-10-22"
- },
  "/recipes/honey-oat-bread/": {
   "hash": "db8451dcfa65",
   "lastmod": "2026-10-21"
@@ -12065,10 +11992,6 @@
   "hash": "e7d89c88e01e",
   "lastmod": "2026-10-22"
  },
- "/recipes/irish-potato-cakes/": {
-  "hash": "86a73c4745c6",
-  "lastmod": "2026-10-20"
- },
  "/recipes/irish-scones/": {
   "hash": "22e675320606",
   "lastmod": "2026-10-20"
@@ -12589,10 +12512,6 @@
   "hash": "be3db24258a6",
   "lastmod": "2026-10-20"
  },
- "/recipes/katsu-curry/": {
-  "hash": "8c9c72cb9521",
-  "lastmod": "2026-10-20"
- },
  "/recipes/katsu-sando/": {
   "hash": "53358def8710",
   "lastmod": "2026-10-20"
@@ -13039,10 +12958,6 @@
  },
  "/recipes/kumara-coconut-curry/": {
   "hash": "cb4230b05729",
-  "lastmod": "2026-10-20"
- },
- "/recipes/kumara-fries/": {
-  "hash": "b4c854b5120c",
   "lastmod": "2026-10-20"
  },
  "/recipes/kumara-fritters/": {
@@ -13747,10 +13662,6 @@
  },
  "/recipes/loaded-baked-potato/": {
   "hash": "4529b614e61e",
-  "lastmod": "2026-10-20"
- },
- "/recipes/loaded-baked-potatoes/": {
-  "hash": "c68a2e0bbc43",
   "lastmod": "2026-10-20"
  },
  "/recipes/loaded-sweet-potatoes/": {
@@ -15321,14 +15232,6 @@
   "hash": "7d1b1b5e0872",
   "lastmod": "2026-10-20"
  },
- "/recipes/new-zealand-anzac-biscuits/": {
-  "hash": "e2226bad1aab",
-  "lastmod": "2026-10-20"
- },
- "/recipes/new-zealand-boil-up/": {
-  "hash": "2aa415783c59",
-  "lastmod": "2026-10-20"
- },
  "/recipes/new-zealand-corn-fritters/": {
   "hash": "25b0924e8cd1",
   "lastmod": "2026-10-20"
@@ -15400,10 +15303,6 @@
  "/recipes/no-bake-cookies/": {
   "hash": "723c830c68be",
   "lastmod": "2026-10-20"
- },
- "/recipes/no-bake-energy-bites/": {
-  "hash": "3a1c399aefdc",
-  "lastmod": "2026-10-21"
  },
  "/recipes/no-bake-granola-bars/": {
   "hash": "a43e7ce56fb8",
@@ -15629,10 +15528,6 @@
   "hash": "011cee116294",
   "lastmod": "2026-10-20"
  },
- "/recipes/one-pan-chicken-and-rice/": {
-  "hash": "15b1170490b7",
-  "lastmod": "2026-10-20"
- },
  "/recipes/one-pan-mexican-rice/": {
   "hash": "3f7561850f04",
   "lastmod": "2026-10-21"
@@ -15739,10 +15634,6 @@
  },
  "/recipes/onion-tart/": {
   "hash": "52750127ccc4",
-  "lastmod": "2026-10-20"
- },
- "/recipes/onion-turkey-burgers/": {
-  "hash": "03deecee6570",
   "lastmod": "2026-10-20"
  },
  "/recipes/opera/": {
@@ -16524,10 +16415,6 @@
  "/recipes/peanut-butter-cupcakes/": {
   "hash": "a0d0ceb026cf",
   "lastmod": "2026-10-23"
- },
- "/recipes/peanut-butter-energy-bites/": {
-  "hash": "eadead105fe0",
-  "lastmod": "2026-10-21"
  },
  "/recipes/peanut-butter-fudge/": {
   "hash": "155b1d35a96f",
@@ -17597,10 +17484,6 @@
   "hash": "04575350f989",
   "lastmod": "2026-10-20"
  },
- "/recipes/potato-gratin/": {
-  "hash": "d86b75d2f1a0",
-  "lastmod": "2026-10-20"
- },
  "/recipes/potato-kugel/": {
   "hash": "1b2d07ae8537",
   "lastmod": "2026-10-20"
@@ -18149,10 +18032,6 @@
   "hash": "ca374f9d4e21",
   "lastmod": "2026-10-20"
  },
- "/recipes/rack-of-lamb/": {
-  "hash": "8855dee2a8d4",
-  "lastmod": "2026-10-20"
- },
  "/recipes/raclette/": {
   "hash": "b5b287ac8ea4",
   "lastmod": "2026-10-20"
@@ -18635,10 +18514,6 @@
  },
  "/recipes/roasted-asparagus-with-parmesan/": {
   "hash": "fc0aae16c5ba",
-  "lastmod": "2026-10-20"
- },
- "/recipes/roasted-beet-salad-with-goat-cheese/": {
-  "hash": "39cb4fd02a71",
   "lastmod": "2026-10-20"
  },
  "/recipes/roasted-beets/": {
@@ -19877,10 +19752,6 @@
   "hash": "3062e4dfdfac",
   "lastmod": "2026-10-20"
  },
- "/recipes/shepherds-pie-with-cheesy-mash/": {
-  "hash": "50b51d5f4155",
-  "lastmod": "2026-10-20"
- },
  "/recipes/shepherds-pie/": {
   "hash": "e73d6ecbd92f",
   "lastmod": "2026-10-20"
@@ -19936,18 +19807,6 @@
  "/recipes/shorshe-ilish/": {
   "hash": "0e46476ff698",
   "lastmod": "2026-10-20"
- },
- "/recipes/shortbread-cookies/": {
-  "hash": "b8d9940aea25",
-  "lastmod": "2026-10-20"
- },
- "/recipes/shortbread-fingers/": {
-  "hash": "989f7a7081fa",
-  "lastmod": "2026-10-20"
- },
- "/recipes/shortbread-stars/": {
-  "hash": "cefa3558c50f",
-  "lastmod": "2026-10-22"
  },
  "/recipes/shortbread/": {
   "hash": "fb1c0b5254a5",
@@ -20141,10 +20000,6 @@
   "hash": "bc7a613cb4a0",
   "lastmod": "2026-10-20"
  },
- "/recipes/slow-cooked-lamb-shoulder/": {
-  "hash": "8308fc6aaa67",
-  "lastmod": "2026-10-20"
- },
  "/recipes/slow-cooker-apple-butter/": {
   "hash": "70d971b8e7b9",
   "lastmod": "2026-10-20"
@@ -20253,10 +20108,6 @@
   "hash": "9686727e0d5a",
   "lastmod": "2026-10-22"
  },
- "/recipes/slow-cooker-chilli-con-carne/": {
-  "hash": "034fdb9615e5",
-  "lastmod": "2026-10-20"
- },
  "/recipes/slow-cooker-corned-beef/": {
   "hash": "60d2365201ff",
   "lastmod": "2026-10-20"
@@ -20320,10 +20171,6 @@
  "/recipes/slow-cooker-mac-and-cheese/": {
   "hash": "0be80a2dfcb7",
   "lastmod": "2026-10-21"
- },
- "/recipes/slow-cooker-macaroni-and-cheese/": {
-  "hash": "df3ae702b2b4",
-  "lastmod": "2026-10-20"
  },
  "/recipes/slow-cooker-mashed-potatoes/": {
   "hash": "995767b494af",
@@ -20773,10 +20620,6 @@
   "hash": "63e92822b5a1",
   "lastmod": "2026-10-20"
  },
- "/recipes/spaghetti-al-limone/": {
-  "hash": "1dfb6d56a583",
-  "lastmod": "2026-10-22"
- },
  "/recipes/spaghetti-al-tonno/": {
   "hash": "728df723a19f",
   "lastmod": "2026-10-20"
@@ -20991,10 +20834,6 @@
  },
  "/recipes/spotted-dick/": {
   "hash": "a08468466d13",
-  "lastmod": "2026-10-20"
- },
- "/recipes/spring-onion-pancakes/": {
-  "hash": "e38e3863fe2c",
   "lastmod": "2026-10-20"
  },
  "/recipes/spring-rolls/": {
@@ -21597,10 +21436,6 @@
   "hash": "16a2a5464b96",
   "lastmod": "2026-10-20"
  },
- "/recipes/sweet-potato-gnocchi/": {
-  "hash": "b2e2ca56814b",
-  "lastmod": "2026-10-20"
- },
  "/recipes/sweet-potato-hash/": {
   "hash": "d22389bc3793",
   "lastmod": "2026-10-21"
@@ -21720,10 +21555,6 @@
  "/recipes/tahini-chicken/": {
   "hash": "6df9793547a8",
   "lastmod": "2026-10-20"
- },
- "/recipes/tajarin-al-tartufo/": {
-  "hash": "77f84328f950",
-  "lastmod": "2026-10-22"
  },
  "/recipes/tajine-tunisien/": {
   "hash": "8b08ca9c9c61",
@@ -22173,10 +22004,6 @@
   "hash": "09359ab28b48",
   "lastmod": "2026-10-20"
  },
- "/recipes/toffee-popcorn/": {
-  "hash": "68279075f410",
-  "lastmod": "2026-10-20"
- },
  "/recipes/tofu-and-cabbage-stir-fry/": {
   "hash": "e9ed800dec9d",
   "lastmod": "2026-10-20"
@@ -22507,10 +22334,6 @@
  },
  "/recipes/trout-pate/": {
   "hash": "28b92b6d2b8b",
-  "lastmod": "2026-10-20"
- },
- "/recipes/trout-with-almonds/": {
-  "hash": "326a79d7099e",
   "lastmod": "2026-10-20"
  },
  "/recipes/truffade/": {
@@ -23661,10 +23484,6 @@
   "hash": "40642a5ca429",
   "lastmod": "2026-10-20"
  },
- "/recipes/zucchini-bake/": {
-  "hash": "d41712a89ca1",
-  "lastmod": "2026-10-20"
- },
  "/recipes/zucchini-bread/": {
   "hash": "286cc9d366ce",
   "lastmod": "2026-10-20"
@@ -23766,13 +23585,13 @@
   "lastmod": "2026-10-20"
  },
  "/search/": {
-  "hash": "6eda24ea0168",
-  "lastmod": "2026-10-23",
-  "derivedHash": "8da55945a9bc"
+  "hash": "e453f3ee3b28",
+  "lastmod": "2026-10-25",
+  "derivedHash": "04447e65841e"
  },
  "/site-directory/": {
-  "hash": "6eda24ea0168",
-  "lastmod": "2026-10-23",
-  "derivedHash": "cf0cc82b8cb5"
+  "hash": "e453f3ee3b28",
+  "lastmod": "2026-10-25",
+  "derivedHash": "e6c0dbac85bd"
  }
 }

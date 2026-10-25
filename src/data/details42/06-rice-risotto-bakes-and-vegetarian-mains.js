@@ -454,37 +454,6 @@ module.exports = {
     nut: [367, 12, 46, 15, 7, 5, 520]
   },
 
-  'sweet-potato-gnocchi': {
-    d: 'Soft pillows of sweet potato and flour, boiled until they float and tossed in sage brown butter and parmesan.',
-    meta: 'Sweet potato gnocchi: soft pillows of sweet potato and flour tossed in sage brown butter. Four servings, cooked for 20 minutes.',
-    kw: ['sweet potato gnocchi', 'homemade sweet potato gnocchi', 'sweet potato gnocchi with sage butter', 'sweet potato gnocchi with brown butter', 'sweet potato gnocchi with parmesan'],
-    why: 'It is autumn food: soft, orange, scented with sage. Sweet potato gnocchi is harder than the potato kind, because the sweet potato holds more water and makes a stickier dough.\n\nBoil the cubes for 12 minutes until a knife slides in, then drain and let them steam dry in the colander for 5 minutes. **Dry potato is the key.** Mash it while hot until completely smooth, then spread it out to cool, so that the steam can leave. Wet potato takes up too much flour and makes heavy gnocchi.\n\nMix in the egg yolk, salt and nutmeg, then add the flour a little at a time, stopping as soon as the dough comes together. It will be soft and slightly sticky. Overworking makes it tough.\n\nRoll into ropes, cut into 2 cm pieces and boil in batches in salted water for 2 to 3 minutes, until they float. Toss in butter that has been browned with sage for 3 minutes. Scatter with parmesan and serve at once.',
-    ing: [
-      '500 g sweet potato, peeled and cubed',
-      '150 g plain flour',
-      '1 egg yolk, about 20 g',
-      '1/2 tsp salt',
-      '1/4 tsp ground nutmeg',
-      '50 g butter',
-      '8 sage leaves',
-      '30 g parmesan, grated'
-    ],
-    st: [
-      'Boil the sweet potato for 12 minutes until tender. Drain and steam dry in the colander for 5 minutes, then mash until smooth and spread out to cool.',
-      'Mix in the egg yolk, salt and nutmeg, then add the flour a little at a time until a soft dough forms.',
-      'Roll into ropes, cut into 2 cm pieces and boil in batches in salted water for 2 to 3 minutes until they float. Lift out with a slotted spoon.',
-      'Brown the butter with the sage for 3 minutes, toss the gnocchi in it and scatter with the parmesan.'
-    ],
-    tips: [
-      'Dry the potato.',
-      'Add the flour gradually.',
-      'Do not overwork the dough.',
-      'Boil in small batches.'
-    ],
-    pair: ['Green salad', 'Dry white wine', 'Roast pumpkin', 'Crispy sage'],
-    store: 'Best eaten at once. Uncooked gnocchi keep in the fridge for 1 day.',
-    nut: [378, 9, 54, 14, 5, 5, 480]
-  },
 
   'air-fryer-vegetables': {
     d: 'Broccoli, cauliflower, carrots and peppers tossed with oil, garlic powder and salt and cooked in an air fryer until browned.',

@@ -455,6 +455,7 @@ ${breadcrumbs(trail)}
       <span class="eyebrow">${esc(options.eyebrow)}</span>
       <h1>${esc(options.heading)}</h1>
       <p class="lede">${esc(options.intro)}</p>
+      ${(options.guide || []).map(p => `<p>${esc(p)}</p>`).join('\n      ')}
     </div>
     <a class="btn btn--ghost" href="${SITE.base}recipes/">All ${recipeCount} recipes</a>
   </header>
