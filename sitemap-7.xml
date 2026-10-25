@@ -3335,9 +3335,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/milo-slice/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/milo-slice.jpg</image:loc>
+      <image:title>Milo Slice</image:title>
+      <image:caption>Milo Slice</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/apple-slab-pie/</loc>
@@ -4602,9 +4607,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/black-pudding-hash/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/black-pudding-hash.jpg</image:loc>
+      <image:title>Black Pudding Hash</image:title>
+      <image:caption>Black Pudding Hash</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/yorkshire-pudding-wraps/</loc>
@@ -4835,15 +4845,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/peanut-sauce/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/peanut-sauce.jpg</image:loc>
+      <image:title>Peanut Sauce</image:title>
+      <image:caption>Peanut Sauce</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/satay-sauce/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/satay-sauce.jpg</image:loc>
+      <image:title>Satay Sauce</image:title>
+      <image:caption>Satay Sauce</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tomato-passata/</loc>

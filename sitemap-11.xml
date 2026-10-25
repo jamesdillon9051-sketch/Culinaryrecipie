@@ -2382,9 +2382,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mint-brownies/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mint-brownies.jpg</image:loc>
+      <image:title>Mint Brownies</image:title>
+      <image:caption>Mint Brownies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mixed-berry-pie/</loc>
@@ -4175,9 +4180,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gluten-free-fried-chicken/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gluten-free-fried-chicken.jpg</image:loc>
+      <image:title>Gluten-Free Fried Chicken</image:title>
+      <image:caption>Gluten-Free Fried Chicken</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gluten-free-gnocchi/</loc>

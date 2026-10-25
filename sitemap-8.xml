@@ -793,9 +793,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/hawaiian-chicken/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/hawaiian-chicken.jpg</image:loc>
+      <image:title>Hawaiian Chicken</image:title>
+      <image:caption>Hawaiian Chicken</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tuscan-chicken/</loc>

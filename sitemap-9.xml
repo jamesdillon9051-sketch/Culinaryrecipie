@@ -1489,9 +1489,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/marshmallow-fluff-fudge/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/marshmallow-fluff-fudge.jpg</image:loc>
+      <image:title>Marshmallow Fluff Fudge</image:title>
+      <image:caption>Marshmallow Fluff Fudge</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/oreo-truffles/</loc>
@@ -3620,9 +3625,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/herb-butter/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/herb-butter.jpg</image:loc>
+      <image:title>Herb Butter</image:title>
+      <image:caption>Herb Butter</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tomato-sauce/</loc>

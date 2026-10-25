@@ -4587,9 +4587,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sweet-potato-toast/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sweet-potato-toast.jpg</image:loc>
+      <image:title>Sweet Potato Toast</image:title>
+      <image:caption>Sweet Potato Toast</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cottage-cheese-flatbread/</loc>

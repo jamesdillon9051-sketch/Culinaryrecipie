@@ -702,9 +702,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pollo-alla-diavola/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pollo-alla-diavola.jpg</image:loc>
+      <image:title>Pollo alla Diavola</image:title>
+      <image:caption>Pollo alla Diavola</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/coniglio-alla-cacciatora/</loc>
