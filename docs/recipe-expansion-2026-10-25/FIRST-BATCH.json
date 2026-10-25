@@ -1,0 +1,95 @@
+{
+  "request_target": 500,
+  "complete_new_recipe_drafts": 5,
+  "remaining_recipe_target": 495,
+  "base_active_recipes": 5455,
+  "review_branch_active_recipes": 5460,
+  "new_volume": 63,
+  "published_or_merged": false,
+  "production_HTTP_and_Google_indexing": "Not verified; new pages exist only on review branch",
+  "new_real_photos": 0,
+  "image_limitation": "All5new recipes lack a real photo; no Recipe.image placeholder inserted. Missing image limits Recipe rich-result eligibility.",
+  "recipes": [
+    {
+      "slug": "cowboy-pie",
+      "title": "Cowboy Pie",
+      "source": "https://www.bbcgoodfood.com/recipes/cowboy-pie",
+      "detail_path": "src/data/details63/first-batch.js",
+      "category": "Dinner",
+      "cuisine": "British",
+      "source_review": "Independently written prose and instructions; ingredient/method facts adapted with rounded metric conversions. Not kitchen-tested.",
+      "untimed": [
+        "steaming the potatoes dry"
+      ],
+      "rest": null,
+      "cook": 60,
+      "cookMax": 60
+    },
+    {
+      "slug": "chocolate-concrete",
+      "title": "Chocolate Concrete",
+      "source": "https://www.bbcgoodfood.com/recipes/chocolate-crunch",
+      "detail_path": "src/data/details63/first-batch.js",
+      "category": "Baking",
+      "cuisine": "British",
+      "source_review": "Independently written prose and instructions; ingredient/method facts adapted with rounded metric conversions. Not kitchen-tested.",
+      "untimed": [
+        "cooling completely"
+      ],
+      "rest": [
+        5,
+        "Cooling in the tin"
+      ],
+      "cook": 30,
+      "cookMax": 35
+    },
+    {
+      "slug": "cheese-herb-quick-bread",
+      "title": "Cheese and Herb Quick Bread",
+      "source": "https://www.recipetineats.com/cheese-herb-garlic-quick-bread/",
+      "detail_path": "src/data/details63/first-batch.js",
+      "category": "Baking",
+      "cuisine": "Australian",
+      "source_review": "Independently written prose and instructions; ingredient/method facts adapted with rounded metric conversions. Not kitchen-tested.",
+      "untimed": [],
+      "rest": [
+        15,
+        "Cooling before slicing"
+      ],
+      "cook": 50,
+      "cookMax": 50
+    },
+    {
+      "slug": "chicken-cobbler",
+      "title": "Chicken Cobbler",
+      "source": "https://www.spendwithpennies.com/chicken-cobbler-recipe/",
+      "detail_path": "src/data/details63/first-batch.js",
+      "category": "Dinner",
+      "cuisine": "American",
+      "source_review": "Independently written prose and instructions; ingredient/method facts adapted with rounded metric conversions. Not kitchen-tested.",
+      "untimed": [],
+      "rest": [
+        10,
+        "Resting before serving"
+      ],
+      "cook": 48,
+      "cookMax": 53
+    },
+    {
+      "slug": "hundreds-and-thousands-biscuits",
+      "title": "Hundreds and Thousands Biscuits",
+      "source": "https://www.chelsea.co.nz/recipes/browse-recipes/hundreds-thousands-biscuits",
+      "detail_path": "src/data/details63/first-batch.js",
+      "category": "Baking",
+      "cuisine": "New Zealand",
+      "source_review": "Independently written prose and instructions; ingredient/method facts adapted with rounded metric conversions. Not kitchen-tested.",
+      "untimed": [
+        "cooling completely",
+        "setting the icing"
+      ],
+      "rest": null,
+      "cook": 10,
+      "cookMax": 10
+    }
+  ]
+}

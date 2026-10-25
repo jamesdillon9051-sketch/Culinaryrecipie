@@ -1,19 +1,19 @@
-# Five-country recipe expansion: research checkpoint
+# Five-country expansion: first five recipes and research queue
 25 October 2026. Separate branch: content/popular-five-countries-500-2026-10-25. Base: 373f10a67f (latest main, PR33). Nothing merged or deployed.
 
-## Status: the 500recipe addition is NOT complete
-There are 500 screened research leads, not 500 new recipes. Zero new catalogue records or recipe pages were added. Each lead still needs a genuinely distinct dish decision, a complete independently written recipe and source/food-handling checks. No empty recipe shell, copied publisher method or artificial variation was published to meet a count.
+## Status: the 500-recipe addition is NOT complete
+The first five complete recipe drafts are implemented in volume 63, taking the review catalogue from 5,455 to 5,460 recipes. The 500-recipe request remains unfinished: 495 additional recipes still need authoring and review. The research CSV contains 500 unapproved leads, not 500 completed recipes. No empty recipe shell or copied publisher method was created to meet a count.
 
-The current catalogue contains 5,455recipes after recent duplicate retirements. Existing source, generated pages, ads, photo files, URLs, canonicals, sitemaps and dates remain untouched. The owner authorizes new recipe work; existing Claude content corrections remain separately owned. Claude retains combined integration/regeneration ownership.
+The base main catalogue contained 5,455 recipes after recent duplicate retirements. The existing 5,455 recipe source records and modification dates remain unchanged. Generated listings, global counts, sitemap membership, source date registers and the social card reflect the five additions. Advertising, design, existing URLs and photo files are preserved. A focused fingerprint fix ignores the shared directory counter so adding a recipe will not refresh unrelated collection dates merely through that counter. The owner authorizes new recipe work; existing Claude content corrections remain separately owned. Claude retains combined integration/regeneration ownership.
 
 ## Evidence and limitations
-Research fetched 119collection requests in two batches (99 HTTP 200responses), yielding 1,674recipe-link references and 1,520unique recipe references after initial navigation filtering. HTTPsuccess is not a guarantee that collection pagination worked: Canadian Living's query pages repeatedly exposed the same first-page names, so those were deduplicated, not counted as different results.
+Research fetched 119 collection requests in two batches (99 HTTP 200 responses), yielding 1,674 recipe-link references and 1,520 unique recipe references after initial navigation filtering. HTTP success is not a guarantee that collection pagination worked: Canadian Living's query pages repeatedly exposed the same first-page names, so those were deduplicated, not counted as different results.
 
 Sources include BBCGoodFood, RecipeTinEats, ChelseaSugar, CanadianLiving and SpendWithPennies. Allrecipes' index returned 460 from this environment; one Canadian Living individual recipe returned a 307 loop. These source-access failures do not establish a problem with weeklydelight.com.
 
 Publisher popularity labels are evidence of that publisher's audience only. Appearance in a recipe index does not establish popularity. No paid keyword/search-volume data was available, and these leads are not claimed to be the 500 most-searched dishes in the five countries. Target-market labels are proposed research buckets, not measured national demand, publisher nationality or cuisine/origin claims. SpendWithPennies is by Canadian author Holly Nilsson; its American-style leads need USA demand verification. Her publisher confirms the Canadian location: https://www.penguinrandomhouse.com/books/734106/spend-with-pennies-everyday-comfort-by-holly-nilsson/.
 
-The stricter screen found 548 existing dishes/aliases, 442 requiring same-dish review and 529 unapproved leads; one additional navigation item was excluded.500leads were selected from that final group. They may still contain aliases or insufficiently distinct variants; no automated name screen can approve ingredients/method differences. The remaining 29 are not in this checkpoint's selected list.
+The stricter screen found 548 existing dishes/aliases, 442 requiring same-dish review and 529 unapproved leads; one additional navigation item was excluded. 500 leads were selected from that final group. They may still contain aliases or insufficiently distinct variants; no automated name screen can approve ingredients/method differences. The remaining 29 are not in this checkpoint's selected list.
 
 ## Files
 - research-leads.csv / .json: 500 source-linked, explicitly unapproved leads.
@@ -33,4 +33,13 @@ The stricter screen found 548 existing dishes/aliases, 442 requiring same-dish r
 8. Keep the addition on a review branch; Claude integrates agreed work. Obtain owner approval before production merge/deployment. Google indexing is not guaranteed.
 
 ## Verification at this checkpoint
-Baseline build and full check passed against current main (logs retained in /workspace/artifacts/five-countries-500-2026-10-25). The new expansion-screen fixtures pass. Final checkpoint checks are recorded in CHECKS.md. This verifies that the research checkpoint does not alter the site; it does not validate any new recipe, because none is authored yet.
+Baseline build and full check passed against current main (logs retained in /workspace/artifacts/five-countries-500-2026-10-25). The expansion-screen fixtures and modification-date regressions pass. Current first-batch checks and limitations are recorded in FIRST-BATCH.md and FIRST-BATCH.json. The earlier CHECKS.md concerns the research-only commit d5460f59; it is historical, not the status of the completed five drafts.
+
+## First five review pages
+- Cowboy Pie — British Dinner.
+- Chocolate Concrete — British Baking.
+- Cheese and Herb Quick Bread — Australian Baking.
+- Chicken Cobbler — American Dinner.
+- Hundreds and Thousands Biscuits — New Zealand Baking.
+
+Canadian recipe authoring remains pending. These cuisines describe the draft style, not measured national search demand. All five have full ingredients/methods and original explanatory text, not placeholder recipe pages. There are no new photographs; Recipe.image remains absent and recipe rich-result eligibility is limited until correct licensed photographs are reviewed. Ordinary web indexability is a separate question.

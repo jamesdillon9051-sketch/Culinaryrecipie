@@ -9,7 +9,7 @@
     "lasagna-bolognese": {
       "min": 20,
       "max": 20,
-      "reason": "\"Rest for at least 20 minutes before cutting\" is required (the method says the lasagne will not hold a slice otherwise) but falls under the reader's 30-minute floor for counting a wait. Cooking is the ragù chain in sequence (4 + 12 + 10 + 5 + 20 minutes, then a 2.5 to 3 hour simmer) plus 40 minutes' baking: 241 to 271 minutes in the row and cookMax. The besciamella and oven heating overlap the simmer and are not added; chopping and assembly are in the 45 minutes of prep."
+      "reason": "\"Rest for at least 20 minutes before cutting\" is required (the method says the lasagne will not hold a slice otherwise) but falls under the reader's 30-minute floor for counting a wait. Cooking is the rag\u00f9 chain in sequence (4 + 12 + 10 + 5 + 20 minutes, then a 2.5 to 3 hour simmer) plus 40 minutes' baking: 241 to 271 minutes in the row and cookMax. The besciamella and oven heating overlap the simmer and are not added; chopping and assembly are in the 45 minutes of prep."
     },
     "naengmyeon": {
       "min": 570,
@@ -19,7 +19,7 @@
     "pastitsio": {
       "min": 30,
       "max": 30,
-      "reason": "\"Rest 30 minutes before cutting — this is essential\" is required, but a single 30-minute wait falls under the reader 60-minute floor for counting. Cooking is the meat sauce in sequence (10 + 1 + 10 minutes, the wine bubbling off, then 45 minutes simmering) and 50 to 55 minutes baking: 116 to 121 minutes. The pasta and the béchamel are made while the sauce simmers and are not added."
+      "reason": "\"Rest 30 minutes before cutting \u2014 this is essential\" is required, but a single 30-minute wait falls under the reader 60-minute floor for counting. Cooking is the meat sauce in sequence (10 + 1 + 10 minutes, the wine bubbling off, then 45 minutes simmering) and 50 to 55 minutes baking: 116 to 121 minutes. The pasta and the b\u00e9chamel are made while the sauce simmers and are not added."
     },
     "freezer-lasagna": {
       "min": 0,
@@ -29,12 +29,27 @@
     "chili-con-carne": {
       "min": 20,
       "max": 20,
-      "reason": "\"Rest for 20 minutes before serving — or better, cool and refrigerate overnight\": the overnight chill is offered as an improvement after a dash, which the reader does not split off as an alternative, so it was counted as a required 8 hours. The required wait is the 20-minute rest. Cooking is browning in three batches (about 5 minutes each), 8 + 4 minutes for the onions and peppers, 90 seconds for the spices, 2 minutes for the purée, 2 hours in the oven and 30 minutes with the beans: 181 minutes."
+      "reason": "\"Rest for 20 minutes before serving \u2014 or better, cool and refrigerate overnight\": the overnight chill is offered as an improvement after a dash, which the reader does not split off as an alternative, so it was counted as a required 8 hours. The required wait is the 20-minute rest. Cooking is browning in three batches (about 5 minutes each), 8 + 4 minutes for the onions and peppers, 90 seconds for the spices, 2 minutes for the pur\u00e9e, 2 hours in the oven and 30 minutes with the beans: 181 minutes."
     },
     "sourdough-bread": {
       "min": 1225,
       "max": 1585,
       "reason": "The bulk ferment is given as \"typically 5 to 7 hours in total\", counted from when the starter goes in, so the 30-minute rest after adding it and the four coil folds over 3 hours run inside it and are not added again. Waits: autolyse 1 hour, bulk 5 to 7 hours, pre-shape rest 25 minutes, cold retard 12 to 16 hours, cooling at least 2 hours: 1225 to 1585 minutes. The bulk time depends on dough temperature and starter strength; the method gives the readiness cue (risen by about 60%, airy, bubbles on the surface)."
+    },
+    "cheese-herb-quick-bread": {
+      "min": 15,
+      "max": 15,
+      "reason": "Method requires5minutes in the tin followed by at least10on a rack:15unattended minutes beyond prep15/cook50. Both short waits fall below the generic parser15minute cutoff. Source https://www.recipetineats.com/cheese-herb-garlic-quick-bread/ states80minutes total. This is source arithmetic, not kitchen-testing evidence."
+    },
+    "chicken-cobbler": {
+      "min": 10,
+      "max": 10,
+      "reason": "Method requires a10minute rest after baking, beyond prep5and cooking48to53minutes (3steaming+45to50baking). Parser skips waits under15minutes. Count this wait rather than generating a53minute complete-time claim. Source https://www.spendwithpennies.com/chicken-cobbler-recipe/ states63minutes at the lower bake bound. Source reconciliation only; not cooking evidence."
+    },
+    "chocolate-concrete": {
+      "min": 5,
+      "max": 5,
+      "reason": "Method requires5minutes in the tin before cutting, beyond prep10and baking30to35. Parser skips waits under15minutes. Count this supported wait; subsequent complete cooling remains explicitly untimed, so there is no complete totalTime claim. Source https://www.bbcgoodfood.com/recipes/chocolate-crunch . Source reconciliation only; not cooking evidence."
     }
   }
 }

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "release-first5-build",
+    "exit_code": 0,
+    "seconds": 19.17
+  },
+  {
+    "name": "release-first5-check",
+    "exit_code": 0,
+    "seconds": 250.34
+  },
+  {
+    "name": "release-first5-ads",
+    "exit_code": 0,
+    "seconds": 0.2
+  }
+]

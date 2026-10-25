@@ -11,8 +11,8 @@
     "not-a-recipe-lead": 1
   },
   "research_leads_selected": 500,
-  "complete_new_recipe_records": 0,
-  "new_recipe_pages": 0,
+  "complete_new_recipe_records": 5,
+  "new_recipe_pages": 5,
   "merged": false,
   "deployed": false,
   "search_volume_data_available": false,
@@ -24,5 +24,7 @@
     "USA": 109,
     "UK": 242
   },
-  "market_assignment_verified": false
+  "market_assignment_verified": false,
+  "remaining_recipe_target": 495,
+  "review_recipe_count": 5460
 }

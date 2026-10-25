@@ -6,7 +6,7 @@ Save a photograph as BOTH files in  src/assets/img/recipes/
     <slug>.webp   800 px wide, quality ~68
 Then run:  python3 tools/adopt_images.py   (see its header for the credit and licence it needs)
 
-== American (129) ======================================
+== American (130) ======================================
   beef-and-noodles                   Beef and Noodles   [15 refused already]
   crack-chicken                      Crack Chicken   [15 refused already]
   shirley-temple                     Shirley Temple   [5 refused already]
@@ -136,8 +136,9 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   high-protein-meal-prep-bowls       High-Protein Meal Prep Bowls
   low-carb-chili                     Low-Carb Chili   [1 refused already]
   low-carb-egg-muffins               Low-Carb Egg Muffins
+  chicken-cobbler                    Chicken Cobbler
 
-== British (32) ========================================
+== British (34) ========================================
   cumberland-sauce                   Cumberland Sauce   [6 refused already]
   lamb-bhuna                         Lamb Bhuna   [2 refused already]
   omelette-arnold-bennett            Omelette Arnold Bennett   [15 refused already]
@@ -170,6 +171,8 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   dairy-free-custard                 Dairy-Free Custard
   gluten-free-beer-battered-fish     Gluten-Free Beer Battered Fish   [2 refused already]
   gluten-free-gravy                  Gluten-Free Gravy   [1 refused already]
+  cowboy-pie                         Cowboy Pie
+  chocolate-concrete                 Chocolate Concrete
 
 == Italian (19) ========================================
   pesto-chicken-bake                 Pesto Chicken Bake   [17 refused already]
@@ -233,7 +236,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   paupiettes-de-veau                 Paupiettes de Veau
   cake-sale                          Cake Sale   [2 refused already]
 
-== Australian (7) ======================================
+== Australian (8) ======================================
   mars-bar-slice                     Mars Bar Slice   [4 refused already]
   weet-bix-slice                     Weet-Bix Slice   [4 refused already]
   ice-cream-christmas-pudding        Ice Cream Christmas Pudding   [18 refused already]
@@ -241,8 +244,9 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   milo-slice                         Milo Slice   [3 refused already]
   satay-sauce                        Satay Sauce   [6 refused already]
   cornflake-cookies                  Cornflake Cookies
+  cheese-herb-quick-bread            Cheese and Herb Quick Bread
 
-== New Zealand (7) =====================================
+== New Zealand (8) =====================================
   paraoa-parai                       Pāraoa Parai   [3 refused already]
   tamarillo-chutney                  Tamarillo Chutney   [3 refused already]
   hokey-pokey-biscuits               Hokey Pokey Biscuits   [7 refused already]
@@ -250,6 +254,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   corned-beef-and-white-sauce        Corned Beef and White Sauce   [8 refused already]
   pineapple-lumps-slice              Pineapple Lumps Slice   [1 refused already]
   marmite-cheese-scrolls             Marmite Cheese Scrolls
+  hundreds-and-thousands-biscuits    Hundreds and Thousands Biscuits
 
 == Greek (6) ===========================================
   mediterranean-bowl                 Mediterranean Bowl   [1 refused already]
@@ -372,4 +377,4 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
 == Swedish (1) =========================================
   biff-a-la-lindstrom                Biff a la Lindstrom
 
-TOTAL 288 of 5499
+TOTAL 293 of 5460
