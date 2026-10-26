@@ -32,7 +32,7 @@ function altText(row, detail, hero) {
 }
 const { plainList, parse } = require('./lib/ingredients');
 const { build: buildHubs } = require('./lib/ingredient-hubs');
-const { subcategories, assignRelated } = require('./lib/linking');
+const { subcategories, assignRelated, SUBCATEGORY_MIN } = require('./lib/linking');
 const { enrichDescription, TAIL_CLAUSES } = require('./lib/seo');
 const contentDates = require('./lib/content-dates');
 const { detectWait, waitLabel } = require('./lib/timing');
@@ -725,7 +725,8 @@ function sitemap(recipes, ctx) {
     entry('categories/', hubDate('/categories/', Object.keys(CATEGORIES)), 'weekly', '0.8'),
     entry('cuisines/', hubDate('/cuisines/', ctx.topCuisines), 'weekly', '0.8'),
     entry('ingredients/', hubDate('/ingredients/', (ctx.hubs || []).map(h => h.slug)), 'weekly', '0.8'),
-    entry('search/', hubDate('/search/', allSlugs), 'monthly', '0.4'),
+    /* /search/ is noindex: an empty search box until a script runs, and Google
+       asks for site search pages to be kept out of its index. */
     entry('site-directory/', hubDate('/site-directory/', allSlugs), 'weekly', '0.6'),
     /* /favourites/ is noindex — device-local content, nothing to crawl. */
     entry('about/', hubDate('/about/', SITE.author), 'monthly', '0.5'),
@@ -740,6 +741,7 @@ function sitemap(recipes, ctx) {
   }
   for (const name of ctx.topCuisines) {
     const list = recipes.filter(r => r.cuisine === name).map(r => r.slug).sort();
+    if (list.length < SUBCATEGORY_MIN) continue;   /* noindex: too few recipes to stand as a page */
     urls.push(entry(`cuisines/${slug(name)}/`,
       hubDate(`/cuisines/${slug(name)}/`, list), 'weekly', '0.7'));
   }
@@ -1038,6 +1040,7 @@ function build() {
                'recipe database', 'browse all recipes', 'instant recipe search'],
     path: 'search/',
     active: 'search',
+    noindex: true,
     index: false,
     trail: [{ name: 'Search' }]
   }));
@@ -1183,6 +1186,10 @@ function build() {
       keywords: keywordsForCuisine(name, list),
       path: `cuisines/${slug(name)}/`,
       active: 'cuisines',
+      /* A cuisine with fewer recipes than a sub-category hub needs is a thin
+         page that only repeats its recipes' cards, so it stays for readers
+         but asks not to be indexed, and the sitemap leaves it out. */
+      noindex: list.length < SUBCATEGORY_MIN,
       newsId: `cui-${slug(name)}-news`,
       extra: pages.hubLinks({
         id: `cui-${slug(name)}-sub`,

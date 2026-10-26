@@ -1079,11 +1079,6 @@
   "lastmod": "2026-10-25",
   "derivedHash": "4c216b455e02"
  },
- "/cuisines/bolivian/": {
-  "hash": "2911bbe4613b",
-  "lastmod": "2026-10-25",
-  "derivedHash": "ba1dadfd4b74"
- },
  "/cuisines/brazilian/": {
   "hash": "72d01c85233c",
   "lastmod": "2026-10-25",
@@ -1098,16 +1093,6 @@
   "hash": "8304f93c9034",
   "lastmod": "2026-10-25",
   "derivedHash": "162d95273226"
- },
- "/cuisines/burmese/": {
-  "hash": "21a383194cc5",
-  "lastmod": "2026-10-25",
-  "derivedHash": "f9801876b1d8"
- },
- "/cuisines/cambodian/": {
-  "hash": "c591b7d37588",
-  "lastmod": "2026-10-25",
-  "derivedHash": "15609794f907"
  },
  "/cuisines/canadian/": {
   "hash": "bbcc31b7c579",
@@ -1144,11 +1129,6 @@
   "lastmod": "2026-10-25",
   "derivedHash": "52136f15913f"
  },
- "/cuisines/cypriot/": {
-  "hash": "9d60330286a6",
-  "lastmod": "2026-10-25",
-  "derivedHash": "cc4c2470551a"
- },
  "/cuisines/czech/": {
   "hash": "21db2a6def2a",
   "lastmod": "2026-10-25",
@@ -1163,11 +1143,6 @@
   "hash": "58cbd870df7a",
   "lastmod": "2026-10-25",
   "derivedHash": "9e2177fcb67b"
- },
- "/cuisines/ecuadorian/": {
-  "hash": "85067e489a82",
-  "lastmod": "2026-10-25",
-  "derivedHash": "344e52957f51"
  },
  "/cuisines/egyptian/": {
   "hash": "a1fb32b2d666",
@@ -1223,11 +1198,6 @@
   "hash": "2e8429a772a7",
   "lastmod": "2026-10-25",
   "derivedHash": "4b0dea322e26"
- },
- "/cuisines/icelandic/": {
-  "hash": "9d013e2a9af7",
-  "lastmod": "2026-10-25",
-  "derivedHash": "f91647afa619"
  },
  "/cuisines/indian/": {
   "hash": "a46624746764",
@@ -1288,11 +1258,6 @@
   "hash": "b4a71b9cf579",
   "lastmod": "2026-10-25",
   "derivedHash": "a4ee562595d0"
- },
- "/cuisines/lithuanian/": {
-  "hash": "ae0370b0cb41",
-  "lastmod": "2026-10-25",
-  "derivedHash": "fd205b71ac0a"
  },
  "/cuisines/luxembourgish/": {
   "hash": "ff0a93f39409",
@@ -1389,30 +1354,15 @@
   "lastmod": "2026-10-25",
   "derivedHash": "9aaa39e0cc13"
  },
- "/cuisines/salvadoran/": {
-  "hash": "172d4a77fdd1",
-  "lastmod": "2026-10-25",
-  "derivedHash": "9d2e73070008"
- },
  "/cuisines/scottish/": {
   "hash": "a40924a16984",
   "lastmod": "2026-10-25",
   "derivedHash": "a2d0d3939612"
  },
- "/cuisines/senegalese/": {
-  "hash": "aaca9984327b",
-  "lastmod": "2026-10-25",
-  "derivedHash": "7e1204318710"
- },
  "/cuisines/singaporean/": {
   "hash": "84e00a61794d",
   "lastmod": "2026-10-25",
   "derivedHash": "ac1eb11cbca8"
- },
- "/cuisines/slovak/": {
-  "hash": "cf9d38ba6de3",
-  "lastmod": "2026-10-25",
-  "derivedHash": "526856f16618"
  },
  "/cuisines/slovenian/": {
   "hash": "69b6a53e4080",
@@ -1473,11 +1423,6 @@
   "hash": "1cfd3231f82c",
   "lastmod": "2026-10-25",
   "derivedHash": "7e67fb3b5acc"
- },
- "/cuisines/uruguayan/": {
-  "hash": "3fa566c600b4",
-  "lastmod": "2026-10-25",
-  "derivedHash": "c4f1b1885c90"
  },
  "/cuisines/venezuelan/": {
   "hash": "ac11862c0d1f",
@@ -23583,11 +23528,6 @@
  "/recipes/zwiebelkuchen/": {
   "hash": "04dc5db469e2",
   "lastmod": "2026-10-20"
- },
- "/search/": {
-  "hash": "e453f3ee3b28",
-  "lastmod": "2026-10-25",
-  "derivedHash": "04447e65841e"
  },
  "/site-directory/": {
   "hash": "e453f3ee3b28",

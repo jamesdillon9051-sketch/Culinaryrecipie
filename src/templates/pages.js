@@ -482,6 +482,7 @@ ${breadcrumbs(trail)}
     keywords: options.keywords,
     path: options.path,
     active: options.active,
+    noindex: options.noindex,
     criticalCss: ctx.criticalCss,
     categories: ctx.categoryCounts,
     cuisines: ctx.topCuisines,
