@@ -2,12 +2,12 @@
  "/": {
   "hash": "e453f3ee3b28",
   "lastmod": "2026-10-25",
-  "derivedHash": "b2229f4a7eb9"
+  "derivedHash": "b36a0b1ada9f"
  },
  "/about/": {
   "hash": "84b2dfd1c5ac",
-  "lastmod": "2026-10-25",
-  "derivedHash": "e2b07a2d5bd2"
+  "lastmod": "2026-10-26",
+  "derivedHash": "1088119be331"
  },
  "/categories/": {
   "hash": "ecb574fe73a3",
@@ -32,7 +32,7 @@
  "/categories/appetizers/australian/": {
   "hash": "11420d16b6b1",
   "lastmod": "2026-10-25",
-  "derivedHash": "140d76feb3d8"
+  "derivedHash": "f8271d1e8dbf"
  },
  "/categories/appetizers/british/": {
   "hash": "1f4f515ff9b4",
@@ -52,7 +52,7 @@
  "/categories/appetizers/french/": {
   "hash": "782d24106a3a",
   "lastmod": "2026-10-25",
-  "derivedHash": "c811450244a7"
+  "derivedHash": "e11378f1a39e"
  },
  "/categories/appetizers/greek/": {
   "hash": "f0095ab05537",
@@ -102,7 +102,7 @@
  "/categories/appetizers/middle-eastern/": {
   "hash": "8351b5f1d1ec",
   "lastmod": "2026-10-25",
-  "derivedHash": "bc52ad564cd4"
+  "derivedHash": "9e5578e0fd19"
  },
  "/categories/appetizers/peruvian/": {
   "hash": "90c4dfe0ef09",
@@ -142,7 +142,7 @@
  "/categories/baking/australian/": {
   "hash": "3a55c105fa0d",
   "lastmod": "2026-10-25",
-  "derivedHash": "60df7ab5c1f7"
+  "derivedHash": "95897dbddf29"
  },
  "/categories/baking/british/": {
   "hash": "e2af4f854ca0",
@@ -212,7 +212,7 @@
  "/categories/baking/new-zealand/": {
   "hash": "65b38c8c13b7",
   "lastmod": "2026-10-25",
-  "derivedHash": "37d45e1d13a0"
+  "derivedHash": "7acffe87b6d8"
  },
  "/categories/baking/scottish/": {
   "hash": "abc5c47b5d96",
@@ -242,7 +242,7 @@
  "/categories/breakfast/british/": {
   "hash": "b151464cfe90",
   "lastmod": "2026-10-25",
-  "derivedHash": "e677e0bf9c96"
+  "derivedHash": "e2c9d196ca05"
  },
  "/categories/breakfast/chinese/": {
   "hash": "8952ad149991",
@@ -307,7 +307,7 @@
  "/categories/desserts/australian/": {
   "hash": "c80cd88b46d4",
   "lastmod": "2026-10-25",
-  "derivedHash": "e9087fb463f7"
+  "derivedHash": "3ae76669a62e"
  },
  "/categories/desserts/austrian/": {
   "hash": "3a226e3eb962",
@@ -432,7 +432,7 @@
  "/categories/dinner/balkan/": {
   "hash": "d9657bb0bda3",
   "lastmod": "2026-10-25",
-  "derivedHash": "05f6d06b7396"
+  "derivedHash": "554ad3303915"
  },
  "/categories/dinner/bangladeshi/": {
   "hash": "4c42fd641092",
@@ -452,7 +452,7 @@
  "/categories/dinner/british/": {
   "hash": "73f5edf19456",
   "lastmod": "2026-10-25",
-  "derivedHash": "c40b4a84239e"
+  "derivedHash": "07cb1f174ba9"
  },
  "/categories/dinner/canadian/": {
   "hash": "72757ea68fb6",
@@ -592,7 +592,7 @@
  "/categories/dinner/lebanese/": {
   "hash": "70c83c9723d0",
   "lastmod": "2026-10-25",
-  "derivedHash": "5ab358a84a78"
+  "derivedHash": "113ee7cff9ec"
  },
  "/categories/dinner/malaysian/": {
   "hash": "d39406b305bb",
@@ -677,7 +677,7 @@
  "/categories/dinner/singaporean/": {
   "hash": "fb22418cbcc3",
   "lastmod": "2026-10-25",
-  "derivedHash": "d300dacbe901"
+  "derivedHash": "5065cfaafb29"
  },
  "/categories/dinner/south-african/": {
   "hash": "c2bcfc4d004f",
@@ -732,7 +732,7 @@
  "/categories/drinks/british/": {
   "hash": "dddcf3fc99e6",
   "lastmod": "2026-10-25",
-  "derivedHash": "025acd857136"
+  "derivedHash": "afa8af901c93"
  },
  "/categories/drinks/canadian/": {
   "hash": "eb95ca302678",
@@ -977,7 +977,7 @@
  "/categories/quick-meals/american/": {
   "hash": "08090a69506a",
   "lastmod": "2026-10-25",
-  "derivedHash": "eaee6ddd237f"
+  "derivedHash": "db8699a1c23d"
  },
  "/categories/quick-meals/australian/": {
   "hash": "63eaaa5dfb26",
@@ -997,7 +997,7 @@
  "/categories/quick-meals/french/": {
   "hash": "be3d9014f157",
   "lastmod": "2026-10-25",
-  "derivedHash": "6f963f7adbf8"
+  "derivedHash": "333aca77e9f1"
  },
  "/categories/quick-meals/german/": {
   "hash": "f7ba15451351",
@@ -1067,7 +1067,7 @@
  "/cuisines/balkan/": {
   "hash": "c19d4587480e",
   "lastmod": "2026-10-25",
-  "derivedHash": "c4cd17eadc5a"
+  "derivedHash": "c190c68494e6"
  },
  "/cuisines/bangladeshi/": {
   "hash": "80c5f7218a6d",
@@ -1078,11 +1078,6 @@
   "hash": "ad156890c4be",
   "lastmod": "2026-10-25",
   "derivedHash": "4c216b455e02"
- },
- "/cuisines/bolivian/": {
-  "hash": "2911bbe4613b",
-  "lastmod": "2026-10-25",
-  "derivedHash": "ba1dadfd4b74"
  },
  "/cuisines/brazilian/": {
   "hash": "72d01c85233c",
@@ -1098,16 +1093,6 @@
   "hash": "8304f93c9034",
   "lastmod": "2026-10-25",
   "derivedHash": "162d95273226"
- },
- "/cuisines/burmese/": {
-  "hash": "21a383194cc5",
-  "lastmod": "2026-10-25",
-  "derivedHash": "f9801876b1d8"
- },
- "/cuisines/cambodian/": {
-  "hash": "c591b7d37588",
-  "lastmod": "2026-10-25",
-  "derivedHash": "15609794f907"
  },
  "/cuisines/canadian/": {
   "hash": "bbcc31b7c579",
@@ -1144,11 +1129,6 @@
   "lastmod": "2026-10-25",
   "derivedHash": "52136f15913f"
  },
- "/cuisines/cypriot/": {
-  "hash": "9d60330286a6",
-  "lastmod": "2026-10-25",
-  "derivedHash": "cc4c2470551a"
- },
  "/cuisines/czech/": {
   "hash": "21db2a6def2a",
   "lastmod": "2026-10-25",
@@ -1163,11 +1143,6 @@
   "hash": "58cbd870df7a",
   "lastmod": "2026-10-25",
   "derivedHash": "9e2177fcb67b"
- },
- "/cuisines/ecuadorian/": {
-  "hash": "85067e489a82",
-  "lastmod": "2026-10-25",
-  "derivedHash": "344e52957f51"
  },
  "/cuisines/egyptian/": {
   "hash": "a1fb32b2d666",
@@ -1223,11 +1198,6 @@
   "hash": "2e8429a772a7",
   "lastmod": "2026-10-25",
   "derivedHash": "4b0dea322e26"
- },
- "/cuisines/icelandic/": {
-  "hash": "9d013e2a9af7",
-  "lastmod": "2026-10-25",
-  "derivedHash": "f91647afa619"
  },
  "/cuisines/indian/": {
   "hash": "a46624746764",
@@ -1289,11 +1259,6 @@
   "lastmod": "2026-10-25",
   "derivedHash": "a4ee562595d0"
  },
- "/cuisines/lithuanian/": {
-  "hash": "ae0370b0cb41",
-  "lastmod": "2026-10-25",
-  "derivedHash": "fd205b71ac0a"
- },
  "/cuisines/luxembourgish/": {
   "hash": "ff0a93f39409",
   "lastmod": "2026-10-25",
@@ -1317,7 +1282,7 @@
  "/cuisines/middle-eastern/": {
   "hash": "66ae2aef108b",
   "lastmod": "2026-10-25",
-  "derivedHash": "41014a9b9944"
+  "derivedHash": "8d19905a0f70"
  },
  "/cuisines/moroccan/": {
   "hash": "18c75feb4259",
@@ -1332,7 +1297,7 @@
  "/cuisines/new-zealand/": {
   "hash": "817e65626f27",
   "lastmod": "2026-10-25",
-  "derivedHash": "42234b5a1572"
+  "derivedHash": "4fbf42b407b7"
  },
  "/cuisines/nigerian/": {
   "hash": "fad291b081b3",
@@ -1389,30 +1354,15 @@
   "lastmod": "2026-10-25",
   "derivedHash": "9aaa39e0cc13"
  },
- "/cuisines/salvadoran/": {
-  "hash": "172d4a77fdd1",
-  "lastmod": "2026-10-25",
-  "derivedHash": "9d2e73070008"
- },
  "/cuisines/scottish/": {
   "hash": "a40924a16984",
   "lastmod": "2026-10-25",
   "derivedHash": "a2d0d3939612"
  },
- "/cuisines/senegalese/": {
-  "hash": "aaca9984327b",
-  "lastmod": "2026-10-25",
-  "derivedHash": "7e1204318710"
- },
  "/cuisines/singaporean/": {
   "hash": "84e00a61794d",
   "lastmod": "2026-10-25",
-  "derivedHash": "f306787acb13"
- },
- "/cuisines/slovak/": {
-  "hash": "cf9d38ba6de3",
-  "lastmod": "2026-10-25",
-  "derivedHash": "526856f16618"
+  "derivedHash": "ac1eb11cbca8"
  },
  "/cuisines/slovenian/": {
   "hash": "69b6a53e4080",
@@ -1473,11 +1423,6 @@
   "hash": "1cfd3231f82c",
   "lastmod": "2026-10-25",
   "derivedHash": "7e67fb3b5acc"
- },
- "/cuisines/uruguayan/": {
-  "hash": "3fa566c600b4",
-  "lastmod": "2026-10-25",
-  "derivedHash": "c4f1b1885c90"
  },
  "/cuisines/venezuelan/": {
   "hash": "ac11862c0d1f",
@@ -1801,8 +1746,8 @@
   "lastmod": "2026-10-21"
  },
  "/recipes/5-ingredient-soup/": {
-  "hash": "42d3ee69813a",
-  "lastmod": "2026-10-20"
+  "hash": "40a0ad9da03a",
+  "lastmod": "2026-10-25"
  },
  "/recipes/aam-panna/": {
   "hash": "efde22a79d03",
@@ -3221,8 +3166,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/banana-cake-with-chocolate-icing/": {
-  "hash": "8fe74779beba",
-  "lastmod": "2026-10-20"
+  "hash": "15c3f072230e",
+  "lastmod": "2026-10-25"
  },
  "/recipes/banana-cake-with-cream-cheese-icing/": {
   "hash": "d0ebd604aa45",
@@ -3605,8 +3550,8 @@
   "lastmod": "2026-10-22"
  },
  "/recipes/beef-and-noodles/": {
-  "hash": "9a93dd11a83b",
-  "lastmod": "2026-10-20"
+  "hash": "a878b4a6ecd0",
+  "lastmod": "2026-10-25"
  },
  "/recipes/beef-and-onion-pie/": {
   "hash": "262bd4eba62d",
@@ -4145,8 +4090,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/black-pudding-hash/": {
-  "hash": "a90e4ad8ac1b",
-  "lastmod": "2026-10-20"
+  "hash": "b791c8747acd",
+  "lastmod": "2026-10-25"
  },
  "/recipes/black-russian/": {
   "hash": "dbb56d629a36",
@@ -4309,8 +4254,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/boiled-fruit-cake/": {
-  "hash": "563e24d13e98",
-  "lastmod": "2026-10-20"
+  "hash": "6817c042643d",
+  "lastmod": "2026-10-25"
  },
  "/recipes/boiled-lobster/": {
   "hash": "53ec03234138",
@@ -4485,8 +4430,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/braised-beef-brisket/": {
-  "hash": "20a1aa3e5866",
-  "lastmod": "2026-10-20"
+  "hash": "b21066244472",
+  "lastmod": "2026-10-25"
  },
  "/recipes/braised-beef-short-ribs/": {
   "hash": "7ef2815f8a9e",
@@ -4761,8 +4706,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/brussels-sprouts-with-bacon/": {
-  "hash": "46a6bc19ee1e",
-  "lastmod": "2026-10-20"
+  "hash": "f090f59442af",
+  "lastmod": "2026-10-25"
  },
  "/recipes/brutti-ma-buoni/": {
   "hash": "56fbf36dcb06",
@@ -4925,8 +4870,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/butter-tart-bars/": {
-  "hash": "d6afdb025ed5",
-  "lastmod": "2026-10-20"
+  "hash": "d90a22204cb5",
+  "lastmod": "2026-10-25"
  },
  "/recipes/butter-tarts/": {
   "hash": "7b6137cede48",
@@ -5797,8 +5742,8 @@
   "lastmod": "2026-10-22"
  },
  "/recipes/cheesy-leek-bake/": {
-  "hash": "6648d53b6dcb",
-  "lastmod": "2026-10-20"
+  "hash": "0e9600e596f9",
+  "lastmod": "2026-10-25"
  },
  "/recipes/cheesy-pasta-bake/": {
   "hash": "89052e67d408",
@@ -6185,8 +6130,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/chicken-inasal/": {
-  "hash": "b26f72feea1a",
-  "lastmod": "2026-10-20"
+  "hash": "9fe091f5c165",
+  "lastmod": "2026-10-25"
  },
  "/recipes/chicken-jalfrezi/": {
   "hash": "471c978bc1fb",
@@ -7529,8 +7474,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/corned-beef-with-parsley-sauce/": {
-  "hash": "71332196cdb4",
-  "lastmod": "2026-10-20"
+  "hash": "3b6b94e2b186",
+  "lastmod": "2026-10-25"
  },
  "/recipes/cornetti/": {
   "hash": "23aba4778442",
@@ -7765,8 +7710,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/cream-buns/": {
-  "hash": "0ecf0c2b539a",
-  "lastmod": "2026-10-20"
+  "hash": "17dbc5c14809",
+  "lastmod": "2026-10-25"
  },
  "/recipes/cream-cheese-brownies/": {
   "hash": "e1afb37565d7",
@@ -7941,8 +7886,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/croatian-peka/": {
-  "hash": "5c2ab52988fd",
-  "lastmod": "2026-10-20"
+  "hash": "36226a19f102",
+  "lastmod": "2026-10-25"
  },
  "/recipes/crockpot-potato-soup/": {
   "hash": "0961a4460a95",
@@ -8041,8 +7986,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/cucumber-hummus-bites/": {
-  "hash": "227e97aa9566",
-  "lastmod": "2026-10-20"
+  "hash": "94e03d0cc533",
+  "lastmod": "2026-10-25"
  },
  "/recipes/cucumber-mint-cooler/": {
   "hash": "e3f5c873ad2d",
@@ -8101,8 +8046,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/cup-of-tea/": {
-  "hash": "05283bd40ec5",
-  "lastmod": "2026-10-20"
+  "hash": "7e19f301f955",
+  "lastmod": "2026-10-25"
  },
  "/recipes/curd-rice/": {
   "hash": "ea2d10f3e96f",
@@ -8237,8 +8182,8 @@
   "lastmod": "2026-10-22"
  },
  "/recipes/dairy-free-mac-and-cheese/": {
-  "hash": "34136e4af15e",
-  "lastmod": "2026-10-20"
+  "hash": "456f7a26293c",
+  "lastmod": "2026-10-25"
  },
  "/recipes/dairy-free-mashed-potatoes/": {
   "hash": "36a2189f5818",
@@ -9497,8 +9442,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/freezer-chili/": {
-  "hash": "e4d2b202f0bd",
-  "lastmod": "2026-10-20"
+  "hash": "11bc17db53eb",
+  "lastmod": "2026-10-25"
  },
  "/recipes/freezer-cookie-dough/": {
   "hash": "174533a61c87",
@@ -9889,8 +9834,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/gammon-parsley-sauce/": {
-  "hash": "3422d76a7281",
-  "lastmod": "2026-10-20"
+  "hash": "24760f3983dc",
+  "lastmod": "2026-10-25"
  },
  "/recipes/gammon-steak/": {
   "hash": "a1bdd0aafec9",
@@ -10245,8 +10190,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/gluten-free-beer-battered-fish/": {
-  "hash": "3a0f607794ff",
-  "lastmod": "2026-10-20"
+  "hash": "f46284e91148",
+  "lastmod": "2026-10-25"
  },
  "/recipes/gluten-free-biscuits/": {
   "hash": "c9971907f91b",
@@ -10297,8 +10242,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/gluten-free-fried-chicken/": {
-  "hash": "3b346d6a2bbe",
-  "lastmod": "2026-10-20"
+  "hash": "87912bbd96a1",
+  "lastmod": "2026-10-25"
  },
  "/recipes/gluten-free-gnocchi/": {
   "hash": "83015da3dd61",
@@ -10317,8 +10262,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/gluten-free-meatballs/": {
-  "hash": "e95c608b6e88",
-  "lastmod": "2026-10-20"
+  "hash": "2de7720d0abc",
+  "lastmod": "2026-10-25"
  },
  "/recipes/gluten-free-meatloaf/": {
   "hash": "43523ffa4933",
@@ -10421,8 +10366,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/goi-ga/": {
-  "hash": "2b8207d7ab6f",
-  "lastmod": "2026-10-20"
+  "hash": "cb48bdde7682",
+  "lastmod": "2026-10-25"
  },
  "/recipes/gola-kabab/": {
   "hash": "b8f8d8f9b841",
@@ -11025,8 +10970,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/haricots-verts-amandine/": {
-  "hash": "dd8060a4d679",
-  "lastmod": "2026-10-20"
+  "hash": "38b254695afb",
+  "lastmod": "2026-10-25"
  },
  "/recipes/harira/": {
   "hash": "8a11767e6574",
@@ -11069,8 +11014,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/hawaiian-chicken/": {
-  "hash": "63a5150fbf48",
-  "lastmod": "2026-10-20"
+  "hash": "31560244c848",
+  "lastmod": "2026-10-25"
  },
  "/recipes/hawaiian-lau-lau/": {
   "hash": "00d530b51eee",
@@ -11121,8 +11066,8 @@
   "lastmod": "2026-10-22"
  },
  "/recipes/herb-butter/": {
-  "hash": "2f5fe0a2641b",
-  "lastmod": "2026-10-20"
+  "hash": "6541fd0dc8e3",
+  "lastmod": "2026-10-25"
  },
  "/recipes/herb-crusted-cod/": {
   "hash": "9015e28c16e0",
@@ -11349,8 +11294,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/honey-joys/": {
-  "hash": "3b1de4d6dff7",
-  "lastmod": "2026-10-20"
+  "hash": "86b050a99804",
+  "lastmod": "2026-10-25"
  },
  "/recipes/honey-lemon-chicken/": {
   "hash": "150676c22c2f",
@@ -11397,8 +11342,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/honey-soy-chicken-stir-fry/": {
-  "hash": "e977d05ecb13",
-  "lastmod": "2026-10-20"
+  "hash": "2423c0f1a4ba",
+  "lastmod": "2026-10-25"
  },
  "/recipes/honey-soy-chicken-wings/": {
   "hash": "d83e8b3c49bb",
@@ -11489,8 +11434,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/hot-buttered-rum/": {
-  "hash": "73548aaa5c2a",
-  "lastmod": "2026-10-20"
+  "hash": "2e48c4192199",
+  "lastmod": "2026-10-25"
  },
  "/recipes/hot-chicken-sandwich/": {
   "hash": "92b32631a0e9",
@@ -11685,8 +11630,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/indian-pudding/": {
-  "hash": "8a07649dfc36",
-  "lastmod": "2026-10-20"
+  "hash": "9271503f9fd0",
+  "lastmod": "2026-10-25"
  },
  "/recipes/indian-tacos/": {
   "hash": "094be07b7366",
@@ -13261,8 +13206,8 @@
   "lastmod": "2026-10-22"
  },
  "/recipes/lebanese-garlic-potatoes/": {
-  "hash": "2afcc506a39d",
-  "lastmod": "2026-10-20"
+  "hash": "45c5d1cdb1e9",
+  "lastmod": "2026-10-25"
  },
  "/recipes/lebanese-lentil-soup/": {
   "hash": "1dd948aa7f93",
@@ -14241,12 +14186,12 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/mars-bar-slice/": {
-  "hash": "abd3b70ef958",
-  "lastmod": "2026-10-20"
+  "hash": "eca404c660eb",
+  "lastmod": "2026-10-25"
  },
  "/recipes/marshmallow-fluff-fudge/": {
-  "hash": "83668266f501",
-  "lastmod": "2026-10-20"
+  "hash": "4b21a6b9a47e",
+  "lastmod": "2026-10-25"
  },
  "/recipes/marshmallow-hot-chocolate/": {
   "hash": "413c07ece57d",
@@ -14461,8 +14406,8 @@
   "lastmod": "2026-10-22"
  },
  "/recipes/menudo/": {
-  "hash": "41c59d7f56a0",
-  "lastmod": "2026-10-20"
+  "hash": "674f1cfb419d",
+  "lastmod": "2026-10-25"
  },
  "/recipes/meringues/": {
   "hash": "06322b64fa56",
@@ -14589,8 +14534,8 @@
   "lastmod": "2026-10-22"
  },
  "/recipes/milo-slice/": {
-  "hash": "a94076554720",
-  "lastmod": "2026-10-20"
+  "hash": "dd92a3af20cb",
+  "lastmod": "2026-10-25"
  },
  "/recipes/mimosa/": {
   "hash": "67016d7ddd04",
@@ -14633,8 +14578,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/mint-brownies/": {
-  "hash": "53c69cc95327",
-  "lastmod": "2026-10-20"
+  "hash": "2c292e894f86",
+  "lastmod": "2026-10-25"
  },
  "/recipes/mint-chocolate-chip-ice-cream/": {
   "hash": "6900a1e0e09a",
@@ -14709,8 +14654,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/mississippi-pot-roast/": {
-  "hash": "af3e0d3e7640",
-  "lastmod": "2026-10-20"
+  "hash": "19f6e2031734",
+  "lastmod": "2026-10-25"
  },
  "/recipes/mixed-berry-pie/": {
   "hash": "2f51642c7c90",
@@ -15513,8 +15458,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/omelette-arnold-bennett/": {
-  "hash": "5adbfc6aa012",
-  "lastmod": "2026-10-20"
+  "hash": "35ca922e79ce",
+  "lastmod": "2026-10-25"
  },
  "/recipes/omelette-aux-fines-herbes/": {
   "hash": "f09f009481b6",
@@ -15893,8 +15838,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/pan-seared-pork-chops/": {
-  "hash": "674e8b3a39a2",
-  "lastmod": "2026-10-20"
+  "hash": "a6c659cc5eb8",
+  "lastmod": "2026-10-25"
  },
  "/recipes/pan-seared-salmon/": {
   "hash": "f7897baec43b",
@@ -16057,8 +16002,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/paraoa-parai/": {
-  "hash": "5e53ea59f424",
-  "lastmod": "2026-10-20"
+  "hash": "77deaaf4ae06",
+  "lastmod": "2026-10-25"
  },
  "/recipes/paris-brest/": {
   "hash": "774ba1c8273c",
@@ -16077,8 +16022,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/parmesan-crusted-chicken/": {
-  "hash": "757518524375",
-  "lastmod": "2026-10-20"
+  "hash": "2054d45c503c",
+  "lastmod": "2026-10-25"
  },
  "/recipes/parmesan-crusted-cod/": {
   "hash": "ff9ebff9194d",
@@ -16449,8 +16394,8 @@
   "lastmod": "2026-10-22"
  },
  "/recipes/peanut-sauce/": {
-  "hash": "358ac440cef5",
-  "lastmod": "2026-10-20"
+  "hash": "013303882a1f",
+  "lastmod": "2026-10-25"
  },
  "/recipes/peanut-soup/": {
   "hash": "c1396aac3c9e",
@@ -16689,8 +16634,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/philly-chicken-sandwich/": {
-  "hash": "e9ececba0130",
-  "lastmod": "2026-10-20"
+  "hash": "5fb9cf66da0f",
+  "lastmod": "2026-10-25"
  },
  "/recipes/philly-soft-pretzel/": {
   "hash": "62de959e1db9",
@@ -17165,8 +17110,8 @@
   "lastmod": "2026-10-22"
  },
  "/recipes/pollo-alla-diavola/": {
-  "hash": "0112e2684557",
-  "lastmod": "2026-10-20"
+  "hash": "4b18b604142b",
+  "lastmod": "2026-10-25"
  },
  "/recipes/pollo-alla-romana/": {
   "hash": "7f6dc5d6c420",
@@ -17605,8 +17550,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/pralines/": {
-  "hash": "0f2bbec3e970",
-  "lastmod": "2026-10-20"
+  "hash": "cf418022e121",
+  "lastmod": "2026-10-25"
  },
  "/recipes/prawn-and-avocado-salad/": {
   "hash": "6690b6e1e782",
@@ -17733,8 +17678,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/protein-shake/": {
-  "hash": "79fbf371f4bc",
-  "lastmod": "2026-10-20"
+  "hash": "e29dfeb8ccf9",
+  "lastmod": "2026-10-25"
  },
  "/recipes/protein-smoothie/": {
   "hash": "3eff9fff7c7c",
@@ -18229,8 +18174,8 @@
   "lastmod": "2026-10-22"
  },
  "/recipes/red-wine-sauce/": {
-  "hash": "3d751c6314c1",
-  "lastmod": "2026-10-20"
+  "hash": "2504d41d8d81",
+  "lastmod": "2026-10-25"
  },
  "/recipes/refried-beans/": {
   "hash": "e1fed5fd95e7",
@@ -18277,8 +18222,8 @@
   "lastmod": "2026-10-22"
  },
  "/recipes/rhubarb-cordial/": {
-  "hash": "8b44618c4e5b",
-  "lastmod": "2026-10-20"
+  "hash": "4c20c3769661",
+  "lastmod": "2026-10-25"
  },
  "/recipes/rhubarb-crumble/": {
   "hash": "b52277dc084a",
@@ -19157,8 +19102,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/satay-sauce/": {
-  "hash": "603e87872856",
-  "lastmod": "2026-10-20"
+  "hash": "47ffd7e3b85d",
+  "lastmod": "2026-10-25"
  },
  "/recipes/sate-padang/": {
   "hash": "2387e0124570",
@@ -19257,8 +19202,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/sausage-stuffed-peppers/": {
-  "hash": "4ca8b95c3a03",
-  "lastmod": "2026-10-20"
+  "hash": "3f6a09608d65",
+  "lastmod": "2026-10-25"
  },
  "/recipes/sausage-stuffing/": {
   "hash": "ae28b323d7c9",
@@ -19941,8 +19886,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/singapore-chilli-prawns/": {
-  "hash": "dc410991e6e6",
-  "lastmod": "2026-10-20"
+  "hash": "948b1902bfd7",
+  "lastmod": "2026-10-25"
  },
  "/recipes/singapore-noodles/": {
   "hash": "e40e81c29613",
@@ -20581,8 +20526,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/southern-green-beans/": {
-  "hash": "e97f997b45b3",
-  "lastmod": "2026-10-20"
+  "hash": "66d2ea7a67aa",
+  "lastmod": "2026-10-25"
  },
  "/recipes/southern-mac-and-cheese/": {
   "hash": "13cf2aaf9730",
@@ -20897,8 +20842,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/sriracha-mayo/": {
-  "hash": "680bf3025aa8",
-  "lastmod": "2026-10-20"
+  "hash": "b2b2b98c2620",
+  "lastmod": "2026-10-25"
  },
  "/recipes/st-louis-ribs/": {
   "hash": "807c6f4dd45c",
@@ -21453,8 +21398,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/sweet-potato-toast/": {
-  "hash": "377f4fed7521",
-  "lastmod": "2026-10-20"
+  "hash": "9fe927a9fe9d",
+  "lastmod": "2026-10-25"
  },
  "/recipes/sweet-sour-spare-ribs/": {
   "hash": "f9ba2e11f673",
@@ -23583,11 +23528,6 @@
  "/recipes/zwiebelkuchen/": {
   "hash": "04dc5db469e2",
   "lastmod": "2026-10-20"
- },
- "/search/": {
-  "hash": "e453f3ee3b28",
-  "lastmod": "2026-10-25",
-  "derivedHash": "04447e65841e"
  },
  "/site-directory/": {
   "hash": "e453f3ee3b28",

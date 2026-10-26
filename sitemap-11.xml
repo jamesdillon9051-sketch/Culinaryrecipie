@@ -2,28 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-beef-brisket/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-beef-brisket.jpg</image:loc>
-      <image:title>Instant Pot Beef Brisket</image:title>
-      <image:caption>Instant Pot Beef Brisket</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-beef-curry/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-beef-curry.jpg</image:loc>
-      <image:title>Instant Pot Beef Curry</image:title>
-      <image:caption>Instant Pot Beef Curry</image:caption>
-    </image:image>
-  </url>
-  <url>
     <loc>https://weeklydelight.com/recipes/instant-pot-beef-stroganoff/</loc>
     <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
@@ -1718,9 +1696,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/5-ingredient-soup/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/5-ingredient-soup.jpg</image:loc>
+      <image:title>5 Ingredient Soup</image:title>
+      <image:caption>5 Ingredient Soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beef-meal-prep-bowls/</loc>
@@ -1736,9 +1719,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/freezer-chili/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/freezer-chili.jpg</image:loc>
+      <image:title>Freezer Chili</image:title>
+      <image:caption>Freezer Chili</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/freezer-curry/</loc>
@@ -2382,9 +2370,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mint-brownies/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mint-brownies.jpg</image:loc>
+      <image:title>Mint Brownies</image:title>
+      <image:caption>Mint Brownies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mixed-berry-pie/</loc>
@@ -3931,9 +3924,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dairy-free-mac-and-cheese/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/dairy-free-mac-and-cheese.jpg</image:loc>
+      <image:title>Dairy-Free Mac and Cheese</image:title>
+      <image:caption>Dairy-Free Mac and Cheese</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dairy-free-mashed-potatoes/</loc>
@@ -4091,9 +4089,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gluten-free-beer-battered-fish/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gluten-free-beer-battered-fish.jpg</image:loc>
+      <image:title>Gluten-Free Beer Battered Fish</image:title>
+      <image:caption>Gluten-Free Beer Battered Fish</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gluten-free-biscuits/</loc>
@@ -4175,9 +4178,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gluten-free-fried-chicken/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gluten-free-fried-chicken.jpg</image:loc>
+      <image:title>Gluten-Free Fried Chicken</image:title>
+      <image:caption>Gluten-Free Fried Chicken</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gluten-free-gnocchi/</loc>
@@ -4210,9 +4218,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gluten-free-meatballs/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gluten-free-meatballs.jpg</image:loc>
+      <image:title>Gluten-Free Meatballs</image:title>
+      <image:caption>Gluten-Free Meatballs</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gluten-free-meatloaf/</loc>
@@ -4932,9 +4945,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/haricots-verts-amandine/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/haricots-verts-amandine.jpg</image:loc>
+      <image:title>Haricots Verts Amandine</image:title>
+      <image:caption>Haricots Verts Amandine</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tarte-aux-fraises/</loc>
@@ -5094,6 +5112,17 @@
       <image:loc>https://weeklydelight.com/assets/img/recipes/poire-belle-helene.jpg</image:loc>
       <image:title>Poire Belle Helene</image:title>
       <image:caption>Poire Belle Helene</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/soupe-aux-choux/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/soupe-aux-choux.jpg</image:loc>
+      <image:title>Soupe Aux Choux</image:title>
+      <image:caption>Soupe Aux Choux</image:caption>
     </image:image>
   </url>
 </urlset>

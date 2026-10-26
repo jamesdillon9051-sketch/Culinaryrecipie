@@ -2,39 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://weeklydelight.com/recipes/khandvi/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/khandvi.jpg</image:loc>
-      <image:title>Khandvi</image:title>
-      <image:caption>Khandvi</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/methi-thepla/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/methi-thepla.jpg</image:loc>
-      <image:title>Methi Thepla</image:title>
-      <image:caption>Methi Thepla</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/undhiyu/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/undhiyu.jpg</image:loc>
-      <image:title>Undhiyu</image:title>
-      <image:caption>Undhiyu</image:caption>
-    </image:image>
-  </url>
-  <url>
     <loc>https://weeklydelight.com/recipes/handvo/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -1489,9 +1456,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/singapore-chilli-prawns/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/singapore-chilli-prawns.jpg</image:loc>
+      <image:title>Singapore Chilli Prawns</image:title>
+      <image:caption>Singapore Chilli Prawns</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/roti-john/</loc>
@@ -1990,9 +1962,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/croatian-peka/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/croatian-peka.jpg</image:loc>
+      <image:title>Croatian Peka</image:title>
+      <image:caption>Croatian Peka</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pounded-yam/</loc>
@@ -5104,6 +5081,28 @@
       <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-beef-bourguignon.jpg</image:loc>
       <image:title>Instant Pot Beef Bourguignon</image:title>
       <image:caption>Instant Pot Beef Bourguignon</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/instant-pot-beef-brisket/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-beef-brisket.jpg</image:loc>
+      <image:title>Instant Pot Beef Brisket</image:title>
+      <image:caption>Instant Pot Beef Brisket</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/instant-pot-beef-curry/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-beef-curry.jpg</image:loc>
+      <image:title>Instant Pot Beef Curry</image:title>
+      <image:caption>Instant Pot Beef Curry</image:caption>
     </image:image>
   </url>
 </urlset>

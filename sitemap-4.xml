@@ -2,105 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://weeklydelight.com/recipes/dressed-crab/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/dressed-crab.jpg</image:loc>
-      <image:title>Dressed Crab</image:title>
-      <image:caption>Dressed Crab</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/devilled-whitebait/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/devilled-whitebait.jpg</image:loc>
-      <image:title>Devilled Whitebait</image:title>
-      <image:caption>Devilled Whitebait</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/chicken-and-leek-pie/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-and-leek-pie.jpg</image:loc>
-      <image:title>Chicken and Leek Pie</image:title>
-      <image:caption>Chicken and Leek Pie</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/rabbit-pie/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/rabbit-pie.jpg</image:loc>
-      <image:title>Rabbit Pie</image:title>
-      <image:caption>Rabbit Pie</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/stovies/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/stovies.jpg</image:loc>
-      <image:title>Stovies</image:title>
-      <image:caption>Stovies</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/bubble-and-squeak/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/bubble-and-squeak.jpg</image:loc>
-      <image:title>Bubble and Squeak</image:title>
-      <image:caption>Bubble and Squeak</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/mushy-peas/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/mushy-peas.jpg</image:loc>
-      <image:title>Mushy Peas</image:title>
-      <image:caption>Mushy Peas</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/braised-red-cabbage/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/braised-red-cabbage.jpg</image:loc>
-      <image:title>Braised Red Cabbage</image:title>
-      <image:caption>Braised Red Cabbage</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/honey-roast-parsnips/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/honey-roast-parsnips.jpg</image:loc>
-      <image:title>Honey Roast Parsnips</image:title>
-      <image:caption>Honey Roast Parsnips</image:caption>
-    </image:image>
-  </url>
-  <url>
     <loc>https://weeklydelight.com/recipes/pease-pudding/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -718,13 +619,13 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/braised-beef-brisket/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/braised-beef-brisket.jpg</image:loc>
       <image:title>Braised Beef Brisket</image:title>
-      <image:caption>AI-generated illustration of Braised Beef Brisket</image:caption>
+      <image:caption>Braised Beef Brisket</image:caption>
     </image:image>
   </url>
   <url>
@@ -1697,13 +1598,13 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/menudo/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/menudo.jpg</image:loc>
       <image:title>Menudo</image:title>
-      <image:caption>AI-generated illustration of Menudo</image:caption>
+      <image:caption>Menudo</image:caption>
     </image:image>
   </url>
   <url>
@@ -2236,13 +2137,13 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-inasal/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-inasal.jpg</image:loc>
       <image:title>Chicken Inasal</image:title>
-      <image:caption>AI-generated illustration of Chicken Inasal</image:caption>
+      <image:caption>Chicken Inasal</image:caption>
     </image:image>
   </url>
   <url>
@@ -2687,13 +2588,13 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/goi-ga/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/goi-ga.jpg</image:loc>
       <image:title>Gỏi Gà</image:title>
-      <image:caption>AI-generated illustration of Gỏi Gà</image:caption>
+      <image:caption>Gỏi Gà</image:caption>
     </image:image>
   </url>
   <url>
@@ -3336,13 +3237,13 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sausage-stuffed-peppers/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/sausage-stuffed-peppers.jpg</image:loc>
       <image:title>Sausage-Stuffed Bell Peppers</image:title>
-      <image:caption>AI-generated illustration of Sausage-Stuffed Bell Peppers</image:caption>
+      <image:caption>Sausage-Stuffed Bell Peppers</image:caption>
     </image:image>
   </url>
   <url>
@@ -5334,6 +5235,94 @@
       <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-curd.jpg</image:loc>
       <image:title>Lemon Curd</image:title>
       <image:caption>Lemon Curd</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/pilau-rice/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pilau-rice.jpg</image:loc>
+      <image:title>Pilau Rice</image:title>
+      <image:caption>Pilau Rice</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/pickled-eggs/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pickled-eggs.jpg</image:loc>
+      <image:title>Pickled Eggs</image:title>
+      <image:caption>Pickled Eggs</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/cup-of-tea/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cup-of-tea.jpg</image:loc>
+      <image:title>Cup of Tea</image:title>
+      <image:caption>Cup of Tea</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/elderflower-cordial/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/elderflower-cordial.jpg</image:loc>
+      <image:title>Elderflower Cordial</image:title>
+      <image:caption>Elderflower Cordial</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/lemon-barley-water/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-barley-water.jpg</image:loc>
+      <image:title>Lemon Barley Water</image:title>
+      <image:caption>AI-generated illustration of Lemon Barley Water</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/shandy/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/shandy.jpg</image:loc>
+      <image:title>Shandy</image:title>
+      <image:caption>Shandy</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/hot-buttered-rum/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/hot-buttered-rum.jpg</image:loc>
+      <image:title>Hot Buttered Rum</image:title>
+      <image:caption>Hot Buttered Rum</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/pimms-cup/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pimms-cup.jpg</image:loc>
+      <image:title>Pimm&#39;s Cup</image:title>
+      <image:caption>Pimm&#39;s Cup</image:caption>
     </image:image>
   </url>
 </urlset>

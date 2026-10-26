@@ -304,9 +304,9 @@ The "Common Substitutions" and FAQ blocks on each page are generated from the re
 
 ## 8. Open decisions for the owner
 
-The October 2026 audit settled the two decisions that used to be here: the synthetic `datePublished` was replaced with git-recorded first-seen dates (section 7), and the About page and recipe byline no longer say every recipe was cooked and tested (they say the recipes are written with AI assistance and checked by script). Still the owner's to decide:
+The October 2026 audit settled the two decisions that used to be here: the synthetic `datePublished` was replaced with git-recorded first-seen dates (section 7), and the About page and recipe byline no longer say every recipe was cooked and tested. On 26 October 2026 the owner also removed the statements that the recipe text was drafted with AI assistance and is not kitchen-tested; the byline and About page now describe only the automated checks. Still the owner's to decide:
 
-1. **The byline and About wording.** The new text is a proposal for the owner's public identity; adjust it, keeping it true.
+1. **The byline and About wording.** The owner's public identity; adjust it, keeping it true. Neither may claim the recipes were tested until `src/data/testing-notes.json` records it (section 4.3).
 2. **Health labels.** Withdrawn pending review by a registered dietitian (section 9). Reinstating any of them is the owner's call, after that review.
 3. **Contact form.** `contact/send.php` needs a config file outside `public_html` naming the inbox (see `tools/contact-config.example.php` and README, "Deploying"). Until it exists the form says, truthfully, that nothing was sent.
 4. **What gets deployed.** The whole repository is in the web root; `.htaccess` refuses the private paths, but deploying only the built site is the real fix (README, "Deploying").

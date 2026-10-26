@@ -482,6 +482,7 @@ ${breadcrumbs(trail)}
     keywords: options.keywords,
     path: options.path,
     active: options.active,
+    noindex: options.noindex,
     criticalCss: ctx.criticalCss,
     categories: ctx.categoryCounts,
     cuisines: ctx.topCuisines,
@@ -710,11 +711,7 @@ const ABOUT_FAQ = [
   { q: 'Do you store my saved recipes or notes?',
     a: "No. Favourites, ingredient checkboxes and the private ratings and notes you keep on a "
      + "recipe all live in your browser's local storage. Clearing your browser data clears them, "
-     + 'and they never reach a server, so other readers cannot see them.' },
-  { q: 'Were these recipes tested in a kitchen?',
-    a: 'Not as a rule. The recipes follow well-established methods, were drafted with AI assistance '
-     + 'and are checked automatically for internal contradictions, but unless a recipe says '
-     + 'otherwise it has not been cooked and tested for this site.' }
+     + 'and they never reach a server, so other readers cannot see them.' }
 ];
 
 /**
@@ -913,11 +910,11 @@ function about(ctx) {
      It used to carry a first-person biography (an age, a country, a course of
      flight training) and the claim that every one of the recipes had been
      cooked in the author's kitchen. Nothing in the project records supports
-     either, and the recipe text was drafted with AI assistance, so the page now
-     describes the process that actually produced the site: compilation from
-     established methods, AI-assisted drafting, automated consistency checks
-     and an image review. Personal details belong here again only once the
-     owner has confirmed them. */
+     either. In October 2026 the owner also chose to drop the statements about
+     how the recipe text was drafted and that recipes were not kitchen-tested,
+     so the page describes the automated checks and the image review and makes
+     no testing claim either way. Personal details belong here again only once
+     the owner has confirmed them. */
   const body = `
 ${breadcrumbs(trail)}
 <div class="wrap section" style="padding-top:1rem">
@@ -929,8 +926,7 @@ ${breadcrumbs(trail)}
 
   <div class="prose" style="max-width:72ch">
     <h2 id="how-made">How the recipes are made</h2>
-    <p>The dishes here are well-known ones, and the methods follow how they are widely and traditionally made. The recipe text &mdash; the descriptions, methods, tips and storage notes &mdash; was drafted with substantial help from AI writing tools, and then put through the automated checks described below.</p>
-    <p>That process is worth being plain about, because it is not the same thing as kitchen testing. <strong>Unless a recipe says otherwise, it has not been cooked and tested for this site.</strong> The checks catch a recipe that contradicts itself; they cannot tell whether a dish tastes right or whether your oven runs hot. If you cook something here and a step does not work, please <a href="${SITE.base}contact/">say so</a> &mdash; that is the most useful correction there is.</p>
+    <p>The dishes here are well-known ones, and the methods follow how they are widely and traditionally made. Every recipe is then put through the automated checks described below. If you cook something here and a step does not work, please <a href="${SITE.base}contact/">say so</a> &mdash; that is the most useful correction there is.</p>
 
     <h2 id="how-checked">What is checked automatically, and what is not</h2>
     <p>Every rebuild of the site runs a set of scripts over all ${recipeCount} recipes, and the build fails until a problem they find is fixed:</p>
@@ -990,7 +986,7 @@ ${breadcrumbs(trail)}
     /* The layout appends the site name, so naming it here too gave
        'About Weekly Delight | Weekly Delight'. */
     title: 'About',
-    description: `How the ${recipeCount} recipes on Weekly Delight are written with AI assistance, then checked by script for timings, diet labels and nutrition figures.`,
+    description: `How the ${recipeCount} recipes on Weekly Delight are put together, checked by script for timings, diet labels and nutrition, and where their photographs come from.`,
     keywords: ['about weekly delight', 'how the recipes are written', 'recipe checks',
                'photo licensing', 'image attribution', 'recipe corrections'],
     path: 'about/',

@@ -2,61 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://weeklydelight.com/recipes/sweet-potato-brownies/</loc>
-    <lastmod>2026-10-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/sweet-potato-brownies.jpg</image:loc>
-      <image:title>Sweet Potato Brownies</image:title>
-      <image:caption>Sweet Potato Brownies</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/lentil-burgers/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/lentil-burgers.jpg</image:loc>
-      <image:title>Lentil Burgers</image:title>
-      <image:caption>Lentil Burgers</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/chickpea-patties/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/chickpea-patties.jpg</image:loc>
-      <image:title>Chickpea Patties</image:title>
-      <image:caption>Chickpea Patties</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/lentil-dal/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/lentil-dal.jpg</image:loc>
-      <image:title>Lentil Dal</image:title>
-      <image:caption>Lentil Dal</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/spinach-and-ricotta-pasta/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/spinach-and-ricotta-pasta.jpg</image:loc>
-      <image:title>Spinach and Ricotta Pasta</image:title>
-      <image:caption>Spinach and Ricotta Pasta</image:caption>
-    </image:image>
-  </url>
-  <url>
     <loc>https://weeklydelight.com/recipes/spinach-pie/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -793,9 +738,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/hawaiian-chicken/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/hawaiian-chicken.jpg</image:loc>
+      <image:title>Hawaiian Chicken</image:title>
+      <image:caption>Hawaiian Chicken</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tuscan-chicken/</loc>
@@ -3067,9 +3017,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/rhubarb-cordial/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/rhubarb-cordial.jpg</image:loc>
+      <image:title>Rhubarb Cordial</image:title>
+      <image:caption>Rhubarb Cordial</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salted-caramel-hot-chocolate/</loc>
@@ -4998,9 +4953,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/corned-beef-with-parsley-sauce/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/corned-beef-with-parsley-sauce.jpg</image:loc>
+      <image:title>Corned Beef with Parsley Sauce</image:title>
+      <image:caption>Corned Beef with Parsley Sauce</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cornflake-chicken/</loc>
@@ -5150,5 +5110,44 @@
       <image:title>Honey Sriracha Wings</image:title>
       <image:caption>Honey Sriracha Wings</image:caption>
     </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/jacket-potato-with-cheese/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/jacket-potato-with-cheese.jpg</image:loc>
+      <image:title>Jacket Potato with Cheese</image:title>
+      <image:caption>Jacket Potato with Cheese</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/lamb-saag/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lamb-saag.jpg</image:loc>
+      <image:title>Lamb Saag</image:title>
+      <image:caption>Lamb Saag</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/lemon-garlic-roast-chicken-thighs/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-garlic-roast-chicken-thighs.jpg</image:loc>
+      <image:title>Lemon Garlic Roast Chicken Thighs</image:title>
+      <image:caption>Lemon Garlic Roast Chicken Thighs</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/lemon-herb-cod/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>

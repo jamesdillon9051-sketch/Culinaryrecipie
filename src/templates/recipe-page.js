@@ -631,7 +631,7 @@ ${breadcrumbs(trail)}
         <span class="avatar" aria-hidden="true">${SITE.author[0]}</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="${SITE.base}about/">${esc(SITE.author)}</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Written with AI assistance from well-established methods and checked by script for timings, diet labels and nutrition arithmetic; not individually kitchen-tested. <a href="${SITE.base}about/#how-made">How the recipes are made</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="${SITE.base}about/#how-checked">How the recipes are checked</a>.</p>
           ${recipe.datePublished ? `<p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="${recipe.datePublished}">${longDate(recipe.datePublished)}</time>${recipe.dateModified && recipe.dateModified !== recipe.datePublished ? `; last changed <time datetime="${recipe.dateModified}">${longDate(recipe.dateModified)}</time>` : ''}.</p>` : ''}
         </div>
       </div>

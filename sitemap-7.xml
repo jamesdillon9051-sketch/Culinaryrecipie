@@ -2,72 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://weeklydelight.com/recipes/tuna-burgers/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/tuna-burgers.jpg</image:loc>
-      <image:title>Tuna Burgers</image:title>
-      <image:caption>Tuna Burgers</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/sheet-pan-salmon-and-asparagus/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/sheet-pan-salmon-and-asparagus.jpg</image:loc>
-      <image:title>Sheet Pan Salmon and Asparagus</image:title>
-      <image:caption>Sheet Pan Salmon and Asparagus</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/air-fryer-cod/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-cod.jpg</image:loc>
-      <image:title>Air Fryer Cod</image:title>
-      <image:caption>Air Fryer Cod</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/air-fryer-cauliflower/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-cauliflower.jpg</image:loc>
-      <image:title>Air Fryer Cauliflower</image:title>
-      <image:caption>Air Fryer Cauliflower</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/air-fryer-asparagus/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-asparagus.jpg</image:loc>
-      <image:title>Air Fryer Asparagus</image:title>
-      <image:caption>Air Fryer Asparagus</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-chicken-breast/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-chicken-breast.jpg</image:loc>
-      <image:title>Instant Pot Chicken Breast</image:title>
-      <image:caption>Instant Pot Chicken Breast</image:caption>
-    </image:image>
-  </url>
-  <url>
     <loc>https://weeklydelight.com/recipes/grilled-vegetable-skewers/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -400,9 +334,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cucumber-hummus-bites/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cucumber-hummus-bites.jpg</image:loc>
+      <image:title>Cucumber Hummus Bites</image:title>
+      <image:caption>Cucumber Hummus Bites</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/zucchini-roll-ups/</loc>
@@ -3335,9 +3274,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/milo-slice/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/milo-slice.jpg</image:loc>
+      <image:title>Milo Slice</image:title>
+      <image:caption>Milo Slice</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/apple-slab-pie/</loc>
@@ -4602,9 +4546,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/black-pudding-hash/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/black-pudding-hash.jpg</image:loc>
+      <image:title>Black Pudding Hash</image:title>
+      <image:caption>Black Pudding Hash</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/yorkshire-pudding-wraps/</loc>
@@ -4801,9 +4750,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/red-wine-sauce/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/red-wine-sauce.jpg</image:loc>
+      <image:title>Red Wine Sauce</image:title>
+      <image:caption>Red Wine Sauce</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/barbecue-sauce/</loc>
@@ -4835,15 +4789,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/peanut-sauce/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/peanut-sauce.jpg</image:loc>
+      <image:title>Peanut Sauce</image:title>
+      <image:caption>Peanut Sauce</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/satay-sauce/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/satay-sauce.jpg</image:loc>
+      <image:title>Satay Sauce</image:title>
+      <image:caption>Satay Sauce</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tomato-passata/</loc>
@@ -5119,6 +5083,61 @@
       <image:loc>https://weeklydelight.com/assets/img/recipes/mason-jar-salad.jpg</image:loc>
       <image:title>Mason Jar Salad</image:title>
       <image:caption>Mason Jar Salad</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/sweet-potato-brownies/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sweet-potato-brownies.jpg</image:loc>
+      <image:title>Sweet Potato Brownies</image:title>
+      <image:caption>Sweet Potato Brownies</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/lentil-burgers/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lentil-burgers.jpg</image:loc>
+      <image:title>Lentil Burgers</image:title>
+      <image:caption>Lentil Burgers</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/chickpea-patties/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chickpea-patties.jpg</image:loc>
+      <image:title>Chickpea Patties</image:title>
+      <image:caption>Chickpea Patties</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/lentil-dal/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lentil-dal.jpg</image:loc>
+      <image:title>Lentil Dal</image:title>
+      <image:caption>Lentil Dal</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/spinach-and-ricotta-pasta/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/spinach-and-ricotta-pasta.jpg</image:loc>
+      <image:title>Spinach and Ricotta Pasta</image:title>
+      <image:caption>Spinach and Ricotta Pasta</image:caption>
     </image:image>
   </url>
 </urlset>
