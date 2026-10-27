@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 <link rel="preload" href="/assets/img/recipes/swiss-steak.webp" as="image" type="image/webp" fetchpriority="high">
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -89,6 +89,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -117,7 +118,7 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/dinner/">Dinner</a></li><li><a href="/categories/dinner/american/">American Dinner</a></li><li><span aria-current="page">Swiss Steak</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="swiss-steak" data-servings="6"
+  <article data-recipe="swiss-steak" data-servings="6" data-scale="cook"
            data-image="https://weeklydelight.com/assets/img/recipes/swiss-steak.jpg">
 
     <div class="recipe-masthead">
@@ -178,6 +179,7 @@
             <output data-servings-out aria-live="polite">6</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 6 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -261,6 +263,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">2 hr 15 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Easy</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">American</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Main dish</dd>
           </dl>
         </div>
 
@@ -299,6 +302,10 @@
         
 
         <h2 id="method">How to Make Swiss Steak</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li>You will need: oven, large pot or casserole, rolling pin.</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -351,6 +358,8 @@
         
       </div>
     </li></ol>
+        
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=swiss-steak&amp;v=ce98c4fd223e" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <h2>Small Things That Help</h2>
         <ul><li>Pound the flour in properly. It tenderises the meat and coats it so that the gravy thickens on its own, without a second step.</li><li>Brown the steaks until they are deep golden. The crust adds the flavour of the finished sauce, and a pale steak leaves it thin and bland.</li><li>Keep the pot tightly covered and cook at a low heat. Steam is what softens the meat, and a lid that leaks lets the sauce reduce before the steak is done.</li></ul>
@@ -365,6 +374,7 @@
 
         <h2>Serving Suggestions</h2>
         <ul><li>Mashed potatoes</li><li>Buttered egg noodles</li><li>Green beans</li></ul>
+        <p class="goes-with">Sides from the same cuisine on this site: <a href="/recipes/bagels/">New York Bagels</a>, <a href="/recipes/cornbread/">Skillet Cornbread</a>, <a href="/recipes/creamy-coleslaw/">Creamy Coleslaw</a>.</p>
 
         <h2>Keeping and Reheating</h2>
         <p>Keeps in the fridge for up to 4 days and tastes better on the second day. Freeze in the sauce for up to 3 months and thaw in the fridge overnight before reheating gently on the hob.</p>
@@ -418,6 +428,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -432,7 +443,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=swiss-steak&amp;v=ce98c4fd223e" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-09-30">30 September 2026</time>; last changed <time datetime="2026-10-20">20 October 2026</time>.</p>
         </div>
       </div>
@@ -570,63 +582,57 @@
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#b5a38a">
+  <div class="card-media" style="background:#ae9586">
     <picture>
-        <source srcset="/assets/img/recipes/cincinnati-chili.webp" type="image/webp">
-        <img src="/assets/img/recipes/cincinnati-chili.jpg" alt="Cincinnati Chili"
-             width="800" height="600" data-fade data-title="Cincinnati Chili"
-             data-ph-a="#b5a38a" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/slow-cooker-chili.webp" type="image/webp">
+        <img src="/assets/img/recipes/slow-cooker-chili.jpg" alt="Slow Cooker Chili"
+             width="800" height="600" data-fade data-title="Slow Cooker Chili"
+             data-ph-a="#ae9586" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="cincinnati-chili" data-title="Cincinnati Chili"
-            aria-pressed="false" aria-label="Save Cincinnati Chili to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="slow-cooker-chili" data-title="Slow Cooker Chili"
+            aria-pressed="false" aria-label="Save Slow Cooker Chili to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>105m</dd></div>
+        <div><dt>Cook</dt><dd>360m</dd></div>
         <div><dt>Serves</dt><dd>6</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/cincinnati-chili/" aria-label="Quick view: Cincinnati Chili">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/slow-cooker-chili/" aria-label="Quick view: Slow Cooker Chili">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/cincinnati-chili/">Cincinnati Chili</a></h3>
-    <p>A thin, spiced beef sauce with cinnamon and cocoa, ladled over spaghetti and buried under a mound of fine cheddar…</p>
+    <h3><a href="/recipes/slow-cooker-chili/">Slow Cooker Chili</a></h3>
+    <p>Beef mince, kidney beans, tomatoes and chili powder cooked together on low for 6 hours. Six servings, with 15…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>2 hr <i>&middot;</i> Easy</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>6.5 hr <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#7d7463">
-    <picture>
-        <source srcset="/assets/img/recipes/collard-greens.webp" type="image/webp">
-        <img src="/assets/img/recipes/collard-greens.jpg" alt="Collard Greens"
-             width="800" height="600" data-fade data-title="Collard Greens"
-             data-ph-a="#7d7463" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
+  <div class="card-media" style="background:var(--bg-sunken)">
+    <div class="img-fallback" role="img" aria-label="Veggie Chilli"><span>Veggie Chilli</span></div>
     <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="collard-greens" data-title="Collard Greens"
-            aria-pressed="false" aria-label="Save Collard Greens to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="veggie-chilli" data-title="Veggie Chilli"
+            aria-pressed="false" aria-label="Save Veggie Chilli to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
-        <div><dt>Prep</dt><dd>20m</dd></div>
-        <div><dt>Cook</dt><dd>75m</dd></div>
+        <div><dt>Prep</dt><dd>15m</dd></div>
+        <div><dt>Cook</dt><dd>40m</dd></div>
         <div><dt>Serves</dt><dd>6</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/collard-greens/" aria-label="Quick view: Collard Greens">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/veggie-chilli/" aria-label="Quick view: Veggie Chilli">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/collard-greens/">Collard Greens</a></h3>
-    <p>Collards simmered with a smoked ham hock, onion and vinegar until silky, in a broth you soak up with cornbread…</p>
+    <h3><a href="/recipes/veggie-chilli/">Veggie Chilli</a></h3>
+    <p>Kidney beans, black beans, peppers, sweetcorn and sweet potato simmered in a smoky tomato and chilli sauce.</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>95 min <i>&middot;</i> Easy</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>55 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article></div>
@@ -636,7 +642,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -657,12 +664,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -682,8 +692,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

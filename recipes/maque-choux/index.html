@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 <link rel="preload" href="/assets/img/recipes/maque-choux.webp" as="image" type="image/webp" fetchpriority="high">
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -89,6 +89,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -117,12 +118,12 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/dinner/">Dinner</a></li><li><a href="/categories/dinner/american/">American Dinner</a></li><li><span aria-current="page">Maque Choux</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="maque-choux" data-servings="6"
+  <article data-recipe="maque-choux" data-servings="6" data-scale="cook"
            data-image="https://weeklydelight.com/assets/img/recipes/maque-choux.jpg">
 
     <div class="recipe-masthead">
       <header class="recipe-head">
-        <span class="eyebrow">American &middot; Dinner</span>
+        <span class="eyebrow">American &middot; Dinner &middot; Side dish</span>
         <h1>Maque Choux</h1>
         <p class="lede">Fresh corn cut from the cob and cooked with bacon, onion, pepper and tomato in the milky liquid scraped from the cobs, finished with a little cream and cayenne.</p>
 
@@ -178,6 +179,7 @@
             <output data-servings-out aria-live="polite">6</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 6 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -245,6 +247,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">45 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Easy</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">American</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Side dish</dd>
           </dl>
         </div>
 
@@ -286,6 +289,10 @@
         
 
         <h2 id="method">How to Cook Maque Choux</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li>This is a side dish, not a meal on its own. The serving suggestions below say what it goes with.</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -331,6 +338,8 @@
         <button class="step-btn" type="button" data-timer="120">Start 2 min timer</button>
       </div>
     </li></ol>
+        
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=maque-choux&amp;v=29da2f394ed0" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <h2>Worth Knowing Before You Cook</h2>
         <p class="tip-note">Do not skip scraping the cobs. The starchy corn milk is what thickens the dish, and it is the difference between maque choux and corn in a pan.</p><p class="tip-note">Use fresh corn in season. Frozen kernels work, about 700 g, but you lose the milk and the dish is thinner.</p><p class="tip-note">Stir often. The starch in the corn catches on the base of the pan.</p>
@@ -390,6 +399,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -404,7 +414,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=maque-choux&amp;v=29da2f394ed0" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-09-30">30 September 2026</time>; last changed <time datetime="2026-10-20">20 October 2026</time>.</p>
         </div>
       </div>
@@ -422,63 +433,33 @@
         <a class="btn btn--ghost" href="/categories/dinner/american/">All american dinner recipes</a>
       </div>
       <div class="related-grid"><article class="card reveal">
-  <div class="card-media" style="background:#938364">
+  <div class="card-media" style="background:#7d7463">
     <picture>
-        <source srcset="/assets/img/recipes/turkey-zucchini-boats.webp" type="image/webp">
-        <img src="/assets/img/recipes/turkey-zucchini-boats.jpg" alt="Turkey Zucchini Boats"
-             width="800" height="600" data-fade data-title="Turkey Zucchini Boats"
-             data-ph-a="#938364" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/collard-greens.webp" type="image/webp">
+        <img src="/assets/img/recipes/collard-greens.jpg" alt="Collard Greens"
+             width="800" height="600" data-fade data-title="Collard Greens"
+             data-ph-a="#7d7463" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="turkey-zucchini-boats" data-title="Turkey Zucchini Boats"
-            aria-pressed="false" aria-label="Save Turkey Zucchini Boats to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>30m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/turkey-zucchini-boats/" aria-label="Quick view: Turkey Zucchini Boats">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/turkey-zucchini-boats/">Turkey Zucchini Boats</a></h3>
-    <p>Zucchini halves baked and filled with a lean turkey, tomato and oregano mixture under melted mozzarella. Four…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>45 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#81807b">
-    <picture>
-        <source srcset="/assets/img/recipes/clam-chowder-bread-bowls.webp" type="image/webp">
-        <img src="/assets/img/recipes/clam-chowder-bread-bowls.jpg" alt="Clam Chowder Bread Bowls"
-             width="800" height="600" data-fade data-title="Clam Chowder Bread Bowls"
-             data-ph-a="#81807b" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="clam-chowder-bread-bowls" data-title="Clam Chowder Bread Bowls"
-            aria-pressed="false" aria-label="Save Clam Chowder Bread Bowls to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="collard-greens" data-title="Collard Greens"
+            aria-pressed="false" aria-label="Save Collard Greens to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>20m</dd></div>
-        <div><dt>Cook</dt><dd>40m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
+        <div><dt>Cook</dt><dd>75m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/clam-chowder-bread-bowls/" aria-label="Quick view: Clam Chowder Bread Bowls">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/collard-greens/" aria-label="Quick view: Collard Greens">Quick view</a>
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/clam-chowder-bread-bowls/">Clam Chowder Bread Bowls</a></h3>
-    <p>Creamy clam chowder with potatoes and bacon, served in hollowed-out crusty bread rolls.</p>
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/collard-greens/">Collard Greens</a></h3>
+    <p>Collards simmered with a smoked ham hock, onion and vinegar until silky, in a broth you soak up with cornbread…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>60 min <i>&middot;</i> Medium</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>95 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article><article class="card reveal">
@@ -503,7 +484,7 @@
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Dinner</span>
+    <span class="card-kicker">Side dish</span>
     <h3><a href="/recipes/creole-okra-and-tomatoes/">Creole Okra and Tomatoes</a></h3>
     <p>Okra simmered with tomatoes, onion, green pepper and Creole spice until tender, with the sauce kept thick and free…</p>
     <div class="card-foot">
@@ -512,87 +493,123 @@
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Shrimp Foil Packets"><span>Shrimp Foil Packets</span></div>
-    <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="shrimp-foil-packets" data-title="Shrimp Foil Packets"
-            aria-pressed="false" aria-label="Save Shrimp Foil Packets to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>15m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/shrimp-foil-packets/" aria-label="Quick view: Shrimp Foil Packets">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/shrimp-foil-packets/">Shrimp Foil Packets</a></h3>
-    <p>Shrimp with zucchini, red pepper, corn and cherry tomatoes sealed in foil with garlic, paprika and lemon and baked…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>30 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#78654c">
+  <div class="card-media" style="background:#938e8a">
     <picture>
-        <source srcset="/assets/img/recipes/turkey-sausage-and-vegetable-skillet.webp" type="image/webp">
-        <img src="/assets/img/recipes/turkey-sausage-and-vegetable-skillet.jpg" alt="Turkey Sausage and Vegetable Skillet"
-             width="800" height="600" data-fade data-title="Turkey Sausage and Vegetable Skillet"
-             data-ph-a="#78654c" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/dirty-rice.webp" type="image/webp">
+        <img src="/assets/img/recipes/dirty-rice.jpg" alt="Dirty Rice"
+             width="800" height="600" data-fade data-title="Dirty Rice"
+             data-ph-a="#938e8a" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="turkey-sausage-and-vegetable-skillet" data-title="Turkey Sausage and Vegetable Skillet"
-            aria-pressed="false" aria-label="Save Turkey Sausage and Vegetable Skillet to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="dirty-rice" data-title="Dirty Rice"
+            aria-pressed="false" aria-label="Save Dirty Rice to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>20m</dd></div>
+        <div><dt>Cook</dt><dd>40m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/dirty-rice/" aria-label="Quick view: Dirty Rice">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/dirty-rice/">Dirty Rice</a></h3>
+    <p>Long-grain rice cooked with browned pork, finely chopped chicken livers, the Cajun holy trinity of onion, celery and…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>60 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#beaf87">
+    <picture>
+        <source srcset="/assets/img/recipes/brussels-sprouts-with-bacon.webp" type="image/webp">
+        <img src="/assets/img/recipes/brussels-sprouts-with-bacon.jpg" alt="Brussels Sprouts with Bacon"
+             width="800" height="600" data-fade data-title="Brussels Sprouts with Bacon"
+             data-ph-a="#beaf87" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">American</span></div>
+    <button class="fav-btn" type="button" data-slug="brussels-sprouts-with-bacon" data-title="Brussels Sprouts with Bacon"
+            aria-pressed="false" aria-label="Save Brussels Sprouts with Bacon to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>10m</dd></div>
+        <div><dt>Cook</dt><dd>30m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/brussels-sprouts-with-bacon/" aria-label="Quick view: Brussels Sprouts with Bacon">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/brussels-sprouts-with-bacon/">Brussels Sprouts with Bacon</a></h3>
+    <p>Halved sprouts roasted hard in bacon fat until caramelised and crisp at the edges, tossed with crisp bacon, garlic…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>40 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#7c5e5a">
+    <picture>
+        <source srcset="/assets/img/recipes/charleston-red-rice.webp" type="image/webp">
+        <img src="/assets/img/recipes/charleston-red-rice.jpg" alt="Charleston Red Rice"
+             width="800" height="600" data-fade data-title="Charleston Red Rice"
+             data-ph-a="#7c5e5a" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">American</span></div>
+    <button class="fav-btn" type="button" data-slug="charleston-red-rice" data-title="Charleston Red Rice"
+            aria-pressed="false" aria-label="Save Charleston Red Rice to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>15m</dd></div>
+        <div><dt>Cook</dt><dd>45m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/charleston-red-rice/" aria-label="Quick view: Charleston Red Rice">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/charleston-red-rice/">Charleston Red Rice</a></h3>
+    <p>Long-grain rice baked with smoked sausage, bacon, tomato, onion and green pepper until the grains turn red and…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>60 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#91816d">
+    <picture>
+        <source srcset="/assets/img/recipes/creamed-spinach.webp" type="image/webp">
+        <img src="/assets/img/recipes/creamed-spinach.jpg" alt="Creamed Spinach"
+             width="800" height="600" data-fade data-title="Creamed Spinach"
+             data-ph-a="#91816d" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">American</span></div>
+    <button class="fav-btn" type="button" data-slug="creamed-spinach" data-title="Creamed Spinach"
+            aria-pressed="false" aria-label="Save Creamed Spinach to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>10m</dd></div>
         <div><dt>Cook</dt><dd>20m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/turkey-sausage-and-vegetable-skillet/" aria-label="Quick view: Turkey Sausage and Vegetable Skillet">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/creamed-spinach/" aria-label="Quick view: Creamed Spinach">Quick view</a>
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/turkey-sausage-and-vegetable-skillet/">Turkey Sausage and Vegetable Skillet</a></h3>
-    <p>Browned turkey sausage with zucchini, peppers, onion and cherry tomatoes in one pan, seasoned with oregano and…</p>
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/creamed-spinach/">Creamed Spinach</a></h3>
+    <p>The steakhouse side: spinach wrung dry, folded into a nutmeg-scented béchamel and finished with Parmigiano…</p>
     <div class="card-foot">
       
       <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>30 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#9f784d">
-    <picture>
-        <source srcset="/assets/img/recipes/cod-chowder.webp" type="image/webp">
-        <img src="/assets/img/recipes/cod-chowder.jpg" alt="Cod Chowder"
-             width="800" height="600" data-fade data-title="Cod Chowder"
-             data-ph-a="#9f784d" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="cod-chowder" data-title="Cod Chowder"
-            aria-pressed="false" aria-label="Save Cod Chowder to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>30m</dd></div>
-        <div><dt>Serves</dt><dd>6</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/cod-chowder/" aria-label="Quick view: Cod Chowder">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/cod-chowder/">Cod Chowder</a></h3>
-    <p>Chunks of cod, potatoes, sweetcorn and bacon simmered in a milk and cream broth until thick and creamy.</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>45 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article></div>
@@ -602,7 +619,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -623,12 +641,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -648,8 +669,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

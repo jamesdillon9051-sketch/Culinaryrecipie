@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -90,6 +90,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -118,12 +119,12 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/dinner/">Dinner</a></li><li><a href="/categories/dinner/greek/">Greek Dinner</a></li><li><span aria-current="page">Air Fryer Eggplant</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="air-fryer-eggplant" data-servings="3"
+  <article data-recipe="air-fryer-eggplant" data-servings="3" data-scale="cook"
            data-image="">
 
     <div class="recipe-masthead">
       <header class="recipe-head">
-        <span class="eyebrow">Greek &middot; Dinner</span>
+        <span class="eyebrow">Greek &middot; Dinner &middot; Side dish</span>
         <h1>Air Fryer Eggplant</h1>
         <p class="lede">Thick slices of aubergine brushed with oil and garlic and air fried for 15 minutes until browned, soft inside and finished with parmesan.</p>
 
@@ -174,6 +175,7 @@
             <output data-servings-out aria-live="polite">3</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 3 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -229,6 +231,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">40 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Easy</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">Greek</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Side dish</dd>
           </dl>
         </div>
 
@@ -262,6 +265,10 @@
         
 
         <h2 id="method">How to Cook Air Fryer Eggplant</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li><strong>Plan for 15 min of standing.</strong> It is part of the 40 min start to finish.</li><li>You will need: air fryer.</li><li>This is a side dish, not a meal on its own. The serving suggestions below say what it goes with.</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -300,6 +307,8 @@
         
       </div>
     </li></ol>
+        <p class="form-note guide-links">Related guide: <a href="/guides/active-and-total-time/">Prep, cook and total time</a>.</p>
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=air-fryer-eggplant&amp;v=39c46d528d10" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <h2>What Can Go Wrong</h2>
         <ol class="tips-numbered"><li>Blot the salted slices thoroughly, or the aubergine will steam.</li><li>Work in batches so the air can reach every slice.</li><li>Check at 12 minutes if the slices are thinner than 1.5 cm.</li></ol>
@@ -373,6 +382,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -387,7 +397,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=air-fryer-eggplant&amp;v=39c46d528d10" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-10-15">15 October 2026</time>; last changed <time datetime="2026-10-20">20 October 2026</time>.</p>
         </div>
       </div>
@@ -405,66 +416,6 @@
         <a class="btn btn--ghost" href="/categories/dinner/greek/">All greek dinner recipes</a>
       </div>
       <div class="related-grid"><article class="card reveal">
-  <div class="card-media" style="background:#7d6b59">
-    <picture>
-        <source srcset="/assets/img/recipes/kleftiko.webp" type="image/webp">
-        <img src="/assets/img/recipes/kleftiko.jpg" alt="Lamb Kleftiko"
-             width="800" height="600" data-fade data-title="Lamb Kleftiko"
-             data-ph-a="#7d6b59" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Greek</span></div>
-    <button class="fav-btn" type="button" data-slug="kleftiko" data-title="Lamb Kleftiko"
-            aria-pressed="false" aria-label="Save Lamb Kleftiko to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>25m</dd></div>
-        <div><dt>Cook</dt><dd>210m</dd></div>
-        <div><dt>Serves</dt><dd>6</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/kleftiko/" aria-label="Quick view: Lamb Kleftiko">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/kleftiko/">Lamb Kleftiko</a></h3>
-    <p>Lamb shoulder sealed in parchment with lemon, oregano and potatoes and cooked three and a half hours. The parcel is…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>4 hr <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#947254">
-    <picture>
-        <source srcset="/assets/img/recipes/spinach-and-feta-stuffed-chicken-breast.webp" type="image/webp">
-        <img src="/assets/img/recipes/spinach-and-feta-stuffed-chicken-breast.jpg" alt="Spinach and Feta Stuffed Chicken Breast"
-             width="800" height="600" data-fade data-title="Spinach and Feta Stuffed Chicken Breast"
-             data-ph-a="#947254" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Greek</span></div>
-    <button class="fav-btn" type="button" data-slug="spinach-and-feta-stuffed-chicken-breast" data-title="Spinach and Feta Stuffed Chicken Breast"
-            aria-pressed="false" aria-label="Save Spinach and Feta Stuffed Chicken Breast to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>20m</dd></div>
-        <div><dt>Cook</dt><dd>30m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/spinach-and-feta-stuffed-chicken-breast/" aria-label="Quick view: Spinach and Feta Stuffed Chicken Breast">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/spinach-and-feta-stuffed-chicken-breast/">Spinach and Feta Stuffed Chicken Breast</a></h3>
-    <p>Chicken breasts with a pocket of garlicky spinach and feta, seared and finished in the oven, with no breadcrumbs…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>50 min <i>&middot;</i> Medium</span>
-    </div>
-  </div>
-</article><article class="card reveal">
   <div class="card-media" style="background:#957562">
     <picture>
         <source srcset="/assets/img/recipes/bamies.webp" type="image/webp">
@@ -486,7 +437,7 @@
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Dinner</span>
+    <span class="card-kicker">Side dish</span>
     <h3><a href="/recipes/bamies/">Bamies</a></h3>
     <p>Okra stewed in a tomato and onion sauce with garlic and olive oil for 35 minutes, a Greek summer dish.</p>
     <div class="card-foot">
@@ -495,90 +446,144 @@
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#97836e">
+  <div class="card-media" style="background:#866649">
     <picture>
-        <source srcset="/assets/img/recipes/moussaka.webp" type="image/webp">
-        <img src="/assets/img/recipes/moussaka.jpg" alt="Moussaka"
-             width="800" height="600" data-fade data-title="Moussaka"
-             data-ph-a="#97836e" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Greek</span><span class="badge badge--solid">Editor’s Pick</span></div>
-    <button class="fav-btn" type="button" data-slug="moussaka" data-title="Moussaka"
-            aria-pressed="false" aria-label="Save Moussaka to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>40m</dd></div>
-        <div><dt>Cook</dt><dd>70m</dd></div>
-        <div><dt>Serves</dt><dd>8</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/moussaka/" aria-label="Quick view: Moussaka">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/moussaka/">Moussaka</a></h3>
-    <p>Layers of roasted aubergine, spiced lamb ragù and a thick béchamel enriched with egg yolks and kefalotyri, baked…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>3 hr <i>&middot;</i> Hard</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#545458">
-    <picture>
-        <source srcset="/assets/img/recipes/chicken-souvlaki.webp" type="image/webp">
-        <img src="/assets/img/recipes/chicken-souvlaki.jpg" alt="Chicken Souvlaki"
-             width="800" height="600" data-fade data-title="Chicken Souvlaki"
-             data-ph-a="#545458" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/briam.webp" type="image/webp">
+        <img src="/assets/img/recipes/briam.jpg" alt="Briam"
+             width="800" height="600" data-fade data-title="Briam"
+             data-ph-a="#866649" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">Greek</span></div>
-    <button class="fav-btn" type="button" data-slug="chicken-souvlaki" data-title="Chicken Souvlaki"
-            aria-pressed="false" aria-label="Save Chicken Souvlaki to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="briam" data-title="Briam"
+            aria-pressed="false" aria-label="Save Briam to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
-        <div><dt>Prep</dt><dd>20m</dd></div>
-        <div><dt>Cook</dt><dd>15m</dd></div>
+        <div><dt>Prep</dt><dd>15m</dd></div>
+        <div><dt>Cook</dt><dd>60m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/chicken-souvlaki/" aria-label="Quick view: Chicken Souvlaki">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/briam/" aria-label="Quick view: Briam">Quick view</a>
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/chicken-souvlaki/">Chicken Souvlaki</a></h3>
-    <p>Lemon, oregano and olive oil is all a good souvlaki marinade needs. Grill it hard so the edges char, then pile into…</p>
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/briam/">Briam</a></h3>
+    <p>A Greek tray bake of potatoes, courgettes, aubergine, onion and tomatoes roasted in olive oil and herbs.</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>3–5 hr <i>&middot;</i> Easy</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>75 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#b8a08f">
+  <div class="card-media" style="background:#918574">
     <picture>
-        <source srcset="/assets/img/recipes/cod-with-tomatoes-and-olives.webp" type="image/webp">
-        <img src="/assets/img/recipes/cod-with-tomatoes-and-olives.jpg" alt="Cod with Tomatoes and Olives"
-             width="800" height="600" data-fade data-title="Cod with Tomatoes and Olives"
-             data-ph-a="#b8a08f" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/greek-lemon-potatoes.webp" type="image/webp">
+        <img src="/assets/img/recipes/greek-lemon-potatoes.jpg" alt="Greek Lemon Potatoes"
+             width="800" height="600" data-fade data-title="Greek Lemon Potatoes"
+             data-ph-a="#918574" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">Greek</span></div>
-    <button class="fav-btn" type="button" data-slug="cod-with-tomatoes-and-olives" data-title="Cod with Tomatoes and Olives"
-            aria-pressed="false" aria-label="Save Cod with Tomatoes and Olives to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="greek-lemon-potatoes" data-title="Greek Lemon Potatoes"
+            aria-pressed="false" aria-label="Save Greek Lemon Potatoes to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>15m</dd></div>
+        <div><dt>Cook</dt><dd>70m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/greek-lemon-potatoes/" aria-label="Quick view: Greek Lemon Potatoes">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/greek-lemon-potatoes/">Greek Lemon Potatoes</a></h3>
+    <p>Potatoes roasted in a pool of lemon juice, olive oil and stock until the liquid has gone and what is left is a…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>85 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#be8434">
+    <picture>
+        <source srcset="/assets/img/recipes/greek-fried-potatoes.webp" type="image/webp">
+        <img src="/assets/img/recipes/greek-fried-potatoes.jpg" alt="Greek Fried Potatoes"
+             width="800" height="600" data-fade data-title="Greek Fried Potatoes"
+             data-ph-a="#be8434" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Greek</span></div>
+    <button class="fav-btn" type="button" data-slug="greek-fried-potatoes" data-title="Greek Fried Potatoes"
+            aria-pressed="false" aria-label="Save Greek Fried Potatoes to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>10m</dd></div>
+        <div><dt>Cook</dt><dd>25m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/greek-fried-potatoes/" aria-label="Quick view: Greek Fried Potatoes">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/greek-fried-potatoes/">Greek Fried Potatoes</a></h3>
+    <p>Potatoes cut into thick wedges and fried in olive oil until golden, then seasoned with salt and dried oregano.</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>35 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:var(--bg-sunken)">
+    <div class="img-fallback" role="img" aria-label="Parmesan Roasted Carrots"><span>Parmesan Roasted Carrots</span></div>
+    <div class="card-badges"><span class="badge badge--glass">American</span></div>
+    <button class="fav-btn" type="button" data-slug="parmesan-roasted-carrots" data-title="Parmesan Roasted Carrots"
+            aria-pressed="false" aria-label="Save Parmesan Roasted Carrots to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>10m</dd></div>
+        <div><dt>Cook</dt><dd>25m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/parmesan-roasted-carrots/" aria-label="Quick view: Parmesan Roasted Carrots">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/parmesan-roasted-carrots/">Parmesan Roasted Carrots</a></h3>
+    <p>Carrot batons roasted with olive oil and garlic, tossed in grated parmesan for the last few minutes.</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>35 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#ada396">
+    <picture>
+        <source srcset="/assets/img/recipes/cauliflower-risotto.webp" type="image/webp">
+        <img src="/assets/img/recipes/cauliflower-risotto.jpg" alt="Cauliflower Risotto"
+             width="800" height="600" data-fade data-title="Cauliflower Risotto"
+             data-ph-a="#ada396" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Italian</span></div>
+    <button class="fav-btn" type="button" data-slug="cauliflower-risotto" data-title="Cauliflower Risotto"
+            aria-pressed="false" aria-label="Save Cauliflower Risotto to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>10m</dd></div>
         <div><dt>Cook</dt><dd>20m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/cod-with-tomatoes-and-olives/" aria-label="Quick view: Cod with Tomatoes and Olives">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/cauliflower-risotto/" aria-label="Quick view: Cauliflower Risotto">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/cod-with-tomatoes-and-olives/">Cod with Tomatoes and Olives</a></h3>
-    <p>Cod simmered in a thick tomato sauce with onion, garlic, oregano and Kalamata olives. Four servings in 30 minutes.</p>
+    <h3><a href="/recipes/cauliflower-risotto/">Cauliflower Risotto</a></h3>
+    <p>Cauliflower rice cooked like risotto with onion, stock and peas, then stirred creamy with Parmesan and butter. Four…</p>
     <div class="card-foot">
       
       <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>30 min <i>&middot;</i> Easy</span>
@@ -591,7 +596,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -612,12 +618,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -637,8 +646,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

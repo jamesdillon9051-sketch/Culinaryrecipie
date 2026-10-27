@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 <link rel="preload" href="/assets/img/recipes/lamb-and-rosemary-pie.webp" as="image" type="image/webp" fetchpriority="high">
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -90,6 +90,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -118,7 +119,7 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/dinner/">Dinner</a></li><li><a href="/categories/dinner/new-zealand/">New Zealand Dinner</a></li><li><span aria-current="page">Lamb and Rosemary Pie</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="lamb-and-rosemary-pie" data-servings="6"
+  <article data-recipe="lamb-and-rosemary-pie" data-servings="6" data-scale="cook"
            data-image="https://weeklydelight.com/assets/img/recipes/lamb-and-rosemary-pie.jpg">
 
     <div class="recipe-masthead">
@@ -179,6 +180,7 @@
             <output data-servings-out aria-live="polite">6</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 6 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -260,6 +262,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">3 hr 15 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Medium</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">New Zealand</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Main dish</dd>
           </dl>
         </div>
 
@@ -300,6 +303,10 @@
         
 
         <h2 id="method">How to Make Lamb and Rosemary Pie</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li><strong>Plan for 30 min of cooling.</strong> It is part of the 3 hr 15 min start to finish.</li><li>You will need: oven, frying pan or skillet, baking tray or sheet pan, baking dish (23 cm pie dish).</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -352,6 +359,8 @@
         <button class="step-btn" type="button" data-timer="2100">Start 35 min timer</button>
       </div>
     </li></ol>
+        <p class="form-note guide-links">Related guides: <a href="/guides/active-and-total-time/">Prep, cook and total time</a> &middot; <a href="/guides/pan-size/">Pan and tin size</a>.</p>
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=lamb-and-rosemary-pie&amp;v=24014b1aaa46" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <h2>A Few Pointers</h2>
         <ul><li>Use shoulder rather than leg. Its fat and connective tissue give a rich gravy and meat that stays moist, where leg turns dry and stringy.</li><li>Make the gravy thick and cool the filling. A thin or hot filling steams the pastry from inside and leaves the base pale and soft.</li><li>Bake on a preheated tray. Heat from below sets the base and keeps it crisp under the filling.</li></ul>
@@ -361,6 +370,7 @@
 
         <h2>What to Serve With It</h2>
         <p class="pair-line">Buttered peas &middot; Mashed kūmara &middot; Mint sauce</p>
+        <p class="goes-with">Sides from the same cuisine on this site: <a href="/recipes/southland-cheese-rolls/">Southland Cheese Rolls</a>.</p>
 
         <h2>Leftovers and Storage</h2>
         <p>Keep in the fridge up to 3 days and reheat slices in a 180°C / 355°F oven for 15 minutes. Freeze the cooled filling for 3 months.</p>
@@ -414,6 +424,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -428,7 +439,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=lamb-and-rosemary-pie&amp;v=24014b1aaa46" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-09-29">29 September 2026</time>; last changed <time datetime="2026-10-20">20 October 2026</time>.</p>
         </div>
       </div>
@@ -596,33 +608,33 @@
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#9f876a">
+  <div class="card-media" style="background:#a39589">
     <picture>
-        <source srcset="/assets/img/recipes/new-zealand-mince-and-cheese-pie.webp" type="image/webp">
-        <img src="/assets/img/recipes/new-zealand-mince-and-cheese-pie.jpg" alt="New Zealand Mince and Cheese Pie"
-             width="800" height="600" data-fade data-title="New Zealand Mince and Cheese Pie"
-             data-ph-a="#9f876a" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/lamb-hotpot.webp" type="image/webp">
+        <img src="/assets/img/recipes/lamb-hotpot.jpg" alt="Lamb Hotpot"
+             width="800" height="600" data-fade data-title="Lamb Hotpot"
+             data-ph-a="#a39589" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
-    <div class="card-badges"><span class="badge badge--glass">New Zealand</span></div>
-    <button class="fav-btn" type="button" data-slug="new-zealand-mince-and-cheese-pie" data-title="New Zealand Mince and Cheese Pie"
-            aria-pressed="false" aria-label="Save New Zealand Mince and Cheese Pie to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="card-badges"><span class="badge badge--glass">British</span></div>
+    <button class="fav-btn" type="button" data-slug="lamb-hotpot" data-title="Lamb Hotpot"
+            aria-pressed="false" aria-label="Save Lamb Hotpot to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>30m</dd></div>
-        <div><dt>Cook</dt><dd>65m</dd></div>
+        <div><dt>Cook</dt><dd>150m</dd></div>
         <div><dt>Serves</dt><dd>6</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/new-zealand-mince-and-cheese-pie/" aria-label="Quick view: New Zealand Mince and Cheese Pie">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/lamb-hotpot/" aria-label="Quick view: Lamb Hotpot">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/new-zealand-mince-and-cheese-pie/">New Zealand Mince and Cheese Pie</a></h3>
-    <p>A double-crust pie of beef mince and onion in a thick gravy with melted cheddar, in a shortcrust base and puff…</p>
+    <h3><a href="/recipes/lamb-hotpot/">Lamb Hotpot</a></h3>
+    <p>Lamb neck and onions in a thick gravy under a lid of overlapping sliced potatoes, baked slowly until the potatoes…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>95 min+ <i>&middot;</i> Medium</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>3 hr <i>&middot;</i> Medium</span>
     </div>
   </div>
 </article></div>
@@ -632,7 +644,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -653,12 +666,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -678,8 +694,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

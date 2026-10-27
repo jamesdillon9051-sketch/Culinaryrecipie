@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 <link rel="preload" href="/assets/img/recipes/leitao-da-bairrada.webp" as="image" type="image/webp" fetchpriority="high">
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -90,6 +90,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -118,7 +119,7 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/dinner/">Dinner</a></li><li><a href="/categories/dinner/portuguese/">Portuguese Dinner</a></li><li><span aria-current="page">Leitao da Bairrada</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="leitao-da-bairrada" data-servings="6"
+  <article data-recipe="leitao-da-bairrada" data-servings="6" data-scale="cook"
            data-image="https://weeklydelight.com/assets/img/recipes/leitao-da-bairrada.jpg">
 
     <div class="recipe-masthead">
@@ -179,6 +180,7 @@
             <output data-servings-out aria-live="polite">6</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 6 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -230,6 +232,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">4 hr 35 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Medium</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">Portuguese</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Main dish</dd>
           </dl>
         </div>
 
@@ -263,6 +266,10 @@
         
 
         <h2 id="method">The Method for Leitao da Bairrada</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li><strong>Plan for 15 min of resting.</strong> It is part of the 4 hr 35 min start to finish.</li><li>You will need: oven.</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -301,6 +308,8 @@
         <button class="step-btn" type="button" data-timer="900">Start 15 min timer</button>
       </div>
     </li></ol>
+        <p class="form-note guide-links">Related guide: <a href="/guides/active-and-total-time/">Prep, cook and total time</a>.</p>
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=leitao-da-bairrada&amp;v=86a2fe5fb224" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <h2>Keep an Eye on These</h2>
         <ol class="tips-numbered"><li>Rub the pig the night before if you can.</li><li>Baste with lard to crisp the skin.</li><li>Finish at a high heat.</li></ol>
@@ -317,6 +326,7 @@
 
         <h2>What to Serve It With</h2>
         <p class="pair-line">Orange slices &middot; Roast potatoes &middot; Sparkling red wine</p>
+        <p class="goes-with">Sides from the same cuisine on this site: <a href="/recipes/migas-portuguesas/">Migas Portuguesas</a>, <a href="/recipes/pao-de-deus/">Pao de Deus</a>, <a href="/recipes/pao-de-lo/">Pao de Lo</a>.</p>
 
         <h2>Keeping Leitao da Bairrada</h2>
         <p>Keeps for 3 days in the fridge.</p>
@@ -373,6 +383,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -387,7 +398,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=leitao-da-bairrada&amp;v=86a2fe5fb224" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-10-16">16 October 2026</time>; last changed <time datetime="2026-10-20">20 October 2026</time>.</p>
         </div>
       </div>
@@ -435,36 +447,6 @@
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#a08e69">
-    <picture>
-        <source srcset="/assets/img/recipes/bacalhau-a-bras.webp" type="image/webp">
-        <img src="/assets/img/recipes/bacalhau-a-bras.jpg" alt="Bacalhau à Brás"
-             width="800" height="600" data-fade data-title="Bacalhau à Brás"
-             data-ph-a="#a08e69" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Portuguese</span></div>
-    <button class="fav-btn" type="button" data-slug="bacalhau-a-bras" data-title="Bacalhau à Brás"
-            aria-pressed="false" aria-label="Save Bacalhau à Brás to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>20m</dd></div>
-        <div><dt>Cook</dt><dd>25m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/bacalhau-a-bras/" aria-label="Quick view: Bacalhau à Brás">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/bacalhau-a-bras/">Bacalhau à Brás</a></h3>
-    <p>Salt cod shredded and folded through straw-thin fried potatoes and softly scrambled egg. Named after a Lisbon tavern…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>25–37 hr <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
   <div class="card-media" style="background:#88745e">
     <picture>
         <source srcset="/assets/img/recipes/carne-de-porco-a-alentejana.webp" type="image/webp">
@@ -495,33 +477,63 @@
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#9d8978">
+  <div class="card-media" style="background:#a08e69">
     <picture>
-        <source srcset="/assets/img/recipes/ameijoas-a-bulhao-pato.webp" type="image/webp">
-        <img src="/assets/img/recipes/ameijoas-a-bulhao-pato.jpg" alt="Amêijoas à Bulhão Pato"
-             width="800" height="600" data-fade data-title="Amêijoas à Bulhão Pato"
-             data-ph-a="#9d8978" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/bacalhau-a-bras.webp" type="image/webp">
+        <img src="/assets/img/recipes/bacalhau-a-bras.jpg" alt="Bacalhau à Brás"
+             width="800" height="600" data-fade data-title="Bacalhau à Brás"
+             data-ph-a="#a08e69" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">Portuguese</span></div>
-    <button class="fav-btn" type="button" data-slug="ameijoas-a-bulhao-pato" data-title="Amêijoas à Bulhão Pato"
-            aria-pressed="false" aria-label="Save Amêijoas à Bulhão Pato to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="bacalhau-a-bras" data-title="Bacalhau à Brás"
+            aria-pressed="false" aria-label="Save Bacalhau à Brás to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
-        <div><dt>Prep</dt><dd>10m</dd></div>
-        <div><dt>Cook</dt><dd>10m</dd></div>
+        <div><dt>Prep</dt><dd>20m</dd></div>
+        <div><dt>Cook</dt><dd>25m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/ameijoas-a-bulhao-pato/" aria-label="Quick view: Amêijoas à Bulhão Pato">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/bacalhau-a-bras/" aria-label="Quick view: Bacalhau à Brás">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/ameijoas-a-bulhao-pato/">Amêijoas à Bulhão Pato</a></h3>
-    <p>Clams steamed open with garlic, olive oil, white wine, lemon and fresh coriander, a Lisbon classic ready in 20…</p>
+    <h3><a href="/recipes/bacalhau-a-bras/">Bacalhau à Brás</a></h3>
+    <p>Salt cod shredded and folded through straw-thin fried potatoes and softly scrambled egg. Named after a Lisbon tavern…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>20 min <i>&middot;</i> Easy</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>25–37 hr <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#998b7d">
+    <picture>
+        <source srcset="/assets/img/recipes/arroz-de-cabidela.webp" type="image/webp">
+        <img src="/assets/img/recipes/arroz-de-cabidela.jpg" alt="Arroz de Cabidela"
+             width="800" height="600" data-fade data-title="Arroz de Cabidela"
+             data-ph-a="#998b7d" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Portuguese</span></div>
+    <button class="fav-btn" type="button" data-slug="arroz-de-cabidela" data-title="Arroz de Cabidela"
+            aria-pressed="false" aria-label="Save Arroz de Cabidela to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>25m</dd></div>
+        <div><dt>Cook</dt><dd>60m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/arroz-de-cabidela/" aria-label="Quick view: Arroz de Cabidela">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Dinner</span>
+    <h3><a href="/recipes/arroz-de-cabidela/">Arroz de Cabidela</a></h3>
+    <p>Portuguese chicken rice cooked in a stock thickened with the chicken&#39;s blood and vinegar, an old dish of the north.</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>85 min <i>&middot;</i> Medium</span>
     </div>
   </div>
 </article><article class="card reveal">
@@ -591,7 +603,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -612,12 +625,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -637,8 +653,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

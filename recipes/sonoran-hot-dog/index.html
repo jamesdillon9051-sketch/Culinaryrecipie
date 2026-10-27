@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 <link rel="preload" href="/assets/img/recipes/sonoran-hot-dog.webp" as="image" type="image/webp" fetchpriority="high">
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -89,6 +89,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -117,7 +118,7 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/lunch/">Lunch</a></li><li><a href="/categories/lunch/american/">American Lunch</a></li><li><span aria-current="page">Sonoran Hot Dog</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="sonoran-hot-dog" data-servings="4"
+  <article data-recipe="sonoran-hot-dog" data-servings="4" data-scale="cook"
            data-image="https://weeklydelight.com/assets/img/recipes/sonoran-hot-dog.jpg">
 
     <div class="recipe-masthead">
@@ -178,6 +179,7 @@
             <output data-servings-out aria-live="polite">4</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 4 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -233,6 +235,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">25 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Easy</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">American</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Main dish</dd>
           </dl>
         </div>
 
@@ -271,11 +274,16 @@
 
         <h2>Build the Meal Around Sonoran Hot Dog</h2>
         <ul><li>Pickled jalapeños</li><li>Lime wedges</li><li>Corn on the cob</li><li>Cold lager</li></ul>
+        <p class="goes-with">Sides from the same cuisine on this site: <a href="/recipes/creamy-coleslaw/">Creamy Coleslaw</a>, <a href="/recipes/philly-soft-pretzel/">Philadelphia Soft Pretzels</a>, <a href="/recipes/3-ingredient-biscuits/">3 Ingredient Biscuits</a>.</p>
 
         
         
 
         <h2 id="method">How to Cook Sonoran Hot Dog</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li>You will need: frying pan or skillet.</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -307,6 +315,8 @@
         
       </div>
     </li></ol>
+        
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=sonoran-hot-dog&amp;v=a6e93888ddd4" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <h2>Notes From the Method</h2>
         <p class="tip-note">Use thin bacon, as thick slices stay chewy.</p><p class="tip-note">Secure the bacon with a toothpick if it will not stay.</p><p class="tip-note">Build the hot dogs just before serving.</p>
@@ -363,6 +373,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -377,7 +388,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=sonoran-hot-dog&amp;v=a6e93888ddd4" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-10-13">13 October 2026</time>; last changed <time datetime="2026-10-20">20 October 2026</time>.</p>
         </div>
       </div>
@@ -395,33 +407,33 @@
         <a class="btn btn--ghost" href="/categories/lunch/american/">All american lunch recipes</a>
       </div>
       <div class="related-grid"><article class="card reveal">
-  <div class="card-media" style="background:#8e9a9b">
+  <div class="card-media" style="background:#93795d">
     <picture>
-        <source srcset="/assets/img/recipes/boston-baked-beans.webp" type="image/webp">
-        <img src="/assets/img/recipes/boston-baked-beans.jpg" alt="Boston Baked Beans"
-             width="800" height="600" data-fade data-title="Boston Baked Beans"
-             data-ph-a="#8e9a9b" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/zuppa-toscana.webp" type="image/webp">
+        <img src="/assets/img/recipes/zuppa-toscana.jpg" alt="Zuppa Toscana"
+             width="800" height="600" data-fade data-title="Zuppa Toscana"
+             data-ph-a="#93795d" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="boston-baked-beans" data-title="Boston Baked Beans"
-            aria-pressed="false" aria-label="Save Boston Baked Beans to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="zuppa-toscana" data-title="Zuppa Toscana"
+            aria-pressed="false" aria-label="Save Zuppa Toscana to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>390m</dd></div>
-        <div><dt>Serves</dt><dd>8</dd></div>
+        <div><dt>Cook</dt><dd>35m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/boston-baked-beans/" aria-label="Quick view: Boston Baked Beans">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/zuppa-toscana/" aria-label="Quick view: Zuppa Toscana">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Lunch</span>
-    <h3><a href="/recipes/boston-baked-beans/">Boston Baked Beans</a></h3>
-    <p>Navy beans baked for six hours with molasses, salt pork and mustard until the sauce is dark and thick and the beans…</p>
+    <h3><a href="/recipes/zuppa-toscana/">Zuppa Toscana</a></h3>
+    <p>A creamy soup of spicy Italian sausage, sliced potatoes, crisp bacon and kale in a garlicky chicken broth, finished…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>15 hr <i>&middot;</i> Easy</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>50 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article><article class="card reveal">
@@ -485,66 +497,6 @@
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#8b815d">
-    <picture>
-        <source srcset="/assets/img/recipes/pea-salad.webp" type="image/webp">
-        <img src="/assets/img/recipes/pea-salad.jpg" alt="Pea Salad"
-             width="800" height="600" data-fade data-title="Pea Salad"
-             data-ph-a="#8b815d" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="pea-salad" data-title="Pea Salad"
-            aria-pressed="false" aria-label="Save Pea Salad to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>0m</dd></div>
-        <div><dt>Serves</dt><dd>6</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/pea-salad/" aria-label="Quick view: Pea Salad">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Lunch</span>
-    <h3><a href="/recipes/pea-salad/">Pea Salad</a></h3>
-    <p>Frozen peas dressed with soured cream, mayonnaise, red onion, crisp bacon and cheddar for a cold side that needs no…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>45 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#a5987c">
-    <picture>
-        <source srcset="/assets/img/recipes/seven-layer-salad.webp" type="image/webp">
-        <img src="/assets/img/recipes/seven-layer-salad.jpg" alt="Seven Layer Salad"
-             width="800" height="600" data-fade data-title="Seven Layer Salad"
-             data-ph-a="#a5987c" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="seven-layer-salad" data-title="Seven Layer Salad"
-            aria-pressed="false" aria-label="Save Seven Layer Salad to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>25m</dd></div>
-        <div><dt>Cook</dt><dd>10m</dd></div>
-        <div><dt>Serves</dt><dd>8</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/seven-layer-salad/" aria-label="Quick view: Seven Layer Salad">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Lunch</span>
-    <h3><a href="/recipes/seven-layer-salad/">Seven Layer Salad</a></h3>
-    <p>Crisp lettuce, celery, red onion, peas, creamy dressing, cheddar and bacon stacked in a glass bowl and chilled for…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>4.5 hr <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
   <div class="card-media" style="background:#9f8770">
     <picture>
         <source srcset="/assets/img/recipes/slow-cooker-bean-soup.webp" type="image/webp">
@@ -574,6 +526,66 @@
       <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>7 hr <i>&middot;</i> Easy</span>
     </div>
   </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#928971">
+    <picture>
+        <source srcset="/assets/img/recipes/chicago-hot-dog.webp" type="image/webp">
+        <img src="/assets/img/recipes/chicago-hot-dog.jpg" alt="Chicago Hot Dog"
+             width="800" height="600" data-fade data-title="Chicago Hot Dog"
+             data-ph-a="#928971" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">American</span></div>
+    <button class="fav-btn" type="button" data-slug="chicago-hot-dog" data-title="Chicago Hot Dog"
+            aria-pressed="false" aria-label="Save Chicago Hot Dog to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>10m</dd></div>
+        <div><dt>Cook</dt><dd>10m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/chicago-hot-dog/" aria-label="Quick view: Chicago Hot Dog">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Lunch</span>
+    <h3><a href="/recipes/chicago-hot-dog/">Chicago Hot Dog</a></h3>
+    <p>An all-beef frankfurter in a poppy seed bun, dragged through the garden: mustard, neon relish, onion, tomato…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>20 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#ae9d8b">
+    <picture>
+        <source srcset="/assets/img/recipes/coney-dogs.webp" type="image/webp">
+        <img src="/assets/img/recipes/coney-dogs.jpg" alt="Coney Dogs"
+             width="800" height="600" data-fade data-title="Coney Dogs"
+             data-ph-a="#ae9d8b" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">American</span></div>
+    <button class="fav-btn" type="button" data-slug="coney-dogs" data-title="Coney Dogs"
+            aria-pressed="false" aria-label="Save Coney Dogs to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>15m</dd></div>
+        <div><dt>Cook</dt><dd>55m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/coney-dogs/" aria-label="Quick view: Coney Dogs">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Lunch</span>
+    <h3><a href="/recipes/coney-dogs/">Coney Dogs</a></h3>
+    <p>Hot dogs in steamed buns topped with a fine, savoury coney sauce, yellow mustard and raw onion. The Detroit…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>70 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
 </article></div>
       <p class="related-more">Browse more: <a href="/categories/lunch/">all lunch recipes</a>
         or <a href="/cuisines/american/">all American recipes</a>.</p>
@@ -581,7 +593,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -602,12 +615,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -627,8 +643,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

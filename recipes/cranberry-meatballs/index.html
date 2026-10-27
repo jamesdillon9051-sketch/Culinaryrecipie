@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 <link rel="preload" href="/assets/img/recipes/cranberry-meatballs.webp" as="image" type="image/webp" fetchpriority="high">
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -89,6 +89,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -117,7 +118,7 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/holiday-specials/">Holiday Specials</a></li><li><a href="/categories/holiday-specials/american/">American Holiday</a></li><li><span aria-current="page">Cranberry Meatballs</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="cranberry-meatballs" data-servings="12"
+  <article data-recipe="cranberry-meatballs" data-servings="12" data-scale="cook"
            data-image="https://weeklydelight.com/assets/img/recipes/cranberry-meatballs.jpg">
 
     <div class="recipe-masthead">
@@ -178,6 +179,7 @@
             <output data-servings-out aria-live="polite">12</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 12 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -229,6 +231,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">35 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Easy</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">American</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Starter or snack</dd>
           </dl>
         </div>
 
@@ -265,6 +268,10 @@
         
 
         <h2 id="method">Cranberry Meatballs: The Method</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li>You will need: oven, frying pan or skillet.</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -296,6 +303,8 @@
         <button class="step-btn" type="button" data-timer="600">Start 10 min timer</button>
       </div>
     </li></ol>
+        
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=cranberry-meatballs&amp;v=bc4f3c9bfc16" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <h2>A Few Pointers</h2>
         <ul><li>Handle the mixture lightly.</li><li>Bake before simmering.</li><li>If your oven runs hot, check at 12 minutes.</li><li>Serve with cocktail sticks.</li></ul>
@@ -363,6 +372,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -377,7 +387,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=cranberry-meatballs&amp;v=bc4f3c9bfc16" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-10-08">8 October 2026</time>; last changed <time datetime="2026-10-21">21 October 2026</time>.</p>
         </div>
       </div>
@@ -395,96 +406,6 @@
         <a class="btn btn--ghost" href="/categories/holiday-specials/american/">All american holiday recipes</a>
       </div>
       <div class="related-grid"><article class="card reveal">
-  <div class="card-media" style="background:#c09866">
-    <picture>
-        <source srcset="/assets/img/recipes/mummy-hot-dogs.webp" type="image/webp">
-        <img src="/assets/img/recipes/mummy-hot-dogs.jpg" alt="Mummy Hot Dogs"
-             width="800" height="600" data-fade data-title="Mummy Hot Dogs"
-             data-ph-a="#c09866" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="mummy-hot-dogs" data-title="Mummy Hot Dogs"
-            aria-pressed="false" aria-label="Save Mummy Hot Dogs to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>10m</dd></div>
-        <div><dt>Cook</dt><dd>15m</dd></div>
-        <div><dt>Serves</dt><dd>8</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/mummy-hot-dogs/" aria-label="Quick view: Mummy Hot Dogs">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Holiday Specials</span>
-    <h3><a href="/recipes/mummy-hot-dogs/">Mummy Hot Dogs</a></h3>
-    <p>Hot dogs wrapped in strips of puff pastry like bandages and baked, with mustard dots for eyes.</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>25 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#8a7d71">
-    <picture>
-        <source srcset="/assets/img/recipes/turkey-gravy.webp" type="image/webp">
-        <img src="/assets/img/recipes/turkey-gravy.jpg" alt="Turkey Gravy"
-             width="800" height="600" data-fade data-title="Turkey Gravy"
-             data-ph-a="#8a7d71" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="turkey-gravy" data-title="Turkey Gravy"
-            aria-pressed="false" aria-label="Save Turkey Gravy to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>5m</dd></div>
-        <div><dt>Cook</dt><dd>25m</dd></div>
-        <div><dt>Serves</dt><dd>8</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/turkey-gravy/" aria-label="Quick view: Turkey Gravy">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Holiday Specials</span>
-    <h3><a href="/recipes/turkey-gravy/">Turkey Gravy</a></h3>
-    <p>A roux of turkey fat and flour, whisked with hot stock and the browned juices from the roasting tin. Smooth, savoury…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>30 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#aa713d">
-    <picture>
-        <source srcset="/assets/img/recipes/cranberry-orange-cookies.webp" type="image/webp">
-        <img src="/assets/img/recipes/cranberry-orange-cookies.jpg" alt="Cranberry Orange Cookies"
-             width="800" height="600" data-fade data-title="Cranberry Orange Cookies"
-             data-ph-a="#aa713d" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="cranberry-orange-cookies" data-title="Cranberry Orange Cookies"
-            aria-pressed="false" aria-label="Save Cranberry Orange Cookies to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>12m</dd></div>
-        <div><dt>Serves</dt><dd>24</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/cranberry-orange-cookies/" aria-label="Quick view: Cranberry Orange Cookies">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Holiday Specials</span>
-    <h3><a href="/recipes/cranberry-orange-cookies/">Cranberry Orange Cookies</a></h3>
-    <p>Soft orange-scented cookies studded with dried cranberries and white chocolate chips, baked for 12 minutes.</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>47 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
   <div class="card-media" style="background:var(--bg-sunken)">
     <div class="img-fallback" role="img" aria-label="Honey Garlic Meatballs"><span>Honey Garlic Meatballs</span></div>
     <div class="card-badges"><span class="badge badge--glass">American</span></div>
@@ -539,33 +460,117 @@
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#a7a297">
+  <div class="card-media" style="background:#d2cabe">
     <picture>
-        <source srcset="/assets/img/recipes/divinity.webp" type="image/webp">
-        <img src="/assets/img/recipes/divinity.jpg" alt="Divinity"
-             width="800" height="600" data-fade data-title="Divinity"
-             data-ph-a="#a7a297" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/cocktail-meatballs.webp" type="image/webp">
+        <img src="/assets/img/recipes/cocktail-meatballs.jpg" alt="Cocktail Meatballs"
+             width="800" height="600" data-fade data-title="Cocktail Meatballs"
+             data-ph-a="#d2cabe" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="divinity" data-title="Divinity"
-            aria-pressed="false" aria-label="Save Divinity to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="cocktail-meatballs" data-title="Cocktail Meatballs"
+            aria-pressed="false" aria-label="Save Cocktail Meatballs to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>20m</dd></div>
-        <div><dt>Cook</dt><dd>15m</dd></div>
-        <div><dt>Serves</dt><dd>30</dd></div>
+        <div><dt>Cook</dt><dd>30m</dd></div>
+        <div><dt>Serves</dt><dd>10</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/divinity/" aria-label="Quick view: Divinity">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/cocktail-meatballs/" aria-label="Quick view: Cocktail Meatballs">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Appetizers</span>
+    <h3><a href="/recipes/cocktail-meatballs/">Cocktail Meatballs</a></h3>
+    <p>Small baked beef meatballs simmered in a sweet and tangy sauce of grape jelly and chilli sauce, kept warm for a party.</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>50 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:var(--bg-sunken)">
+    <div class="img-fallback" role="img" aria-label="Cranberry Brie Bites"><span>Cranberry Brie Bites</span></div>
+    <div class="card-badges"><span class="badge badge--glass">American</span></div>
+    <button class="fav-btn" type="button" data-slug="cranberry-brie-bites" data-title="Cranberry Brie Bites"
+            aria-pressed="false" aria-label="Save Cranberry Brie Bites to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>15m</dd></div>
+        <div><dt>Cook</dt><dd>15m</dd></div>
+        <div><dt>Serves</dt><dd>12</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/cranberry-brie-bites/" aria-label="Quick view: Cranberry Brie Bites">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Holiday Specials</span>
-    <h3><a href="/recipes/divinity/">Divinity</a></h3>
-    <p>Airy, cloud-like Southern candy of sugar, corn syrup and whipped egg white, beaten until it holds its shape and…</p>
+    <h3><a href="/recipes/cranberry-brie-bites/">Cranberry Brie Bites</a></h3>
+    <p>Crisp mini filo shells filled with warm brie, cranberry sauce and a pecan, ready as a quick holiday starter.</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>95 min <i>&middot;</i> Hard</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>30 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#9d8174">
+    <picture>
+        <source srcset="/assets/img/recipes/bbq-meatballs.webp" type="image/webp">
+        <img src="/assets/img/recipes/bbq-meatballs.jpg" alt="BBQ Meatballs"
+             width="800" height="600" data-fade data-title="BBQ Meatballs"
+             data-ph-a="#9d8174" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">American</span></div>
+    <button class="fav-btn" type="button" data-slug="bbq-meatballs" data-title="BBQ Meatballs"
+            aria-pressed="false" aria-label="Save BBQ Meatballs to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>20m</dd></div>
+        <div><dt>Cook</dt><dd>30m</dd></div>
+        <div><dt>Serves</dt><dd>8</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/bbq-meatballs/" aria-label="Quick view: BBQ Meatballs">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Appetizers</span>
+    <h3><a href="/recipes/bbq-meatballs/">BBQ Meatballs</a></h3>
+    <p>Beef and pork meatballs baked until browned and tossed in a sticky barbecue sauce, served on cocktail sticks.</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>50 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#d8caba">
+    <picture>
+        <source srcset="/assets/img/recipes/popcorn-balls.webp" type="image/webp">
+        <img src="/assets/img/recipes/popcorn-balls.jpg" alt="Popcorn Balls"
+             width="800" height="600" data-fade data-title="Popcorn Balls"
+             data-ph-a="#d8caba" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">American</span></div>
+    <button class="fav-btn" type="button" data-slug="popcorn-balls" data-title="Popcorn Balls"
+            aria-pressed="false" aria-label="Save Popcorn Balls to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>15m</dd></div>
+        <div><dt>Cook</dt><dd>10m</dd></div>
+        <div><dt>Serves</dt><dd>10</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/popcorn-balls/" aria-label="Quick view: Popcorn Balls">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Holiday Specials</span>
+    <h3><a href="/recipes/popcorn-balls/">Popcorn Balls</a></h3>
+    <p>Fresh popcorn bound with a hot marshmallow and butter syrup, shaped into balls while warm and left to set.</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>25 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article></div>
@@ -575,7 +580,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -596,12 +602,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -621,8 +630,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

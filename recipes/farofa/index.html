@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 <link rel="preload" href="/assets/img/recipes/farofa.webp" as="image" type="image/webp" fetchpriority="high">
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -89,6 +89,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -117,12 +118,12 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/dinner/">Dinner</a></li><li><a href="/categories/dinner/brazilian/">Brazilian Dinner</a></li><li><span aria-current="page">Farofa</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="farofa" data-servings="6"
+  <article data-recipe="farofa" data-servings="6" data-scale="cook"
            data-image="https://weeklydelight.com/assets/img/recipes/farofa.jpg">
 
     <div class="recipe-masthead">
       <header class="recipe-head">
-        <span class="eyebrow">Brazilian &middot; Dinner</span>
+        <span class="eyebrow">Brazilian &middot; Dinner &middot; Side dish</span>
         <h1>Farofa</h1>
         <p class="lede">Toasted cassava flour fried in butter with bacon, onion and egg until it is golden and sandy. The Brazilian side dish that goes with barbecue and beans.</p>
 
@@ -178,6 +179,7 @@
             <output data-servings-out aria-live="polite">6</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 6 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -233,6 +235,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">25 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Easy</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">Brazilian</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Side dish</dd>
           </dl>
         </div>
 
@@ -266,6 +269,10 @@
         
 
         <h2 id="method">The Method for Farofa</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li>You will need: frying pan or skillet.</li><li>This is a side dish, not a meal on its own. The serving suggestions below say what it goes with.</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -311,6 +318,8 @@
         
       </div>
     </li></ol>
+        
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=farofa&amp;v=01315ea01159" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <h2>Keep an Eye on These</h2>
         <ol class="tips-numbered"><li>Use toasted cassava flour, sold as farinha de mandioca torrada. Raw cassava flour is different and does not work here.</li><li>Add the flour gradually. It soaks up the fat and needs stirring to stay loose.</li><li>Add the salt at the end. Bacon is salty and the amount varies.</li></ol>
@@ -378,6 +387,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -392,7 +402,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=farofa&amp;v=01315ea01159" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-09-29">29 September 2026</time>; last changed <time datetime="2026-10-20">20 October 2026</time>.</p>
         </div>
       </div>
@@ -410,183 +421,183 @@
         <a class="btn btn--ghost" href="/categories/dinner/brazilian/">All brazilian dinner recipes</a>
       </div>
       <div class="related-grid"><article class="card reveal">
-  <div class="card-media" style="background:#8f784d">
+  <div class="card-media" style="background:#867868">
     <picture>
-        <source srcset="/assets/img/recipes/vatapa.webp" type="image/webp">
-        <img src="/assets/img/recipes/vatapa.jpg" alt="Vatapa"
-             width="800" height="600" data-fade data-title="Vatapa"
-             data-ph-a="#8f784d" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/spaetzle.webp" type="image/webp">
+        <img src="/assets/img/recipes/spaetzle.jpg" alt="Käsespätzle"
+             width="800" height="600" data-fade data-title="Käsespätzle"
+             data-ph-a="#867868" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
-    <div class="card-badges"><span class="badge badge--glass">Brazilian</span></div>
-    <button class="fav-btn" type="button" data-slug="vatapa" data-title="Vatapa"
-            aria-pressed="false" aria-label="Save Vatapa to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="card-badges"><span class="badge badge--glass">German</span></div>
+    <button class="fav-btn" type="button" data-slug="spaetzle" data-title="Käsespätzle"
+            aria-pressed="false" aria-label="Save Käsespätzle to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>20m</dd></div>
+        <div><dt>Cook</dt><dd>20m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/spaetzle/" aria-label="Quick view: Käsespätzle">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/spaetzle/">Käsespätzle</a></h3>
+    <p>Soft egg noodles scraped straight into boiling water, then layered with grated cheese and topped with fried onions…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>60 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#988c6d">
+    <picture>
+        <source srcset="/assets/img/recipes/gratin-de-courgettes.webp" type="image/webp">
+        <img src="/assets/img/recipes/gratin-de-courgettes.jpg" alt="AI-generated illustration of Gratin de Courgettes"
+             width="800" height="600" data-fade data-title="Gratin de Courgettes"
+             data-ph-a="#988c6d" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">French</span></div>
+    <button class="fav-btn" type="button" data-slug="gratin-de-courgettes" data-title="Gratin de Courgettes"
+            aria-pressed="false" aria-label="Save Gratin de Courgettes to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>20m</dd></div>
+        <div><dt>Cook</dt><dd>85m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/gratin-de-courgettes/" aria-label="Quick view: Gratin de Courgettes">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/gratin-de-courgettes/">Gratin de Courgettes</a></h3>
+    <p>Courgettes cooked down with rice and bound with egg and cheese, from Provence. The rice is cooked in the courgette…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>105 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#ada28f">
+    <picture>
+        <source srcset="/assets/img/recipes/semmelknodel.webp" type="image/webp">
+        <img src="/assets/img/recipes/semmelknodel.jpg" alt="Semmelknodel"
+             width="800" height="600" data-fade data-title="Semmelknodel"
+             data-ph-a="#ada28f" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">German</span></div>
+    <button class="fav-btn" type="button" data-slug="semmelknodel" data-title="Semmelknodel"
+            aria-pressed="false" aria-label="Save Semmelknodel to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>25m</dd></div>
-        <div><dt>Cook</dt><dd>35m</dd></div>
+        <div><dt>Cook</dt><dd>25m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/semmelknodel/" aria-label="Quick view: Semmelknodel">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/semmelknodel/">Semmelknodel</a></h3>
+    <p>Bread dumplings of stale rolls, milk, egg and parsley, simmered for 25 minutes and served with mushroom sauce or…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>65 min <i>&middot;</i> Medium</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#a29162">
+    <picture>
+        <source srcset="/assets/img/recipes/serviettenknodel.webp" type="image/webp">
+        <img src="/assets/img/recipes/serviettenknodel.jpg" alt="Serviettenknödel"
+             width="800" height="600" data-fade data-title="Serviettenknödel"
+             data-ph-a="#a29162" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Austrian</span></div>
+    <button class="fav-btn" type="button" data-slug="serviettenknodel" data-title="Serviettenknödel"
+            aria-pressed="false" aria-label="Save Serviettenknödel to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>30m</dd></div>
+        <div><dt>Cook</dt><dd>25m</dd></div>
         <div><dt>Serves</dt><dd>6</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/vatapa/" aria-label="Quick view: Vatapa">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/serviettenknodel/" aria-label="Quick view: Serviettenknödel">Quick view</a>
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/vatapa/">Vatapa</a></h3>
-    <p>A thick, creamy Brazilian purée of bread, coconut milk, peanuts, cashews, ginger and palm oil with prawns, from Bahia.</p>
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/serviettenknodel/">Serviettenknödel</a></h3>
+    <p>A large bread dumpling shaped into a log, wrapped in a cloth and simmered for 25 minutes, then sliced and served…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>60 min <i>&middot;</i> Medium</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>75 min <i>&middot;</i> Medium</span>
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#897441">
+  <div class="card-media" style="background:#8d776c">
     <picture>
-        <source srcset="/assets/img/recipes/moqueca.webp" type="image/webp">
-        <img src="/assets/img/recipes/moqueca.jpg" alt="Moqueca Baiana"
-             width="800" height="600" data-fade data-title="Moqueca Baiana"
-             data-ph-a="#897441" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/egg-pulao.webp" type="image/webp">
+        <img src="/assets/img/recipes/egg-pulao.jpg" alt="Egg Pulao"
+             width="800" height="600" data-fade data-title="Egg Pulao"
+             data-ph-a="#8d776c" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
-    <div class="card-badges"><span class="badge badge--glass">Brazilian</span></div>
-    <button class="fav-btn" type="button" data-slug="moqueca" data-title="Moqueca Baiana"
-            aria-pressed="false" aria-label="Save Moqueca Baiana to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="card-badges"><span class="badge badge--glass">Indian</span></div>
+    <button class="fav-btn" type="button" data-slug="egg-pulao" data-title="Egg Pulao"
+            aria-pressed="false" aria-label="Save Egg Pulao to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
-        <div><dt>Prep</dt><dd>20m</dd></div>
-        <div><dt>Cook</dt><dd>30m</dd></div>
+        <div><dt>Prep</dt><dd>10m</dd></div>
+        <div><dt>Cook</dt><dd>25m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/moqueca/" aria-label="Quick view: Moqueca Baiana">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/egg-pulao/" aria-label="Quick view: Egg Pulao">Quick view</a>
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/moqueca/">Moqueca Baiana</a></h3>
-    <p>Bahian fish stew of coconut milk, tomato, peppers and coriander, cooked in a clay pot and finished with dendê palm…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>80 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#a39886">
-    <picture>
-        <source srcset="/assets/img/recipes/kniddelen.webp" type="image/webp">
-        <img src="/assets/img/recipes/kniddelen.jpg" alt="Kniddelen"
-             width="800" height="600" data-fade data-title="Kniddelen"
-             data-ph-a="#a39886" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Luxembourgish</span></div>
-    <button class="fav-btn" type="button" data-slug="kniddelen" data-title="Kniddelen"
-            aria-pressed="false" aria-label="Save Kniddelen to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>20m</dd></div>
-        <div><dt>Cook</dt><dd>15m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/kniddelen/" aria-label="Quick view: Kniddelen">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/kniddelen/">Kniddelen</a></h3>
-    <p>Small boiled flour dumplings from a thick egg and milk batter, tossed in browned butter and bacon, ready in 35…</p>
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/egg-pulao/">Egg Pulao</a></h3>
+    <p>Basmati rice cooked with whole spices, onion and halved boiled eggs in a single pot.</p>
     <div class="card-foot">
       
       <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>35 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#a0876e">
+  <div class="card-media" style="background:#765f4c">
     <picture>
-        <source srcset="/assets/img/recipes/kotlet-mielony.webp" type="image/webp">
-        <img src="/assets/img/recipes/kotlet-mielony.jpg" alt="Kotlet Mielony"
-             width="800" height="600" data-fade data-title="Kotlet Mielony"
-             data-ph-a="#a0876e" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/cornbread-stuffing.webp" type="image/webp">
+        <img src="/assets/img/recipes/cornbread-stuffing.jpg" alt="Cornbread Stuffing"
+             width="800" height="600" data-fade data-title="Cornbread Stuffing"
+             data-ph-a="#765f4c" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
-    <div class="card-badges"><span class="badge badge--glass">Polish</span></div>
-    <button class="fav-btn" type="button" data-slug="kotlet-mielony" data-title="Kotlet Mielony"
-            aria-pressed="false" aria-label="Save Kotlet Mielony to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="card-badges"><span class="badge badge--glass">American</span></div>
+    <button class="fav-btn" type="button" data-slug="cornbread-stuffing" data-title="Cornbread Stuffing"
+            aria-pressed="false" aria-label="Save Cornbread Stuffing to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
-        <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>15m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
+        <div><dt>Prep</dt><dd>20m</dd></div>
+        <div><dt>Cook</dt><dd>40m</dd></div>
+        <div><dt>Serves</dt><dd>8</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/kotlet-mielony/" aria-label="Quick view: Kotlet Mielony">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/cornbread-stuffing/" aria-label="Quick view: Cornbread Stuffing">Quick view</a>
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/kotlet-mielony/">Kotlet Mielony</a></h3>
-    <p>Flat Polish minced pork cutlets seasoned with onion, garlic and marjoram, coated in breadcrumbs and fried, in 30…</p>
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/cornbread-stuffing/">Cornbread Stuffing</a></h3>
+    <p>Crumbled cornbread baked with onion, celery, sage and stock into a moist stuffing. Eight servings in 1 hour.</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>30 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#8c7a67">
-    <picture>
-        <source srcset="/assets/img/recipes/lentil-burgers.webp" type="image/webp">
-        <img src="/assets/img/recipes/lentil-burgers.jpg" alt="Lentil Burgers"
-             width="800" height="600" data-fade data-title="Lentil Burgers"
-             data-ph-a="#8c7a67" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">British</span></div>
-    <button class="fav-btn" type="button" data-slug="lentil-burgers" data-title="Lentil Burgers"
-            aria-pressed="false" aria-label="Save Lentil Burgers to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>20m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/lentil-burgers/" aria-label="Quick view: Lentil Burgers">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/lentil-burgers/">Lentil Burgers</a></h3>
-    <p>Brown lentils, oats, onion and spices mashed into patties and fried for 20 minutes until crisp outside. Four…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>50 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#a1917b">
-    <picture>
-        <source srcset="/assets/img/recipes/liver-and-onions.webp" type="image/webp">
-        <img src="/assets/img/recipes/liver-and-onions.jpg" alt="Liver and Onions"
-             width="800" height="600" data-fade data-title="Liver and Onions"
-             data-ph-a="#a1917b" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">British</span></div>
-    <button class="fav-btn" type="button" data-slug="liver-and-onions" data-title="Liver and Onions"
-            aria-pressed="false" aria-label="Save Liver and Onions to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>10m</dd></div>
-        <div><dt>Cook</dt><dd>30m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/liver-and-onions/" aria-label="Quick view: Liver and Onions">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/liver-and-onions/">Liver and Onions</a></h3>
-    <p>Thin slices of lamb&#39;s liver fried for two minutes and served on caramelised onions, bacon and onion gravy. Forty…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>55 min <i>&middot;</i> Easy</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>60 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article></div>
@@ -596,7 +607,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -617,12 +629,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -642,8 +657,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

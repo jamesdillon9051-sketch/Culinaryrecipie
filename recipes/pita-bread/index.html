@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 <link rel="preload" href="/assets/img/recipes/pita-bread.webp" as="image" type="image/webp" fetchpriority="high">
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -90,6 +90,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -118,12 +119,12 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/baking/">Baking</a></li><li><a href="/cuisines/middle-eastern/">Middle Eastern recipes</a></li><li><span aria-current="page">Pita Bread</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="pita-bread" data-servings="8"
+  <article data-recipe="pita-bread" data-servings="8" data-scale="bake"
            data-image="https://weeklydelight.com/assets/img/recipes/pita-bread.jpg">
 
     <div class="recipe-masthead">
       <header class="recipe-head">
-        <span class="eyebrow">Middle Eastern &middot; Baking</span>
+        <span class="eyebrow">Middle Eastern &middot; Baking &middot; Bread</span>
         <h1>Pita Bread</h1>
         <p class="lede">A yeast dough rolled into rounds and cooked on a very hot tray for 15 minutes until the breads puff into pockets. Eight servings in 1 hour 40 minutes.</p>
 
@@ -179,6 +180,7 @@
             <output data-servings-out aria-live="polite">8</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 8 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -222,6 +224,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">1 hr 40 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Medium</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">Middle Eastern</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Bread</dd>
           </dl>
         </div>
 
@@ -265,6 +268,10 @@
         
 
         <h2 id="method">The Method for Pita Bread</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li><strong>Plan for 1 hr of proving.</strong> It is part of the 1 hr 40 min start to finish.</li><li>You will need: oven, baking tray or sheet pan.</li><li>This is a bread, not a meal on its own. The serving suggestions below say what it goes with.</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -296,6 +303,8 @@
         <button class="step-btn" type="button" data-timer="180">Start 3 min timer</button>
       </div>
     </li></ol>
+        <p class="form-note guide-links">Related guide: <a href="/guides/active-and-total-time/">Prep, cook and total time</a>.</p>
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=pita-bread&amp;v=38a2639d0a02" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <h2>Tips That Matter</h2>
         <ul><li>Heat the tray before the dough goes on.</li><li>Roll to an even thickness.</li><li>If your oven runs hot, check at 2 minutes.</li><li>Wrap the breads while hot.</li></ul>
@@ -355,6 +364,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -369,7 +379,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=pita-bread&amp;v=38a2639d0a02" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-10-08">8 October 2026</time>; last changed <time datetime="2026-10-20">20 October 2026</time>.</p>
         </div>
       </div>
@@ -408,72 +419,12 @@
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Baking</span>
+    <span class="card-kicker">Bread</span>
     <h3><a href="/recipes/flatbread/">Flatbread</a></h3>
     <p>Soft, no-yeast flatbreads made from flour and yogurt and cooked on a dry hot pan. Makes 8 in 22 minutes.</p>
     <div class="card-foot">
       
       <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>22 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#c8ab66">
-    <picture>
-        <source srcset="/assets/img/recipes/navajo-fry-bread.webp" type="image/webp">
-        <img src="/assets/img/recipes/navajo-fry-bread.jpg" alt="Navajo Fry Bread"
-             width="800" height="600" data-fade data-title="Navajo Fry Bread"
-             data-ph-a="#c8ab66" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="navajo-fry-bread" data-title="Navajo Fry Bread"
-            aria-pressed="false" aria-label="Save Navajo Fry Bread to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>15m</dd></div>
-        <div><dt>Serves</dt><dd>6</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/navajo-fry-bread/" aria-label="Quick view: Navajo Fry Bread">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Baking</span>
-    <h3><a href="/recipes/navajo-fry-bread/">Navajo Fry Bread</a></h3>
-    <p>Rounds of yeast-free dough stretched thin and fried in hot oil until puffed and golden, crisp at the edges and soft…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>60 min <i>&middot;</i> Medium</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#917d6f">
-    <picture>
-        <source srcset="/assets/img/recipes/pistachio-cake.webp" type="image/webp">
-        <img src="/assets/img/recipes/pistachio-cake.jpg" alt="Pistachio Cake"
-             width="800" height="600" data-fade data-title="Pistachio Cake"
-             data-ph-a="#917d6f" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Middle Eastern</span></div>
-    <button class="fav-btn" type="button" data-slug="pistachio-cake" data-title="Pistachio Cake"
-            aria-pressed="false" aria-label="Save Pistachio Cake to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>20m</dd></div>
-        <div><dt>Cook</dt><dd>40m</dd></div>
-        <div><dt>Serves</dt><dd>10</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/pistachio-cake/" aria-label="Quick view: Pistachio Cake">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Baking</span>
-    <h3><a href="/recipes/pistachio-cake/">Pistachio Cake</a></h3>
-    <p>A tender cake made with ground pistachios, yoghurt and a little cardamom, soaked with lemon syrup.</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>60 min+ <i>&middot;</i> Medium</span>
     </div>
   </div>
 </article><article class="card reveal">
@@ -498,12 +449,42 @@
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Baking</span>
+    <span class="card-kicker">Bread</span>
     <h3><a href="/recipes/brown-soda-bread/">Brown Soda Bread</a></h3>
     <p>A dense, nutty loaf of wholemeal and plain flour raised with bicarbonate of soda and buttermilk, baked for 40…</p>
     <div class="card-foot">
       
       <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>50 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#c8ab66">
+    <picture>
+        <source srcset="/assets/img/recipes/navajo-fry-bread.webp" type="image/webp">
+        <img src="/assets/img/recipes/navajo-fry-bread.jpg" alt="Navajo Fry Bread"
+             width="800" height="600" data-fade data-title="Navajo Fry Bread"
+             data-ph-a="#c8ab66" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">American</span></div>
+    <button class="fav-btn" type="button" data-slug="navajo-fry-bread" data-title="Navajo Fry Bread"
+            aria-pressed="false" aria-label="Save Navajo Fry Bread to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>15m</dd></div>
+        <div><dt>Cook</dt><dd>15m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/navajo-fry-bread/" aria-label="Quick view: Navajo Fry Bread">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Bread</span>
+    <h3><a href="/recipes/navajo-fry-bread/">Navajo Fry Bread</a></h3>
+    <p>Rounds of yeast-free dough stretched thin and fried in hot oil until puffed and golden, crisp at the edges and soft…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>60 min <i>&middot;</i> Medium</span>
     </div>
   </div>
 </article><article class="card reveal">
@@ -528,7 +509,7 @@
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Baking</span>
+    <span class="card-kicker">Bread</span>
     <h3><a href="/recipes/irish-brown-bread/">Irish Brown Bread</a></h3>
     <p>A quick wholemeal soda bread raised with bicarbonate of soda and buttermilk, baked until the crust sounds hollow.</p>
     <div class="card-foot">
@@ -537,33 +518,63 @@
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#727478">
+  <div class="card-media" style="background:#7e5d46">
     <picture>
-        <source srcset="/assets/img/recipes/manakish-zaatar.webp" type="image/webp">
-        <img src="/assets/img/recipes/manakish-zaatar.jpg" alt="Manakish Za&#39;atar"
-             width="800" height="600" data-fade data-title="Manakish Za&#39;atar"
-             data-ph-a="#727478" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/eish-merahrah.webp" type="image/webp">
+        <img src="/assets/img/recipes/eish-merahrah.jpg" alt="AI-generated illustration of Eish Merahrah"
+             width="800" height="600" data-fade data-title="Eish Merahrah"
+             data-ph-a="#7e5d46" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
-    <div class="card-badges"><span class="badge badge--glass">Middle Eastern</span></div>
-    <button class="fav-btn" type="button" data-slug="manakish-zaatar" data-title="Manakish Za&#39;atar"
-            aria-pressed="false" aria-label="Save Manakish Za&#39;atar to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="card-badges"><span class="badge badge--glass">Egyptian</span></div>
+    <button class="fav-btn" type="button" data-slug="eish-merahrah" data-title="Eish Merahrah"
+            aria-pressed="false" aria-label="Save Eish Merahrah to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>30m</dd></div>
-        <div><dt>Cook</dt><dd>12m</dd></div>
+        <div><dt>Cook</dt><dd>20m</dd></div>
         <div><dt>Serves</dt><dd>6</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/manakish-zaatar/" aria-label="Quick view: Manakish Za&#39;atar">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/eish-merahrah/" aria-label="Quick view: Eish Merahrah">Quick view</a>
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Breakfast</span>
-    <h3><a href="/recipes/manakish-zaatar/">Manakish Za&#39;atar</a></h3>
-    <p>Flatbread spread with za&#39;atar mixed into olive oil and baked until the edges crisp. Bought hot from the bakery for…</p>
+    <span class="card-kicker">Baking</span>
+    <h3><a href="/recipes/eish-merahrah/">Eish Merahrah</a></h3>
+    <p>A flat wholemeal loaf enriched with ground fenugreek and maize, from the villages of Upper Egypt. Bitter, nutty and…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>2 hr <i>&middot;</i> Medium</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>3 hr <i>&middot;</i> Medium</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#998578">
+    <picture>
+        <source srcset="/assets/img/recipes/rye-bread.webp" type="image/webp">
+        <img src="/assets/img/recipes/rye-bread.jpg" alt="Rye Bread"
+             width="800" height="600" data-fade data-title="Rye Bread"
+             data-ph-a="#998578" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">German</span></div>
+    <button class="fav-btn" type="button" data-slug="rye-bread" data-title="Rye Bread"
+            aria-pressed="false" aria-label="Save Rye Bread to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>30m</dd></div>
+        <div><dt>Cook</dt><dd>40m</dd></div>
+        <div><dt>Serves</dt><dd>12</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/rye-bread/" aria-label="Quick view: Rye Bread">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Bread</span>
+    <h3><a href="/recipes/rye-bread/">Rye Bread</a></h3>
+    <p>A dense, sour-edged loaf made with rye and white flour, caraway seeds and a spoonful of treacle.</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>3 hr+ <i>&middot;</i> Medium</span>
     </div>
   </div>
 </article></div>
@@ -573,7 +584,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -594,12 +606,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -619,8 +634,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

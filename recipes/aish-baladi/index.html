@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 <link rel="preload" href="/assets/img/recipes/aish-baladi.webp" as="image" type="image/webp" fetchpriority="high">
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -90,6 +90,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -118,7 +119,7 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/baking/">Baking</a></li><li><a href="/cuisines/egyptian/">Egyptian recipes</a></li><li><span aria-current="page">Aish Baladi</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="aish-baladi" data-servings="8"
+  <article data-recipe="aish-baladi" data-servings="8" data-scale="bake"
            data-image="https://weeklydelight.com/assets/img/recipes/aish-baladi.jpg">
 
     <div class="recipe-masthead">
@@ -179,6 +180,7 @@
             <output data-servings-out aria-live="polite">8</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 8 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -227,6 +229,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">2 hr 45 min to 2 hr 50 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Medium</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">Egyptian</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Dessert or sweet bake</dd>
           </dl>
         </div>
 
@@ -260,6 +263,10 @@
         
 
         <h2 id="method">How to Cook Aish Baladi</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li><strong>Plan for 2 hr of rising and proving the dough.</strong> It is part of the 2 hr 45 min to 2 hr 50 min start to finish.</li><li>You will need: oven.</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -312,6 +319,8 @@
         <button class="step-btn" type="button" data-timer="240">Start 4 min timer</button>
       </div>
     </li></ol>
+        <p class="form-note guide-links">Related guide: <a href="/guides/active-and-total-time/">Prep, cook and total time</a>.</p>
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=aish-baladi&amp;v=25f510bea45b" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <h2>Things to Watch For</h2>
         <ol class="tips-numbered"><li>A wet dough. Adding flour to make it manageable stops it puffing.</li><li>The bran bed does the work of a floured peel.</li><li>Maximum heat, preheated 30 minutes.</li></ol>
@@ -379,6 +388,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -393,7 +403,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=aish-baladi&amp;v=25f510bea45b" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-09-09">9 September 2026</time>; last changed <time datetime="2026-10-20">20 October 2026</time>.</p>
         </div>
       </div>
@@ -411,36 +422,6 @@
         <a class="btn btn--ghost" href="/cuisines/egyptian/">All egyptian recipes recipes</a>
       </div>
       <div class="related-grid"><article class="card reveal">
-  <div class="card-media" style="background:#7e5d46">
-    <picture>
-        <source srcset="/assets/img/recipes/eish-merahrah.webp" type="image/webp">
-        <img src="/assets/img/recipes/eish-merahrah.jpg" alt="AI-generated illustration of Eish Merahrah"
-             width="800" height="600" data-fade data-title="Eish Merahrah"
-             data-ph-a="#7e5d46" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Egyptian</span></div>
-    <button class="fav-btn" type="button" data-slug="eish-merahrah" data-title="Eish Merahrah"
-            aria-pressed="false" aria-label="Save Eish Merahrah to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>30m</dd></div>
-        <div><dt>Cook</dt><dd>20m</dd></div>
-        <div><dt>Serves</dt><dd>6</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/eish-merahrah/" aria-label="Quick view: Eish Merahrah">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Baking</span>
-    <h3><a href="/recipes/eish-merahrah/">Eish Merahrah</a></h3>
-    <p>A flat wholemeal loaf enriched with ground fenugreek and maize, from the villages of Upper Egypt. Bitter, nutty and…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>3 hr <i>&middot;</i> Medium</span>
-    </div>
-  </div>
-</article><article class="card reveal">
   <div class="card-media" style="background:#857d72">
     <picture>
         <source srcset="/assets/img/recipes/feteer-meshaltet.webp" type="image/webp">
@@ -468,36 +449,6 @@
     <div class="card-foot">
       
       <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>100 min <i>&middot;</i> Hard</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#988f8c">
-    <picture>
-        <source srcset="/assets/img/recipes/salata-baladi.webp" type="image/webp">
-        <img src="/assets/img/recipes/salata-baladi.jpg" alt="Salata Baladi"
-             width="800" height="600" data-fade data-title="Salata Baladi"
-             data-ph-a="#988f8c" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Egyptian</span></div>
-    <button class="fav-btn" type="button" data-slug="salata-baladi" data-title="Salata Baladi"
-            aria-pressed="false" aria-label="Save Salata Baladi to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>0m</dd></div>
-        <div><dt>Serves</dt><dd>6</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/salata-baladi/" aria-label="Quick view: Salata Baladi">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Appetizers</span>
-    <h3><a href="/recipes/salata-baladi/">Salata Baladi</a></h3>
-    <p>The chopped country salad that arrives with everything: tomato, cucumber, onion and pepper cut small, dressed with…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>15 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article><article class="card reveal">
@@ -531,63 +482,123 @@
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#9e9a95">
+  <div class="card-media" style="background:#9d8a74">
     <picture>
-        <source srcset="/assets/img/recipes/baba-ghanoug-masri.webp" type="image/webp">
-        <img src="/assets/img/recipes/baba-ghanoug-masri.jpg" alt="Baba Ghanoug Masri"
-             width="800" height="600" data-fade data-title="Baba Ghanoug Masri"
-             data-ph-a="#9e9a95" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/biscotti-savoiardi.webp" type="image/webp">
+        <img src="/assets/img/recipes/biscotti-savoiardi.jpg" alt="Biscotti Savoiardi"
+             width="800" height="600" data-fade data-title="Biscotti Savoiardi"
+             data-ph-a="#9d8a74" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
-    <div class="card-badges"><span class="badge badge--glass">Egyptian</span></div>
-    <button class="fav-btn" type="button" data-slug="baba-ghanoug-masri" data-title="Baba Ghanoug Masri"
-            aria-pressed="false" aria-label="Save Baba Ghanoug Masri to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="card-badges"><span class="badge badge--glass">Italian</span></div>
+    <button class="fav-btn" type="button" data-slug="biscotti-savoiardi" data-title="Biscotti Savoiardi"
+            aria-pressed="false" aria-label="Save Biscotti Savoiardi to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
-        <div><dt>Prep</dt><dd>20m</dd></div>
-        <div><dt>Cook</dt><dd>30m</dd></div>
-        <div><dt>Serves</dt><dd>6</dd></div>
+        <div><dt>Prep</dt><dd>30m</dd></div>
+        <div><dt>Cook</dt><dd>12m</dd></div>
+        <div><dt>Serves</dt><dd>24</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/baba-ghanoug-masri/" aria-label="Quick view: Baba Ghanoug Masri">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Appetizers</span>
-    <h3><a href="/recipes/baba-ghanoug-masri/">Baba Ghanoug Masri</a></h3>
-    <p>The Egyptian version, which is a salad rather than a purée: charred aubergine chopped rough and mixed with tomato…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>65 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#7c6249">
-    <picture>
-        <source srcset="/assets/img/recipes/bannock.webp" type="image/webp">
-        <img src="/assets/img/recipes/bannock.jpg" alt="Bannock"
-             width="800" height="600" data-fade data-title="Bannock"
-             data-ph-a="#7c6249" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Canadian</span></div>
-    <button class="fav-btn" type="button" data-slug="bannock" data-title="Bannock"
-            aria-pressed="false" aria-label="Save Bannock to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>10m</dd></div>
-        <div><dt>Cook</dt><dd>20m</dd></div>
-        <div><dt>Serves</dt><dd>6</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/bannock/" aria-label="Quick view: Bannock">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/biscotti-savoiardi/" aria-label="Quick view: Biscotti Savoiardi">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Baking</span>
-    <h3><a href="/recipes/bannock/">Bannock</a></h3>
-    <p>A plain quick bread of flour, fat and baking powder, fried in a cast-iron pan until golden. Made by Indigenous cooks…</p>
+    <h3><a href="/recipes/biscotti-savoiardi/">Biscotti Savoiardi</a></h3>
+    <p>Light, dry Italian sponge fingers piped from whisked eggs and sugar and baked for 12 minutes, the biscuit used in…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>30 min <i>&middot;</i> Easy</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>42 min <i>&middot;</i> Medium</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#9c7f71">
+    <picture>
+        <source srcset="/assets/img/recipes/brutti-ma-buoni.webp" type="image/webp">
+        <img src="/assets/img/recipes/brutti-ma-buoni.jpg" alt="Brutti ma Buoni"
+             width="800" height="600" data-fade data-title="Brutti ma Buoni"
+             data-ph-a="#9c7f71" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Italian</span></div>
+    <button class="fav-btn" type="button" data-slug="brutti-ma-buoni" data-title="Brutti ma Buoni"
+            aria-pressed="false" aria-label="Save Brutti ma Buoni to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>10m</dd></div>
+        <div><dt>Cook</dt><dd>30m</dd></div>
+        <div><dt>Serves</dt><dd>20</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/brutti-ma-buoni/" aria-label="Quick view: Brutti ma Buoni">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Baking</span>
+    <h3><a href="/recipes/brutti-ma-buoni/">Brutti ma Buoni</a></h3>
+    <p>Rough Italian hazelnut meringue biscuits, chewy inside and crisp outside, baked for 30 minutes at 150C.</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>40 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#b2a6a1">
+    <picture>
+        <source srcset="/assets/img/recipes/castagnaccio.webp" type="image/webp">
+        <img src="/assets/img/recipes/castagnaccio.jpg" alt="Castagnaccio"
+             width="800" height="600" data-fade data-title="Castagnaccio"
+             data-ph-a="#b2a6a1" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Italian</span></div>
+    <button class="fav-btn" type="button" data-slug="castagnaccio" data-title="Castagnaccio"
+            aria-pressed="false" aria-label="Save Castagnaccio to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>10m</dd></div>
+        <div><dt>Cook</dt><dd>40m</dd></div>
+        <div><dt>Serves</dt><dd>8</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/castagnaccio/" aria-label="Quick view: Castagnaccio">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Baking</span>
+    <h3><a href="/recipes/castagnaccio/">Castagnaccio</a></h3>
+    <p>A dense Tuscan cake of chestnut flour, water and olive oil with pine nuts, raisins and rosemary, baked for 40 minutes.</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>50 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#776b61">
+    <picture>
+        <source srcset="/assets/img/recipes/dairy-free-brownies.webp" type="image/webp">
+        <img src="/assets/img/recipes/dairy-free-brownies.jpg" alt="Dairy-Free Brownies"
+             width="800" height="600" data-fade data-title="Dairy-Free Brownies"
+             data-ph-a="#776b61" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">American</span></div>
+    <button class="fav-btn" type="button" data-slug="dairy-free-brownies" data-title="Dairy-Free Brownies"
+            aria-pressed="false" aria-label="Save Dairy-Free Brownies to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>15m</dd></div>
+        <div><dt>Cook</dt><dd>25m</dd></div>
+        <div><dt>Serves</dt><dd>16</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/dairy-free-brownies/" aria-label="Quick view: Dairy-Free Brownies">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Baking</span>
+    <h3><a href="/recipes/dairy-free-brownies/">Dairy-Free Brownies</a></h3>
+    <p>Fudgy chocolate brownies made with dairy-free butter and dairy-free dark chocolate, baked for 25 minutes with a…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>40 min+ <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article></div>
@@ -597,7 +608,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -618,12 +630,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -643,8 +658,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

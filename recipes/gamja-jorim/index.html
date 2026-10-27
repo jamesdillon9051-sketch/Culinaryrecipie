@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 <link rel="preload" href="/assets/img/recipes/gamja-jorim.webp" as="image" type="image/webp" fetchpriority="high">
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -89,6 +89,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -117,12 +118,12 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/dinner/">Dinner</a></li><li><a href="/categories/dinner/korean/">Korean Dinner</a></li><li><span aria-current="page">Gamja Jorim</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="gamja-jorim" data-servings="4"
+  <article data-recipe="gamja-jorim" data-servings="4" data-scale="cook"
            data-image="https://weeklydelight.com/assets/img/recipes/gamja-jorim.jpg">
 
     <div class="recipe-masthead">
       <header class="recipe-head">
-        <span class="eyebrow">Korean &middot; Dinner</span>
+        <span class="eyebrow">Korean &middot; Dinner &middot; Side dish</span>
         <h1>Gamja Jorim</h1>
         <p class="lede">Small potatoes braised in a sweet and salty soy glaze until tender and shiny, a Korean side dish.</p>
 
@@ -178,6 +179,7 @@
             <output data-servings-out aria-live="polite">4</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 4 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -229,6 +231,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">30 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Easy</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">Korean</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Side dish</dd>
           </dl>
         </div>
 
@@ -269,6 +272,10 @@
         
 
         <h2 id="method">Gamja Jorim: Step by Step</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li>You will need: frying pan or skillet.</li><li>This is a side dish, not a meal on its own. The serving suggestions below say what it goes with.</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -300,6 +307,8 @@
         
       </div>
     </li></ol>
+        
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=gamja-jorim&amp;v=e4298bc56ab9" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <h2>Tips That Matter</h2>
         <ul><li>Rinse the potatoes to remove surface starch.</li><li>Fry them briefly before braising.</li><li>Stir often at the end so the glaze does not burn.</li><li>Taste the glaze and add a pinch of sugar if it is too salty.</li></ul>
@@ -367,6 +376,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -381,7 +391,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=gamja-jorim&amp;v=e4298bc56ab9" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-10-13">13 October 2026</time>; last changed <time datetime="2026-10-20">20 October 2026</time>.</p>
         </div>
       </div>
@@ -399,183 +410,183 @@
         <a class="btn btn--ghost" href="/categories/dinner/korean/">All korean dinner recipes</a>
       </div>
       <div class="related-grid"><article class="card reveal">
-  <div class="card-media" style="background:#b49567">
+  <div class="card-media" style="background:#8e8a62">
     <picture>
-        <source srcset="/assets/img/recipes/dubu-jorim.webp" type="image/webp">
-        <img src="/assets/img/recipes/dubu-jorim.jpg" alt="Dubu Jorim"
-             width="800" height="600" data-fade data-title="Dubu Jorim"
-             data-ph-a="#b49567" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/di-san-xian.webp" type="image/webp">
+        <img src="/assets/img/recipes/di-san-xian.jpg" alt="Di San Xian"
+             width="800" height="600" data-fade data-title="Di San Xian"
+             data-ph-a="#8e8a62" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
-    <div class="card-badges"><span class="badge badge--glass">Korean</span></div>
-    <button class="fav-btn" type="button" data-slug="dubu-jorim" data-title="Dubu Jorim"
-            aria-pressed="false" aria-label="Save Dubu Jorim to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>10m</dd></div>
-        <div><dt>Cook</dt><dd>20m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/dubu-jorim/" aria-label="Quick view: Dubu Jorim">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/dubu-jorim/">Dubu Jorim</a></h3>
-    <p>Tofu slabs pan-fried until golden, then braised in soy and chilli until the sauce has almost gone. Thirty minutes.</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>30 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#85796a">
-    <picture>
-        <source srcset="/assets/img/recipes/japchae.webp" type="image/webp">
-        <img src="/assets/img/recipes/japchae.jpg" alt="Japchae"
-             width="800" height="600" data-fade data-title="Japchae"
-             data-ph-a="#85796a" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Korean</span></div>
-    <button class="fav-btn" type="button" data-slug="japchae" data-title="Japchae"
-            aria-pressed="false" aria-label="Save Japchae to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>25m</dd></div>
-        <div><dt>Cook</dt><dd>15m</dd></div>
-        <div><dt>Serves</dt><dd>6</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/japchae/" aria-label="Quick view: Japchae">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/japchae/">Japchae</a></h3>
-    <p>Chewy sweet potato noodles tossed with individually stir-fried vegetables and a sesame-soy dressing. Naturally…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>40 min <i>&middot;</i> Medium</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#88755a">
-    <picture>
-        <source srcset="/assets/img/recipes/bulgogi.webp" type="image/webp">
-        <img src="/assets/img/recipes/bulgogi.jpg" alt="Beef Bulgogi"
-             width="800" height="600" data-fade data-title="Beef Bulgogi"
-             data-ph-a="#88755a" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Korean</span></div>
-    <button class="fav-btn" type="button" data-slug="bulgogi" data-title="Beef Bulgogi"
-            aria-pressed="false" aria-label="Save Beef Bulgogi to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>20m</dd></div>
-        <div><dt>Cook</dt><dd>10m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/bulgogi/" aria-label="Quick view: Beef Bulgogi">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/bulgogi/">Beef Bulgogi</a></h3>
-    <p>Thinly sliced beef marinated in soy, pear and sesame, then seared fast so it caramelises without stewing. Twenty…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>105 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#7d7874">
-    <picture>
-        <source srcset="/assets/img/recipes/chicken-bulgogi.webp" type="image/webp">
-        <img src="/assets/img/recipes/chicken-bulgogi.jpg" alt="Chicken Bulgogi"
-             width="800" height="600" data-fade data-title="Chicken Bulgogi"
-             data-ph-a="#7d7874" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Korean</span></div>
-    <button class="fav-btn" type="button" data-slug="chicken-bulgogi" data-title="Chicken Bulgogi"
-            aria-pressed="false" aria-label="Save Chicken Bulgogi to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>12m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/chicken-bulgogi/" aria-label="Quick view: Chicken Bulgogi">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/chicken-bulgogi/">Chicken Bulgogi</a></h3>
-    <p>Thinly sliced chicken thighs in a soy, pear, garlic and sesame marinade, seared in a hot pan and served with rice.</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>42 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#9a8b7b">
-    <picture>
-        <source srcset="/assets/img/recipes/dakgalbi.webp" type="image/webp">
-        <img src="/assets/img/recipes/dakgalbi.jpg" alt="Dakgalbi"
-             width="800" height="600" data-fade data-title="Dakgalbi"
-             data-ph-a="#9a8b7b" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Korean</span></div>
-    <button class="fav-btn" type="button" data-slug="dakgalbi" data-title="Dakgalbi"
-            aria-pressed="false" aria-label="Save Dakgalbi to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="card-badges"><span class="badge badge--glass">Chinese</span></div>
+    <button class="fav-btn" type="button" data-slug="di-san-xian" data-title="Di San Xian"
+            aria-pressed="false" aria-label="Save Di San Xian to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>20m</dd></div>
         <div><dt>Cook</dt><dd>20m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/dakgalbi/" aria-label="Quick view: Dakgalbi">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/di-san-xian/" aria-label="Quick view: Di San Xian">Quick view</a>
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/dakgalbi/">Dakgalbi</a></h3>
-    <p>Chicken and cabbage stir-fried at the table in a gochujang marinade on a huge flat pan, with rice cakes and sweet…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>4.5 hr <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#7d4e2d">
-    <picture>
-        <source srcset="/assets/img/recipes/jeyuk-bokkeum.webp" type="image/webp">
-        <img src="/assets/img/recipes/jeyuk-bokkeum.jpg" alt="Jeyuk Bokkeum"
-             width="800" height="600" data-fade data-title="Jeyuk Bokkeum"
-             data-ph-a="#7d4e2d" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Korean</span></div>
-    <button class="fav-btn" type="button" data-slug="jeyuk-bokkeum" data-title="Jeyuk Bokkeum"
-            aria-pressed="false" aria-label="Save Jeyuk Bokkeum to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>15m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/jeyuk-bokkeum/" aria-label="Quick view: Jeyuk Bokkeum">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/jeyuk-bokkeum/">Jeyuk Bokkeum</a></h3>
-    <p>Thin slices of pork in a fiery marinade of gochujang, chilli flakes, garlic and ginger, stir-fried until caramelised…</p>
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/di-san-xian/">Di San Xian</a></h3>
+    <p>Potato, aubergine and green pepper each fried separately then brought together in a garlicky sauce. Dongbei, and the…</p>
     <div class="card-foot">
       
       <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>60 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#8d7461">
+    <picture>
+        <source srcset="/assets/img/recipes/hot-and-sour-potato.webp" type="image/webp">
+        <img src="/assets/img/recipes/hot-and-sour-potato.jpg" alt="Hot and Sour Potato Slivers"
+             width="800" height="600" data-fade data-title="Hot and Sour Potato Slivers"
+             data-ph-a="#8d7461" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Chinese</span></div>
+    <button class="fav-btn" type="button" data-slug="hot-and-sour-potato" data-title="Hot and Sour Potato Slivers"
+            aria-pressed="false" aria-label="Save Hot and Sour Potato Slivers to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>15m</dd></div>
+        <div><dt>Cook</dt><dd>8m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/hot-and-sour-potato/" aria-label="Quick view: Hot and Sour Potato Slivers">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/hot-and-sour-potato/">Hot and Sour Potato Slivers</a></h3>
+    <p>Potato cut into matchsticks, rinsed of starch and fried for ninety seconds so it stays crunchy. Sour, hot, and…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>23 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#866f4b">
+    <picture>
+        <source srcset="/assets/img/recipes/oi-muchim.webp" type="image/webp">
+        <img src="/assets/img/recipes/oi-muchim.jpg" alt="Oi Muchim"
+             width="800" height="600" data-fade data-title="Oi Muchim"
+             data-ph-a="#866f4b" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Korean</span></div>
+    <button class="fav-btn" type="button" data-slug="oi-muchim" data-title="Oi Muchim"
+            aria-pressed="false" aria-label="Save Oi Muchim to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>15m</dd></div>
+        <div><dt>Cook</dt><dd>0m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/oi-muchim/" aria-label="Quick view: Oi Muchim">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/oi-muchim/">Oi Muchim</a></h3>
+    <p>Korean cucumber salad: sliced, salted, squeezed and tossed with gochugaru, garlic and sesame — sharp, hot and…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>15 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#a3ab90">
+    <picture>
+        <source srcset="/assets/img/recipes/sigeumchi-namul.webp" type="image/webp">
+        <img src="/assets/img/recipes/sigeumchi-namul.jpg" alt="Sigeumchi Namul"
+             width="800" height="600" data-fade data-title="Sigeumchi Namul"
+             data-ph-a="#a3ab90" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Korean</span></div>
+    <button class="fav-btn" type="button" data-slug="sigeumchi-namul" data-title="Sigeumchi Namul"
+            aria-pressed="false" aria-label="Save Sigeumchi Namul to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>10m</dd></div>
+        <div><dt>Cook</dt><dd>5m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/sigeumchi-namul/" aria-label="Quick view: Sigeumchi Namul">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/sigeumchi-namul/">Sigeumchi Namul</a></h3>
+    <p>Spinach blanched for a minute, squeezed dry and tossed with sesame oil, garlic, soy sauce and toasted sesame seeds.</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>15 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#937c65">
+    <picture>
+        <source srcset="/assets/img/recipes/bratkartoffeln.webp" type="image/webp">
+        <img src="/assets/img/recipes/bratkartoffeln.jpg" alt="Bratkartoffeln"
+             width="800" height="600" data-fade data-title="Bratkartoffeln"
+             data-ph-a="#937c65" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">German</span></div>
+    <button class="fav-btn" type="button" data-slug="bratkartoffeln" data-title="Bratkartoffeln"
+            aria-pressed="false" aria-label="Save Bratkartoffeln to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>10m</dd></div>
+        <div><dt>Cook</dt><dd>30m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/bratkartoffeln/" aria-label="Quick view: Bratkartoffeln">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/bratkartoffeln/">Bratkartoffeln</a></h3>
+    <p>German fried potatoes: boiled potatoes sliced and fried with onion and bacon until crisp and golden.</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>40 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#8a7b71">
+    <picture>
+        <source srcset="/assets/img/recipes/potato-kugel.webp" type="image/webp">
+        <img src="/assets/img/recipes/potato-kugel.jpg" alt="Potato Kugel"
+             width="800" height="600" data-fade data-title="Potato Kugel"
+             data-ph-a="#8a7b71" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Jewish</span></div>
+    <button class="fav-btn" type="button" data-slug="potato-kugel" data-title="Potato Kugel"
+            aria-pressed="false" aria-label="Save Potato Kugel to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>20m</dd></div>
+        <div><dt>Cook</dt><dd>75m</dd></div>
+        <div><dt>Serves</dt><dd>8</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/potato-kugel/" aria-label="Quick view: Potato Kugel">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/potato-kugel/">Potato Kugel</a></h3>
+    <p>Grated potato and onion mixed with egg and oil and baked in a hot tin until the top is crisp and the middle is soft.</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>95 min <i>&middot;</i> Medium</span>
     </div>
   </div>
 </article></div>
@@ -585,7 +596,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -606,12 +618,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -631,8 +646,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 <link rel="preload" href="/assets/img/recipes/sun-dried-tomato-pesto.webp" as="image" type="image/webp" fetchpriority="high">
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -89,6 +89,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -117,12 +118,12 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/dinner/">Dinner</a></li><li><a href="/categories/dinner/italian/">Italian Dinner</a></li><li><span aria-current="page">Sun Dried Tomato Pesto</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="sun-dried-tomato-pesto" data-servings="6"
+  <article data-recipe="sun-dried-tomato-pesto" data-servings="6" data-scale="cook"
            data-image="https://weeklydelight.com/assets/img/recipes/sun-dried-tomato-pesto.jpg">
 
     <div class="recipe-masthead">
       <header class="recipe-head">
-        <span class="eyebrow">Italian &middot; Dinner</span>
+        <span class="eyebrow">Italian &middot; Dinner &middot; Condiment, dressing or rub</span>
         <h1>Sun Dried Tomato Pesto</h1>
         <p class="lede">A blended sauce of sun-dried tomatoes, basil, pine nuts, garlic, parmesan and olive oil.</p>
 
@@ -178,6 +179,7 @@
             <output data-servings-out aria-live="polite">6</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 6 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -229,6 +231,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">10 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Easy</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">Italian</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Condiment, dressing or rub</dd>
           </dl>
         </div>
 
@@ -273,6 +276,10 @@
         
 
         <h2 id="method">Making Sun Dried Tomato Pesto, Step by Step</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li>You will need: blender.</li><li>This is a condiment, not a meal on its own. The serving suggestions below say what it goes with.</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -297,6 +304,8 @@
         
       </div>
     </li></ol>
+        
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=sun-dried-tomato-pesto&amp;v=f8cfc78bc329" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <h2>Notes From the Method</h2>
         <p class="tip-note">Toast the pine nuts.</p><p class="tip-note">Blend in short pulses.</p><p class="tip-note">Drain the tomatoes well.</p><p class="tip-note">Add the salt last, as the tomatoes and parmesan are salty.</p>
@@ -356,6 +365,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -370,7 +380,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=sun-dried-tomato-pesto&amp;v=f8cfc78bc329" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-10-08">8 October 2026</time>; last changed <time datetime="2026-10-20">20 October 2026</time>.</p>
         </div>
       </div>
@@ -388,183 +399,183 @@
         <a class="btn btn--ghost" href="/categories/dinner/italian/">All italian dinner recipes</a>
       </div>
       <div class="related-grid"><article class="card reveal">
-  <div class="card-media" style="background:#89816f">
+  <div class="card-media" style="background:#868778">
     <picture>
-        <source srcset="/assets/img/recipes/carciofi-ripieni.webp" type="image/webp">
-        <img src="/assets/img/recipes/carciofi-ripieni.jpg" alt="Carciofi Ripieni"
-             width="800" height="600" data-fade data-title="Carciofi Ripieni"
-             data-ph-a="#89816f" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/testaroli.webp" type="image/webp">
+        <img src="/assets/img/recipes/testaroli.jpg" alt="Testaroli al Pesto"
+             width="800" height="600" data-fade data-title="Testaroli al Pesto"
+             data-ph-a="#868778" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">Italian</span></div>
-    <button class="fav-btn" type="button" data-slug="carciofi-ripieni" data-title="Carciofi Ripieni"
-            aria-pressed="false" aria-label="Save Carciofi Ripieni to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>25m</dd></div>
-        <div><dt>Cook</dt><dd>45m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/carciofi-ripieni/" aria-label="Quick view: Carciofi Ripieni">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/carciofi-ripieni/">Carciofi Ripieni</a></h3>
-    <p>Whole artichokes stuffed with breadcrumbs, garlic, parsley and Parmesan and braised in olive oil and wine for 45…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>70 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#ae9d8d">
-    <picture>
-        <source srcset="/assets/img/recipes/busiate-trapanese.webp" type="image/webp">
-        <img src="/assets/img/recipes/busiate-trapanese.jpg" alt="Busiate al Pesto Trapanese"
-             width="800" height="600" data-fade data-title="Busiate al Pesto Trapanese"
-             data-ph-a="#ae9d8d" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Italian</span></div>
-    <button class="fav-btn" type="button" data-slug="busiate-trapanese" data-title="Busiate al Pesto Trapanese"
-            aria-pressed="false" aria-label="Save Busiate al Pesto Trapanese to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="testaroli" data-title="Testaroli al Pesto"
+            aria-pressed="false" aria-label="Save Testaroli al Pesto to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>20m</dd></div>
-        <div><dt>Cook</dt><dd>15m</dd></div>
+        <div><dt>Cook</dt><dd>30m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/busiate-trapanese/" aria-label="Quick view: Busiate al Pesto Trapanese">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/testaroli/" aria-label="Quick view: Testaroli al Pesto">Quick view</a>
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/busiate-trapanese/">Busiate al Pesto Trapanese</a></h3>
-    <p>Trapani&#39;s pesto: almonds instead of pine nuts, raw tomato instead of just basil. Made in a mortar and never cooked.</p>
+    <span class="card-kicker">Condiment</span>
+    <h3><a href="/recipes/testaroli/">Testaroli al Pesto</a></h3>
+    <p>A thin pancake cooked on a hot stone, cut into diamonds and dipped in boiling water. Arguably the oldest pasta in…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>35 min <i>&middot;</i> Easy</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>80 min <i>&middot;</i> Medium</span>
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#615444">
+  <div class="card-media" style="background:#ad8f4f">
     <picture>
-        <source srcset="/assets/img/recipes/uova-in-purgatorio.webp" type="image/webp">
-        <img src="/assets/img/recipes/uova-in-purgatorio.jpg" alt="Uova in Purgatorio"
-             width="800" height="600" data-fade data-title="Uova in Purgatorio"
-             data-ph-a="#615444" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/vegan-pesto.webp" type="image/webp">
+        <img src="/assets/img/recipes/vegan-pesto.jpg" alt="Vegan Pesto"
+             width="800" height="600" data-fade data-title="Vegan Pesto"
+             data-ph-a="#ad8f4f" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">Italian</span></div>
-    <button class="fav-btn" type="button" data-slug="uova-in-purgatorio" data-title="Uova in Purgatorio"
-            aria-pressed="false" aria-label="Save Uova in Purgatorio to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="vegan-pesto" data-title="Vegan Pesto"
+            aria-pressed="false" aria-label="Save Vegan Pesto to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>10m</dd></div>
-        <div><dt>Cook</dt><dd>15m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
+        <div><dt>Cook</dt><dd>0m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/uova-in-purgatorio/" aria-label="Quick view: Uova in Purgatorio">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/vegan-pesto/" aria-label="Quick view: Vegan Pesto">Quick view</a>
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/uova-in-purgatorio/">Uova in Purgatorio</a></h3>
-    <p>Eggs poached in a spicy tomato sauce with garlic and chilli, served with bread, ready in 25 minutes.</p>
+    <span class="card-kicker">Condiment</span>
+    <h3><a href="/recipes/vegan-pesto/">Vegan Pesto</a></h3>
+    <p>A bright basil pesto of pine nuts, garlic, nutritional yeast and olive oil, blended in 5 minutes with no cheese.</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>10 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#9f7a6a">
+    <picture>
+        <source srcset="/assets/img/recipes/arrabbiata-sauce.webp" type="image/webp">
+        <img src="/assets/img/recipes/arrabbiata-sauce.jpg" alt="Arrabbiata Sauce"
+             width="800" height="600" data-fade data-title="Arrabbiata Sauce"
+             data-ph-a="#9f7a6a" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Italian</span></div>
+    <button class="fav-btn" type="button" data-slug="arrabbiata-sauce" data-title="Arrabbiata Sauce"
+            aria-pressed="false" aria-label="Save Arrabbiata Sauce to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>5m</dd></div>
+        <div><dt>Cook</dt><dd>20m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/arrabbiata-sauce/" aria-label="Quick view: Arrabbiata Sauce">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Sauce</span>
+    <h3><a href="/recipes/arrabbiata-sauce/">Arrabbiata Sauce</a></h3>
+    <p>Tinned tomatoes simmered for 20 minutes with garlic, chilli and olive oil into a fiery Italian sauce. Four servings…</p>
     <div class="card-foot">
       
       <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>25 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#8f8f8a">
+  <div class="card-media" style="background:#807a6d">
     <picture>
-        <source srcset="/assets/img/recipes/white-pizza.webp" type="image/webp">
-        <img src="/assets/img/recipes/white-pizza.jpg" alt="White Pizza"
-             width="800" height="600" data-fade data-title="White Pizza"
-             data-ph-a="#8f8f8a" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/marinara-sauce.webp" type="image/webp">
+        <img src="/assets/img/recipes/marinara-sauce.jpg" alt="Marinara Sauce"
+             width="800" height="600" data-fade data-title="Marinara Sauce"
+             data-ph-a="#807a6d" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">Italian</span></div>
-    <button class="fav-btn" type="button" data-slug="white-pizza" data-title="White Pizza"
-            aria-pressed="false" aria-label="Save White Pizza to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="marinara-sauce" data-title="Marinara Sauce"
+            aria-pressed="false" aria-label="Save Marinara Sauce to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
-        <div><dt>Prep</dt><dd>20m</dd></div>
-        <div><dt>Cook</dt><dd>15m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
+        <div><dt>Prep</dt><dd>10m</dd></div>
+        <div><dt>Cook</dt><dd>30m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/white-pizza/" aria-label="Quick view: White Pizza">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/marinara-sauce/" aria-label="Quick view: Marinara Sauce">Quick view</a>
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/white-pizza/">White Pizza</a></h3>
-    <p>A pizza base with a garlic and ricotta spread, mozzarella and parmesan, cooked for 12 minutes with no tomato sauce.</p>
+    <span class="card-kicker">Sauce</span>
+    <h3><a href="/recipes/marinara-sauce/">Marinara Sauce</a></h3>
+    <p>Whole tinned tomatoes crushed by hand and simmered with garlic, olive oil and basil until sweet and just thick…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>35 min <i>&middot;</i> Medium</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>40 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#afab7c">
+  <div class="card-media" style="background:#5f4238">
     <picture>
-        <source srcset="/assets/img/recipes/trofie-al-pesto.webp" type="image/webp">
-        <img src="/assets/img/recipes/trofie-al-pesto.jpg" alt="Trofie al Pesto"
-             width="800" height="600" data-fade data-title="Trofie al Pesto"
-             data-ph-a="#afab7c" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/tomato-sauce.webp" type="image/webp">
+        <img src="/assets/img/recipes/tomato-sauce.jpg" alt="Tomato Sauce"
+             width="800" height="600" data-fade data-title="Tomato Sauce"
+             data-ph-a="#5f4238" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">Italian</span></div>
-    <button class="fav-btn" type="button" data-slug="trofie-al-pesto" data-title="Trofie al Pesto"
-            aria-pressed="false" aria-label="Save Trofie al Pesto to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="tomato-sauce" data-title="Tomato Sauce"
+            aria-pressed="false" aria-label="Save Tomato Sauce to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
-        <div><dt>Prep</dt><dd>35m</dd></div>
+        <div><dt>Prep</dt><dd>5m</dd></div>
+        <div><dt>Cook</dt><dd>30m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/tomato-sauce/" aria-label="Quick view: Tomato Sauce">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Sauce</span>
+    <h3><a href="/recipes/tomato-sauce/">Tomato Sauce</a></h3>
+    <p>A basic sauce of tinned tomatoes, onion, garlic and olive oil, simmered until thick and sweet.</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>35 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#ada396">
+    <picture>
+        <source srcset="/assets/img/recipes/cauliflower-risotto.webp" type="image/webp">
+        <img src="/assets/img/recipes/cauliflower-risotto.jpg" alt="Cauliflower Risotto"
+             width="800" height="600" data-fade data-title="Cauliflower Risotto"
+             data-ph-a="#ada396" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Italian</span></div>
+    <button class="fav-btn" type="button" data-slug="cauliflower-risotto" data-title="Cauliflower Risotto"
+            aria-pressed="false" aria-label="Save Cauliflower Risotto to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>10m</dd></div>
         <div><dt>Cook</dt><dd>20m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/trofie-al-pesto/" aria-label="Quick view: Trofie al Pesto">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/cauliflower-risotto/" aria-label="Quick view: Cauliflower Risotto">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/trofie-al-pesto/">Trofie al Pesto</a></h3>
-    <p>Ligurian twists with potato and green beans cooked in the same water, all dressed in pesto. The potato is not a…</p>
+    <h3><a href="/recipes/cauliflower-risotto/">Cauliflower Risotto</a></h3>
+    <p>Cauliflower rice cooked like risotto with onion, stock and peas, then stirred creamy with Parmesan and butter. Four…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>55 min <i>&middot;</i> Medium</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#987a50">
-    <picture>
-        <source srcset="/assets/img/recipes/baked-penne.webp" type="image/webp">
-        <img src="/assets/img/recipes/baked-penne.jpg" alt="Baked Penne"
-             width="800" height="600" data-fade data-title="Baked Penne"
-             data-ph-a="#987a50" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Italian</span></div>
-    <button class="fav-btn" type="button" data-slug="baked-penne" data-title="Baked Penne"
-            aria-pressed="false" aria-label="Save Baked Penne to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>20m</dd></div>
-        <div><dt>Cook</dt><dd>50m</dd></div>
-        <div><dt>Serves</dt><dd>6</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/baked-penne/" aria-label="Quick view: Baked Penne">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/baked-penne/">Baked Penne</a></h3>
-    <p>Penne tossed with a tomato and Italian sausage sauce, layered with mozzarella and parmesan and baked for 30 minutes…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>70–75 min <i>&middot;</i> Easy</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>30 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article></div>
@@ -574,7 +585,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -595,12 +607,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -620,8 +635,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

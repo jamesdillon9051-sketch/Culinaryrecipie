@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -90,6 +90,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -118,12 +119,12 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/baking/">Baking</a></li><li><a href="/categories/baking/american/">American Baking</a></li><li><span aria-current="page">Almond Flour Bread</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="almond-flour-bread" data-servings="12"
+  <article data-recipe="almond-flour-bread" data-servings="12" data-scale="bake"
            data-image="">
 
     <div class="recipe-masthead">
       <header class="recipe-head">
-        <span class="eyebrow">American &middot; Baking</span>
+        <span class="eyebrow">American &middot; Baking &middot; Bread</span>
         <h1>Almond Flour Bread</h1>
         <p class="lede">A soft, sliceable loaf made with almond flour, eggs and ground flaxseed, with no wheat flour or sugar. Twelve slices; 10 minutes of work and 40 in the oven.</p>
 
@@ -174,6 +175,7 @@
             <output data-servings-out aria-live="polite">12</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 12 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -225,6 +227,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">1 hr 20 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Medium</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">American</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Bread</dd>
           </dl>
         </div>
 
@@ -268,6 +271,10 @@
         
 
         <h2 id="method">How to Cook Almond Flour Bread</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li><strong>Plan for 30 min of standing.</strong> It is part of the 1 hr 20 min start to finish.</li><li>You will need: oven, cake or loaf tin, skewers (13 cm loaf tin).</li><li>This is a bread, not a meal on its own. The serving suggestions below say what it goes with.</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -299,6 +306,8 @@
         <button class="step-btn" type="button" data-timer="2400">Start 40 min timer</button>
       </div>
     </li></ol>
+        <p class="form-note guide-links">Related guides: <a href="/guides/active-and-total-time/">Prep, cook and total time</a> &middot; <a href="/guides/pan-size/">Pan and tin size</a>.</p>
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=almond-flour-bread&amp;v=8eeb75044800" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <h2>Notes From the Method</h2>
         <p class="tip-note">Make sure the whisk and bowl are clean and dry before you beat the whites, or they will not peak.</p><p class="tip-note">If the top browns too fast, cover it loosely with foil for the last 10 minutes.</p><p class="tip-note">Slice the loaf with a serrated knife using a gentle sawing motion; it crumbles under pressure.</p><p class="tip-note">Wrap cooled slices in baking parchment before freezing, so you can take out as many as you need.</p>
@@ -358,6 +367,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -372,7 +382,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=almond-flour-bread&amp;v=8eeb75044800" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-10-07">7 October 2026</time>; last changed <time datetime="2026-10-20">20 October 2026</time>.</p>
         </div>
       </div>
@@ -390,183 +401,183 @@
         <a class="btn btn--ghost" href="/categories/baking/american/">All american baking recipes</a>
       </div>
       <div class="related-grid"><article class="card reveal">
-  <div class="card-media" style="background:#9d9690">
+  <div class="card-media" style="background:#c1945f">
     <picture>
-        <source srcset="/assets/img/recipes/almond-flour-cake.webp" type="image/webp">
-        <img src="/assets/img/recipes/almond-flour-cake.jpg" alt="Almond Flour Cake"
-             width="800" height="600" data-fade data-title="Almond Flour Cake"
-             data-ph-a="#9d9690" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/cloud-bread.webp" type="image/webp">
+        <img src="/assets/img/recipes/cloud-bread.jpg" alt="Cloud Bread"
+             width="800" height="600" data-fade data-title="Cloud Bread"
+             data-ph-a="#c1945f" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="almond-flour-cake" data-title="Almond Flour Cake"
-            aria-pressed="false" aria-label="Save Almond Flour Cake to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>35m</dd></div>
-        <div><dt>Serves</dt><dd>10</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/almond-flour-cake/" aria-label="Quick view: Almond Flour Cake">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Baking</span>
-    <h3><a href="/recipes/almond-flour-cake/">Almond Flour Cake</a></h3>
-    <p>A moist, tender cake made with ground almonds in place of most of the flour, baked for 35 minutes with lemon zest…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>65 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#a48a6d">
-    <picture>
-        <source srcset="/assets/img/recipes/almond-flour-chocolate-chip-cookies.webp" type="image/webp">
-        <img src="/assets/img/recipes/almond-flour-chocolate-chip-cookies.jpg" alt="Almond Flour Chocolate Chip Cookies"
-             width="800" height="600" data-fade data-title="Almond Flour Chocolate Chip Cookies"
-             data-ph-a="#a48a6d" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="almond-flour-chocolate-chip-cookies" data-title="Almond Flour Chocolate Chip Cookies"
-            aria-pressed="false" aria-label="Save Almond Flour Chocolate Chip Cookies to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>12m</dd></div>
-        <div><dt>Serves</dt><dd>12</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/almond-flour-chocolate-chip-cookies/" aria-label="Quick view: Almond Flour Chocolate Chip Cookies">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Baking</span>
-    <h3><a href="/recipes/almond-flour-chocolate-chip-cookies/">Almond Flour Chocolate Chip Cookies</a></h3>
-    <p>Soft, chewy cookies made with almond flour, butter and chopped unsweetened chocolate, sweetened with erythritol…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>27 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#a9957f">
-    <picture>
-        <source srcset="/assets/img/recipes/gluten-free-banana-bread.webp" type="image/webp">
-        <img src="/assets/img/recipes/gluten-free-banana-bread.jpg" alt="Gluten-Free Banana Bread"
-             width="800" height="600" data-fade data-title="Gluten-Free Banana Bread"
-             data-ph-a="#a9957f" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="gluten-free-banana-bread" data-title="Gluten-Free Banana Bread"
-            aria-pressed="false" aria-label="Save Gluten-Free Banana Bread to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>55m</dd></div>
-        <div><dt>Serves</dt><dd>10</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/gluten-free-banana-bread/" aria-label="Quick view: Gluten-Free Banana Bread">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Baking</span>
-    <h3><a href="/recipes/gluten-free-banana-bread/">Gluten-Free Banana Bread</a></h3>
-    <p>A moist banana loaf made with a gluten-free flour blend and ground almonds, baked for 55 minutes.</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>70 min+ <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#958978">
-    <picture>
-        <source srcset="/assets/img/recipes/apple-bread.webp" type="image/webp">
-        <img src="/assets/img/recipes/apple-bread.jpg" alt="Apple Bread"
-             width="800" height="600" data-fade data-title="Apple Bread"
-             data-ph-a="#958978" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="apple-bread" data-title="Apple Bread"
-            aria-pressed="false" aria-label="Save Apple Bread to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>20m</dd></div>
-        <div><dt>Cook</dt><dd>60m</dd></div>
-        <div><dt>Serves</dt><dd>10</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/apple-bread/" aria-label="Quick view: Apple Bread">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Baking</span>
-    <h3><a href="/recipes/apple-bread/">Apple Bread</a></h3>
-    <p>A moist spiced quick bread with chunks of fresh apple, baked for 1 hour and finished with a cinnamon sugar crust.</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>95 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#6c775a">
-    <picture>
-        <source srcset="/assets/img/recipes/gluten-free-brownies.webp" type="image/webp">
-        <img src="/assets/img/recipes/gluten-free-brownies.jpg" alt="Gluten Free Brownies"
-             width="800" height="600" data-fade data-title="Gluten Free Brownies"
-             data-ph-a="#6c775a" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="gluten-free-brownies" data-title="Gluten Free Brownies"
-            aria-pressed="false" aria-label="Save Gluten Free Brownies to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="cloud-bread" data-title="Cloud Bread"
+            aria-pressed="false" aria-label="Save Cloud Bread to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>15m</dd></div>
         <div><dt>Cook</dt><dd>25m</dd></div>
-        <div><dt>Serves</dt><dd>16</dd></div>
+        <div><dt>Serves</dt><dd>8</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/gluten-free-brownies/" aria-label="Quick view: Gluten Free Brownies">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/cloud-bread/" aria-label="Quick view: Cloud Bread">Quick view</a>
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Baking</span>
-    <h3><a href="/recipes/gluten-free-brownies/">Gluten Free Brownies</a></h3>
-    <p>Fudgy dark chocolate brownies made with ground almonds and cocoa instead of flour, baked for 25 minutes with a…</p>
+    <span class="card-kicker">Bread</span>
+    <h3><a href="/recipes/cloud-bread/">Cloud Bread</a></h3>
+    <p>Three ingredients whipped and baked into light, flexible rounds that stand in for a roll. Not bread in any real…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>40 min+ <i>&middot;</i> Easy</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>40 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#8d6e58">
+  <div class="card-media" style="background:#847466">
     <picture>
-        <source srcset="/assets/img/recipes/low-carb-brownies.webp" type="image/webp">
-        <img src="/assets/img/recipes/low-carb-brownies.jpg" alt="Low-Carb Brownies"
-             width="800" height="600" data-fade data-title="Low-Carb Brownies"
-             data-ph-a="#8d6e58" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/gluten-free-sandwich-bread.webp" type="image/webp">
+        <img src="/assets/img/recipes/gluten-free-sandwich-bread.jpg" alt="Gluten-Free Sandwich Bread"
+             width="800" height="600" data-fade data-title="Gluten-Free Sandwich Bread"
+             data-ph-a="#847466" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="low-carb-brownies" data-title="Low-Carb Brownies"
-            aria-pressed="false" aria-label="Save Low-Carb Brownies to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="gluten-free-sandwich-bread" data-title="Gluten-Free Sandwich Bread"
+            aria-pressed="false" aria-label="Save Gluten-Free Sandwich Bread to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>22m</dd></div>
+        <div><dt>Cook</dt><dd>50m</dd></div>
         <div><dt>Serves</dt><dd>12</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/low-carb-brownies/" aria-label="Quick view: Low-Carb Brownies">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/gluten-free-sandwich-bread/" aria-label="Quick view: Gluten-Free Sandwich Bread">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Bread</span>
+    <h3><a href="/recipes/gluten-free-sandwich-bread/">Gluten-Free Sandwich Bread</a></h3>
+    <p>A soft sliceable sandwich loaf made with a gluten-free flour blend, milk, honey and eggs, baked for 50 minutes at…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>3 hr <i>&middot;</i> Medium</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#8b877e">
+    <picture>
+        <source srcset="/assets/img/recipes/cast-iron-cornbread.webp" type="image/webp">
+        <img src="/assets/img/recipes/cast-iron-cornbread.jpg" alt="Cast Iron Cornbread"
+             width="800" height="600" data-fade data-title="Cast Iron Cornbread"
+             data-ph-a="#8b877e" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">American</span></div>
+    <button class="fav-btn" type="button" data-slug="cast-iron-cornbread" data-title="Cast Iron Cornbread"
+            aria-pressed="false" aria-label="Save Cast Iron Cornbread to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>10m</dd></div>
+        <div><dt>Cook</dt><dd>25m</dd></div>
+        <div><dt>Serves</dt><dd>8</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/cast-iron-cornbread/" aria-label="Quick view: Cast Iron Cornbread">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Bread</span>
+    <h3><a href="/recipes/cast-iron-cornbread/">Cast Iron Cornbread</a></h3>
+    <p>Cornbread baked in a very hot buttered skillet, with a crisp golden crust and a moist, tender crumb.</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>35 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#aa8556">
+    <picture>
+        <source srcset="/assets/img/recipes/cornbread.webp" type="image/webp">
+        <img src="/assets/img/recipes/cornbread.jpg" alt="Skillet Cornbread"
+             width="800" height="600" data-fade data-title="Skillet Cornbread"
+             data-ph-a="#aa8556" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">American</span></div>
+    <button class="fav-btn" type="button" data-slug="cornbread" data-title="Skillet Cornbread"
+            aria-pressed="false" aria-label="Save Skillet Cornbread to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>10m</dd></div>
+        <div><dt>Cook</dt><dd>25m</dd></div>
+        <div><dt>Serves</dt><dd>8</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/cornbread/" aria-label="Quick view: Skillet Cornbread">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Bread</span>
+    <h3><a href="/recipes/cornbread/">Skillet Cornbread</a></h3>
+    <p>Batter poured into a screaming hot skillet of bacon fat, which sets a crust the instant it hits. The Southern style…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>50 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#8f7b69">
+    <picture>
+        <source srcset="/assets/img/recipes/dinner-rolls.webp" type="image/webp">
+        <img src="/assets/img/recipes/dinner-rolls.jpg" alt="Dinner Rolls"
+             width="800" height="600" data-fade data-title="Dinner Rolls"
+             data-ph-a="#8f7b69" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">American</span></div>
+    <button class="fav-btn" type="button" data-slug="dinner-rolls" data-title="Dinner Rolls"
+            aria-pressed="false" aria-label="Save Dinner Rolls to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>30m</dd></div>
+        <div><dt>Cook</dt><dd>20m</dd></div>
+        <div><dt>Serves</dt><dd>12</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/dinner-rolls/" aria-label="Quick view: Dinner Rolls">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Bread</span>
+    <h3><a href="/recipes/dinner-rolls/">Dinner Rolls</a></h3>
+    <p>Soft, buttery pull-apart rolls from a milk-and-egg dough, brushed with butter while hot. Fifty minutes of work and…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>2.5 hr <i>&middot;</i> Medium</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#c58f69">
+    <picture>
+        <source srcset="/assets/img/recipes/flaxseed-muffins.webp" type="image/webp">
+        <img src="/assets/img/recipes/flaxseed-muffins.jpg" alt="Flaxseed Muffins"
+             width="800" height="600" data-fade data-title="Flaxseed Muffins"
+             data-ph-a="#c58f69" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">American</span></div>
+    <button class="fav-btn" type="button" data-slug="flaxseed-muffins" data-title="Flaxseed Muffins"
+            aria-pressed="false" aria-label="Save Flaxseed Muffins to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>10m</dd></div>
+        <div><dt>Cook</dt><dd>20m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/flaxseed-muffins/" aria-label="Quick view: Flaxseed Muffins">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Baking</span>
-    <h3><a href="/recipes/low-carb-brownies/">Low-Carb Brownies</a></h3>
-    <p>Fudgy brownies made with almond flour, cocoa and erythritol, baked for 22 minutes with chocolate chips.</p>
+    <h3><a href="/recipes/flaxseed-muffins/">Flaxseed Muffins</a></h3>
+    <p>Six tender muffins made from ground flaxseed, eggs, cinnamon and walnuts, with no flour and no added sugar. Ready in…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>97 min <i>&middot;</i> Easy</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>30 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article></div>
@@ -576,7 +587,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -597,12 +609,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -622,8 +637,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

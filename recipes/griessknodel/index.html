@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 <link rel="preload" href="/assets/img/recipes/griessknodel.webp" as="image" type="image/webp" fetchpriority="high">
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -90,6 +90,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -118,12 +119,12 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/dinner/">Dinner</a></li><li><a href="/categories/dinner/austrian/">Austrian Dinner</a></li><li><span aria-current="page">Griessknödel</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="griessknodel" data-servings="6"
+  <article data-recipe="griessknodel" data-servings="6" data-scale="cook"
            data-image="https://weeklydelight.com/assets/img/recipes/griessknodel.jpg">
 
     <div class="recipe-masthead">
       <header class="recipe-head">
-        <span class="eyebrow">Austrian &middot; Dinner</span>
+        <span class="eyebrow">Austrian &middot; Dinner &middot; Side dish</span>
         <h1>Griessknödel</h1>
         <p class="lede">Small soft dumplings of semolina, egg and butter poached for 15 minutes and served in beef broth with chives.</p>
 
@@ -179,6 +180,7 @@
             <output data-servings-out aria-live="polite">6</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 6 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -226,6 +228,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">55 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Easy</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">Austrian</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Side dish</dd>
           </dl>
         </div>
 
@@ -269,6 +272,10 @@
         
 
         <h2 id="method">How to Cook Griessknödel</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li><strong>Plan for 20 min of standing.</strong> It is part of the 55 min start to finish.</li><li>You will need: frying pan or skillet.</li><li>This is a side dish, not a meal on its own. The serving suggestions below say what it goes with.</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -300,6 +307,8 @@
         
       </div>
     </li></ol>
+        <p class="form-note guide-links">Related guide: <a href="/guides/active-and-total-time/">Prep, cook and total time</a>.</p>
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=griessknodel&amp;v=0c6383c96c6a" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <h2>Notes From the Method</h2>
         <p class="tip-note">Let the mixture stand for 20 minutes.</p><p class="tip-note">Test one dumpling first.</p><p class="tip-note">Poach in water, not in the broth.</p>
@@ -359,6 +368,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -373,7 +383,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=griessknodel&amp;v=0c6383c96c6a" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-10-16">16 October 2026</time>; last changed <time datetime="2026-10-22">22 October 2026</time>.</p>
         </div>
       </div>
@@ -391,36 +402,6 @@
         <a class="btn btn--ghost" href="/categories/dinner/austrian/">All austrian dinner recipes</a>
       </div>
       <div class="related-grid"><article class="card reveal">
-  <div class="card-media" style="background:#997d79">
-    <picture>
-        <source srcset="/assets/img/recipes/kaspressknodel.webp" type="image/webp">
-        <img src="/assets/img/recipes/kaspressknodel.jpg" alt="Kaspressknödel"
-             width="800" height="600" data-fade data-title="Kaspressknödel"
-             data-ph-a="#997d79" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Austrian</span></div>
-    <button class="fav-btn" type="button" data-slug="kaspressknodel" data-title="Kaspressknödel"
-            aria-pressed="false" aria-label="Save Kaspressknödel to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>25m</dd></div>
-        <div><dt>Cook</dt><dd>10m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/kaspressknodel/" aria-label="Quick view: Kaspressknödel">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/kaspressknodel/">Kaspressknödel</a></h3>
-    <p>Flat Tyrolean cheese dumplings of bread, cheese and egg pan fried until crisp and served in broth or with salad.</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>50 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
   <div class="card-media" style="background:#a29162">
     <picture>
         <source srcset="/assets/img/recipes/serviettenknodel.webp" type="image/webp">
@@ -442,7 +423,7 @@
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Dinner</span>
+    <span class="card-kicker">Side dish</span>
     <h3><a href="/recipes/serviettenknodel/">Serviettenknödel</a></h3>
     <p>A large bread dumpling shaped into a log, wrapped in a cloth and simmered for 25 minutes, then sliced and served…</p>
     <div class="card-foot">
@@ -451,90 +432,30 @@
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#aaa491">
+  <div class="card-media" style="background:#988b79">
     <picture>
-        <source srcset="/assets/img/recipes/backhendl.webp" type="image/webp">
-        <img src="/assets/img/recipes/backhendl.jpg" alt="Backhendl"
-             width="800" height="600" data-fade data-title="Backhendl"
-             data-ph-a="#aaa491" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/farofa.webp" type="image/webp">
+        <img src="/assets/img/recipes/farofa.jpg" alt="Farofa"
+             width="800" height="600" data-fade data-title="Farofa"
+             data-ph-a="#988b79" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
-    <div class="card-badges"><span class="badge badge--glass">Austrian</span></div>
-    <button class="fav-btn" type="button" data-slug="backhendl" data-title="Backhendl"
-            aria-pressed="false" aria-label="Save Backhendl to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="card-badges"><span class="badge badge--glass">Brazilian</span></div>
+    <button class="fav-btn" type="button" data-slug="farofa" data-title="Farofa"
+            aria-pressed="false" aria-label="Save Farofa to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
-        <div><dt>Prep</dt><dd>25m</dd></div>
-        <div><dt>Cook</dt><dd>25m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
+        <div><dt>Prep</dt><dd>10m</dd></div>
+        <div><dt>Cook</dt><dd>15m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/backhendl/" aria-label="Quick view: Backhendl">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/farofa/" aria-label="Quick view: Farofa">Quick view</a>
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/backhendl/">Backhendl</a></h3>
-    <p>Viennese fried chicken pieces in flour, egg and breadcrumbs fried until golden, served with lemon and potato salad.</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>50 min <i>&middot;</i> Medium</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#b69774">
-    <picture>
-        <source srcset="/assets/img/recipes/tiroler-grostl.webp" type="image/webp">
-        <img src="/assets/img/recipes/tiroler-grostl.jpg" alt="Tiroler Gröstl"
-             width="800" height="600" data-fade data-title="Tiroler Gröstl"
-             data-ph-a="#b69774" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Austrian</span></div>
-    <button class="fav-btn" type="button" data-slug="tiroler-grostl" data-title="Tiroler Gröstl"
-            aria-pressed="false" aria-label="Save Tiroler Gröstl to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>30m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/tiroler-grostl/" aria-label="Quick view: Tiroler Gröstl">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/tiroler-grostl/">Tiroler Gröstl</a></h3>
-    <p>Fried potatoes, onions and leftover roast meat in a heavy pan, topped with a fried egg, a Tyrolean supper ready in…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>45 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#ab9881">
-    <picture>
-        <source srcset="/assets/img/recipes/frittatensuppe.webp" type="image/webp">
-        <img src="/assets/img/recipes/frittatensuppe.jpg" alt="Frittatensuppe"
-             width="800" height="600" data-fade data-title="Frittatensuppe"
-             data-ph-a="#ab9881" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Austrian</span></div>
-    <button class="fav-btn" type="button" data-slug="frittatensuppe" data-title="Frittatensuppe"
-            aria-pressed="false" aria-label="Save Frittatensuppe to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>10m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/frittatensuppe/" aria-label="Quick view: Frittatensuppe">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Lunch</span>
-    <h3><a href="/recipes/frittatensuppe/">Frittatensuppe</a></h3>
-    <p>Clear beef broth with thin strips of herb pancake, a classic Austrian starter ready in 25 minutes.</p>
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/farofa/">Farofa</a></h3>
+    <p>Toasted cassava flour fried in butter with bacon, onion and egg until it is golden and sandy. The Brazilian side…</p>
     <div class="card-foot">
       
       <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>25 min <i>&middot;</i> Easy</span>
@@ -562,12 +483,102 @@
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Dinner</span>
+    <span class="card-kicker">Side dish</span>
     <h3><a href="/recipes/nokedli/">Nokedli</a></h3>
     <p>Small, soft Hungarian dumplings of flour, egg and water dropped into boiling water and tossed in butter.</p>
     <div class="card-foot">
       
       <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>20 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#a2886d">
+    <picture>
+        <source srcset="/assets/img/recipes/kopytka.webp" type="image/webp">
+        <img src="/assets/img/recipes/kopytka.jpg" alt="Kopytka"
+             width="800" height="600" data-fade data-title="Kopytka"
+             data-ph-a="#a2886d" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Polish</span></div>
+    <button class="fav-btn" type="button" data-slug="kopytka" data-title="Kopytka"
+            aria-pressed="false" aria-label="Save Kopytka to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>20m</dd></div>
+        <div><dt>Cook</dt><dd>30m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/kopytka/" aria-label="Quick view: Kopytka">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/kopytka/">Kopytka</a></h3>
+    <p>Polish potato dumplings of mashed potato, flour and egg, cut into small diagonal pieces, boiled and tossed in butter.</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>50–55 min+ <i>&middot;</i> Medium</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#857a6d">
+    <picture>
+        <source srcset="/assets/img/recipes/mamaliga.webp" type="image/webp">
+        <img src="/assets/img/recipes/mamaliga.jpg" alt="Mămăligă"
+             width="800" height="600" data-fade data-title="Mămăligă"
+             data-ph-a="#857a6d" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Romanian</span></div>
+    <button class="fav-btn" type="button" data-slug="mamaliga" data-title="Mămăligă"
+            aria-pressed="false" aria-label="Save Mămăligă to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>10m</dd></div>
+        <div><dt>Cook</dt><dd>35m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/mamaliga/" aria-label="Quick view: Mămăligă">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/mamaliga/">Mămăligă</a></h3>
+    <p>Coarse polenta cooked in salted water until it pulls away from the pan, layered with soft cheese and soured cream…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>45 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#a38a6b">
+    <picture>
+        <source srcset="/assets/img/recipes/knedliky.webp" type="image/webp">
+        <img src="/assets/img/recipes/knedliky.jpg" alt="Czech Dumplings"
+             width="800" height="600" data-fade data-title="Czech Dumplings"
+             data-ph-a="#a38a6b" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Czech</span></div>
+    <button class="fav-btn" type="button" data-slug="knedliky" data-title="Czech Dumplings"
+            aria-pressed="false" aria-label="Save Czech Dumplings to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>25m</dd></div>
+        <div><dt>Cook</dt><dd>30m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/knedliky/" aria-label="Quick view: Czech Dumplings">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/knedliky/">Czech Dumplings</a></h3>
+    <p>Bread dumplings steamed in a cloth roll and cut into rounds with thread. What Czech gravy is served over.</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>115 min <i>&middot;</i> Medium</span>
     </div>
   </div>
 </article></div>
@@ -577,7 +588,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -598,12 +610,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -623,8 +638,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

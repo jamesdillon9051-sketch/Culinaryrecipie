@@ -56,7 +56,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -85,6 +85,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -139,8 +140,53 @@
   </p>
 
   <div class="directory">
-    <aside class="filters" aria-label="Filter recipes">
+    <button type="button" class="btn btn--ghost filters-toggle" data-filters-toggle aria-expanded="false" aria-controls="recipe-filters">
+    Filters<span class="filters-toggle__count" data-filters-count></span></button>
+  <aside class="filters" id="recipe-filters" aria-label="Filter recipes">
     <h2 class="sr-only">Filters</h2>
+    
+    <div class="filter-group">
+      <h3>Course</h3>
+      <div class="filter-list">
+        <label class="check">
+          <input type="checkbox" data-filter="course" value="main">
+          <span>Main dish</span><span class="count">2224</span>
+        </label><label class="check">
+          <input type="checkbox" data-filter="course" value="light">
+          <span>Light meal</span><span class="count">286</span>
+        </label><label class="check">
+          <input type="checkbox" data-filter="course" value="side">
+          <span>Side dish</span><span class="count">318</span>
+        </label><label class="check">
+          <input type="checkbox" data-filter="course" value="sauce">
+          <span>Sauce or gravy</span><span class="count">53</span>
+        </label><label class="check">
+          <input type="checkbox" data-filter="course" value="condiment">
+          <span>Condiment, dressing or rub</span><span class="count">100</span>
+        </label><label class="check">
+          <input type="checkbox" data-filter="course" value="starter">
+          <span>Starter or snack</span><span class="count">522</span>
+        </label><label class="check">
+          <input type="checkbox" data-filter="course" value="bread">
+          <span>Bread</span><span class="count">127</span>
+        </label><label class="check">
+          <input type="checkbox" data-filter="course" value="breakfast">
+          <span>Breakfast dish</span><span class="count">295</span>
+        </label><label class="check">
+          <input type="checkbox" data-filter="course" value="dessert">
+          <span>Dessert or sweet bake</span><span class="count">1182</span>
+        </label><label class="check">
+          <input type="checkbox" data-filter="course" value="drink">
+          <span>Drink</span><span class="count">209</span>
+        </label><label class="check">
+          <input type="checkbox" data-filter="course" value="basic">
+          <span>Kitchen basic</span><span class="count">22</span>
+        </label><label class="check">
+          <input type="checkbox" data-filter="course" value="review">
+          <span>Not yet sorted</span><span class="count">117</span>
+        </label>
+      </div>
+    </div>
     
     <div class="filter-group">
       <h3>Category</h3>
@@ -515,6 +561,43 @@
         </label>
       </div>
     </div>
+    
+    <div class="filter-group">
+      <h3>How it is cooked</h3>
+      <div class="filter-list">
+        <label class="check">
+          <input type="checkbox" data-filter="method" value="oven">
+          <span>Oven</span><span class="count">2166</span>
+        </label><label class="check">
+          <input type="checkbox" data-filter="method" value="hob">
+          <span>Hob</span><span class="count">2985</span>
+        </label><label class="check">
+          <input type="checkbox" data-filter="method" value="grill">
+          <span>Grill or barbecue</span><span class="count">336</span>
+        </label><label class="check">
+          <input type="checkbox" data-filter="method" value="slow-cooker">
+          <span>Slow cooker</span><span class="count">75</span>
+        </label><label class="check">
+          <input type="checkbox" data-filter="method" value="pressure-cooker">
+          <span>Pressure cooker</span><span class="count">64</span>
+        </label><label class="check">
+          <input type="checkbox" data-filter="method" value="air-fryer">
+          <span>Air fryer</span><span class="count">70</span>
+        </label><label class="check">
+          <input type="checkbox" data-filter="method" value="deep-fry">
+          <span>Deep-fried</span><span class="count">201</span>
+        </label><label class="check">
+          <input type="checkbox" data-filter="method" value="steam">
+          <span>Steamed</span><span class="count">87</span>
+        </label><label class="check">
+          <input type="checkbox" data-filter="method" value="microwave">
+          <span>Microwave</span><span class="count">56</span>
+        </label><label class="check">
+          <input type="checkbox" data-filter="method" value="no-cook">
+          <span>No cooking</span><span class="count">400</span>
+        </label>
+      </div>
+    </div>
     <div class="filter-group">
       <h3>Total time</h3>
       <div class="filter-list">
@@ -525,11 +608,11 @@
         </label><label class="check">
           <input type="radio" name="time" data-filter="time" value="30">
           <span>Under 30 minutes</span>
-          <span class="count">1490</span>
+          <span class="count">1484</span>
         </label><label class="check">
           <input type="radio" name="time" data-filter="time" value="45">
           <span>Under 45 minutes</span>
-          <span class="count">2426</span>
+          <span class="count">2421</span>
         </label><label class="check">
           <input type="radio" name="time" data-filter="time" value="60">
           <span>Under 60 minutes</span>
@@ -566,7 +649,8 @@
 </div>
 <div class="wrap" style="padding-bottom:clamp(3rem,7vw,5rem)"><section class="newsletter reveal" id="dir-news" aria-labelledby="dir-news-title">
   <h2 id="dir-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section></div>
 <div class="wrap"></div>
 <!--
@@ -584,12 +668,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -609,8 +696,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/directory.js?v=280f93ff" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/directory.js?v=9bfe88e0" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

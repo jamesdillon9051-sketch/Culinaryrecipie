@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 <link rel="preload" href="/assets/img/recipes/bearnaise-sauce.webp" as="image" type="image/webp" fetchpriority="high">
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -89,6 +89,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -117,12 +118,12 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/quick-meals/">Quick Meals</a></li><li><a href="/categories/quick-meals/french/">French Quick Meal</a></li><li><span aria-current="page">Béarnaise Sauce</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="bearnaise-sauce" data-servings="6"
+  <article data-recipe="bearnaise-sauce" data-servings="6" data-scale="cook"
            data-image="https://weeklydelight.com/assets/img/recipes/bearnaise-sauce.jpg">
 
     <div class="recipe-masthead">
       <header class="recipe-head">
-        <span class="eyebrow">French &middot; Quick Meals</span>
+        <span class="eyebrow">French &middot; Quick Meals &middot; Sauce or gravy</span>
         <h1>Béarnaise Sauce</h1>
         <p class="lede">The classic French steak sauce: egg yolks and warm butter whisked into a shallot, vinegar and tarragon reduction until thick, glossy and lemony.</p>
 
@@ -178,6 +179,7 @@
             <output data-servings-out aria-live="polite">6</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 6 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -241,6 +243,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">25 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Medium</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">French</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Sauce or gravy</dd>
           </dl>
         </div>
 
@@ -279,6 +282,10 @@
         
 
         <h2 id="method">Béarnaise Sauce, Step by Step</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li>This is a sauce, not a meal on its own. The serving suggestions below say what it goes with.</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -317,6 +324,8 @@
         
       </div>
     </li></ol>
+        <p class="form-note guide-links">Related guide: <a href="/guides/split-sauce/">Rescuing a split sauce</a>.</p>
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=bearnaise-sauce&amp;v=077419653dcf" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <h2>Small Things That Help</h2>
         <ul><li>Keep the water under the bowl at a bare simmer and take the bowl away if it steams too hard. Yolks that get too hot turn to scrambled egg.</li><li>Add the first of the butter drop by drop. Once the sauce has begun to thicken, the rest can go in more quickly.</li><li>If the sauce splits, whisk a teaspoon of cold water into a clean bowl, then whisk in the split sauce a little at a time.</li></ul>
@@ -379,6 +388,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -393,7 +403,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=bearnaise-sauce&amp;v=077419653dcf" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-09-30">30 September 2026</time>; last changed <time datetime="2026-10-20">20 October 2026</time>.</p>
         </div>
       </div>
@@ -411,126 +422,6 @@
         <a class="btn btn--ghost" href="/categories/quick-meals/french/">All french quick meal recipes</a>
       </div>
       <div class="related-grid"><article class="card reveal">
-  <div class="card-media" style="background:#96927b">
-    <picture>
-        <source srcset="/assets/img/recipes/haricots-verts-amandine.webp" type="image/webp">
-        <img src="/assets/img/recipes/haricots-verts-amandine.jpg" alt="Haricots Verts Amandine"
-             width="800" height="600" data-fade data-title="Haricots Verts Amandine"
-             data-ph-a="#96927b" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">French</span></div>
-    <button class="fav-btn" type="button" data-slug="haricots-verts-amandine" data-title="Haricots Verts Amandine"
-            aria-pressed="false" aria-label="Save Haricots Verts Amandine to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>5m</dd></div>
-        <div><dt>Cook</dt><dd>10m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/haricots-verts-amandine/" aria-label="Quick view: Haricots Verts Amandine">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Quick Meals</span>
-    <h3><a href="/recipes/haricots-verts-amandine/">Haricots Verts Amandine</a></h3>
-    <p>Slim green beans boiled for 4 minutes, then tossed in browned butter with toasted flaked almonds and lemon.</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>15 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#aba681">
-    <picture>
-        <source srcset="/assets/img/recipes/omelette-aux-fines-herbes.webp" type="image/webp">
-        <img src="/assets/img/recipes/omelette-aux-fines-herbes.jpg" alt="Omelette aux Fines Herbes"
-             width="800" height="600" data-fade data-title="Omelette aux Fines Herbes"
-             data-ph-a="#aba681" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">French</span></div>
-    <button class="fav-btn" type="button" data-slug="omelette-aux-fines-herbes" data-title="Omelette aux Fines Herbes"
-            aria-pressed="false" aria-label="Save Omelette aux Fines Herbes to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>10m</dd></div>
-        <div><dt>Cook</dt><dd>5m</dd></div>
-        <div><dt>Serves</dt><dd>2</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/omelette-aux-fines-herbes/" aria-label="Quick view: Omelette aux Fines Herbes">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Quick Meals</span>
-    <h3><a href="/recipes/omelette-aux-fines-herbes/">Omelette aux Fines Herbes</a></h3>
-    <p>A French omelette: pale, rolled, and barely set inside. Two minutes of cooking and about a decade of getting it right.</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>15 min <i>&middot;</i> Medium</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#cdc1a6">
-    <picture>
-        <source srcset="/assets/img/recipes/foie-de-veau.webp" type="image/webp">
-        <img src="/assets/img/recipes/foie-de-veau.jpg" alt="Foie de Veau Lyonnaise"
-             width="800" height="600" data-fade data-title="Foie de Veau Lyonnaise"
-             data-ph-a="#cdc1a6" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">French</span></div>
-    <button class="fav-btn" type="button" data-slug="foie-de-veau" data-title="Foie de Veau Lyonnaise"
-            aria-pressed="false" aria-label="Save Foie de Veau Lyonnaise to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>10m</dd></div>
-        <div><dt>Cook</dt><dd>15m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/foie-de-veau/" aria-label="Quick view: Foie de Veau Lyonnaise">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Quick Meals</span>
-    <h3><a href="/recipes/foie-de-veau/">Foie de Veau Lyonnaise</a></h3>
-    <p>Calf liver with onions cooked slowly to sweetness and a splash of vinegar at the end. Lyon does it best and does not…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>25 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#787165">
-    <picture>
-        <source srcset="/assets/img/recipes/croque-madame.webp" type="image/webp">
-        <img src="/assets/img/recipes/croque-madame.jpg" alt="Croque Madame"
-             width="800" height="600" data-fade data-title="Croque Madame"
-             data-ph-a="#787165" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">French</span></div>
-    <button class="fav-btn" type="button" data-slug="croque-madame" data-title="Croque Madame"
-            aria-pressed="false" aria-label="Save Croque Madame to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>12m</dd></div>
-        <div><dt>Cook</dt><dd>15m</dd></div>
-        <div><dt>Serves</dt><dd>2</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/croque-madame/" aria-label="Quick view: Croque Madame">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Quick Meals</span>
-    <h3><a href="/recipes/croque-madame/">Croque Madame</a></h3>
-    <p>Ham and Gruyère between buttered bread, blanketed in béchamel, grilled until it bubbles, and crowned with a fried egg.</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>27 min <i>&middot;</i> Medium</span>
-    </div>
-  </div>
-</article><article class="card reveal">
   <div class="card-media" style="background:#a3a5b2">
     <picture>
         <source srcset="/assets/img/recipes/beurre-blanc-sauce.webp" type="image/webp">
@@ -552,7 +443,7 @@
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Dinner</span>
+    <span class="card-kicker">Sauce</span>
     <h3><a href="/recipes/beurre-blanc-sauce/">Beurre Blanc Sauce</a></h3>
     <p>A warm, buttery white sauce made by whisking cold butter into a reduction of shallots, white wine and vinegar…</p>
     <div class="card-foot">
@@ -561,33 +452,147 @@
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#978d76">
+  <div class="card-media" style="background:#96927b">
     <picture>
-        <source srcset="/assets/img/recipes/gluten-free-crepes.webp" type="image/webp">
-        <img src="/assets/img/recipes/gluten-free-crepes.jpg" alt="Gluten-Free Crepes"
-             width="800" height="600" data-fade data-title="Gluten-Free Crepes"
-             data-ph-a="#978d76" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/haricots-verts-amandine.webp" type="image/webp">
+        <img src="/assets/img/recipes/haricots-verts-amandine.jpg" alt="Haricots Verts Amandine"
+             width="800" height="600" data-fade data-title="Haricots Verts Amandine"
+             data-ph-a="#96927b" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">French</span></div>
-    <button class="fav-btn" type="button" data-slug="gluten-free-crepes" data-title="Gluten-Free Crepes"
-            aria-pressed="false" aria-label="Save Gluten-Free Crepes to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="haricots-verts-amandine" data-title="Haricots Verts Amandine"
+            aria-pressed="false" aria-label="Save Haricots Verts Amandine to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>5m</dd></div>
+        <div><dt>Cook</dt><dd>10m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/haricots-verts-amandine/" aria-label="Quick view: Haricots Verts Amandine">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/haricots-verts-amandine/">Haricots Verts Amandine</a></h3>
+    <p>Slim green beans boiled for 4 minutes, then tossed in browned butter with toasted flaked almonds and lemon.</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>15 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:var(--bg-sunken)">
+    <div class="img-fallback" role="img" aria-label="Lemon Butter Sauce"><span>Lemon Butter Sauce</span></div>
+    <div class="card-badges"><span class="badge badge--glass">French</span></div>
+    <button class="fav-btn" type="button" data-slug="lemon-butter-sauce" data-title="Lemon Butter Sauce"
+            aria-pressed="false" aria-label="Save Lemon Butter Sauce to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>5m</dd></div>
+        <div><dt>Cook</dt><dd>10m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/lemon-butter-sauce/" aria-label="Quick view: Lemon Butter Sauce">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Sauce</span>
+    <h3><a href="/recipes/lemon-butter-sauce/">Lemon Butter Sauce</a></h3>
+    <p>A quick pan sauce of butter, lemon juice and zest, garlic and capers with a splash of white wine, spooned over fish…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>15 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#8a7561">
+    <picture>
+        <source srcset="/assets/img/recipes/green-beans-almondine.webp" type="image/webp">
+        <img src="/assets/img/recipes/green-beans-almondine.jpg" alt="Green Beans Almondine"
+             width="800" height="600" data-fade data-title="Green Beans Almondine"
+             data-ph-a="#8a7561" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">French</span></div>
+    <button class="fav-btn" type="button" data-slug="green-beans-almondine" data-title="Green Beans Almondine"
+            aria-pressed="false" aria-label="Save Green Beans Almondine to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>10m</dd></div>
         <div><dt>Cook</dt><dd>15m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/gluten-free-crepes/" aria-label="Quick view: Gluten-Free Crepes">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/green-beans-almondine/" aria-label="Quick view: Green Beans Almondine">Quick view</a>
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Breakfast</span>
-    <h3><a href="/recipes/gluten-free-crepes/">Gluten-Free Crepes</a></h3>
-    <p>Thin, flexible French-style crepes made from a gluten-free flour batter, rested for 30 minutes and cooked in a hot…</p>
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/green-beans-almondine/">Green Beans Almondine</a></h3>
+    <p>Crisp-tender green beans tossed in browned butter with shallot, toasted almonds and a squeeze of lemon. A classic…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>55 min <i>&middot;</i> Easy</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>25 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#92917a">
+    <picture>
+        <source srcset="/assets/img/recipes/boudin-noir-pommes.webp" type="image/webp">
+        <img src="/assets/img/recipes/boudin-noir-pommes.jpg" alt="Boudin Noir aux Pommes"
+             width="800" height="600" data-fade data-title="Boudin Noir aux Pommes"
+             data-ph-a="#92917a" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">French</span></div>
+    <button class="fav-btn" type="button" data-slug="boudin-noir-pommes" data-title="Boudin Noir aux Pommes"
+            aria-pressed="false" aria-label="Save Boudin Noir aux Pommes to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>10m</dd></div>
+        <div><dt>Cook</dt><dd>20m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/boudin-noir-pommes/" aria-label="Quick view: Boudin Noir aux Pommes">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Quick Meals</span>
+    <h3><a href="/recipes/boudin-noir-pommes/">Boudin Noir aux Pommes</a></h3>
+    <p>Black pudding fried with apples cooked down in butter. Sweet against iron, and about as good as twenty minutes of…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>30 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#927d5d">
+    <picture>
+        <source srcset="/assets/img/recipes/peppercorn-sauce.webp" type="image/webp">
+        <img src="/assets/img/recipes/peppercorn-sauce.jpg" alt="Peppercorn Sauce"
+             width="800" height="600" data-fade data-title="Peppercorn Sauce"
+             data-ph-a="#927d5d" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">British</span></div>
+    <button class="fav-btn" type="button" data-slug="peppercorn-sauce" data-title="Peppercorn Sauce"
+            aria-pressed="false" aria-label="Save Peppercorn Sauce to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>5m</dd></div>
+        <div><dt>Cook</dt><dd>15m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/peppercorn-sauce/" aria-label="Quick view: Peppercorn Sauce">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Sauce</span>
+    <h3><a href="/recipes/peppercorn-sauce/">Peppercorn Sauce</a></h3>
+    <p>The steak sauce of the British pub and steakhouse: shallots, green peppercorns and brandy reduced with beef stock…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>20 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article></div>
@@ -597,7 +602,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -618,12 +624,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -643,8 +652,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script
