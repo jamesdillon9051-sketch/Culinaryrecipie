@@ -393,6 +393,17 @@ for (const file of htmlFiles) {
     }
   }
 
+  /* --- Grow by Mediavine on every page while it is switched on ------------
+     The owner asked for it to stay; a page without it is a template that lost
+     the tag, not a choice anybody made. */
+  {
+    const grow = require('../src/data/grow');
+    if (grow.enabled && grow.siteId
+        && !(html.includes('data-grow-initializer') && html.includes(grow.siteId))) {
+      problems.push(`${rel}: Grow by Mediavine script missing`);
+    }
+  }
+
   /* --- no inline script of our own ---------------------------------------
      The CSP now allows 'unsafe-inline' so the ad network can do its work, but
      nothing the generator writes should depend on that. Keeping our own output
@@ -401,6 +412,9 @@ for (const file of htmlFiles) {
   for (const match of html.matchAll(/<script\b([^>]*)>/g)) {
     const attrs = match[1];
     if (/\bsrc=/.test(attrs)) continue;
+    /* Grow by Mediavine's installation snippet, written as Mediavine issues it
+       (src/data/grow.js says why it stays inline). */
+    if (/\bdata-grow-initializer=/.test(attrs)) continue;
     /* JSON-LD is a data block: the browser never executes it. */
     if (/type="application\/ld\+json"/.test(attrs)) continue;
     problems.push(`${rel}: inline <script> written by the generator`);
