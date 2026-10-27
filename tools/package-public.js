@@ -21,7 +21,8 @@ const path = require('path');
 const { execFileSync } = require('child_process');
 
 const ROOT = path.join(__dirname, '..');
-const DIRS = ['assets', 'recipes', 'categories', 'cuisines', 'ingredients', 'about', 'contact', 'privacy', 'search', 'favourites', 'site-directory'];
+const DIRS = ['assets', 'recipes', 'categories', 'cuisines', 'ingredients', 'about', 'contact', 'privacy', 'search', 'favourites', 'site-directory',
+  'collections', 'guides', 'weekly-plan', 'my-plan', 'report', 'feedback'];
 const FILES = ['index.html', '404.html', 'sitemap.xml', 'sitemap-index.xml', 'robots.txt', 'ads.txt', 'manifest.json',
   'feed.xml', 'pinterest-feed.xml', 'search-index.json', '.htaccess', 'images-attribution.md'];
 const SITEMAP_CHUNK = /^sitemap-\d+\.xml$/;
@@ -65,7 +66,8 @@ function check() {
     if (!DIRS.includes(t) && !FILES.includes(t) && !SITEMAP_CHUNK.test(t)) failures.push(`not on the allow-list: ${t}`);
   }
   for (const f of files) if (PRIVATE.test(f)) failures.push(`private file in the package: ${f}`);
-  for (const f of [...FILES, 'contact/send.php', 'contact/_pages/sent.html', 'contact/_pages/not-sent.html']) {
+  for (const f of [...FILES, 'contact/send.php', 'contact/_pages/sent.html', 'contact/_pages/not-sent.html',
+    'feedback/_lib.php', 'feedback/report.php', 'feedback/review.php', 'feedback/subscribe.php', 'feedback/moderate.php']) {
     if (!fs.existsSync(path.join(OUT, f))) failures.push(`missing: ${f}`);
   }
   /* Every URL the sitemaps list has its page in the package. */
@@ -79,7 +81,8 @@ function check() {
     }
   }
   /* Local links and assets on a sample of pages resolve inside the package. */
-  const sample = ['index.html', 'recipes/index.html', 'recipes/focaccia/index.html', 'about/index.html', 'contact/index.html', 'categories/dinner/index.html'];
+  const sample = ['index.html', 'recipes/index.html', 'recipes/focaccia/index.html', 'about/index.html', 'contact/index.html', 'categories/dinner/index.html',
+    'collections/index.html', 'weekly-plan/index.html', 'guides/index.html', 'report/index.html', 'my-plan/index.html'];
   for (const page of sample) {
     const html = fs.readFileSync(path.join(OUT, page), 'utf8');
     for (const [, ref] of html.matchAll(/(?:href|src)="(\/[^"#?]*)/g)) {

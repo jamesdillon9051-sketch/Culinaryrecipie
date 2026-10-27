@@ -38,6 +38,8 @@ const CASES = [
   ['at least, or overnight', ['Chill for at least 4 hours or overnight.'], 240, 240],
   ['the alternative after "or" is not part of the timing', ['Marinate for 30 minutes, or up to 24 hours in the fridge.'], 30, 30],
   ['cooking time is not waiting', ['Simmer gently for 2 hours until tender.'], 0, 0],
+  ['pressing tofu under a weight is waiting', ['Wrap the tofu in a clean cloth, set a heavy pan on top and press it for 20 minutes.'], 20, 20],
+  ['an action repeated every so often during cooking is not a wait', ['Every 30 minutes, break the crust with the back of a spoon and press it gently under the surface.'], 0, 0],
   ['time already spent is not a wait', ['Remove the lid after 90 minutes and leave to cool.'], 0, 0],
   ['an ingredient soak is prep set going once', { st: ['Drain the beans and simmer for 1 hour.'], ing: ['250 g dried beans, soaked overnight'] }, 480, 480],
   ['the longest of two ingredient waits governs', { st: ['Cook everything together for 20 minutes.'], ing: ['200 g chickpeas, soaked overnight', '100 g rice, soaked for 1 hour'] }, 480, 480],

@@ -113,7 +113,9 @@ function check(r) {
   const T71 = '(?:7[1-9]|[89]\\d)\\s*°?\\s*C\\b|(?:1[6-9]\\d|20\\d)\\s*°?\\s*F\\b';
   const cookedThrough = steps.flatMap(sentences).some(s => new RegExp(`\\b(?:to|reach\\w*|reads?|registers?|at least)\\s+(?:${T71})`, 'i').test(s)
     || (/\bthermometer\b/i.test(s) && new RegExp(`\\b(?:${T71})`).test(s) && !/\b(?:butter|oil|oven)\b/i.test(s)));
-  if (eggLines.length && rawEggDish && !/pasteuri[sz]ed/i.test(all) && !cookedThrough) {
+  /* The ingredient line itself has to name them: a tip that only suggests pasteurised yolks
+     ("Concerned about raw egg? Use pasteurised yolks") left caesar-salad with raw yolks as written. */
+  if (eggLines.length && rawEggDish && !eggLines.every(l => /pasteuri[sz]ed|lion/i.test(l)) && !/pasteuri[sz]ed/i.test(ing.join(' ')) && !cookedThrough) {
     add('confirmed', 'raw-egg', `egg that is not cooked through, with no pasteurised eggs: "${eggLines[0]}"`, eggLines[0]);
   }
 

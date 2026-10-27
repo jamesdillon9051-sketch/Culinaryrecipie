@@ -38,6 +38,8 @@ const contentDates = require('./lib/content-dates');
 const { detectWait, waitLabel } = require('./lib/timing');
 const { dietConditions } = require('./lib/diet-conditions');
 const calc = require('../tools/nutrition-calc');
+const { classify } = require('./lib/classify');
+const DISH_ROLES = require('./data/dish-roles.json');
 /* Tags that only the build may set, from the figures and the ingredient list. A
    few rows still carry one typed by hand; it is ignored rather than trusted. */
 const DERIVED_ONLY = ['High-Protein', 'Low-Carb', 'Keto', 'No Added Sugar'];
@@ -120,6 +122,20 @@ function categoryDescription(name, count) {
 /* What the Quick Meals category page promises its readers. */
 const QUICK_MEAL_MINUTES = 30;
 
+/* What each category's own page leads with (src/lib/classify.js). Everything
+   else filed under the category is listed below, under its own heading. */
+const PRIMARY_ROLES = {
+  'Dinner': ['main'], 'Quick Meals': ['main', 'light'], 'Healthy': ['main', 'light'],
+  'Lunch': ['light', 'main'], 'Breakfast': ['breakfast'], 'Appetizers': ['starter'],
+  'Baking': ['dessert', 'bread'], 'Desserts': ['dessert'], 'Drinks': ['drink'],
+  'Holiday Specials': ['main', 'dessert']
+};
+const PRIMARY_HEADING = {
+  'Dinner': 'Main dishes', 'Quick Meals': 'Quick meals', 'Healthy': 'Meals', 'Lunch': 'Lunches',
+  'Breakfast': 'Breakfasts', 'Appetizers': 'Starters and snacks', 'Baking': 'Bakes and breads',
+  'Desserts': 'Desserts', 'Drinks': 'Drinks', 'Holiday Specials': 'Holiday mains and bakes'
+};
+
 const { expand: expandKeywords, forCategory: keywordsForCategory,
         forCuisine: keywordsForCuisine, forIngredient: keywordsForIngredient,
         searchTerms, fold: keywordFold } = require('./lib/keywords');
@@ -128,6 +144,11 @@ const { recipeCount } = require('./data/stats');
 const ads = require('./templates/ads');
 const pages = require('./templates/pages');
 const recipePage = require('./templates/recipe-page');
+const collectionPages = require('./templates/collections');
+const { resolve: resolveCollections } = require('./lib/collections');
+const guidePages = require('./templates/guides');
+const feedbackPages = require('./templates/feedback');
+const { GUIDES } = require('./data/guides');
 
 const ROOT = path.join(__dirname, '..');
 const OUT = ROOT;               /* generated site is written to the repo root */
@@ -135,7 +156,7 @@ const SRC = __dirname;
 
 /* Everything the build creates, and nothing else. cleanOutput() removes only
    these, because the output directory is also the project directory. */
-const GENERATED_DIRS = ['assets', 'recipes', 'categories', 'cuisines', 'ingredients',
+const GENERATED_DIRS = ['assets', 'recipes', 'categories', 'cuisines', 'ingredients', 'collections', 'weekly-plan', 'my-plan', 'guides', 'report', 'feedback',
   'about', 'contact', 'privacy', 'search', 'favourites', 'site-directory'];
 const GENERATED_FILES = ['index.html', '404.html', 'sitemap.xml', 'sitemap-index.xml', 'robots.txt', 'ads.txt',
   'manifest.json', 'feed.xml', 'pinterest-feed.xml', 'search-index.json', '_redirects'];
@@ -481,6 +502,12 @@ function loadRecipes() {
     return built;
   });
 
+  /* Dish role, meals, method and kit, beside the category rather than instead of it
+     (src/lib/classify.js). Read-only facts derived from the recipe's own text, so
+     they are not part of the content-date fingerprint: a better rule reclassifies
+     the catalogue without pretending 5,000 recipes were rewritten. */
+  for (const recipe of recipes) Object.assign(recipe, classify(recipe, DISH_ROLES));
+
   /* Related recipes (4 to 6 each) and the subcategory every recipe sits in.
      See src/lib/linking.js for how they are chosen. */
   assignRelated(recipes, buildHubs(recipes).hubs);
@@ -521,6 +548,9 @@ function loadRecipes() {
     });
     /* A page cannot have been modified before it was published. */
     if (recipe.dateModified < recipe.datePublished) recipe.dateModified = recipe.datePublished;
+    /* The fingerprint of the recipe's own content: what a correction report and a
+       cooking record name, so either can tell later whether the recipe has changed since. */
+    recipe.contentVersion = dates.hashFor(`/recipes/${recipe.slug}/`);
   }
   recipes.dates = dates;
   recipes.publishedDates = publishedDates;
@@ -567,6 +597,14 @@ function buildContext(recipes) {
     tagSwapCounts[tag] = recipes.filter(r => withSwap(r).includes(tag)).length;
   }
 
+  const courseCounts = {};
+  const methodCounts = {};
+  for (const r of recipes) {
+    const key = r.roleReview ? 'review' : r.role;
+    courseCounts[key] = (courseCounts[key] || 0) + 1;
+    for (const m of r.methods) methodCounts[m] = (methodCounts[m] || 0) + 1;
+  }
+
   const timeCounts = {};
   for (const t of [15, 30, 45, 60, 120]) timeCounts[t] = recipes.filter(r => r.elapsedTime <= t).length;
 
@@ -585,6 +623,8 @@ function buildContext(recipes) {
       tag: tagCounts,
       tagSwap: tagSwapCounts,
       difficulty: count(recipes, 'difficulty'),
+      course: courseCounts,
+      method: methodCounts,
       time: timeCounts
     }
   };
@@ -600,6 +640,10 @@ function searchIndex(recipes) {
     f: asWritten(r),                             // dietary flags that hold as written
     h: withSwap(r).length ? withSwap(r) : undefined,   // ...and those that hold only with a swap
     d: r.difficulty,
+    /* Dish role (src/lib/classify.js), or "review" while a person has not settled it, and how
+       it is cooked. Read by the Course and Method filters. */
+    j: r.roleReview ? 'review' : r.role,
+    y: r.methods.length ? r.methods : undefined,
     /* Start to finish, waiting included: the time filter and the "quickest"
        sort used hands-on minutes, so an overnight focaccia sat among the
        thirty-minute dinners. */
@@ -731,7 +775,14 @@ function sitemap(recipes, ctx) {
     /* /favourites/ is noindex — device-local content, nothing to crawl. */
     entry('about/', hubDate('/about/', SITE.author), 'monthly', '0.5'),
     entry('privacy/', hubDate('/privacy/', 'privacy-policy-v1'), 'yearly', '0.3'),
-    entry('contact/', hubDate('/contact/', 'contact-v1'), 'monthly', '0.4')
+    entry('contact/', hubDate('/contact/', 'contact-v1'), 'monthly', '0.4'),
+    /* /my-plan/ is noindex: built in the reader's browser from their own saved recipes. */
+    entry('collections/', hubDate('/collections/', ctx.curated.collections.map(c => c.slug)), 'weekly', '0.8'),
+    entry('weekly-plan/', hubDate('/weekly-plan/', ctx.curated.plan.days.map(d => d.slug)), 'weekly', '0.8'),
+    entry('guides/', hubDate('/guides/', GUIDES.map(g => g.slug)), 'monthly', '0.6'),
+    ...GUIDES.map(g => entry(`guides/${g.slug}/`, hubDate(`/guides/${g.slug}/`, g.slug), 'monthly', '0.6')),
+    ...ctx.curated.collections.map(c => entry(`collections/${c.slug}/`,
+      hubDate(`/collections/${c.slug}/`, c.items.map(i => i.slug)), 'monthly', '0.7'))
   ];
 
   for (const name of Object.keys(CATEGORIES)) {
@@ -797,7 +848,7 @@ ${chunks.map(c => `  <sitemap>\n    <loc>${SITE.origin}${SITE.base}${c.name}</lo
 
 /* The query parameters the recipe directory filters on. Each one is a client-side
    view of /recipes/ or /search/, never a page of its own. */
-const FILTER_PARAMS = ['q', 'sort', 'tag', 'time', 'cuisine', 'category', 'difficulty'];
+const FILTER_PARAMS = ['q', 'sort', 'tag', 'time', 'cuisine', 'category', 'difficulty', 'course', 'method', 'swaps'];
 
 /**
  * robots.txt, as one rule set.
@@ -995,6 +1046,18 @@ function build() {
       + (rw.unknown.length ? `, ${rw.unknown.length} for recipes that no longer exist` : ''));
   }
 
+  /* The curated collections and the weekly plan are checked against the recipes
+     they name before anything is written: a recipe that has drifted out of its
+     collection's criteria fails the build (src/lib/collections.js). */
+  const curated = resolveCollections(recipes);
+  if (curated.problems.length) {
+    throw new Error(`Collections no longer match their recipes:\n  ${curated.problems.join('\n  ')}`);
+  }
+  ctx.curated = curated;
+  /* Which guides each recipe links to, and which recipes each guide links back to. */
+  ctx.guideExamples = Object.fromEntries(GUIDES.map(g => [g.slug, g.examples(recipes)]));
+  for (const r of recipes) r.guides = GUIDES.filter(g => g.appliesTo(r) || ctx.guideExamples[g.slug].includes(r)).slice(0, 2);
+
   cleanOutput();
   mkdir(OUT);
 
@@ -1089,6 +1152,26 @@ function build() {
   }
 
   writePage('cuisines/index.html', pages.cuisinesIndex(ctx));
+
+  /* Collections, the weekly plan and the reader's own plan ------------- */
+  writePage('collections/index.html', collectionPages.collectionsIndex(ctx, curated.collections, curated.plan));
+  for (const c of curated.collections) {
+    writePage(`collections/${c.slug}/index.html`, collectionPages.collectionPage(ctx, c, curated.collections, curated.sources));
+  }
+  writePage('weekly-plan/index.html', collectionPages.weeklyPlanPage(ctx, curated.plan));
+  writePage('my-plan/index.html', collectionPages.myPlanPage(ctx));
+
+  /* Reader feedback: the report page and the PHP endpoints it posts to.
+     The endpoints' settings live outside the public directory (src/server/feedback/_lib.php). */
+  writePage('report/index.html', feedbackPages.reportPage(ctx));
+  fs.mkdirSync(path.join(OUT, 'feedback'), { recursive: true });
+  for (const f of fs.readdirSync(path.join(SRC, 'server', 'feedback'))) {
+    if (f.endsWith('.php')) fs.copyFileSync(path.join(SRC, 'server', 'feedback', f), path.join(OUT, 'feedback', f));
+  }
+
+  /* Guides --------------------------------------------------------------- */
+  writePage('guides/index.html', guidePages.guidesIndex(ctx, GUIDES));
+  for (const g of GUIDES) writePage(`guides/${g.slug}/index.html`, guidePages.guidePage(ctx, g, GUIDES, ctx.guideExamples[g.slug]));
   writePage('about/index.html', pages.about(ctx));
   writePage('privacy/index.html', pages.privacy(ctx));
   writePage('contact/index.html', pages.contact(ctx));
@@ -1115,6 +1198,10 @@ function build() {
       eyebrow: 'Category',
       intro: `${CATEGORIES[name]} ${plural(list.length, 'recipe')}, in a suggested order.`,
       guide: hubParagraphs(`categories/${slug(name)}/`, list, { kind: 'category', name }),
+      primaryRoles: PRIMARY_ROLES[name],
+      primaryHeading: PRIMARY_HEADING[name],
+      categoryName: name,
+      routes: name === 'Dinner' ? pages.dinnerRoutes(ctx) : '',
       description: categoryDescription(name, list.length),
       keywords: keywordsForCategory(name, list),
       path: `categories/${slug(name)}/`,
@@ -1144,6 +1231,9 @@ function build() {
       guide: hubParagraphs(hub.path, hub.recipes, { kind: 'combo', category: hub.category, cuisine: hub.cuisine,
         categoryTotal: recipes.filter(r => r.category === hub.category).length,
         cuisineTotal: recipes.filter(r => r.cuisine === hub.cuisine).length }),
+      primaryRoles: PRIMARY_ROLES[hub.category],
+      primaryHeading: `${hub.cuisine} ${PRIMARY_HEADING[hub.category].toLowerCase()}`,
+      categoryName: hub.category,
       description: enrichDescription(
         `${plural(hub.recipes.length, hub.cuisine + ' ' + noun.toLowerCase() + ' recipe')} on Weekly Delight.`,
         [`${CATEGORIES[hub.category]}`, ...TAIL_CLAUSES]),

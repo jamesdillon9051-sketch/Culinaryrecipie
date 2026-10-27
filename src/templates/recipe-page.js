@@ -14,6 +14,10 @@ const inline = require('../lib/inline');
 const layouts = require('../lib/layouts');
 const { SITE, ICONS, layout, card, newsletter, breadcrumbs, breadcrumbSchema, slug } = require('./layout');
 const ads = require('./ads');
+const { ROLES } = require('../lib/classify');
+const flagship = require('../lib/flagship');
+const feedbackTemplates = require('./feedback');
+const FEEDBACK = require('../data/feedback');
 
 /**
  * Pull the first usable duration out of a step so we can offer an inline timer.
@@ -224,6 +228,50 @@ function videoHtml(video) {
   return `<figure class="recipe-video">${frame}
     <figcaption>${esc(video.name)} &mdash; ${esc(video.description)}</figcaption>
   </figure>`;
+}
+
+/* Ingredients that must already be cooked before the method starts. */
+const ADVANCE = /\b(?:cooked (?:rice|chicken|turkey|ham|beef|pork|lentils|quinoa|pulled pork)|cold (?:cooked )?rice|leftover|day-old|from the day before)\b/i;
+const SUPPORT = { side: 'a side dish', sauce: 'a sauce', condiment: 'a condiment', basic: 'made to go into another dish', bread: 'a bread' };
+
+/**
+ * What a cook needs to know before starting, gathered from the recipe's own data:
+ * the waiting, what is not timed, what must be cooked in advance, the kit and
+ * the tin size. Nothing here is new information; it is moved to where it is
+ * needed, before the first step, instead of being discovered at step six.
+ */
+function beforeYouBegin(recipe) {
+  const items = [];
+  if (recipe.restTime || recipe.restMax) {
+    items.push(`<li><strong>Plan for ${esc(recipe.restConditional ? `up to ${humanTime(recipe.restMax)}` : humanWaitRange(recipe.restTime, recipe.restMax))} of ${esc(recipe.restLabel)}.</strong> It is part of the ${esc(humanWaitRange(recipe.elapsedTime, recipe.elapsedMax))} start to finish.</li>`);
+  }
+  if (recipe.untimed) items.push(`<li>The method also needs time for ${esc(listWords(recipe.untimed))}, which it does not give, so allow extra.</li>`);
+  const advance = recipe.ingredients.filter(l => ADVANCE.test(l));
+  if (advance.length) items.push(`<li>Starts from ${esc(advance.map(l => l.replace(/^[\d\s./½¼¾⅓⅔-]+(?:g|kg|ml|l)?\s*/, '')).join('; '))}: cook ${advance.length > 1 ? 'these' : 'it'} beforehand. The times above do not include ${advance.length > 1 ? 'them' : 'it'}.</li>`);
+  if (recipe.equipment && recipe.equipment.length) {
+    items.push(`<li>You will need: ${esc(recipe.equipment.map(e => e.label.toLowerCase()).join(', '))}${recipe.equipmentSizes.length ? ` (${esc(recipe.equipmentSizes.join('; '))})` : ''}.</li>`);
+  }
+  if (!recipe.roleReview && SUPPORT[recipe.role]) {
+    items.push(`<li>This is ${SUPPORT[recipe.role]}, not a meal on its own.${recipe.pairings && recipe.pairings.length ? ` The serving suggestions below say what it goes with.` : ''}</li>`);
+  }
+  if (!items.length) return '';
+  return `<aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul>${items.join('')}</ul>
+        </aside>`;
+}
+
+/** The guides that apply, linked under the method. */
+function guidesHtml(recipe) {
+  if (!recipe.guides || !recipe.guides.length) return '';
+  return `<p class="form-note guide-links">Related guide${recipe.guides.length > 1 ? 's' : ''}: ${recipe.guides.map(g =>
+    `<a href="${SITE.base}guides/${g.slug}/">${esc(g.short)}</a>`).join(' &middot; ')}.</p>`;
+}
+
+/** Where to report a mistake, with the recipe's identity attached. */
+function reportLink(recipe, text) {
+  const q = `recipe=${encodeURIComponent(recipe.slug)}&amp;v=${encodeURIComponent(recipe.contentVersion || '')}`;
+  return `<a href="${SITE.base}report/?${q}" rel="nofollow">${text}</a>`;
 }
 
 function recipeSchema(recipe) {
@@ -445,10 +493,13 @@ function render(recipe, context) {
         ${videoHtml(recipe.video)}
 
         <h2 id="method">${esc(heading('method'))}</h2>
+        ${beforeYouBegin(recipe)}
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
-        <ol class="steps">${stepsHtml(recipe.steps)}</ol>`,
+        <ol class="steps">${stepsHtml(recipe.steps)}</ol>
+        ${guidesHtml(recipe)}
+        <p class="form-note report-line">Something wrong or unclear in this recipe? ${reportLink(recipe, 'Report a problem with this recipe')}.</p>`,
     tips: () => tipsHtml(recipe, shape.tips, heading('tips')),
     swaps: () => substitutions.length ? `<h2>${esc(heading('swaps'))}</h2>
         <ul>${substitutions.map(s => `<li>${esc(s)}</li>`).join('')}</ul>` : '',
@@ -456,7 +507,8 @@ function render(recipe, context) {
           <h2 id="diet-tips-title" style="margin-bottom:.6rem">${esc(heading('diet'))}</h2>
           <ul style="margin:0">${dietaryTips.map(t => `<li>${esc(t.note)}</li>`).join('')}</ul>
         </aside>` : '',
-    serve: () => serveHtml(recipe, shape.serve, heading('serve')),
+    serve: () => serveHtml(recipe, shape.serve, heading('serve')) + (recipe.goesWith && recipe.goesWith.length
+      ? `\n        <p class="goes-with">Sides from the same cuisine on this site: ${recipe.goesWith.map(r => `<a href="${SITE.base}recipes/${r.slug}/">${esc(r.title)}</a>`).join(', ')}.</p>` : ''),
     store: () => `<h2>${esc(heading('store'))}</h2>
         <p>${esc(recipe.storage)}</p>`,
     /* No section at all when nothing is worth asking: a heading over one
@@ -474,12 +526,12 @@ function render(recipe, context) {
   const body = `
 ${breadcrumbs(trail)}
 <div class="wrap">
-  <article data-recipe="${recipe.slug}" data-servings="${recipe.servings}"
+  <article data-recipe="${recipe.slug}" data-servings="${recipe.servings}" data-scale="${['dessert', 'bread'].includes(recipe.role) || ['Baking', 'Desserts'].includes(recipe.category) ? 'bake' : 'cook'}"
            data-image="${img ? `${SITE.origin}${SITE.base}assets/img/recipes/${img.file}.jpg` : ''}">
 
     <div class="recipe-masthead">
       <header class="recipe-head">
-        <span class="eyebrow">${esc(recipe.cuisine)} &middot; ${esc(recipe.category)}</span>
+        <span class="eyebrow">${esc(recipe.cuisine)} &middot; ${esc(recipe.category)}${!recipe.roleReview && SUPPORT[recipe.role] ? ` &middot; ${esc(ROLES[recipe.role].label)}` : ''}</span>
         <h1>${esc(recipe.title)}</h1>
         <p class="lede">${esc(recipe.description)}</p>
 
@@ -530,6 +582,7 @@ ${breadcrumbs(trail)}
             <output data-servings-out aria-live="polite">${recipe.servings}</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to ${servingsText(recipe.servings)}</button>
           ${hasConvertibleUnits ? `<div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -550,6 +603,7 @@ ${breadcrumbs(trail)}
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">${recipe.untimed ? 'At least ' : ''}${humanWaitRange(recipe.elapsedTime, recipe.elapsedMax)}</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">${esc(recipe.difficulty)}</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">${esc(recipe.cuisine)}</dd>
+            ${recipe.roleReview ? '' : `<dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">${esc(ROLES[recipe.role].label)}</dd>`}
           </dl>
         </div>
 
@@ -617,6 +671,7 @@ ${breadcrumbs(trail)}
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          ${feedbackTemplates.reviewFormHtml(recipe)}
         </section>
       </div>
 
@@ -631,7 +686,8 @@ ${breadcrumbs(trail)}
         <span class="avatar" aria-hidden="true">${SITE.author[0]}</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="${SITE.base}about/">${esc(SITE.author)}</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="${SITE.base}about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="${SITE.base}about/#how-checked">How the recipes are checked</a>. Found a mistake? ${reportLink(recipe, 'Tell us')}.</p>
+          ${flagship.recordHtml(recipe, esc, longDate)}
           ${recipe.datePublished ? `<p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="${recipe.datePublished}">${longDate(recipe.datePublished)}</time>${recipe.dateModified && recipe.dateModified !== recipe.datePublished ? `; last changed <time datetime="${recipe.dateModified}">${longDate(recipe.dateModified)}</time>` : ''}.</p>` : ''}
         </div>
       </div>
@@ -691,7 +747,7 @@ ${breadcrumbs(trail)}
                       as: 'image', type: 'image/webp', fetchpriority: 'high' }] : undefined,
     schema: [recipeSchema(recipe), breadcrumbSchema(trail), faqSchema(faq),
              videoSchema(recipe, SITE.origin)].filter(Boolean),
-    scripts: ['recipe.js'],
+    scripts: FEEDBACK.reviews ? ['recipe.js', 'feedback.js'] : ['recipe.js'],
     /* Slots are placed in the article itself, below the intro and below the
        method, so the layout must not add its own. */
     ownAdSlots: true,

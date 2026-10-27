@@ -79,6 +79,11 @@ function register(today = new Date().toISOString().slice(0, 10), file = STORE) {
       return next[route].lastmod;
     },
 
+    /** The content fingerprint dateFor() recorded for a route this build, or null. */
+    hashFor(route) {
+      return next[route] ? next[route].hash : null;
+    },
+
     /**
      * Persist the register. Routes absent from this build are dropped, so a
      * deleted page does not leave its date behind for a future page that

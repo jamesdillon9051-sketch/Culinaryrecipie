@@ -1,0 +1,227 @@
+{
+ "about": "Flagship recipes: about 20 pages to bring up to a documented standard first. Selected 27 October 2026 without Search Console data, so the basis is provisional: dishes searched for in the US, Canada, the UK, Australia and New Zealand (the owner's standing brief), spread across cuisines, courses and methods, of manageable difficulty, and with complete content (a photograph, calculated nutrition, every stage timed, a settled dish role). Replace the selection once impressions and clicks are available. Three statuses are kept apart: automated checks (computed by tools/flagship-check.js on every build, never typed here), editorial review (a person read the page against the checklist) and kitchen preparation (a person cooked the recipe and recorded it). Nothing on the site says a recipe was cooked or tested until a kitchen record here is accepted AND src/data/testing-notes.json says cooked with the same cook and date. See docs/flagship/README.md.",
+ "selectedOn": "2026-10-27",
+ "selectionBasis": "provisional: relevance to the five target countries, diversity, manageable complexity and content completeness; no Search Console data was available",
+ "recipes": {
+  "chocolate-chip-cookies": {
+   "selectedBecause": "The most searched home bake in all five countries; the 24-hour dough rest is the claim most worth confirming in a real kitchen.",
+   "editorial": {
+    "status": "not-started",
+    "reviewer": null,
+    "date": null,
+    "recipeVersion": null,
+    "notes": ""
+   },
+   "kitchen": []
+  },
+  "buttermilk-pancakes": {
+   "selectedBecause": "A weekend staple everywhere; batter thickness and pan heat are easy to describe wrongly from text alone.",
+   "editorial": {
+    "status": "not-started",
+    "reviewer": null,
+    "date": null,
+    "recipeVersion": null,
+    "notes": ""
+   },
+   "kitchen": []
+  },
+  "chicken-tikka-masala": {
+   "selectedBecause": "A British-Indian favourite with a two-hour marinade and a grill step whose timing depends on the grill.",
+   "editorial": {
+    "status": "not-started",
+    "reviewer": null,
+    "date": null,
+    "recipeVersion": null,
+    "notes": ""
+   },
+   "kitchen": []
+  },
+  "banana-bread": {
+   "selectedBecause": "A one-bowl bake that many first-time bakers start with; the brown-butter step and the 55 to 65 minute range need a real bake.",
+   "editorial": {
+    "status": "not-started",
+    "reviewer": null,
+    "date": null,
+    "recipeVersion": null,
+    "notes": ""
+   },
+   "kitchen": []
+  },
+  "spaghetti-carbonara": {
+   "selectedBecause": "Featured on the homepage; the egg sauce is the most common failure point and uses pasteurised eggs.",
+   "editorial": {
+    "status": "not-started",
+    "reviewer": null,
+    "date": null,
+    "recipeVersion": null,
+    "notes": ""
+   },
+   "kitchen": []
+  },
+  "pad-thai": {
+   "selectedBecause": "A takeaway favourite; the order of the wok steps and how much the noodles soften are hard to judge on paper.",
+   "editorial": {
+    "status": "not-started",
+    "reviewer": null,
+    "date": null,
+    "recipeVersion": null,
+    "notes": ""
+   },
+   "kitchen": []
+  },
+  "margherita-pizza": {
+   "selectedBecause": "A long dough prove and a home-oven bake whose heat varies widely.",
+   "editorial": {
+    "status": "not-started",
+    "reviewer": null,
+    "date": null,
+    "recipeVersion": null,
+    "notes": ""
+   },
+   "kitchen": []
+  },
+  "mac-and-cheese": {
+   "selectedBecause": "A family staple across the US and Canada; the sauce thickness and bake time need confirming.",
+   "editorial": {
+    "status": "not-started",
+    "reviewer": null,
+    "date": null,
+    "recipeVersion": null,
+    "notes": ""
+   },
+   "kitchen": []
+  },
+  "shakshuka": {
+   "selectedBecause": "A popular brunch and supper dish; the egg cooking time under the lid is the cue to check.",
+   "editorial": {
+    "status": "not-started",
+    "reviewer": null,
+    "date": null,
+    "recipeVersion": null,
+    "notes": ""
+   },
+   "kitchen": []
+  },
+  "egg-fried-rice": {
+   "selectedBecause": "Depends on cold cooked rice; worth recording what rice and how it was stored.",
+   "editorial": {
+    "status": "not-started",
+    "reviewer": null,
+    "date": null,
+    "recipeVersion": null,
+    "notes": ""
+   },
+   "kitchen": []
+  },
+  "caesar-salad": {
+   "selectedBecause": "A classic with a raw-egg dressing made with pasteurised eggs; worth recording the egg used.",
+   "editorial": {
+    "status": "not-started",
+    "reviewer": null,
+    "date": null,
+    "recipeVersion": null,
+    "notes": ""
+   },
+   "kitchen": []
+  },
+  "thai-green-curry": {
+   "selectedBecause": "A widely searched curry; paste strength and simmer time vary by brand.",
+   "editorial": {
+    "status": "not-started",
+    "reviewer": null,
+    "date": null,
+    "recipeVersion": null,
+    "notes": ""
+   },
+   "kitchen": []
+  },
+  "beef-stroganoff": {
+   "selectedBecause": "A quick main with soured cream that can split if overheated.",
+   "editorial": {
+    "status": "not-started",
+    "reviewer": null,
+    "date": null,
+    "recipeVersion": null,
+    "notes": ""
+   },
+   "kitchen": []
+  },
+  "shepherds-pie": {
+   "selectedBecause": "A British and New Zealand staple with several stages and an oven finish.",
+   "editorial": {
+    "status": "not-started",
+    "reviewer": null,
+    "date": null,
+    "recipeVersion": null,
+    "notes": ""
+   },
+   "kitchen": []
+  },
+  "french-onion-soup": {
+   "selectedBecause": "The onion caramelising time is often understated; worth timing for real.",
+   "editorial": {
+    "status": "not-started",
+    "reviewer": null,
+    "date": null,
+    "recipeVersion": null,
+    "notes": ""
+   },
+   "kitchen": []
+  },
+  "chicken-adobo": {
+   "selectedBecause": "A Filipino classic that represents a cuisine the catalogue covers less; braise time and sauce reduction to confirm.",
+   "editorial": {
+    "status": "not-started",
+    "reviewer": null,
+    "date": null,
+    "recipeVersion": null,
+    "notes": ""
+   },
+   "kitchen": []
+  },
+  "english-scones": {
+   "selectedBecause": "A short bake whose rise depends on handling; the doneness cue matters more than the minutes.",
+   "editorial": {
+    "status": "not-started",
+    "reviewer": null,
+    "date": null,
+    "recipeVersion": null,
+    "notes": ""
+   },
+   "kitchen": []
+  },
+  "pavlova": {
+   "selectedBecause": "Searched in Australia and New Zealand; long oven drying and cooling, and humidity affects it.",
+   "editorial": {
+    "status": "not-started",
+    "reviewer": null,
+    "date": null,
+    "recipeVersion": null,
+    "notes": ""
+   },
+   "kitchen": []
+  },
+  "sticky-toffee-pudding": {
+   "selectedBecause": "A British favourite with a sponge and a sauce; tin size and bake time to record.",
+   "editorial": {
+    "status": "not-started",
+    "reviewer": null,
+    "date": null,
+    "recipeVersion": null,
+    "notes": ""
+   },
+   "kitchen": []
+  },
+  "tortilla-espanola": {
+   "selectedBecause": "A Spanish classic whose flip and set are the techniques readers ask about.",
+   "editorial": {
+    "status": "not-started",
+    "reviewer": null,
+    "date": null,
+    "recipeVersion": null,
+    "notes": ""
+   },
+   "kitchen": []
+  }
+ }
+}

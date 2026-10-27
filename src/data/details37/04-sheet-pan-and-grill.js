@@ -275,7 +275,7 @@ module.exports = {
     ],
     pair: ['Green salad', 'Garlic dip', 'Cold drinks', 'Olives'],
     store: 'Keeps in the fridge for up to 3 days. Reheat slices at 200°C for 8 minutes.',
-    rest: [60, 'proving'],
+    rest: [75, 'proving and resting'],
     nut: [490, 20, 44, 26, 3, 6, 1430]
   },
 

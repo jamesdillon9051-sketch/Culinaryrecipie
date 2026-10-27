@@ -19,7 +19,7 @@ module.exports = {
       '60 ml amaretto',
       '30 ml fresh lemon juice',
       '10 ml sugar syrup (equal parts sugar and water)',
-      '1 egg white or 15 ml aquafaba, optional',
+      '1 egg white, pasteurised (or British Lion-stamped in the UK), or 15 ml aquafaba, optional',
       '2 dashes Angostura bitters, optional',
       'A handful of ice cubes',
       '1 lemon slice and 1 cocktail cherry, to garnish'

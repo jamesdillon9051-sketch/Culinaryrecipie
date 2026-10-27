@@ -38,6 +38,10 @@
   RewriteRule ^contact/_pages(?:/|$) - [R=404,L,NC]
   RewriteRule ^contact/(?:success|not-sent)/?$ /contact/ [R=302,L,NC]
 
+  # The feedback endpoints' shared code is included, never requested
+  # (src/server/feedback/_lib.php also answers 404 on its own).
+  RewriteRule ^feedback/_ - [R=404,L,NC]
+
   # Recipes taken down because another page is the same dish
   # (src/data/retired-recipes.json). Each old address, with or without its
   # trailing slash or index.html, and from www or http, goes to the page that

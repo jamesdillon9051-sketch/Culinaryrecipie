@@ -23,13 +23,13 @@ const PRIVATE = [
   'tools/keywords/KEYWORDS.csv', 'CLAUDE.md', 'README.md', 'package.json', 'netlify.toml',
   'vercel.json', '_redirects', 'suspects.json', 'content_audit.csv', 'quality_report.csv',
   'MISSING-IMAGES.txt', '.git/config', '.gitignore', 'backups/', 'logs/x.jsonl',
-  'docs/audit-2026-10/REPORT.md', 'contact/_pages/sent.html', 'contact/_pages/not-sent.html'
+  'docs/audit-2026-10/REPORT.md', 'contact/_pages/sent.html', 'contact/_pages/not-sent.html', 'feedback/_lib.php'
 ];
 const PUBLIC = [
   '', 'recipes/', 'recipes/focaccia/', 'assets/css/main.css', 'assets/js/app.js',
   'assets/img/recipes/focaccia.jpg', 'search-index.json', 'sitemap-index.xml', 'robots.txt',
   'ads.txt', 'feed.xml', 'manifest.json', 'images-attribution.md', 'contact/', 'contact/send.php',
-  'about/', 'privacy/', '404.html'
+  'about/', 'privacy/', '404.html', 'collections/', 'weekly-plan/', 'guides/', 'report/', 'feedback/report.php'
 ];
 
 function rules() {

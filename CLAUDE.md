@@ -42,6 +42,11 @@ README.md           long-form docs; its counts are derived from the data (tools/
 | `node tools/retired-recipes-check.js` | That every recipe in `src/data/retired-recipes.json` (pages taken down as the same dish as another) is no longer built, linked or in a sitemap, and that `.htaccess`, `_redirects` and `vercel.json` all send its old address to the page that stays with a 301 (part of `check`). |
 | `node tools/ads-unchanged.js [--against <ref>]` | That the ad and consent files, `ads.txt` and the ad markup on sample pages are unchanged from a ref. Run before merging any change that was not meant to touch advertising. |
 | `node tools/published-dates.js --dry-run` | Re-derive `src/data/published-dates.json` from git history (section 7). Only ever run to repair the register. |
+| `node tools/classify-audit.js [--slug a,b] [--write DIR]` | Each recipe's role in a meal (main, light, side, sauce, condiment, starter, bread, breakfast, dessert, drink, basic), how it was decided, and the review queue (part of `check`). |
+| `node tools/flagship-check.js` | The flagship register's three statuses; rewrites `docs/flagship/status.md` (part of `check`). |
+| `node tools/feedback-test.js` | The PHP feedback endpoints against PHP's built-in server, with a temporary config (part of `check`; needs PHP 8.1+). |
+| `node tools/release-browser-test.js` | Phone-width browser checks of the curated pages, filters, plan, report form and scaler (needs Playwright; not part of `check`). |
+| `python3 tools/live-sample.py` | Read-only, one-request-at-a-time sample of the live site against the build. |
 
 Before any commit: `npm run build && npm run check`.
 
@@ -97,6 +102,14 @@ Volumes are found by name (`catalog-N.js` + `detailsN/`) and sorted numerically 
 `npm run food` checks these patterns. Passing it does not make a recipe safe.
 
 **Content dates**: `src/data/content-dates.json` is the register behind every page's `dateModified` and the sitemap's `lastmod`. The build writes it, and it moves a date only when that recipe's content really changes. Do not edit it by hand. If a build changed it for recipes whose content you did not change, something is wrong, so find out why before committing.
+
+**Dish roles and discovery** (October 2026): `loadRecipes()` gives every recipe a `role` and the course, method, equipment and pan sizes behind it (`src/lib/classify.js`). These are derived, not content, so they never move a date. A wrong role is fixed with an entry in `src/data/dish-roles.json` (`role`, `reason`, `reviewedBy`, `date`), not by bending the rules for one recipe. Category pages lead with their primary role (Dinner with mains); the directory filters by `course` and `method`.
+
+**Collections and the weekly plan**: `src/data/collections.js`. Every entry carries its reason, and `src/lib/collections.js` checks it against its collection's criteria on every build (time with waiting included, one vessel, servings, kit, storage for leftovers). A recipe that stops qualifying fails the build: replace it, do not loosen the criteria. Keep one `/weekly-plan/` URL; change its recipes and `updated` date rather than adding dated copies.
+
+**Reader feedback**: `src/server/feedback/` (built to `/feedback/`). Reports, reviews and the newsletter are each off until their config exists outside `public_html` and, for reviews and the newsletter, `src/data/feedback.js` is switched on (`docs/release-2026-10-27/ACTIVATION.md`). A form says "received" only on the server's 201. Never import reviews except through the moderation export.
+
+**Flagship recipes**: `src/data/flagship.json` and `docs/flagship/README.md`. Automated, editorial and kitchen status are separate; a page shows a kitchen record only when it is accepted, current, and matched in `testing-notes.json`.
 
 ## 4. Writing a recipe (new, or rewritten)
 
@@ -312,6 +325,8 @@ The October 2026 audit settled the two decisions that used to be here: the synth
 4. **What gets deployed.** The whole repository is in the web root; `.htaccess` refuses the private paths, but deploying only the built site is the real fix (README, "Deploying").
 5. **"No Added Sugar".** The derived tag and filter keep that name; it resembles a regulated claim in some markets. Rename, keep, or drop it.
 6. **Search Console and analytics.** Any claim about traffic or indexing needs the owner's exports (Performance, Pages, Crawl stats); none were available to the audit.
+7. **AI-assistance sentence on the About page.** The 27 October brief asked for AI assistance to be explained; the About page now says the text was compiled and edited with AI writing tools. That reverses the 26 October removal above. Keep or remove it (`src/templates/pages.js`, About).
+8. **Switching on reader feedback.** The report form shows an honest "not switched on" state until the owner creates the settings file on Hostinger; public reviews need a moderator; the newsletter needs a Buttondown account and a real schedule (`docs/release-2026-10-27/ACTIVATION.md`).
 
 ## 9. Health labels (withdrawn) and the nutrition calculator
 

@@ -9,7 +9,10 @@ const { recipeCount, cuisineCount, imageCount, creditedImageCount,
 const ads = require('./ads');
 const CONSENT = require('../data/consent');
 const GROW = require('../data/grow');
+const FEEDBACK = require('../data/feedback');
 const { SITE, ICONS, layout, card, newsletter, breadcrumbs, breadcrumbSchema, slug } = require('./layout');
+const { ROLES, METHOD_LABELS } = require('../lib/classify');
+const collectionPages = require('./collections');
 
 /* --------------------------------------------------------------- helpers */
 
@@ -24,19 +27,26 @@ function heroSearch(id, placeholder) {
 }
 
 function filterSidebar(facets) {
-  const group = (title, key, values, counts) => `
+  const group = (title, key, values, counts, labels = {}) => `
     <div class="filter-group">
       <h3>${esc(title)}</h3>
       <div class="filter-list">
-        ${values.map(v => `<label class="check">
+        ${values.filter(v => counts[v]).map(v => `<label class="check">
           <input type="checkbox" data-filter="${key}" value="${esc(v)}">
-          <span>${esc(v)}</span><span class="count">${counts[v] || 0}</span>
+          <span>${esc(labels[v] || v)}</span><span class="count">${counts[v] || 0}</span>
         </label>`).join('')}
       </div>
     </div>`;
+  const courseLabels = Object.fromEntries(Object.entries(ROLES).map(([id, r]) => [id, r.label]));
+  courseLabels.review = 'Not yet sorted';
 
-  return `<aside class="filters" aria-label="Filter recipes">
+  /* On a phone the filters sit above the results, so they start folded behind
+     one button; on a wide screen the button is hidden and they are always open. */
+  return `<button type="button" class="btn btn--ghost filters-toggle" data-filters-toggle aria-expanded="false" aria-controls="recipe-filters">
+    Filters<span class="filters-toggle__count" data-filters-count></span></button>
+  <aside class="filters" id="recipe-filters" aria-label="Filter recipes">
     <h2 class="sr-only">Filters</h2>
+    ${group('Course', 'course', [...Object.keys(ROLES), 'review'], facets.course, courseLabels)}
     ${group('Category', 'category', Object.keys(CATEGORIES), facets.category)}
     ${group('Cuisine', 'cuisine', facets.cuisineList, facets.cuisine)}
     ${group('Dietary', 'tag', DIET_TAGS, facets.tag)}
@@ -48,6 +58,7 @@ function filterSidebar(facets) {
       <p class="form-note" style="margin:.35rem 0 0">The dietary counts are recipes that qualify as written. Each recipe page names the swap and labels the diet &ldquo;option&rdquo;. A script checks ingredient names only: it does not certify a recipe free of an allergen.</p>
     </div>
     ${group('Difficulty', 'difficulty', ['Easy', 'Medium', 'Hard'], facets.difficulty)}
+    ${group('How it is cooked', 'method', Object.keys(METHOD_LABELS), facets.method, METHOD_LABELS)}
     <div class="filter-group">
       <h3>Total time</h3>
       <div class="filter-list">
@@ -79,8 +90,10 @@ function home(ctx) {
   /* Ordered by the editorial weight, not by rating: nothing carries a rating
      until a reader leaves one, so sorting by it put these four in catalogue
      order and called it a ranking. */
-  const quick = take(recipes.filter(r => r.elapsedTime <= 30)
+  /* Main courses only: a side of peas is quick, but it is not dinner. */
+  const quick = take(recipes.filter(r => r.elapsedTime <= 30 && !r.untimed && r.role === 'main' && !r.roleReview)
     .slice().sort((a, b) => b.popularity - a.popularity), 4);
+  const plan = ctx.curated ? ctx.curated.plan : null;
   const latest = take(recipes.slice().sort((a, b) => b.published - a.published), 4);
   const heroRecipe = recipes.find(r => r.slug === 'tacos-al-pastor') || recipes[0];
 
@@ -127,15 +140,10 @@ function home(ctx) {
 <section class="hero" aria-labelledby="hero-title">
   <div class="wrap hero-grid">
     <div class="hero-copy">
-      <span class="eyebrow-rule hero-line">${recipeCount} recipes &middot; ${cuisineCount} cuisines</span>
+      <span class="eyebrow-rule hero-line">World recipes, explained</span>
       <h1 id="hero-title" class="hero-line">Recipes worth <em>cooking twice.</em></h1>
-      <p class="hero-lede hero-line">Well-known dishes from ${cuisineCount} cuisines, written down with the reason behind every step.</p>
+      <p class="hero-lede hero-line">${esc(SITE.promise)}</p>
       <div class="hero-line">${heroSearch('hero-search', 'Search by dish, ingredient or cuisine…')}</div>
-      <div class="hero-line hero-stats">
-        <div><strong>${recipeCount}</strong><span>Recipes</span></div>
-        <div><strong>${cuisineCount}</strong><span>Cuisines</span></div>
-        <div><strong>${Object.keys(CATEGORIES).length}</strong><span>Meal types</span></div>
-      </div>
     </div>
     <div class="hero-cluster" role="group" aria-label="Featured dishes">
       ${heroShots.map(shot).join('')}
@@ -144,6 +152,26 @@ function home(ctx) {
 </section>
 
 <div class="wrap">${ads.nativeBanner(0, 'Advertisement below the header', SITE.base)}</div>
+
+<section class="section section--tight" aria-label="Ways to choose a recipe">
+  <div class="wrap">${collectionPages.routes(ctx, { id: 'home-routes' })}</div>
+</section>
+
+${plan ? `<section class="section section--sunken" aria-labelledby="plan-title">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <span class="eyebrow">This week</span>
+        <h2 id="plan-title">${esc(plan.title)}</h2>
+        <p>${esc(plan.intro)}</p>
+      </div>
+      <a class="btn btn--primary" href="${SITE.base}weekly-plan/">The plan and shopping list</a>
+    </div>
+    <ol class="plan-strip">${plan.days.map(d => `<li><span>${esc(d.day)}</span>
+      <a href="${SITE.base}recipes/${d.recipe.slug}/">${esc(d.recipe.title)}</a>
+      <em>${compactTime(d.recipe.elapsedTime, d.recipe.elapsedMax, !!d.recipe.untimed)}</em></li>`).join('')}</ol>
+  </div>
+</section>` : ''}
 
 <section class="section" aria-labelledby="editors-title">
   <div class="wrap">
@@ -194,10 +222,10 @@ function home(ctx) {
     <div class="section-head reveal">
       <div>
         <span class="eyebrow">Thirty minutes or less</span>
-        <h2 id="quick-title">Fast, and not a compromise</h2>
-        <p>Full-flavour cooking that fits a weeknight. Nothing skipped, nothing apologised for.</p>
+        <h2 id="quick-title">Main courses in half an hour</h2>
+        <p>Start to finish, waiting included. For dinners that need nothing else on the side, see the <a href="${SITE.base}collections/complete-dinners-in-30-minutes/">complete 30-minute dinners</a>.</p>
       </div>
-      <a class="btn btn--ghost" href="${SITE.base}recipes/?time=30">All quick recipes</a>
+      <a class="btn btn--ghost" href="${SITE.base}recipes/?course=main&amp;time=30">All quick main courses</a>
     </div>
     <div class="card-grid">${quick.map((r, i) => card(r, { delay: i * 60 })).join('')}</div>
   </div>
@@ -258,8 +286,8 @@ function home(ctx) {
 <div class="wrap" style="padding:clamp(2.5rem,5vw,4rem) 0 clamp(3rem,7vw,5rem)">${newsletter()}</div>`;
 
   return layout({
-    title: `${SITE.name} — ${SITE.tagline}`,
-    description: `${recipeCount} well-known recipes from ${cuisineCount} cuisines, explained: ingredients, a step-by-step method, the reasoning behind it and a cook mode. Free, no sign-up.`,
+    title: `${SITE.name} — World Recipes, Clear Methods, Full Timings`,
+    description: 'World recipes with clear methods, start-to-finish times and ingredient swaps, plus collections and a five-dinner weekly plan with a shopping list.',
     keywords: ['famous recipes', 'best recipes in the world',
                'international recipes', 'cooking guide', 'recipes from around the world',
                'world food recipes', 'authentic recipes', 'home cooking',
@@ -444,10 +472,47 @@ function hubLinks({ id, heading, links }) {
    weighed 4.4 MB of HTML before any image loaded. */
 const HUB_CARDS = 48;
 
+/* The order supporting dishes are listed in under a category's main list. */
+const ROLE_ORDER = ['main', 'light', 'breakfast', 'starter', 'side', 'bread', 'sauce', 'condiment', 'basic', 'dessert', 'drink'];
+
+/**
+ * Splits a category's recipes by dish role (src/lib/classify.js): the roles the
+ * category is for come first as picture cards, the rest follow under their own
+ * headings, and anything a person has not yet classified is listed last as
+ * "Not yet sorted" rather than passed off as a main course.
+ */
+function roleGroups(list, primary) {
+  const groups = [];
+  const prim = list.filter(r => !r.roleReview && primary.includes(r.role));
+  groups.push({ id: 'primary', roles: primary, recipes: prim });
+  for (const role of ROLE_ORDER) {
+    if (primary.includes(role)) continue;
+    const l = list.filter(r => !r.roleReview && r.role === role);
+    if (l.length) groups.push({ id: role, roles: [role], heading: ROLES[role].plural, recipes: l });
+  }
+  const review = list.filter(r => r.roleReview);
+  if (review.length) groups.push({ id: 'review', roles: [], heading: 'Not yet sorted', recipes: review,
+    note: 'Whether these are a main course, a side or a starter depends on how they are served, and nobody has settled it yet. They are listed here rather than counted as complete meals.' });
+  return groups;
+}
+
+/** A compact list for a supporting group: name and start-to-finish time, no pictures. */
+function compactList(recipes) {
+  return `<ul class="compact-list">${recipes.map(r => `<li><a href="${SITE.base}recipes/${r.slug}/">${esc(r.title)}</a>
+      <span>${compactTime(r.elapsedTime, r.elapsedMax, !!r.untimed)}</span></li>`).join('')}</ul>`;
+}
+
 function taxonomyPage(ctx, options) {
   const trail = [{ name: 'Home', url: SITE.base }].concat(options.trail);
-  const carded = options.recipes.slice(0, HUB_CARDS);
-  const listed = options.recipes.slice(HUB_CARDS).sort((a, b) => a.title.localeCompare(b.title));
+  const groups = options.primaryRoles ? roleGroups(options.recipes, options.primaryRoles) : null;
+  const lead = groups ? groups[0].recipes : options.recipes;
+  const carded = lead.slice(0, HUB_CARDS);
+  const listed = lead.slice(HUB_CARDS).sort((a, b) => a.title.localeCompare(b.title));
+  const filterLink = (params) => `${SITE.base}recipes/?${params}`;
+  const leadHeading = groups
+    ? (options.primaryHeading || groups[0].roles.map(r => ROLES[r].plural).join(' and '))
+    : null;
+  const supporting = groups ? groups.slice(1).filter(g => g.recipes.length) : [];
   const body = `
 ${breadcrumbs(trail)}
 <div class="wrap section" style="padding-top:1rem">
@@ -461,18 +526,30 @@ ${breadcrumbs(trail)}
     <a class="btn btn--ghost" href="${SITE.base}recipes/">All ${recipeCount} recipes</a>
   </header>
 
+  ${options.routes || ''}
+  ${supporting.length ? `<nav class="jump-links" aria-label="On this page">
+    <a href="#tax-list-title">${esc(leadHeading)} <span>${lead.length}</span></a>
+    ${supporting.map(g => `<a href="#group-${g.id}">${esc(g.heading)} <span>${g.recipes.length}</span></a>`).join('')}
+  </nav>` : ''}
+
   ${options.extra || ''}
 
   <section aria-labelledby="tax-list-title">
-    <h2 id="tax-list-title" class="sr-only">${esc(options.heading)} — all ${plural(options.recipes.length, 'recipe')}</h2>
-    <div class="card-grid" style="margin-top:2rem">
+    <h2 id="tax-list-title" class="${groups ? '' : 'sr-only'}">${groups ? esc(leadHeading) : `${esc(options.heading)} — all ${plural(options.recipes.length, 'recipe')}`}</h2>
+    ${groups && options.leadNote ? `<p class="form-note">${esc(options.leadNote)}</p>` : ''}
+    ${lead.length ? `<div class="card-grid" style="margin-top:${groups ? '1.25rem' : '2rem'}">
       ${carded.map((r, i) => card(r, { eager: i < 3, delay: (i % 4) * 60 })).join('')}
-    </div>
+    </div>` : `<p class="empty-note">None of the recipes filed here is a ${esc(leadHeading.toLowerCase())}. The sections below list what there is.</p>`}
   </section>
   ${listed.length ? `<section class="hub-more" aria-labelledby="tax-more-title">
-    <h2 id="tax-more-title">${plural(listed.length, 'more recipe')}, A&ndash;Z</h2>
+    <h2 id="tax-more-title">${plural(listed.length, `more ${groups ? leadHeading.toLowerCase().replace(/s$/, '') : 'recipe'}`)}, A&ndash;Z</h2>
     <ul class="az-list">${listed.map(r => `<li><a href="${SITE.base}recipes/${r.slug}/">${esc(r.title)}</a></li>`).join('')}</ul>
   </section>` : ''}
+  ${supporting.map(g => `<section class="hub-group" aria-labelledby="group-${g.id}">
+    <h2 id="group-${g.id}">${esc(g.heading)} <span class="hub-group__count">${g.recipes.length}</span></h2>
+    <p class="form-note">${esc(g.note || `Filed under ${options.categoryName || options.heading} but not ${groups[0].roles.length === 1 ? `a ${ROLES[groups[0].roles[0]].label.toLowerCase()}` : 'a meal'} on its own: ${ROLES[g.id] ? ROLES[g.id].label.toLowerCase() : 'see each recipe'}.`)}${g.id !== 'review' && options.categoryName ? ` <a href="${filterLink(`category=${encodeURIComponent(options.categoryName)}&course=${g.id}`)}">Filter these</a>.` : ''}</p>
+    ${compactList(g.recipes.slice().sort((a, b) => a.title.localeCompare(b.title)))}
+  </section>`).join('\n  ')}
 </div>
 <div class="wrap" style="padding-bottom:clamp(3rem,7vw,5rem)">${newsletter(options.newsId || 'tax-news')}</div>`;
 
@@ -487,8 +564,8 @@ ${breadcrumbs(trail)}
     criticalCss: ctx.criticalCss,
     categories: ctx.categoryCounts,
     cuisines: ctx.topCuisines,
-    image: options.recipes[0] && options.recipes[0].imageData
-      ? `${SITE.origin}${SITE.base}assets/img/recipes/${options.recipes[0].imageData.file}.jpg` : undefined,
+    image: lead[0] && lead[0].imageData
+      ? `${SITE.origin}${SITE.base}assets/img/recipes/${lead[0].imageData.file}.jpg` : undefined,
     schema: [
       breadcrumbSchema(trail),
       {
@@ -500,7 +577,7 @@ ${breadcrumbs(trail)}
         mainEntity: {
           '@type': 'ItemList',
           numberOfItems: options.recipes.length,
-          itemListElement: options.recipes.slice(0, 30).map((r, i) => ({
+          itemListElement: lead.concat(supporting.flatMap(g => g.recipes)).slice(0, 30).map((r, i) => ({
             '@type': 'ListItem', position: i + 1, name: r.title,
             url: `${SITE.origin}${SITE.base}recipes/${r.slug}/`
           }))
@@ -863,7 +940,16 @@ ${breadcrumbs(trail)}
     <p>Your address is used to reply to you and for nothing else. It is not added to any list, not passed to anybody, and not used for advertising. Messages stay in the inbox until the owner deletes them; if you would like a message of yours removed, say so in a reply. ${esc(SITE.host.name)}'s own <a href="${SITE.host.privacy}" rel="nofollow noopener" target="_blank">privacy policy</a> covers what they do with it while it is on their systems.</p>
     <p><strong>What the script keeps to limit abuse.</strong> For each message it records the time and a salted hash of the IP address it came from, in a small file on the server that nothing else reads. A hash like this is pseudonymous, not anonymous: it is still personal data, because someone with the site's secret could check an address against it. An entry stops counting after an hour and is deleted the next time the form, or its set-up check, is used. If nobody uses the form, an expired entry stays in the file until the next use, so it is not guaranteed to be gone after exactly an hour. The same file keeps a count of messages in the last day, as timestamps only. Separately, the server's ordinary access logs record your IP address for every request, as described under Hosting below.</p>
     <p>The form also carries a hidden field that people never see. If it arrives filled in, the submission came from a bot and is dropped without being sent. It collects nothing about you.</p>
-    <p>If the contact form has not been switched on, the page says so and nothing you type leaves your browser. There is no newsletter and no mailing list. The signup box that used to sit at the foot of every page has been removed, because it collected nothing and could not have sent anything.</p>
+    <p>If the contact form has not been switched on, the page says so and nothing you type leaves your browser.</p>
+
+    <h2 id="reports">Problem reports${FEEDBACK.reviews ? ' and reviews' : ''}</h2>
+    <p>The <a href="${SITE.base}report/">report a problem</a> form sends what you write to a program on this site's server, which stores it as a file outside the public part of the site, where only the person running the site can read it. It stores the recipe and version you were reading, your answers, the time, and a salted hash of your IP address used only to stop floods of reports. Your name and email address are stored only if you give them, and are used only to reply to that report. Reports are kept while the correction is dealt with and deleted within a year. To have a report you sent deleted sooner, quote its reference through the contact page.</p>
+    <p>If the page says reports are not switched on, nothing you type is sent or stored.</p>
+    ${FEEDBACK.reviews ? `<p>Public reviews are stored the same way, waiting for a person to approve them. Only the name you chose, the review and the rating appear on the page once approved; the hash of your IP address is never published.</p>` : ''}
+
+    <h2 id="newsletter">Newsletter</h2>
+    ${FEEDBACK.newsletter ? `<p>If you sign up, your email address is sent straight to Buttondown, the service that sends the newsletter, and is not stored on this site. Buttondown emails you to confirm first; you are not subscribed until you do. Every email has a link to unsubscribe at once. Buttondown's <a href="https://buttondown.com/legal/privacy" rel="nofollow noopener" target="_blank">privacy policy</a> covers what it holds.</p>`
+      : `<p>There is no newsletter and no mailing list, and no page asks for your email address for one. The <a href="${SITE.base}weekly-plan/">weekly plan</a> is a page you can visit, not an email.</p>`}
 
     <h2>Analytics</h2>
     <p>${CONSENT.enabled ? '<strong>Only if you accepted.</strong> ' : ''}Google Analytics 4 counts visitors and shows me which recipes get read. It sets cookies, records your approximate location from your IP address, and notes your device, browser and the pages you open. It does not tell me who you are, and I never see an individual reader &mdash; only totals.</p>
@@ -937,6 +1023,11 @@ function about(ctx) {
   const trail = [{ name: 'Home', url: SITE.base }, { name: 'About' }];
   const tierCount = t => ctx.recipes.filter(r => r.nutritionTier === t).length.toLocaleString('en-GB');
   const sources = require('../../tools/nutrition-sources.json').counts;
+  const flagshipRows = require('../lib/flagship').statusRows(ctx.recipes);
+  const flagshipCounts = {
+    editorial: flagshipRows.filter(r => /^approved/.test(r.editorial || '')).length,
+    kitchen: flagshipRows.filter(r => /^documented/.test(r.kitchen || '')).length
+  };
   const foodCount = Object.values(sources).reduce((a, b) => a + b, 0);
 
   /* What this page says about who runs the site and how the recipes were made
@@ -955,12 +1046,23 @@ ${breadcrumbs(trail)}
   <header class="recipe-head">
     <span class="eyebrow">About</span>
     <h1>About Weekly Delight</h1>
-    <p class="lede">Weekly Delight is a free collection of ${recipeCount} well-known recipes from ${cuisineCount} cuisines, each written with the reason behind every step. It is run by one person, ${esc(SITE.author)}.</p>
+    <p class="lede">${esc(SITE.promise)} Weekly Delight is a free collection of ${recipeCount} well-known recipes from ${cuisineCount} cuisines, run by ${esc(SITE.author)}.</p>
   </header>
 
   <div class="prose" style="max-width:72ch">
     <h2 id="how-made">How the recipes are made</h2>
-    <p>The dishes here are well-known ones, and the methods follow how they are widely and traditionally made. Every recipe is then put through the automated checks described below. If you cook something here and a step does not work, please <a href="${SITE.base}contact/">say so</a> &mdash; that is the most useful correction there is.</p>
+    <p>The dishes here are well-known ones, and the methods follow how they are widely and traditionally made. The recipe text was compiled and edited for this site with the help of AI writing tools, and every recipe then goes through the automated checks below. Where a recipe is a practical adaptation rather than the traditional version, it names the traditional ingredient or step it replaces.</p>
+
+    <h2 id="three-checks">Three kinds of checking, kept apart</h2>
+    <ul>
+      <li><strong>Automated checks</strong> run on every recipe, every time the site is built (below). They catch contradictions and unsupported claims in the text. They do not cook anything.</li>
+      <li><strong>Editorial review</strong> means a named person has read a recipe against a written checklist. ${flagshipCounts.editorial ? `${flagshipCounts.editorial} recipes have been reviewed so far, and each says so under its byline.` : 'No recipe has been through it yet; when one has, it will say so under its byline, with the reviewer and the date.'}</li>
+      <li><strong>Cooking</strong> means a named person made the recipe and recorded what happened: the equipment, the real times, the yield and anything that went wrong. ${flagshipCounts.kitchen ? `${flagshipCounts.kitchen} recipes have a record like that, shown on their page.` : 'No recipe has a record like that yet. When one does, its page will show who cooked it, when and what they found.'} About twenty well-known recipes have been chosen to go through both first.</li>
+    </ul>
+    <p>None of the three is implied by the others: a recipe that passes every script has not therefore been cooked, and the site does not describe any recipe as tested unless a cooking record for it exists.</p>
+
+    <h2 id="corrections">Corrections</h2>
+    <p>Every recipe page has a link to <a href="${SITE.base}report/">report a problem</a>: a wrong quantity, a step that is unclear, a time that did not work, a yield that was off. A report records which recipe, and which version of it, you were reading. Each one is read and checked against the recipe; if it is right, the recipe is corrected and the date it last changed, shown under the byline, moves. If you leave an email address and ask for a reply, the reply goes to that address. If the report page says reports are not switched on yet, nothing can be sent from it until they are.</p>
 
     <h2 id="how-checked">What is checked automatically, and what is not</h2>
     <p>Every rebuild of the site runs a set of scripts over all ${recipeCount} recipes, and the build fails until a problem they find is fixed:</p>
@@ -993,7 +1095,9 @@ ${breadcrumbs(trail)}
 
     <h2>How to use the site</h2>
     <ul>
-      <li><strong>Adjustable servings.</strong> Every ingredient list scales. Press the plus and minus buttons and the quantities recalculate, rounding sensibly rather than giving you 1.33 eggs.</li>
+      <li><strong>Adjustable servings.</strong> Every ingredient list scales. Press the plus and minus buttons and the quantities recalculate. Cooking times do not, and the page says so; bakes go from half to double and no further, because a tin and a rise do not scale freely.</li>
+      <li><strong>Collections and a weekly plan.</strong> Short <a href="${SITE.base}collections/">collections</a> for particular jobs, and <a href="${SITE.base}weekly-plan/">five dinners for this week</a> with one shopping list you can scale, tick off and print. You can also <a href="${SITE.base}my-plan/">plan your own week</a> from saved recipes.</li>
+      <li><strong>Guides.</strong> Short <a href="${SITE.base}guides/">cooking guides</a> on recipe times, rice, tin sizes, substitutions and split sauces, each with its sources.</li>
       <li><strong>Cook Mode.</strong> Enlarges the type, hides everything that is not the method, keeps your screen awake and highlights the step you are on. Arrow keys move between steps.</li>
       <li><strong>Inline timers.</strong> Where a step has a duration, there is a button to start a timer for it. It will chime and buzz when it finishes.</li>
       <li><strong>Saved recipes.</strong> The heart icon saves anything to your <a href="${SITE.base}favourites/">favourites</a>, stored in your browser. No account, no email.</li>
@@ -1020,7 +1124,7 @@ ${breadcrumbs(trail)}
     /* The layout appends the site name, so naming it here too gave
        'About Weekly Delight | Weekly Delight'. */
     title: 'About',
-    description: `How the ${recipeCount} recipes on Weekly Delight are put together, checked by script for timings, diet labels and nutrition, and where their photographs come from.`,
+    description: `Who runs Weekly Delight, how its ${recipeCount} recipes are compiled and checked, what has and has not been cooked, how corrections work, and where photographs come from.`,
     keywords: ['about weekly delight', 'how the recipes are written', 'recipe checks',
                'photo licensing', 'image attribution', 'recipe corrections'],
     path: 'about/',
@@ -1282,5 +1386,11 @@ ${breadcrumbs(trail)}
   });
 }
 
+/** The decision routes, shown above the Dinner category's main dishes. */
+function dinnerRoutes(ctx) {
+  return collectionPages.routes(ctx, { heading: 'Narrow it down', id: 'dinner-routes' });
+}
+
 module.exports = {
+  dinnerRoutes,
   hubLinks, home, directory, taxonomyPage, ingredientsIndex, cuisinesIndex, privacy, contactSentPage, contactNotSentPage, categoriesIndex, siteDirectory, about, contact, notFound };

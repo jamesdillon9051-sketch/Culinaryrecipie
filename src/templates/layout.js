@@ -15,6 +15,10 @@ const SITE = {
   /* Says what the site holds and nothing it cannot back. It used to say each
      recipe was "tested", which no record supports. */
   tagline: `${recipeCount} well-known recipes from around the world, explained step by step`,
+  /* What a reader can rely on, and nothing the site cannot deliver: the methods
+     say why, the times include the waiting, the swaps come from each recipe's
+     own ingredient list. Nothing about testing (src/data/testing-notes.json). */
+  promise: 'World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps.',
   /* The live domain. Every canonical link, Open Graph URL, sitemap entry and
      JSON-LD @id on the site is built from this, so it has to be the address
      people actually reach — it pointed at a Netlify subdomain that returns 404,
@@ -159,6 +163,7 @@ function header(active, categories) {
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories">${catLinks}</div>
       </div>
+      <a href="${SITE.base}collections/"${active === 'collections' ? ' aria-current="page"' : ''}>Collections</a>
       <a href="${SITE.base}cuisines/"${active === 'cuisines' ? ' aria-current="page"' : ''}>Cuisines</a>
       <a href="${SITE.base}ingredients/"${active === 'ingredients' ? ' aria-current="page"' : ''}>Ingredients</a>
       <a href="${SITE.base}search/"${active === 'search' ? ' aria-current="page"' : ''}>Search</a>
@@ -200,12 +205,15 @@ function footer(topCuisines) {
     <div class="footer-grid">
       <div>
         <a class="brand" href="${SITE.base}"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">${recipeCount} well-known dishes from around the world, written down with the reasons behind every step. <a href="${SITE.base}about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">${esc(SITE.promise)} <a href="${SITE.base}about/#how-checked">How the recipes are made and checked</a>. <a href="${SITE.base}about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="${SITE.base}recipes/">All recipes</a></li>
+          <li><a href="${SITE.base}collections/">Collections</a></li>
+          <li><a href="${SITE.base}weekly-plan/">This week's five dinners</a></li>
+          <li><a href="${SITE.base}guides/">Cooking guides</a></li>
           <li><a href="${SITE.base}categories/">Categories</a></li>
           <li><a href="${SITE.base}cuisines/">Cuisines</a></li>
           <li><a href="${SITE.base}ingredients/">Ingredients</a></li>
@@ -250,7 +258,7 @@ function layout(page) {
      the brand dropped before the page's own name is. See ../lib/seo.js. */
   const title = page.path
     ? pageTitle(page.title, SITE.name, page.titleHooks)
-    : `${SITE.name} — ${recipeCount} Famous Recipes Explained`;
+    : `${SITE.name} — World Recipes, Clear Methods, Full Timings`;
 
   const schemaBlocks = (page.schema || [])
     .map(s => `<script type="application/ld+json">${jsonLd(s)}</script>`).join('\n');
@@ -370,6 +378,8 @@ ${consentTag()}
 /* ------------------------------------------------------------ card partial
    `variant` controls whether the lazy-loading hints are set for
    above-the-fold (eager) or below-the-fold (lazy) rendering. */
+const SUPPORT_LABELS = { side: 'Side dish', sauce: 'Sauce', condiment: 'Condiment', basic: 'Kitchen basic', bread: 'Bread' };
+
 function card(recipe, options = {}) {
   const img = recipe.imageData;
   const href = `${SITE.base}recipes/${recipe.slug}/`;
@@ -387,6 +397,8 @@ function card(recipe, options = {}) {
     : `<div class="img-fallback" role="img" aria-label="${esc(alt)}"><span>${esc(recipe.title)}</span></div>`;
 
   const badges = [`<span class="badge badge--glass">${esc(recipe.cuisine)}</span>`];
+  /* A side, a sauce or a rub filed under Dinner says what it is, not "Dinner". */
+  const kicker = recipe.role && !recipe.roleReview && SUPPORT_LABELS[recipe.role] ? SUPPORT_LABELS[recipe.role] : recipe.category;
   if (recipe.badges.includes('editors')) badges.push('<span class="badge badge--solid">Editor’s Pick</span>');
   else if (recipe.badges.includes('trending')) badges.push('<span class="badge badge--brass">Featured</span>');
 
@@ -406,7 +418,7 @@ function card(recipe, options = {}) {
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">${esc(recipe.category)}</span>
+    <span class="card-kicker">${esc(kicker)}</span>
     <h3><a href="${href}">${esc(recipe.title)}</a></h3>
     <p>${esc(recipe.cardBlurb)}</p>
     <div class="card-foot">
@@ -439,7 +451,8 @@ function newsletter(id = 'newsletter') {
      actually do is keep recipes, see the newest ones, or start from what is in the fridge. */
   return `<section class="newsletter reveal" id="${id}" aria-labelledby="${id}-title">
   <h2 id="${id}-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="${SITE.base}favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="${SITE.base}recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="${SITE.base}ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="${SITE.base}favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="${SITE.base}weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="${SITE.base}my-plan/">plan your own week</a> from what you have saved.</p>
+  ${require('./feedback').newsletterSignupHtml(id)}
 </section>`;
 }
 

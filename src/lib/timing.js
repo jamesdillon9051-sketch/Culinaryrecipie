@@ -46,7 +46,7 @@ const COOKS = /\b(bake|bakes|baking|roast|roasts|roasting|fry|fries|frying|deep-
 /* Waiting the recipe requires, as opposed to working. "Relax" and "come to
    room temperature" were missing, which is how a focaccia's two to three
    hours on the counter went uncounted. */
-const WAIT = /\b(chill|chilled|chilling|rest|rested|resting|refrigerate|refrigerated|marinate|marinated|marinating|prove|proved|proving|proof|proofed|proofing|rise|risen|rising|ferment|fermented|fermenting|soak|soaked|soaking|steep|steeped|brine|brined|cure|cured|curing|macerate|macerated|freeze|frozen|thaw|thawed|defrost|defrosted|leave|infuse|infused|hang|sprout|sprouted|mature|matured|maturing|stand|stands|standing|drain|drained|cool|cooled|cooling|relax|relaxed|relaxing|come to room temperature)\b/i;
+const WAIT = /\b(chill|chilled|chilling|rest|rested|resting|refrigerate|refrigerated|marinate|marinated|marinating|prove|proved|proving|proof|proofed|proofing|rise|risen|rising|ferment|fermented|fermenting|soak|soaked|soaking|steep|steeped|brine|brined|cure|cured|curing|macerate|macerated|freeze|frozen|thaw|thawed|defrost|defrosted|leave|infuse|infused|hang|sprout|sprouted|mature|matured|maturing|stand|stands|standing|drain|drained|cool|cooled|cooling|relax|relaxed|relaxing|come to room temperature|press|pressing)\b/i;
 /* Shelf life, optional extras and make-ahead notes are not part of making it. */
 /* "Serve" and "freezer" alone used to mark a storage note, which dropped "rest 15 minutes, then
    serve" and "transfer to the freezer for 90 minutes until slushy"; they count as storage only
@@ -99,6 +99,8 @@ function waitIn(raw) {
       .filter(m => !/ed$|^frozen$|^risen$/i.test(m[0]) && !/^\s*(?:side|part|zone|end|spot|place|area)\b/i.test(before.slice(m.index + m[0].length)))
       .map(m => m.index));
     if (COOKED.test(before) && !(waitAt > heatAt)) continue;
+    /* "Every 30 minutes, press the crust under" happens during cooking already counted. */
+    if (/\bevery\s+$/i.test(before)) continue;
     /* "Remove the brisket after 90 minutes" is time already spent. */
     if (/\bafter\s+$/i.test(before)) continue;
     /* "Cool completely, ideally overnight" promises the cooling, not the night. */
@@ -256,6 +258,8 @@ const LABELS = [
   [/\b(?:chill|refrigerat|fridge)/, 'chilling'], [/\b(?:freez|frozen)/, 'freezing'], [/\b(?:infus|steep)/, 'infusing'],
   [/\b(?:drain|hang|hung)/, 'draining'], [/\b(?:fold|folds|stretch)\b[^.]*\bapart\b/, 'resting between folds'], [/\bmacerat/, 'macerating'],
   [/\b(?:leave|left|allow\w*) (?:\w+ ){0,3}to set\b|\buntil (?:it is |they are )?set\b|\bset (?:at|in|for)\b/, 'setting'],
+  /* Last, so "press into the tin and leave to set" stays setting: only a press that is itself the wait. */
+  [/\bpress(?:ed|ing)?\b(?=[^.]{0,40}?(?:\bfor \d|\b\d+ minutes|\bunder\b|\bweight\b))(?![^.]{0,25}\binto\b)/, 'pressing'],
 ];
 /* Salt and nothing else, then a wait, is salting ("salt the aubergine and leave 30 minutes");
    meat or fish left with a seasoning mixture is marinating; a batter or dough left alone is
