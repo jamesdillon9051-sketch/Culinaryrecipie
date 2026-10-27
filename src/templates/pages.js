@@ -8,6 +8,7 @@ const { recipeCount, cuisineCount, imageCount, creditedImageCount,
         placeholderCount } = require('../data/stats');
 const ads = require('./ads');
 const CONSENT = require('../data/consent');
+const GROW = require('../data/grow');
 const { SITE, ICONS, layout, card, newsletter, breadcrumbs, breadcrumbSchema, slug } = require('./layout');
 
 /* --------------------------------------------------------------- helpers */
@@ -798,6 +799,9 @@ function privacy(ctx) {
   /* Whether any ad is on the page at all. With ads switched off the policy
      says so, and names Google Analytics as the only third-party script. */
   const ADS_ON = ads.ADS.enabled;
+  /* Grow by Mediavine (data/grow.js) is the other third-party script; the
+     page names it wherever it names Google Analytics, and only while it runs. */
+  const GROW_ON = GROW.enabled && GROW.siteId && !CONSENT.enabled;
 
   const body = `
 ${breadcrumbs(trail)}
@@ -820,12 +824,14 @@ ${breadcrumbs(trail)}
       <li>You can change your mind at any time with <a href="#" data-consent-reopen>Cookie settings</a>, at the foot of every page.</li>`
         : ADS_ON
         ? `<li>There is no consent banner. Analytics and advertising load with the page. A content blocker stops the analytics and may stop the ads, but the ad network serves them from addresses that change to get past blockers, so I cannot promise it will — the links further down turn each one off at the source.</li>`
-        : `<li>There is no consent banner. Google Analytics loads with the page; a content blocker stops it, and the link further down turns it off at the source.</li>
+        : `<li>There is no consent banner. ${GROW_ON
+          ? 'Google Analytics and Grow by Mediavine load with the page; a content blocker usually stops them, and the sections further down link to their own controls.'
+          : 'Google Analytics loads with the page; a content blocker stops it, and the link further down turns it off at the source.'}</li>
       <li>The site carries no advertising.</li>`}
       <li>The contact form is the only thing that sends anything to me, and only what you type into it.</li>
       <li>${ADS_ON
         ? 'Nothing on the site depends on either: if the analytics or the ads are blocked or fail to load, every recipe, the search and the timers work as before.'
-        : 'Nothing on the site depends on the analytics: if it is blocked or fails to load, every recipe, the search and the timers work as before.'}</li>
+        : `Nothing on the site depends on ${GROW_ON ? 'either of them: if they are' : 'the analytics: if it is'} blocked or fail${GROW_ON ? '' : 's'} to load, every recipe, the search and the timers work as before.`}</li>
     </ul>
 
     ${CONSENT.enabled ? `<h2>Consent, and what it controls</h2>
@@ -837,8 +843,8 @@ ${breadcrumbs(trail)}
     <p>If you do not want them, a content blocker is the usual way to stop them, and the site works perfectly without either — every recipe, the search, saved recipes, cook mode and the timers are unaffected. I would rather be plain about the ads, though: the network serves them from addresses that change, which is how it gets past some blockers, so a blocker may stop them or may not. The Analytics and Advertising sections below also link to the opt-outs Google and Adsterra provide, which work across every site that uses them, not just this one.</p>
     <p>The things this site stores for itself &mdash; your theme, your saved recipes, your reviews &mdash; are a separate matter. They never leave your device and exist only because you asked for them.</p>
 ` : `<h2>Cookies, and how to refuse them</h2>
-    <p>This site does not ask before loading its analytics script: it runs when the page does. I would rather say that plainly than imply a choice you were not given.</p>
-    <p>If you do not want it, a content blocker is the usual way to stop it, and the site works perfectly without it — every recipe, the search, saved recipes, cook mode and the timers are unaffected. The Analytics section below also links to the opt-out Google provides, which works across every site that uses Google Analytics, not just this one.</p>
+    <p>This site does not ask before loading ${GROW_ON ? 'its analytics script or Grow: they run' : 'its analytics script: it runs'} when the page does. I would rather say that plainly than imply a choice you were not given.</p>
+    <p>If you do not want ${GROW_ON ? 'them' : 'it'}, a content blocker is the usual way to stop ${GROW_ON ? 'them' : 'it'}, and the site works perfectly without ${GROW_ON ? 'either' : 'it'} — every recipe, the search, saved recipes, cook mode and the timers are unaffected. The Analytics section below also links to the opt-out Google provides, which works across every site that uses Google Analytics, not just this one.</p>
     <p>The things this site stores for itself &mdash; your theme, your saved recipes, your reviews &mdash; are a separate matter. They never leave your device and exist only because you asked for them.</p>
 `}
 
@@ -863,7 +869,11 @@ ${breadcrumbs(trail)}
     <p>${CONSENT.enabled ? '<strong>Only if you accepted.</strong> ' : ''}Google Analytics 4 counts visitors and shows me which recipes get read. It sets cookies, records your approximate location from your IP address, and notes your device, browser and the pages you open. It does not tell me who you are, and I never see an individual reader &mdash; only totals.</p>
     <p>Google is the data controller for what it collects. Its own explanation is in <a href="https://policies.google.com/technologies/partner-sites" rel="nofollow noopener" target="_blank">how Google uses data from sites that use its services</a>, and you can opt out everywhere at once with the <a href="https://tools.google.com/dlpage/gaoptout" rel="nofollow noopener" target="_blank">Google Analytics opt-out add-on</a>.</p>
 
-    <h2>Advertising</h2>
+    ${GROW_ON ? `<h2>Grow by Mediavine</h2>
+    <p>The site loads Grow, a script from Mediavine that offers its own tools for saving recipes and following the site. Mediavine runs it, not me: it may set cookies or use your browser's storage, and like any script fetched from another server it receives your IP address and basic details of your device and browser. If you create a Grow account or sign up for anything through it, what you give is held by Mediavine, not by this site.</p>
+    <p>Mediavine's <a href="https://www.mediavine.com/privacy-policy/" rel="nofollow noopener" target="_blank">Legal &amp; Privacy Center</a> explains what Grow collects and how to ask Mediavine to see or delete your information. The hearts and saved recipes built into this site are separate: they stay in your browser, as described above.</p>
+
+    ` : ''}<h2>Advertising</h2>
     ${ADS_ON ? `<p>${CONSENT.enabled ? '<strong>Only if you accepted.</strong> ' : ''}The site carries advertising, which is what pays for it. The ads are served by Adsterra, not by me: they choose what you see, and they may set cookies or similar identifiers to do it, including for personalised advertising. I do not receive your data from them and I cannot see who was shown what.${CONSENT.enabled ? ' If you refuse, no ad script is fetched and the ad slots stay empty.' : ''}</p>
     <p>Adsterra publishes its own <a href="https://adsterra.com/privacy-policy/" rel="nofollow noopener" target="_blank">privacy policy</a>, which governs that part of your visit. If you would rather not be tracked for advertising, a content blocker may stop it, though the ads are served from addresses that change to get past blockers, so it is not a guarantee. You can also turn off ad personalisation in <a href="https://myadcenter.google.com/" rel="nofollow noopener" target="_blank">Google's ad settings</a> for the Google side of the web.</p>`
     : `<p>The site carries no advertising. No ad network's script is loaded on any page, and nothing you do here is used to show you ads.</p>`}
@@ -883,7 +893,9 @@ ${breadcrumbs(trail)}
     <p>Unless you have sent me a message, I hold nothing about you at all: everything the site stores is already in your hands, and clearing your browser data removes it. If you have used the contact form, what I hold is that message, and you can ask me to delete it &mdash; reply to my email, or send a new message saying so, and it goes.</p>
     <p>${ADS_ON
       ? 'For the data Google and Adsterra collect, their policies above set out how to make a request to them, since they are the ones holding it.'
-      : 'For the data Google Analytics collects, the Google policy linked above sets out how to make a request, since Google is the one holding it.'}</p>
+      : GROW_ON
+        ? 'For the data Google Analytics and Grow collect, the Google and Mediavine policies linked above set out how to make a request, since they are the ones holding it.'
+        : 'For the data Google Analytics collects, the Google policy linked above sets out how to make a request, since Google is the one holding it.'}</p>
 
     <h2>Changes</h2>
     <p>If what the site does changes — a real newsletter, a working contact form, a different ad network — this page changes with it, and the date at the top moves. There is no archive of previous versions; the site is small enough that the current one is the only one that matters.</p>
@@ -900,7 +912,9 @@ ${breadcrumbs(trail)}
     title: 'Privacy & Cookies',
     description: ads.ADS.enabled
       ? `What ${SITE.name} stores, what it sends to Google Analytics and the ad network, and how to stop it. No accounts, no database, nothing on a server.`
-      : `What ${SITE.name} stores, what it sends to Google Analytics and how to stop it. No ads, no accounts, no database and nothing kept on a server.`,
+      : GROW.enabled && GROW.siteId && !CONSENT.enabled
+        ? `What ${SITE.name} stores, what it sends to Google Analytics and Grow by Mediavine, and how to stop it. No ads, no accounts and no database.`
+        : `What ${SITE.name} stores, what it sends to Google Analytics and how to stop it. No ads, no accounts, no database and nothing kept on a server.`,
     keywords: ['privacy policy', 'cookie policy', 'weekly delight privacy',
                'what data does this site collect', 'analytics and advertising cookies',
                'data protection', 'gdpr recipe site', 'personal data', 'third party cookies',

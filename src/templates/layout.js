@@ -6,6 +6,7 @@ const { recipeCount } = require('../data/stats');
 const ads = require('./ads');
 const ANALYTICS = require('../data/analytics');
 const CONSENT = require('../data/consent');
+const GROW = require('../data/grow');
 const ADS_CONFIG = require('../data/ads');
 
 /* Site-wide configuration. Override the origin at build time with SITE_URL. */
@@ -60,6 +61,25 @@ function analyticsTag() {
   return `<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=${id}"></script>
 <script src="${assetUrl('js/analytics.js')}" data-ga-id="${id}" defer></script>`;
+}
+
+/**
+ * Grow by Mediavine, in <head> where Mediavine's installation guide puts it.
+ *
+ * Mediavine's snippet exactly as the Grow dashboard issues it, with the site ID
+ * from ../data/grow.js. It is the one inline script the generator writes, and
+ * tools/check.js exempts it by its data-grow-initializer attribute: Grow's own
+ * installation check looks for that tag, so moving the code into a file of our
+ * own would risk the publisher dashboard not recognising the install. The
+ * snippet only queues calls and adds faves.grow.me/main.js as a deferred
+ * script, so it does not hold up rendering.
+ *
+ * Consent gating does not cover it yet: with gating on it is left out, and
+ * check.js then fails the build, so that switch cannot drop Grow unnoticed.
+ */
+function growTag() {
+  if (!GROW.enabled || !GROW.siteId || CONSENT.enabled) return '';
+  return `<script data-grow-initializer="">!(function(){window.growMe||((window.growMe=function(e){window.growMe._.push(e);}),(window.growMe._=[]));var e=document.createElement("script");(e.type="text/javascript"),(e.src="https://faves.grow.me/main.js"),(e.defer=!0),e.setAttribute("data-grow-faves-site-id","${GROW.siteId}");var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t);})();</script>`;
 }
 
 /**
@@ -304,6 +324,7 @@ ${page.preload ? page.preload.map(p => `<link rel="preload" href="${p.href}" as=
 <script src="${assetUrl('js/theme.js')}"></script>
 ${schemaBlocks}
 ${analyticsTag()}
+${growTag()}
 </head>
 <body class="${page.bodyClass || ''}" data-base="${SITE.base}">
 <a class="skip-link" href="#main">Skip to content</a>
