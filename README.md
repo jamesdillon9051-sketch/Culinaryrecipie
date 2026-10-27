@@ -8,7 +8,7 @@ Built from scratch with vanilla HTML, CSS and JavaScript. No framework, no build
 tooling beyond Node's standard library, no runtime dependencies.
 
 ```
-5455 recipes · 92 cuisines · 10 categories · 5817 static pages · 0 npm dependencies
+5455 recipes · 92 cuisines · 10 categories · 5814 static pages · 0 npm dependencies
 ```
 
 ---

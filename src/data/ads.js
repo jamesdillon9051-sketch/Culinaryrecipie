@@ -39,7 +39,11 @@
  * lighter — but nothing breaks if you never do.
  */
 module.exports = {
-  enabled: true,
+  /* Off on 27 October 2026, at the owner's request to remove all ads from the
+     site. Every slot, script and framed ad document goes with it, and the
+     privacy page says the site carries no advertising. The units below are
+     kept as they were, so setting this back to true restores them exactly. */
+  enabled: false,
 
   /**
    * Lines of /ads.txt, served at the site root. Google AdSense reads it to
