@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 <link rel="preload" href="/assets/img/recipes/special-burger-sauce.webp" as="image" type="image/webp" fetchpriority="high">
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -89,6 +89,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -117,12 +118,12 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/quick-meals/">Quick Meals</a></li><li><a href="/categories/quick-meals/american/">American Quick Meal</a></li><li><span aria-current="page">Special Burger Sauce</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="special-burger-sauce" data-servings="8"
+  <article data-recipe="special-burger-sauce" data-servings="8" data-scale="cook"
            data-image="https://weeklydelight.com/assets/img/recipes/special-burger-sauce.jpg">
 
     <div class="recipe-masthead">
       <header class="recipe-head">
-        <span class="eyebrow">American &middot; Quick Meals</span>
+        <span class="eyebrow">American &middot; Quick Meals &middot; Sauce or gravy</span>
         <h1>Special Burger Sauce</h1>
         <p class="lede">A tangy, creamy, slightly sweet sauce of mayonnaise, ketchup, mustard and pickle relish that turns any burger into a drive-through burger. Made in a bowl in five minutes.</p>
 
@@ -178,6 +179,7 @@
             <output data-servings-out aria-live="polite">8</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 8 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -237,6 +239,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">5 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Easy</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">American</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Sauce or gravy</dd>
           </dl>
         </div>
 
@@ -270,6 +273,10 @@
         
 
         <h2 id="method">Special Burger Sauce: Step by Step</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li>This is a sauce, not a meal on its own. The serving suggestions below say what it goes with.</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -308,6 +315,8 @@
         
       </div>
     </li></ol>
+        
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=special-burger-sauce&amp;v=752fb67dff99" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <h2>What Can Go Wrong</h2>
         <ol class="tips-numbered"><li>Chop the relish finer if it is chunky. A smooth sauce coats the bun better, and larger pieces slide off the burger.</li><li>Adjust the pickle brine to change the thickness. A teaspoon at a time thins it for a squeeze bottle without watering down the flavour.</li><li>Use a good mayonnaise. It is the base of the sauce and its flavour comes through, so a cheap one tastes flat.</li></ol>
@@ -372,6 +381,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -386,7 +396,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=special-burger-sauce&amp;v=752fb67dff99" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-09-30">30 September 2026</time>; last changed <time datetime="2026-10-20">20 October 2026</time>.</p>
         </div>
       </div>
@@ -404,6 +415,66 @@
         <a class="btn btn--ghost" href="/categories/quick-meals/american/">All american quick meal recipes</a>
       </div>
       <div class="related-grid"><article class="card reveal">
+  <div class="card-media" style="background:#8a6559">
+    <picture>
+        <source srcset="/assets/img/recipes/bbq-sauce.webp" type="image/webp">
+        <img src="/assets/img/recipes/bbq-sauce.jpg" alt="BBQ Sauce"
+             width="800" height="600" data-fade data-title="BBQ Sauce"
+             data-ph-a="#8a6559" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">American</span></div>
+    <button class="fav-btn" type="button" data-slug="bbq-sauce" data-title="BBQ Sauce"
+            aria-pressed="false" aria-label="Save BBQ Sauce to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>5m</dd></div>
+        <div><dt>Cook</dt><dd>20m</dd></div>
+        <div><dt>Serves</dt><dd>8</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/bbq-sauce/" aria-label="Quick view: BBQ Sauce">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Sauce</span>
+    <h3><a href="/recipes/bbq-sauce/">BBQ Sauce</a></h3>
+    <p>A thick, glossy barbecue sauce of ketchup, cider vinegar, brown sugar, treacle and smoked paprika, simmered until it…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>25 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#a5886f">
+    <picture>
+        <source srcset="/assets/img/recipes/brown-gravy.webp" type="image/webp">
+        <img src="/assets/img/recipes/brown-gravy.jpg" alt="Brown Gravy"
+             width="800" height="600" data-fade data-title="Brown Gravy"
+             data-ph-a="#a5886f" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">American</span></div>
+    <button class="fav-btn" type="button" data-slug="brown-gravy" data-title="Brown Gravy"
+            aria-pressed="false" aria-label="Save Brown Gravy to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>5m</dd></div>
+        <div><dt>Cook</dt><dd>15m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/brown-gravy/" aria-label="Quick view: Brown Gravy">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Sauce</span>
+    <h3><a href="/recipes/brown-gravy/">Brown Gravy</a></h3>
+    <p>A rich, glossy brown gravy made from a butter and flour roux browned to a nutty colour and beef stock, with no pan…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>20 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
   <div class="card-media" style="background:var(--bg-sunken)">
     <div class="img-fallback" role="img" aria-label="Ranch Seasoning"><span>Ranch Seasoning</span></div>
     <div class="card-badges"><span class="badge badge--glass">American</span></div>
@@ -419,7 +490,7 @@
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Quick Meals</span>
+    <span class="card-kicker">Condiment</span>
     <h3><a href="/recipes/ranch-seasoning/">Ranch Seasoning</a></h3>
     <p>The dry mix of dried parsley, dill, chives, garlic, onion and buttermilk powder that makes ranch dressing and dip in…</p>
     <div class="card-foot">
@@ -443,7 +514,7 @@
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Quick Meals</span>
+    <span class="card-kicker">Condiment</span>
     <h3><a href="/recipes/cajun-seasoning/">Cajun Seasoning</a></h3>
     <p>The Louisiana spice blend of paprika, cayenne, garlic, onion, black and white pepper, oregano and thyme, for…</p>
     <div class="card-foot">
@@ -452,123 +523,63 @@
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#8a6559">
+  <div class="card-media" style="background:#aa7e78">
     <picture>
-        <source srcset="/assets/img/recipes/bbq-sauce.webp" type="image/webp">
-        <img src="/assets/img/recipes/bbq-sauce.jpg" alt="BBQ Sauce"
-             width="800" height="600" data-fade data-title="BBQ Sauce"
-             data-ph-a="#8a6559" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/homemade-ketchup.webp" type="image/webp">
+        <img src="/assets/img/recipes/homemade-ketchup.jpg" alt="Homemade Ketchup"
+             width="800" height="600" data-fade data-title="Homemade Ketchup"
+             data-ph-a="#aa7e78" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="bbq-sauce" data-title="BBQ Sauce"
-            aria-pressed="false" aria-label="Save BBQ Sauce to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="homemade-ketchup" data-title="Homemade Ketchup"
+            aria-pressed="false" aria-label="Save Homemade Ketchup to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>5m</dd></div>
         <div><dt>Cook</dt><dd>20m</dd></div>
-        <div><dt>Serves</dt><dd>8</dd></div>
+        <div><dt>Serves</dt><dd>15</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/bbq-sauce/" aria-label="Quick view: BBQ Sauce">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/homemade-ketchup/" aria-label="Quick view: Homemade Ketchup">Quick view</a>
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Quick Meals</span>
-    <h3><a href="/recipes/bbq-sauce/">BBQ Sauce</a></h3>
-    <p>A thick, glossy barbecue sauce of ketchup, cider vinegar, brown sugar, treacle and smoked paprika, simmered until it…</p>
+    <span class="card-kicker">Condiment</span>
+    <h3><a href="/recipes/homemade-ketchup/">Homemade Ketchup</a></h3>
+    <p>Thick, glossy tomato ketchup made from tomato paste, cider vinegar, brown sugar and warm spices, simmered in a…</p>
     <div class="card-foot">
       
       <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>25 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#a1594c">
+  <div class="card-media" style="background:#d09c6a">
     <picture>
-        <source srcset="/assets/img/recipes/grilled-hot-dogs.webp" type="image/webp">
-        <img src="/assets/img/recipes/grilled-hot-dogs.jpg" alt="Grilled Hot Dogs"
-             width="800" height="600" data-fade data-title="Grilled Hot Dogs"
-             data-ph-a="#a1594c" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/tartar-sauce.webp" type="image/webp">
+        <img src="/assets/img/recipes/tartar-sauce.jpg" alt="Tartar Sauce"
+             width="800" height="600" data-fade data-title="Tartar Sauce"
+             data-ph-a="#d09c6a" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="grilled-hot-dogs" data-title="Grilled Hot Dogs"
-            aria-pressed="false" aria-label="Save Grilled Hot Dogs to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="tartar-sauce" data-title="Tartar Sauce"
+            aria-pressed="false" aria-label="Save Tartar Sauce to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
-        <div><dt>Prep</dt><dd>2m</dd></div>
-        <div><dt>Cook</dt><dd>8m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/grilled-hot-dogs/" aria-label="Quick view: Grilled Hot Dogs">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Quick Meals</span>
-    <h3><a href="/recipes/grilled-hot-dogs/">Grilled Hot Dogs</a></h3>
-    <p>Frankfurters grilled for 8 minutes until blistered, served in toasted buns with onion and mustard. Four servings in…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>10 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#938a5f">
-    <picture>
-        <source srcset="/assets/img/recipes/cajun-salmon.webp" type="image/webp">
-        <img src="/assets/img/recipes/cajun-salmon.jpg" alt="Cajun Salmon"
-             width="800" height="600" data-fade data-title="Cajun Salmon"
-             data-ph-a="#938a5f" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="cajun-salmon" data-title="Cajun Salmon"
-            aria-pressed="false" aria-label="Save Cajun Salmon to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>5m</dd></div>
-        <div><dt>Cook</dt><dd>12m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/cajun-salmon/" aria-label="Quick view: Cajun Salmon">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Quick Meals</span>
-    <h3><a href="/recipes/cajun-salmon/">Cajun Salmon</a></h3>
-    <p>Salmon fillets coated in a smoky Cajun spice rub and pan-seared for 10 minutes until the crust is dark and the…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>17 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#97885b">
-    <picture>
-        <source srcset="/assets/img/recipes/french-dressing.webp" type="image/webp">
-        <img src="/assets/img/recipes/french-dressing.jpg" alt="French Dressing"
-             width="800" height="600" data-fade data-title="French Dressing"
-             data-ph-a="#97885b" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="french-dressing" data-title="French Dressing"
-            aria-pressed="false" aria-label="Save French Dressing to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>5m</dd></div>
+        <div><dt>Prep</dt><dd>10m</dd></div>
         <div><dt>Cook</dt><dd>0m</dd></div>
         <div><dt>Serves</dt><dd>8</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/french-dressing/" aria-label="Quick view: French Dressing">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/tartar-sauce/" aria-label="Quick view: Tartar Sauce">Quick view</a>
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Quick Meals</span>
-    <h3><a href="/recipes/french-dressing/">French Dressing</a></h3>
-    <p>The sweet, tangy, orange-red American salad dressing made from oil, vinegar, ketchup, sugar and paprika, shaken in a…</p>
+    <span class="card-kicker">Sauce</span>
+    <h3><a href="/recipes/tartar-sauce/">Tartar Sauce</a></h3>
+    <p>Mayonnaise mixed with chopped gherkins, capers, shallot, lemon juice and fresh herbs. The creamy, tangy sauce for…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>5 min <i>&middot;</i> Easy</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>40 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article></div>
@@ -578,7 +589,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -599,12 +611,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -624,8 +639,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

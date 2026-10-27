@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 <link rel="preload" href="/assets/img/recipes/protein-muffins.webp" as="image" type="image/webp" fetchpriority="high">
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -89,6 +89,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -117,7 +118,7 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/healthy/">Healthy</a></li><li><a href="/categories/healthy/american/">American Healthy</a></li><li><span aria-current="page">Protein Muffins</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="protein-muffins" data-servings="12"
+  <article data-recipe="protein-muffins" data-servings="12" data-scale="cook"
            data-image="https://weeklydelight.com/assets/img/recipes/protein-muffins.jpg">
 
     <div class="recipe-masthead">
@@ -178,6 +179,7 @@
             <output data-servings-out aria-live="polite">12</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 12 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -245,6 +247,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">32 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Easy</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">American</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Breakfast dish</dd>
           </dl>
         </div>
 
@@ -281,6 +284,10 @@
         
 
         <h2 id="method">Protein Muffins: The Method</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li>You will need: oven, cake or loaf tin, blender, skewers.</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -340,6 +347,8 @@
         
       </div>
     </li></ol>
+        
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=protein-muffins&amp;v=8fcf87f368f0" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <h2>Worth Knowing</h2>
         <ul><li>Use very ripe bananas. They supply both sweetness and moisture.</li><li>Fold gently and stop as soon as the flour disappears.</li><li>Frozen blueberries go in straight from the freezer so they do not bleed.</li></ul>
@@ -401,6 +410,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -415,7 +425,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=protein-muffins&amp;v=8fcf87f368f0" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-09-28">28 September 2026</time>; last changed <time datetime="2026-10-20">20 October 2026</time>.</p>
         </div>
       </div>
@@ -493,96 +504,6 @@
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#8a7866">
-    <picture>
-        <source srcset="/assets/img/recipes/protein-balls.webp" type="image/webp">
-        <img src="/assets/img/recipes/protein-balls.jpg" alt="Protein Balls"
-             width="800" height="600" data-fade data-title="Protein Balls"
-             data-ph-a="#8a7866" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="protein-balls" data-title="Protein Balls"
-            aria-pressed="false" aria-label="Save Protein Balls to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>0m</dd></div>
-        <div><dt>Serves</dt><dd>16</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/protein-balls/" aria-label="Quick view: Protein Balls">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Healthy</span>
-    <h3><a href="/recipes/protein-balls/">Protein Balls</a></h3>
-    <p>Rolled oats, peanut butter, honey and vanilla protein powder mixed and rolled into small chocolate-studded balls.</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>45 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#8d7b77">
-    <picture>
-        <source srcset="/assets/img/recipes/protein-bars.webp" type="image/webp">
-        <img src="/assets/img/recipes/protein-bars.jpg" alt="Protein Bars"
-             width="800" height="600" data-fade data-title="Protein Bars"
-             data-ph-a="#8d7b77" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="protein-bars" data-title="Protein Bars"
-            aria-pressed="false" aria-label="Save Protein Bars to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>0m</dd></div>
-        <div><dt>Serves</dt><dd>10</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/protein-bars/" aria-label="Quick view: Protein Bars">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Healthy</span>
-    <h3><a href="/recipes/protein-bars/">Protein Bars</a></h3>
-    <p>Chewy bars of oats, protein powder, peanut butter and honey pressed into a tin and chilled for 1 hour, with dark…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>75 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#7d6f73">
-    <picture>
-        <source srcset="/assets/img/recipes/banana-ice-cream.webp" type="image/webp">
-        <img src="/assets/img/recipes/banana-ice-cream.jpg" alt="Banana Ice Cream"
-             width="800" height="600" data-fade data-title="Banana Ice Cream"
-             data-ph-a="#7d6f73" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="banana-ice-cream" data-title="Banana Ice Cream"
-            aria-pressed="false" aria-label="Save Banana Ice Cream to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>10m</dd></div>
-        <div><dt>Cook</dt><dd>0m</dd></div>
-        <div><dt>Serves</dt><dd>2</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/banana-ice-cream/" aria-label="Quick view: Banana Ice Cream">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Healthy</span>
-    <h3><a href="/recipes/banana-ice-cream/">Banana Ice Cream</a></h3>
-    <p>Frozen ripe bananas blended until they turn into a smooth, creamy soft serve, with a little milk and vanilla. No…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>4 hr <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
   <div class="card-media" style="background:#927d6c">
     <picture>
         <source srcset="/assets/img/recipes/oatmeal-muffins.webp" type="image/webp">
@@ -612,6 +533,96 @@
       <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>65 min <i>&middot;</i> Easy</span>
     </div>
   </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#908139">
+    <picture>
+        <source srcset="/assets/img/recipes/peanut-butter-muffins.webp" type="image/webp">
+        <img src="/assets/img/recipes/peanut-butter-muffins.jpg" alt="Peanut Butter Muffins"
+             width="800" height="600" data-fade data-title="Peanut Butter Muffins"
+             data-ph-a="#908139" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">American</span></div>
+    <button class="fav-btn" type="button" data-slug="peanut-butter-muffins" data-title="Peanut Butter Muffins"
+            aria-pressed="false" aria-label="Save Peanut Butter Muffins to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>10m</dd></div>
+        <div><dt>Cook</dt><dd>20m</dd></div>
+        <div><dt>Serves</dt><dd>12</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/peanut-butter-muffins/" aria-label="Quick view: Peanut Butter Muffins">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Breakfast</span>
+    <h3><a href="/recipes/peanut-butter-muffins/">Peanut Butter Muffins</a></h3>
+    <p>Moist peanut butter muffins with a hint of banana and a crunchy peanut topping, baked for 20 minutes.</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>30 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#aa9274">
+    <picture>
+        <source srcset="/assets/img/recipes/overnight-oats.webp" type="image/webp">
+        <img src="/assets/img/recipes/overnight-oats.jpg" alt="Overnight Oats"
+             width="800" height="600" data-fade data-title="Overnight Oats"
+             data-ph-a="#aa9274" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">International</span></div>
+    <button class="fav-btn" type="button" data-slug="overnight-oats" data-title="Overnight Oats"
+            aria-pressed="false" aria-label="Save Overnight Oats to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>10m</dd></div>
+        <div><dt>Cook</dt><dd>0m</dd></div>
+        <div><dt>Serves</dt><dd>2</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/overnight-oats/" aria-label="Quick view: Overnight Oats">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Healthy</span>
+    <h3><a href="/recipes/overnight-oats/">Overnight Oats</a></h3>
+    <p>Oats, milk, yogurt and chia soaked overnight into something thick and creamy, ready to eat straight from the jar…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>6 hr <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#a79d93">
+    <picture>
+        <source srcset="/assets/img/recipes/banana-muffins.webp" type="image/webp">
+        <img src="/assets/img/recipes/banana-muffins.jpg" alt="Banana Muffins"
+             width="800" height="600" data-fade data-title="Banana Muffins"
+             data-ph-a="#a79d93" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">American</span></div>
+    <button class="fav-btn" type="button" data-slug="banana-muffins" data-title="Banana Muffins"
+            aria-pressed="false" aria-label="Save Banana Muffins to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>15m</dd></div>
+        <div><dt>Cook</dt><dd>22m</dd></div>
+        <div><dt>Serves</dt><dd>12</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/banana-muffins/" aria-label="Quick view: Banana Muffins">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Breakfast</span>
+    <h3><a href="/recipes/banana-muffins/">Banana Muffins</a></h3>
+    <p>Tall, domed banana muffins with a moist crumb and a sugared top, started hot for a high rise. Thirty-seven minutes.</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>37 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
 </article></div>
       <p class="related-more">Browse more: <a href="/categories/healthy/">all healthy recipes</a>
         or <a href="/cuisines/american/">all American recipes</a>.</p>
@@ -619,7 +630,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -640,12 +652,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -665,8 +680,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

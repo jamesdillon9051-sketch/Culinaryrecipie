@@ -2,6 +2,138 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://weeklydelight.com/recipes/avgolemono-soup/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/avgolemono-soup.jpg</image:loc>
+      <image:title>Avgolemono Soup</image:title>
+      <image:caption>Avgolemono Soup</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/baklava/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/baklava.jpg</image:loc>
+      <image:title>Pistachio Baklava</image:title>
+      <image:caption>Pistachio Baklava</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/pad-thai/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pad-thai.jpg</image:loc>
+      <image:title>Pad Thai</image:title>
+      <image:caption>Pad Thai</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/thai-green-curry/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/thai-green-curry.jpg</image:loc>
+      <image:title>Thai Green Curry</image:title>
+      <image:caption>Thai Green Curry</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/massaman-curry/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/massaman-curry.jpg</image:loc>
+      <image:title>Massaman Beef Curry</image:title>
+      <image:caption>Massaman Beef Curry</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/pad-kra-pao/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pad-kra-pao.jpg</image:loc>
+      <image:title>Pad Kra Pao (Thai Basil Chicken)</image:title>
+      <image:caption>Pad Kra Pao (Thai Basil Chicken)</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/tom-yum-goong/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tom-yum-goong.jpg</image:loc>
+      <image:title>Tom Yum Goong</image:title>
+      <image:caption>Tom Yum Goong</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/tom-kha-gai/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tom-kha-gai.jpg</image:loc>
+      <image:title>Tom Kha Gai</image:title>
+      <image:caption>Tom Kha Gai</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/som-tam/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/som-tam.jpg</image:loc>
+      <image:title>Som Tam (Green Papaya Salad)</image:title>
+      <image:caption>Som Tam (Green Papaya Salad)</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/thai-fried-rice/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/thai-fried-rice.jpg</image:loc>
+      <image:title>Thai Pineapple Fried Rice</image:title>
+      <image:caption>Thai Pineapple Fried Rice</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/mango-sticky-rice/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mango-sticky-rice.jpg</image:loc>
+      <image:title>Mango Sticky Rice</image:title>
+      <image:caption>Mango Sticky Rice</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/hummus/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/hummus.jpg</image:loc>
+      <image:title>Silky Hummus</image:title>
+      <image:caption>Silky Hummus</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://weeklydelight.com/recipes/falafel/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -5030,7 +5162,7 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tofu-edamame-stir-fry/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -5202,127 +5334,6 @@
       <image:loc>https://weeklydelight.com/assets/img/recipes/seared-tuna-nicoise.jpg</image:loc>
       <image:title>Seared Tuna Niçoise</image:title>
       <image:caption>Seared Tuna Niçoise</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/cauliflower-chicken-fried-rice/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/cauliflower-chicken-fried-rice.jpg</image:loc>
-      <image:title>Chicken Cauliflower Fried Rice</image:title>
-      <image:caption>Chicken Cauliflower Fried Rice</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/baked-eggs-spinach-feta/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/baked-eggs-spinach-feta.jpg</image:loc>
-      <image:title>Baked Eggs with Spinach and Feta</image:title>
-      <image:caption>Baked Eggs with Spinach and Feta</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/kutia/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/kutia.jpg</image:loc>
-      <image:title>Kutia</image:title>
-      <image:caption>Kutia</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/vanocka/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/vanocka.jpg</image:loc>
-      <image:title>Vánočka</image:title>
-      <image:caption>Vánočka</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/julekake/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/julekake.jpg</image:loc>
-      <image:title>Julekake</image:title>
-      <image:caption>Julekake</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/joulutorttu/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/joulutorttu.jpg</image:loc>
-      <image:title>Joulutorttu</image:title>
-      <image:caption>Joulutorttu</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/cozonac/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/cozonac.jpg</image:loc>
-      <image:title>Cozonac</image:title>
-      <image:caption>Cozonac</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/pan-de-jamon/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/pan-de-jamon.jpg</image:loc>
-      <image:title>Pan de Jamón</image:title>
-      <image:caption>Pan de Jamón</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/bibingka/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/bibingka.jpg</image:loc>
-      <image:title>Bibingka</image:title>
-      <image:caption>Bibingka</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/stollen/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/stollen.jpg</image:loc>
-      <image:title>Christstollen</image:title>
-      <image:caption>Christstollen</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/salep/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/salep.jpg</image:loc>
-      <image:title>Salep</image:title>
-      <image:caption>Salep</image:caption>
     </image:image>
   </url>
 </urlset>

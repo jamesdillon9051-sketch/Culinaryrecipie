@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 <link rel="preload" href="/assets/img/recipes/romesco-sauce.webp" as="image" type="image/webp" fetchpriority="high">
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -89,6 +89,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -117,12 +118,12 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/dinner/">Dinner</a></li><li><a href="/categories/dinner/spanish/">Spanish Dinner</a></li><li><span aria-current="page">Romesco Sauce</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="romesco-sauce" data-servings="6"
+  <article data-recipe="romesco-sauce" data-servings="6" data-scale="cook"
            data-image="https://weeklydelight.com/assets/img/recipes/romesco-sauce.jpg">
 
     <div class="recipe-masthead">
       <header class="recipe-head">
-        <span class="eyebrow">Spanish &middot; Dinner</span>
+        <span class="eyebrow">Spanish &middot; Dinner &middot; Sauce or gravy</span>
         <h1>Romesco Sauce</h1>
         <p class="lede">A thick sauce of roasted red peppers, almonds, tomatoes, garlic, smoked paprika, sherry vinegar and olive oil.</p>
 
@@ -178,6 +179,7 @@
             <output data-servings-out aria-live="polite">6</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 6 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -233,6 +235,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">35 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Medium</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">Spanish</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Sauce or gravy</dd>
           </dl>
         </div>
 
@@ -273,6 +276,10 @@
         
 
         <h2 id="method">The Method for Romesco Sauce</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li>You will need: oven, blender.</li><li>This is a sauce, not a meal on its own. The serving suggestions below say what it goes with.</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -304,6 +311,8 @@
         
       </div>
     </li></ol>
+        
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=romesco-sauce&amp;v=4018ddc853b7" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <h2>Worth Getting Right</h2>
         <ul><li>Toast the almonds.</li><li>Cover the peppers so the skins slip off.</li><li>If your oven runs hot, check at 15 minutes.</li><li>Add the oil slowly.</li></ul>
@@ -366,6 +375,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -380,7 +390,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=romesco-sauce&amp;v=4018ddc853b7" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-10-08">8 October 2026</time>; last changed <time datetime="2026-10-20">20 October 2026</time>.</p>
         </div>
       </div>
@@ -419,7 +430,7 @@
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Dinner</span>
+    <span class="card-kicker">Side dish</span>
     <h3><a href="/recipes/pisto/">Pisto</a></h3>
     <p>A Spanish vegetable stew of courgette, pepper, onion and tomato slowly cooked in olive oil until soft and sweet.</p>
     <div class="card-foot">
@@ -428,153 +439,153 @@
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#b59383">
+  <div class="card-media" style="background:#807a6d">
     <picture>
-        <source srcset="/assets/img/recipes/chorizo-and-potato-stew.webp" type="image/webp">
-        <img src="/assets/img/recipes/chorizo-and-potato-stew.jpg" alt="Chorizo and Potato Stew"
-             width="800" height="600" data-fade data-title="Chorizo and Potato Stew"
-             data-ph-a="#b59383" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/marinara-sauce.webp" type="image/webp">
+        <img src="/assets/img/recipes/marinara-sauce.jpg" alt="Marinara Sauce"
+             width="800" height="600" data-fade data-title="Marinara Sauce"
+             data-ph-a="#807a6d" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
-    <div class="card-badges"><span class="badge badge--glass">Spanish</span></div>
-    <button class="fav-btn" type="button" data-slug="chorizo-and-potato-stew" data-title="Chorizo and Potato Stew"
-            aria-pressed="false" aria-label="Save Chorizo and Potato Stew to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>35m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/chorizo-and-potato-stew/" aria-label="Quick view: Chorizo and Potato Stew">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/chorizo-and-potato-stew/">Chorizo and Potato Stew</a></h3>
-    <p>Spanish chorizo, potatoes, peppers and tomato simmered with smoked paprika into a thick, brick-red stew, finished…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>50 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#8e7f68">
-    <picture>
-        <source srcset="/assets/img/recipes/mussels-with-chorizo.webp" type="image/webp">
-        <img src="/assets/img/recipes/mussels-with-chorizo.jpg" alt="Mussels with Chorizo"
-             width="800" height="600" data-fade data-title="Mussels with Chorizo"
-             data-ph-a="#8e7f68" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Spanish</span></div>
-    <button class="fav-btn" type="button" data-slug="mussels-with-chorizo" data-title="Mussels with Chorizo"
-            aria-pressed="false" aria-label="Save Mussels with Chorizo to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="card-badges"><span class="badge badge--glass">Italian</span></div>
+    <button class="fav-btn" type="button" data-slug="marinara-sauce" data-title="Marinara Sauce"
+            aria-pressed="false" aria-label="Save Marinara Sauce to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>10m</dd></div>
-        <div><dt>Cook</dt><dd>12m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
+        <div><dt>Cook</dt><dd>30m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/mussels-with-chorizo/" aria-label="Quick view: Mussels with Chorizo">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/marinara-sauce/" aria-label="Quick view: Marinara Sauce">Quick view</a>
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/mussels-with-chorizo/">Mussels with Chorizo</a></h3>
-    <p>Mussels steamed open in a pan with fried chorizo, garlic, tomato and white wine, finished with parsley.</p>
+    <span class="card-kicker">Sauce</span>
+    <h3><a href="/recipes/marinara-sauce/">Marinara Sauce</a></h3>
+    <p>Whole tinned tomatoes crushed by hand and simmered with garlic, olive oil and basil until sweet and just thick…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>22 min <i>&middot;</i> Easy</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>40 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#7a6f63">
+  <div class="card-media" style="background:#b88f35">
     <picture>
-        <source srcset="/assets/img/recipes/arroz-negro.webp" type="image/webp">
-        <img src="/assets/img/recipes/arroz-negro.jpg" alt="Arroz Negro"
-             width="800" height="600" data-fade data-title="Arroz Negro"
-             data-ph-a="#7a6f63" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/patatas-a-lo-pobre.webp" type="image/webp">
+        <img src="/assets/img/recipes/patatas-a-lo-pobre.jpg" alt="Patatas a lo Pobre"
+             width="800" height="600" data-fade data-title="Patatas a lo Pobre"
+             data-ph-a="#b88f35" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">Spanish</span></div>
-    <button class="fav-btn" type="button" data-slug="arroz-negro" data-title="Arroz Negro"
-            aria-pressed="false" aria-label="Save Arroz Negro to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="patatas-a-lo-pobre" data-title="Patatas a lo Pobre"
+            aria-pressed="false" aria-label="Save Patatas a lo Pobre to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
-        <div><dt>Prep</dt><dd>20m</dd></div>
-        <div><dt>Cook</dt><dd>40m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/arroz-negro/" aria-label="Quick view: Arroz Negro">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/arroz-negro/">Arroz Negro</a></h3>
-    <p>Black rice coloured and flavoured with squid ink, cooked with squid and sofrito in a wide pan and served with alioli.</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>60 min <i>&middot;</i> Medium</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#a18f72">
-    <picture>
-        <source srcset="/assets/img/recipes/marmitako.webp" type="image/webp">
-        <img src="/assets/img/recipes/marmitako.jpg" alt="Marmitako"
-             width="800" height="600" data-fade data-title="Marmitako"
-             data-ph-a="#a18f72" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Spanish</span></div>
-    <button class="fav-btn" type="button" data-slug="marmitako" data-title="Marmitako"
-            aria-pressed="false" aria-label="Save Marmitako to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>20m</dd></div>
+        <div><dt>Prep</dt><dd>10m</dd></div>
         <div><dt>Cook</dt><dd>35m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/marmitako/" aria-label="Quick view: Marmitako">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/patatas-a-lo-pobre/" aria-label="Quick view: Patatas a lo Pobre">Quick view</a>
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/marmitako/">Marmitako</a></h3>
-    <p>A Basque stew of fresh tuna, potatoes, peppers and tomato cooked in a light fish stock, finished with the tuna just…</p>
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/patatas-a-lo-pobre/">Patatas a lo Pobre</a></h3>
+    <p>Potatoes, onions and green peppers cooked slowly together in plenty of olive oil until soft, golden and sweet, a…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>55 min <i>&middot;</i> Easy</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>45 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#907a63">
+  <div class="card-media" style="background:#9f7a6a">
     <picture>
-        <source srcset="/assets/img/recipes/paella-mixta.webp" type="image/webp">
-        <img src="/assets/img/recipes/paella-mixta.jpg" alt="Paella Mixta"
-             width="800" height="600" data-fade data-title="Paella Mixta"
-             data-ph-a="#907a63" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/arrabbiata-sauce.webp" type="image/webp">
+        <img src="/assets/img/recipes/arrabbiata-sauce.jpg" alt="Arrabbiata Sauce"
+             width="800" height="600" data-fade data-title="Arrabbiata Sauce"
+             data-ph-a="#9f7a6a" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
-    <div class="card-badges"><span class="badge badge--glass">Spanish</span></div>
-    <button class="fav-btn" type="button" data-slug="paella-mixta" data-title="Paella Mixta"
-            aria-pressed="false" aria-label="Save Paella Mixta to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="card-badges"><span class="badge badge--glass">Italian</span></div>
+    <button class="fav-btn" type="button" data-slug="arrabbiata-sauce" data-title="Arrabbiata Sauce"
+            aria-pressed="false" aria-label="Save Arrabbiata Sauce to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
-        <div><dt>Prep</dt><dd>25m</dd></div>
-        <div><dt>Cook</dt><dd>45m</dd></div>
-        <div><dt>Serves</dt><dd>6</dd></div>
+        <div><dt>Prep</dt><dd>5m</dd></div>
+        <div><dt>Cook</dt><dd>20m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/paella-mixta/" aria-label="Quick view: Paella Mixta">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/arrabbiata-sauce/" aria-label="Quick view: Arrabbiata Sauce">Quick view</a>
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/paella-mixta/">Paella Mixta</a></h3>
-    <p>Rice cooked in a wide pan with chicken, prawns, mussels and green beans in a saffron stock until it forms a toasted…</p>
+    <span class="card-kicker">Sauce</span>
+    <h3><a href="/recipes/arrabbiata-sauce/">Arrabbiata Sauce</a></h3>
+    <p>Tinned tomatoes simmered for 20 minutes with garlic, chilli and olive oil into a fiery Italian sauce. Four servings…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>70 min <i>&middot;</i> Medium</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>25 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#6f8b74">
+    <picture>
+        <source srcset="/assets/img/recipes/espinacas-a-la-catalana.webp" type="image/webp">
+        <img src="/assets/img/recipes/espinacas-a-la-catalana.jpg" alt="Espinacas a la Catalana"
+             width="800" height="600" data-fade data-title="Espinacas a la Catalana"
+             data-ph-a="#6f8b74" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Spanish</span></div>
+    <button class="fav-btn" type="button" data-slug="espinacas-a-la-catalana" data-title="Espinacas a la Catalana"
+            aria-pressed="false" aria-label="Save Espinacas a la Catalana to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>10m</dd></div>
+        <div><dt>Cook</dt><dd>15m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/espinacas-a-la-catalana/" aria-label="Quick view: Espinacas a la Catalana">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/espinacas-a-la-catalana/">Espinacas a la Catalana</a></h3>
+    <p>Spinach sautéed with garlic, raisins and pine nuts in olive oil, a Catalan side dish ready in 25 minutes.</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>25 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#5f4238">
+    <picture>
+        <source srcset="/assets/img/recipes/tomato-sauce.webp" type="image/webp">
+        <img src="/assets/img/recipes/tomato-sauce.jpg" alt="Tomato Sauce"
+             width="800" height="600" data-fade data-title="Tomato Sauce"
+             data-ph-a="#5f4238" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Italian</span></div>
+    <button class="fav-btn" type="button" data-slug="tomato-sauce" data-title="Tomato Sauce"
+            aria-pressed="false" aria-label="Save Tomato Sauce to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>5m</dd></div>
+        <div><dt>Cook</dt><dd>30m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/tomato-sauce/" aria-label="Quick view: Tomato Sauce">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Sauce</span>
+    <h3><a href="/recipes/tomato-sauce/">Tomato Sauce</a></h3>
+    <p>A basic sauce of tinned tomatoes, onion, garlic and olive oil, simmered until thick and sweet.</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>35 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article></div>
@@ -584,7 +595,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -605,12 +617,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -630,8 +645,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

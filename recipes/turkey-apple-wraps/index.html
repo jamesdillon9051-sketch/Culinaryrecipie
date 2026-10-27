@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 <link rel="preload" href="/assets/img/recipes/turkey-apple-wraps.webp" as="image" type="image/webp" fetchpriority="high">
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -89,6 +89,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -117,7 +118,7 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/lunch/">Lunch</a></li><li><a href="/categories/lunch/american/">American Lunch</a></li><li><span aria-current="page">Turkey Apple Wraps</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="turkey-apple-wraps" data-servings="2"
+  <article data-recipe="turkey-apple-wraps" data-servings="2" data-scale="cook"
            data-image="https://weeklydelight.com/assets/img/recipes/turkey-apple-wraps.jpg">
 
     <div class="recipe-masthead">
@@ -178,6 +179,7 @@
             <output data-servings-out aria-live="polite">2</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 2 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -229,6 +231,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">10 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Easy</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">American</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Light meal</dd>
           </dl>
         </div>
 
@@ -262,6 +265,10 @@
         
 
         <h2 id="method">The Method for Turkey Apple Wraps</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li>Starts from cooked turkey breast, thinly sliced: cook it beforehand. The times above do not include it.</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -293,6 +300,8 @@
         
       </div>
     </li></ol>
+        
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=turkey-apple-wraps&amp;v=fe6cf38533cb" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <h2>Things to Watch For</h2>
         <ol class="tips-numbered"><li>Use turkey you have cooked at home and sliced thin; shop-bought deli slices are far saltier.</li><li>Cut the apple at the last minute and toss it with a drop of lemon juice if it must wait.</li><li>Warm the tortillas for a few seconds first so that they roll without cracking.</li></ol>
@@ -359,6 +368,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -373,7 +383,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=turkey-apple-wraps&amp;v=fe6cf38533cb" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-10-07">7 October 2026</time>; last changed <time datetime="2026-10-20">20 October 2026</time>.</p>
         </div>
       </div>
@@ -391,93 +402,33 @@
         <a class="btn btn--ghost" href="/categories/lunch/american/">All american lunch recipes</a>
       </div>
       <div class="related-grid"><article class="card reveal">
-  <div class="card-media" style="background:#978a77">
+  <div class="card-media" style="background:#7d785f">
     <picture>
-        <source srcset="/assets/img/recipes/apple-cabbage-slaw.webp" type="image/webp">
-        <img src="/assets/img/recipes/apple-cabbage-slaw.jpg" alt="Apple Cabbage Slaw"
-             width="800" height="600" data-fade data-title="Apple Cabbage Slaw"
-             data-ph-a="#978a77" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/broccoli-salad.webp" type="image/webp">
+        <img src="/assets/img/recipes/broccoli-salad.jpg" alt="Broccoli Salad"
+             width="800" height="600" data-fade data-title="Broccoli Salad"
+             data-ph-a="#7d785f" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="apple-cabbage-slaw" data-title="Apple Cabbage Slaw"
-            aria-pressed="false" aria-label="Save Apple Cabbage Slaw to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="broccoli-salad" data-title="Broccoli Salad"
+            aria-pressed="false" aria-label="Save Broccoli Salad to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>0m</dd></div>
+        <div><dt>Cook</dt><dd>8m</dd></div>
         <div><dt>Serves</dt><dd>6</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/apple-cabbage-slaw/" aria-label="Quick view: Apple Cabbage Slaw">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/broccoli-salad/" aria-label="Quick view: Broccoli Salad">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Lunch</span>
-    <h3><a href="/recipes/apple-cabbage-slaw/">Apple Cabbage Slaw</a></h3>
-    <p>A crisp slaw of shredded cabbage, apple and carrot in a light yoghurt and cider vinegar dressing with a touch of…</p>
+    <h3><a href="/recipes/broccoli-salad/">Broccoli Salad</a></h3>
+    <p>Raw broccoli florets tossed with bacon, red onion, cheddar and dried cranberries in a sweet-tangy mayonnaise…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>35 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#adaa9e">
-    <picture>
-        <source srcset="/assets/img/recipes/apple-cranberry-chicken-salad.webp" type="image/webp">
-        <img src="/assets/img/recipes/apple-cranberry-chicken-salad.jpg" alt="Apple Cranberry Chicken Salad"
-             width="800" height="600" data-fade data-title="Apple Cranberry Chicken Salad"
-             data-ph-a="#adaa9e" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="apple-cranberry-chicken-salad" data-title="Apple Cranberry Chicken Salad"
-            aria-pressed="false" aria-label="Save Apple Cranberry Chicken Salad to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>0m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/apple-cranberry-chicken-salad/" aria-label="Quick view: Apple Cranberry Chicken Salad">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Lunch</span>
-    <h3><a href="/recipes/apple-cranberry-chicken-salad/">Apple Cranberry Chicken Salad</a></h3>
-    <p>Shredded cooked chicken folded into a Greek yogurt dressing with crisp apple, celery, red onion and dried…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>15 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#817463">
-    <picture>
-        <source srcset="/assets/img/recipes/broccoli-slaw-salad.webp" type="image/webp">
-        <img src="/assets/img/recipes/broccoli-slaw-salad.jpg" alt="Broccoli Slaw Salad"
-             width="800" height="600" data-fade data-title="Broccoli Slaw Salad"
-             data-ph-a="#817463" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="broccoli-slaw-salad" data-title="Broccoli Slaw Salad"
-            aria-pressed="false" aria-label="Save Broccoli Slaw Salad to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>0m</dd></div>
-        <div><dt>Serves</dt><dd>6</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/broccoli-slaw-salad/" aria-label="Quick view: Broccoli Slaw Salad">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Lunch</span>
-    <h3><a href="/recipes/broccoli-slaw-salad/">Broccoli Slaw Salad</a></h3>
-    <p>Shredded broccoli stems and carrot with apple, red onion and sunflower seeds in a tangy yogurt dressing. Six…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>30 min <i>&middot;</i> Easy</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>53 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article><article class="card reveal">
@@ -511,60 +462,120 @@
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#7d785f">
+  <div class="card-media" style="background:#adaa9e">
     <picture>
-        <source srcset="/assets/img/recipes/broccoli-salad.webp" type="image/webp">
-        <img src="/assets/img/recipes/broccoli-salad.jpg" alt="Broccoli Salad"
-             width="800" height="600" data-fade data-title="Broccoli Salad"
-             data-ph-a="#7d785f" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/apple-cranberry-chicken-salad.webp" type="image/webp">
+        <img src="/assets/img/recipes/apple-cranberry-chicken-salad.jpg" alt="Apple Cranberry Chicken Salad"
+             width="800" height="600" data-fade data-title="Apple Cranberry Chicken Salad"
+             data-ph-a="#adaa9e" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="broccoli-salad" data-title="Broccoli Salad"
-            aria-pressed="false" aria-label="Save Broccoli Salad to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="apple-cranberry-chicken-salad" data-title="Apple Cranberry Chicken Salad"
+            aria-pressed="false" aria-label="Save Apple Cranberry Chicken Salad to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>8m</dd></div>
-        <div><dt>Serves</dt><dd>6</dd></div>
+        <div><dt>Cook</dt><dd>0m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/broccoli-salad/" aria-label="Quick view: Broccoli Salad">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/apple-cranberry-chicken-salad/" aria-label="Quick view: Apple Cranberry Chicken Salad">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Lunch</span>
-    <h3><a href="/recipes/broccoli-salad/">Broccoli Salad</a></h3>
-    <p>Raw broccoli florets tossed with bacon, red onion, cheddar and dried cranberries in a sweet-tangy mayonnaise…</p>
+    <h3><a href="/recipes/apple-cranberry-chicken-salad/">Apple Cranberry Chicken Salad</a></h3>
+    <p>Shredded cooked chicken folded into a Greek yogurt dressing with crisp apple, celery, red onion and dried…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>53 min <i>&middot;</i> Easy</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>15 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#6d6a66">
+  <div class="card-media" style="background:#7b7666">
     <picture>
-        <source srcset="/assets/img/recipes/turkey-club-wrap.webp" type="image/webp">
-        <img src="/assets/img/recipes/turkey-club-wrap.jpg" alt="Turkey Club Wrap"
-             width="800" height="600" data-fade data-title="Turkey Club Wrap"
-             data-ph-a="#6d6a66" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/heringssalat.webp" type="image/webp">
+        <img src="/assets/img/recipes/heringssalat.jpg" alt="Heringssalat"
+             width="800" height="600" data-fade data-title="Heringssalat"
+             data-ph-a="#7b7666" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">German</span></div>
+    <button class="fav-btn" type="button" data-slug="heringssalat" data-title="Heringssalat"
+            aria-pressed="false" aria-label="Save Heringssalat to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>20m</dd></div>
+        <div><dt>Cook</dt><dd>0m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/heringssalat/" aria-label="Quick view: Heringssalat">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Lunch</span>
+    <h3><a href="/recipes/heringssalat/">Heringssalat</a></h3>
+    <p>A cold salad of pickled herring, apple, beetroot, gherkin and onion in a soured cream dressing: 20 minutes of work…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>2.5 hr <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#b48d72">
+    <picture>
+        <source srcset="/assets/img/recipes/italian-sub.webp" type="image/webp">
+        <img src="/assets/img/recipes/italian-sub.jpg" alt="Italian Sub"
+             width="800" height="600" data-fade data-title="Italian Sub"
+             data-ph-a="#b48d72" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="turkey-club-wrap" data-title="Turkey Club Wrap"
-            aria-pressed="false" aria-label="Save Turkey Club Wrap to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="italian-sub" data-title="Italian Sub"
+            aria-pressed="false" aria-label="Save Italian Sub to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>15m</dd></div>
+        <div><dt>Cook</dt><dd>0m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/italian-sub/" aria-label="Quick view: Italian Sub">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Lunch</span>
+    <h3><a href="/recipes/italian-sub/">Italian Sub</a></h3>
+    <p>Crusty hoagie rolls layered with salami, ham, capicola and provolone, then shredded lettuce, tomato, onion and…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>15 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#b8b3aa">
+    <picture>
+        <source srcset="/assets/img/recipes/turkey-avocado-wrap.webp" type="image/webp">
+        <img src="/assets/img/recipes/turkey-avocado-wrap.jpg" alt="Turkey Avocado Wrap"
+             width="800" height="600" data-fade data-title="Turkey Avocado Wrap"
+             data-ph-a="#b8b3aa" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">American</span></div>
+    <button class="fav-btn" type="button" data-slug="turkey-avocado-wrap" data-title="Turkey Avocado Wrap"
+            aria-pressed="false" aria-label="Save Turkey Avocado Wrap to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>10m</dd></div>
         <div><dt>Cook</dt><dd>0m</dd></div>
         <div><dt>Serves</dt><dd>2</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/turkey-club-wrap/" aria-label="Quick view: Turkey Club Wrap">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/turkey-avocado-wrap/" aria-label="Quick view: Turkey Avocado Wrap">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Lunch</span>
-    <h3><a href="/recipes/turkey-club-wrap/">Turkey Club Wrap</a></h3>
-    <p>Sliced turkey, bacon, lettuce, tomato and mayonnaise rolled in a large tortilla and cut in half.</p>
+    <h3><a href="/recipes/turkey-avocado-wrap/">Turkey Avocado Wrap</a></h3>
+    <p>Sliced turkey breast, mashed avocado, tomato, lettuce and mustard rolled in a whole-wheat tortilla. Two servings in…</p>
     <div class="card-foot">
       
       <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>10 min <i>&middot;</i> Easy</span>
@@ -577,7 +588,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -598,12 +610,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -623,8 +638,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

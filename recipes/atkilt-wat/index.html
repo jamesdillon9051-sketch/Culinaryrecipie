@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -89,6 +89,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -117,12 +118,12 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/dinner/">Dinner</a></li><li><a href="/categories/dinner/ethiopian/">Ethiopian Dinner</a></li><li><span aria-current="page">Atkilt Wat</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="atkilt-wat" data-servings="4"
+  <article data-recipe="atkilt-wat" data-servings="4" data-scale="cook"
            data-image="">
 
     <div class="recipe-masthead">
       <header class="recipe-head">
-        <span class="eyebrow">Ethiopian &middot; Dinner</span>
+        <span class="eyebrow">Ethiopian &middot; Dinner &middot; Side dish</span>
         <h1>Atkilt Wat</h1>
         <p class="lede">An Ethiopian stew of cabbage, carrots and potatoes cooked gently with onion, garlic, ginger and turmeric.</p>
 
@@ -173,6 +174,7 @@
             <output data-servings-out aria-live="polite">4</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 4 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -236,6 +238,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">40 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Easy</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">Ethiopian</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Side dish</dd>
           </dl>
         </div>
 
@@ -277,6 +280,10 @@
         
 
         <h2 id="method">Making Atkilt Wat</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li>You will need: frying pan or skillet.</li><li>This is a side dish, not a meal on its own. The serving suggestions below say what it goes with.</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -308,6 +315,8 @@
         <button class="step-btn" type="button" data-timer="600">Start 10 min timer</button>
       </div>
     </li></ol>
+        
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=atkilt-wat&amp;v=7f44855c61e5" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <h2>Notes for Getting It Right</h2>
         <ul><li>Keep the heat low so the turmeric does not burn.</li><li>Add the cabbage after the potatoes and carrots have started to soften.</li><li>Do not stir too often, or the vegetables break up.</li><li>Serve with injera or rice.</li></ul>
@@ -370,6 +379,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -384,7 +394,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=atkilt-wat&amp;v=7f44855c61e5" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-10-13">13 October 2026</time>; last changed <time datetime="2026-10-20">20 October 2026</time>.</p>
         </div>
       </div>
@@ -402,183 +413,183 @@
         <a class="btn btn--ghost" href="/categories/dinner/ethiopian/">All ethiopian dinner recipes</a>
       </div>
       <div class="related-grid"><article class="card reveal">
-  <div class="card-media" style="background:#8a7860">
+  <div class="card-media" style="background:#9a6e39">
     <picture>
-        <source srcset="/assets/img/recipes/misir-wat.webp" type="image/webp">
-        <img src="/assets/img/recipes/misir-wat.jpg" alt="Misir Wat"
-             width="800" height="600" data-fade data-title="Misir Wat"
-             data-ph-a="#8a7860" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/atakilt-wat.webp" type="image/webp">
+        <img src="/assets/img/recipes/atakilt-wat.jpg" alt="Atakilt Wat"
+             width="800" height="600" data-fade data-title="Atakilt Wat"
+             data-ph-a="#9a6e39" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">Ethiopian</span></div>
-    <button class="fav-btn" type="button" data-slug="misir-wat" data-title="Misir Wat"
-            aria-pressed="false" aria-label="Save Misir Wat to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="atakilt-wat" data-title="Atakilt Wat"
+            aria-pressed="false" aria-label="Save Atakilt Wat to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>40m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
+        <div><dt>Cook</dt><dd>30m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/misir-wat/" aria-label="Quick view: Misir Wat">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/atakilt-wat/" aria-label="Quick view: Atakilt Wat">Quick view</a>
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/misir-wat/">Misir Wat</a></h3>
-    <p>Red lentils cooked down with berbere until they go dark and glossy and the oil separates out. The dry onion start…</p>
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/atakilt-wat/">Atakilt Wat</a></h3>
+    <p>Ethiopian cabbage, carrot and potato stewed gently with turmeric and ginger until everything is soft and golden —…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>55 min <i>&middot;</i> Easy</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>45 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#908172">
+  <div class="card-media" style="background:#a18767">
     <picture>
-        <source srcset="/assets/img/recipes/shiro-wat.webp" type="image/webp">
-        <img src="/assets/img/recipes/shiro-wat.jpg" alt="Shiro Wat"
-             width="800" height="600" data-fade data-title="Shiro Wat"
-             data-ph-a="#908172" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/coconut-dal.webp" type="image/webp">
+        <img src="/assets/img/recipes/coconut-dal.jpg" alt="AI-generated illustration of Coconut Dal"
+             width="800" height="600" data-fade data-title="Coconut Dal"
+             data-ph-a="#a18767" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
-    <div class="card-badges"><span class="badge badge--glass">Ethiopian</span></div>
-    <button class="fav-btn" type="button" data-slug="shiro-wat" data-title="Shiro Wat"
-            aria-pressed="false" aria-label="Save Shiro Wat to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="card-badges"><span class="badge badge--glass">Sri Lankan</span></div>
+    <button class="fav-btn" type="button" data-slug="coconut-dal" data-title="Coconut Dal"
+            aria-pressed="false" aria-label="Save Coconut Dal to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
-        <div><dt>Prep</dt><dd>10m</dd></div>
-        <div><dt>Cook</dt><dd>25m</dd></div>
+        <div><dt>Prep</dt><dd>15m</dd></div>
+        <div><dt>Cook</dt><dd>35m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/shiro-wat/" aria-label="Quick view: Shiro Wat">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/coconut-dal/" aria-label="Quick view: Coconut Dal">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/shiro-wat/">Shiro Wat</a></h3>
-    <p>Toasted chickpea flour whisked into a spiced stew that thickens as you stir. On the table in half an hour.</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>35 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#89845b">
-    <picture>
-        <source srcset="/assets/img/recipes/kik-alicha.webp" type="image/webp">
-        <img src="/assets/img/recipes/kik-alicha.jpg" alt="Kik Alicha"
-             width="800" height="600" data-fade data-title="Kik Alicha"
-             data-ph-a="#89845b" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Ethiopian</span></div>
-    <button class="fav-btn" type="button" data-slug="kik-alicha" data-title="Kik Alicha"
-            aria-pressed="false" aria-label="Save Kik Alicha to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>10m</dd></div>
-        <div><dt>Cook</dt><dd>40m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/kik-alicha/" aria-label="Quick view: Kik Alicha">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/kik-alicha/">Kik Alicha</a></h3>
-    <p>A mild Ethiopian split pea stew cooked with onion, garlic, ginger and turmeric until thick and golden.</p>
+    <h3><a href="/recipes/coconut-dal/">Coconut Dal</a></h3>
+    <p>Sri Lankan parippu: red lentils cooked soft in coconut milk with turmeric, finished with a tempering of mustard…</p>
     <div class="card-foot">
       
       <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>50 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#aa8a73">
+  <div class="card-media" style="background:#8c8d86">
     <picture>
-        <source srcset="/assets/img/recipes/beef-tibs.webp" type="image/webp">
-        <img src="/assets/img/recipes/beef-tibs.jpg" alt="Beef Tibs"
-             width="800" height="600" data-fade data-title="Beef Tibs"
-             data-ph-a="#aa8a73" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/colcannon.webp" type="image/webp">
+        <img src="/assets/img/recipes/colcannon.jpg" alt="Colcannon"
+             width="800" height="600" data-fade data-title="Colcannon"
+             data-ph-a="#8c8d86" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
-    <div class="card-badges"><span class="badge badge--glass">Ethiopian</span></div>
-    <button class="fav-btn" type="button" data-slug="beef-tibs" data-title="Beef Tibs"
-            aria-pressed="false" aria-label="Save Beef Tibs to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="card-badges"><span class="badge badge--glass">Irish</span></div>
+    <button class="fav-btn" type="button" data-slug="colcannon" data-title="Colcannon"
+            aria-pressed="false" aria-label="Save Colcannon to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>20m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/beef-tibs/" aria-label="Quick view: Beef Tibs">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/beef-tibs/">Beef Tibs</a></h3>
-    <p>Cubes of beef seared hot in spiced butter with onions, chilli, garlic, ginger and berbere. A fast Ethiopian dish…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>35 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#726d69">
-    <picture>
-        <source srcset="/assets/img/recipes/doro-wat.webp" type="image/webp">
-        <img src="/assets/img/recipes/doro-wat.jpg" alt="Doro Wat"
-             width="800" height="600" data-fade data-title="Doro Wat"
-             data-ph-a="#726d69" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Ethiopian</span></div>
-    <button class="fav-btn" type="button" data-slug="doro-wat" data-title="Doro Wat"
-            aria-pressed="false" aria-label="Save Doro Wat to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>25m</dd></div>
-        <div><dt>Cook</dt><dd>135m</dd></div>
+        <div><dt>Cook</dt><dd>25m</dd></div>
         <div><dt>Serves</dt><dd>6</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/doro-wat/" aria-label="Quick view: Doro Wat">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/colcannon/" aria-label="Quick view: Colcannon">Quick view</a>
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/doro-wat/">Doro Wat</a></h3>
-    <p>Ethiopia&#39;s national dish: chicken stewed in an enormous quantity of onions cooked down without any fat, then built…</p>
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/colcannon/">Colcannon</a></h3>
+    <p>Mashed potato beaten with buttery kale or cabbage and spring onions, with a well of melted butter in the middle of…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>3 hr <i>&middot;</i> Medium</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>40 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#8c7860">
+  <div class="card-media" style="background:#8e8a62">
     <picture>
-        <source srcset="/assets/img/recipes/zigni.webp" type="image/webp">
-        <img src="/assets/img/recipes/zigni.jpg" alt="Zigni"
-             width="800" height="600" data-fade data-title="Zigni"
-             data-ph-a="#8c7860" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/di-san-xian.webp" type="image/webp">
+        <img src="/assets/img/recipes/di-san-xian.jpg" alt="Di San Xian"
+             width="800" height="600" data-fade data-title="Di San Xian"
+             data-ph-a="#8e8a62" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
-    <div class="card-badges"><span class="badge badge--glass">Ethiopian</span></div>
-    <button class="fav-btn" type="button" data-slug="zigni" data-title="Zigni"
-            aria-pressed="false" aria-label="Save Zigni to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="card-badges"><span class="badge badge--glass">Chinese</span></div>
+    <button class="fav-btn" type="button" data-slug="di-san-xian" data-title="Di San Xian"
+            aria-pressed="false" aria-label="Save Di San Xian to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>20m</dd></div>
-        <div><dt>Cook</dt><dd>60m</dd></div>
+        <div><dt>Cook</dt><dd>20m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/zigni/" aria-label="Quick view: Zigni">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/di-san-xian/" aria-label="Quick view: Di San Xian">Quick view</a>
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/zigni/">Zigni</a></h3>
-    <p>Eritrean beef stew built on slowly cooked onions and berbere spice paste, simmered until thick, dark red and rich.</p>
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/di-san-xian/">Di San Xian</a></h3>
+    <p>Potato, aubergine and green pepper each fried separately then brought together in a garlicky sauce. Dongbei, and the…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>80 min <i>&middot;</i> Medium</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>60 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#7b6a61">
+    <picture>
+        <source srcset="/assets/img/recipes/eggplant-with-garlic-sauce.webp" type="image/webp">
+        <img src="/assets/img/recipes/eggplant-with-garlic-sauce.jpg" alt="Eggplant with Garlic Sauce"
+             width="800" height="600" data-fade data-title="Eggplant with Garlic Sauce"
+             data-ph-a="#7b6a61" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Chinese</span></div>
+    <button class="fav-btn" type="button" data-slug="eggplant-with-garlic-sauce" data-title="Eggplant with Garlic Sauce"
+            aria-pressed="false" aria-label="Save Eggplant with Garlic Sauce to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>10m</dd></div>
+        <div><dt>Cook</dt><dd>15m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/eggplant-with-garlic-sauce/" aria-label="Quick view: Eggplant with Garlic Sauce">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/eggplant-with-garlic-sauce/">Eggplant with Garlic Sauce</a></h3>
+    <p>Aubergine pieces fried until soft and coated in a glossy sauce of garlic, soy sauce, vinegar and chilli.</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>25 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#ae8b6f">
+    <picture>
+        <source srcset="/assets/img/recipes/french-lentils.webp" type="image/webp">
+        <img src="/assets/img/recipes/french-lentils.jpg" alt="French Lentils"
+             width="800" height="600" data-fade data-title="French Lentils"
+             data-ph-a="#ae8b6f" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">French</span></div>
+    <button class="fav-btn" type="button" data-slug="french-lentils" data-title="French Lentils"
+            aria-pressed="false" aria-label="Save French Lentils to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>10m</dd></div>
+        <div><dt>Cook</dt><dd>30m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/french-lentils/" aria-label="Quick view: French Lentils">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/french-lentils/">French Lentils</a></h3>
+    <p>Green Puy-style lentils simmered for 30 minutes with carrot, onion, thyme and garlic and finished with Dijon and red…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>40 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article></div>
@@ -588,7 +599,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -609,12 +621,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -634,8 +649,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

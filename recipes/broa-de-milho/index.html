@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 <link rel="preload" href="/assets/img/recipes/broa-de-milho.webp" as="image" type="image/webp" fetchpriority="high">
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -90,6 +90,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -118,7 +119,7 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/baking/">Baking</a></li><li><a href="/cuisines/portuguese/">Portuguese recipes</a></li><li><span aria-current="page">Broa de Milho</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="broa-de-milho" data-servings="8"
+  <article data-recipe="broa-de-milho" data-servings="8" data-scale="bake"
            data-image="https://weeklydelight.com/assets/img/recipes/broa-de-milho.jpg">
 
     <div class="recipe-masthead">
@@ -179,6 +180,7 @@
             <output data-servings-out aria-live="polite">8</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 8 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -230,6 +232,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">1 hr 55 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Easy</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">Portuguese</dd>
+            
           </dl>
         </div>
 
@@ -273,6 +276,10 @@
         
 
         <h2 id="method">Making Broa de Milho, Step by Step</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li><strong>Plan for 1 hr of Rising.</strong> It is part of the 1 hr 55 min start to finish.</li><li>You will need: oven.</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -311,6 +318,8 @@
         
       </div>
     </li></ol>
+        <p class="form-note guide-links">Related guide: <a href="/guides/active-and-total-time/">Prep, cook and total time</a>.</p>
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=broa-de-milho&amp;v=1d7e379443de" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <h2>Notes From the Method</h2>
         <p class="tip-note">Scald the cornmeal first.</p><p class="tip-note">Cool the porridge before adding the yeast.</p><p class="tip-note">Bake until the base sounds hollow.</p>
@@ -370,6 +379,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -384,7 +394,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=broa-de-milho&amp;v=1d7e379443de" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-10-16">16 October 2026</time>; last changed <time datetime="2026-10-20">20 October 2026</time>.</p>
         </div>
       </div>
@@ -423,7 +434,7 @@
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Baking</span>
+    <span class="card-kicker">Bread</span>
     <h3><a href="/recipes/pao-de-lo/">Pao de Lo</a></h3>
     <p>A Portuguese sponge cake of eggs, sugar and a little flour, baked until the centre is still creamy, in 1 hour 10…</p>
     <div class="card-foot">
@@ -447,39 +458,9 @@
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Baking</span>
+    <span class="card-kicker">Bread</span>
     <h3><a href="/recipes/pao-de-deus/">Pao de Deus</a></h3>
     <p>Soft, sweet Portuguese bread rolls covered with a coconut topping, risen for 90 minutes and baked for 25 minutes.</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>3 hr <i>&middot;</i> Medium</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#9e7b55">
-    <picture>
-        <source srcset="/assets/img/recipes/aish-baladi.webp" type="image/webp">
-        <img src="/assets/img/recipes/aish-baladi.jpg" alt="Aish Baladi"
-             width="800" height="600" data-fade data-title="Aish Baladi"
-             data-ph-a="#9e7b55" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Egyptian</span></div>
-    <button class="fav-btn" type="button" data-slug="aish-baladi" data-title="Aish Baladi"
-            aria-pressed="false" aria-label="Save Aish Baladi to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>30m</dd></div>
-        <div><dt>Cook</dt><dd>15m</dd></div>
-        <div><dt>Serves</dt><dd>8</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/aish-baladi/" aria-label="Quick view: Aish Baladi">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Baking</span>
-    <h3><a href="/recipes/aish-baladi/">Aish Baladi</a></h3>
-    <p>The wholemeal country loaf, baked on a bed of bran at a ferocious heat so it puffs into a hollow disc. The bread the…</p>
     <div class="card-foot">
       
       <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>3 hr <i>&middot;</i> Medium</span>
@@ -507,7 +488,7 @@
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Baking</span>
+    <span class="card-kicker">Bread</span>
     <h3><a href="/recipes/bagels/">New York Bagels</a></h3>
     <p>Boiled then baked, with a chewy interior and a glossy, blistered crust. The malt in the boiling water and the…</p>
     <div class="card-foot">
@@ -516,63 +497,93 @@
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#bc9991">
+  <div class="card-media" style="background:#745239">
     <picture>
-        <source srcset="/assets/img/recipes/baguette.webp" type="image/webp">
-        <img src="/assets/img/recipes/baguette.jpg" alt="French Baguette"
-             width="800" height="600" data-fade data-title="French Baguette"
-             data-ph-a="#bc9991" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/challah.webp" type="image/webp">
+        <img src="/assets/img/recipes/challah.jpg" alt="Challah"
+             width="800" height="600" data-fade data-title="Challah"
+             data-ph-a="#745239" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
-    <div class="card-badges"><span class="badge badge--glass">French</span></div>
-    <button class="fav-btn" type="button" data-slug="baguette" data-title="French Baguette"
-            aria-pressed="false" aria-label="Save French Baguette to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="card-badges"><span class="badge badge--glass">Israeli</span></div>
+    <button class="fav-btn" type="button" data-slug="challah" data-title="Challah"
+            aria-pressed="false" aria-label="Save Challah to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>40m</dd></div>
+        <div><dt>Cook</dt><dd>30m</dd></div>
+        <div><dt>Serves</dt><dd>12</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/challah/" aria-label="Quick view: Challah">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Bread</span>
+    <h3><a href="/recipes/challah/">Challah</a></h3>
+    <p>An enriched, eggy bread with a fine, feathery pull and a mahogany crust, braided in six strands. Made with oil…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>4 hr <i>&middot;</i> Medium</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#818589">
+    <picture>
+        <source srcset="/assets/img/recipes/ciabatta.webp" type="image/webp">
+        <img src="/assets/img/recipes/ciabatta.jpg" alt="Ciabatta"
+             width="800" height="600" data-fade data-title="Ciabatta"
+             data-ph-a="#818589" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Italian</span></div>
+    <button class="fav-btn" type="button" data-slug="ciabatta" data-title="Ciabatta"
+            aria-pressed="false" aria-label="Save Ciabatta to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>30m</dd></div>
+        <div><dt>Cook</dt><dd>25m</dd></div>
+        <div><dt>Serves</dt><dd>8</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/ciabatta/" aria-label="Quick view: Ciabatta">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Bread</span>
+    <h3><a href="/recipes/ciabatta/">Ciabatta</a></h3>
+    <p>A very wet dough stretched and folded over a few hours, shaped into flat slippers and baked hot with steam for a…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>4.5 hr <i>&middot;</i> Medium</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#827466">
+    <picture>
+        <source srcset="/assets/img/recipes/dhalpuri-roti.webp" type="image/webp">
+        <img src="/assets/img/recipes/dhalpuri-roti.jpg" alt="Dhalpuri Roti"
+             width="800" height="600" data-fade data-title="Dhalpuri Roti"
+             data-ph-a="#827466" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Trinidadian</span></div>
+    <button class="fav-btn" type="button" data-slug="dhalpuri-roti" data-title="Dhalpuri Roti"
+            aria-pressed="false" aria-label="Save Dhalpuri Roti to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>40m</dd></div>
         <div><dt>Cook</dt><dd>25m</dd></div>
-        <div><dt>Serves</dt><dd>3</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/baguette/" aria-label="Quick view: French Baguette">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/dhalpuri-roti/" aria-label="Quick view: Dhalpuri Roti">Quick view</a>
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Baking</span>
-    <h3><a href="/recipes/baguette/">French Baguette</a></h3>
-    <p>A true baguette de tradition: four ingredients, a long cold ferment, and a crust that crackles audibly as it cools…</p>
+    <span class="card-kicker">Bread</span>
+    <h3><a href="/recipes/dhalpuri-roti/">Dhalpuri Roti</a></h3>
+    <p>Soft Trinidadian flatbreads filled with a layer of ground, spiced split peas, cooked on a griddle and served with…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>16.5–21 hr <i>&middot;</i> Hard</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#9d8a74">
-    <picture>
-        <source srcset="/assets/img/recipes/biscotti-savoiardi.webp" type="image/webp">
-        <img src="/assets/img/recipes/biscotti-savoiardi.jpg" alt="Biscotti Savoiardi"
-             width="800" height="600" data-fade data-title="Biscotti Savoiardi"
-             data-ph-a="#9d8a74" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Italian</span></div>
-    <button class="fav-btn" type="button" data-slug="biscotti-savoiardi" data-title="Biscotti Savoiardi"
-            aria-pressed="false" aria-label="Save Biscotti Savoiardi to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>30m</dd></div>
-        <div><dt>Cook</dt><dd>12m</dd></div>
-        <div><dt>Serves</dt><dd>24</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/biscotti-savoiardi/" aria-label="Quick view: Biscotti Savoiardi">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Baking</span>
-    <h3><a href="/recipes/biscotti-savoiardi/">Biscotti Savoiardi</a></h3>
-    <p>Light, dry Italian sponge fingers piped from whisked eggs and sugar and baked for 12 minutes, the biscuit used in…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>42 min <i>&middot;</i> Medium</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>95 min <i>&middot;</i> Hard</span>
     </div>
   </div>
 </article></div>
@@ -582,7 +593,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -603,12 +615,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -628,8 +643,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

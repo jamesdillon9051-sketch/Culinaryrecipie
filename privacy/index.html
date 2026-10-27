@@ -56,7 +56,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -85,6 +85,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>0 recipes</span></a><a href="/categories/lunch/">Lunch<span>0 recipes</span></a><a href="/categories/dinner/">Dinner<span>0 recipes</span></a><a href="/categories/desserts/">Desserts<span>0 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>0 recipes</span></a><a href="/categories/drinks/">Drinks<span>0 recipes</span></a><a href="/categories/baking/">Baking<span>0 recipes</span></a><a href="/categories/healthy/">Healthy<span>0 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>0 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>0 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -153,7 +154,15 @@
     <p>Your address is used to reply to you and for nothing else. It is not added to any list, not passed to anybody, and not used for advertising. Messages stay in the inbox until the owner deletes them; if you would like a message of yours removed, say so in a reply. Hostinger's own <a href="https://www.hostinger.com/legal/privacy-policy" rel="nofollow noopener" target="_blank">privacy policy</a> covers what they do with it while it is on their systems.</p>
     <p><strong>What the script keeps to limit abuse.</strong> For each message it records the time and a salted hash of the IP address it came from, in a small file on the server that nothing else reads. A hash like this is pseudonymous, not anonymous: it is still personal data, because someone with the site's secret could check an address against it. An entry stops counting after an hour and is deleted the next time the form, or its set-up check, is used. If nobody uses the form, an expired entry stays in the file until the next use, so it is not guaranteed to be gone after exactly an hour. The same file keeps a count of messages in the last day, as timestamps only. Separately, the server's ordinary access logs record your IP address for every request, as described under Hosting below.</p>
     <p>The form also carries a hidden field that people never see. If it arrives filled in, the submission came from a bot and is dropped without being sent. It collects nothing about you.</p>
-    <p>If the contact form has not been switched on, the page says so and nothing you type leaves your browser. There is no newsletter and no mailing list. The signup box that used to sit at the foot of every page has been removed, because it collected nothing and could not have sent anything.</p>
+    <p>If the contact form has not been switched on, the page says so and nothing you type leaves your browser.</p>
+
+    <h2 id="reports">Problem reports</h2>
+    <p>The <a href="/report/">report a problem</a> form sends what you write to a program on this site's server, which stores it as a file outside the public part of the site, where only the person running the site can read it. It stores the recipe and version you were reading, your answers, the time, and a salted hash of your IP address used only to stop floods of reports. Your name and email address are stored only if you give them, and are used only to reply to that report. Reports are kept while the correction is dealt with and deleted within a year. To have a report you sent deleted sooner, quote its reference through the contact page.</p>
+    <p>If the page says reports are not switched on, nothing you type is sent or stored.</p>
+    
+
+    <h2 id="newsletter">Newsletter</h2>
+    <p>There is no newsletter and no mailing list, and no page asks for your email address for one. The <a href="/weekly-plan/">weekly plan</a> is a page you can visit, not an email.</p>
 
     <h2>Analytics</h2>
     <p>Google Analytics 4 counts visitors and shows me which recipes get read. It sets cookies, records your approximate location from your IP address, and notes your device, browser and the pages you open. It does not tell me who you are, and I never see an individual reader &mdash; only totals.</p>
@@ -192,7 +201,8 @@
 </div>
 <div class="wrap" style="padding-bottom:clamp(3rem,7vw,5rem)"><section class="newsletter reveal" id="privacy-news" aria-labelledby="privacy-news-title">
   <h2 id="privacy-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section></div>
 <div class="wrap"></div>
 <!--
@@ -210,12 +220,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -235,7 +248,7 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

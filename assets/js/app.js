@@ -184,6 +184,15 @@
     document.addEventListener('cv:results-rendered', syncFavButtons);
   }
   window.cvGetFavourites = getFavs;
+  /* Adds slugs to the saved list (the weekly plan's "Save all five"); never removes any. */
+  window.cvAddFavourites = function (slugs) {
+    var favs = getFavs();
+    slugs.forEach(function (s) { if (typeof s === 'string' && favs.indexOf(s) === -1) favs.push(s); });
+    write(STORE.favs, favs);
+    syncFavButtons();
+    document.dispatchEvent(new CustomEvent('cv:favourites-changed', { detail: favs }));
+    return favs;
+  };
 
   /* ------------------------------------------------------- search index */
   /* Fetched the first time someone searches, never on page load. "no-cache" asks the server whether

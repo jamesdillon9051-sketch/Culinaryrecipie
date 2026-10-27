@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 <link rel="preload" href="/assets/img/recipes/sweet-potato-mash.webp" as="image" type="image/webp" fetchpriority="high">
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -89,6 +89,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -117,12 +118,12 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/dinner/">Dinner</a></li><li><a href="/categories/dinner/american/">American Dinner</a></li><li><span aria-current="page">Sweet Potato Mash</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="sweet-potato-mash" data-servings="4"
+  <article data-recipe="sweet-potato-mash" data-servings="4" data-scale="cook"
            data-image="https://weeklydelight.com/assets/img/recipes/sweet-potato-mash.jpg">
 
     <div class="recipe-masthead">
       <header class="recipe-head">
-        <span class="eyebrow">American &middot; Dinner</span>
+        <span class="eyebrow">American &middot; Dinner &middot; Side dish</span>
         <h1>Sweet Potato Mash</h1>
         <p class="lede">Sweet potatoes boiled and mashed with butter, a little milk, salt and black pepper.</p>
 
@@ -178,6 +179,7 @@
             <output data-servings-out aria-live="polite">4</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 4 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -217,6 +219,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">35 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Easy</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">American</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Side dish</dd>
           </dl>
         </div>
 
@@ -257,6 +260,10 @@
         
 
         <h2 id="method">Sweet Potato Mash: Step by Step</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li>This is a side dish, not a meal on its own. The serving suggestions below say what it goes with.</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -288,6 +295,8 @@
         
       </div>
     </li></ol>
+        
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=sweet-potato-mash&amp;v=4306293c8418" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <h2>Tips That Matter</h2>
         <ul><li>Cut the chunks the same size.</li><li>Let the steam escape before mashing.</li><li>Add the milk gradually.</li><li>Season at the end.</li></ul>
@@ -347,6 +356,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -361,7 +371,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=sweet-potato-mash&amp;v=4306293c8418" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-10-08">8 October 2026</time>; last changed <time datetime="2026-10-20">20 October 2026</time>.</p>
         </div>
       </div>
@@ -379,33 +390,33 @@
         <a class="btn btn--ghost" href="/categories/dinner/american/">All american dinner recipes</a>
       </div>
       <div class="related-grid"><article class="card reveal">
-  <div class="card-media" style="background:#7a7261">
+  <div class="card-media" style="background:#b8a380">
     <picture>
-        <source srcset="/assets/img/recipes/cauliflower-mash.webp" type="image/webp">
-        <img src="/assets/img/recipes/cauliflower-mash.jpg" alt="Cauliflower Mash"
-             width="800" height="600" data-fade data-title="Cauliflower Mash"
-             data-ph-a="#7a7261" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/baked-potato.webp" type="image/webp">
+        <img src="/assets/img/recipes/baked-potato.jpg" alt="Baked Potato"
+             width="800" height="600" data-fade data-title="Baked Potato"
+             data-ph-a="#b8a380" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="cauliflower-mash" data-title="Cauliflower Mash"
-            aria-pressed="false" aria-label="Save Cauliflower Mash to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="baked-potato" data-title="Baked Potato"
+            aria-pressed="false" aria-label="Save Baked Potato to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
-        <div><dt>Prep</dt><dd>10m</dd></div>
-        <div><dt>Cook</dt><dd>20m</dd></div>
-        <div><dt>Serves</dt><dd>6</dd></div>
+        <div><dt>Prep</dt><dd>5m</dd></div>
+        <div><dt>Cook</dt><dd>70m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/cauliflower-mash/" aria-label="Quick view: Cauliflower Mash">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/baked-potato/" aria-label="Quick view: Baked Potato">Quick view</a>
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/cauliflower-mash/">Cauliflower Mash</a></h3>
-    <p>Steamed rather than boiled, then blitzed with butter and cream cheese until it is genuinely smooth. Not a substitute…</p>
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/baked-potato/">Baked Potato</a></h3>
+    <p>Dry skin, oil and salt, and a wire rack rather than foil. Seventy minutes for a skin that crackles and an interior…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>30 min <i>&middot;</i> Easy</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>75 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article><article class="card reveal">
@@ -430,7 +441,7 @@
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Dinner</span>
+    <span class="card-kicker">Side dish</span>
     <h3><a href="/recipes/roasted-corn/">Roasted Corn</a></h3>
     <p>Corn cobs roasted in the husk for 25 minutes, then brushed with butter, salt and lime. Four servings in 30 minutes.</p>
     <div class="card-foot">
@@ -439,123 +450,117 @@
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#b8a380">
+  <div class="card-media" style="background:#7a7261">
     <picture>
-        <source srcset="/assets/img/recipes/baked-potato.webp" type="image/webp">
-        <img src="/assets/img/recipes/baked-potato.jpg" alt="Baked Potato"
-             width="800" height="600" data-fade data-title="Baked Potato"
-             data-ph-a="#b8a380" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/cauliflower-mash.webp" type="image/webp">
+        <img src="/assets/img/recipes/cauliflower-mash.jpg" alt="Cauliflower Mash"
+             width="800" height="600" data-fade data-title="Cauliflower Mash"
+             data-ph-a="#7a7261" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="baked-potato" data-title="Baked Potato"
-            aria-pressed="false" aria-label="Save Baked Potato to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>5m</dd></div>
-        <div><dt>Cook</dt><dd>70m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/baked-potato/" aria-label="Quick view: Baked Potato">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/baked-potato/">Baked Potato</a></h3>
-    <p>Dry skin, oil and salt, and a wire rack rather than foil. Seventy minutes for a skin that crackles and an interior…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>75 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#997748">
-    <picture>
-        <source srcset="/assets/img/recipes/bbq-corn.webp" type="image/webp">
-        <img src="/assets/img/recipes/bbq-corn.jpg" alt="BBQ Corn"
-             width="800" height="600" data-fade data-title="BBQ Corn"
-             data-ph-a="#997748" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="bbq-corn" data-title="BBQ Corn"
-            aria-pressed="false" aria-label="Save BBQ Corn to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>5m</dd></div>
-        <div><dt>Cook</dt><dd>15m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/bbq-corn/" aria-label="Quick view: BBQ Corn">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/bbq-corn/">BBQ Corn</a></h3>
-    <p>Corn on the cob grilled for 15 minutes until charred in spots, then rolled in butter, lime and chilli. Four servings…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>20 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#9d7d6f">
-    <picture>
-        <source srcset="/assets/img/recipes/filet-mignon.webp" type="image/webp">
-        <img src="/assets/img/recipes/filet-mignon.jpg" alt="Filet Mignon"
-             width="800" height="600" data-fade data-title="Filet Mignon"
-             data-ph-a="#9d7d6f" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="filet-mignon" data-title="Filet Mignon"
-            aria-pressed="false" aria-label="Save Filet Mignon to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="cauliflower-mash" data-title="Cauliflower Mash"
+            aria-pressed="false" aria-label="Save Cauliflower Mash to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>10m</dd></div>
-        <div><dt>Cook</dt><dd>15m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
+        <div><dt>Cook</dt><dd>20m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/filet-mignon/" aria-label="Quick view: Filet Mignon">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/cauliflower-mash/" aria-label="Quick view: Cauliflower Mash">Quick view</a>
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/filet-mignon/">Filet Mignon</a></h3>
-    <p>Thick beef tenderloin steaks seared hard in a cast-iron pan, basted with butter, thyme and garlic and finished in…</p>
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/cauliflower-mash/">Cauliflower Mash</a></h3>
+    <p>Steamed rather than boiled, then blitzed with butter and cream cheese until it is genuinely smooth. Not a substitute…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>25 min <i>&middot;</i> Medium</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>30 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#ac8d68">
+  <div class="card-media" style="background:#ccc0b8">
     <picture>
-        <source srcset="/assets/img/recipes/maine-lobster-stew.webp" type="image/webp">
-        <img src="/assets/img/recipes/maine-lobster-stew.jpg" alt="Maine Lobster Stew"
-             width="800" height="600" data-fade data-title="Maine Lobster Stew"
-             data-ph-a="#ac8d68" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/roasted-sweet-potatoes.webp" type="image/webp">
+        <img src="/assets/img/recipes/roasted-sweet-potatoes.jpg" alt="Roasted Sweet Potatoes"
+             width="800" height="600" data-fade data-title="Roasted Sweet Potatoes"
+             data-ph-a="#ccc0b8" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="maine-lobster-stew" data-title="Maine Lobster Stew"
-            aria-pressed="false" aria-label="Save Maine Lobster Stew to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="roasted-sweet-potatoes" data-title="Roasted Sweet Potatoes"
+            aria-pressed="false" aria-label="Save Roasted Sweet Potatoes to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>10m</dd></div>
+        <div><dt>Cook</dt><dd>35m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/roasted-sweet-potatoes/" aria-label="Quick view: Roasted Sweet Potatoes">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/roasted-sweet-potatoes/">Roasted Sweet Potatoes</a></h3>
+    <p>Sweet potato wedges roasted with oil, paprika and salt until the edges caramelise. Four servings in 45 minutes.</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>45 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:var(--bg-sunken)">
+    <div class="img-fallback" role="img" aria-label="Gluten-Free Dumplings"><span>Gluten-Free Dumplings</span></div>
+    <div class="card-badges"><span class="badge badge--glass">American</span></div>
+    <button class="fav-btn" type="button" data-slug="gluten-free-dumplings" data-title="Gluten-Free Dumplings"
+            aria-pressed="false" aria-label="Save Gluten-Free Dumplings to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>20m</dd></div>
-        <div><dt>Cook</dt><dd>25m</dd></div>
+        <div><dt>Cook</dt><dd>20m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/gluten-free-dumplings/" aria-label="Quick view: Gluten-Free Dumplings">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/gluten-free-dumplings/">Gluten-Free Dumplings</a></h3>
+    <p>Fluffy gluten-free dumplings steamed on top of a chicken and vegetable stew, ready in 40 minutes.</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>40 min <i>&middot;</i> Medium</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#a3815e">
+    <picture>
+        <source srcset="/assets/img/recipes/loaded-baked-potato.webp" type="image/webp">
+        <img src="/assets/img/recipes/loaded-baked-potato.jpg" alt="Loaded Baked Potato"
+             width="800" height="600" data-fade data-title="Loaded Baked Potato"
+             data-ph-a="#a3815e" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">American</span></div>
+    <button class="fav-btn" type="button" data-slug="loaded-baked-potato" data-title="Loaded Baked Potato"
+            aria-pressed="false" aria-label="Save Loaded Baked Potato to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>10m</dd></div>
+        <div><dt>Cook</dt><dd>75m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/maine-lobster-stew/" aria-label="Quick view: Maine Lobster Stew">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/loaded-baked-potato/" aria-label="Quick view: Loaded Baked Potato">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/maine-lobster-stew/">Maine Lobster Stew</a></h3>
-    <p>A simple, rich stew of cooked lobster meat warmed in butter, milk and cream with a splash of sherry and a pinch of…</p>
+    <h3><a href="/recipes/loaded-baked-potato/">Loaded Baked Potato</a></h3>
+    <p>A potato baked until the skin is crisp and the inside floury, split and filled with butter, cheese, bacon and soured…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>75 min <i>&middot;</i> Medium</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>85 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article></div>
@@ -565,7 +570,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -586,12 +592,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -611,8 +620,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

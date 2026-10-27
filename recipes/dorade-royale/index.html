@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 <link rel="preload" href="/assets/img/recipes/dorade-royale.webp" as="image" type="image/webp" fetchpriority="high">
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -89,6 +89,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -117,7 +118,7 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/dinner/">Dinner</a></li><li><a href="/categories/dinner/french/">French Dinner</a></li><li><span aria-current="page">Dorade Royale</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="dorade-royale" data-servings="2"
+  <article data-recipe="dorade-royale" data-servings="2" data-scale="cook"
            data-image="https://weeklydelight.com/assets/img/recipes/dorade-royale.jpg">
 
     <div class="recipe-masthead">
@@ -178,6 +179,7 @@
             <output data-servings-out aria-live="polite">2</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 2 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -229,6 +231,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">35 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Easy</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">French</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Main dish</dd>
           </dl>
         </div>
 
@@ -268,6 +271,10 @@
         
 
         <h2 id="method">The Method for Dorade Royale</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li>You will need: oven.</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -313,6 +320,8 @@
         
       </div>
     </li></ol>
+        
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=dorade-royale&amp;v=93ee23587efd" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <h2>A Few Pointers</h2>
         <ul><li>Slash the thickest part so the fish cooks evenly.</li><li>Roast it on a bed of fennel so the base does not stew.</li><li>Check near the backbone for doneness.</li></ul>
@@ -322,6 +331,7 @@
 
         <h2>What to Serve With It</h2>
         <p class="pair-line">New potatoes &middot; Green beans &middot; Dry white wine</p>
+        <p class="goes-with">Sides from the same cuisine on this site: <a href="/recipes/boulangere-potatoes/">Boulangere Potatoes</a>, <a href="/recipes/brioche-buns/">Brioche Buns</a>, <a href="/recipes/carottes-vichy/">Carottes Vichy</a>.</p>
 
         <h2>Storage</h2>
         <p>Best eaten at once. Keeps for 1 day in the fridge.</p>
@@ -375,6 +385,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -389,7 +400,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=dorade-royale&amp;v=93ee23587efd" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-10-16">16 October 2026</time>; last changed <time datetime="2026-10-20">20 October 2026</time>.</p>
         </div>
       </div>
@@ -431,33 +443,33 @@
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#a3a5b2">
+  <div class="card-media" style="background:#818689">
     <picture>
-        <source srcset="/assets/img/recipes/beurre-blanc-sauce.webp" type="image/webp">
-        <img src="/assets/img/recipes/beurre-blanc-sauce.jpg" alt="Beurre Blanc Sauce"
-             width="800" height="600" data-fade data-title="Beurre Blanc Sauce"
-             data-ph-a="#a3a5b2" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/tarragon-mustard-chicken.webp" type="image/webp">
+        <img src="/assets/img/recipes/tarragon-mustard-chicken.jpg" alt="Tarragon Mustard Chicken"
+             width="800" height="600" data-fade data-title="Tarragon Mustard Chicken"
+             data-ph-a="#818689" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">French</span></div>
-    <button class="fav-btn" type="button" data-slug="beurre-blanc-sauce" data-title="Beurre Blanc Sauce"
-            aria-pressed="false" aria-label="Save Beurre Blanc Sauce to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="tarragon-mustard-chicken" data-title="Tarragon Mustard Chicken"
+            aria-pressed="false" aria-label="Save Tarragon Mustard Chicken to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>10m</dd></div>
-        <div><dt>Cook</dt><dd>15m</dd></div>
+        <div><dt>Cook</dt><dd>20m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/beurre-blanc-sauce/" aria-label="Quick view: Beurre Blanc Sauce">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/tarragon-mustard-chicken/" aria-label="Quick view: Tarragon Mustard Chicken">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/beurre-blanc-sauce/">Beurre Blanc Sauce</a></h3>
-    <p>A warm, buttery white sauce made by whisking cold butter into a reduction of shallots, white wine and vinegar…</p>
+    <h3><a href="/recipes/tarragon-mustard-chicken/">Tarragon Mustard Chicken</a></h3>
+    <p>Pan-seared chicken breasts in a pale sauce of Dijon mustard, shallot, unsalted stock and Greek yogurt, finished with…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>25 min <i>&middot;</i> Medium</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>30 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article><article class="card reveal">
@@ -491,36 +503,6 @@
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#818689">
-    <picture>
-        <source srcset="/assets/img/recipes/tarragon-mustard-chicken.webp" type="image/webp">
-        <img src="/assets/img/recipes/tarragon-mustard-chicken.jpg" alt="Tarragon Mustard Chicken"
-             width="800" height="600" data-fade data-title="Tarragon Mustard Chicken"
-             data-ph-a="#818689" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">French</span></div>
-    <button class="fav-btn" type="button" data-slug="tarragon-mustard-chicken" data-title="Tarragon Mustard Chicken"
-            aria-pressed="false" aria-label="Save Tarragon Mustard Chicken to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>10m</dd></div>
-        <div><dt>Cook</dt><dd>20m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/tarragon-mustard-chicken/" aria-label="Quick view: Tarragon Mustard Chicken">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/tarragon-mustard-chicken/">Tarragon Mustard Chicken</a></h3>
-    <p>Pan-seared chicken breasts in a pale sauce of Dijon mustard, shallot, unsalted stock and Greek yogurt, finished with…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>30 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
   <div class="card-media" style="background:#a5956f">
     <picture>
         <source srcset="/assets/img/recipes/fondue-savoyarde.webp" type="image/webp">
@@ -548,6 +530,36 @@
     <div class="card-foot">
       
       <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>35 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#9c8e7d">
+    <picture>
+        <source srcset="/assets/img/recipes/lobster-bisque.webp" type="image/webp">
+        <img src="/assets/img/recipes/lobster-bisque.jpg" alt="Lobster Bisque"
+             width="800" height="600" data-fade data-title="Lobster Bisque"
+             data-ph-a="#9c8e7d" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">French</span></div>
+    <button class="fav-btn" type="button" data-slug="lobster-bisque" data-title="Lobster Bisque"
+            aria-pressed="false" aria-label="Save Lobster Bisque to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>30m</dd></div>
+        <div><dt>Cook</dt><dd>75m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/lobster-bisque/" aria-label="Quick view: Lobster Bisque">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Dinner</span>
+    <h3><a href="/recipes/lobster-bisque/">Lobster Bisque</a></h3>
+    <p>The shells are the recipe. They are roasted, simmered into a stock, and that stock is reduced hard before any cream…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>105 min <i>&middot;</i> Hard</span>
     </div>
   </div>
 </article><article class="card reveal">
@@ -587,7 +599,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -608,12 +621,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -633,8 +649,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 <link rel="preload" href="/assets/img/recipes/plantain-and-beans.webp" as="image" type="image/webp" fetchpriority="high">
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -89,6 +89,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -117,7 +118,7 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/dinner/">Dinner</a></li><li><a href="/categories/dinner/nigerian/">Nigerian Dinner</a></li><li><span aria-current="page">Plantain and Beans</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="plantain-and-beans" data-servings="4"
+  <article data-recipe="plantain-and-beans" data-servings="4" data-scale="cook"
            data-image="https://weeklydelight.com/assets/img/recipes/plantain-and-beans.jpg">
 
     <div class="recipe-masthead">
@@ -178,6 +179,7 @@
             <output data-servings-out aria-live="polite">4</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 4 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -229,6 +231,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">50 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Easy</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">Nigerian</dd>
+            
           </dl>
         </div>
 
@@ -265,6 +268,10 @@
         
 
         <h2 id="method">Making Plantain and Beans</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li>You will need: frying pan or skillet.</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -296,6 +303,8 @@
         
       </div>
     </li></ol>
+        
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=plantain-and-beans&amp;v=1b437884f749" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <h2>Tips for Success</h2>
         <ul><li>Choose yellow plantain with black patches.</li><li>Add the plantain after the beans have started to soften.</li><li>Handle scotch bonnet chilli with care.</li><li>Mash some beans to thicken the stew.</li></ul>
@@ -363,6 +372,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -377,7 +387,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=plantain-and-beans&amp;v=1b437884f749" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-10-13">13 October 2026</time>; last changed <time datetime="2026-10-20">20 October 2026</time>.</p>
         </div>
       </div>
@@ -416,7 +427,7 @@
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Dinner</span>
+    <span class="card-kicker">Side dish</span>
     <h3><a href="/recipes/fried-yam/">Fried Yam</a></h3>
     <p>Thick slices of yam parboiled in salted water and fried until golden and crisp outside, soft within.</p>
     <div class="card-foot">
@@ -425,63 +436,33 @@
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#a29a94">
+  <div class="card-media" style="background:#845f4a">
     <picture>
-        <source srcset="/assets/img/recipes/pepper-soup.webp" type="image/webp">
-        <img src="/assets/img/recipes/pepper-soup.jpg" alt="Nigerian Pepper Soup"
-             width="800" height="600" data-fade data-title="Nigerian Pepper Soup"
-             data-ph-a="#a29a94" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/jollof-rice.webp" type="image/webp">
+        <img src="/assets/img/recipes/jollof-rice.jpg" alt="Jollof Rice"
+             width="800" height="600" data-fade data-title="Jollof Rice"
+             data-ph-a="#845f4a" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
-    <div class="card-badges"><span class="badge badge--glass">Nigerian</span></div>
-    <button class="fav-btn" type="button" data-slug="pepper-soup" data-title="Nigerian Pepper Soup"
-            aria-pressed="false" aria-label="Save Nigerian Pepper Soup to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="card-badges"><span class="badge badge--glass">Nigerian</span><span class="badge badge--solid">Editor’s Pick</span></div>
+    <button class="fav-btn" type="button" data-slug="jollof-rice" data-title="Jollof Rice"
+            aria-pressed="false" aria-label="Save Jollof Rice to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>20m</dd></div>
-        <div><dt>Cook</dt><dd>35m</dd></div>
+        <div><dt>Cook</dt><dd>70m</dd></div>
         <div><dt>Serves</dt><dd>6</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/pepper-soup/" aria-label="Quick view: Nigerian Pepper Soup">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/jollof-rice/" aria-label="Quick view: Jollof Rice">Quick view</a>
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/pepper-soup/">Nigerian Pepper Soup</a></h3>
-    <p>A thin, fiercely hot broth built on a blend of West African spices, with goat, fish or chicken and almost nothing…</p>
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/jollof-rice/">Jollof Rice</a></h3>
+    <p>Rice cooked in a reduced pepper and tomato base until the grains are stained deep orange and a smoky crust forms at…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>55 min–2.5 hr <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#926f62">
-    <picture>
-        <source srcset="/assets/img/recipes/efo-riro.webp" type="image/webp">
-        <img src="/assets/img/recipes/efo-riro.jpg" alt="Efo Riro"
-             width="800" height="600" data-fade data-title="Efo Riro"
-             data-ph-a="#926f62" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Nigerian</span></div>
-    <button class="fav-btn" type="button" data-slug="efo-riro" data-title="Efo Riro"
-            aria-pressed="false" aria-label="Save Efo Riro to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>25m</dd></div>
-        <div><dt>Cook</dt><dd>65m</dd></div>
-        <div><dt>Serves</dt><dd>6</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/efo-riro/" aria-label="Quick view: Efo Riro">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/efo-riro/">Efo Riro</a></h3>
-    <p>A rich Nigerian stew of spinach in a base of red pepper, scotch bonnet and palm oil, with beef, smoked fish and…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>90–95 min <i>&middot;</i> Medium</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>90–105 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article><article class="card reveal">
@@ -500,7 +481,7 @@
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Dinner</span>
+    <span class="card-kicker">Side dish</span>
     <h3><a href="/recipes/pounded-yam/">Pounded Yam</a></h3>
     <p>Boiled white yam pounded until smooth, stretchy and glossy, the classic Nigerian partner to egusi and other soups.</p>
     <div class="card-foot">
@@ -509,63 +490,93 @@
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#c0a080">
+  <div class="card-media" style="background:#6d4e37">
     <picture>
-        <source srcset="/assets/img/recipes/moi-moi.webp" type="image/webp">
-        <img src="/assets/img/recipes/moi-moi.jpg" alt="Moi Moi"
-             width="800" height="600" data-fade data-title="Moi Moi"
-             data-ph-a="#c0a080" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/nigerian-fried-rice.webp" type="image/webp">
+        <img src="/assets/img/recipes/nigerian-fried-rice.jpg" alt="Nigerian Fried Rice"
+             width="800" height="600" data-fade data-title="Nigerian Fried Rice"
+             data-ph-a="#6d4e37" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">Nigerian</span></div>
-    <button class="fav-btn" type="button" data-slug="moi-moi" data-title="Moi Moi"
-            aria-pressed="false" aria-label="Save Moi Moi to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="nigerian-fried-rice" data-title="Nigerian Fried Rice"
+            aria-pressed="false" aria-label="Save Nigerian Fried Rice to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
-        <div><dt>Prep</dt><dd>30m</dd></div>
-        <div><dt>Cook</dt><dd>60m</dd></div>
+        <div><dt>Prep</dt><dd>15m</dd></div>
+        <div><dt>Cook</dt><dd>30m</dd></div>
         <div><dt>Serves</dt><dd>6</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/moi-moi/" aria-label="Quick view: Moi Moi">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/nigerian-fried-rice/" aria-label="Quick view: Nigerian Fried Rice">Quick view</a>
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/moi-moi/">Moi Moi</a></h3>
-    <p>A steamed pudding of blended black-eyed beans, red pepper, onion and oil, soft and savoury, cooked in small moulds…</p>
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/nigerian-fried-rice/">Nigerian Fried Rice</a></h3>
+    <p>Parboiled long grain rice fried with mixed vegetables, curry powder, thyme and stock, a party-style Nigerian rice…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>90 min <i>&middot;</i> Medium</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>45 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#a89167">
+  <div class="card-media" style="background:#998971">
     <picture>
-        <source srcset="/assets/img/recipes/ofada-rice.webp" type="image/webp">
-        <img src="/assets/img/recipes/ofada-rice.jpg" alt="Ofada Rice"
-             width="800" height="600" data-fade data-title="Ofada Rice"
-             data-ph-a="#a89167" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/attieke.webp" type="image/webp">
+        <img src="/assets/img/recipes/attieke.jpg" alt="Attieke"
+             width="800" height="600" data-fade data-title="Attieke"
+             data-ph-a="#998971" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
-    <div class="card-badges"><span class="badge badge--glass">Nigerian</span></div>
-    <button class="fav-btn" type="button" data-slug="ofada-rice" data-title="Ofada Rice"
-            aria-pressed="false" aria-label="Save Ofada Rice to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="card-badges"><span class="badge badge--glass">African</span></div>
+    <button class="fav-btn" type="button" data-slug="attieke" data-title="Attieke"
+            aria-pressed="false" aria-label="Save Attieke to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
-        <div><dt>Prep</dt><dd>25m</dd></div>
-        <div><dt>Cook</dt><dd>60m</dd></div>
-        <div><dt>Serves</dt><dd>6</dd></div>
+        <div><dt>Prep</dt><dd>10m</dd></div>
+        <div><dt>Cook</dt><dd>10m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/ofada-rice/" aria-label="Quick view: Ofada Rice">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/attieke/" aria-label="Quick view: Attieke">Quick view</a>
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/ofada-rice/">Ofada Rice</a></h3>
-    <p>Nutty local brown rice served with ayamase, a fiery green pepper and palm oil stew with beef and boiled eggs, a…</p>
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/attieke/">Attieke</a></h3>
+    <p>Fine steamed cassava couscous from Côte d&#39;Ivoire, served with a fresh tomato and onion relish and quickly cooked…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>85 min <i>&middot;</i> Medium</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>20 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#9d8878">
+    <picture>
+        <source srcset="/assets/img/recipes/dry-fried-green-beans.webp" type="image/webp">
+        <img src="/assets/img/recipes/dry-fried-green-beans.jpg" alt="Dry-Fried Green Beans"
+             width="800" height="600" data-fade data-title="Dry-Fried Green Beans"
+             data-ph-a="#9d8878" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Chinese</span></div>
+    <button class="fav-btn" type="button" data-slug="dry-fried-green-beans" data-title="Dry-Fried Green Beans"
+            aria-pressed="false" aria-label="Save Dry-Fried Green Beans to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>15m</dd></div>
+        <div><dt>Cook</dt><dd>20m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/dry-fried-green-beans/" aria-label="Quick view: Dry-Fried Green Beans">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/dry-fried-green-beans/">Dry-Fried Green Beans</a></h3>
+    <p>Green beans fried until their skins blister and wrinkle, then tossed with minced pork, preserved vegetable and…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>35 min <i>&middot;</i> Medium</span>
     </div>
   </div>
 </article></div>
@@ -575,7 +586,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -596,12 +608,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -621,8 +636,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

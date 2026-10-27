@@ -166,3 +166,19 @@ The owner explicitly resumed missing-photo sourcing. This authorizes this photo 
 - **For the owner:** four pairs are the same dish under two names and are not among the 15 acknowledged: `vegemite-scrolls` / `australian-cheese-and-vegemite-scrolls`, `buttermilk-pancakes` / `fluffy-pancakes`, `sticky-date-pudding` / `sticky-date-cake`, `slow-cooker-pea-and-ham-soup` / `slow-cooker-split-pea-soup` ([duplicate-candidates.csv](google-indexing-claude-2026-10-23/duplicate-candidates.csv), 36 pairs read). **Removed on the owner's instruction:** the second page of each pair now 301s to the first (`src/data/retired-recipes.json`, enforced by `tools/retired-recipes-check.js` in `npm run check`); 5,511 recipes. 5 collection pages list one or two recipes. `/search/` is a filter shell with no results in its HTML. None changed.
 - **Second round (owner: "retire the duplicate the same way"):** the 15 acknowledged pairs were read side by side. Twelve were one dish published twice and are retired with 301s (`chicken-tagine-olives`, `potato-salad`, `coleslaw`, `naan`, `kartoffelsalat`, `grilled-cheese`, `lamb-rogan-josh`, `moules-mariniere`, `pork-schnitzel`, `pulled-pork-sandwich`, `sfiha`, `sloppy-joe-mix`, each to its partner); three are versions of a dish and stay (aubergine parmigiana griddled/fried, kibbeh baked/fried, Philadelphia/Bavarian pretzels). 5,499 recipes; 16 redirects in all. Table and reasons: [google-indexing-claude-2026-10-23/README.md](google-indexing-claude-2026-10-23/README.md).
 - **Merged and live:** PR #29 (`c0e994f3`) on the owner's instruction; live from 11:54 UTC. Checked live: all 16 retired addresses answer one 301 to the page that stays (two hops only from `http://www`, where the CDN upgrades to `https` first); look-alike pages (`naan-pizza`, `sfiha-baalbakieh`, `grilled-cheese-sandwich` and others) answer 200; the sitemaps list 5,855 URLs and no retired one; 16 sampled pages are byte-identical to the build and `ads.txt` is unchanged. Pages carry `s-maxage=3600`; the CDN now answers some requests from cache (HIT), most still pass through (DYNAMIC), at Hostinger's discretion. **Owner:** Hostinger support message and CDN security check (`google-indexing-claude-2026-10-23/HOSTINGER-STEPS.md`); resubmit `sitemap-index.xml` once in Search Console and watch Page indexing and Crawl stats.
+
+
+## Claude update — 27 October 2026: discovery, collections, weekly plan, corrections, flagship programme (branch, not merged)
+
+- **Branch:** `claude/culinaryvault-recipe-site-mk9w9b`, from `main` `43be40ec`. Not merged, not deployed (Hostinger deploys `main` only). Codex's `content/popular-five-countries-500-2026-10-25` (2 commits ahead of `main`) was not touched.
+- **Ledger, files, verification, dependencies:** [release-2026-10-27/README.md](release-2026-10-27/README.md). Deploy checklist, rollback and post-deploy checks: [DEPLOY.md](release-2026-10-27/DEPLOY.md). Switching on reports, reviews and the newsletter: [ACTIVATION.md](release-2026-10-27/ACTIVATION.md). Flagship workflow and cook's checklist: [flagship/README.md](flagship/README.md).
+- **What changed for content work:**
+  - Every recipe now has a derived role (`src/lib/classify.js`). 117 are in the review queue (`release-2026-10-27/classification-review.csv`). Settle them in `src/data/dish-roles.json` with a reason.
+  - Collections re-check their entries on every build.
+  - The food-handling audit now requires pasteurised eggs in the ingredient line, not in a tip.
+  - Timing counts pressing as a wait.
+- **Owner:**
+  - Keep or remove the About page's AI-assistance sentence (it reverses the 26 October removal).
+  - Create the feedback settings file on Hostinger.
+  - Decide on reviews and the newsletter.
+  - Approve the merge.

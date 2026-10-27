@@ -156,6 +156,22 @@ for (const file of htmlFiles) {
     if (!existing.has(target)) problems.push(`${rel}: broken link -> ${href}`);
   }
 
+  /* --- image URLs written in full -------------------------------------
+     og:image, twitter:image, the JSON-LD image fields and srcset candidates
+     carry the site's own address, so the relative-link check above misses
+     them. Each must be a file this build wrote. */
+  {
+    const urls = new Set();
+    for (const m of html.matchAll(/<meta (?:property|name)="(?:og:image|twitter:image)" content="([^"]+)"/g)) urls.add(m[1]);
+    for (const m of html.matchAll(/"(?:image|url|contentUrl|thumbnailUrl)":\s*"(https:\/\/weeklydelight\.com\/assets\/img\/[^"]+)"/g)) urls.add(m[1]);
+    for (const m of html.matchAll(/srcset="([^"]+)"/g)) for (const c of m[1].split(',')) urls.add(c.trim().split(/\s+/)[0]);
+    for (const u of urls) {
+      if (!/^https:\/\/weeklydelight\.com\//.test(u) && !u.startsWith('/')) continue;
+      const target = resolveHref(u.replace(/^https:\/\/weeklydelight\.com/, ''));
+      if (!existing.has(target)) problems.push(`${rel}: image URL points at a file that was not built -> ${u}`);
+    }
+  }
+
   /* --- links that downgrade or leave nothing behind --------------------- */
   /* The licence deeds were linked as http://creativecommons.org/... from every
      photographed recipe, which a crawler reports as insecure content and a
@@ -417,6 +433,8 @@ for (const file of htmlFiles) {
     if (/\bdata-grow-initializer=/.test(attrs)) continue;
     /* JSON-LD is a data block: the browser never executes it. */
     if (/type="application\/ld\+json"/.test(attrs)) continue;
+    /* So is a plain JSON block (the weekly plan's ingredient data). */
+    if (/type="application\/json"/.test(attrs)) continue;
     problems.push(`${rel}: inline <script> written by the generator`);
   }
   for (const match of html.matchAll(/\s(on[a-z]+)="/g)) {
@@ -1179,7 +1197,10 @@ for (const audit of ['timing-audit.js', 'timing-corpus.js', 'consistency-corpus.
                      ['recipe-consistency.js', '--built', '--list', 'confirmed'],
                      'photo-credit-test.js', 'native-ad-slot-count-test.js', 'oven-temp-test.js',
                      'image-inventory-source-test.js',
-                     ['food-handling-audit.js', '--selftest'], ['food-handling-audit.js', '--list', 'confirmed']]) {
+                     ['food-handling-audit.js', '--selftest'], ['food-handling-audit.js', '--list', 'confirmed'],
+                     /* October 2026 release: dish roles, collections, plans, flagship register, feedback endpoints. */
+                     'classify-audit.js', 'classify-test.js', 'shopping-test.js', 'flagship-check.js',
+                     'feedback-test.js', 'release-pages-test.js']) {
   const [script, ...args] = [].concat(audit);
   try {
     require('child_process').execFileSync(process.execPath,

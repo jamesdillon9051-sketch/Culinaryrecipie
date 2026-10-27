@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 <link rel="preload" href="/assets/img/recipes/the-aux-pignons.webp" as="image" type="image/webp" fetchpriority="high">
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -89,6 +89,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -117,7 +118,7 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/drinks/">Drinks</a></li><li><a href="/cuisines/tunisian/">Tunisian recipes</a></li><li><span aria-current="page">Thé aux Pignons</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="the-aux-pignons" data-servings="4"
+  <article data-recipe="the-aux-pignons" data-servings="4" data-scale="cook"
            data-image="https://weeklydelight.com/assets/img/recipes/the-aux-pignons.jpg">
 
     <div class="recipe-masthead">
@@ -178,6 +179,7 @@
             <output data-servings-out aria-live="polite">4</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 4 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -218,6 +220,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">25 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Easy</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">Tunisian</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Drink</dd>
           </dl>
         </div>
 
@@ -254,6 +257,10 @@
         
 
         <h2 id="method">How to Make Thé aux Pignons</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li>You will need: large pot or casserole.</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -306,6 +313,8 @@
         
       </div>
     </li></ol>
+        
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=the-aux-pignons&amp;v=53921a0648bd" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <section class="why-plain" aria-labelledby="why-title">
           <h2 id="why-title">Why It Works</h2>
@@ -367,6 +376,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -381,7 +391,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=the-aux-pignons&amp;v=53921a0648bd" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-09-09">9 September 2026</time>; last changed <time datetime="2026-10-20">20 October 2026</time>.</p>
         </div>
       </div>
@@ -399,66 +410,6 @@
         <a class="btn btn--ghost" href="/cuisines/tunisian/">All tunisian recipes recipes</a>
       </div>
       <div class="related-grid"><article class="card reveal">
-  <div class="card-media" style="background:#8c816f">
-    <picture>
-        <source srcset="/assets/img/recipes/bsissa.webp" type="image/webp">
-        <img src="/assets/img/recipes/bsissa.jpg" alt="Bsissa"
-             width="800" height="600" data-fade data-title="Bsissa"
-             data-ph-a="#8c816f" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Tunisian</span></div>
-    <button class="fav-btn" type="button" data-slug="bsissa" data-title="Bsissa"
-            aria-pressed="false" aria-label="Save Bsissa to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>15m</dd></div>
-        <div><dt>Serves</dt><dd>8</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/bsissa/" aria-label="Quick view: Bsissa">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Breakfast</span>
-    <h3><a href="/recipes/bsissa/">Bsissa</a></h3>
-    <p>Roasted barley and chickpea flour with fennel and coriander seed, stirred into oil and water or milk. Eaten for…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>30 min+ <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#a4907d">
-    <picture>
-        <source srcset="/assets/img/recipes/khobz-tabouna.webp" type="image/webp">
-        <img src="/assets/img/recipes/khobz-tabouna.jpg" alt="Khobz Tabouna"
-             width="800" height="600" data-fade data-title="Khobz Tabouna"
-             data-ph-a="#a4907d" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Tunisian</span></div>
-    <button class="fav-btn" type="button" data-slug="khobz-tabouna" data-title="Khobz Tabouna"
-            aria-pressed="false" aria-label="Save Khobz Tabouna to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>25m</dd></div>
-        <div><dt>Cook</dt><dd>15m</dd></div>
-        <div><dt>Serves</dt><dd>6</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/khobz-tabouna/" aria-label="Quick view: Khobz Tabouna">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Baking</span>
-    <h3><a href="/recipes/khobz-tabouna/">Khobz Tabouna</a></h3>
-    <p>The semolina country loaf baked against the wall of a clay oven, and the everyday bread of rural Tunisia. A hot tray…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>2.5 hr <i>&middot;</i> Medium</span>
-    </div>
-  </div>
-</article><article class="card reveal">
   <div class="card-media" style="background:#86624f">
     <picture>
         <source srcset="/assets/img/recipes/kvass.webp" type="image/webp">
@@ -489,87 +440,153 @@
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#78746a">
+  <div class="card-media" style="background:#8f8475">
     <picture>
-        <source srcset="/assets/img/recipes/thai-iced-tea.webp" type="image/webp">
-        <img src="/assets/img/recipes/thai-iced-tea.jpg" alt="Thai Iced Tea"
-             width="800" height="600" data-fade data-title="Thai Iced Tea"
-             data-ph-a="#78746a" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/cendol.webp" type="image/webp">
+        <img src="/assets/img/recipes/cendol.jpg" alt="Cendol"
+             width="800" height="600" data-fade data-title="Cendol"
+             data-ph-a="#8f8475" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
-    <div class="card-badges"><span class="badge badge--glass">Thai</span></div>
-    <button class="fav-btn" type="button" data-slug="thai-iced-tea" data-title="Thai Iced Tea"
-            aria-pressed="false" aria-label="Save Thai Iced Tea to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="card-badges"><span class="badge badge--glass">Indonesian</span></div>
+    <button class="fav-btn" type="button" data-slug="cendol" data-title="Cendol"
+            aria-pressed="false" aria-label="Save Cendol to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>15m</dd></div>
+        <div><dt>Cook</dt><dd>20m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/cendol/" aria-label="Quick view: Cendol">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Drinks</span>
+    <h3><a href="/recipes/cendol/">Cendol</a></h3>
+    <p>Green pandan rice flour jelly noodles served in a glass with coconut milk, palm sugar syrup and shaved ice.</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>35 min <i>&middot;</i> Medium</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#caaa79">
+    <picture>
+        <source srcset="/assets/img/recipes/flat-white.webp" type="image/webp">
+        <img src="/assets/img/recipes/flat-white.jpg" alt="Flat White"
+             width="800" height="600" data-fade data-title="Flat White"
+             data-ph-a="#caaa79" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Australian</span></div>
+    <button class="fav-btn" type="button" data-slug="flat-white" data-title="Flat White"
+            aria-pressed="false" aria-label="Save Flat White to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>5m</dd></div>
         <div><dt>Cook</dt><dd>5m</dd></div>
-        <div><dt>Serves</dt><dd>2</dd></div>
+        <div><dt>Serves</dt><dd>1</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/thai-iced-tea/" aria-label="Quick view: Thai Iced Tea">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/flat-white/" aria-label="Quick view: Flat White">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Drinks</span>
-    <h3><a href="/recipes/thai-iced-tea/">Thai Iced Tea</a></h3>
-    <p>Strongly brewed spiced black tea, sweetened with condensed milk and poured over ice with a float of evaporated milk…</p>
+    <h3><a href="/recipes/flat-white/">Flat White</a></h3>
+    <p>A double shot of espresso with a small amount of steamed milk, finished with a thin, velvety layer of microfoam…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>2 hr+ <i>&middot;</i> Easy</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>10 min <i>&middot;</i> Medium</span>
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Tongan Otai"><span>Tongan Otai</span></div>
-    <div class="card-badges"><span class="badge badge--glass">Pacific</span></div>
-    <button class="fav-btn" type="button" data-slug="tongan-otai" data-title="Tongan Otai"
-            aria-pressed="false" aria-label="Save Tongan Otai to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+  <div class="card-media" style="background:#9a9893">
+    <picture>
+        <source srcset="/assets/img/recipes/irish-coffee.webp" type="image/webp">
+        <img src="/assets/img/recipes/irish-coffee.jpg" alt="Irish Coffee"
+             width="800" height="600" data-fade data-title="Irish Coffee"
+             data-ph-a="#9a9893" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Irish</span></div>
+    <button class="fav-btn" type="button" data-slug="irish-coffee" data-title="Irish Coffee"
+            aria-pressed="false" aria-label="Save Irish Coffee to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
-        <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>0m</dd></div>
-        <div><dt>Serves</dt><dd>6</dd></div>
+        <div><dt>Prep</dt><dd>5m</dd></div>
+        <div><dt>Cook</dt><dd>5m</dd></div>
+        <div><dt>Serves</dt><dd>1</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/tongan-otai/" aria-label="Quick view: Tongan Otai">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/irish-coffee/" aria-label="Quick view: Irish Coffee">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Drinks</span>
-    <h3><a href="/recipes/tongan-otai/">Tongan Otai</a></h3>
-    <p>A cold Tongan drink of blended watermelon, pineapple and mango with coconut milk, served over ice.</p>
+    <h3><a href="/recipes/irish-coffee/">Irish Coffee</a></h3>
+    <p>Hot sweetened coffee under a float of cream so lightly whipped it pours. The drink is taken through the cream…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>10 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#96806e">
+    <picture>
+        <source srcset="/assets/img/recipes/jallab.webp" type="image/webp">
+        <img src="/assets/img/recipes/jallab.jpg" alt="Jallab"
+             width="800" height="600" data-fade data-title="Jallab"
+             data-ph-a="#96806e" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Lebanese</span></div>
+    <button class="fav-btn" type="button" data-slug="jallab" data-title="Jallab"
+            aria-pressed="false" aria-label="Save Jallab to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>10m</dd></div>
+        <div><dt>Cook</dt><dd>0m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/jallab/" aria-label="Quick view: Jallab">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Drinks</span>
+    <h3><a href="/recipes/jallab/">Jallab</a></h3>
+    <p>Date and grape molasses loosened with rose water and iced, then floated with soaked pine nuts and raisins. Sold on…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>3 hr <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#7d796f">
+    <picture>
+        <source srcset="/assets/img/recipes/moroccan-mint-tea.webp" type="image/webp">
+        <img src="/assets/img/recipes/moroccan-mint-tea.jpg" alt="Moroccan Mint Tea"
+             width="800" height="600" data-fade data-title="Moroccan Mint Tea"
+             data-ph-a="#7d796f" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Moroccan</span></div>
+    <button class="fav-btn" type="button" data-slug="moroccan-mint-tea" data-title="Moroccan Mint Tea"
+            aria-pressed="false" aria-label="Save Moroccan Mint Tea to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>5m</dd></div>
+        <div><dt>Cook</dt><dd>10m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/moroccan-mint-tea/" aria-label="Quick view: Moroccan Mint Tea">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Drinks</span>
+    <h3><a href="/recipes/moroccan-mint-tea/">Moroccan Mint Tea</a></h3>
+    <p>Gunpowder green tea and a large bunch of spearmint, sweetened heavily and poured from height into small glasses…</p>
     <div class="card-foot">
       
       <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>15 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#463a34">
-    <picture>
-        <source srcset="/assets/img/recipes/turkish-tea.webp" type="image/webp">
-        <img src="/assets/img/recipes/turkish-tea.jpg" alt="Turkish Tea"
-             width="800" height="600" data-fade data-title="Turkish Tea"
-             data-ph-a="#463a34" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Turkish</span></div>
-    <button class="fav-btn" type="button" data-slug="turkish-tea" data-title="Turkish Tea"
-            aria-pressed="false" aria-label="Save Turkish Tea to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>2m</dd></div>
-        <div><dt>Cook</dt><dd>15m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/turkish-tea/" aria-label="Quick view: Turkish Tea">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Drinks</span>
-    <h3><a href="/recipes/turkish-tea/">Turkish Tea</a></h3>
-    <p>Strong black tea brewed in a stacked pair of kettles and served in small tulip glasses, with sugar cubes on the side.</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>17 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article></div>
@@ -579,7 +596,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -600,12 +618,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -625,8 +646,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

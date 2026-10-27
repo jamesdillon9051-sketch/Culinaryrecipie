@@ -18,6 +18,12 @@ Disallow: /*?category=
 Disallow: /*&category=
 Disallow: /*?difficulty=
 Disallow: /*&difficulty=
+Disallow: /*?course=
+Disallow: /*&course=
+Disallow: /*?method=
+Disallow: /*&method=
+Disallow: /*?swaps=
+Disallow: /*&swaps=
 # The contact form's endpoint answers POST only.
 Disallow: /contact/send.php
 
@@ -40,6 +46,12 @@ Disallow: /*?category=
 Disallow: /*&category=
 Disallow: /*?difficulty=
 Disallow: /*&difficulty=
+Disallow: /*?course=
+Disallow: /*&course=
+Disallow: /*?method=
+Disallow: /*&method=
+Disallow: /*?swaps=
+Disallow: /*&swaps=
 # The contact form's endpoint answers POST only.
 Disallow: /contact/send.php
 

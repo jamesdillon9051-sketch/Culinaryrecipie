@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 <link rel="preload" href="/assets/img/recipes/rosol.webp" as="image" type="image/webp" fetchpriority="high">
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -89,6 +89,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -117,7 +118,7 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/dinner/">Dinner</a></li><li><a href="/categories/dinner/polish/">Polish Dinner</a></li><li><span aria-current="page">Rosół</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="rosol" data-servings="6"
+  <article data-recipe="rosol" data-servings="6" data-scale="cook"
            data-image="https://weeklydelight.com/assets/img/recipes/rosol.jpg">
 
     <div class="recipe-masthead">
@@ -178,6 +179,7 @@
             <output data-servings-out aria-live="polite">6</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 6 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -250,6 +252,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">2 hr 50 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Easy</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">Polish</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Light meal</dd>
           </dl>
         </div>
 
@@ -288,6 +291,10 @@
         
 
         <h2 id="method">How to Make Rosół</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li>You will need: large pot or casserole.</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -340,6 +347,8 @@
         
       </div>
     </li></ol>
+        
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=rosol&amp;v=7094ff8df54c" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <h2>Notes for Getting It Right</h2>
         <ul><li>Start with cold water and heat slowly. It draws the flavour out of the chicken and keeps the broth clear.</li><li>Do not let the soup boil. A hard boil stirs up the fat and scum and makes the broth cloudy.</li><li>Cook the noodles separately. Cooked in the broth they cloud it and soak it up.</li></ul>
@@ -399,6 +408,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -413,7 +423,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=rosol&amp;v=7094ff8df54c" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-09-29">29 September 2026</time>; last changed <time datetime="2026-10-20">20 October 2026</time>.</p>
         </div>
       </div>
@@ -458,6 +469,36 @@
     <div class="card-foot">
       
       <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>60 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#978f80">
+    <picture>
+        <source srcset="/assets/img/recipes/krupnik.webp" type="image/webp">
+        <img src="/assets/img/recipes/krupnik.jpg" alt="Krupnik"
+             width="800" height="600" data-fade data-title="Krupnik"
+             data-ph-a="#978f80" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Polish</span></div>
+    <button class="fav-btn" type="button" data-slug="krupnik" data-title="Krupnik"
+            aria-pressed="false" aria-label="Save Krupnik to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>15m</dd></div>
+        <div><dt>Cook</dt><dd>60m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/krupnik/" aria-label="Quick view: Krupnik">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Dinner</span>
+    <h3><a href="/recipes/krupnik/">Krupnik</a></h3>
+    <p>A thick Polish barley soup with root vegetables and smoked meat or chicken, simmered for 1 hour.</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>95 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article><article class="card reveal">
@@ -521,93 +562,63 @@
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#695b4d">
+  <div class="card-media" style="background:#d5aa7b">
     <picture>
-        <source srcset="/assets/img/recipes/kottu-roti.webp" type="image/webp">
-        <img src="/assets/img/recipes/kottu-roti.jpg" alt="Kottu Roti"
-             width="800" height="600" data-fade data-title="Kottu Roti"
-             data-ph-a="#695b4d" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/instant-pot-minestrone.webp" type="image/webp">
+        <img src="/assets/img/recipes/instant-pot-minestrone.jpg" alt="Instant Pot Minestrone"
+             width="800" height="600" data-fade data-title="Instant Pot Minestrone"
+             data-ph-a="#d5aa7b" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
-    <div class="card-badges"><span class="badge badge--glass">Sri Lankan</span></div>
-    <button class="fav-btn" type="button" data-slug="kottu-roti" data-title="Kottu Roti"
-            aria-pressed="false" aria-label="Save Kottu Roti to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="card-badges"><span class="badge badge--glass">Italian</span></div>
+    <button class="fav-btn" type="button" data-slug="instant-pot-minestrone" data-title="Instant Pot Minestrone"
+            aria-pressed="false" aria-label="Save Instant Pot Minestrone to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
-        <div><dt>Prep</dt><dd>25m</dd></div>
-        <div><dt>Cook</dt><dd>20m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
+        <div><dt>Prep</dt><dd>15m</dd></div>
+        <div><dt>Cook</dt><dd>15m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/kottu-roti/" aria-label="Quick view: Kottu Roti">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/instant-pot-minestrone/" aria-label="Quick view: Instant Pot Minestrone">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/kottu-roti/">Kottu Roti</a></h3>
-    <p>Godamba roti chopped on a hot griddle with vegetables, egg and curry, in a rhythm of metal blades that you can hear…</p>
+    <h3><a href="/recipes/instant-pot-minestrone/">Instant Pot Minestrone</a></h3>
+    <p>A chunky Italian vegetable soup of beans, small pasta and tomato, cooked under pressure in 15 minutes and finished…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>45 min <i>&middot;</i> Medium</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>30 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#917862">
+  <div class="card-media" style="background:#9f988e">
     <picture>
-        <source srcset="/assets/img/recipes/nikujaga.webp" type="image/webp">
-        <img src="/assets/img/recipes/nikujaga.jpg" alt="Nikujaga"
-             width="800" height="600" data-fade data-title="Nikujaga"
-             data-ph-a="#917862" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/czech-potato-soup.webp" type="image/webp">
+        <img src="/assets/img/recipes/czech-potato-soup.jpg" alt="Czech Potato Soup"
+             width="800" height="600" data-fade data-title="Czech Potato Soup"
+             data-ph-a="#9f988e" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
-    <div class="card-badges"><span class="badge badge--glass">Japanese</span></div>
-    <button class="fav-btn" type="button" data-slug="nikujaga" data-title="Nikujaga"
-            aria-pressed="false" aria-label="Save Nikujaga to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="card-badges"><span class="badge badge--glass">Czech</span></div>
+    <button class="fav-btn" type="button" data-slug="czech-potato-soup" data-title="Czech Potato Soup"
+            aria-pressed="false" aria-label="Save Czech Potato Soup to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>15m</dd></div>
         <div><dt>Cook</dt><dd>35m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/nikujaga/" aria-label="Quick view: Nikujaga">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/czech-potato-soup/" aria-label="Quick view: Czech Potato Soup">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/nikujaga/">Nikujaga</a></h3>
-    <p>Beef and potatoes simmered in dashi, soy and mirin until the potatoes have soaked up the broth and started to fall…</p>
+    <h3><a href="/recipes/czech-potato-soup/">Czech Potato Soup</a></h3>
+    <p>A thick Czech soup of potatoes, carrot, celery and onion seasoned with marjoram and caraway, with mushrooms stirred…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>80 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#95815b">
-    <picture>
-        <source srcset="/assets/img/recipes/ohn-no-khao-swe.webp" type="image/webp">
-        <img src="/assets/img/recipes/ohn-no-khao-swe.jpg" alt="Ohn No Khao Swè"
-             width="800" height="600" data-fade data-title="Ohn No Khao Swè"
-             data-ph-a="#95815b" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Burmese</span></div>
-    <button class="fav-btn" type="button" data-slug="ohn-no-khao-swe" data-title="Ohn No Khao Swè"
-            aria-pressed="false" aria-label="Save Ohn No Khao Swè to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>20m</dd></div>
-        <div><dt>Cook</dt><dd>45m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/ohn-no-khao-swe/" aria-label="Quick view: Ohn No Khao Swè">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/ohn-no-khao-swe/">Ohn No Khao Swè</a></h3>
-    <p>Egg noodles and chicken in a rich, golden coconut broth thickened with chickpea flour, topped with boiled egg…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>65 min <i>&middot;</i> Medium</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>50 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article></div>
@@ -617,7 +628,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -638,12 +650,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -663,8 +678,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

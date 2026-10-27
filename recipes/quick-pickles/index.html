@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 <link rel="preload" href="/assets/img/recipes/quick-pickles.webp" as="image" type="image/webp" fetchpriority="high">
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -90,6 +90,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -118,12 +119,12 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/appetizers/">Appetizers</a></li><li><a href="/categories/appetizers/american/">American Appetizer</a></li><li><span aria-current="page">Quick Refrigerator Pickles</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="quick-pickles" data-servings="8"
+  <article data-recipe="quick-pickles" data-servings="8" data-scale="cook"
            data-image="https://weeklydelight.com/assets/img/recipes/quick-pickles.jpg">
 
     <div class="recipe-masthead">
       <header class="recipe-head">
-        <span class="eyebrow">American &middot; Appetizers</span>
+        <span class="eyebrow">American &middot; Appetizers &middot; Condiment, dressing or rub</span>
         <h1>Quick Refrigerator Pickles</h1>
         <p class="lede">Cucumbers in a hot brine, in the fridge, ready by dinner. Not preserved and not shelf-stable — just crisp, sharp and finished in an afternoon.</p>
 
@@ -179,6 +180,7 @@
             <output data-servings-out aria-live="polite">8</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 8 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -246,6 +248,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">5 hr 5 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Easy</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">American</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Condiment, dressing or rub</dd>
           </dl>
         </div>
 
@@ -287,6 +290,10 @@
         
 
         <h2 id="method">How to Cook Quick Refrigerator Pickles</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li><strong>Plan for 4 hr 45 min of brining.</strong> It is part of the 5 hr 5 min start to finish.</li><li>This is a condiment, not a meal on its own. The serving suggestions below say what it goes with.</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -332,6 +339,8 @@
         
       </div>
     </li></ol>
+        <p class="form-note guide-links">Related guide: <a href="/guides/active-and-total-time/">Prep, cook and total time</a>.</p>
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=quick-pickles&amp;v=9564b867568f" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <h2>A Few Notes</h2>
         <p class="tip-note">Trim the blossom end. It is the single most common reason home pickles go soft.</p><p class="tip-note">Small, firm cucumbers only. A large salad cucumber has too much water and too few walls.</p><p class="tip-note">These are refrigerator pickles and are not shelf-stable. They live in the fridge.</p>
@@ -394,6 +403,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -408,7 +418,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=quick-pickles&amp;v=9564b867568f" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-09-05">5 September 2026</time>; last changed <time datetime="2026-10-20">20 October 2026</time>.</p>
         </div>
       </div>
@@ -426,183 +437,183 @@
         <a class="btn btn--ghost" href="/categories/appetizers/american/">All american appetizer recipes</a>
       </div>
       <div class="related-grid"><article class="card reveal">
-  <div class="card-media" style="background:#80673d">
+  <div class="card-media" style="background:#996f6a">
     <picture>
-        <source srcset="/assets/img/recipes/pickled-okra.webp" type="image/webp">
-        <img src="/assets/img/recipes/pickled-okra.jpg" alt="Pickled Okra"
-             width="800" height="600" data-fade data-title="Pickled Okra"
-             data-ph-a="#80673d" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/pepper-jelly.webp" type="image/webp">
+        <img src="/assets/img/recipes/pepper-jelly.jpg" alt="Pepper Jelly"
+             width="800" height="600" data-fade data-title="Pepper Jelly"
+             data-ph-a="#996f6a" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="pickled-okra" data-title="Pickled Okra"
-            aria-pressed="false" aria-label="Save Pickled Okra to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="pepper-jelly" data-title="Pepper Jelly"
+            aria-pressed="false" aria-label="Save Pepper Jelly to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
-        <div><dt>Prep</dt><dd>20m</dd></div>
-        <div><dt>Cook</dt><dd>10m</dd></div>
-        <div><dt>Serves</dt><dd>8</dd></div>
+        <div><dt>Prep</dt><dd>25m</dd></div>
+        <div><dt>Cook</dt><dd>25m</dd></div>
+        <div><dt>Serves</dt><dd>40</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/pickled-okra/" aria-label="Quick view: Pickled Okra">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/pepper-jelly/" aria-label="Quick view: Pepper Jelly">Quick view</a>
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Appetizers</span>
-    <h3><a href="/recipes/pickled-okra/">Pickled Okra</a></h3>
-    <p>Small okra pods pickled whole in a garlic, dill and chilli vinegar brine, crisp and tangy after a day in the jar.</p>
+    <span class="card-kicker">Condiment</span>
+    <h3><a href="/recipes/pepper-jelly/">Pepper Jelly</a></h3>
+    <p>A sweet and fiery jelly of red peppers and jalapeños, boiled with vinegar and sugar. Pour it over cream cheese with…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>24.5 hr <i>&middot;</i> Easy</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>50 min <i>&middot;</i> Medium</span>
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#9b9574">
+  <div class="card-media" style="background:#887958">
     <picture>
-        <source srcset="/assets/img/recipes/shrimp-lettuce-cups.webp" type="image/webp">
-        <img src="/assets/img/recipes/shrimp-lettuce-cups.jpg" alt="Shrimp Lettuce Cups"
-             width="800" height="600" data-fade data-title="Shrimp Lettuce Cups"
-             data-ph-a="#9b9574" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/bread-and-butter-pickles.webp" type="image/webp">
+        <img src="/assets/img/recipes/bread-and-butter-pickles.jpg" alt="Bread and Butter Pickles"
+             width="800" height="600" data-fade data-title="Bread and Butter Pickles"
+             data-ph-a="#887958" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="shrimp-lettuce-cups" data-title="Shrimp Lettuce Cups"
-            aria-pressed="false" aria-label="Save Shrimp Lettuce Cups to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="bread-and-butter-pickles" data-title="Bread and Butter Pickles"
+            aria-pressed="false" aria-label="Save Bread and Butter Pickles to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>20m</dd></div>
+        <div><dt>Cook</dt><dd>5m</dd></div>
+        <div><dt>Serves</dt><dd>16</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/bread-and-butter-pickles/" aria-label="Quick view: Bread and Butter Pickles">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Condiment</span>
+    <h3><a href="/recipes/bread-and-butter-pickles/">Bread and Butter Pickles</a></h3>
+    <p>Crisp, sweet-and-sour cucumber and onion slices in a turmeric-gold brine with mustard and celery seed. Ready to eat…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>85 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#9c8a5e">
+    <picture>
+        <source srcset="/assets/img/recipes/blue-cheese-dressing.webp" type="image/webp">
+        <img src="/assets/img/recipes/blue-cheese-dressing.jpg" alt="Blue Cheese Dressing"
+             width="800" height="600" data-fade data-title="Blue Cheese Dressing"
+             data-ph-a="#9c8a5e" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">American</span></div>
+    <button class="fav-btn" type="button" data-slug="blue-cheese-dressing" data-title="Blue Cheese Dressing"
+            aria-pressed="false" aria-label="Save Blue Cheese Dressing to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>10m</dd></div>
+        <div><dt>Cook</dt><dd>0m</dd></div>
+        <div><dt>Serves</dt><dd>8</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/blue-cheese-dressing/" aria-label="Quick view: Blue Cheese Dressing">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Condiment</span>
+    <h3><a href="/recipes/blue-cheese-dressing/">Blue Cheese Dressing</a></h3>
+    <p>Mayonnaise, sour cream and buttermilk with crumbled blue cheese, lemon and a little garlic, mixed into a thick…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>40 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#9f9991">
+    <picture>
+        <source srcset="/assets/img/recipes/watermelon-rind-pickles.webp" type="image/webp">
+        <img src="/assets/img/recipes/watermelon-rind-pickles.jpg" alt="Watermelon Rind Pickles"
+             width="800" height="600" data-fade data-title="Watermelon Rind Pickles"
+             data-ph-a="#9f9991" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">American</span></div>
+    <button class="fav-btn" type="button" data-slug="watermelon-rind-pickles" data-title="Watermelon Rind Pickles"
+            aria-pressed="false" aria-label="Save Watermelon Rind Pickles to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>40m</dd></div>
+        <div><dt>Cook</dt><dd>30m</dd></div>
+        <div><dt>Serves</dt><dd>10</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/watermelon-rind-pickles/" aria-label="Quick view: Watermelon Rind Pickles">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Condiment</span>
+    <h3><a href="/recipes/watermelon-rind-pickles/">Watermelon Rind Pickles</a></h3>
+    <p>Peeled watermelon rind brined overnight, then simmered in a spiced sugar and vinegar syrup until translucent and…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>9 hr <i>&middot;</i> Medium</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#99867b">
+    <picture>
+        <source srcset="/assets/img/recipes/ranch-dressing.webp" type="image/webp">
+        <img src="/assets/img/recipes/ranch-dressing.jpg" alt="Buttermilk Ranch Dressing"
+             width="800" height="600" data-fade data-title="Buttermilk Ranch Dressing"
+             data-ph-a="#99867b" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">American</span></div>
+    <button class="fav-btn" type="button" data-slug="ranch-dressing" data-title="Buttermilk Ranch Dressing"
+            aria-pressed="false" aria-label="Save Buttermilk Ranch Dressing to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>10m</dd></div>
+        <div><dt>Cook</dt><dd>0m</dd></div>
+        <div><dt>Serves</dt><dd>12</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/ranch-dressing/" aria-label="Quick view: Buttermilk Ranch Dressing">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Condiment</span>
+    <h3><a href="/recipes/ranch-dressing/">Buttermilk Ranch Dressing</a></h3>
+    <p>Real buttermilk, fresh herbs and no packet. Ten minutes to make and it needs an hour in the fridge before it tastes…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>70 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#a29e92">
+    <picture>
+        <source srcset="/assets/img/recipes/chimichurri.webp" type="image/webp">
+        <img src="/assets/img/recipes/chimichurri.jpg" alt="Chimichurri"
+             width="800" height="600" data-fade data-title="Chimichurri"
+             data-ph-a="#a29e92" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Argentinian</span></div>
+    <button class="fav-btn" type="button" data-slug="chimichurri" data-title="Chimichurri"
+            aria-pressed="false" aria-label="Save Chimichurri to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>8m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/shrimp-lettuce-cups/" aria-label="Quick view: Shrimp Lettuce Cups">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Appetizers</span>
-    <h3><a href="/recipes/shrimp-lettuce-cups/">Shrimp Lettuce Cups</a></h3>
-    <p>Chopped shrimp tossed with garlic, ginger, cucumber, carrot, mint and lime and spooned into butter lettuce leaves…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>23 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#7f6d5f">
-    <picture>
-        <source srcset="/assets/img/recipes/peanut-sauce.webp" type="image/webp">
-        <img src="/assets/img/recipes/peanut-sauce.jpg" alt="Peanut Sauce"
-             width="800" height="600" data-fade data-title="Peanut Sauce"
-             data-ph-a="#7f6d5f" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="peanut-sauce" data-title="Peanut Sauce"
-            aria-pressed="false" aria-label="Save Peanut Sauce to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>5m</dd></div>
-        <div><dt>Cook</dt><dd>8m</dd></div>
-        <div><dt>Serves</dt><dd>8</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/peanut-sauce/" aria-label="Quick view: Peanut Sauce">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Appetizers</span>
-    <h3><a href="/recipes/peanut-sauce/">Peanut Sauce</a></h3>
-    <p>Peanut butter, soy sauce, lime juice, honey and chilli warmed for 8 minutes into a smooth, savoury dipping sauce…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>13 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#b87166">
-    <picture>
-        <source srcset="/assets/img/recipes/pizza-sauce.webp" type="image/webp">
-        <img src="/assets/img/recipes/pizza-sauce.jpg" alt="Pizza Sauce"
-             width="800" height="600" data-fade data-title="Pizza Sauce"
-             data-ph-a="#b87166" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="pizza-sauce" data-title="Pizza Sauce"
-            aria-pressed="false" aria-label="Save Pizza Sauce to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>5m</dd></div>
-        <div><dt>Cook</dt><dd>15m</dd></div>
-        <div><dt>Serves</dt><dd>8</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/pizza-sauce/" aria-label="Quick view: Pizza Sauce">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Appetizers</span>
-    <h3><a href="/recipes/pizza-sauce/">Pizza Sauce</a></h3>
-    <p>Tinned tomatoes, garlic, oregano and olive oil simmered for 15 minutes into a thick, no-fuss pizza sauce. Eight…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>20 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#b5936a">
-    <picture>
-        <source srcset="/assets/img/recipes/comeback-sauce.webp" type="image/webp">
-        <img src="/assets/img/recipes/comeback-sauce.jpg" alt="Comeback Sauce"
-             width="800" height="600" data-fade data-title="Comeback Sauce"
-             data-ph-a="#b5936a" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="comeback-sauce" data-title="Comeback Sauce"
-            aria-pressed="false" aria-label="Save Comeback Sauce to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>5m</dd></div>
         <div><dt>Cook</dt><dd>0m</dd></div>
-        <div><dt>Serves</dt><dd>8</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/comeback-sauce/" aria-label="Quick view: Comeback Sauce">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/chimichurri/" aria-label="Quick view: Chimichurri">Quick view</a>
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Appetizers</span>
-    <h3><a href="/recipes/comeback-sauce/">Comeback Sauce</a></h3>
-    <p>A tangy Mississippi dipping sauce of mayonnaise, chilli sauce, garlic, Worcestershire and hot sauce, good with…</p>
+    <span class="card-kicker">Condiment</span>
+    <h3><a href="/recipes/chimichurri/">Chimichurri</a></h3>
+    <p>Finely chopped parsley, garlic, oregano, red wine vinegar and olive oil, left to stand until the garlic softens. The…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>35 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#8c8474">
-    <picture>
-        <source srcset="/assets/img/recipes/cowboy-caviar.webp" type="image/webp">
-        <img src="/assets/img/recipes/cowboy-caviar.jpg" alt="Cowboy Caviar"
-             width="800" height="600" data-fade data-title="Cowboy Caviar"
-             data-ph-a="#8c8474" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="cowboy-caviar" data-title="Cowboy Caviar"
-            aria-pressed="false" aria-label="Save Cowboy Caviar to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>20m</dd></div>
-        <div><dt>Cook</dt><dd>0m</dd></div>
-        <div><dt>Serves</dt><dd>10</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/cowboy-caviar/" aria-label="Quick view: Cowboy Caviar">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Appetizers</span>
-    <h3><a href="/recipes/cowboy-caviar/">Cowboy Caviar</a></h3>
-    <p>A bright Texas bean and corn salad of black beans, black-eyed peas, sweetcorn, peppers and tomatoes in a lime…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>80 min <i>&middot;</i> Easy</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>45 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article></div>
@@ -612,7 +623,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -633,12 +645,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -658,8 +673,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

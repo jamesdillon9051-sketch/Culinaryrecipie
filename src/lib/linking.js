@@ -27,6 +27,8 @@ const EXTRA_MIN_SCORE = 3;
 const SPREAD_PENALTY = 0.35;
 const SPREAD_CAP = 8;
 const KEEP = 40;
+/* Dishes that go with a meal rather than make one. */
+const SUPPORT = new Set(['side', 'sauce', 'condiment', 'bread', 'basic']);
 
 const STOP = new Set(['with', 'and', 'the', 'for', 'from', 'style', 'easy', 'best', 'homemade',
   'recipe', 'recipes', 'classic', 'simple', 'quick', 'fresh', 'baked', 'roasted', 'grilled',
@@ -131,6 +133,10 @@ function assignRelated(recipes, ingredientHubs) {
       if (j !== i) {
         let v = score[j];
         if (Math.abs(totalTime[j] - totalTime[i]) <= 15) v += 0.5;
+        /* A main links to other mains, a sauce to other sauces: the same kind of
+           dish answers "what else could I make tonight" (src/lib/classify.js). */
+        if (r.role && list[j].role === r.role) v += 2;
+        if (r.role && list[j].role && SUPPORT.has(r.role) !== SUPPORT.has(list[j].role)) v -= 2;
         out.push([j, v]);
       }
       score[j] = 0;
@@ -183,6 +189,27 @@ function assignRelated(recipes, ingredientHubs) {
   }
 
   list.forEach((r, i) => { r.related = picks[i].map(j => list[j]); });
+
+  /* "To serve with it": for a main course, up to three sides or breads from the
+     same cuisine, ranked by the ingredients they share with nothing (so they do
+     not repeat the main) and then by the editorial weight. A suggestion from
+     the catalogue, not a tested menu. */
+  const sidesByCuisine = new Map();
+  for (const r of list) {
+    if (!['side', 'bread'].includes(r.role) || r.roleReview) continue;
+    if (!sidesByCuisine.has(r.cuisine)) sidesByCuisine.set(r.cuisine, []);
+    sidesByCuisine.get(r.cuisine).push(r);
+  }
+  for (const list2 of sidesByCuisine.values()) list2.sort((a, b) => b.popularity - a.popularity || a.slug.localeCompare(b.slug));
+  list.forEach((r, i) => {
+    if (r.role !== 'main' || r.roleReview) { r.goesWith = []; return; }
+    const mine = new Set(hubsOf[i]);
+    const candidates = (sidesByCuisine.get(r.cuisine) || []).filter(s => !r.related.includes(s));
+    /* Rotate the start by position so neighbouring mains do not all get the same three. */
+    const start = candidates.length ? i % Math.min(candidates.length, 6) : 0;
+    const rotated = candidates.slice(start).concat(candidates.slice(0, start));
+    r.goesWith = rotated.filter(s => !hubsOf[position.get(s.slug)].some(h => mine.has(h) && h !== 'Onions' && h !== 'Garlic')).slice(0, 3);
+  });
 }
 
 module.exports = { subcategories, assignRelated, SUBCATEGORY_MIN, RELATED_MIN, RELATED_MAX };

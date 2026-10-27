@@ -483,7 +483,7 @@ module.exports = {
     why: 'The dressing is a mayonnaise: egg yolk lecithin emulsifies the oil into a stable cream, and adding the oil drop by drop at the start is what keeps it from splitting. Anchovy provides glutamates that read as savoury depth rather than fishiness, which is why the dressing tastes rich rather than of anchovy.',
     ing: [
       '# For the dressing',
-      '2 large egg yolks',
+      '2 large egg yolks, pasteurised (or British Lion-stamped in the UK)',
       '6 anchovy fillets in oil',
       '2 garlic cloves',
       '1.5 tbsp lemon juice',
@@ -513,8 +513,7 @@ module.exports = {
     ],
     tips: [
       'Use whole or halved leaves rather than shredded lettuce. The original was eaten with fingers.',
-      'If the dressing splits, whisk a fresh yolk in a clean bowl and add the split mixture to it drop by drop.',
-      'Concerned about raw egg? Use pasteurised yolks, or coddle the eggs for 60 seconds in boiling water first.'
+      'If the dressing splits, whisk a fresh pasteurised yolk in a clean bowl and add the split mixture to it drop by drop.'
     ],
     pair: ['A crisp Sauvignon Blanc or Chablis', 'Serve as a starter, or add grilled chicken for a main', 'Follow with grilled fish'],
     store: 'The dressing keeps 3 days refrigerated. Croutons keep 2 days in an airtight tin. Dress the leaves only at the moment of serving.',

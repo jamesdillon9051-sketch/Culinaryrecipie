@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 <link rel="preload" href="/assets/img/recipes/kelewele.webp" as="image" type="image/webp" fetchpriority="high">
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -90,6 +90,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -118,7 +119,7 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/appetizers/">Appetizers</a></li><li><a href="/cuisines/ghanaian/">Ghanaian recipes</a></li><li><span aria-current="page">Kelewele</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="kelewele" data-servings="4"
+  <article data-recipe="kelewele" data-servings="4" data-scale="cook"
            data-image="https://weeklydelight.com/assets/img/recipes/kelewele.jpg">
 
     <div class="recipe-masthead">
@@ -179,6 +180,7 @@
             <output data-servings-out aria-live="polite">4</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 4 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -253,6 +255,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">50 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Easy</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">Ghanaian</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Starter or snack</dd>
           </dl>
         </div>
 
@@ -289,6 +292,10 @@
         
 
         <h2 id="method">Making Kelewele</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li><strong>Plan for 20 min of standing.</strong> It is part of the 50 min start to finish.</li><li>You will need: deep pan or fryer for deep-frying.</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -348,6 +355,8 @@
         
       </div>
     </li></ol>
+        <p class="form-note guide-links">Related guide: <a href="/guides/active-and-total-time/">Prep, cook and total time</a>.</p>
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=kelewele&amp;v=f55345a8fdad" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <h2>A Few Pointers</h2>
         <ul><li>Black-skinned plantain only. Yellow ones will not caramelise.</li><li>A wet paste, not a dry rub. It stays on in the oil.</li><li>Take them darker than feels safe. That is where the flavour is.</li></ul>
@@ -415,6 +424,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -429,7 +439,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=kelewele&amp;v=f55345a8fdad" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-09-05">5 September 2026</time>; last changed <time datetime="2026-10-20">20 October 2026</time>.</p>
         </div>
       </div>
@@ -447,57 +458,33 @@
         <a class="btn btn--ghost" href="/cuisines/ghanaian/">All ghanaian recipes recipes</a>
       </div>
       <div class="related-grid"><article class="card reveal">
-  <div class="card-media" style="background:#8e908a">
+  <div class="card-media" style="background:#a1815e">
     <picture>
-        <source srcset="/assets/img/recipes/shito.webp" type="image/webp">
-        <img src="/assets/img/recipes/shito.jpg" alt="Shito"
-             width="800" height="600" data-fade data-title="Shito"
-             data-ph-a="#8e908a" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/air-fryer-spring-rolls.webp" type="image/webp">
+        <img src="/assets/img/recipes/air-fryer-spring-rolls.jpg" alt="Air Fryer Spring Rolls"
+             width="800" height="600" data-fade data-title="Air Fryer Spring Rolls"
+             data-ph-a="#a1815e" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
-    <div class="card-badges"><span class="badge badge--glass">Ghanaian</span></div>
-    <button class="fav-btn" type="button" data-slug="shito" data-title="Shito"
-            aria-pressed="false" aria-label="Save Shito to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="card-badges"><span class="badge badge--glass">Chinese</span></div>
+    <button class="fav-btn" type="button" data-slug="air-fryer-spring-rolls" data-title="Air Fryer Spring Rolls"
+            aria-pressed="false" aria-label="Save Air Fryer Spring Rolls to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
-        <div><dt>Prep</dt><dd>20m</dd></div>
-        <div><dt>Cook</dt><dd>45m</dd></div>
-        <div><dt>Serves</dt><dd>24</dd></div>
+        <div><dt>Prep</dt><dd>25m</dd></div>
+        <div><dt>Cook</dt><dd>12m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/shito/" aria-label="Quick view: Shito">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/air-fryer-spring-rolls/" aria-label="Quick view: Air Fryer Spring Rolls">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Appetizers</span>
-    <h3><a href="/recipes/shito/">Shito</a></h3>
-    <p>A dark, oily, fiery Ghanaian condiment of onion, tomato, chilli, ground dried shrimp and ginger, slowly fried in…</p>
+    <h3><a href="/recipes/air-fryer-spring-rolls/">Air Fryer Spring Rolls</a></h3>
+    <p>Vegetable spring rolls wrapped in thin pastry, brushed with oil and air fried for 12 minutes until crisp and golden.</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>65 min <i>&middot;</i> Medium</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Tamarillo Chutney"><span>Tamarillo Chutney</span></div>
-    <div class="card-badges"><span class="badge badge--glass">New Zealand</span></div>
-    <button class="fav-btn" type="button" data-slug="tamarillo-chutney" data-title="Tamarillo Chutney"
-            aria-pressed="false" aria-label="Save Tamarillo Chutney to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>30m</dd></div>
-        <div><dt>Cook</dt><dd>70m</dd></div>
-        <div><dt>Serves</dt><dd>30</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/tamarillo-chutney/" aria-label="Quick view: Tamarillo Chutney">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Appetizers</span>
-    <h3><a href="/recipes/tamarillo-chutney/">Tamarillo Chutney</a></h3>
-    <p>Tamarillos, onions, ginger and spices simmered with brown sugar and vinegar into a rich, deep red chutney, sweet and…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>100 min <i>&middot;</i> Easy</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>52 min <i>&middot;</i> Medium</span>
     </div>
   </div>
 </article><article class="card reveal">
@@ -531,63 +518,93 @@
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#a1815e">
+  <div class="card-media" style="background:#9b7445">
     <picture>
-        <source srcset="/assets/img/recipes/air-fryer-spring-rolls.webp" type="image/webp">
-        <img src="/assets/img/recipes/air-fryer-spring-rolls.jpg" alt="Air Fryer Spring Rolls"
-             width="800" height="600" data-fade data-title="Air Fryer Spring Rolls"
-             data-ph-a="#a1815e" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/vegetable-pakoras.webp" type="image/webp">
+        <img src="/assets/img/recipes/vegetable-pakoras.jpg" alt="Vegetable Pakoras"
+             width="800" height="600" data-fade data-title="Vegetable Pakoras"
+             data-ph-a="#9b7445" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
-    <div class="card-badges"><span class="badge badge--glass">Chinese</span></div>
-    <button class="fav-btn" type="button" data-slug="air-fryer-spring-rolls" data-title="Air Fryer Spring Rolls"
-            aria-pressed="false" aria-label="Save Air Fryer Spring Rolls to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>25m</dd></div>
-        <div><dt>Cook</dt><dd>12m</dd></div>
-        <div><dt>Serves</dt><dd>6</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/air-fryer-spring-rolls/" aria-label="Quick view: Air Fryer Spring Rolls">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Appetizers</span>
-    <h3><a href="/recipes/air-fryer-spring-rolls/">Air Fryer Spring Rolls</a></h3>
-    <p>Vegetable spring rolls wrapped in thin pastry, brushed with oil and air fried for 12 minutes until crisp and golden.</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>52 min <i>&middot;</i> Medium</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#5c4a41">
-    <picture>
-        <source srcset="/assets/img/recipes/chilli-oil.webp" type="image/webp">
-        <img src="/assets/img/recipes/chilli-oil.jpg" alt="Sichuan Chilli Oil"
-             width="800" height="600" data-fade data-title="Sichuan Chilli Oil"
-             data-ph-a="#5c4a41" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Chinese</span></div>
-    <button class="fav-btn" type="button" data-slug="chilli-oil" data-title="Sichuan Chilli Oil"
-            aria-pressed="false" aria-label="Save Sichuan Chilli Oil to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="card-badges"><span class="badge badge--glass">Indian</span></div>
+    <button class="fav-btn" type="button" data-slug="vegetable-pakoras" data-title="Vegetable Pakoras"
+            aria-pressed="false" aria-label="Save Vegetable Pakoras to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>15m</dd></div>
         <div><dt>Cook</dt><dd>15m</dd></div>
-        <div><dt>Serves</dt><dd>12</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/chilli-oil/" aria-label="Quick view: Sichuan Chilli Oil">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/vegetable-pakoras/" aria-label="Quick view: Vegetable Pakoras">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Appetizers</span>
-    <h3><a href="/recipes/chilli-oil/">Sichuan Chilli Oil</a></h3>
-    <p>Hot oil poured over chilli flakes and spices in stages, so the sediment toasts without burning. Fifteen minutes, and…</p>
+    <h3><a href="/recipes/vegetable-pakoras/">Vegetable Pakoras</a></h3>
+    <p>Onion, potato and spinach bound in a spiced gram flour batter and fried into craggy, shatteringly crisp clusters…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>24.5 hr+ <i>&middot;</i> Easy</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>30 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#9e8c76">
+    <picture>
+        <source srcset="/assets/img/recipes/ceviche.webp" type="image/webp">
+        <img src="/assets/img/recipes/ceviche.jpg" alt="Peruvian Ceviche"
+             width="800" height="600" data-fade data-title="Peruvian Ceviche"
+             data-ph-a="#9e8c76" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Peruvian</span><span class="badge badge--brass">Featured</span></div>
+    <button class="fav-btn" type="button" data-slug="ceviche" data-title="Peruvian Ceviche"
+            aria-pressed="false" aria-label="Save Peruvian Ceviche to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>25m</dd></div>
+        <div><dt>Cook</dt><dd>0m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/ceviche/" aria-label="Quick view: Peruvian Ceviche">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Appetizers</span>
+    <h3><a href="/recipes/ceviche/">Peruvian Ceviche</a></h3>
+    <p>Firm white fish cured for ten minutes in lime juice with chilli, red onion and coriander, served immediately with…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>25 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#878886">
+    <picture>
+        <source srcset="/assets/img/recipes/gobi-manchurian.webp" type="image/webp">
+        <img src="/assets/img/recipes/gobi-manchurian.jpg" alt="Gobi Manchurian"
+             width="800" height="600" data-fade data-title="Gobi Manchurian"
+             data-ph-a="#878886" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Indian</span></div>
+    <button class="fav-btn" type="button" data-slug="gobi-manchurian" data-title="Gobi Manchurian"
+            aria-pressed="false" aria-label="Save Gobi Manchurian to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>20m</dd></div>
+        <div><dt>Cook</dt><dd>25m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/gobi-manchurian/" aria-label="Quick view: Gobi Manchurian">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Appetizers</span>
+    <h3><a href="/recipes/gobi-manchurian/">Gobi Manchurian</a></h3>
+    <p>Cauliflower fried in a spiced batter and tossed in a dark garlic and soy sauce. Kolkata Hakka cooking, and the dish…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>45 min <i>&middot;</i> Medium</span>
     </div>
   </div>
 </article><article class="card reveal">
@@ -627,7 +644,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -648,12 +666,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -673,8 +694,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 <link rel="preload" href="/assets/img/recipes/cucumber-noodle-salad.webp" as="image" type="image/webp" fetchpriority="high">
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -89,6 +89,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -117,12 +118,12 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/healthy/">Healthy</a></li><li><a href="/categories/healthy/american/">American Healthy</a></li><li><span aria-current="page">Cucumber Noodle Salad</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="cucumber-noodle-salad" data-servings="4"
+  <article data-recipe="cucumber-noodle-salad" data-servings="4" data-scale="cook"
            data-image="https://weeklydelight.com/assets/img/recipes/cucumber-noodle-salad.jpg">
 
     <div class="recipe-masthead">
       <header class="recipe-head">
-        <span class="eyebrow">American &middot; Healthy</span>
+        <span class="eyebrow">American &middot; Healthy &middot; Side dish</span>
         <h1>Cucumber Noodle Salad</h1>
         <p class="lede">Spiralised cucumber and carrot noodles with red cabbage, spring onion and cilantro in a peanut and lime dressing. Four servings in 15 minutes.</p>
 
@@ -178,6 +179,7 @@
             <output data-servings-out aria-live="polite">4</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 4 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -254,6 +256,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">15 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Easy</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">American</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Side dish</dd>
           </dl>
         </div>
 
@@ -290,6 +293,10 @@
         
 
         <h2 id="method">How to Make Cucumber Noodle Salad</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li>This is a side dish, not a meal on its own. The serving suggestions below say what it goes with.</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -314,6 +321,8 @@
         
       </div>
     </li></ol>
+        
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=cucumber-noodle-salad&amp;v=04fe3dc0504b" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <section class="why-plain" aria-labelledby="why-title">
           <h2 id="why-title">What&#39;s Going On Here</h2>
@@ -380,6 +389,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -394,7 +404,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=cucumber-noodle-salad&amp;v=04fe3dc0504b" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-10-07">7 October 2026</time>; last changed <time datetime="2026-10-22">22 October 2026</time>.</p>
         </div>
       </div>
@@ -433,9 +444,99 @@
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Healthy</span>
+    <span class="card-kicker">Side dish</span>
     <h3><a href="/recipes/edamame-salad/">Edamame Salad</a></h3>
     <p>Cooled edamame tossed with red pepper, carrot, cucumber, red onion and cilantro in a ginger, lime and sesame…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>20 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#9c873d">
+    <picture>
+        <source srcset="/assets/img/recipes/grapefruit-avocado-salad.webp" type="image/webp">
+        <img src="/assets/img/recipes/grapefruit-avocado-salad.jpg" alt="Grapefruit Avocado Salad"
+             width="800" height="600" data-fade data-title="Grapefruit Avocado Salad"
+             data-ph-a="#9c873d" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">American</span></div>
+    <button class="fav-btn" type="button" data-slug="grapefruit-avocado-salad" data-title="Grapefruit Avocado Salad"
+            aria-pressed="false" aria-label="Save Grapefruit Avocado Salad to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>10m</dd></div>
+        <div><dt>Cook</dt><dd>0m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/grapefruit-avocado-salad/" aria-label="Quick view: Grapefruit Avocado Salad">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/grapefruit-avocado-salad/">Grapefruit Avocado Salad</a></h3>
+    <p>Grapefruit segments and sliced avocado over baby spinach with red onion, mint and pumpkin seeds in a lime dressing…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>10 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#9d846d">
+    <picture>
+        <source srcset="/assets/img/recipes/creamy-coleslaw.webp" type="image/webp">
+        <img src="/assets/img/recipes/creamy-coleslaw.jpg" alt="Creamy Coleslaw"
+             width="800" height="600" data-fade data-title="Creamy Coleslaw"
+             data-ph-a="#9d846d" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">American</span></div>
+    <button class="fav-btn" type="button" data-slug="creamy-coleslaw" data-title="Creamy Coleslaw"
+            aria-pressed="false" aria-label="Save Creamy Coleslaw to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>15m</dd></div>
+        <div><dt>Cook</dt><dd>0m</dd></div>
+        <div><dt>Serves</dt><dd>8</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/creamy-coleslaw/" aria-label="Quick view: Creamy Coleslaw">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/creamy-coleslaw/">Creamy Coleslaw</a></h3>
+    <p>Cabbage and carrot in a dressing balanced between mayonnaise, vinegar and sugar. The technique that matters is…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>3.5 hr <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#8b9071">
+    <picture>
+        <source srcset="/assets/img/recipes/green-goddess-salad.webp" type="image/webp">
+        <img src="/assets/img/recipes/green-goddess-salad.jpg" alt="AI-generated illustration of Green Goddess Salad"
+             width="800" height="600" data-fade data-title="Green Goddess Salad"
+             data-ph-a="#8b9071" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">American</span></div>
+    <button class="fav-btn" type="button" data-slug="green-goddess-salad" data-title="Green Goddess Salad"
+            aria-pressed="false" aria-label="Save Green Goddess Salad to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>20m</dd></div>
+        <div><dt>Cook</dt><dd>0m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/green-goddess-salad/" aria-label="Quick view: Green Goddess Salad">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/green-goddess-salad/">Green Goddess Salad</a></h3>
+    <p>Everything chopped to the size of a pea and bound in a herb dressing thick enough to cling, eaten with a spoon or a…</p>
     <div class="card-foot">
       
       <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>20 min <i>&middot;</i> Easy</span>
@@ -463,7 +564,7 @@
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Healthy</span>
+    <span class="card-kicker">Side dish</span>
     <h3><a href="/recipes/asian-slaw/">Asian Slaw</a></h3>
     <p>Shredded cabbage, carrot and spring onion with coriander and peanuts, dressed with rice vinegar, soy sauce and…</p>
     <div class="card-foot">
@@ -472,123 +573,33 @@
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#816e5d">
+  <div class="card-media" style="background:#bc6339">
     <picture>
-        <source srcset="/assets/img/recipes/chicken-noodle-soup.webp" type="image/webp">
-        <img src="/assets/img/recipes/chicken-noodle-soup.jpg" alt="Chicken Noodle Soup"
-             width="800" height="600" data-fade data-title="Chicken Noodle Soup"
-             data-ph-a="#816e5d" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/watermelon-salad.webp" type="image/webp">
+        <img src="/assets/img/recipes/watermelon-salad.jpg" alt="Watermelon Salad"
+             width="800" height="600" data-fade data-title="Watermelon Salad"
+             data-ph-a="#bc6339" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="chicken-noodle-soup" data-title="Chicken Noodle Soup"
-            aria-pressed="false" aria-label="Save Chicken Noodle Soup to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>95m</dd></div>
-        <div><dt>Serves</dt><dd>6</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/chicken-noodle-soup/" aria-label="Quick view: Chicken Noodle Soup">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Healthy</span>
-    <h3><a href="/recipes/chicken-noodle-soup/">Chicken Noodle Soup</a></h3>
-    <p>Built from a whole chicken so the broth carries real body, with the noodles cooked separately so they never turn to…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>110 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#9d846d">
-    <picture>
-        <source srcset="/assets/img/recipes/creamy-coleslaw.webp" type="image/webp">
-        <img src="/assets/img/recipes/creamy-coleslaw.jpg" alt="Creamy Coleslaw"
-             width="800" height="600" data-fade data-title="Creamy Coleslaw"
-             data-ph-a="#9d846d" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="creamy-coleslaw" data-title="Creamy Coleslaw"
-            aria-pressed="false" aria-label="Save Creamy Coleslaw to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="watermelon-salad" data-title="Watermelon Salad"
+            aria-pressed="false" aria-label="Save Watermelon Salad to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>15m</dd></div>
         <div><dt>Cook</dt><dd>0m</dd></div>
-        <div><dt>Serves</dt><dd>8</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/creamy-coleslaw/" aria-label="Quick view: Creamy Coleslaw">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Healthy</span>
-    <h3><a href="/recipes/creamy-coleslaw/">Creamy Coleslaw</a></h3>
-    <p>Cabbage and carrot in a dressing balanced between mayonnaise, vinegar and sugar. The technique that matters is…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>3.5 hr <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#9c873d">
-    <picture>
-        <source srcset="/assets/img/recipes/grapefruit-avocado-salad.webp" type="image/webp">
-        <img src="/assets/img/recipes/grapefruit-avocado-salad.jpg" alt="Grapefruit Avocado Salad"
-             width="800" height="600" data-fade data-title="Grapefruit Avocado Salad"
-             data-ph-a="#9c873d" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="grapefruit-avocado-salad" data-title="Grapefruit Avocado Salad"
-            aria-pressed="false" aria-label="Save Grapefruit Avocado Salad to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>10m</dd></div>
-        <div><dt>Cook</dt><dd>0m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/grapefruit-avocado-salad/" aria-label="Quick view: Grapefruit Avocado Salad">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/watermelon-salad/" aria-label="Quick view: Watermelon Salad">Quick view</a>
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Healthy</span>
-    <h3><a href="/recipes/grapefruit-avocado-salad/">Grapefruit Avocado Salad</a></h3>
-    <p>Grapefruit segments and sliced avocado over baby spinach with red onion, mint and pumpkin seeds in a lime dressing…</p>
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/watermelon-salad/">Watermelon Salad</a></h3>
+    <p>Cold watermelon cubes with salty feta, fresh mint, thin red onion and a squeeze of lime. A no-cook summer salad that…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>10 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#886f58">
-    <picture>
-        <source srcset="/assets/img/recipes/soba-noodle-salad.webp" type="image/webp">
-        <img src="/assets/img/recipes/soba-noodle-salad.jpg" alt="Soba Noodle Salad"
-             width="800" height="600" data-fade data-title="Soba Noodle Salad"
-             data-ph-a="#886f58" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Japanese</span></div>
-    <button class="fav-btn" type="button" data-slug="soba-noodle-salad" data-title="Soba Noodle Salad"
-            aria-pressed="false" aria-label="Save Soba Noodle Salad to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>6m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/soba-noodle-salad/" aria-label="Quick view: Soba Noodle Salad">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Healthy</span>
-    <h3><a href="/recipes/soba-noodle-salad/">Soba Noodle Salad</a></h3>
-    <p>Cold buckwheat noodles with cucumber, carrot, spring onion and sesame seeds in a soy and rice vinegar dressing.</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>21 min <i>&middot;</i> Easy</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>15 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article></div>
@@ -598,7 +609,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -619,12 +631,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -644,8 +659,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

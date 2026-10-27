@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 <link rel="preload" href="/assets/img/recipes/creamy-tomato-soup.webp" as="image" type="image/webp" fetchpriority="high">
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -89,6 +89,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -117,7 +118,7 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/healthy/">Healthy</a></li><li><a href="/categories/healthy/american/">American Healthy</a></li><li><span aria-current="page">Creamy Tomato Soup</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="creamy-tomato-soup" data-servings="4"
+  <article data-recipe="creamy-tomato-soup" data-servings="4" data-scale="cook"
            data-image="https://weeklydelight.com/assets/img/recipes/creamy-tomato-soup.jpg">
 
     <div class="recipe-masthead">
@@ -178,6 +179,7 @@
             <output data-servings-out aria-live="polite">4</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 4 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -253,6 +255,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">55 min to 1 hr 5 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Easy</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">American</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Main dish</dd>
           </dl>
         </div>
 
@@ -291,6 +294,10 @@
         
 
         <h2 id="method">Making Creamy Tomato Soup</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li>You will need: oven, large pot or casserole.</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -350,6 +357,8 @@
         
       </div>
     </li></ol>
+        
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=creamy-tomato-soup&amp;v=5259c9d45a45" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <h2>Tips for Making Creamy Tomato Soup</h2>
         <ul><li>Out of season, use two 400 g tins of good plum tomatoes and roast them the same way — it works remarkably well.</li><li>Do not skip scraping the tray. The caramelised residue is where the depth lives.</li><li>For a vegan version, replace the cream with 3 tablespoons of cashew butter blended in.</li></ul>
@@ -359,6 +368,7 @@
 
         <h2>Serving Suggestions</h2>
         <ul><li>A glass of red or, traditionally, none at all</li><li>Serve with grilled cheese for dunking</li><li>Follow with a green salad</li></ul>
+        <p class="goes-with">Sides from the same cuisine on this site: <a href="/recipes/biscuits-buttermilk/">Buttermilk Biscuits</a>, <a href="/recipes/bagels/">New York Bagels</a>, <a href="/recipes/cornbread/">Skillet Cornbread</a>.</p>
 
         <h2>Storing &amp; Reheating Creamy Tomato Soup</h2>
         <p>Refrigerate 4 days, freeze 3 months without the cream, adding it fresh on reheating.</p>
@@ -412,6 +422,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -426,7 +437,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=creamy-tomato-soup&amp;v=5259c9d45a45" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-09-05">5 September 2026</time>; last changed <time datetime="2026-10-20">20 October 2026</time>.</p>
         </div>
       </div>
@@ -444,93 +456,33 @@
         <a class="btn btn--ghost" href="/categories/healthy/american/">All american healthy recipes</a>
       </div>
       <div class="related-grid"><article class="card reveal">
-  <div class="card-media" style="background:#9e8a77">
+  <div class="card-media" style="background:#958a7f">
     <picture>
-        <source srcset="/assets/img/recipes/cabbage-soup.webp" type="image/webp">
-        <img src="/assets/img/recipes/cabbage-soup.jpg" alt="Cabbage Soup"
-             width="800" height="600" data-fade data-title="Cabbage Soup"
-             data-ph-a="#9e8a77" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/cobb-salad.webp" type="image/webp">
+        <img src="/assets/img/recipes/cobb-salad.jpg" alt="Cobb Salad"
+             width="800" height="600" data-fade data-title="Cobb Salad"
+             data-ph-a="#958a7f" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="cabbage-soup" data-title="Cabbage Soup"
-            aria-pressed="false" aria-label="Save Cabbage Soup to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="cobb-salad" data-title="Cobb Salad"
+            aria-pressed="false" aria-label="Save Cobb Salad to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
-        <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>35m</dd></div>
-        <div><dt>Serves</dt><dd>6</dd></div>
+        <div><dt>Prep</dt><dd>25m</dd></div>
+        <div><dt>Cook</dt><dd>15m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/cabbage-soup/" aria-label="Quick view: Cabbage Soup">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/cobb-salad/" aria-label="Quick view: Cobb Salad">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Healthy</span>
-    <h3><a href="/recipes/cabbage-soup/">Cabbage Soup</a></h3>
-    <p>A pot of cabbage, carrots, tomatoes and peppers simmered in vegetable stock until sweet and soft. Fifty minutes…</p>
+    <h3><a href="/recipes/cobb-salad/">Cobb Salad</a></h3>
+    <p>A composed salad from the Brown Derby in Hollywood: neat rows of chicken, bacon, avocado, egg, tomato and blue…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>50 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#7f7a66">
-    <picture>
-        <source srcset="/assets/img/recipes/squash-soup.webp" type="image/webp">
-        <img src="/assets/img/recipes/squash-soup.jpg" alt="Roasted Butternut Squash Soup"
-             width="800" height="600" data-fade data-title="Roasted Butternut Squash Soup"
-             data-ph-a="#7f7a66" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="squash-soup" data-title="Roasted Butternut Squash Soup"
-            aria-pressed="false" aria-label="Save Roasted Butternut Squash Soup to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>50m</dd></div>
-        <div><dt>Serves</dt><dd>6</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/squash-soup/" aria-label="Quick view: Roasted Butternut Squash Soup">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Healthy</span>
-    <h3><a href="/recipes/squash-soup/">Roasted Butternut Squash Soup</a></h3>
-    <p>Squash roasted until it is caramelising at the edges before anything is blended, with the onions and garlic roasted…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>65 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#93816f">
-    <picture>
-        <source srcset="/assets/img/recipes/turkey-chili.webp" type="image/webp">
-        <img src="/assets/img/recipes/turkey-chili.jpg" alt="Turkey Chili"
-             width="800" height="600" data-fade data-title="Turkey Chili"
-             data-ph-a="#93816f" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="turkey-chili" data-title="Turkey Chili"
-            aria-pressed="false" aria-label="Save Turkey Chili to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>55m</dd></div>
-        <div><dt>Serves</dt><dd>6</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/turkey-chili/" aria-label="Quick view: Turkey Chili">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Healthy</span>
-    <h3><a href="/recipes/turkey-chili/">Turkey Chili</a></h3>
-    <p>Ground turkey simmered with kidney and black beans, peppers and tomatoes in a chilli, cumin and smoked paprika base…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>70 min <i>&middot;</i> Medium</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>40 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article><article class="card reveal">
@@ -564,63 +516,117 @@
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#958a7f">
+  <div class="card-media" style="background:#93816f">
     <picture>
-        <source srcset="/assets/img/recipes/cobb-salad.webp" type="image/webp">
-        <img src="/assets/img/recipes/cobb-salad.jpg" alt="Cobb Salad"
-             width="800" height="600" data-fade data-title="Cobb Salad"
-             data-ph-a="#958a7f" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/turkey-chili.webp" type="image/webp">
+        <img src="/assets/img/recipes/turkey-chili.jpg" alt="Turkey Chili"
+             width="800" height="600" data-fade data-title="Turkey Chili"
+             data-ph-a="#93816f" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="cobb-salad" data-title="Cobb Salad"
-            aria-pressed="false" aria-label="Save Cobb Salad to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="turkey-chili" data-title="Turkey Chili"
+            aria-pressed="false" aria-label="Save Turkey Chili to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
-        <div><dt>Prep</dt><dd>25m</dd></div>
-        <div><dt>Cook</dt><dd>15m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
+        <div><dt>Prep</dt><dd>15m</dd></div>
+        <div><dt>Cook</dt><dd>55m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/cobb-salad/" aria-label="Quick view: Cobb Salad">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/turkey-chili/" aria-label="Quick view: Turkey Chili">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Healthy</span>
-    <h3><a href="/recipes/cobb-salad/">Cobb Salad</a></h3>
-    <p>A composed salad from the Brown Derby in Hollywood: neat rows of chicken, bacon, avocado, egg, tomato and blue…</p>
+    <h3><a href="/recipes/turkey-chili/">Turkey Chili</a></h3>
+    <p>Ground turkey simmered with kidney and black beans, peppers and tomatoes in a chilli, cumin and smoked paprika base…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>40 min <i>&middot;</i> Easy</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>70 min <i>&middot;</i> Medium</span>
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#c6ac87">
+  <div class="card-media" style="background:#9e8a77">
     <picture>
-        <source srcset="/assets/img/recipes/grilled-vegetable-skewers.webp" type="image/webp">
-        <img src="/assets/img/recipes/grilled-vegetable-skewers.jpg" alt="Grilled Vegetable Skewers"
-             width="800" height="600" data-fade data-title="Grilled Vegetable Skewers"
-             data-ph-a="#c6ac87" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/cabbage-soup.webp" type="image/webp">
+        <img src="/assets/img/recipes/cabbage-soup.jpg" alt="Cabbage Soup"
+             width="800" height="600" data-fade data-title="Cabbage Soup"
+             data-ph-a="#9e8a77" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="grilled-vegetable-skewers" data-title="Grilled Vegetable Skewers"
-            aria-pressed="false" aria-label="Save Grilled Vegetable Skewers to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="cabbage-soup" data-title="Cabbage Soup"
+            aria-pressed="false" aria-label="Save Cabbage Soup to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
-        <div><dt>Prep</dt><dd>20m</dd></div>
-        <div><dt>Cook</dt><dd>12m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
+        <div><dt>Prep</dt><dd>15m</dd></div>
+        <div><dt>Cook</dt><dd>35m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/grilled-vegetable-skewers/" aria-label="Quick view: Grilled Vegetable Skewers">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/cabbage-soup/" aria-label="Quick view: Cabbage Soup">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Healthy</span>
-    <h3><a href="/recipes/grilled-vegetable-skewers/">Grilled Vegetable Skewers</a></h3>
-    <p>Zucchini, red pepper, red onion, mushrooms and cherry tomatoes marinated in olive oil, balsamic vinegar and oregano…</p>
+    <h3><a href="/recipes/cabbage-soup/">Cabbage Soup</a></h3>
+    <p>A pot of cabbage, carrots, tomatoes and peppers simmered in vegetable stock until sweet and soft. Fifty minutes…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>32 min <i>&middot;</i> Easy</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>50 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:var(--bg-sunken)">
+    <div class="img-fallback" role="img" aria-label="High-Protein Chili"><span>High-Protein Chili</span></div>
+    <div class="card-badges"><span class="badge badge--glass">American</span></div>
+    <button class="fav-btn" type="button" data-slug="high-protein-chili" data-title="High-Protein Chili"
+            aria-pressed="false" aria-label="Save High-Protein Chili to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>15m</dd></div>
+        <div><dt>Cook</dt><dd>40m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/high-protein-chili/" aria-label="Quick view: High-Protein Chili">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Healthy</span>
+    <h3><a href="/recipes/high-protein-chili/">High-Protein Chili</a></h3>
+    <p>A thick beef and bean chili built on lean mince, kidney beans and black beans, simmered for 40 minutes and high in…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>55 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#99826f">
+    <picture>
+        <source srcset="/assets/img/recipes/one-pot-quinoa-chili.webp" type="image/webp">
+        <img src="/assets/img/recipes/one-pot-quinoa-chili.jpg" alt="One Pot Quinoa Chili"
+             width="800" height="600" data-fade data-title="One Pot Quinoa Chili"
+             data-ph-a="#99826f" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">American</span></div>
+    <button class="fav-btn" type="button" data-slug="one-pot-quinoa-chili" data-title="One Pot Quinoa Chili"
+            aria-pressed="false" aria-label="Save One Pot Quinoa Chili to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>10m</dd></div>
+        <div><dt>Cook</dt><dd>30m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/one-pot-quinoa-chili/" aria-label="Quick view: One Pot Quinoa Chili">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Healthy</span>
+    <h3><a href="/recipes/one-pot-quinoa-chili/">One Pot Quinoa Chili</a></h3>
+    <p>Quinoa, black beans, kidney beans and sweetcorn simmered in tomato and chili spices in one pot for 30 minutes until…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>40 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article></div>
@@ -630,7 +636,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -651,12 +658,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -676,8 +686,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

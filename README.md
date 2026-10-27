@@ -8,7 +8,7 @@ Built from scratch with vanilla HTML, CSS and JavaScript. No framework, no build
 tooling beyond Node's standard library, no runtime dependencies.
 
 ```
-5455 recipes · 92 cuisines · 10 categories · 5814 static pages · 0 npm dependencies
+5455 recipes · 92 cuisines · 10 categories · 5829 static pages · 0 npm dependencies
 ```
 
 ---
@@ -42,8 +42,9 @@ private paths below). The others are pre-configured in case the site moves:
 
 **What should be deployed.** Only the built site needs to be public:
 `index.html`, `404.html`, the generated folders (`about`, `assets`,
-`categories`, `contact`, `cuisines`, `favourites`, `ingredients`, `privacy`,
-`recipes`, `search`, `site-directory`), the sitemaps, `robots.txt`, `ads.txt`,
+`categories`, `collections`, `contact`, `cuisines`, `favourites`, `feedback`,
+`guides`, `ingredients`, `my-plan`, `privacy`, `recipes`, `report`, `search`,
+`site-directory`, `weekly-plan`), the sitemaps, `robots.txt`, `ads.txt`,
 `manifest.json`, `feed.xml`, `pinterest-feed.xml`, `search-index.json`,
 `images-attribution.md` and `.htaccess`. Everything else (`src/`, `tools/`,
 `.git/`, `CLAUDE.md`, this README, `package.json`, the CSV and JSON working
@@ -281,7 +282,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       genuine reviews is every rich result on the domain. The fallback is gone
       and `src/data/reviews.json` is the only source, so all 809 read "Not yet
       rated" until somebody rates one
-- [x] **FAQPage** on 2,119 recipe pages and the about page — 2,119 questions,
+- [x] **FAQPage** on 2,129 recipe pages and the about page — 2,129 questions,
       built by `src/lib/faq.js` only where the answer adds something the page
       does not already say in one place: the waiting on recipes that have it,
       and why the sauce split on carbonara, alfredo and cacio e pepe. It used
@@ -305,7 +306,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 437,213 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 437,179 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -4730,7 +4731,7 @@ whisked zabaglione over simmering water for ten; kvass toasted its bread in a
 200°C oven for twenty. The other 43 recipes at zero really are no-cook, and stay
 there.
 
-The larger problem was waiting. **1903 of the 5455 recipes** declare unattended
+The larger problem was waiting. **1914 of the 5455 recipes** declare unattended
 waiting the header never mentioned — a pizza dough that cold-ferments for a day,
 a gravlax that cures for two, a stollen that matures for a fortnight. Rather
 than inflate prep and cook, which are hands-on time and are what "quick" is

@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 <link rel="preload" href="/assets/img/recipes/gazpacho.webp" as="image" type="image/webp" fetchpriority="high">
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -90,6 +90,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -118,7 +119,7 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/healthy/">Healthy</a></li><li><a href="/cuisines/spanish/">Spanish recipes</a></li><li><span aria-current="page">Andalusian Gazpacho</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="gazpacho" data-servings="4"
+  <article data-recipe="gazpacho" data-servings="4" data-scale="cook"
            data-image="https://weeklydelight.com/assets/img/recipes/gazpacho.jpg">
 
     <div class="recipe-masthead">
@@ -179,6 +180,7 @@
             <output data-servings-out aria-live="polite">4</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 4 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -255,6 +257,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">3 hr 50 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Easy</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">Spanish</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Main dish</dd>
           </dl>
         </div>
 
@@ -291,6 +294,10 @@
         
 
         <h2 id="method">Andalusian Gazpacho: The Method</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li><strong>Plan for 3 hr 30 min of chilling.</strong> It is part of the 3 hr 50 min start to finish.</li><li>You will need: blender.</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -350,6 +357,8 @@
         
       </div>
     </li></ol>
+        <p class="form-note guide-links">Related guides: <a href="/guides/active-and-total-time/">Prep, cook and total time</a> &middot; <a href="/guides/ingredient-substitutions/">Ingredient substitutions</a>.</p>
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=gazpacho&amp;v=fd2c2d021b2c" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <h2>Tips for Success</h2>
         <ul><li>Use the ripest tomatoes you can find. Out of season this soup is simply not worth making.</li><li>Season after chilling as well as before — cold dulls salt and acid noticeably.</li><li>Serve in a glass as an aperitivo, which is how it is often drunk in Andalusia.</li></ul>
@@ -361,6 +370,7 @@
 
         <h2>Good Alongside</h2>
         <p class="pair-line">A cold fino or manzanilla sherry &middot; Serve before grilled fish or as a light lunch with bread &middot; Follow with fresh figs</p>
+        <p class="goes-with">Sides from the same cuisine on this site: <a href="/recipes/judias-verdes-con-jamon/">Judias Verdes con Jamon</a>, <a href="/recipes/espinacas-a-la-catalana/">Espinacas a la Catalana</a>.</p>
 
         <h2>Ingredient Swaps</h2>
         <ul><li>An eighth of a teaspoon of garlic powder per clove is the stand-in usually given when you are out of fresh garlic; it will not brown the same way, and it burns easily, so add it with the liquid.</li></ul>
@@ -418,6 +428,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -432,7 +443,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=gazpacho&amp;v=fd2c2d021b2c" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-09-05">5 September 2026</time>; last changed <time datetime="2026-10-20">20 October 2026</time>.</p>
         </div>
       </div>
@@ -450,33 +462,63 @@
         <a class="btn btn--ghost" href="/cuisines/spanish/">All spanish recipes recipes</a>
       </div>
       <div class="related-grid"><article class="card reveal">
-  <div class="card-media" style="background:#c45828">
+  <div class="card-media" style="background:#a27857">
     <picture>
-        <source srcset="/assets/img/recipes/escalivada.webp" type="image/webp">
-        <img src="/assets/img/recipes/escalivada.jpg" alt="Escalivada"
-             width="800" height="600" data-fade data-title="Escalivada"
-             data-ph-a="#c45828" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/black-bean-soup.webp" type="image/webp">
+        <img src="/assets/img/recipes/black-bean-soup.jpg" alt="Cuban Black Bean Soup"
+             width="800" height="600" data-fade data-title="Cuban Black Bean Soup"
+             data-ph-a="#a27857" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
-    <div class="card-badges"><span class="badge badge--glass">Spanish</span></div>
-    <button class="fav-btn" type="button" data-slug="escalivada" data-title="Escalivada"
-            aria-pressed="false" aria-label="Save Escalivada to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="card-badges"><span class="badge badge--glass">Cuban</span></div>
+    <button class="fav-btn" type="button" data-slug="black-bean-soup" data-title="Cuban Black Bean Soup"
+            aria-pressed="false" aria-label="Save Cuban Black Bean Soup to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
-        <div><dt>Prep</dt><dd>10m</dd></div>
-        <div><dt>Cook</dt><dd>50m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
+        <div><dt>Prep</dt><dd>20m</dd></div>
+        <div><dt>Cook</dt><dd>60m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/escalivada/" aria-label="Quick view: Escalivada">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/black-bean-soup/" aria-label="Quick view: Cuban Black Bean Soup">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Healthy</span>
-    <h3><a href="/recipes/escalivada/">Escalivada</a></h3>
-    <p>Aubergine, red pepper and onion roasted whole until soft and smoky, peeled, torn into strips and dressed with olive…</p>
+    <h3><a href="/recipes/black-bean-soup/">Cuban Black Bean Soup</a></h3>
+    <p>Dried beans, a sofrito built on cumin and green pepper, and a ham of smoke from nothing but paprika. Thick enough to…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>75 min <i>&middot;</i> Easy</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>9.5 hr <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#cdb793">
+    <picture>
+        <source srcset="/assets/img/recipes/harira.webp" type="image/webp">
+        <img src="/assets/img/recipes/harira.jpg" alt="Harira Soup"
+             width="800" height="600" data-fade data-title="Harira Soup"
+             data-ph-a="#cdb793" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Moroccan</span></div>
+    <button class="fav-btn" type="button" data-slug="harira" data-title="Harira Soup"
+            aria-pressed="false" aria-label="Save Harira Soup to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>20m</dd></div>
+        <div><dt>Cook</dt><dd>60m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/harira/" aria-label="Quick view: Harira Soup">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Healthy</span>
+    <h3><a href="/recipes/harira/">Harira Soup</a></h3>
+    <p>The Moroccan soup traditionally eaten to break the fast during Ramadan: lentils, chickpeas and tomato thickened with…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>80 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article><article class="card reveal">
@@ -510,123 +552,93 @@
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#646161">
+  <div class="card-media" style="background:#9d9790">
     <picture>
-        <source srcset="/assets/img/recipes/coban-salatasi.webp" type="image/webp">
-        <img src="/assets/img/recipes/coban-salatasi.jpg" alt="Coban Salatasi"
-             width="800" height="600" data-fade data-title="Coban Salatasi"
-             data-ph-a="#646161" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/chana-masala.webp" type="image/webp">
+        <img src="/assets/img/recipes/chana-masala.jpg" alt="Chana Masala"
+             width="800" height="600" data-fade data-title="Chana Masala"
+             data-ph-a="#9d9790" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
-    <div class="card-badges"><span class="badge badge--glass">Turkish</span></div>
-    <button class="fav-btn" type="button" data-slug="coban-salatasi" data-title="Coban Salatasi"
-            aria-pressed="false" aria-label="Save Coban Salatasi to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="card-badges"><span class="badge badge--glass">Indian</span></div>
+    <button class="fav-btn" type="button" data-slug="chana-masala" data-title="Chana Masala"
+            aria-pressed="false" aria-label="Save Chana Masala to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>0m</dd></div>
+        <div><dt>Cook</dt><dd>30m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/coban-salatasi/" aria-label="Quick view: Coban Salatasi">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/chana-masala/" aria-label="Quick view: Chana Masala">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Healthy</span>
-    <h3><a href="/recipes/coban-salatasi/">Coban Salatasi</a></h3>
-    <p>Finely chopped tomato, cucumber, onion, green pepper and parsley dressed with olive oil, lemon and sumac, the…</p>
+    <h3><a href="/recipes/chana-masala/">Chana Masala</a></h3>
+    <p>A punchy North Indian chickpea curry, sour with amchur and tamarind and darkened by a long-fried onion base…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>15 min <i>&middot;</i> Easy</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>45 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#9f8260">
+  <div class="card-media" style="background:#aa9a8b">
     <picture>
-        <source srcset="/assets/img/recipes/panzanella.webp" type="image/webp">
-        <img src="/assets/img/recipes/panzanella.jpg" alt="Tuscan Panzanella"
-             width="800" height="600" data-fade data-title="Tuscan Panzanella"
-             data-ph-a="#9f8260" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Italian</span></div>
-    <button class="fav-btn" type="button" data-slug="panzanella" data-title="Tuscan Panzanella"
-            aria-pressed="false" aria-label="Save Tuscan Panzanella to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>20m</dd></div>
-        <div><dt>Cook</dt><dd>0m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/panzanella/" aria-label="Quick view: Tuscan Panzanella">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Healthy</span>
-    <h3><a href="/recipes/panzanella/">Tuscan Panzanella</a></h3>
-    <p>A Tuscan salad built to use up stale bread: torn crusts soaked in tomato juice and vinegar until they turn silky…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>85 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#8f6c56">
-    <picture>
-        <source srcset="/assets/img/recipes/fattoush.webp" type="image/webp">
-        <img src="/assets/img/recipes/fattoush.jpg" alt="Fattoush Salad"
-             width="800" height="600" data-fade data-title="Fattoush Salad"
-             data-ph-a="#8f6c56" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Middle Eastern</span></div>
-    <button class="fav-btn" type="button" data-slug="fattoush" data-title="Fattoush Salad"
-            aria-pressed="false" aria-label="Save Fattoush Salad to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>20m</dd></div>
-        <div><dt>Cook</dt><dd>10m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/fattoush/" aria-label="Quick view: Fattoush Salad">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Healthy</span>
-    <h3><a href="/recipes/fattoush/">Fattoush Salad</a></h3>
-    <p>The Levantine bread salad: crisp fried pita, cucumber, tomato, radish and herbs, dressed with sumac and pomegranate…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>30 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#af9674">
-    <picture>
-        <source srcset="/assets/img/recipes/kisir.webp" type="image/webp">
-        <img src="/assets/img/recipes/kisir.jpg" alt="Kısır"
-             width="800" height="600" data-fade data-title="Kısır"
-             data-ph-a="#af9674" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/imam-bayildi.webp" type="image/webp">
+        <img src="/assets/img/recipes/imam-bayildi.jpg" alt="Imam Bayildi"
+             width="800" height="600" data-fade data-title="Imam Bayildi"
+             data-ph-a="#aa9a8b" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">Turkish</span></div>
-    <button class="fav-btn" type="button" data-slug="kisir" data-title="Kısır"
-            aria-pressed="false" aria-label="Save Kısır to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <button class="fav-btn" type="button" data-slug="imam-bayildi" data-title="Imam Bayildi"
+            aria-pressed="false" aria-label="Save Imam Bayildi to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>25m</dd></div>
-        <div><dt>Cook</dt><dd>3m</dd></div>
-        <div><dt>Serves</dt><dd>6</dd></div>
+        <div><dt>Cook</dt><dd>95m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/kisir/" aria-label="Quick view: Kısır">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/imam-bayildi/" aria-label="Quick view: Imam Bayildi">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Healthy</span>
-    <h3><a href="/recipes/kisir/">Kısır</a></h3>
-    <p>Turkish fine bulgur salad worked through with pepper paste, pomegranate molasses and a great deal of parsley, eaten…</p>
+    <h3><a href="/recipes/imam-bayildi/">Imam Bayildi</a></h3>
+    <p>Aubergines split and stuffed with onion, garlic and tomato, then braised in a great deal of olive oil and served at…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>48 min <i>&middot;</i> Easy</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>3 hr+ <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#72634d">
+    <picture>
+        <source srcset="/assets/img/recipes/koshari.webp" type="image/webp">
+        <img src="/assets/img/recipes/koshari.jpg" alt="Egyptian Koshari"
+             width="800" height="600" data-fade data-title="Egyptian Koshari"
+             data-ph-a="#72634d" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Egyptian</span></div>
+    <button class="fav-btn" type="button" data-slug="koshari" data-title="Egyptian Koshari"
+            aria-pressed="false" aria-label="Save Egyptian Koshari to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>25m</dd></div>
+        <div><dt>Cook</dt><dd>45m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/koshari/" aria-label="Quick view: Egyptian Koshari">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Healthy</span>
+    <h3><a href="/recipes/koshari/">Egyptian Koshari</a></h3>
+    <p>Egypt&#39;s national street dish: layers of rice, lentils and pasta under a spiced tomato sauce, garlic vinegar and a…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>70 min <i>&middot;</i> Medium</span>
     </div>
   </div>
 </article></div>
@@ -636,7 +648,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -657,12 +670,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -682,8 +698,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

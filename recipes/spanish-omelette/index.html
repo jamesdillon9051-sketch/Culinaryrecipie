@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 <link rel="preload" href="/assets/img/recipes/spanish-omelette.webp" as="image" type="image/webp" fetchpriority="high">
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -89,6 +89,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -117,7 +118,7 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/dinner/">Dinner</a></li><li><a href="/categories/dinner/spanish/">Spanish Dinner</a></li><li><span aria-current="page">Spanish Omelette</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="spanish-omelette" data-servings="4"
+  <article data-recipe="spanish-omelette" data-servings="4" data-scale="cook"
            data-image="https://weeklydelight.com/assets/img/recipes/spanish-omelette.jpg">
 
     <div class="recipe-masthead">
@@ -178,6 +179,7 @@
             <output data-servings-out aria-live="polite">4</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 4 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -217,6 +219,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">35 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Easy</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">Spanish</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Main dish</dd>
           </dl>
         </div>
 
@@ -253,6 +256,10 @@
         
 
         <h2 id="method">How to Make Spanish Omelette</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li>You will need: frying pan or skillet (24 cm non-stick pan).</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -284,6 +291,8 @@
         <button class="step-btn" type="button" data-timer="180">Start 3 min timer</button>
       </div>
     </li></ol>
+        <p class="form-note guide-links">Related guide: <a href="/guides/pan-size/">Pan and tin size</a>.</p>
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=spanish-omelette&amp;v=ec8fa232b206" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <section class="why-plain" aria-labelledby="why-title">
           <h2 id="why-title">Why It Works</h2>
@@ -298,6 +307,7 @@
 
         <h2>What to Serve Alongside</h2>
         <ul><li>Green salad</li><li>Tomato salad</li><li>Crusty bread</li><li>Olives</li></ul>
+        <p class="goes-with">Sides from the same cuisine on this site: <a href="/recipes/escalivada/">Escalivada</a>, <a href="/recipes/espinacas-a-la-catalana/">Espinacas a la Catalana</a>, <a href="/recipes/judias-verdes-con-jamon/">Judias Verdes con Jamon</a>.</p>
 
         <h2>Spanish Omelette Nutrition Facts</h2>
         <p class="form-note">Per serving, calculated from the ingredient list with USDA FoodData Central figures (SR Legacy). A calculation, not a laboratory analysis: brands, cuts and how you measure change the real numbers. <a href="/about/#nutrition">How the figures are worked out</a>.</p>
@@ -348,6 +358,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -362,7 +373,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=spanish-omelette&amp;v=ec8fa232b206" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-10-08">8 October 2026</time>; last changed <time datetime="2026-10-20">20 October 2026</time>.</p>
         </div>
       </div>
@@ -440,36 +452,6 @@
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#b88f35">
-    <picture>
-        <source srcset="/assets/img/recipes/patatas-a-lo-pobre.webp" type="image/webp">
-        <img src="/assets/img/recipes/patatas-a-lo-pobre.jpg" alt="Patatas a lo Pobre"
-             width="800" height="600" data-fade data-title="Patatas a lo Pobre"
-             data-ph-a="#b88f35" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Spanish</span></div>
-    <button class="fav-btn" type="button" data-slug="patatas-a-lo-pobre" data-title="Patatas a lo Pobre"
-            aria-pressed="false" aria-label="Save Patatas a lo Pobre to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>10m</dd></div>
-        <div><dt>Cook</dt><dd>35m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/patatas-a-lo-pobre/" aria-label="Quick view: Patatas a lo Pobre">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/patatas-a-lo-pobre/">Patatas a lo Pobre</a></h3>
-    <p>Potatoes, onions and green peppers cooked slowly together in plenty of olive oil until soft, golden and sweet, a…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>45 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
   <div class="card-media" style="background:#9d846c">
     <picture>
         <source srcset="/assets/img/recipes/chipsi-mayai.webp" type="image/webp">
@@ -500,57 +482,93 @@
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#a6816c">
+  <div class="card-media" style="background:#7d6d5b">
     <picture>
-        <source srcset="/assets/img/recipes/chuleton-de-buey.webp" type="image/webp">
-        <img src="/assets/img/recipes/chuleton-de-buey.jpg" alt="Chuletón de Buey"
-             width="800" height="600" data-fade data-title="Chuletón de Buey"
-             data-ph-a="#a6816c" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/potato-frittata.webp" type="image/webp">
+        <img src="/assets/img/recipes/potato-frittata.jpg" alt="Potato Frittata"
+             width="800" height="600" data-fade data-title="Potato Frittata"
+             data-ph-a="#7d6d5b" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
-    <div class="card-badges"><span class="badge badge--glass">Spanish</span></div>
-    <button class="fav-btn" type="button" data-slug="chuleton-de-buey" data-title="Chuletón de Buey"
-            aria-pressed="false" aria-label="Save Chuletón de Buey to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="card-badges"><span class="badge badge--glass">Italian</span></div>
+    <button class="fav-btn" type="button" data-slug="potato-frittata" data-title="Potato Frittata"
+            aria-pressed="false" aria-label="Save Potato Frittata to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>10m</dd></div>
         <div><dt>Cook</dt><dd>20m</dd></div>
-        <div><dt>Serves</dt><dd>2</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/chuleton-de-buey/" aria-label="Quick view: Chuletón de Buey">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/potato-frittata/" aria-label="Quick view: Potato Frittata">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/chuleton-de-buey/">Chuletón de Buey</a></h3>
-    <p>A thick bone in ox rib steak seared on a very hot grill, rested, sliced and served with flaky salt, in 30 minutes.</p>
+    <h3><a href="/recipes/potato-frittata/">Potato Frittata</a></h3>
+    <p>Thin-sliced potato and onion cooked in olive oil, set in eggs and finished in the oven. Four servings in 30 minutes.</p>
     <div class="card-foot">
       
       <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>30 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Kookoo Sibzamini"><span>Kookoo Sibzamini</span></div>
-    <div class="card-badges"><span class="badge badge--glass">Persian</span></div>
-    <button class="fav-btn" type="button" data-slug="kookoo-sibzamini" data-title="Kookoo Sibzamini"
-            aria-pressed="false" aria-label="Save Kookoo Sibzamini to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+  <div class="card-media" style="background:#afa28b">
+    <picture>
+        <source srcset="/assets/img/recipes/tortilla-espanola.webp" type="image/webp">
+        <img src="/assets/img/recipes/tortilla-espanola.jpg" alt="Tortilla Española"
+             width="800" height="600" data-fade data-title="Tortilla Española"
+             data-ph-a="#afa28b" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Spanish</span></div>
+    <button class="fav-btn" type="button" data-slug="tortilla-espanola" data-title="Tortilla Española"
+            aria-pressed="false" aria-label="Save Tortilla Española to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>25m</dd></div>
+        <div><dt>Cook</dt><dd>35m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/tortilla-espanola/" aria-label="Quick view: Tortilla Española">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Lunch</span>
+    <h3><a href="/recipes/tortilla-espanola/">Tortilla Española</a></h3>
+    <p>Potatoes and onion confited slowly in olive oil, then bound in egg and cooked until the centre is barely set and…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>65 min <i>&middot;</i> Medium</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#b59383">
+    <picture>
+        <source srcset="/assets/img/recipes/chorizo-and-potato-stew.webp" type="image/webp">
+        <img src="/assets/img/recipes/chorizo-and-potato-stew.jpg" alt="Chorizo and Potato Stew"
+             width="800" height="600" data-fade data-title="Chorizo and Potato Stew"
+             data-ph-a="#b59383" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Spanish</span></div>
+    <button class="fav-btn" type="button" data-slug="chorizo-and-potato-stew" data-title="Chorizo and Potato Stew"
+            aria-pressed="false" aria-label="Save Chorizo and Potato Stew to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>15m</dd></div>
+        <div><dt>Cook</dt><dd>35m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/kookoo-sibzamini/" aria-label="Quick view: Kookoo Sibzamini">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/chorizo-and-potato-stew/" aria-label="Quick view: Chorizo and Potato Stew">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/kookoo-sibzamini/">Kookoo Sibzamini</a></h3>
-    <p>A Persian potato kuku: mashed potatoes mixed with egg, turmeric, onion and herbs and pan-fried into a thick, golden…</p>
+    <h3><a href="/recipes/chorizo-and-potato-stew/">Chorizo and Potato Stew</a></h3>
+    <p>Spanish chorizo, potatoes, peppers and tomato simmered with smoked paprika into a thick, brick-red stew, finished…</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>40 min <i>&middot;</i> Easy</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>50 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article></div>
@@ -560,7 +578,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -581,12 +600,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -606,8 +628,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

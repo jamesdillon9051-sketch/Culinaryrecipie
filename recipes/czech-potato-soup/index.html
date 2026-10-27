@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 <link rel="preload" href="/assets/img/recipes/czech-potato-soup.webp" as="image" type="image/webp" fetchpriority="high">
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -89,6 +89,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -117,7 +118,7 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/dinner/">Dinner</a></li><li><a href="/categories/dinner/czech/">Czech Dinner</a></li><li><span aria-current="page">Czech Potato Soup</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="czech-potato-soup" data-servings="4"
+  <article data-recipe="czech-potato-soup" data-servings="4" data-scale="cook"
            data-image="https://weeklydelight.com/assets/img/recipes/czech-potato-soup.jpg">
 
     <div class="recipe-masthead">
@@ -178,6 +179,7 @@
             <output data-servings-out aria-live="polite">4</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 4 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -241,6 +243,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">50 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Easy</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">Czech</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Light meal</dd>
           </dl>
         </div>
 
@@ -285,6 +288,10 @@
         
 
         <h2 id="method">How to Make Czech Potato Soup</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li>You will need: frying pan or skillet.</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -316,6 +323,8 @@
         
       </div>
     </li></ol>
+        
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=czech-potato-soup&amp;v=bf7338bc3472" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <h2>Worth Knowing Before You Cook</h2>
         <p class="tip-note">Crush the caraway seeds lightly before they go in.</p><p class="tip-note">Cook the flour for a minute so it loses its raw taste.</p><p class="tip-note">Cut the potatoes small so they cook quickly.</p><p class="tip-note">If the soup is too thick, loosen it with hot water.</p>
@@ -377,6 +386,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -391,7 +401,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=czech-potato-soup&amp;v=bf7338bc3472" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-10-13">13 October 2026</time>; last changed <time datetime="2026-10-20">20 October 2026</time>.</p>
         </div>
       </div>
@@ -469,123 +480,117 @@
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#88816d">
+  <div class="card-media" style="background:#90705e">
     <picture>
-        <source srcset="/assets/img/recipes/kulajda.webp" type="image/webp">
-        <img src="/assets/img/recipes/kulajda.jpg" alt="Kulajda"
-             width="800" height="600" data-fade data-title="Kulajda"
-             data-ph-a="#88816d" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/maryland-crab-soup.webp" type="image/webp">
+        <img src="/assets/img/recipes/maryland-crab-soup.jpg" alt="Maryland Crab Soup"
+             width="800" height="600" data-fade data-title="Maryland Crab Soup"
+             data-ph-a="#90705e" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
-    <div class="card-badges"><span class="badge badge--glass">Czech</span></div>
-    <button class="fav-btn" type="button" data-slug="kulajda" data-title="Kulajda"
-            aria-pressed="false" aria-label="Save Kulajda to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="card-badges"><span class="badge badge--glass">American</span></div>
+    <button class="fav-btn" type="button" data-slug="maryland-crab-soup" data-title="Maryland Crab Soup"
+            aria-pressed="false" aria-label="Save Maryland Crab Soup to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>20m</dd></div>
+        <div><dt>Cook</dt><dd>60m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/maryland-crab-soup/" aria-label="Quick view: Maryland Crab Soup">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Dinner</span>
+    <h3><a href="/recipes/maryland-crab-soup/">Maryland Crab Soup</a></h3>
+    <p>A tomato-based vegetable soup with lump crab, potatoes, corn and green beans, seasoned with Old Bay.</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>80 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#e7ddc0">
+    <picture>
+        <source srcset="/assets/img/recipes/cabbage-and-potato-soup.webp" type="image/webp">
+        <img src="/assets/img/recipes/cabbage-and-potato-soup.jpg" alt="Cabbage and Potato Soup"
+             width="800" height="600" data-fade data-title="Cabbage and Potato Soup"
+             data-ph-a="#e7ddc0" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Irish</span></div>
+    <button class="fav-btn" type="button" data-slug="cabbage-and-potato-soup" data-title="Cabbage and Potato Soup"
+            aria-pressed="false" aria-label="Save Cabbage and Potato Soup to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>10m</dd></div>
         <div><dt>Cook</dt><dd>30m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/kulajda/" aria-label="Quick view: Kulajda">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/cabbage-and-potato-soup/" aria-label="Quick view: Cabbage and Potato Soup">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/kulajda/">Kulajda</a></h3>
-    <p>A creamy Czech soup of potatoes, dill and mushrooms, sharpened with a splash of vinegar and finished with a poached…</p>
+    <h3><a href="/recipes/cabbage-and-potato-soup/">Cabbage and Potato Soup</a></h3>
+    <p>Shredded cabbage, potatoes and onion simmered in stock until the potatoes thicken the broth, finished with butter.</p>
     <div class="card-foot">
       
       <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>40 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#796046">
+  <div class="card-media" style="background:#a27d55">
     <picture>
-        <source srcset="/assets/img/recipes/githeri.webp" type="image/webp">
-        <img src="/assets/img/recipes/githeri.jpg" alt="Githeri"
-             width="800" height="600" data-fade data-title="Githeri"
-             data-ph-a="#796046" data-ph-b="#8c5a3c"
+        <source srcset="/assets/img/recipes/greek-lentil-soup.webp" type="image/webp">
+        <img src="/assets/img/recipes/greek-lentil-soup.jpg" alt="Greek Lentil Soup"
+             width="800" height="600" data-fade data-title="Greek Lentil Soup"
+             data-ph-a="#a27d55" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
-    <div class="card-badges"><span class="badge badge--glass">Kenyan</span></div>
-    <button class="fav-btn" type="button" data-slug="githeri" data-title="Githeri"
-            aria-pressed="false" aria-label="Save Githeri to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="card-badges"><span class="badge badge--glass">Greek</span></div>
+    <button class="fav-btn" type="button" data-slug="greek-lentil-soup" data-title="Greek Lentil Soup"
+            aria-pressed="false" aria-label="Save Greek Lentil Soup to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
-        <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>50m</dd></div>
-        <div><dt>Serves</dt><dd>6</dd></div>
+        <div><dt>Prep</dt><dd>10m</dd></div>
+        <div><dt>Cook</dt><dd>40m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/githeri/" aria-label="Quick view: Githeri">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/greek-lentil-soup/" aria-label="Quick view: Greek Lentil Soup">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/githeri/">Githeri</a></h3>
-    <p>A Kenyan stew of maize and beans simmered with tomato, onion, potato and carrot. A cheap, filling, everyday dish of…</p>
+    <h3><a href="/recipes/greek-lentil-soup/">Greek Lentil Soup</a></h3>
+    <p>Brown lentils simmered with onion, carrot, garlic and bay, finished with red wine vinegar and olive oil.</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>65 min <i>&middot;</i> Easy</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>50 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#a1978e">
-    <picture>
-        <source srcset="/assets/img/recipes/svickova.webp" type="image/webp">
-        <img src="/assets/img/recipes/svickova.jpg" alt="Svíčková"
-             width="800" height="600" data-fade data-title="Svíčková"
-             data-ph-a="#a1978e" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Czech</span></div>
-    <button class="fav-btn" type="button" data-slug="svickova" data-title="Svíčková"
-            aria-pressed="false" aria-label="Save Svíčková to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+  <div class="card-media" style="background:var(--bg-sunken)">
+    <div class="img-fallback" role="img" aria-label="Romanian Bean Soup"><span>Romanian Bean Soup</span></div>
+    <div class="card-badges"><span class="badge badge--glass">Romanian</span></div>
+    <button class="fav-btn" type="button" data-slug="romanian-bean-soup" data-title="Romanian Bean Soup"
+            aria-pressed="false" aria-label="Save Romanian Bean Soup to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
     <div class="quick-view">
       <dl>
-        <div><dt>Prep</dt><dd>30m</dd></div>
-        <div><dt>Cook</dt><dd>155m</dd></div>
+        <div><dt>Prep</dt><dd>10m</dd></div>
+        <div><dt>Cook</dt><dd>45m</dd></div>
         <div><dt>Serves</dt><dd>6</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/svickova/" aria-label="Quick view: Svíčková">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/romanian-bean-soup/" aria-label="Quick view: Romanian Bean Soup">Quick view</a>
     </div>
   </div>
   <div class="card-body">
     <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/svickova/">Svíčková</a></h3>
-    <p>Beef sirloin larded with bacon and pot-roasted on a bed of root vegetables, the whole lot blended into a thick cream…</p>
+    <h3><a href="/recipes/romanian-bean-soup/">Romanian Bean Soup</a></h3>
+    <p>A sour Romanian soup of white beans, carrot, celery and peppers, finished with tomato paste, paprika and lemon juice.</p>
     <div class="card-foot">
       
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>3 hr <i>&middot;</i> Medium</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#aaa195">
-    <picture>
-        <source srcset="/assets/img/recipes/vegan-pot-pie.webp" type="image/webp">
-        <img src="/assets/img/recipes/vegan-pot-pie.jpg" alt="Vegan Pot Pie"
-             width="800" height="600" data-fade data-title="Vegan Pot Pie"
-             data-ph-a="#aaa195" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">American</span></div>
-    <button class="fav-btn" type="button" data-slug="vegan-pot-pie" data-title="Vegan Pot Pie"
-            aria-pressed="false" aria-label="Save Vegan Pot Pie to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>30m</dd></div>
-        <div><dt>Cook</dt><dd>35m</dd></div>
-        <div><dt>Serves</dt><dd>6</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/vegan-pot-pie/" aria-label="Quick view: Vegan Pot Pie">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/vegan-pot-pie/">Vegan Pot Pie</a></h3>
-    <p>Potato, carrot, peas and mushrooms in a thick soy milk sauce under a puff pastry lid, baked for 25 minutes.</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>65 min <i>&middot;</i> Medium</span>
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>55 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article></div>
@@ -595,7 +600,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -616,12 +622,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -641,8 +650,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

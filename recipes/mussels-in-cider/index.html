@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 <link rel="preload" href="/assets/img/recipes/mussels-in-cider.webp" as="image" type="image/webp" fetchpriority="high">
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -89,6 +89,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -117,7 +118,7 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/dinner/">Dinner</a></li><li><a href="/categories/dinner/french/">French Dinner</a></li><li><span aria-current="page">Mussels in Cider</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="mussels-in-cider" data-servings="4"
+  <article data-recipe="mussels-in-cider" data-servings="4" data-scale="cook"
            data-image="https://weeklydelight.com/assets/img/recipes/mussels-in-cider.jpg">
 
     <div class="recipe-masthead">
@@ -178,6 +179,7 @@
             <output data-servings-out aria-live="polite">4</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 4 servings</button>
           <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
@@ -233,6 +235,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">22 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Easy</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">French</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Main dish</dd>
           </dl>
         </div>
 
@@ -273,6 +276,7 @@
         
 
         <h2 id="method">Mussels in Cider: Step by Step</h2>
+        
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -304,6 +308,8 @@
         <button class="step-btn" type="button" data-timer="60">Start 1 min timer</button>
       </div>
     </li></ol>
+        
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=mussels-in-cider&amp;v=3010270370f4" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <h2>Worth Getting Right</h2>
         <ul><li>Discard cracked mussels.</li><li>Shake the pan, do not stir.</li><li>Discard any that stay shut.</li><li>Serve with bread for the broth.</li></ul>
@@ -313,6 +319,7 @@
 
         <h2>What to Serve With It</h2>
         <p class="pair-line">Crusty bread &middot; Chips &middot; Green salad &middot; Dry cider</p>
+        <p class="goes-with">Sides from the same cuisine on this site: <a href="/recipes/ratatouille/">Provençal Ratatouille</a>, <a href="/recipes/baguette/">French Baguette</a>, <a href="/recipes/fougasse/">Fougasse</a>.</p>
 
         <h2>Keeping and Reheating</h2>
         <p>Best eaten straight away. Do not keep shellfish leftovers.</p>
@@ -366,6 +373,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -380,7 +388,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=mussels-in-cider&amp;v=3010270370f4" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-10-09">9 October 2026</time>; last changed <time datetime="2026-10-20">20 October 2026</time>.</p>
         </div>
       </div>
@@ -398,150 +407,6 @@
         <a class="btn btn--ghost" href="/categories/dinner/french/">All french dinner recipes</a>
       </div>
       <div class="related-grid"><article class="card reveal">
-  <div class="card-media" style="background:#76614f">
-    <picture>
-        <source srcset="/assets/img/recipes/rognons-a-la-moutarde.webp" type="image/webp">
-        <img src="/assets/img/recipes/rognons-a-la-moutarde.jpg" alt="AI-generated illustration of Rognons à la Moutarde"
-             width="800" height="600" data-fade data-title="Rognons à la Moutarde"
-             data-ph-a="#76614f" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">French</span></div>
-    <button class="fav-btn" type="button" data-slug="rognons-a-la-moutarde" data-title="Rognons à la Moutarde"
-            aria-pressed="false" aria-label="Save Rognons à la Moutarde to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>15m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/rognons-a-la-moutarde/" aria-label="Quick view: Rognons à la Moutarde">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/rognons-a-la-moutarde/">Rognons à la Moutarde</a></h3>
-    <p>Lamb kidneys seared hard and finished in a mustard cream sauce. Fifteen minutes, and the kidneys must leave the pan…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>50 min <i>&middot;</i> Medium</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Pork Medallions in Cream Sauce"><span>Pork Medallions in Cream Sauce</span></div>
-    <div class="card-badges"><span class="badge badge--glass">French</span></div>
-    <button class="fav-btn" type="button" data-slug="pork-medallions-in-cream-sauce" data-title="Pork Medallions in Cream Sauce"
-            aria-pressed="false" aria-label="Save Pork Medallions in Cream Sauce to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>10m</dd></div>
-        <div><dt>Cook</dt><dd>20m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/pork-medallions-in-cream-sauce/" aria-label="Quick view: Pork Medallions in Cream Sauce">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/pork-medallions-in-cream-sauce/">Pork Medallions in Cream Sauce</a></h3>
-    <p>Slices of pork fillet seared in butter and finished in a cream, mustard and white wine sauce with shallots.</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>30 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#9d8971">
-    <picture>
-        <source srcset="/assets/img/recipes/poulet-vallee-dauge.webp" type="image/webp">
-        <img src="/assets/img/recipes/poulet-vallee-dauge.jpg" alt="Poulet Vallee d&#39;Auge"
-             width="800" height="600" data-fade data-title="Poulet Vallee d&#39;Auge"
-             data-ph-a="#9d8971" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">French</span></div>
-    <button class="fav-btn" type="button" data-slug="poulet-vallee-dauge" data-title="Poulet Vallee d&#39;Auge"
-            aria-pressed="false" aria-label="Save Poulet Vallee d&#39;Auge to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>50m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/poulet-vallee-dauge/" aria-label="Quick view: Poulet Vallee d&#39;Auge">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/poulet-vallee-dauge/">Poulet Vallee d&#39;Auge</a></h3>
-    <p>Chicken pieces browned and braised with apples, cider and calvados, then finished with cream, cooked for 50 minutes.</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>65 min <i>&middot;</i> Medium</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#93936a">
-    <picture>
-        <source srcset="/assets/img/recipes/steak-au-poivre.webp" type="image/webp">
-        <img src="/assets/img/recipes/steak-au-poivre.jpg" alt="Steak au Poivre"
-             width="800" height="600" data-fade data-title="Steak au Poivre"
-             data-ph-a="#93936a" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">French</span></div>
-    <button class="fav-btn" type="button" data-slug="steak-au-poivre" data-title="Steak au Poivre"
-            aria-pressed="false" aria-label="Save Steak au Poivre to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>10m</dd></div>
-        <div><dt>Cook</dt><dd>20m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/steak-au-poivre/" aria-label="Quick view: Steak au Poivre">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/steak-au-poivre/">Steak au Poivre</a></h3>
-    <p>Steaks pressed with coarsely crushed black peppercorns and seared in a hot pan, then a sauce of shallots, brandy…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>30 min <i>&middot;</i> Medium</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#8c8172">
-    <picture>
-        <source srcset="/assets/img/recipes/tartiflette.webp" type="image/webp">
-        <img src="/assets/img/recipes/tartiflette.jpg" alt="Tartiflette"
-             width="800" height="600" data-fade data-title="Tartiflette"
-             data-ph-a="#8c8172" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">French</span></div>
-    <button class="fav-btn" type="button" data-slug="tartiflette" data-title="Tartiflette"
-            aria-pressed="false" aria-label="Save Tartiflette to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>20m</dd></div>
-        <div><dt>Cook</dt><dd>45m</dd></div>
-        <div><dt>Serves</dt><dd>6</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/tartiflette/" aria-label="Quick view: Tartiflette">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Dinner</span>
-    <h3><a href="/recipes/tartiflette/">Tartiflette</a></h3>
-    <p>A Savoyard mountain bake of potatoes, lardons and onions buried under a whole halved Reblochon, which melts down…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>65 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
   <div class="card-media" style="background:#a49a84">
     <picture>
         <source srcset="/assets/img/recipes/bouchee-a-la-reine.webp" type="image/webp">
@@ -571,6 +436,156 @@
       <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>75 min <i>&middot;</i> Medium</span>
     </div>
   </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#816e57">
+    <picture>
+        <source srcset="/assets/img/recipes/jambon-braise-madere.webp" type="image/webp">
+        <img src="/assets/img/recipes/jambon-braise-madere.jpg" alt="Jambon Braise Madere"
+             width="800" height="600" data-fade data-title="Jambon Braise Madere"
+             data-ph-a="#816e57" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">French</span></div>
+    <button class="fav-btn" type="button" data-slug="jambon-braise-madere" data-title="Jambon Braise Madere"
+            aria-pressed="false" aria-label="Save Jambon Braise Madere to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>15m</dd></div>
+        <div><dt>Cook</dt><dd>145m</dd></div>
+        <div><dt>Serves</dt><dd>8</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/jambon-braise-madere/" aria-label="Quick view: Jambon Braise Madere">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Dinner</span>
+    <h3><a href="/recipes/jambon-braise-madere/">Jambon Braise Madere</a></h3>
+    <p>A gammon joint soaked, simmered and then glazed and braised for 2 hours in Madeira with shallots and stock.</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>3 hr <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#958984">
+    <picture>
+        <source srcset="/assets/img/recipes/lapin-a-la-moutarde.webp" type="image/webp">
+        <img src="/assets/img/recipes/lapin-a-la-moutarde.jpg" alt="Lapin a la Moutarde"
+             width="800" height="600" data-fade data-title="Lapin a la Moutarde"
+             data-ph-a="#958984" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">French</span></div>
+    <button class="fav-btn" type="button" data-slug="lapin-a-la-moutarde" data-title="Lapin a la Moutarde"
+            aria-pressed="false" aria-label="Save Lapin a la Moutarde to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>20m</dd></div>
+        <div><dt>Cook</dt><dd>80m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/lapin-a-la-moutarde/" aria-label="Quick view: Lapin a la Moutarde">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Dinner</span>
+    <h3><a href="/recipes/lapin-a-la-moutarde/">Lapin a la Moutarde</a></h3>
+    <p>Rabbit pieces browned and braised for 60 minutes in white wine, Dijon mustard and cream, until the meat is tender…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>100 min <i>&middot;</i> Medium</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#ae9681">
+    <picture>
+        <source srcset="/assets/img/recipes/lapin-chasseur.webp" type="image/webp">
+        <img src="/assets/img/recipes/lapin-chasseur.jpg" alt="Lapin Chasseur"
+             width="800" height="600" data-fade data-title="Lapin Chasseur"
+             data-ph-a="#ae9681" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">French</span></div>
+    <button class="fav-btn" type="button" data-slug="lapin-chasseur" data-title="Lapin Chasseur"
+            aria-pressed="false" aria-label="Save Lapin Chasseur to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>20m</dd></div>
+        <div><dt>Cook</dt><dd>75m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/lapin-chasseur/" aria-label="Quick view: Lapin Chasseur">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Dinner</span>
+    <h3><a href="/recipes/lapin-chasseur/">Lapin Chasseur</a></h3>
+    <p>Rabbit pieces braised for 60 minutes with mushrooms, tomato, shallots and white wine, finished with tarragon.</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>95–100 min <i>&middot;</i> Medium</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#7d7467">
+    <picture>
+        <source srcset="/assets/img/recipes/moules-marinieres.webp" type="image/webp">
+        <img src="/assets/img/recipes/moules-marinieres.jpg" alt="Moules Marinières"
+             width="800" height="600" data-fade data-title="Moules Marinières"
+             data-ph-a="#7d7467" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">French</span></div>
+    <button class="fav-btn" type="button" data-slug="moules-marinieres" data-title="Moules Marinières"
+            aria-pressed="false" aria-label="Save Moules Marinières to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>15m</dd></div>
+        <div><dt>Cook</dt><dd>15m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/moules-marinieres/" aria-label="Quick view: Moules Marinières">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Dinner</span>
+    <h3><a href="/recipes/moules-marinieres/">Moules Marinières</a></h3>
+    <p>Mussels steamed open in white wine, shallots and parsley in under ten minutes. The broth they release is the sauce…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>30 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#76614f">
+    <picture>
+        <source srcset="/assets/img/recipes/rognons-a-la-moutarde.webp" type="image/webp">
+        <img src="/assets/img/recipes/rognons-a-la-moutarde.jpg" alt="AI-generated illustration of Rognons à la Moutarde"
+             width="800" height="600" data-fade data-title="Rognons à la Moutarde"
+             data-ph-a="#76614f" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">French</span></div>
+    <button class="fav-btn" type="button" data-slug="rognons-a-la-moutarde" data-title="Rognons à la Moutarde"
+            aria-pressed="false" aria-label="Save Rognons à la Moutarde to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>15m</dd></div>
+        <div><dt>Cook</dt><dd>15m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/rognons-a-la-moutarde/" aria-label="Quick view: Rognons à la Moutarde">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Dinner</span>
+    <h3><a href="/recipes/rognons-a-la-moutarde/">Rognons à la Moutarde</a></h3>
+    <p>Lamb kidneys seared hard and finished in a mustard cream sauce. Fifteen minutes, and the kidneys must leave the pan…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>50 min <i>&middot;</i> Medium</span>
+    </div>
+  </div>
 </article></div>
       <p class="related-more">Browse more: <a href="/categories/dinner/">all dinner recipes</a>
         or <a href="/cuisines/french/">all French recipes</a>.</p>
@@ -578,7 +593,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -599,12 +615,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -624,8 +643,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

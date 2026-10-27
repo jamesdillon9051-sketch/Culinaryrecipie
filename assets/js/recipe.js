@@ -110,11 +110,41 @@
     var inc = $('[data-servings-inc]', wrap);
     var reset = $('[data-servings-reset]');
 
+    /* Baking does not scale freely: the tin, the rise and the bake time all change with the
+       quantity, so a bake goes from half to double and no further. Anything else from 1 to 48. */
+    var bake = root.dataset.scale === 'bake';
+    var MIN = bake ? Math.max(1, Math.ceil(BASE_SERVINGS / 2)) : 1;
+    var MAX = bake ? BASE_SERVINGS * 2 : 48;
+    var note = $('[data-scale-note]');
+
+    function scaleNote() {
+      if (!note) return;
+      var ratio = currentServings / BASE_SERVINGS;
+      if (ratio === 1) { note.hidden = true; note.textContent = ''; return; }
+      var text = bake
+        ? 'Quantities are scaled; the bake is not. A different amount needs a tin with a matching area, and the time will change: go by the doneness test in the method, and check early.'
+        : 'Quantities are scaled; cooking times are not. ' + (ratio > 2
+          ? 'Beyond double, cook in batches or use a larger pan: a crowded pan cooks more slowly.'
+          : 'A larger batch may need a bigger pan; go by the cues in the method rather than the minutes.');
+      /* An egg cannot be divided by the scaler, so say what to do with a fraction of one. */
+      var fractionalEgg = $$('.ingredients li').some(function (li) {
+        var q = li.querySelector('[data-qty]');
+        var name = (li.querySelector('.ing-text') || li).textContent;
+        if (!q || q.dataset.unit || !/\beggs?\b|\byolks?\b|\bwhites?\b/i.test(name)) return false;
+        var v = parseFloat(q.dataset.qty) * ratio;
+        return Math.abs(v - Math.round(v)) > 0.12;
+      });
+      if (fractionalEgg) text += ' For part of an egg, beat it and use that share by eye, or round to the nearest whole egg.';
+      note.textContent = text;
+      note.hidden = false;
+    }
+
     function update(next) {
-      currentServings = Math.max(1, Math.min(48, next));
-      dec.disabled = currentServings <= 1;
-      inc.disabled = currentServings >= 48;
+      currentServings = Math.max(MIN, Math.min(MAX, next));
+      dec.disabled = currentServings <= MIN;
+      inc.disabled = currentServings >= MAX;
       renderQuantities();
+      scaleNote();
       if (reset) reset.hidden = currentServings === BASE_SERVINGS;
     }
 

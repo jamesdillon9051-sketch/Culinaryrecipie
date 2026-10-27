@@ -1,0 +1,1472 @@
+{
+ "air-fryer-stuffed-peppers": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "ajiaco": {
+  "role": "main",
+  "reason": "a noodle or rice soup eaten as a meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "aloo-matar": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "aloo-methi": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "aloo-palak": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "arroz-de-tomate": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "assam-laksa": {
+  "role": "main",
+  "reason": "a noodle or rice soup eaten as a meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "atakilt-wat": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "atkilt-wat": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "attieke": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "ayam-masak-merah": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "bacalhau-com-natas": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "bastilla": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "bbq-baked-beans": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "beans-and-cheese-toastie": {
+  "role": "light",
+  "reason": "a light meal: a grain or noodle salad, soup or filled toast for lunch",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "bedfordshire-clanger": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "beetroot-feta-salad": {
+  "role": "light",
+  "reason": "a light meal: a grain or noodle salad, soup or filled toast for lunch",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "biang-biang-noodles": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "biscuits-and-gravy": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "black-eyed-pea-stew": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "bok-choy-with-garlic": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "broccoli-cheese-rice": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "brown-sugar-ham-glaze": {
+  "role": "condiment",
+  "reason": "a glaze brushed on another dish",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "brunede-kartofler": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "budae-jjigae": {
+  "role": "main",
+  "reason": "a noodle or rice soup eaten as a meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "cabbage-stir-fry-with-garlic": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "caldo-de-res": {
+  "role": "main",
+  "reason": "a noodle or rice soup eaten as a meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "canadian-maple-baked-beans": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "carottes-vichy": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "cheese-and-bacon-rolls": {
+  "role": "bread",
+  "reason": "a bread or savoury bake eaten as bread",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "cheese-and-onion-pasty": {
+  "role": "light",
+  "reason": "a light meal: a grain or noodle salad, soup or filled toast for lunch",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "cheese-and-potato-pie": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "cheese-muffins": {
+  "role": "bread",
+  "reason": "a bread or savoury bake eaten as bread",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "cheesy-jacket-potatoes": {
+  "role": "light",
+  "reason": "a light meal: a grain or noodle salad, soup or filled toast for lunch",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "chicons-au-gratin": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "chile-relleno": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "chinese-steamed-eggs": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "chipsi-mayai": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "choucroute": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "choy-sum-oyster-sauce": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "ciorba-de-perisoare": {
+  "role": "main",
+  "reason": "a noodle or rice soup eaten as a meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "cobb-salad": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "collard-greens": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "com-tam": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "complet-poisson": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "completo": {
+  "role": "light",
+  "reason": "a light meal: a grain or noodle salad, soup or filled toast for lunch",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "cordon-bleu": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "corn-pudding": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "cornbread-dressing": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "cornish-game-hens": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "cotechino-con-lenticchie": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "cottage-cheese-toast": {
+  "role": "light",
+  "reason": "a light meal: a grain or noodle salad, soup or filled toast for lunch",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "cranberry-meatballs": {
+  "role": "starter",
+  "reason": "a snack or party food",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "dal-baati-churma": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "damper": {
+  "role": "bread",
+  "reason": "a soda-style bread baked as one round",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "dan-dan-noodles": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "di-san-xian": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "diri-ak-djon-djon": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "dirty-rice": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "dorade-royale": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "doro-wat": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "dublin-coddle": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "duo-jiao-yu-tou": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "edamame-salad": {
+  "role": "side",
+  "reason": "a side salad: vegetables without a main portion of protein",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "egg-adobo": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "egg-noodles-with-butter": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "eggy-bread": {
+  "role": "breakfast",
+  "reason": "eaten at breakfast",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "entenbrust-mit-rotkohl": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "epinards-a-la-creme": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "espinacas-a-la-catalana": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "fabada-asturiana": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "farofa": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "farro-salad": {
+  "role": "light",
+  "reason": "a light meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "fattah": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "fattoush": {
+  "role": "side",
+  "reason": "a side salad: vegetables without a main portion of protein",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "felfel-mahchi": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "flammkuchen": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "fondue-savoyarde": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "frankfurter-wurstchen": {
+  "role": "light",
+  "reason": "a light meal: a grain or noodle salad, soup or filled toast for lunch",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "french-lentils": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "fried-yam": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "gamja-jorim": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "garlic-knots": {
+  "role": "bread",
+  "reason": "a bread or savoury bake eaten as bread",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "garlic-mushroom-toast": {
+  "role": "light",
+  "reason": "a light meal: a grain or noodle salad, soup or filled toast for lunch",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "garlic-noodles": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "gluten-free-dumplings": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "gobi-matar": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "gomen": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "gratin-de-blettes": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "gratin-de-courgettes": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "greek-salad": {
+  "role": "side",
+  "reason": "a side salad: vegetables without a main portion of protein",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "green-bean-stir-fry": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "green-beans-almondine": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "griessknodel": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "grilled-vegetable-platter": {
+  "role": "side",
+  "reason": "a side salad: vegetables without a main portion of protein",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "grilled-vegetable-skewers": {
+  "role": "side",
+  "reason": "a side salad: vegetables without a main portion of protein",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "gurkensalat": {
+  "role": "side",
+  "reason": "a side salad: vegetables without a main portion of protein",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "haggis-neeps-tatties": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "hainanese-chicken-rice": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "hakka-noodles": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "haluski": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "haricots-verts-amandine": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "hot-and-sour-potato": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "hot-and-sour-potato-strips": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "instant-pot-baked-beans": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "instant-pot-beans-and-ham": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "instant-pot-black-beans": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "israeli-couscous-salad": {
+  "role": "side",
+  "reason": "a side salad: vegetables without a main portion of protein",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "italian-chopped-salad": {
+  "role": "light",
+  "reason": "a light meal: a grain or noodle salad, soup or filled toast for lunch",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "jacket-potato-with-cheese": {
+  "role": "light",
+  "reason": "a light meal: a grain or noodle salad, soup or filled toast for lunch",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "jamaican-bun-and-cheese": {
+  "role": "starter",
+  "reason": "a starter or snack",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "jjajangmyeon": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "judias-verdes-con-jamon": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "kachumbari": {
+  "role": "side",
+  "reason": "a side salad: vegetables without a main portion of protein",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "kale-and-quinoa-salad": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "kale-caesar": {
+  "role": "light",
+  "reason": "a light meal: a grain or noodle salad, soup or filled toast for lunch",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "kapustnica": {
+  "role": "main",
+  "reason": "a noodle or rice soup eaten as a meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "kaszanka": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "kaya-toast": {
+  "role": "breakfast",
+  "reason": "eaten at breakfast",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "khachapuri": {
+  "role": "bread",
+  "reason": "a cheese-filled bread",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "khao-kai-jeow": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "khao-soi": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "kibbeh-labaniyeh": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "kisir": {
+  "role": "side",
+  "reason": "a side salad: vegetables without a main portion of protein",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "kluski-slaskie": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "kumara-coconut-curry": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "lap-cheong-fried-rice": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "lotus-root-stir-fry": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "macarona-bechamel": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "magret-de-canard": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "malfatti": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "mamaliga": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "maque-choux": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "marmite-cheese-scrolls": {
+  "role": "starter",
+  "reason": "a snack or party food",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "mashed-swede": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "mechouia-salad": {
+  "role": "side",
+  "reason": "a side salad: vegetables without a main portion of protein",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "migas-portuguesas": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "milanesa": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "miso-ramen": {
+  "role": "main",
+  "reason": "a noodle or rice soup eaten as a meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "miso-soup": {
+  "role": "light",
+  "reason": "a light meal: a grain or noodle salad, soup or filled toast for lunch",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "mixed-grill": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "modra-kapusta": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "mombar": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "mukimo": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "musakhan": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "nasu-dengaku": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "oden": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "oeufs-mayonnaise": {
+  "role": "starter",
+  "reason": "a starter or snack",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "okonomiyaki": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "one-pot-beans-and-rice": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "opor-ayam": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "orzo-with-feta": {
+  "role": "light",
+  "reason": "a light meal: a grain or noodle salad, soup or filled toast for lunch",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "osbane": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "overnight-oats": {
+  "role": "breakfast",
+  "reason": "eaten at breakfast",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "pan-de-jamon": {
+  "role": "bread",
+  "reason": "a bread or savoury bake eaten as bread",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "panzanella": {
+  "role": "side",
+  "reason": "a side salad: vegetables without a main portion of protein",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "pastina-in-brodo": {
+  "role": "light",
+  "reason": "a light meal: a grain or noodle salad, soup or filled toast for lunch",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "patatas-a-lo-pobre": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "pea-and-mint-soup": {
+  "role": "light",
+  "reason": "a light meal: a grain or noodle salad, soup or filled toast for lunch",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "pear-and-parmesan-salad": {
+  "role": "side",
+  "reason": "a side salad: vegetables without a main portion of protein",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "pear-and-walnut-salad": {
+  "role": "side",
+  "reason": "a side salad: vegetables without a main portion of protein",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "pesarattu": {
+  "role": "breakfast",
+  "reason": "eaten at breakfast",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "petits-pois-a-la-francaise": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "pho-ga": {
+  "role": "main",
+  "reason": "a noodle or rice soup eaten as a meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "pie-floater": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "pierogi": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "pierogi-ruskie": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "pierogi-z-kapusta": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "pigs-in-blankets": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "pizza-dough-without-yeast": {
+  "role": "basic",
+  "reason": "made to go into another dish",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "pommes-anna": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "pommes-lyonnaises": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "pommes-persillade": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "pommes-sarladaises": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "pork-pie": {
+  "role": "starter",
+  "reason": "a snack or party food",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "porkkanalaatikko": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "porotos-granados": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "potato-kugel": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "poulet-basquaise": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "poulet-roti": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "pounded-yam": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "protein-muffins": {
+  "role": "breakfast",
+  "reason": "eaten at breakfast",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "pumpkin-and-sage-pasta": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "quinoa-salad": {
+  "role": "light",
+  "reason": "a light meal: a grain or noodle salad, soup or filled toast for lunch",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "quinoa-salad-with-roasted-vegetables": {
+  "role": "light",
+  "reason": "a light meal: a grain or noodle salad, soup or filled toast for lunch",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "raggmunk": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "rava-dosa": {
+  "role": "breakfast",
+  "reason": "eaten at breakfast",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "red-lentil-and-tomato-soup": {
+  "role": "light",
+  "reason": "a light meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "refried-beans": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "rosol": {
+  "role": "light",
+  "reason": "a light meal: a grain or noodle salad, soup or filled toast for lunch",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "rouz-jerbi": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "salade-de-betteraves": {
+  "role": "side",
+  "reason": "a side salad: vegetables without a main portion of protein",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "salmorejo": {
+  "role": "light",
+  "reason": "a light meal: a grain or noodle salad, soup or filled toast for lunch",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "saltimbocca-alla-romana": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "samgyetang": {
+  "role": "main",
+  "reason": "a noodle or rice soup eaten as a meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "santa-maria-tri-tip": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "sausage-stuffing": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "savoury-corn-muffins": {
+  "role": "bread",
+  "reason": "a bread or savoury bake eaten as bread",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "scallion-oil-noodles": {
+  "role": "light",
+  "reason": "a light meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "scones-with-jam-and-cream": {
+  "role": "dessert",
+  "reason": "a sweet bake served with jam and cream",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "sesame-peanut-noodles": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "shanghai-fried-noodles": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "slovak-bryndzove-pirohy": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "slow-cooker-baked-beans": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "slow-cooker-french-onion-soup": {
+  "role": "light",
+  "reason": "a light meal: a grain or noodle salad, soup or filled toast for lunch",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "smazeny-syr": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "soba-noodle-salad": {
+  "role": "light",
+  "reason": "a light meal: a grain or noodle salad, soup or filled toast for lunch",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "som-tam": {
+  "role": "side",
+  "reason": "a side salad: vegetables without a main portion of protein",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "spaetzle": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "spargel-mit-hollandaise": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "spiderweb-dip": {
+  "role": "starter",
+  "reason": "a snack or party food",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "spinach-and-ricotta-cannelloni": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "spinach-and-ricotta-pasta": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "steak-frites": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "stracciatella": {
+  "role": "light",
+  "reason": "a light meal: a grain or noodle salad, soup or filled toast for lunch",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "strammer-max": {
+  "role": "light",
+  "reason": "a light meal: a grain or noodle salad, soup or filled toast for lunch",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "stuffed-pork-chops": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "stuffing": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "stuffing-balls": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "sundubu-jjigae": {
+  "role": "main",
+  "reason": "a noodle or rice soup eaten as a meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "tacu-tacu": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "telur-sambal": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "thai-fried-rice": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "tian-provencal": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "tinola": {
+  "role": "main",
+  "reason": "a noodle or rice soup eaten as a meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "toad-in-the-hole": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "tomato-and-egg-soup": {
+  "role": "light",
+  "reason": "a light meal: a grain or noodle salad, soup or filled toast for lunch",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "tortang-talong": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "tuna-stuffed-tomatoes": {
+  "role": "light",
+  "reason": "a light meal: a grain or noodle salad, soup or filled toast for lunch",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "twice-baked-potatoes": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "tzimmes": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "unagi-don": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "uttapam": {
+  "role": "breakfast",
+  "reason": "eaten at breakfast",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "varenyky": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "vietnamese-noodle-salad": {
+  "role": "light",
+  "reason": "a light meal: a grain or noodle salad, soup or filled toast for lunch",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "waldorf-salad": {
+  "role": "side",
+  "reason": "a side salad: vegetables without a main portion of protein",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "weisswurst": {
+  "role": "light",
+  "reason": "a light meal: a grain or noodle salad, soup or filled toast for lunch",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "welsh-cheese-and-leek-pie": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "yayla-soup": {
+  "role": "light",
+  "reason": "a light meal: a grain or noodle salad, soup or filled toast for lunch",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "yuca-con-mojo": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "zaalouk": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "zapiekanka": {
+  "role": "light",
+  "reason": "a light meal: a grain or noodle salad, soup or filled toast for lunch",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "zereshk-polo-ba-morgh": {
+  "role": "main",
+  "reason": "a main course: the dish is the centre of the meal in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "zucchini-noodles-with-pesto": {
+  "role": "side",
+  "reason": "a side dish: served beside a main course in its own cuisine",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ },
+ "zuppa-di-farro": {
+  "role": "light",
+  "reason": "a light meal: a grain or noodle salad, soup or filled toast for lunch",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-27"
+ }
+}

@@ -59,7 +59,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=f747c415">
+<link rel="stylesheet" href="/assets/css/main.css?v=77d85f42">
 <link rel="preload" href="/assets/img/recipes/nasu-dengaku.webp" as="image" type="image/webp" fetchpriority="high">
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -89,6 +89,7 @@
                 aria-controls="nav-categories">Categories</button>
         <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>324 recipes</span></a><a href="/categories/lunch/">Lunch<span>420 recipes</span></a><a href="/categories/dinner/">Dinner<span>2108 recipes</span></a><a href="/categories/desserts/">Desserts<span>583 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>585 recipes</span></a><a href="/categories/drinks/">Drinks<span>207 recipes</span></a><a href="/categories/baking/">Baking<span>646 recipes</span></a><a href="/categories/healthy/">Healthy<span>189 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>258 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>135 recipes</span></a></div>
       </div>
+      <a href="/collections/">Collections</a>
       <a href="/cuisines/">Cuisines</a>
       <a href="/ingredients/">Ingredients</a>
       <a href="/search/">Search</a>
@@ -117,12 +118,12 @@
 
 <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="wrap"><ol><li><a href="/">Home</a></li><li><a href="/categories/healthy/">Healthy</a></li><li><a href="/categories/healthy/japanese/">Japanese Healthy</a></li><li><span aria-current="page">Nasu Dengaku</span></li></ol></div></nav>
 <div class="wrap">
-  <article data-recipe="nasu-dengaku" data-servings="4"
+  <article data-recipe="nasu-dengaku" data-servings="4" data-scale="cook"
            data-image="https://weeklydelight.com/assets/img/recipes/nasu-dengaku.jpg">
 
     <div class="recipe-masthead">
       <header class="recipe-head">
-        <span class="eyebrow">Japanese &middot; Healthy</span>
+        <span class="eyebrow">Japanese &middot; Healthy &middot; Side dish</span>
         <h1>Nasu Dengaku</h1>
         <p class="lede">Aubergine halves scored, roasted until collapsing, then lacquered with a sweet-salty miso glaze under the grill. Four ingredients in the glaze and about twenty minutes of actual work.</p>
 
@@ -178,6 +179,7 @@
             <output data-servings-out aria-live="polite">4</output>
             <button type="button" data-servings-inc aria-label="More servings">+</button>
           </div>
+          <p class="form-note scale-note" data-scale-note aria-live="polite" hidden></p>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 4 servings</button>
           
@@ -244,6 +246,7 @@
             <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">35 min</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">Easy</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">Japanese</dd>
+            <dt style="color:var(--text-soft)">Course</dt><dd style="margin:0;font-weight:600">Side dish</dd>
           </dl>
         </div>
 
@@ -285,6 +288,10 @@
         
 
         <h2 id="method">How to Cook Nasu Dengaku</h2>
+        <aside class="before-begin" aria-labelledby="before-title">
+          <h2 id="before-title" class="before-begin__title">Before you begin</h2>
+          <ul><li>You will need: oven, grill or barbecue.</li><li>This is a side dish, not a meal on its own. The serving suggestions below say what it goes with.</li></ul>
+        </aside>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
@@ -344,6 +351,8 @@
         
       </div>
     </li></ol>
+        
+        <p class="form-note report-line">Something wrong or unclear in this recipe? <a href="/report/?recipe=nasu-dengaku&amp;v=39e2a00f099d" rel="nofollow">Report a problem with this recipe</a>.</p>
 
         <h2>Notes From the Method</h2>
         <p class="tip-note">Do not stint on the oil. An under-oiled aubergine bakes dry and leathery.</p><p class="tip-note">Watch it under the grill without leaving. Miso goes from caramelised to burnt in about twenty seconds.</p><p class="tip-note">White miso, not red. Red is far saltier and will overwhelm the sugar.</p>
@@ -403,6 +412,7 @@
               <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
+          
         </section>
       </div>
 
@@ -417,7 +427,8 @@
         <span class="avatar" aria-hidden="true">T</span>
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="/about/">Turab</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>.</p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Checked by script for timings, diet labels and nutrition arithmetic. <a href="/about/#how-checked">How the recipes are checked</a>. Found a mistake? <a href="/report/?recipe=nasu-dengaku&amp;v=39e2a00f099d" rel="nofollow">Tell us</a>.</p>
+          
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="2026-09-05">5 September 2026</time>; last changed <time datetime="2026-10-20">20 October 2026</time>.</p>
         </div>
       </div>
@@ -435,126 +446,6 @@
         <a class="btn btn--ghost" href="/categories/healthy/japanese/">All japanese healthy recipes</a>
       </div>
       <div class="related-grid"><article class="card reveal">
-  <div class="card-media" style="background:#aba08f">
-    <picture>
-        <source srcset="/assets/img/recipes/miso-soup.webp" type="image/webp">
-        <img src="/assets/img/recipes/miso-soup.jpg" alt="Miso Soup"
-             width="800" height="600" data-fade data-title="Miso Soup"
-             data-ph-a="#aba08f" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Japanese</span></div>
-    <button class="fav-btn" type="button" data-slug="miso-soup" data-title="Miso Soup"
-            aria-pressed="false" aria-label="Save Miso Soup to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>5m</dd></div>
-        <div><dt>Cook</dt><dd>10m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/miso-soup/" aria-label="Quick view: Miso Soup">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Healthy</span>
-    <h3><a href="/recipes/miso-soup/">Miso Soup</a></h3>
-    <p>The soup that anchors every Japanese meal: a clean dashi broth, silken tofu, wakame and miso whisked in off the…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>35 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#938881">
-    <picture>
-        <source srcset="/assets/img/recipes/shirataki-noodle-bowls.webp" type="image/webp">
-        <img src="/assets/img/recipes/shirataki-noodle-bowls.jpg" alt="Shirataki Noodle Bowls"
-             width="800" height="600" data-fade data-title="Shirataki Noodle Bowls"
-             data-ph-a="#938881" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Japanese</span></div>
-    <button class="fav-btn" type="button" data-slug="shirataki-noodle-bowls" data-title="Shirataki Noodle Bowls"
-            aria-pressed="false" aria-label="Save Shirataki Noodle Bowls to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>10m</dd></div>
-        <div><dt>Cook</dt><dd>10m</dd></div>
-        <div><dt>Serves</dt><dd>2</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/shirataki-noodle-bowls/" aria-label="Quick view: Shirataki Noodle Bowls">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Healthy</span>
-    <h3><a href="/recipes/shirataki-noodle-bowls/">Shirataki Noodle Bowls</a></h3>
-    <p>Rinsed shirataki noodles stir-fried with mushrooms, spinach and egg in a garlic, ginger and soy sauce.</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>20 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#b6a159">
-    <picture>
-        <source srcset="/assets/img/recipes/japanese-ginger-dressing.webp" type="image/webp">
-        <img src="/assets/img/recipes/japanese-ginger-dressing.jpg" alt="Japanese Ginger Dressing"
-             width="800" height="600" data-fade data-title="Japanese Ginger Dressing"
-             data-ph-a="#b6a159" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Japanese</span></div>
-    <button class="fav-btn" type="button" data-slug="japanese-ginger-dressing" data-title="Japanese Ginger Dressing"
-            aria-pressed="false" aria-label="Save Japanese Ginger Dressing to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>10m</dd></div>
-        <div><dt>Cook</dt><dd>0m</dd></div>
-        <div><dt>Serves</dt><dd>6</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/japanese-ginger-dressing/" aria-label="Quick view: Japanese Ginger Dressing">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Healthy</span>
-    <h3><a href="/recipes/japanese-ginger-dressing/">Japanese Ginger Dressing</a></h3>
-    <p>A smooth, tangy dressing of onion, fresh ginger, soy sauce, rice vinegar and oil, blended until pale and creamy like…</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>40 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
-  <div class="card-media" style="background:#886f58">
-    <picture>
-        <source srcset="/assets/img/recipes/soba-noodle-salad.webp" type="image/webp">
-        <img src="/assets/img/recipes/soba-noodle-salad.jpg" alt="Soba Noodle Salad"
-             width="800" height="600" data-fade data-title="Soba Noodle Salad"
-             data-ph-a="#886f58" data-ph-b="#8c5a3c"
-             loading="lazy" decoding="async">
-       </picture>
-    <div class="card-badges"><span class="badge badge--glass">Japanese</span></div>
-    <button class="fav-btn" type="button" data-slug="soba-noodle-salad" data-title="Soba Noodle Salad"
-            aria-pressed="false" aria-label="Save Soba Noodle Salad to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
-    <div class="quick-view">
-      <dl>
-        <div><dt>Prep</dt><dd>15m</dd></div>
-        <div><dt>Cook</dt><dd>6m</dd></div>
-        <div><dt>Serves</dt><dd>4</dd></div>
-      </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/soba-noodle-salad/" aria-label="Quick view: Soba Noodle Salad">Quick view</a>
-    </div>
-  </div>
-  <div class="card-body">
-    <span class="card-kicker">Healthy</span>
-    <h3><a href="/recipes/soba-noodle-salad/">Soba Noodle Salad</a></h3>
-    <p>Cold buckwheat noodles with cucumber, carrot, spring onion and sesame seeds in a soy and rice vinegar dressing.</p>
-    <div class="card-foot">
-      
-      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>21 min <i>&middot;</i> Easy</span>
-    </div>
-  </div>
-</article><article class="card reveal">
   <div class="card-media" style="background:#857966">
     <picture>
         <source srcset="/assets/img/recipes/gomae.webp" type="image/webp">
@@ -576,12 +467,42 @@
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Healthy</span>
+    <span class="card-kicker">Side dish</span>
     <h3><a href="/recipes/gomae/">Gomae</a></h3>
     <p>Blanched spinach squeezed dry and dressed in a sweet-savoury sesame paste ground in a mortar — the Japanese side…</p>
     <div class="card-foot">
       
       <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>15 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#5b554b">
+    <picture>
+        <source srcset="/assets/img/recipes/grilled-vegetable-platter.webp" type="image/webp">
+        <img src="/assets/img/recipes/grilled-vegetable-platter.jpg" alt="Grilled Vegetable Platter"
+             width="800" height="600" data-fade data-title="Grilled Vegetable Platter"
+             data-ph-a="#5b554b" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Italian</span></div>
+    <button class="fav-btn" type="button" data-slug="grilled-vegetable-platter" data-title="Grilled Vegetable Platter"
+            aria-pressed="false" aria-label="Save Grilled Vegetable Platter to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>20m</dd></div>
+        <div><dt>Cook</dt><dd>12m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/grilled-vegetable-platter/" aria-label="Quick view: Grilled Vegetable Platter">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/grilled-vegetable-platter/">Grilled Vegetable Platter</a></h3>
+    <p>Aubergine, courgette, peppers and red onion grilled until charred and tender, dressed with olive oil, lemon and basil.</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>47 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article><article class="card reveal">
@@ -606,12 +527,102 @@
     </div>
   </div>
   <div class="card-body">
-    <span class="card-kicker">Healthy</span>
+    <span class="card-kicker">Side dish</span>
     <h3><a href="/recipes/escalivada/">Escalivada</a></h3>
     <p>Aubergine, red pepper and onion roasted whole until soft and smoky, peeled, torn into strips and dressed with olive…</p>
     <div class="card-foot">
       
       <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>75 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#65735f">
+    <picture>
+        <source srcset="/assets/img/recipes/sunomono.webp" type="image/webp">
+        <img src="/assets/img/recipes/sunomono.jpg" alt="Sunomono"
+             width="800" height="600" data-fade data-title="Sunomono"
+             data-ph-a="#65735f" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Japanese</span></div>
+    <button class="fav-btn" type="button" data-slug="sunomono" data-title="Sunomono"
+            aria-pressed="false" aria-label="Save Sunomono to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>15m</dd></div>
+        <div><dt>Cook</dt><dd>0m</dd></div>
+        <div><dt>Serves</dt><dd>4</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/sunomono/" aria-label="Quick view: Sunomono">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/sunomono/">Sunomono</a></h3>
+    <p>Paper-thin cucumber salted, squeezed and dressed in a sharp, lightly sweet rice vinegar, soy sauce and ginger…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>15 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#a48a60">
+    <picture>
+        <source srcset="/assets/img/recipes/ratatouille.webp" type="image/webp">
+        <img src="/assets/img/recipes/ratatouille.jpg" alt="Provençal Ratatouille"
+             width="800" height="600" data-fade data-title="Provençal Ratatouille"
+             data-ph-a="#a48a60" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">French</span></div>
+    <button class="fav-btn" type="button" data-slug="ratatouille" data-title="Provençal Ratatouille"
+            aria-pressed="false" aria-label="Save Provençal Ratatouille to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>25m</dd></div>
+        <div><dt>Cook</dt><dd>45m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/ratatouille/" aria-label="Quick view: Provençal Ratatouille">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/ratatouille/">Provençal Ratatouille</a></h3>
+    <p>The Provençal original, in which each vegetable is cooked separately before they are married — the only way to get…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>110 min <i>&middot;</i> Easy</span>
+    </div>
+  </div>
+</article><article class="card reveal">
+  <div class="card-media" style="background:#997146">
+    <picture>
+        <source srcset="/assets/img/recipes/roasted-root-vegetables.webp" type="image/webp">
+        <img src="/assets/img/recipes/roasted-root-vegetables.jpg" alt="Roasted Root Vegetables"
+             width="800" height="600" data-fade data-title="Roasted Root Vegetables"
+             data-ph-a="#997146" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
+    <div class="card-badges"><span class="badge badge--glass">Canadian</span></div>
+    <button class="fav-btn" type="button" data-slug="roasted-root-vegetables" data-title="Roasted Root Vegetables"
+            aria-pressed="false" aria-label="Save Roasted Root Vegetables to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+    <div class="quick-view">
+      <dl>
+        <div><dt>Prep</dt><dd>20m</dd></div>
+        <div><dt>Cook</dt><dd>45m</dd></div>
+        <div><dt>Serves</dt><dd>6</dd></div>
+      </dl>
+      <a class="btn btn--light btn--sm" href="/recipes/roasted-root-vegetables/" aria-label="Quick view: Roasted Root Vegetables">Quick view</a>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-kicker">Side dish</span>
+    <h3><a href="/recipes/roasted-root-vegetables/">Roasted Root Vegetables</a></h3>
+    <p>Carrots, parsnips, swede and sweet potato roasted hard on a hot tray, then glazed with maple syrup and thyme…</p>
+    <div class="card-foot">
+      
+      <span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>65 min <i>&middot;</i> Easy</span>
     </div>
   </div>
 </article></div>
@@ -621,7 +632,8 @@
 
     <section class="newsletter reveal" id="recipe-news" aria-labelledby="recipe-news-title">
   <h2 id="recipe-news-title">Keep the recipes you want to come back to</h2>
-  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="/recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="/ingredients/">ingredient you already have</a>.</p>
+  <p>Press the heart on any recipe and it waits on your <a href="/favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. Each week there are <a href="/weekly-plan/">five dinners and a shopping list</a> to start from, and you can <a href="/my-plan/">plan your own week</a> from what you have saved.</p>
+  
 </section>
   </article>
 </div>
@@ -642,12 +654,15 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">5455 well-known dishes from around the world, written down with the reasons behind every step. <a href="/about/#how-checked">How the recipes are made and checked</a>.</p>
+        <p style="margin-top:1rem;max-width:34ch">World recipes with clear methods, start-to-finish times that include the waiting, and practical ingredient swaps. <a href="/about/#how-checked">How the recipes are made and checked</a>. <a href="/about/#corrections">Spotted a mistake?</a></p>
       </div>
       <div>
         <h3>Explore</h3>
         <ul>
           <li><a href="/recipes/">All recipes</a></li>
+          <li><a href="/collections/">Collections</a></li>
+          <li><a href="/weekly-plan/">This week's five dinners</a></li>
+          <li><a href="/guides/">Cooking guides</a></li>
           <li><a href="/categories/">Categories</a></li>
           <li><a href="/cuisines/">Cuisines</a></li>
           <li><a href="/ingredients/">Ingredients</a></li>
@@ -667,8 +682,8 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=e70b73af" defer></script>
-<script src="/assets/js/recipe.js?v=0ed793aa" defer></script>
+<script src="/assets/js/app.js?v=dfd553e6" defer></script>
+<script src="/assets/js/recipe.js?v=a31b0eb8" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

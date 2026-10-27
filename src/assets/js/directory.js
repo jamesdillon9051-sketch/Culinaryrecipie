@@ -25,6 +25,8 @@
     cuisine: [],
     tag: [],
     difficulty: [],
+    course: [],
+    method: [],
     time: null,
     /* Diet filters match what qualifies as written; this adds the recipes that qualify only
        with a swap the recipe names ("Vegan option"). */
@@ -36,7 +38,14 @@
   /* Hydrate state from the URL so filtered views are shareable */
   var params = new URLSearchParams(location.search);
   if (params.get('q')) state.q = params.get('q');
-  ['category', 'cuisine', 'tag', 'difficulty'].forEach(function (k) {
+  var LISTS = ['course', 'category', 'cuisine', 'tag', 'difficulty', 'method'];
+  /* What the chips say for the coded filters; the checkbox labels hold the same words. */
+  var LABELS = {};
+  $$('[data-filter]').forEach(function (input) {
+    var label = input.parentNode.querySelector('span');
+    if (label) LABELS[input.dataset.filter + ':' + input.value] = label.textContent;
+  });
+  LISTS.forEach(function (k) {
     if (params.get(k)) state[k] = params.get(k).split(',').filter(Boolean);
   });
   if (params.get('time')) state.time = parseInt(params.get('time'), 10);
@@ -57,6 +66,9 @@
       '<span style="width:' + pct + '%">★★★★★</span></span>' +
       '<b>' + value.toFixed(1) + '</b><span class="sr-only"> out of 5 from reader reviews</span></span>';
   }
+
+  /* Matches SUPPORT_LABELS in src/templates/layout.js: a side filed under Dinner says "Side dish". */
+  var SUPPORT = { side: 'Side dish', sauce: 'Sauce', condiment: 'Condiment', basic: 'Kitchen basic', bread: 'Bread' };
 
   function cardHtml(r) {
     /* Slugs and colours come from our own build, but they are escaped and
@@ -91,7 +103,7 @@
         '</dl><a class="btn btn--light btn--sm" href="' + esc(href) + '">Quick view</a></div>' +
       '</div>' +
       '<div class="card-body">' +
-        '<span class="card-kicker">' + esc(r.n) + '</span>' +
+        '<span class="card-kicker">' + esc(SUPPORT[r.j] || r.n) + '</span>' +
         '<h3><a href="' + esc(href) + '">' + esc(r.t) + '</a></h3>' +
         '<p>' + esc(r.e) + '</p>' +
         '<div class="card-foot">' + stars(r.r) +
@@ -124,6 +136,10 @@
     if (state.category.length && state.category.indexOf(r.n) === -1) return false;
     if (state.cuisine.length && state.cuisine.indexOf(r.c) === -1) return false;
     if (state.difficulty.length && state.difficulty.indexOf(r.d) === -1) return false;
+    if (state.course.length && state.course.indexOf(r.j) === -1) return false;
+    if (state.method.length) {
+      for (var m = 0; m < state.method.length; m++) if (!r.y || r.y.indexOf(state.method[m]) === -1) return false;
+    }
     /* A recipe whose method needs time it does not give cannot promise to fit under a limit. */
     if (state.time && (r.m > state.time || r.u)) return false;
     if (state.tag.length) {
@@ -137,7 +153,7 @@
   function updateUrl() {
     var p = new URLSearchParams();
     if (state.q) p.set('q', state.q);
-    ['category', 'cuisine', 'tag', 'difficulty'].forEach(function (k) {
+    LISTS.forEach(function (k) {
       if (state[k].length) p.set(k, state[k].join(','));
     });
     if (state.time) p.set('time', state.time);
@@ -150,9 +166,9 @@
   function renderChips() {
     if (!chipRow) return;
     var chips = [];
-    ['category', 'cuisine', 'tag', 'difficulty'].forEach(function (k) {
+    LISTS.forEach(function (k) {
       state[k].forEach(function (v) {
-        chips.push('<span class="chip is-active">' + esc(v) +
+        chips.push('<span class="chip is-active">' + esc(LABELS[k + ':' + v] || v) +
           '<button type="button" data-remove-filter data-key="' + esc(k) + '" data-value="' + esc(v) +
           '" aria-label="Remove filter ' + esc(v) + '">&times;</button></span>');
       });
@@ -169,6 +185,8 @@
       chips.push('<button type="button" class="chip" id="clear-all">Clear all</button>');
     }
     chipRow.innerHTML = chips.join('');
+    var active = chips.length ? chips.length - 1 : 0;
+    $$('[data-filters-count]').forEach(function (el) { el.textContent = active ? ' (' + active + ' on)' : ''; });
   }
 
   var data = [];
@@ -196,6 +214,17 @@
     var left = current.length - shown;
     moreBox.hidden = left <= 0;
     if (left > 0) moreBtn.textContent = 'Show ' + Math.min(PAGE, left) + ' more recipes';
+  }
+
+  /* Say which filter is doing the excluding, rather than a generic "try again". */
+  function emptyAdvice() {
+    var tips = [];
+    if (state.time && state.time <= 30) tips.push('a time limit of ' + state.time + ' minutes leaves out every recipe with a wait, such as marinating or chilling');
+    if (state.course.length && state.category.length) tips.push('Course and Category overlap: a side filed under Dinner is a side, not a dinner');
+    if (state.tag.length && !state.swaps) tips.push('ticking &ldquo;Include recipes that qualify only with a swap&rdquo; widens the diet filters');
+    if (state.method.length > 1) tips.push('choosing two cooking methods asks for recipes that use both');
+    return tips.length ? 'Nothing matches. ' + tips.map(function (t) { return t.charAt(0).toUpperCase() + t.slice(1); }).join('. ') + '.'
+      : 'Try removing a filter, or search for an ingredient like &ldquo;chicken&rdquo; or &ldquo;chocolate&rdquo;.';
   }
 
   function render() {
@@ -232,12 +261,15 @@
       var hasQuery = state.q && state.q.trim().length > 1;
       grid.innerHTML = '<div class="empty-state"><h3>' + (hasQuery
           ? 'No recipes match &ldquo;' + esc(state.q.trim()) + '&rdquo;' + (state.category.length || state.cuisine.length ||
-            state.tag.length || state.difficulty.length || state.time ? ' with those filters' : '')
+            state.tag.length || state.difficulty.length || state.course.length || state.method.length || state.time ? ' with those filters' : '')
           : 'Nothing matches those filters') + '</h3>' +
         '<p>' + (state.favourites
           ? 'Tap the heart on any recipe to save it here.'
-          : 'Try removing a filter, or search for an ingredient like &ldquo;chicken&rdquo; or &ldquo;chocolate&rdquo;.') +
-        '</p><a class="btn btn--primary" href="' + BASE + 'recipes/">Browse all ' + data.length + ' recipes</a></div>';
+          : emptyAdvice()) +
+        '</p>' + (chipRow && chipRow.innerHTML ? '<button type="button" class="btn btn--primary" data-clear-from-empty>Clear all filters</button> ' : '') +
+        '<a class="btn btn--ghost" href="' + BASE + 'recipes/">Browse all ' + data.length + ' recipes</a></div>';
+      var clear = grid.querySelector('[data-clear-from-empty]');
+      if (clear) clear.addEventListener('click', function () { var all = $('#clear-all'); if (all) all.click(); });
       return;
     }
 
@@ -293,7 +325,7 @@
   if (chipRow) {
     chipRow.addEventListener('click', function (e) {
       if (e.target.id === 'clear-all') {
-        state.category = []; state.cuisine = []; state.tag = []; state.difficulty = []; state.time = null; state.swaps = false;
+        LISTS.forEach(function (k) { state[k] = []; }); state.time = null; state.swaps = false;
         if (swapsBox) swapsBox.checked = false;
         $$('[data-filter]').forEach(function (i) { i.checked = false; });
         renderChips(); updateUrl(); render();
@@ -315,6 +347,18 @@
         });
       }
       renderChips(); updateUrl(); render();
+    });
+  }
+
+  /* Phone layout: the filter panel opens from a button and says how many filters are on. */
+  var toggle = $('[data-filters-toggle]');
+  var panel = $('#recipe-filters');
+  if (toggle && panel) {
+    toggle.addEventListener('click', function () {
+      var open = toggle.getAttribute('aria-expanded') !== 'true';
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      panel.classList.toggle('is-open', open);
+      if (open) { var first = panel.querySelector('input'); if (first) first.focus(); }
     });
   }
 
