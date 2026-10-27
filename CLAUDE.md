@@ -304,7 +304,7 @@ The "Common Substitutions" and FAQ blocks on each page are generated from the re
 
 ## 8. Open decisions for the owner
 
-The October 2026 audit settled the two decisions that used to be here: the synthetic `datePublished` was replaced with git-recorded first-seen dates (section 7), and the About page and recipe byline no longer say every recipe was cooked and tested. On 26 October 2026 the owner also removed the statements that the recipe text was drafted with AI assistance and is not kitchen-tested; the byline and About page now describe only the automated checks. Still the owner's to decide:
+The October 2026 audit settled the two decisions that used to be here: the synthetic `datePublished` was replaced with git-recorded first-seen dates (section 7), and the About page and recipe byline no longer say every recipe was cooked and tested. On 26 October 2026 the owner also removed the statements that the recipe text was drafted with AI assistance and is not kitchen-tested; the byline and About page now describe only the automated checks. On 27 October 2026 the owner had all ads removed: `enabled: false` in `src/data/ads.js` strips every ad slot, script and framed ad document, and the privacy page follows that switch and says the site carries no advertising (Google Analytics stays; `ads.txt` is still written). Do not switch ads back on without the owner's instruction. Still the owner's to decide:
 
 1. **The byline and About wording.** The owner's public identity; adjust it, keeping it true. Neither may claim the recipes were tested until `src/data/testing-notes.json` records it (section 4.3).
 2. **Health labels.** Withdrawn pending review by a registered dietitian (section 9). Reinstating any of them is the owner's call, after that review.

@@ -725,8 +725,10 @@ const ABOUT_FAQ = [
  * than none — it is a promise nobody is keeping.
  *
  * It is not legal advice, and it says so. One operator, worldwide
- * readers, advertising and analytics both running: worth having somebody
- * qualified read it.
+ * readers, analytics running (and advertising, whenever data/ads.js has it
+ * switched on): worth having somebody qualified read it. Every sentence about
+ * ads follows that switch, so the page never describes ads the site is not
+ * showing.
  */
 /**
  * The two pages the contact endpoint renders for a plain (no-JavaScript) form
@@ -792,7 +794,10 @@ function privacy(ctx) {
      It is a constant because the honest value cannot be derived from the
      build: nothing in the repository records when the policy was last
      rewritten. Bump it by hand when the text below changes. */
-  const updated = '2026-10-17';
+  const updated = '2026-10-27';
+  /* Whether any ad is on the page at all. With ads switched off the policy
+     says so, and names Google Analytics as the only third-party script. */
+  const ADS_ON = ads.ADS.enabled;
 
   const body = `
 ${breadcrumbs(trail)}
@@ -811,20 +816,29 @@ ${breadcrumbs(trail)}
       <li>There is no account, no login and no database. This is a static site.</li>
       <li>What you save — favourites, your theme, your reviews — stays in your own browser and never reaches me.</li>
       ${CONSENT.enabled
-        ? `<li>Nothing is loaded until you choose. Google Analytics and the advertising scripts are not in the page at all until you accept them, and if you refuse or ignore the banner they are never fetched.</li>
+        ? `<li>Nothing is loaded until you choose. ${ADS_ON ? 'Google Analytics and the advertising scripts are' : 'Google Analytics is'} not in the page at all until you accept, and if you refuse or ignore the banner nothing is fetched.</li>
       <li>You can change your mind at any time with <a href="#" data-consent-reopen>Cookie settings</a>, at the foot of every page.</li>`
-        : `<li>There is no consent banner. Analytics and advertising load with the page. A content blocker stops the analytics and may stop the ads, but the ad network serves them from addresses that change to get past blockers, so I cannot promise it will — the links further down turn each one off at the source.</li>`}
+        : ADS_ON
+        ? `<li>There is no consent banner. Analytics and advertising load with the page. A content blocker stops the analytics and may stop the ads, but the ad network serves them from addresses that change to get past blockers, so I cannot promise it will — the links further down turn each one off at the source.</li>`
+        : `<li>There is no consent banner. Google Analytics loads with the page; a content blocker stops it, and the link further down turns it off at the source.</li>
+      <li>The site carries no advertising.</li>`}
       <li>The contact form is the only thing that sends anything to me, and only what you type into it.</li>
-      <li>Nothing on the site depends on either: if the analytics or the ads are blocked or fail to load, every recipe, the search and the timers work as before.</li>
+      <li>${ADS_ON
+        ? 'Nothing on the site depends on either: if the analytics or the ads are blocked or fail to load, every recipe, the search and the timers work as before.'
+        : 'Nothing on the site depends on the analytics: if it is blocked or fails to load, every recipe, the search and the timers work as before.'}</li>
     </ul>
 
     ${CONSENT.enabled ? `<h2>Consent, and what it controls</h2>
-    <p>The first time you visit, a banner asks whether analytics and advertising cookies are all right. Until you answer, neither is loaded &mdash; the scripts are genuinely absent from the page rather than loaded and told to behave, so refusing is not a request that something stops, it is the reason it never starts. Refusing costs you nothing: every recipe, the search, saved recipes, cook mode and the timers work exactly the same.</p>
+    <p>The first time you visit, a banner asks whether ${ADS_ON ? 'analytics and advertising cookies are' : 'analytics cookies are'} all right. Until you answer, nothing is loaded &mdash; the scripts are genuinely absent from the page rather than loaded and told to behave, so refusing is not a request that something stops, it is the reason it never starts. Refusing costs you nothing: every recipe, the search, saved recipes, cook mode and the timers work exactly the same.</p>
     <p>Your answer is kept in your own browser for six months, after which the banner asks again. Change it whenever you like with the <a href="#" data-consent-reopen>Cookie settings</a> link at the foot of every page; withdrawing is one click, the same as giving it. Because a script already loaded cannot be unloaded, the page reloads when you do.</p>
     <p>The things this site stores for itself &mdash; your theme, your saved recipes, your reviews &mdash; are not covered by that choice. They never leave your device, they exist only because you asked for them, and the site would not work as you left it without them.</p>
-` : `<h2>Cookies, and how to refuse them</h2>
+` : ADS_ON ? `<h2>Cookies, and how to refuse them</h2>
     <p>This site does not ask before loading its analytics and advertising scripts: they run when the page does. I would rather say that plainly than imply a choice you were not given.</p>
     <p>If you do not want them, a content blocker is the usual way to stop them, and the site works perfectly without either — every recipe, the search, saved recipes, cook mode and the timers are unaffected. I would rather be plain about the ads, though: the network serves them from addresses that change, which is how it gets past some blockers, so a blocker may stop them or may not. The Analytics and Advertising sections below also link to the opt-outs Google and Adsterra provide, which work across every site that uses them, not just this one.</p>
+    <p>The things this site stores for itself &mdash; your theme, your saved recipes, your reviews &mdash; are a separate matter. They never leave your device and exist only because you asked for them.</p>
+` : `<h2>Cookies, and how to refuse them</h2>
+    <p>This site does not ask before loading its analytics script: it runs when the page does. I would rather say that plainly than imply a choice you were not given.</p>
+    <p>If you do not want it, a content blocker is the usual way to stop it, and the site works perfectly without it — every recipe, the search, saved recipes, cook mode and the timers are unaffected. The Analytics section below also links to the opt-out Google provides, which works across every site that uses Google Analytics, not just this one.</p>
     <p>The things this site stores for itself &mdash; your theme, your saved recipes, your reviews &mdash; are a separate matter. They never leave your device and exist only because you asked for them.</p>
 `}
 
@@ -850,8 +864,9 @@ ${breadcrumbs(trail)}
     <p>Google is the data controller for what it collects. Its own explanation is in <a href="https://policies.google.com/technologies/partner-sites" rel="nofollow noopener" target="_blank">how Google uses data from sites that use its services</a>, and you can opt out everywhere at once with the <a href="https://tools.google.com/dlpage/gaoptout" rel="nofollow noopener" target="_blank">Google Analytics opt-out add-on</a>.</p>
 
     <h2>Advertising</h2>
-    <p>${CONSENT.enabled ? '<strong>Only if you accepted.</strong> ' : ''}The site carries advertising, which is what pays for it. The ads are served by Adsterra, not by me: they choose what you see, and they may set cookies or similar identifiers to do it, including for personalised advertising. I do not receive your data from them and I cannot see who was shown what.${CONSENT.enabled ? ' If you refuse, no ad script is fetched and the ad slots stay empty.' : ''}</p>
-    <p>Adsterra publishes its own <a href="https://adsterra.com/privacy-policy/" rel="nofollow noopener" target="_blank">privacy policy</a>, which governs that part of your visit. If you would rather not be tracked for advertising, a content blocker may stop it, though the ads are served from addresses that change to get past blockers, so it is not a guarantee. You can also turn off ad personalisation in <a href="https://myadcenter.google.com/" rel="nofollow noopener" target="_blank">Google's ad settings</a> for the Google side of the web.</p>
+    ${ADS_ON ? `<p>${CONSENT.enabled ? '<strong>Only if you accepted.</strong> ' : ''}The site carries advertising, which is what pays for it. The ads are served by Adsterra, not by me: they choose what you see, and they may set cookies or similar identifiers to do it, including for personalised advertising. I do not receive your data from them and I cannot see who was shown what.${CONSENT.enabled ? ' If you refuse, no ad script is fetched and the ad slots stay empty.' : ''}</p>
+    <p>Adsterra publishes its own <a href="https://adsterra.com/privacy-policy/" rel="nofollow noopener" target="_blank">privacy policy</a>, which governs that part of your visit. If you would rather not be tracked for advertising, a content blocker may stop it, though the ads are served from addresses that change to get past blockers, so it is not a guarantee. You can also turn off ad personalisation in <a href="https://myadcenter.google.com/" rel="nofollow noopener" target="_blank">Google's ad settings</a> for the Google side of the web.</p>`
+    : `<p>The site carries no advertising. No ad network's script is loaded on any page, and nothing you do here is used to show you ads.</p>`}
 
     <h2>What else the site loads</h2>
     <ul>
@@ -866,7 +881,9 @@ ${breadcrumbs(trail)}
 
     <h2>Your rights</h2>
     <p>Unless you have sent me a message, I hold nothing about you at all: everything the site stores is already in your hands, and clearing your browser data removes it. If you have used the contact form, what I hold is that message, and you can ask me to delete it &mdash; reply to my email, or send a new message saying so, and it goes.</p>
-    <p>For the data Google and Adsterra collect, their policies above set out how to make a request to them, since they are the ones holding it.</p>
+    <p>${ADS_ON
+      ? 'For the data Google and Adsterra collect, their policies above set out how to make a request to them, since they are the ones holding it.'
+      : 'For the data Google Analytics collects, the Google policy linked above sets out how to make a request, since Google is the one holding it.'}</p>
 
     <h2>Changes</h2>
     <p>If what the site does changes — a real newsletter, a working contact form, a different ad network — this page changes with it, and the date at the top moves. There is no archive of previous versions; the site is small enough that the current one is the only one that matters.</p>
@@ -881,7 +898,9 @@ ${breadcrumbs(trail)}
 
   return layout({
     title: 'Privacy & Cookies',
-    description: `What ${SITE.name} stores, what it sends to Google Analytics and the ad network, and how to stop it. No accounts, no database, nothing on a server.`,
+    description: ads.ADS.enabled
+      ? `What ${SITE.name} stores, what it sends to Google Analytics and the ad network, and how to stop it. No accounts, no database, nothing on a server.`
+      : `What ${SITE.name} stores, what it sends to Google Analytics and how to stop it. No ads, no accounts, no database and nothing kept on a server.`,
     keywords: ['privacy policy', 'cookie policy', 'weekly delight privacy',
                'what data does this site collect', 'analytics and advertising cookies',
                'data protection', 'gdpr recipe site', 'personal data', 'third party cookies',
@@ -889,7 +908,8 @@ ${breadcrumbs(trail)}
                'advertising partners', 'google analytics', 'data retention',
                'your data rights', 'saved recipes are stored on your device',
                'does this site track me', 'what cookies does this site use',
-               'contact about privacy', 'cookie consent', 'weekly delight cookies'],
+               'contact about privacy', 'cookie consent', 'weekly delight cookies']
+      .filter(k => ads.ADS.enabled || !/advertising/.test(k)),
     path: 'privacy/',
     active: 'privacy',
     body,
@@ -952,7 +972,7 @@ ${breadcrumbs(trail)}
     <h2>Where the photographs come from</h2>
     <p>Of the ${recipeCount} recipes, ${photoCount.toLocaleString('en-GB')} have a photograph of the dish, ${illustrationCount} have only an AI illustration, and ${placeholderCount.toLocaleString('en-GB')} have no picture yet. Counted as files rather than recipes, there are ${imageCount.toLocaleString('en-GB')} photographs: ${heroPhotoFileCount.toLocaleString('en-GB')} main pictures and ${processPhotoFileCount} in-progress shots.</p>
     <p>None of the photographs were taken for this site, and none shows this site's own cooking: each is a third party's photograph of the dish, used under its licence and credited underneath. Of the ${imageCount.toLocaleString('en-GB')}, ${commonsImageCount.toLocaleString('en-GB')} come from Wikimedia Commons, ${otherArchiveImageCount.toLocaleString('en-GB')} were found through Openverse, which indexes Flickr and other archives of freely licensed work${stockImageCount ? `, and ${stockImageCount} come from ${stockSources.join(' and ')}, a stock library with its own licence, which allows commercial use and asks for no credit (it is given anyway)` : ''}. Of the archive photographs, ${publicDomainImageCount.toLocaleString('en-GB')} are CC0 or public domain, ${attributionOnlyImageCount.toLocaleString('en-GB')} are Creative Commons Attribution, and ${shareAlikeImageCount} are Attribution-ShareAlike.</p>
-    <p>Every image is resized and re-encoded for the web. As site policy, that is treated as an adaptation: the ShareAlike photographs are offered here under the same licence as the original, and the credit line says so. Also as site policy, and not because every such licence would forbid it, NonCommercial images are not used (the site carries advertising) and neither are NoDerivatives ones, so that no question about resizing arises.</p>
+    <p>Every image is resized and re-encoded for the web. As site policy, that is treated as an adaptation: the ShareAlike photographs are offered here under the same licence as the original, and the credit line says so. Also as site policy, and not because every such licence would forbid it, NonCommercial images are not used (so that the site stays free to carry advertising) and neither are NoDerivatives ones, so that no question about resizing arises.</p>
     ${illustrationCount ? `<h2>And where the illustrations come from</h2>
     <p>${illustrationCount} recipes carry an illustration generated by an AI image model instead of a photograph, from a prompt written out of the recipe's own description and ingredients. Each is labelled as an AI illustration underneath the picture and in its alt text, listed separately in <a href="${SITE.base}images-attribution.md">images-attribution.md</a>, and not counted among the photographs above. It shows what the dish is meant to look like, not a dish anyone cooked. No new illustrations are being added.</p>` : ''}
     ${placeholderCount ? `<p>The ${placeholderCount.toLocaleString('en-GB')} recipes with no picture show a plain coloured card with the dish's name. A wrong picture would be worse than none.</p>` : ''}
