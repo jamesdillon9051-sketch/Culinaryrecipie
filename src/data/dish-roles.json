@@ -1,4 +1,16 @@
 {
+ "acorda-alentejana": {
+  "role": "light",
+  "reason": "a bread soup with a poached egg in each bowl, served with salad or cured ham: a light meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "afghan-dal": {
+  "role": "main",
+  "reason": "250 g of yellow split peas for four, served with flatbread or rice as the centre of the meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "air-fryer-stuffed-peppers": {
   "role": "main",
   "reason": "a main course: the dish is the centre of the meal in its own cuisine",
@@ -71,6 +83,12 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "banitsa": {
+  "role": "light",
+  "reason": "a filo pie of eggs, feta and yoghurt for eight, served with a tomato salad: a light meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "bastilla": {
   "role": "main",
   "reason": "a main course: the dish is the centre of the meal in its own cuisine",
@@ -101,6 +119,12 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "bengali-aloo-posto": {
+  "role": "side",
+  "reason": "a dry potato curry served with rice, dal or fried fish",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "biang-biang-noodles": {
   "role": "main",
   "reason": "a main course: the dish is the centre of the meal in its own cuisine",
@@ -113,6 +137,12 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "bisi-bele-bath": {
+  "role": "main",
+  "reason": "rice, lentils and vegetables cooked together in one pot for four, served with yoghurt and papad",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "black-eyed-pea-stew": {
   "role": "main",
   "reason": "a main course: the dish is the centre of the meal in its own cuisine",
@@ -124,6 +154,36 @@
   "reason": "a side dish: served beside a main course in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "borscht": {
+  "role": "light",
+  "reason": "a beetroot, cabbage and potato soup with no meat in the recipe beyond a beef or vegetable stock, and bread and garlic rolls beside it: a first or light course",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "boudin-noir-pommes": {
+  "role": "main",
+  "reason": "four black pudding sausages, about 500 g, cooked with apples and served with mash",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "bramboracky": {
+  "role": "light",
+  "reason": "potato pancakes served with sauerkraut, sour cream or smoked sausage: a light meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "bretzel-alsacien": {
+  "role": "bread",
+  "reason": "hand-shaped pretzels served with mustard, butter or cold cuts",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "broa-de-milho": {
+  "role": "bread",
+  "reason": "a Portuguese cornbread served with soup, sardines or cheese",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "broccoli-cheese-rice": {
   "role": "side",
@@ -143,11 +203,29 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "buckwheat-with-mushrooms": {
+  "role": "side",
+  "reason": "described in the recipe as a side or supper, with a fried egg or sausages suggested alongside",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "budae-jjigae": {
   "role": "main",
   "reason": "a noodle or rice soup eaten as a meal in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "burek": {
+  "role": "main",
+  "reason": "a spiral pie filled with 500 g of spiced minced beef for eight, served with yoghurt",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "burrata-with-tomatoes": {
+  "role": "starter",
+  "reason": "sliced tomatoes and burrata with bread and no cooking: a cold first course",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "cabbage-stir-fry-with-garlic": {
   "role": "side",
@@ -161,17 +239,35 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "caldo-verde": {
+  "role": "light",
+  "reason": "a smooth potato soup with greens and a slice of chouriço, served with bread: a light supper or first course",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "canadian-maple-baked-beans": {
   "role": "side",
   "reason": "a side dish: served beside a main course in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "carciofi-ripieni": {
+  "role": "starter",
+  "reason": "a whole stuffed artichoke each, braised in oil and wine and served with bread and lemon: a first course",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "carottes-vichy": {
   "role": "side",
   "reason": "a side dish: served beside a main course in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "cauliflower-risotto": {
+  "role": "side",
+  "reason": "700 g of grated cauliflower with 190 kcal and 9 g protein a serving, with grilled chicken or fish suggested alongside",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "cheese-and-bacon-rolls": {
   "role": "bread",
@@ -202,6 +298,12 @@
   "reason": "a light meal: a grain or noodle salad, soup or filled toast for lunch",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "chicken-noodle-soup": {
+  "role": "main",
+  "reason": "built from a whole chicken for six, so the soup carries the meat and is the meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "chicons-au-gratin": {
   "role": "main",
@@ -251,6 +353,12 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "coconut-dal": {
+  "role": "main",
+  "reason": "300 g of red lentils for four, served over rice or with roti as the centre of the meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "collard-greens": {
   "role": "side",
   "reason": "a side dish: served beside a main course in its own cuisine",
@@ -280,6 +388,12 @@
   "reason": "a main course: the dish is the centre of the meal in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "corn-dogs": {
+  "role": "main",
+  "reason": "a hot dog in a cornmeal coating, served with fries as the meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "corn-pudding": {
   "role": "side",
@@ -323,6 +437,12 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "dal-makhani": {
+  "role": "main",
+  "reason": "250 g of lentils and beans for six, finished with butter and cream and eaten with naan or rice as the centre of the meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "damper": {
   "role": "bread",
   "reason": "a soda-style bread baked as one round",
@@ -353,6 +473,12 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "doenjang-jjigae": {
+  "role": "light",
+  "reason": "a soybean paste stew with 200 g of tofu for four, served with rice, kimchi and a separate grilled fish: part of a spread",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "dorade-royale": {
   "role": "main",
   "reason": "a main course: the dish is the centre of the meal in its own cuisine",
@@ -364,6 +490,12 @@
   "reason": "a main course: the dish is the centre of the meal in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "draniki": {
+  "role": "light",
+  "reason": "potato and onion pancakes served with sour cream, sausage or mushrooms: a light meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "dublin-coddle": {
   "role": "main",
@@ -395,11 +527,29 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "egg-roll-soup": {
+  "role": "main",
+  "reason": "450 g of turkey mince in a soup for six, with 18 g protein a serving",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "eggy-bread": {
   "role": "breakfast",
   "reason": "eaten at breakfast",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "eish-merahrah": {
+  "role": "bread",
+  "reason": "a flat wholemeal loaf: described as a bread",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "empanada-gallega": {
+  "role": "main",
+  "reason": "a large yeasted pie filled with tuna, onion and pepper, cut into squares and served with salad",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "entenbrust-mit-rotkohl": {
   "role": "main",
@@ -437,6 +587,12 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "fasolakia": {
+  "role": "light",
+  "reason": "green beans and potatoes braised for four, served with feta and bread, or with grilled fish: a light meal or side",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "fattah": {
   "role": "main",
   "reason": "a main course: the dish is the centre of the meal in its own cuisine",
@@ -455,11 +611,23 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "fijian-rourou": {
+  "role": "side",
+  "reason": "spinach stewed in coconut milk, served with cassava, taro, rice or grilled fish",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "flammkuchen": {
   "role": "main",
   "reason": "a main course: the dish is the centre of the meal in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "flaxseed-muffins": {
+  "role": "breakfast",
+  "reason": "six flour-free muffins served with butter, yoghurt, a boiled egg or berries: a breakfast bake",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "fondue-savoyarde": {
   "role": "main",
@@ -485,6 +653,12 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "frijoles-de-la-olla": {
+  "role": "main",
+  "reason": "400 g of pinto beans for six, served in their broth with tortillas and rice",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "gamja-jorim": {
   "role": "side",
   "reason": "a side dish: served beside a main course in its own cuisine",
@@ -508,6 +682,36 @@
   "reason": "a side dish: served beside a main course in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "gatte-ki-sabzi": {
+  "role": "main",
+  "reason": "150 g of gram flour dumplings in a yoghurt gravy for four, served with chapati or rice",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "german-potato-soup": {
+  "role": "light",
+  "reason": "a potato, leek and bacon soup, with sausages suggested alongside",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "gigantes-plaki": {
+  "role": "main",
+  "reason": "960 g of butter beans baked for six; the recipe calls it a Greek meze or main",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "ginisang-munggo": {
+  "role": "side",
+  "reason": "200 g of mung beans for four, with fried fish or crispy pork suggested alongside rice",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "githeri": {
+  "role": "main",
+  "reason": "a stew of maize, beans and vegetables for six, described as filling and served with chapati",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "gluten-free-dumplings": {
   "role": "side",
@@ -538,6 +742,12 @@
   "reason": "a side dish: served beside a main course in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "greek-lentil-soup": {
+  "role": "main",
+  "reason": "250 g of lentils for four, served with bread, olives and feta as the meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "greek-salad": {
   "role": "side",
@@ -575,6 +785,12 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "gungo-peas-soup": {
+  "role": "main",
+  "reason": "a thick soup of pigeon peas, 300 g of smoked ham hock, yam and pumpkin for six",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "gurkensalat": {
   "role": "side",
   "reason": "a side salad: vegetables without a main portion of protein",
@@ -605,11 +821,35 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "ham-and-bean-soup": {
+  "role": "main",
+  "reason": "450 g of beans and a smoked ham hock for six, served with cornbread as the meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "haricots-verts-amandine": {
   "role": "side",
   "reason": "a side dish: served beside a main course in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "himmel-und-erde": {
+  "role": "main",
+  "reason": "mashed potato and apple with 400 g of fried black pudding and onions for four",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "hodge-podge": {
+  "role": "side",
+  "reason": "new potatoes, carrots and beans in cream, with poached salmon or baked ham suggested alongside",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "hortopita": {
+  "role": "light",
+  "reason": "a filo pie of greens and feta for eight, served with a Greek salad: a light meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "hot-and-sour-potato": {
   "role": "side",
@@ -622,6 +862,12 @@
   "reason": "a side dish: served beside a main course in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "imam-bayildi": {
+  "role": "starter",
+  "reason": "stuffed aubergine served at room temperature with flatbread and yoghurt: a cold vegetable course rather than a hot main",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "instant-pot-baked-beans": {
   "role": "side",
@@ -640,6 +886,18 @@
   "reason": "a side dish: served beside a main course in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "instant-pot-chana-masala": {
+  "role": "main",
+  "reason": "200 g of dried chickpeas for four, served with bhatura or rice as the centre of the meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "instant-pot-minestrone": {
+  "role": "main",
+  "reason": "beans, pasta and vegetables for six with 18 g protein a serving, served with bread and parmesan as the meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "israeli-couscous-salad": {
   "role": "side",
@@ -665,6 +923,30 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "jamaican-fry-dumplings": {
+  "role": "bread",
+  "reason": "shallow-fried dough served with saltfish and ackee or for breakfast: a starch alongside other dishes",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "jamaican-pepper-pot-soup": {
+  "role": "main",
+  "reason": "a thick soup of 300 g of smoked ham hock, callaloo, yam and coconut milk for six",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "jamaican-red-pea-soup": {
+  "role": "main",
+  "reason": "250 g of kidney beans, 300 g of salted meat and dumplings in a soup for six",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "janssons-frestelse": {
+  "role": "side",
+  "reason": "a potato, onion and anchovy gratin in cream, with ham suggested alongside",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "jjajangmyeon": {
   "role": "main",
   "reason": "a main course: the dish is the centre of the meal in its own cuisine",
@@ -683,6 +965,18 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "kadhi-pakora": {
+  "role": "main",
+  "reason": "onion fritters in a yoghurt and gram flour curry for four, served with rice",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "kala-chana": {
+  "role": "main",
+  "reason": "250 g of black chickpeas for four, served with chapati or rice",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "kale-and-quinoa-salad": {
   "role": "side",
   "reason": "a side dish: served beside a main course in its own cuisine",
@@ -700,6 +994,18 @@
   "reason": "a noodle or rice soup eaten as a meal in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "karelian-pies": {
+  "role": "bread",
+  "reason": "thin rye pastry shells holding rice porridge, served with egg butter or soup: a savoury baked item rather than a dish",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "kaspressknodel": {
+  "role": "main",
+  "reason": "cheese and bread dumplings for four, served in broth or with salad",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "kaszanka": {
   "role": "main",
@@ -749,17 +1055,77 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "kolokithopita": {
+  "role": "light",
+  "reason": "a filo pie of courgette, feta and rice, served with a Greek salad and tzatziki: a light meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "kookoo-sibzamini": {
+  "role": "side",
+  "reason": "a potato and egg cake with 2 eggs for four, served with yoghurt, flatbread and pickles",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "krupnik": {
+  "role": "main",
+  "reason": "a barley soup with 300 g of smoked bacon or ham hock for six",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "kumara-coconut-curry": {
   "role": "main",
   "reason": "a main course: the dish is the centre of the meal in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "kuru-fasulye": {
+  "role": "main",
+  "reason": "960 g of white beans for six, served with rice and bread",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "lap-cheong-fried-rice": {
   "role": "main",
   "reason": "a main course: the dish is the centre of the meal in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "latkes": {
+  "role": "side",
+  "reason": "potato pancakes served with apple sauce or smoked salmon: an accompaniment or small plate",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "lecso": {
+  "role": "light",
+  "reason": "a pepper and tomato stew with 6 g protein a serving, served with bread or a fried egg on top: a light supper",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "lentil-dal": {
+  "role": "main",
+  "reason": "250 g of red lentils for four, served with rice or naan as the centre of the meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "loaded-baked-potato": {
+  "role": "light",
+  "reason": "a baked potato with bacon, cheese and soured cream, served with beans, coleslaw or salad: a light meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "loaded-sweet-potatoes": {
+  "role": "main",
+  "reason": "four sweet potatoes filled with 480 g of black beans, cheese and soured cream: beans and cheese in each serving make it a meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "lobio": {
+  "role": "main",
+  "reason": "400 g of kidney beans for six stewed and eaten with cornbread: the beans are the meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "lotus-root-stir-fry": {
   "role": "side",
@@ -778,6 +1144,12 @@
   "reason": "a main course: the dish is the centre of the meal in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "mahshi-cromb": {
+  "role": "main",
+  "reason": "cabbage leaves rolled round a rice and herb filling for six: a vegetarian stuffed dish served with tahini as the meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "malfatti": {
   "role": "main",
@@ -803,17 +1175,35 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "maryland-crab-soup": {
+  "role": "light",
+  "reason": "a tomato and vegetable soup with crab, served with crackers or cornbread: a light meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "mashed-swede": {
   "role": "side",
   "reason": "a side dish: served beside a main course in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "mchuzi-wa-maharage": {
+  "role": "main",
+  "reason": "720 g of kidney beans stewed for four, served with rice, chapati or ugali",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "mechouia-salad": {
   "role": "side",
   "reason": "a side salad: vegetables without a main portion of protein",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "metemgee": {
+  "role": "side",
+  "reason": "root vegetables, plantain and dumplings in coconut milk with no protein in the recipe; fried or salted fish is suggested alongside",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "migas-portuguesas": {
   "role": "side",
@@ -826,6 +1216,12 @@
   "reason": "a main course: the dish is the centre of the meal in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "minestrone-soup": {
+  "role": "main",
+  "reason": "a bean-and-vegetable soup for six with 18 g protein a serving, served with bread and cheese as the meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "miso-ramen": {
   "role": "main",
@@ -851,11 +1247,29 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "moi-moi": {
+  "role": "side",
+  "reason": "steamed bean pudding served with jollof rice, pap or stew",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "molokhia": {
+  "role": "main",
+  "reason": "a whole jointed chicken cooked in the stew and served over rice",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "mombar": {
   "role": "main",
   "reason": "a main course: the dish is the centre of the meal in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "moroccan-chickpea-soup": {
+  "role": "main",
+  "reason": "480 g of chickpeas for four, served with flatbread and yoghurt as the meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "mukimo": {
   "role": "side",
@@ -869,11 +1283,41 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "nasi-kuning": {
+  "role": "side",
+  "reason": "celebration rice for six, served with fried chicken, tempeh and sambal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "nasi-uduk": {
+  "role": "breakfast",
+  "reason": "coconut rice that the recipe describes as a Jakarta breakfast, served with fried shallots, egg and sambal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "nasu-dengaku": {
   "role": "side",
   "reason": "a side dish: served beside a main course in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "nepali-aloo-tama": {
+  "role": "main",
+  "reason": "a potato, bamboo shoot and bean curry for four, served over rice with pickle",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "noodle-kugel": {
+  "role": "side",
+  "reason": "a baked noodle pudding for ten, with roast chicken among the suggested pairings: served beside other dishes",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "oat-cakes": {
+  "role": "bread",
+  "reason": "oatcakes served with cheese, smoked salmon or jam: a baked accompaniment",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "oden": {
   "role": "main",
@@ -893,6 +1337,18 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "olivier-salad": {
+  "role": "side",
+  "reason": "a mayonnaise salad for eight served with rye bread and herring: a table salad beside other dishes",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "omelette-aux-fines-herbes": {
+  "role": "light",
+  "reason": "three eggs for two, served with salad and a baguette: a light meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "one-pot-beans-and-rice": {
   "role": "main",
   "reason": "a main course: the dish is the centre of the meal in its own cuisine",
@@ -904,6 +1360,12 @@
   "reason": "a main course: the dish is the centre of the meal in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "orzo-soup": {
+  "role": "light",
+  "reason": "orzo in chicken stock with vegetables and no meat in the recipe, served with bread and feta",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "orzo-with-feta": {
   "role": "light",
@@ -928,6 +1390,12 @@
   "reason": "a bread or savoury bake eaten as bread",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "pan-haggerty": {
+  "role": "light",
+  "reason": "potato, onion and cheese, served with cold ham or a salad: a light supper",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "panzanella": {
   "role": "side",
@@ -964,6 +1432,18 @@
   "reason": "a side salad: vegetables without a main portion of protein",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "peperoni-ripieni": {
+  "role": "side",
+  "reason": "peppers stuffed with breadcrumbs, olives and capers, with grilled fish suggested alongside",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "perogies-with-onions": {
+  "role": "main",
+  "reason": "500 g of filled dumplings for four, fried in butter with onions and served with sausage or sauerkraut",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "pesarattu": {
   "role": "breakfast",
@@ -1019,6 +1499,24 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "placinta-cu-branza": {
+  "role": "light",
+  "reason": "a cheese pie with 500 g of feta for eight, served with a cucumber salad or pickled peppers: a light meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "plantain-and-beans": {
+  "role": "main",
+  "reason": "960 g of black-eyed beans with plantain in one pot for four",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "polenta-with-mushrooms": {
+  "role": "main",
+  "reason": "polenta with parmesan topped with 500 g of mushrooms for four, served with a salad",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "pommes-anna": {
   "role": "side",
   "reason": "a side dish: served beside a main course in its own cuisine",
@@ -1043,6 +1541,12 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "pomodori-ripieni": {
+  "role": "side",
+  "reason": "tomatoes filled with rice and baked with potatoes, with grilled fish suggested alongside",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "pork-pie": {
   "role": "starter",
   "reason": "a snack or party food",
@@ -1060,6 +1564,12 @@
   "reason": "a main course: the dish is the centre of the meal in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "portobello-pizzas": {
+  "role": "light",
+  "reason": "four mushroom caps topped with mozzarella and vegetables, served with salad: a light meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "potato-kugel": {
   "role": "side",
@@ -1085,11 +1595,23 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "prebranac": {
+  "role": "main",
+  "reason": "400 g of dried white beans baked for six and served with bread and salad as the meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "protein-muffins": {
   "role": "breakfast",
   "reason": "eaten at breakfast",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "puerto-rican-pasteles": {
+  "role": "main",
+  "reason": "banana-and-plantain parcels filled with 600 g of pork for twelve, served with rice and pigeon peas",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "pumpkin-and-sage-pasta": {
   "role": "main",
@@ -1115,6 +1637,12 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "rakott-krumpli": {
+  "role": "main",
+  "reason": "potato, eggs, 250 g of smoked sausage and sour cream baked for six: described as a family supper",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "rava-dosa": {
   "role": "breakfast",
   "reason": "eaten at breakfast",
@@ -1127,11 +1655,29 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "red-red": {
+  "role": "main",
+  "reason": "300 g of black-eyed peas stewed for four and served with fried plantain",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "refried-beans": {
   "role": "side",
   "reason": "a side dish: served beside a main course in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "revithada": {
+  "role": "main",
+  "reason": "960 g of chickpeas baked for six, served with bread, salad and feta",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "romanian-bean-soup": {
+  "role": "main",
+  "reason": "960 g of tinned white beans for six, served with bread",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "rosol": {
   "role": "light",
@@ -1144,6 +1690,12 @@
   "reason": "a main course: the dish is the centre of the meal in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "roz-mermah": {
+  "role": "side",
+  "reason": "vermicelli rice described in the recipe as the starch that goes under everything else",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "salade-de-betteraves": {
   "role": "side",
@@ -1169,11 +1721,23 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "samoan-palusami": {
+  "role": "side",
+  "reason": "spinach baked in coconut cream, served with taro, rice, grilled fish or roast pork",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "santa-maria-tri-tip": {
   "role": "main",
   "reason": "a main course: the dish is the centre of the meal in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "sarde-a-beccafico": {
+  "role": "main",
+  "reason": "16 stuffed sardines for four, served with a salad and bread as the meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "sausage-stuffing": {
   "role": "side",
@@ -1186,6 +1750,12 @@
   "reason": "a bread or savoury bake eaten as bread",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "sayur-lodeh": {
+  "role": "side",
+  "reason": "a vegetable soup in coconut milk with no protein in the recipe; rice, tempeh and eggs are suggested alongside",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "scallion-oil-noodles": {
   "role": "light",
@@ -1205,11 +1775,35 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "seven-vegetable-couscous": {
+  "role": "main",
+  "reason": "800 g of chicken thighs and seven vegetables over couscous for six",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "sfiha-baalbakieh": {
+  "role": "main",
+  "reason": "small open meat pies on a yeast dough, 500 g of lamb for eight, served with yoghurt and pickles as the meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "shanghai-fried-noodles": {
   "role": "main",
   "reason": "a main course: the dish is the centre of the meal in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "shiro-wat": {
+  "role": "main",
+  "reason": "150 g of chickpea flour for four cooked into a spiced stew, served with injera as the meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "sindhi-kadhi": {
+  "role": "side",
+  "reason": "a thin gram flour gravy with vegetables and 5 g protein a serving, served over rice alongside other dishes",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "slovak-bryndzove-pirohy": {
   "role": "main",
@@ -1247,11 +1841,23 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "soupe-aux-choux": {
+  "role": "light",
+  "reason": "a cabbage, potato and bacon soup with 150 g of bacon for six, served with bread and Gruyère",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "spaetzle": {
   "role": "side",
   "reason": "a side dish: served beside a main course in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "spanakorizo": {
+  "role": "light",
+  "reason": "rice and spinach for four with feta, olives and bread suggested: a light meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "spargel-mit-hollandaise": {
   "role": "side",
@@ -1277,6 +1883,12 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "stamppot": {
+  "role": "main",
+  "reason": "mashed potato and kale with 400 g of smoked sausage laid across, for four",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "steak-frites": {
   "role": "main",
   "reason": "a main course: the dish is the centre of the meal in its own cuisine",
@@ -1295,11 +1907,41 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "stuffed-acorn-squash": {
+  "role": "main",
+  "reason": "squash halves filled with quinoa, cranberries and pecans: the recipe calls it an autumn dinner",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "stuffed-butternut-squash": {
+  "role": "main",
+  "reason": "squash halves filled with quinoa, feta and pecans, served with salad, bread and wine: a vegetarian dinner",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "stuffed-peppers": {
+  "role": "main",
+  "reason": "six stuffed peppers with rice, feta and pine nuts, served with salad and flatbread as a vegetarian meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "stuffed-pork-chops": {
   "role": "main",
   "reason": "a main course: the dish is the centre of the meal in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "stuffed-portobello-mushrooms": {
+  "role": "light",
+  "reason": "four mushroom caps with ricotta and mozzarella, served with a salad or broccoli: a light meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "stuffed-sweet-potatoes": {
+  "role": "light",
+  "reason": "one sweet potato a person with 60 g of black beans each and spinach, served with salad or avocado: a light meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "stuffing": {
   "role": "side",
@@ -1325,6 +1967,12 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "tarka-dal": {
+  "role": "main",
+  "reason": "250 g of red lentils for four, served with rice or flatbread as the centre of the meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "telur-sambal": {
   "role": "main",
   "reason": "a main course: the dish is the centre of the meal in its own cuisine",
@@ -1336,6 +1984,12 @@
   "reason": "a main course: the dish is the centre of the meal in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "thai-peanut-noodles": {
+  "role": "light",
+  "reason": "rice noodles in a peanut sauce with vegetables and no protein in the recipe, with grilled chicken or prawns suggested separately",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "tian-provencal": {
   "role": "side",
@@ -1361,11 +2015,23 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "torly": {
+  "role": "main",
+  "reason": "a vegetarian dish of roasted vegetables in tomato sauce for six, served with bread or rice as the meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "tortang-talong": {
   "role": "main",
   "reason": "a main course: the dish is the centre of the meal in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "tteokbokki": {
+  "role": "light",
+  "reason": "rice cakes in a chilli sauce for two, with fried mandu or kimbap suggested alongside: a snack-sized dish, not a plated main",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "tuna-stuffed-tomatoes": {
   "role": "light",
@@ -1385,11 +2051,29 @@
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
  },
+ "udon-noodles": {
+  "role": "main",
+  "reason": "400 g of udon with a fried egg for two, served with a cucumber salad or edamame",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "ugali-sukuma": {
+  "role": "side",
+  "reason": "maize meal and greens whose suggested pairings are grilled meat, a meat stew or beans: the starch and greens that go beside the main",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
  "unagi-don": {
   "role": "main",
   "reason": "a main course: the dish is the centre of the meal in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "undhiyu": {
+  "role": "side",
+  "reason": "a mixed vegetable dish with no pulses or meat, served with puri, rice and dal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "uttapam": {
   "role": "breakfast",
@@ -1402,6 +2086,18 @@
   "reason": "a main course: the dish is the centre of the meal in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "veg-kolhapuri": {
+  "role": "main",
+  "reason": "a vegetable curry for four served with bread or rice as the centre of the meal",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
+ },
+ "vegemite-scrolls": {
+  "role": "bread",
+  "reason": "scone-dough scrolls served with soup, butter or tea: a savoury baked item",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "vietnamese-noodle-salad": {
   "role": "light",
@@ -1456,6 +2152,12 @@
   "reason": "a main course: the dish is the centre of the meal in its own cuisine",
   "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
   "date": "2026-10-27"
+ },
+ "zlikrofi": {
+  "role": "main",
+  "reason": "filled dumplings for six, served with a meat sauce or sage butter",
+  "reviewedBy": "editorial reading of the recipe text (Claude), not a cooking test",
+  "date": "2026-10-28"
  },
  "zucchini-noodles-with-pesto": {
   "role": "side",

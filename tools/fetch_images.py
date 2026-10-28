@@ -29,7 +29,7 @@ from PIL import Image, ImageFilter
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 IMG_DIR = os.path.join(ROOT, "src", "assets", "img", "recipes")
 MANIFEST = os.path.join(ROOT, "src", "data", "images.json")
-UA = "Weekly DelightBot/1.0 (static recipe site build; contact: hello@culinaryvault.example)"
+UA = "WeeklyDelightBot/1.0 (https://weeklydelight.com/contact/; static recipe site image pipeline)"
 
 HERO_W, PROCESS_W = 800, 640
 # Seconds a single recipe may spend searching before the remaining attempts are
@@ -341,8 +341,10 @@ def http_json(url, tries=10, headers=None):
     return None
 
 
-DOWNLOAD_UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-               "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
+# Files are fetched under the same honest, contactable agent as the searches. A browser-like
+# string was used here before; Wikimedia refuses it as non-compliant with its robot policy
+# (HTTP 429, "does not comply"), while the identified agent is served normally.
+DOWNLOAD_UA = UA
 
 
 # Every candidate for a dish sits on the same file server, so "try the next
@@ -376,10 +378,9 @@ def http_bytes(url, tries=3, patient=True):
     _require_http(url)
     for i in range(tries):
         try:
-            req = urllib.request.Request(url, headers={
-                "User-Agent": DOWNLOAD_UA,
-                "Accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
-            })
+            # No Accept header: Wikimedia answers a bot agent that sends a browser's Accept list
+            # with 429 "does not comply with our robot policy", and serves the same request without it.
+            req = urllib.request.Request(url, headers={"User-Agent": DOWNLOAD_UA})
             with urllib.request.urlopen(req, timeout=90) as r:
                 data = r.read()
             # A download that goes through says as much about the budget as a
