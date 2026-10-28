@@ -2,641 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://weeklydelight.com/recipes/honey-sriracha-wings/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/honey-sriracha-wings.jpg</image:loc>
-      <image:title>Honey Sriracha Wings</image:title>
-      <image:caption>Honey Sriracha Wings</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/jacket-potato-with-cheese/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/jacket-potato-with-cheese.jpg</image:loc>
-      <image:title>Jacket Potato with Cheese</image:title>
-      <image:caption>Jacket Potato with Cheese</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/lamb-saag/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/lamb-saag.jpg</image:loc>
-      <image:title>Lamb Saag</image:title>
-      <image:caption>Lamb Saag</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/lemon-garlic-roast-chicken-thighs/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-garlic-roast-chicken-thighs.jpg</image:loc>
-      <image:title>Lemon Garlic Roast Chicken Thighs</image:title>
-      <image:caption>Lemon Garlic Roast Chicken Thighs</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/lemon-herb-cod/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/linguine-with-clams/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/linguine-with-clams.jpg</image:loc>
-      <image:title>Linguine with Clams</image:title>
-      <image:caption>Linguine with Clams</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/minted-peas/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/minted-peas.jpg</image:loc>
-      <image:title>Minted Peas</image:title>
-      <image:caption>Minted Peas</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/mornay-sauce/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/mornay-sauce.jpg</image:loc>
-      <image:title>Mornay Sauce</image:title>
-      <image:caption>Mornay Sauce</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/mussels-with-chorizo/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/mussels-with-chorizo.jpg</image:loc>
-      <image:title>Mussels with Chorizo</image:title>
-      <image:caption>Mussels with Chorizo</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/one-pot-beef-and-rice/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/oven-fried-chicken/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/oven-fried-chicken.jpg</image:loc>
-      <image:title>Oven Fried Chicken</image:title>
-      <image:caption>Oven Fried Chicken</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/parmesan-crusted-cod/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/parmesan-crusted-cod.jpg</image:loc>
-      <image:title>Parmesan Crusted Cod</image:title>
-      <image:caption>Parmesan Crusted Cod</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/parmesan-roasted-carrots/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/pecan-crusted-salmon/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/pecan-crusted-salmon.jpg</image:loc>
-      <image:title>Pecan Crusted Salmon</image:title>
-      <image:caption>Pecan Crusted Salmon</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/perogies-with-onions/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/perogies-with-onions.jpg</image:loc>
-      <image:title>Perogies with Onions</image:title>
-      <image:caption>Perogies with Onions</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/philly-chicken-sandwich/</loc>
-    <lastmod>2026-10-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/philly-chicken-sandwich.jpg</image:loc>
-      <image:title>Philly Chicken Sandwich</image:title>
-      <image:caption>Philly Chicken Sandwich</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/piri-piri-prawns/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/piri-piri-prawns.jpg</image:loc>
-      <image:title>Piri Piri Prawns</image:title>
-      <image:caption>Piri Piri Prawns</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/ploughmans-sandwich/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/ploughmans-sandwich.jpg</image:loc>
-      <image:title>Ploughmans Sandwich</image:title>
-      <image:caption>Ploughmans Sandwich</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/po-boy-sandwich/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/po-boy-sandwich.jpg</image:loc>
-      <image:title>Po Boy Sandwich</image:title>
-      <image:caption>Po Boy Sandwich</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/pork-adobo/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/pork-adobo.jpg</image:loc>
-      <image:title>Pork Adobo</image:title>
-      <image:caption>Pork Adobo</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/pork-ribs-in-the-oven/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/pork-ribs-in-the-oven.jpg</image:loc>
-      <image:title>Pork Ribs in the Oven</image:title>
-      <image:caption>Pork Ribs in the Oven</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/pork-souvlaki/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/pork-souvlaki.jpg</image:loc>
-      <image:title>Pork Souvlaki</image:title>
-      <image:caption>Pork Souvlaki</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/pork-and-apple-casserole/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/potato-kugel/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/potato-kugel.jpg</image:loc>
-      <image:title>Potato Kugel</image:title>
-      <image:caption>Potato Kugel</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/noodle-kugel/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/noodle-kugel.jpg</image:loc>
-      <image:title>Noodle Kugel</image:title>
-      <image:caption>Noodle Kugel</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/prawn-laksa/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/prawn-laksa.jpg</image:loc>
-      <image:title>Prawn Laksa</image:title>
-      <image:caption>Prawn Laksa</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/prawn-pasta/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/prawn-pasta.jpg</image:loc>
-      <image:title>Prawn Pasta</image:title>
-      <image:caption>Prawn Pasta</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/pumpkin-and-sage-pasta/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/pumpkin-and-sage-pasta.jpg</image:loc>
-      <image:title>Pumpkin and Sage Pasta</image:title>
-      <image:caption>Pumpkin and Sage Pasta</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/ranch-chicken-wraps/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/ranch-chicken-wraps.jpg</image:loc>
-      <image:title>Ranch Chicken Wraps</image:title>
-      <image:caption>Ranch Chicken Wraps</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/red-wine-gravy/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/red-wine-gravy.jpg</image:loc>
-      <image:title>Red Wine Gravy</image:title>
-      <image:caption>Red Wine Gravy</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/rice-pilaf/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/rice-pilaf.jpg</image:loc>
-      <image:title>Rice Pilaf</image:title>
-      <image:caption>Rice Pilaf</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/romesco-sauce/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/romesco-sauce.jpg</image:loc>
-      <image:title>Romesco Sauce</image:title>
-      <image:caption>Romesco Sauce</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/salmon-fillet-with-dill-sauce/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/salmon-fillet-with-dill-sauce.jpg</image:loc>
-      <image:title>Salmon Fillet with Dill Sauce</image:title>
-      <image:caption>Salmon Fillet with Dill Sauce</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/sausage-and-cheese-pasta/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/sausage-and-cheese-pasta.jpg</image:loc>
-      <image:title>Sausage and Cheese Pasta</image:title>
-      <image:caption>Sausage and Cheese Pasta</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/scallops-with-pea-puree/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/scallops-with-pea-puree.jpg</image:loc>
-      <image:title>Scallops with Pea Puree</image:title>
-      <image:caption>Scallops with Pea Puree</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/seafood-stew/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/seafood-stew.jpg</image:loc>
-      <image:title>Seafood Stew</image:title>
-      <image:caption>Seafood Stew</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/steak-fried-rice/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/steak-fried-rice.jpg</image:loc>
-      <image:title>Steak Fried Rice</image:title>
-      <image:caption>Steak Fried Rice</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/steak-tacos/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/steak-tacos.jpg</image:loc>
-      <image:title>Steak Tacos</image:title>
-      <image:caption>Steak Tacos</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/sticky-chicken-wings/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/sticky-chicken-wings.jpg</image:loc>
-      <image:title>Sticky Chicken Wings</image:title>
-      <image:caption>Sticky Chicken Wings</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/sun-dried-tomato-pesto/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/sun-dried-tomato-pesto.jpg</image:loc>
-      <image:title>Sun Dried Tomato Pesto</image:title>
-      <image:caption>Sun Dried Tomato Pesto</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/sriracha-mayo/</loc>
-    <lastmod>2026-10-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/sriracha-mayo.jpg</image:loc>
-      <image:title>Sriracha Mayo</image:title>
-      <image:caption>Sriracha Mayo</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/chipotle-mayo/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/lemon-vinaigrette/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-vinaigrette.jpg</image:loc>
-      <image:title>Lemon Vinaigrette</image:title>
-      <image:caption>Lemon Vinaigrette</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/sweet-potato-mash/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/sweet-potato-mash.jpg</image:loc>
-      <image:title>Sweet Potato Mash</image:title>
-      <image:caption>Sweet Potato Mash</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/teriyaki-meatballs/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/teriyaki-meatballs.jpg</image:loc>
-      <image:title>Teriyaki Meatballs</image:title>
-      <image:caption>Teriyaki Meatballs</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/texas-chili/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/texas-chili.jpg</image:loc>
-      <image:title>Texas Chili</image:title>
-      <image:caption>Texas Chili</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/thai-peanut-noodles/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/thai-peanut-noodles.jpg</image:loc>
-      <image:title>Thai Peanut Noodles</image:title>
-      <image:caption>Thai Peanut Noodles</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/tuna-fishcakes/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/tuna-fishcakes.jpg</image:loc>
-      <image:title>Tuna Fishcakes</image:title>
-      <image:caption>Tuna Fishcakes</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/turkey-pot-pie/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/turkey-pot-pie.jpg</image:loc>
-      <image:title>Turkey Pot Pie</image:title>
-      <image:caption>Turkey Pot Pie</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/turkey-club-wrap/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/turkey-club-wrap.jpg</image:loc>
-      <image:title>Turkey Club Wrap</image:title>
-      <image:caption>Turkey Club Wrap</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/veggie-pasta-bake/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/veggie-pasta-bake.jpg</image:loc>
-      <image:title>Veggie Pasta Bake</image:title>
-      <image:caption>Veggie Pasta Bake</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/soy-sauce-eggs/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/soy-sauce-eggs.jpg</image:loc>
-      <image:title>Soy Sauce Eggs</image:title>
-      <image:caption>Soy Sauce Eggs</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/arroz-caldo/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/arroz-caldo.jpg</image:loc>
-      <image:title>Arroz Caldo</image:title>
-      <image:caption>Arroz Caldo</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/black-eyed-peas-with-ham/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/black-eyed-peas-with-ham.jpg</image:loc>
-      <image:title>Black Eyed Peas with Ham</image:title>
-      <image:caption>Black Eyed Peas with Ham</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/meatball-pasta-bake/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/meatball-pasta-bake.jpg</image:loc>
-      <image:title>Meatball Pasta Bake</image:title>
-      <image:caption>Meatball Pasta Bake</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/lemon-pepper-salmon/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-pepper-salmon.jpg</image:loc>
-      <image:title>Lemon Pepper Salmon</image:title>
-      <image:caption>Lemon Pepper Salmon</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/brisket-with-onions/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/brisket-with-onions.jpg</image:loc>
-      <image:title>Brisket with Onions</image:title>
-      <image:caption>Brisket with Onions</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/cumberland-sausage-ring/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/cumberland-sausage-ring.jpg</image:loc>
-      <image:title>Cumberland Sausage Ring</image:title>
-      <image:caption>Cumberland Sausage Ring</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/chicken-parmesan-sliders/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-parmesan-sliders.jpg</image:loc>
-      <image:title>Chicken Parmesan Sliders</image:title>
-      <image:caption>Chicken Parmesan Sliders</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/chicken-caesar-pasta-salad/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-caesar-pasta-salad.jpg</image:loc>
-      <image:title>Chicken Caesar Pasta Salad</image:title>
-      <image:caption>Chicken Caesar Pasta Salad</image:caption>
-    </image:image>
-  </url>
-  <url>
     <loc>https://weeklydelight.com/recipes/chicken-tikka-wraps/</loc>
     <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
@@ -5174,6 +4539,754 @@
       <image:loc>https://weeklydelight.com/assets/img/recipes/papdi-chaat.jpg</image:loc>
       <image:title>Papdi Chaat</image:title>
       <image:caption>Papdi Chaat</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/moong-dal-kachori/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/moong-dal-kachori.jpg</image:loc>
+      <image:title>Moong Dal Kachori</image:title>
+      <image:caption>Moong Dal Kachori</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/khandvi/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/khandvi.jpg</image:loc>
+      <image:title>Khandvi</image:title>
+      <image:caption>Khandvi</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/methi-thepla/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/methi-thepla.jpg</image:loc>
+      <image:title>Methi Thepla</image:title>
+      <image:caption>Methi Thepla</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/undhiyu/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/undhiyu.jpg</image:loc>
+      <image:title>Undhiyu</image:title>
+      <image:caption>Undhiyu</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/handvo/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/handvo.jpg</image:loc>
+      <image:title>Handvo</image:title>
+      <image:caption>Handvo</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/rava-dosa/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/rava-dosa.jpg</image:loc>
+      <image:title>Rava Dosa</image:title>
+      <image:caption>Rava Dosa</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/avial/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/avial.jpg</image:loc>
+      <image:title>Avial</image:title>
+      <image:caption>Avial</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/kerala-parotta/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kerala-parotta.jpg</image:loc>
+      <image:title>Kerala Parotta</image:title>
+      <image:caption>Kerala Parotta</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/kerala-appam/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kerala-appam.jpg</image:loc>
+      <image:title>Kerala Appam</image:title>
+      <image:caption>Kerala Appam</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/kerala-puttu/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kerala-puttu.jpg</image:loc>
+      <image:title>Kerala Puttu</image:title>
+      <image:caption>Kerala Puttu</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/idiyappam/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/idiyappam.jpg</image:loc>
+      <image:title>Idiyappam</image:title>
+      <image:caption>Idiyappam</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/kerala-prawn-roast/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kerala-prawn-roast.jpg</image:loc>
+      <image:title>Kerala Prawn Roast</image:title>
+      <image:caption>Kerala Prawn Roast</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/raw-mango-curry/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/raw-mango-curry.jpg</image:loc>
+      <image:title>Raw Mango Curry</image:title>
+      <image:caption>Raw Mango Curry</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/mint-chutney/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mint-chutney.jpg</image:loc>
+      <image:title>Mint Chutney</image:title>
+      <image:caption>Mint Chutney</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/tamarind-chutney/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tamarind-chutney.jpg</image:loc>
+      <image:title>Tamarind Chutney</image:title>
+      <image:caption>Tamarind Chutney</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/boondi-raita/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/boondi-raita.jpg</image:loc>
+      <image:title>Boondi Raita</image:title>
+      <image:caption>Boondi Raita</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/milk-barfi/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/milk-barfi.jpg</image:loc>
+      <image:title>Milk Barfi</image:title>
+      <image:caption>Milk Barfi</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/bengali-sandesh/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bengali-sandesh.jpg</image:loc>
+      <image:title>Bengali Sandesh</image:title>
+      <image:caption>Bengali Sandesh</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/rava-kesari/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/rava-kesari.jpg</image:loc>
+      <image:title>Rava Kesari</image:title>
+      <image:caption>Rava Kesari</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/kashmiri-chai/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kashmiri-chai.jpg</image:loc>
+      <image:title>Kashmiri Chai</image:title>
+      <image:caption>Kashmiri Chai</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/sol-kadhi/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sol-kadhi.jpg</image:loc>
+      <image:title>Sol Kadhi</image:title>
+      <image:caption>Sol Kadhi</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/badam-milk/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/badam-milk.jpg</image:loc>
+      <image:title>Badam Milk</image:title>
+      <image:caption>Badam Milk</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/tender-coconut-pudding/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tender-coconut-pudding.jpg</image:loc>
+      <image:title>Tender Coconut Pudding</image:title>
+      <image:caption>Tender Coconut Pudding</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/slow-cooker-chicken-tikka-masala/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/slow-cooker-chicken-tikka-masala.jpg</image:loc>
+      <image:title>Slow Cooker Chicken Tikka Masala</image:title>
+      <image:caption>Slow Cooker Chicken Tikka Masala</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/instant-pot-butter-chicken/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-butter-chicken.jpg</image:loc>
+      <image:title>Instant Pot Butter Chicken</image:title>
+      <image:caption>Instant Pot Butter Chicken</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/instant-pot-dal/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-dal.jpg</image:loc>
+      <image:title>Instant Pot Dal</image:title>
+      <image:caption>Instant Pot Dal</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/instant-pot-chana-masala/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-chana-masala.jpg</image:loc>
+      <image:title>Instant Pot Chana Masala</image:title>
+      <image:caption>Instant Pot Chana Masala</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/sheet-pan-chicken-tikka/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sheet-pan-chicken-tikka.jpg</image:loc>
+      <image:title>Sheet Pan Chicken Tikka</image:title>
+      <image:caption>Sheet Pan Chicken Tikka</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/lime-pickle/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lime-pickle.jpg</image:loc>
+      <image:title>Lime Pickle</image:title>
+      <image:caption>Lime Pickle</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/mango-pickle/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mango-pickle.jpg</image:loc>
+      <image:title>Mango Pickle</image:title>
+      <image:caption>Mango Pickle</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/aam-ras/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/aam-ras.jpg</image:loc>
+      <image:title>Aam Ras</image:title>
+      <image:caption>Aam Ras</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/pesarattu/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pesarattu.jpg</image:loc>
+      <image:title>Pesarattu</image:title>
+      <image:caption>Pesarattu</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/kootu/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kootu.jpg</image:loc>
+      <image:title>Kootu</image:title>
+      <image:caption>Kootu</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/thoran/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/thoran.jpg</image:loc>
+      <image:title>Thoran</image:title>
+      <image:caption>Thoran</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/olan/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/olan.jpg</image:loc>
+      <image:title>Olan</image:title>
+      <image:caption>Olan</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/erissery/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/erissery.jpg</image:loc>
+      <image:title>Erissery</image:title>
+      <image:caption>Erissery</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/meen-pollichathu/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/meen-pollichathu.jpg</image:loc>
+      <image:title>Meen Pollichathu</image:title>
+      <image:caption>Meen Pollichathu</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/baingan-masala/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/baingan-masala.jpg</image:loc>
+      <image:title>Baingan Masala</image:title>
+      <image:caption>Baingan Masala</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/bharwa-baingan/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bharwa-baingan.jpg</image:loc>
+      <image:title>Bharwa Baingan</image:title>
+      <image:caption>Bharwa Baingan</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/bhindi-fry/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bhindi-fry.jpg</image:loc>
+      <image:title>Bhindi Fry</image:title>
+      <image:caption>Bhindi Fry</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/paneer-paratha/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/paneer-paratha.jpg</image:loc>
+      <image:title>Paneer Paratha</image:title>
+      <image:caption>Paneer Paratha</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/methi-paratha/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/methi-paratha.jpg</image:loc>
+      <image:title>Methi Paratha</image:title>
+      <image:caption>Methi Paratha</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/lachha-paratha/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lachha-paratha.jpg</image:loc>
+      <image:title>Lachha Paratha</image:title>
+      <image:caption>Lachha Paratha</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/makki-di-roti/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/makki-di-roti.jpg</image:loc>
+      <image:title>Makki di Roti</image:title>
+      <image:caption>Makki di Roti</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/sindhi-kadhi/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sindhi-kadhi.jpg</image:loc>
+      <image:title>Sindhi Kadhi</image:title>
+      <image:caption>Sindhi Kadhi</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/gatte-ki-sabzi/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gatte-ki-sabzi.jpg</image:loc>
+      <image:title>Gatte ki Sabzi</image:title>
+      <image:caption>Gatte ki Sabzi</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/laal-maas/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/laal-maas.jpg</image:loc>
+      <image:title>Laal Maas</image:title>
+      <image:caption>Laal Maas</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/pyaaz-kachori/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pyaaz-kachori.jpg</image:loc>
+      <image:title>Pyaaz Kachori</image:title>
+      <image:caption>Pyaaz Kachori</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/mirchi-vada/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mirchi-vada.jpg</image:loc>
+      <image:title>Mirchi Vada</image:title>
+      <image:caption>Mirchi Vada</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/rabri/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/rabri.jpg</image:loc>
+      <image:title>Rabri</image:title>
+      <image:caption>Rabri</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/moong-dal-halwa/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/moong-dal-halwa.jpg</image:loc>
+      <image:title>Moong Dal Halwa</image:title>
+      <image:caption>Moong Dal Halwa</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/motichoor-ladoo/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/motichoor-ladoo.jpg</image:loc>
+      <image:title>Motichoor Ladoo</image:title>
+      <image:caption>Motichoor Ladoo</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/coconut-ladoo/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/coconut-ladoo.jpg</image:loc>
+      <image:title>Coconut Ladoo</image:title>
+      <image:caption>Coconut Ladoo</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/basundi/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/basundi.jpg</image:loc>
+      <image:title>Basundi</image:title>
+      <image:caption>Basundi</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/puran-poli/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/puran-poli.jpg</image:loc>
+      <image:title>Puran Poli</image:title>
+      <image:caption>Puran Poli</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/modak/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/modak.jpg</image:loc>
+      <image:title>Modak</image:title>
+      <image:caption>Modak</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/chakli/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chakli.jpg</image:loc>
+      <image:title>Chakli</image:title>
+      <image:caption>Chakli</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/murukku/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/murukku.jpg</image:loc>
+      <image:title>Murukku</image:title>
+      <image:caption>Murukku</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/lemon-tahini-dressing/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-tahini-dressing.jpg</image:loc>
+      <image:title>Lemon Tahini Dressing</image:title>
+      <image:caption>Lemon Tahini Dressing</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/sesame-ginger-dressing/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sesame-ginger-dressing.jpg</image:loc>
+      <image:title>Sesame Ginger Dressing</image:title>
+      <image:caption>Sesame Ginger Dressing</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/miso-dressing/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/miso-dressing.jpg</image:loc>
+      <image:title>Miso Dressing</image:title>
+      <image:caption>Miso Dressing</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/lamb-karahi/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lamb-karahi.jpg</image:loc>
+      <image:title>Lamb Karahi</image:title>
+      <image:caption>Lamb Karahi</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/hong-kong-chow-mein/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/hong-kong-chow-mein.jpg</image:loc>
+      <image:title>Hong Kong Chow Mein</image:title>
+      <image:caption>Hong Kong Chow Mein</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/salt-and-pepper-chicken-wings/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/salt-and-pepper-chicken-wings.jpg</image:loc>
+      <image:title>Salt and Pepper Chicken Wings</image:title>
+      <image:caption>Salt and Pepper Chicken Wings</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/sweet-and-sour-prawns/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sweet-and-sour-prawns.jpg</image:loc>
+      <image:title>Sweet and Sour Prawns</image:title>
+      <image:caption>Sweet and Sour Prawns</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/honey-chilli-chicken/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/honey-chilli-chicken.jpg</image:loc>
+      <image:title>Honey Chilli Chicken</image:title>
+      <image:caption>Honey Chilli Chicken</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/beef-in-oyster-sauce/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/beef-in-oyster-sauce.jpg</image:loc>
+      <image:title>Beef in Oyster Sauce</image:title>
+      <image:caption>Beef in Oyster Sauce</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/steamed-chicken-with-mushrooms/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/steamed-chicken-with-mushrooms.jpg</image:loc>
+      <image:title>Steamed Chicken with Mushrooms</image:title>
+      <image:caption>Steamed Chicken with Mushrooms</image:caption>
     </image:image>
   </url>
 </urlset>

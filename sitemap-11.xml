@@ -2,822 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-beef-bourguignon/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-beef-bourguignon.jpg</image:loc>
-      <image:title>Instant Pot Beef Bourguignon</image:title>
-      <image:caption>Instant Pot Beef Bourguignon</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-beef-brisket/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-beef-brisket.jpg</image:loc>
-      <image:title>Instant Pot Beef Brisket</image:title>
-      <image:caption>Instant Pot Beef Brisket</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-beef-curry/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-beef-curry.jpg</image:loc>
-      <image:title>Instant Pot Beef Curry</image:title>
-      <image:caption>Instant Pot Beef Curry</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-beef-stroganoff/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-beef-stroganoff.jpg</image:loc>
-      <image:title>Instant Pot Beef Stroganoff</image:title>
-      <image:caption>Instant Pot Beef Stroganoff</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-beef-and-broccoli/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-beef-and-broccoli.jpg</image:loc>
-      <image:title>Instant Pot Beef and Broccoli</image:title>
-      <image:caption>Instant Pot Beef and Broccoli</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-biryani/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-biryani.jpg</image:loc>
-      <image:title>Instant Pot Biryani</image:title>
-      <image:caption>Instant Pot Biryani</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-cabbage-rolls/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-cabbage-rolls.jpg</image:loc>
-      <image:title>Instant Pot Cabbage Rolls</image:title>
-      <image:caption>Instant Pot Cabbage Rolls</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-carnitas/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-carnitas.jpg</image:loc>
-      <image:title>Instant Pot Carnitas</image:title>
-      <image:caption>Instant Pot Carnitas</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-chicken-adobo/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-chicken-adobo.jpg</image:loc>
-      <image:title>Instant Pot Chicken Adobo</image:title>
-      <image:caption>Instant Pot Chicken Adobo</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-chicken-cacciatore/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-chicken-cacciatore.jpg</image:loc>
-      <image:title>Instant Pot Chicken Cacciatore</image:title>
-      <image:caption>Instant Pot Chicken Cacciatore</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-chicken-fajitas/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-chicken-fajitas.jpg</image:loc>
-      <image:title>Instant Pot Chicken Fajitas</image:title>
-      <image:caption>Instant Pot Chicken Fajitas</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-chicken-tikka-masala/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-chicken-tikka-masala.jpg</image:loc>
-      <image:title>Instant Pot Chicken Tikka Masala</image:title>
-      <image:caption>Instant Pot Chicken Tikka Masala</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-corned-beef-and-cabbage/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-corned-beef-and-cabbage.jpg</image:loc>
-      <image:title>Instant Pot Corned Beef and Cabbage</image:title>
-      <image:caption>Instant Pot Corned Beef and Cabbage</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-fajita-pasta/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-general-tso-chicken/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-general-tso-chicken.jpg</image:loc>
-      <image:title>Instant Pot General Tso Chicken</image:title>
-      <image:caption>Instant Pot General Tso Chicken</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-goulash/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-goulash.jpg</image:loc>
-      <image:title>Instant Pot Goulash</image:title>
-      <image:caption>Instant Pot Goulash</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-gumbo/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-gumbo.jpg</image:loc>
-      <image:title>Instant Pot Gumbo</image:title>
-      <image:caption>Instant Pot Gumbo</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-korean-beef/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-korean-beef.jpg</image:loc>
-      <image:title>Instant Pot Korean Beef</image:title>
-      <image:caption>Instant Pot Korean Beef</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-lamb-shanks/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-lamb-shanks.jpg</image:loc>
-      <image:title>Instant Pot Lamb Shanks</image:title>
-      <image:caption>Instant Pot Lamb Shanks</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-meatballs/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-meatballs.jpg</image:loc>
-      <image:title>Instant Pot Meatballs</image:title>
-      <image:caption>Instant Pot Meatballs</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-minestrone/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-minestrone.jpg</image:loc>
-      <image:title>Instant Pot Minestrone</image:title>
-      <image:caption>Instant Pot Minestrone</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-mongolian-beef/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-mongolian-beef.jpg</image:loc>
-      <image:title>Instant Pot Mongolian Beef</image:title>
-      <image:caption>Instant Pot Mongolian Beef</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-orange-chicken/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-orange-chicken.jpg</image:loc>
-      <image:title>Instant Pot Orange Chicken</image:title>
-      <image:caption>Instant Pot Orange Chicken</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-osso-buco/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-osso-buco.jpg</image:loc>
-      <image:title>Instant Pot Osso Buco</image:title>
-      <image:caption>Instant Pot Osso Buco</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-pad-thai/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-pad-thai.jpg</image:loc>
-      <image:title>Instant Pot Pad Thai</image:title>
-      <image:caption>Instant Pot Pad Thai</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-pho/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-pho.jpg</image:loc>
-      <image:title>Instant Pot Pho</image:title>
-      <image:caption>Instant Pot Pho</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-ramen/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-ramen.jpg</image:loc>
-      <image:title>Instant Pot Ramen</image:title>
-      <image:caption>Instant Pot Ramen</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-salmon/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-salmon.jpg</image:loc>
-      <image:title>Instant Pot Salmon</image:title>
-      <image:caption>Instant Pot Salmon</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-shrimp-scampi/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-shrimp-scampi.jpg</image:loc>
-      <image:title>Instant Pot Shrimp Scampi</image:title>
-      <image:caption>Instant Pot Shrimp Scampi</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-stuffed-peppers/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-stuffed-peppers.jpg</image:loc>
-      <image:title>Instant Pot Stuffed Peppers</image:title>
-      <image:caption>Instant Pot Stuffed Peppers</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-taco-soup/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-taco-soup.jpg</image:loc>
-      <image:title>Instant Pot Taco Soup</image:title>
-      <image:caption>Instant Pot Taco Soup</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-teriyaki-chicken/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-teriyaki-chicken.jpg</image:loc>
-      <image:title>Instant Pot Teriyaki Chicken</image:title>
-      <image:caption>Instant Pot Teriyaki Chicken</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-white-chicken-chili/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-white-chicken-chili.jpg</image:loc>
-      <image:title>Instant Pot White Chicken Chili</image:title>
-      <image:caption>Instant Pot White Chicken Chili</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/instant-pot-whole-chicken/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-whole-chicken.jpg</image:loc>
-      <image:title>Instant Pot Whole Chicken</image:title>
-      <image:caption>Instant Pot Whole Chicken</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/baked-chicken-legs/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/baked-chicken-legs.jpg</image:loc>
-      <image:title>Baked Chicken Legs</image:title>
-      <image:caption>Baked Chicken Legs</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/baked-halibut/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/baked-halibut.jpg</image:loc>
-      <image:title>Baked Halibut</image:title>
-      <image:caption>Baked Halibut</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/baked-penne/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/baked-penne.jpg</image:loc>
-      <image:title>Baked Penne</image:title>
-      <image:caption>Baked Penne</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/baked-pork-chops/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/baked-pork-chops.jpg</image:loc>
-      <image:title>Baked Pork Chops</image:title>
-      <image:caption>Baked Pork Chops</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/baked-rigatoni/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/baked-rigatoni.jpg</image:loc>
-      <image:title>Baked Rigatoni</image:title>
-      <image:caption>Baked Rigatoni</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/baked-sea-bass/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/baked-sea-bass.jpg</image:loc>
-      <image:title>Baked Sea Bass</image:title>
-      <image:caption>Baked Sea Bass</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/baked-trout/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/baked-trout.jpg</image:loc>
-      <image:title>Baked Trout</image:title>
-      <image:caption>Baked Trout</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/battered-fish/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/battered-fish.jpg</image:loc>
-      <image:title>Battered Fish</image:title>
-      <image:caption>Battered Fish</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/beef-casserole/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/beef-casserole.jpg</image:loc>
-      <image:title>Beef Casserole</image:title>
-      <image:caption>Beef Casserole</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/beef-nachos/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/beef-nachos.jpg</image:loc>
-      <image:title>Beef Nachos</image:title>
-      <image:caption>Beef Nachos</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/beef-ramen/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/beef-ramen.jpg</image:loc>
-      <image:title>Beef Ramen</image:title>
-      <image:caption>Beef Ramen</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/blackened-shrimp/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/blackened-shrimp.jpg</image:loc>
-      <image:title>Blackened Shrimp</image:title>
-      <image:caption>Blackened Shrimp</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/breakfast-skillet/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/breakfast-skillet.jpg</image:loc>
-      <image:title>Breakfast Skillet</image:title>
-      <image:caption>Breakfast Skillet</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/cabbage-casserole/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/cabbage-steaks/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/chicken-lasagna/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-lasagna.jpg</image:loc>
-      <image:title>Chicken Lasagna</image:title>
-      <image:caption>Chicken Lasagna</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/chicken-nachos/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-nachos.jpg</image:loc>
-      <image:title>Chicken Nachos</image:title>
-      <image:caption>Chicken Nachos</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/chicken-ramen/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-ramen.jpg</image:loc>
-      <image:title>Chicken Ramen</image:title>
-      <image:caption>Chicken Ramen</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/chicken-thighs-in-oven/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-thighs-in-oven.jpg</image:loc>
-      <image:title>Chicken Thighs in Oven</image:title>
-      <image:caption>Chicken Thighs in Oven</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/chicken-tostadas/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-tostadas.jpg</image:loc>
-      <image:title>Chicken Tostadas</image:title>
-      <image:caption>Chicken Tostadas</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/chicken-wellington/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-wellington.jpg</image:loc>
-      <image:title>Chicken Wellington</image:title>
-      <image:caption>Chicken Wellington</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/chicken-with-40-cloves-of-garlic/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-with-40-cloves-of-garlic.jpg</image:loc>
-      <image:title>Chicken with 40 Cloves of Garlic</image:title>
-      <image:caption>Chicken with 40 Cloves of Garlic</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/chorizo-and-potato-stew/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/chorizo-and-potato-stew.jpg</image:loc>
-      <image:title>Chorizo and Potato Stew</image:title>
-      <image:caption>Chorizo and Potato Stew</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/cod-in-garlic-butter/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/cod-in-garlic-butter.jpg</image:loc>
-      <image:title>Cod in Garlic Butter</image:title>
-      <image:caption>Cod in Garlic Butter</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/crab-mac-and-cheese/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/crab-mac-and-cheese.jpg</image:loc>
-      <image:title>Crab Mac and Cheese</image:title>
-      <image:caption>Crab Mac and Cheese</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/dak-galbi/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/dak-galbi.jpg</image:loc>
-      <image:title>Dak Galbi</image:title>
-      <image:caption>Dak Galbi</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/eggplant-lasagna/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/eggplant-lasagna.jpg</image:loc>
-      <image:title>Eggplant Lasagna</image:title>
-      <image:caption>Eggplant Lasagna</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/fettuccine-with-mushrooms/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/fettuccine-with-mushrooms.jpg</image:loc>
-      <image:title>Fettuccine with Mushrooms</image:title>
-      <image:caption>Fettuccine with Mushrooms</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/fried-oysters/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/fried-oysters.jpg</image:loc>
-      <image:title>Fried Oysters</image:title>
-      <image:caption>Fried Oysters</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/gammon-and-pineapple/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/gammon-and-pineapple.jpg</image:loc>
-      <image:title>Gammon and Pineapple</image:title>
-      <image:caption>Gammon and Pineapple</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/garlic-butter-salmon/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/garlic-butter-salmon.jpg</image:loc>
-      <image:title>Garlic Butter Salmon</image:title>
-      <image:caption>Garlic Butter Salmon</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/glazed-parsnips/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/grilled-chicken-sandwich/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/grilled-chicken-sandwich.jpg</image:loc>
-      <image:title>Grilled Chicken Sandwich</image:title>
-      <image:caption>Grilled Chicken Sandwich</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/grilled-octopus/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/grilled-octopus.jpg</image:loc>
-      <image:title>Grilled Octopus</image:title>
-      <image:caption>Grilled Octopus</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/grilled-sea-bass/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/grilled-sea-bass.jpg</image:loc>
-      <image:title>Grilled Sea Bass</image:title>
-      <image:caption>Grilled Sea Bass</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/guinness-beef-stew/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/guinness-beef-stew.jpg</image:loc>
-      <image:title>Guinness Beef Stew</image:title>
-      <image:caption>Guinness Beef Stew</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/haddock-and-chips/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/haddock-and-chips.jpg</image:loc>
-      <image:title>Haddock and Chips</image:title>
-      <image:caption>Haddock and Chips</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/honey-lemon-chicken/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/honey-lemon-chicken.jpg</image:loc>
-      <image:title>Honey Lemon Chicken</image:title>
-      <image:caption>Honey Lemon Chicken</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/jerk-chicken-wings/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/jerk-chicken-wings.jpg</image:loc>
-      <image:title>Jerk Chicken Wings</image:title>
-      <image:caption>Jerk Chicken Wings</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/leg-of-lamb/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/leg-of-lamb.jpg</image:loc>
-      <image:title>Leg of Lamb</image:title>
-      <image:caption>Leg of Lamb</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/lemon-roast-chicken/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-roast-chicken.jpg</image:loc>
-      <image:title>Lemon Roast Chicken</image:title>
-      <image:caption>Lemon Roast Chicken</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/one-pot-beans-and-rice/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/one-pot-beans-and-rice.jpg</image:loc>
-      <image:title>One Pot Beans and Rice</image:title>
-      <image:caption>One Pot Beans and Rice</image:caption>
-    </image:image>
-  </url>
-  <url>
     <loc>https://weeklydelight.com/recipes/one-pot-black-bean-soup/</loc>
     <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
@@ -5134,6 +4318,925 @@
       <image:loc>https://weeklydelight.com/assets/img/recipes/tarte-bourdaloue.jpg</image:loc>
       <image:title>Tarte Bourdaloue</image:title>
       <image:caption>Tarte Bourdaloue</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/poire-belle-helene/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/poire-belle-helene.jpg</image:loc>
+      <image:title>Poire Belle Helene</image:title>
+      <image:caption>Poire Belle Helene</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/soupe-aux-choux/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/soupe-aux-choux.jpg</image:loc>
+      <image:title>Soupe Aux Choux</image:title>
+      <image:caption>Soupe Aux Choux</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/salade-de-gesiers/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/salade-de-gesiers.jpg</image:loc>
+      <image:title>Salade de Gesiers</image:title>
+      <image:caption>Salade de Gesiers</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/cake-sale/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/tarte-tropezienne/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tarte-tropezienne.jpg</image:loc>
+      <image:title>Tarte Tropezienne</image:title>
+      <image:caption>Tarte Tropezienne</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/bugnes/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bugnes.jpg</image:loc>
+      <image:title>Bugnes</image:title>
+      <image:caption>Bugnes</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/baeckeoffe/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/baeckeoffe.jpg</image:loc>
+      <image:title>Baeckeoffe</image:title>
+      <image:caption>Baeckeoffe</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/bretzel-alsacien/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bretzel-alsacien.jpg</image:loc>
+      <image:title>Bretzel Alsacien</image:title>
+      <image:caption>Bretzel Alsacien</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/pounti/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pounti.jpg</image:loc>
+      <image:title>Pounti</image:title>
+      <image:caption>Pounti</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/potee-auvergnate/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/potee-auvergnate.jpg</image:loc>
+      <image:title>Potee Auvergnate</image:title>
+      <image:caption>Potee Auvergnate</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/lapin-chasseur/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lapin-chasseur.jpg</image:loc>
+      <image:title>Lapin Chasseur</image:title>
+      <image:caption>Lapin Chasseur</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/poulet-vallee-dauge/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/poulet-vallee-dauge.jpg</image:loc>
+      <image:title>Poulet Vallee d&#39;Auge</image:title>
+      <image:caption>Poulet Vallee d&#39;Auge</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/poulet-au-vinaigre/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/poulet-au-vinaigre.jpg</image:loc>
+      <image:title>Poulet au Vinaigre</image:title>
+      <image:caption>Poulet au Vinaigre</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/poulet-a-lestragon/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/poulet-a-lestragon.jpg</image:loc>
+      <image:title>Poulet a l&#39;Estragon</image:title>
+      <image:caption>Poulet a l&#39;Estragon</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/poulet-marengo/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/poulet-marengo.jpg</image:loc>
+      <image:title>Poulet Marengo</image:title>
+      <image:caption>Poulet Marengo</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/gigot-de-sept-heures/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gigot-de-sept-heures.jpg</image:loc>
+      <image:title>Gigot de Sept Heures</image:title>
+      <image:caption>Gigot de Sept Heures</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/ris-de-veau/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/ris-de-veau.jpg</image:loc>
+      <image:title>Ris de Veau</image:title>
+      <image:caption>Ris de Veau</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/roti-de-porc-au-lait/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/roti-de-porc-au-lait.jpg</image:loc>
+      <image:title>Rôti de Porc au Lait</image:title>
+      <image:caption>Rôti de Porc au Lait</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/filet-de-porc-moutarde/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/filet-de-porc-moutarde.jpg</image:loc>
+      <image:title>Filet de Porc Moutarde</image:title>
+      <image:caption>Filet de Porc Moutarde</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/jambon-braise-madere/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/jambon-braise-madere.jpg</image:loc>
+      <image:title>Jambon Braise Madere</image:title>
+      <image:caption>Jambon Braise Madere</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/dorade-royale/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/dorade-royale.jpg</image:loc>
+      <image:title>Dorade Royale</image:title>
+      <image:caption>Dorade Royale</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/soupe-de-moules/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/soupe-de-moules.jpg</image:loc>
+      <image:title>Soupe de Moules</image:title>
+      <image:caption>Soupe de Moules</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/tarte-fine-aux-tomates/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tarte-fine-aux-tomates.jpg</image:loc>
+      <image:title>Tarte Fine aux Tomates</image:title>
+      <image:caption>Tarte Fine aux Tomates</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/gratin-de-blettes/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gratin-de-blettes.jpg</image:loc>
+      <image:title>Gratin de Blettes</image:title>
+      <image:caption>Gratin de Blettes</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/epinards-a-la-creme/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/epinards-a-la-creme.jpg</image:loc>
+      <image:title>Epinards a la Creme</image:title>
+      <image:caption>Epinards a la Creme</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/carottes-vichy/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/carottes-vichy.jpg</image:loc>
+      <image:title>Carottes Vichy</image:title>
+      <image:caption>Carottes Vichy</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/salade-de-betteraves/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/salade-de-betteraves.jpg</image:loc>
+      <image:title>Salade de Betteraves</image:title>
+      <image:caption>Salade de Betteraves</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/pommes-sarladaises/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pommes-sarladaises.jpg</image:loc>
+      <image:title>Pommes Sarladaises</image:title>
+      <image:caption>Pommes Sarladaises</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/pommes-lyonnaises/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pommes-lyonnaises.jpg</image:loc>
+      <image:title>Pommes Lyonnaises</image:title>
+      <image:caption>Pommes Lyonnaises</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/tarte-a-la-rhubarbe/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tarte-a-la-rhubarbe.jpg</image:loc>
+      <image:title>Tarte a la Rhubarbe</image:title>
+      <image:caption>Tarte a la Rhubarbe</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/tarte-aux-abricots/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tarte-aux-abricots.jpg</image:loc>
+      <image:title>Tarte aux Abricots</image:title>
+      <image:caption>Tarte aux Abricots</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/tarte-au-chocolat/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tarte-au-chocolat.jpg</image:loc>
+      <image:title>Tarte au Chocolat</image:title>
+      <image:caption>Tarte au Chocolat</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/gateau-nantais/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gateau-nantais.jpg</image:loc>
+      <image:title>Gateau Nantais</image:title>
+      <image:caption>Gateau Nantais</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/gateau-breton/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gateau-breton.jpg</image:loc>
+      <image:title>Gateau Breton</image:title>
+      <image:caption>Gateau Breton</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/cake-au-citron/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cake-au-citron.jpg</image:loc>
+      <image:title>Cake au Citron</image:title>
+      <image:caption>Cake au Citron</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/moelleux-aux-pommes/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/moelleux-aux-pommes.jpg</image:loc>
+      <image:title>Moelleux aux Pommes</image:title>
+      <image:caption>Moelleux aux Pommes</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/charlotte-aux-fraises/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/charlotte-aux-fraises.jpg</image:loc>
+      <image:title>Charlotte aux Fraises</image:title>
+      <image:caption>Charlotte aux Fraises</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/bavarois/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bavarois.jpg</image:loc>
+      <image:title>Bavarois</image:title>
+      <image:caption>Bavarois</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/genoise/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/genoise.jpg</image:loc>
+      <image:title>Genoise</image:title>
+      <image:caption>Genoise</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/vacherin-aux-fraises/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/vacherin-aux-fraises.jpg</image:loc>
+      <image:title>Vacherin aux Fraises</image:title>
+      <image:caption>Vacherin aux Fraises</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/pate-a-choux/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pate-a-choux.jpg</image:loc>
+      <image:title>Pate a Choux</image:title>
+      <image:caption>Pate a Choux</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/chantilly/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chantilly.jpg</image:loc>
+      <image:title>Chantilly</image:title>
+      <image:caption>Chantilly</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/sabayon/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sabayon.jpg</image:loc>
+      <image:title>Sabayon</image:title>
+      <image:caption>Sabayon</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/langues-de-chat/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/langues-de-chat.jpg</image:loc>
+      <image:title>Langues de Chat</image:title>
+      <image:caption>Langues de Chat</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/marrons-glaces/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/marrons-glaces.jpg</image:loc>
+      <image:title>Marrons Glaces</image:title>
+      <image:caption>Marrons Glaces</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/confiture-de-fraises/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/confiture-de-fraises.jpg</image:loc>
+      <image:title>Confiture de Fraises</image:title>
+      <image:caption>Confiture de Fraises</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/sauce-veloute/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sauce-veloute.jpg</image:loc>
+      <image:title>Sauce Veloute</image:title>
+      <image:caption>Sauce Veloute</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/gaufres-liegeoises/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gaufres-liegeoises.jpg</image:loc>
+      <image:title>Gaufres Liegeoises</image:title>
+      <image:caption>Gaufres Liegeoises</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/waterzooi/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/waterzooi.jpg</image:loc>
+      <image:title>Waterzooi</image:title>
+      <image:caption>Waterzooi</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/cuberdons/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cuberdons.jpg</image:loc>
+      <image:title>Cuberdons</image:title>
+      <image:caption>Cuberdons</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/chicons-au-gratin/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicons-au-gratin.jpg</image:loc>
+      <image:title>Chicons au Gratin</image:title>
+      <image:caption>Chicons au Gratin</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/boulets-liegeois/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/boulets-liegeois.jpg</image:loc>
+      <image:title>Boulets Liegeois</image:title>
+      <image:caption>Boulets Liegeois</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/tarte-au-sucre-belge/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tarte-au-sucre-belge.jpg</image:loc>
+      <image:title>Tarte au Sucre Belge</image:title>
+      <image:caption>Tarte au Sucre Belge</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/luxembourg-judd-mat-gaardebounen/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/luxembourg-judd-mat-gaardebounen.jpg</image:loc>
+      <image:title>Luxembourg Judd mat Gaardebounen</image:title>
+      <image:caption>Luxembourg Judd mat Gaardebounen</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/bouneschlupp/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bouneschlupp.jpg</image:loc>
+      <image:title>Bouneschlupp</image:title>
+      <image:caption>Bouneschlupp</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/kniddelen/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kniddelen.jpg</image:loc>
+      <image:title>Kniddelen</image:title>
+      <image:caption>Kniddelen</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/gromperekichelcher/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gromperekichelcher.jpg</image:loc>
+      <image:title>Gromperekichelcher</image:title>
+      <image:caption>Gromperekichelcher</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/quetschentaart/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/quetschentaart.jpg</image:loc>
+      <image:title>Quetschentaart</image:title>
+      <image:caption>Quetschentaart</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/ravioli-di-ricotta-e-spinaci/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/ravioli-di-ricotta-e-spinaci.jpg</image:loc>
+      <image:title>Ravioli di Ricotta e Spinaci</image:title>
+      <image:caption>Ravioli di Ricotta e Spinaci</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/pizza-napoletana/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pizza-napoletana.jpg</image:loc>
+      <image:title>Pizza Napoletana</image:title>
+      <image:caption>Pizza Napoletana</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/pizza-al-taglio/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pizza-al-taglio.jpg</image:loc>
+      <image:title>Pizza al Taglio</image:title>
+      <image:caption>Pizza al Taglio</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/focaccia-barese/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/focaccia-barese.jpg</image:loc>
+      <image:title>Focaccia Barese</image:title>
+      <image:caption>Focaccia Barese</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/semifreddo/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/semifreddo.jpg</image:loc>
+      <image:title>Semifreddo</image:title>
+      <image:caption>Semifreddo</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/bombolone/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bombolone.jpg</image:loc>
+      <image:title>Bombolone</image:title>
+      <image:caption>Bombolone</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/polenta-taragna/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/polenta-taragna.jpg</image:loc>
+      <image:title>Polenta Taragna</image:title>
+      <image:caption>Polenta Taragna</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/pollo-alla-diavola/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pollo-alla-diavola.jpg</image:loc>
+      <image:title>Pollo alla Diavola</image:title>
+      <image:caption>Pollo alla Diavola</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/coniglio-alla-cacciatora/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/coniglio-alla-cacciatora.jpg</image:loc>
+      <image:title>Coniglio alla Cacciatora</image:title>
+      <image:caption>Coniglio alla Cacciatora</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/trippa-alla-fiorentina/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/trippa-alla-fiorentina.jpg</image:loc>
+      <image:title>Trippa alla Fiorentina</image:title>
+      <image:caption>Trippa alla Fiorentina</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/pomodori-ripieni/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pomodori-ripieni.jpg</image:loc>
+      <image:title>Pomodori Ripieni</image:title>
+      <image:caption>Pomodori Ripieni</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/fagioli-alluccelletto/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/fagioli-alluccelletto.jpg</image:loc>
+      <image:title>Fagioli all&#39;Uccelletto</image:title>
+      <image:caption>Fagioli all&#39;Uccelletto</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/tortelli-di-zucca/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tortelli-di-zucca.jpg</image:loc>
+      <image:title>Tortelli di Zucca</image:title>
+      <image:caption>Tortelli di Zucca</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/seadas/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/seadas.jpg</image:loc>
+      <image:title>Seadas</image:title>
+      <image:caption>Seadas</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/torta-di-mele/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/torta-di-mele.jpg</image:loc>
+      <image:title>Torta di Mele</image:title>
+      <image:caption>Torta di Mele</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/torta-al-limone/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/torta-al-limone.jpg</image:loc>
+      <image:title>Torta al Limone</image:title>
+      <image:caption>Torta al Limone</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/torta-di-ricotta/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/torta-di-ricotta.jpg</image:loc>
+      <image:title>Torta di Ricotta</image:title>
+      <image:caption>Torta di Ricotta</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/biscotti-savoiardi/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/biscotti-savoiardi.jpg</image:loc>
+      <image:title>Biscotti Savoiardi</image:title>
+      <image:caption>Biscotti Savoiardi</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/tortino-al-cioccolato/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tortino-al-cioccolato.jpg</image:loc>
+      <image:title>Tortino al Cioccolato</image:title>
+      <image:caption>Tortino al Cioccolato</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/bonet/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bonet.jpg</image:loc>
+      <image:title>Bonet</image:title>
+      <image:caption>Bonet</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/frittelle-di-carnevale/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/frittelle-di-carnevale.jpg</image:loc>
+      <image:title>Frittelle di Carnevale</image:title>
+      <image:caption>Frittelle di Carnevale</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/chiacchiere/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chiacchiere.jpg</image:loc>
+      <image:title>Chiacchiere</image:title>
+      <image:caption>Chiacchiere</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/castagnole/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/castagnole.jpg</image:loc>
+      <image:title>Castagnole</image:title>
+      <image:caption>Castagnole</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/torrone/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/torrone.jpg</image:loc>
+      <image:title>Torrone</image:title>
+      <image:caption>Torrone</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/brutti-ma-buoni/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/brutti-ma-buoni.jpg</image:loc>
+      <image:title>Brutti ma Buoni</image:title>
+      <image:caption>Brutti ma Buoni</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/fave-e-cicoria/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/fave-e-cicoria.jpg</image:loc>
+      <image:title>Fave e Cicoria</image:title>
+      <image:caption>Fave e Cicoria</image:caption>
     </image:image>
   </url>
 </urlset>
