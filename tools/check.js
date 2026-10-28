@@ -1200,7 +1200,7 @@ for (const audit of ['timing-audit.js', 'timing-corpus.js', 'consistency-corpus.
                      ['food-handling-audit.js', '--selftest'], ['food-handling-audit.js', '--list', 'confirmed'],
                      /* October 2026 release: dish roles, collections, plans, flagship register, feedback endpoints. */
                      'classify-audit.js', 'classify-test.js', 'shopping-test.js', 'flagship-check.js',
-                     'feedback-test.js', 'release-pages-test.js']) {
+                     'feedback-test.js', 'release-pages-test.js', 'filler-audit.js']) {
   const [script, ...args] = [].concat(audit);
   try {
     require('child_process').execFileSync(process.execPath,
