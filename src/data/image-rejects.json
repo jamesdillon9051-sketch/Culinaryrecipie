@@ -50969,5 +50969,23 @@
       "page": "https://commons.wikimedia.org/wiki/File:Full_English_breakfast_(cropped).jpg",
       "why": "a full English breakfast"
     }
+  ],
+  "chopped-cheese-sandwich": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Chopped_cheese_Crotona_Bronx.jpg",
+      "why": "the file page gives no author and contradicts itself on the licence"
+    }
+  ],
+  "dagwood-dog": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Corn_dog.jpg",
+      "why": "the same photograph already illustrates the corn dog recipe"
+    }
+  ],
+  "crostoli": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Faworki_(close-up).jpg",
+      "why": "the same photograph already illustrates chiacchiere"
+    }
   ]
 }
