@@ -6,7 +6,7 @@ Save a photograph as BOTH files in  src/assets/img/recipes/
     <slug>.webp   800 px wide, quality ~68
 Then run:  python3 tools/adopt_images.py   (see its header for the credit and licence it needs)
 
-== American (128) ======================================
+== American (129) ======================================
   crack-chicken                      Crack Chicken   [24 refused already]
   shirley-temple                     Shirley Temple   [11 refused already]
   creamy-tuscan-salmon               Creamy Tuscan Salmon   [9 refused already]
@@ -122,6 +122,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   low-carb-chili                     Low-Carb Chili   [18 refused already]
   low-carb-egg-muffins               Low-Carb Egg Muffins   [14 refused already]
   sweet-and-sour-meatballs           Sweet and Sour Meatballs   [1 refused already]
+  chopped-cheese-sandwich            Chopped Cheese Sandwich   [1 refused already]
   rhode-island-clam-chowder          Rhode Island Clam Chowder
   stuffies                           Stuffies
   maxwell-street-polish              Maxwell Street Polish   [3 refused already]
@@ -166,7 +167,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   strawberry-fool                    Strawberry Fool
   peppermint-creams                  Peppermint Creams   [2 refused already]
 
-== Italian (21) ========================================
+== Italian (22) ========================================
   pesto-chicken-bake                 Pesto Chicken Bake   [22 refused already]
   eggplant-pizzas                    Eggplant Pizzas   [32 refused already]
   zucchini-pizza-bites               Zucchini Pizza Bites   [20 refused already]
@@ -184,6 +185,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   costoletta-alla-valdostana         Costoletta alla Valdostana   [1 refused already]
   pesche-ripiene                     Pesche Ripiene
   sbrisolona-mantovana               Sbrisolona Mantovana   [4 refused already]
+  crostoli                           Crostoli   [1 refused already]
   ricotta-pie                        Ricotta Pie   [1 refused already]
   sauteed-broccoli-rabe              Sautéed Broccoli Rabe
   chicken-rollatini                  Chicken Rollatini   [1 refused already]
@@ -258,18 +260,19 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   fijian-rourou                      Fijian Rourou   [6 refused already]
   fijian-curry                       Fijian Curry   [3 refused already]
 
+== Australian (5) ======================================
+  weet-bix-slice                     Weet-Bix Slice   [9 refused already]
+  ice-cream-christmas-pudding        Ice Cream Christmas Pudding   [39 refused already]
+  white-christmas                    White Christmas   [26 refused already]
+  cornflake-cookies                  Cornflake Cookies   [2 refused already]
+  dagwood-dog                        Dagwood Dog   [1 refused already]
+
 == Jamaican (5) ========================================
   jamaican-festival                  Jamaican Festival   [5 refused already]
   jamaican-fry-dumplings             Jamaican Fry Dumplings   [5 refused already]
   jamaican-rum-cake                  Jamaican Rum Cake   [9 refused already]
   gungo-peas-soup                    Gungo Peas Soup   [1 refused already]
   coconut-drops                      Coconut Drops   [1 refused already]
-
-== Australian (4) ======================================
-  weet-bix-slice                     Weet-Bix Slice   [9 refused already]
-  ice-cream-christmas-pudding        Ice Cream Christmas Pudding   [39 refused already]
-  white-christmas                    White Christmas   [26 refused already]
-  cornflake-cookies                  Cornflake Cookies   [2 refused already]
 
 == Indian (4) ==========================================
   moong-dal-chilla                   Moong Dal Chilla   [32 refused already]
@@ -365,4 +368,4 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
 == Swedish (1) =========================================
   biff-a-la-lindstrom                Biff a la Lindstrom   [4 refused already]
 
-TOTAL 285 of 5555
+TOTAL 288 of 5555
