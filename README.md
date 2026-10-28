@@ -1,6 +1,6 @@
 # Weekly Delight
 
-A dependency-free static site for the world's **5455 most famous recipes** — each
+A dependency-free static site for the world's **5555 most famous recipes** — each
 one with a full ingredient list, step-by-step method, the cooking science behind
 it, pairing suggestions, storage guidance and nutrition.
 
@@ -8,7 +8,7 @@ Built from scratch with vanilla HTML, CSS and JavaScript. No framework, no build
 tooling beyond Node's standard library, no runtime dependencies.
 
 ```
-5455 recipes · 92 cuisines · 10 categories · 5829 static pages · 0 npm dependencies
+5555 recipes · 92 cuisines · 10 categories · 5932 static pages · 0 npm dependencies
 ```
 
 ---
@@ -118,9 +118,9 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   ├── build.js                 # the static site generator (entry point)
 │   ├── data/
 │   │   ├── catalog.js           # volume one: slug, title, cuisine, timings, ratings
-│   │   ├── catalog-2.js …-62.js  # further volumes, same shape, merged at build
+│   │   ├── catalog-2.js …-63.js  # further volumes, same shape, merged at build
 │   │   ├── details/*.js         # volume one long-form content
-│   │   ├── details2/ …details62/ # long-form content for the matching volume
+│   │   ├── details2/ …details63/ # long-form content for the matching volume
 │   │   ├── volumes.js           # discovers and merges the volumes above
 │   │   ├── rewrites/*.json      # rewrites laid over the recipes by tools/humanize.js
 │   │   ├── stats.js             # recipe/cuisine counts derived from the catalogues
@@ -162,7 +162,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
 ├── assets/                      #    css, js and 11370 image files
-├── recipes/                     #    5455 recipe pages
+├── recipes/                     #    5555 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
 ├── sitemap.xml  robots.txt  manifest.json  feed.xml  search-index.json
@@ -250,7 +250,7 @@ Everything below is implemented and verified by `npm run check` on every build.
 
 ### Structured data (JSON-LD)
 
-- [x] **Recipe** on all 5455 recipe pages — `name`, `image` (where the recipe has a picture; 1,405 do not, and those are not eligible for recipe rich results until a real photograph is found), `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime` (waiting included), `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords` (the recipe's own 4 to 6 curated phrases), `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `suitableForDiet` (only the diets that hold without a swap)
+- [x] **Recipe** on all 5555 recipe pages — `name`, `image` (where the recipe has a picture; 1,405 do not, and those are not eligible for recipe rich results until a real photograph is found), `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime` (waiting included), `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords` (the recipe's own 4 to 6 curated phrases), `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `suitableForDiet` (only the diets that hold without a swap)
 - [x] **BreadcrumbList** on every page below the root
 - [x] **WebSite** with `SearchAction` (sitelinks search box)
 - [x] **Organization** with logo
@@ -282,7 +282,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       genuine reviews is every rich result on the domain. The fallback is gone
       and `src/data/reviews.json` is the only source, so all 809 read "Not yet
       rated" until somebody rates one
-- [x] **FAQPage** on 2,129 recipe pages and the about page — 2,129 questions,
+- [x] **FAQPage** on 2,157 recipe pages and the about page — 2,157 questions,
       built by `src/lib/faq.js` only where the answer adds something the page
       does not already say in one place: the waiting on recipes that have it,
       and why the sauce split on carbonara, alfredo and cacio e pepe. It used
@@ -306,7 +306,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 437,182 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 445,158 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -444,7 +444,7 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-5123 of the 5455 recipes have a photograph. Of the 5605 images on the site,
+5123 of the 5555 recipes have a photograph. Of the 5605 images on the site,
 1628 are CC0 or public domain, 1778 are CC BY and 1859 are CC BY-SA. Anything
 still without one falls back to a CSS gradient carrying the recipe name, the
 same fallback that catches any image that fails to load at runtime.
@@ -700,7 +700,7 @@ This matters more than anything else the site asserts. Someone coeliac cooking
 from a Gluten-Free page is trusting a claim they cannot check from the
 photograph.
 
-Every one of the site's 5455 recipes now passes, and `npm run check` runs the
+Every one of the site's 5555 recipes now passes, and `npm run check` runs the
 audit, so a contradicted tag fails the build rather than shipping.
 
 Getting there took 43 corrections in three passes. Eleven came out of the
@@ -4731,7 +4731,7 @@ whisked zabaglione over simmering water for ten; kvass toasted its bread in a
 200°C oven for twenty. The other 43 recipes at zero really are no-cook, and stay
 there.
 
-The larger problem was waiting. **1914 of the 5455 recipes** declare unattended
+The larger problem was waiting. **1942 of the 5555 recipes** declare unattended
 waiting the header never mentioned — a pizza dough that cold-ferments for a day,
 a gravlax that cures for two, a stollen that matures for a fortnight. Rather
 than inflate prep and cook, which are hands-on time and are what "quick" is
@@ -5808,6 +5808,69 @@ photograph whose archive page already illustrates an older recipe was
 withdrawn. The other 210 stay on the gradient card; a wrong picture is worse
 than none.
 
+## Volume sixty-three, one hundred well-known dishes
+
+One volume of a hundred, taking the site from 5,455 to 5,555 recipes. The
+owner's standing brief is the best-known dishes of the USA, Canada, Australia,
+the UK and New Zealand, and the request was "100 more well known recipes". No
+search-volume data was used to pick them. By now the catalogue already holds
+almost every dish on any list of famous ones: about 1,670 candidate names went
+through `tools/dedupe-candidates.js` and only about 190 were new, and several of
+those were the same dish under another spelling ("Red-Eye Gravy", "Hawaiian Mac
+Salad", "Lasagna Rolls") and were dropped when the volume check caught them.
+What is left is the regional and second-tier set: American regional dishes
+(salt potatoes, spiedies, clam cakes, stuffies, the horseshoe sandwich, the
+Maxwell Street Polish), British and Scottish favourites (Arbroath smokie, gala
+pie, skirlie, singin' hinnies, spam fritters), the Canadian Caesar and honey
+garlic ribs, the dagwood dog, the New Zealand kumara chips and onion dip,
+basics (shortcrust pastry, fresh egg pasta, ghee, ricotta, hoisin, hollandaise)
+and dishes from elsewhere that are ordered in those five countries.
+
+Spread: American 33, Italian 8, British 7, Japanese 6, French 4, Indian 4,
+Chinese 4, Mexican 4, and one to two each of Canadian, Scottish, Australian,
+Filipino, Jamaican, Swedish, Greek, Malaysian, New Zealand, Hawaiian, Cuban,
+Nigerian, Russian, Swiss, Dutch, Portuguese, Korean, Singaporean, Indonesian,
+Cambodian and Jewish.
+
+### What the audits caught
+
+- **Same dish already published.** `dedupe-candidates.js --volume 63` flagged
+  Country Ham with Red-Eye Gravy, Hawaiian Macaroni Salad and Lasagna Roll-Ups
+  as dishes the site already had under another slug. They were removed and
+  replaced, not kept as variants. Hollandaise was renamed Classic Hollandaise
+  because the title matched the search phrase Eggs Benedict already targets.
+- **Timing.** The waits in the method are declared as `rest` and equal what the
+  audit reads (marinating, chilling, rising, freezing the ice for kakigori and
+  bingsu, cooling the gala pie). Cook times were changed in the rows where the
+  method's stages added up to more than the row said (stuffies, honey garlic
+  ribs, the leek pie, methi chicken, kulcha, napolitan spaghetti, baked
+  mostaccioli and others).
+- **Diet labels.** Brown bread broke Gluten-Free on the Arbroath smokie, lard
+  broke Vegetarian on singin' hinnies, cheddar broke Dairy-Free on caldereta
+  and yam flour broke Gluten-Free on fufu; the tags were removed in
+  `src/data`, not the ingredients reworded.
+- **Keywords.** "Easy", "baked", "steamed" and "for two" were removed from
+  phrases the records did not support.
+- **Numbers.** Lines the calculator could not weigh ("2 dashes", "6
+  frankfurters", "8 popiah skins", liver spread, red bean paste, ponzu, curry
+  roux) were rewritten in grams or replaced by ingredients it can read
+  (chicken livers for the liver spread, a chocolate filling for the taiyaki,
+  flour, oil and curry powder for the curry roux). Two recipes still print no
+  nutrition because a food is not in the table: eggnog French toast and grilled
+  nopales.
+- **Food handling.** Hollandaise and the peppermint creams use pasteurised eggs;
+  the marinades are in the fridge; compound butter and piri piri sauce, which
+  hold garlic, keep for four days at most; the gala pie, ricotta pie and the
+  dips are cooled and chilled within two hours.
+- **Voice.** No two recipes share their first three words, and every paragraph
+  of every `why` has a sentence of eight words or fewer.
+
+### Photographs
+
+None yet. The volume ships on gradient cards; a photograph is added only when
+a correct, correctly licensed one is found and looked at (see the October 2026
+image search in `docs/image-search-2026-10-28/`).
+
 ## Internal linking: subcategory hubs, related recipes and breadcrumbs
 
 `src/lib/linking.js` builds the link graph once per build, with no randomness,
@@ -5917,7 +5980,7 @@ banner document that is missing or sets `atOptions` after the loader.
 
 Modern evergreen browsers. The site degrades gracefully:
 
-- **No JavaScript** — all 5455 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
+- **No JavaScript** — all 5555 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
 - **No WebP** — the `<picture>` element serves JPEG.
 - **No `localStorage`** (private mode) — every read and write is wrapped in `try`/`catch`; the site works, it just does not remember.
 
