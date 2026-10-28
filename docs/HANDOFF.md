@@ -173,7 +173,7 @@ The owner explicitly resumed missing-photo sourcing. This authorizes this photo 
 - **Branch:** `claude/culinaryvault-recipe-site-mk9w9b`, from `main` `43be40ec`. Not merged, not deployed (Hostinger deploys `main` only). Codex's `content/popular-five-countries-500-2026-10-25` (2 commits ahead of `main`) was not touched.
 - **Ledger, files, verification, dependencies:** [release-2026-10-27/README.md](release-2026-10-27/README.md). Deploy checklist, rollback and post-deploy checks: [DEPLOY.md](release-2026-10-27/DEPLOY.md). Switching on reports, reviews and the newsletter: [ACTIVATION.md](release-2026-10-27/ACTIVATION.md). Flagship workflow and cook's checklist: [flagship/README.md](flagship/README.md).
 - **What changed for content work:**
-  - Every recipe now has a derived role (`src/lib/classify.js`). 117 are in the review queue (`release-2026-10-27/classification-review.csv`). Settle them in `src/data/dish-roles.json` with a reason.
+  - Every recipe now has a derived role (`src/lib/classify.js`). The 117 that were queued were settled on 28 October by an editorial reading (`src/data/dish-roles.json`, each with its reason); the queue is empty. They are editorial calls, not cooking tests, so an editor may reverse any of them.
   - Collections re-check their entries on every build.
   - The food-handling audit now requires pasteurised eggs in the ingredient line, not in a tip.
   - Timing counts pressing as a wait.

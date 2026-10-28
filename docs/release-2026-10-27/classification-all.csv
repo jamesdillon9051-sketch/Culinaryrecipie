@@ -10,7 +10,7 @@ osso-buco,Osso Buco alla Milanese,Dinner,main,,title,"""osso buco alla milanese"
 chicken-parmigiana,Chicken Parmigiana,Dinner,main,,title,"""chicken parmigiana"" is a main course",dinner,oven grill hob,oven frying-pan baking-tray grill,,,20,35,35,0,0,55,,4
 potato-gnocchi,Potato Gnocchi with Sage Butter,Dinner,main,,title,"""potato gnocchi"" is a main course",dinner,oven hob,oven frying-pan,,yes,45,65,85,0,0,110,,4
 pesto-genovese,Pesto alla Genovese,Quick Meals,main,,title,a pasta dish: the pasta is in the ingredient list,dinner,hob,,,,15,10,10,0,0,25,,4
-minestrone-soup,Minestrone Soup,Healthy,light,yes,category,"a soup between a light meal and a main (18 g protein, 411 kcal)",,hob,pot,,yes,20,40,40,0,0,60,,6
+minestrone-soup,Minestrone Soup,Healthy,main,,override,"a bean-and-vegetable soup for six with 18 g protein a serving, served with bread and cheese as the meal",dinner,hob,pot,,yes,20,40,40,0,0,60,,6
 caprese-salad,Caprese Salad,Appetizers,starter,,category,filed under Appetizers,,no-cook,,,,10,0,0,0,0,10,,4
 bruschetta,Tomato Bruschetta,Appetizers,starter,,category,filed under Appetizers,,grill,grill,,,15,5,5,15,15,35,,6
 arancini,Sicilian Arancini,Appetizers,starter,,category,filed under Appetizers,,deep-fry,deep-fry,,yes,40,25,25,270,270,335,,6
@@ -98,7 +98,7 @@ meatloaf,Classic Meatloaf,Dinner,main,,title,"""classic meatloaf"" is a main cou
 philly-cheesesteak,Philly Cheesesteak,Lunch,main,,title,"""philly cheesesteak"" is a main course",lunch dinner,grill hob,frying-pan grill,,yes,15,15,15,45,45,75,,4
 grilled-cheese-sandwich,Skillet Grilled Cheese,Quick Meals,main,,nutrition,28 g protein and 731 kcal a serving,dinner,hob,frying-pan,,yes,5,8,8,0,0,13,,2
 new-england-clam-chowder,New England Clam Chowder,Lunch,main,,ingredients,a soup with 270 g of meat or fish a serving,lunch dinner,steam hob,pot,,yes,20,35,35,0,0,55,,6
-chicken-noodle-soup,Chicken Noodle Soup,Healthy,light,yes,category,a soup with no nutrition figures to say whether it is a meal,,hob,pot,,,15,95,95,0,0,110,,6
+chicken-noodle-soup,Chicken Noodle Soup,Healthy,main,,override,"built from a whole chicken for six, so the soup carries the meat and is the meal",dinner,hob,pot,,,15,95,95,0,0,110,,6
 creamy-tomato-soup,Creamy Tomato Soup,Healthy,main,,nutrition,a soup with 9 g protein and 450 kcal a serving: a meal in a bowl,dinner,oven hob,oven pot,,yes,10,45,55,0,0,55,,4
 caesar-salad,Caesar Salad,Lunch,light,,category,"a salad filed under Lunch (23 g protein, 813 kcal)",lunch,oven,oven,,,20,10,10,0,0,30,,4
 cobb-salad,Cobb Salad,Healthy,main,,override,a main course: the dish is the centre of the meal in its own cuisine,dinner,hob,,,,25,15,15,0,0,40,,4
@@ -158,7 +158,7 @@ bibimbap,Bibimbap,Dinner,main,,title,"""bibimbap"" is a main course",dinner,hob,
 korean-fried-chicken,Korean Fried Chicken,Dinner,main,,title,"""korean fried chicken"" is a main course",dinner,oven deep-fry hob,oven frying-pan deep-fry,,,25,25,25,20,20,70,,4
 bulgogi,Beef Bulgogi,Dinner,main,,title,named for its protein,dinner,grill hob,frying-pan grill,,yes,20,10,10,75,75,105,,4
 japchae,Japchae,Dinner,main,,title,"""japchae"" is a main course",dinner,,,,,25,15,15,0,0,40,,6
-tteokbokki,Tteokbokki,Quick Meals,main,yes,category,an unfamiliar name and no nutrition figures,,hob,,,,10,15,15,0,20,25,,2
+tteokbokki,Tteokbokki,Quick Meals,light,,override,"rice cakes in a chilli sauce for two, with fried mandu or kimbap suggested alongside: a snack-sized dish, not a plated main",lunch,hob,,,,10,15,15,0,20,25,,2
 kimchi,Napa Cabbage Kimchi,Appetizers,condiment,,title,"""napa cabbage kimchi"" is a condiment, dressing, rub or preserve",,no-cook,,,,60,0,0,1590,3030,1650,cooling completely,12
 kimchi-jjigae,Kimchi Jjigae,Healthy,main,,ingredients,a soup with 138 g of meat or fish a serving,dinner,hob,pot,,yes,10,25,25,0,0,35,,4
 pho-bo,Phở Bò (Beef Noodle Soup),Dinner,main,,ingredients,"133 g of meat, fish or tofu a serving",dinner,grill hob,pot grill,,,30,240,240,0,0,270,,6
@@ -176,7 +176,7 @@ sticky-toffee-pudding,Sticky Toffee Pudding,Desserts,dessert,,category,filed und
 soft-pretzels,Bavarian Soft Pretzels,Baking,bread,,title,a bread by name,,oven hob,oven frying-pan,,yes,40,15,20,90,90,145,,8
 black-forest-cake,Black Forest Cake,Desserts,dessert,,category,filed under Desserts,,oven,oven,,,45,35,35,240,240,320,cooling completely,12
 german-potato-salad,Warm German Potato Salad,Lunch,light,,category,"a salad filed under Lunch (10 g protein, 342 kcal)",lunch,hob,,,,15,25,25,15,15,55,,6
-borscht,Ukrainian Borscht,Healthy,light,yes,category,"a soup between a light meal and a main (14 g protein, 408 kcal)",,hob,pot,,yes,25,60,60,20,20,105,,6
+borscht,Ukrainian Borscht,Healthy,light,,override,"a beetroot, cabbage and potato soup with no meat in the recipe beyond a beef or vegetable stock, and bread and garlic rolls beside it: a first or light course",lunch,hob,pot,,yes,25,60,60,20,20,105,,6
 beef-stroganoff,Beef Stroganoff,Dinner,main,,title,"""beef stroganoff"" is a main course",dinner,hob,frying-pan,,yes,15,25,25,0,0,40,,4
 pierogi,Potato and Cheese Pierogi,Dinner,main,,override,a main course: the dish is the centre of the meal in its own cuisine,dinner,,rolling-pin,,,45,20,20,30,30,95,cooling completely,6
 hungarian-goulash,Hungarian Goulash,Dinner,main,,title,"""hungarian goulash"" is a main course",dinner,hob,pot,,yes,20,160,165,15,15,195,,6
@@ -327,7 +327,7 @@ labneh,Labneh with Za'atar,Appetizers,starter,,category,filed under Appetizers,,
 manakish-zaatar,Manakish Za'atar,Breakfast,breakfast,,category,filed under Breakfast,breakfast,oven,oven,,,30,12,12,90,90,132,,6
 basbousa,Basbousa,Desserts,dessert,,category,filed under Desserts,,oven,oven cake-tin,25 cm square tin,yes,15,40,40,210,210,265,,12
 lamb-mandi,Lamb Mandi,Holiday Specials,main,,title,"""lamb mandi"" is a main course",dinner,oven hob,oven pot,,yes,30,180,180,270,270,480,,8
-imam-bayildi,Imam Bayildi,Healthy,main,yes,category,an unfamiliar name and no nutrition figures,,oven hob,oven baking-dish,,yes,25,95,95,45,45,165,cooling to room temperature,4
+imam-bayildi,Imam Bayildi,Healthy,starter,,override,stuffed aubergine served at room temperature with flatbread and yoghurt: a cold vegetable course rather than a hot main,,oven hob,oven baking-dish,,yes,25,95,95,45,45,165,cooling to room temperature,4
 turkish-pide,Turkish Pide,Baking,dessert,,category,a sweet bake filed under Baking,,oven,oven,,,40,15,15,90,90,145,,4
 borek,Cheese Börek,Appetizers,starter,,category,filed under Appetizers,,oven,oven,22 cm tin,,30,40,40,30,30,100,,8
 turkish-delight,Turkish Delight,Desserts,dessert,,category,filed under Desserts,,oven hob,oven frying-pan cake-tin thermometer,20 cm square tin,,25,60,60,480,480,565,,24
@@ -336,7 +336,7 @@ pan-con-tomate,Pan con Tomate,Appetizers,starter,,category,filed under Appetizer
 pulpo-a-la-gallega,Pulpo a la Gallega,Appetizers,starter,,category,filed under Appetizers,,hob,pot skewers,,yes,15,60,60,0,0,75,,4
 fabada-asturiana,Fabada Asturiana,Dinner,main,,override,a main course: the dish is the centre of the meal in its own cuisine,dinner,hob,pot,,yes,20,150,150,500,500,670,,6
 pastel-de-nata,Pastéis de Nata,Desserts,dessert,,category,filed under Desserts,,oven,oven cake-tin,,yes,30,25,25,0,0,55,cooling completely,12
-caldo-verde,Caldo Verde,Healthy,light,yes,category,"a soup between a light meal and a main (16 g protein, 432 kcal)",,hob,pot,,yes,15,35,35,0,0,50,,6
+caldo-verde,Caldo Verde,Healthy,light,,override,"a smooth potato soup with greens and a slice of chouriço, served with bread: a light supper or first course",lunch,hob,pot,,yes,15,35,35,0,0,50,,6
 bacalhau-a-bras,Bacalhau à Brás,Dinner,main,,ingredients,"125 g of meat, fish or tofu a serving",dinner,hob,frying-pan,,yes,20,25,25,1440,2160,1485,,4
 piri-piri-chicken,Piri Piri Chicken,Dinner,main,,title,named for its protein,dinner,oven grill hob,oven grill,,,20,45,45,240,240,305,,4
 khao-soi,Khao Soi,Dinner,main,,override,a main course: the dish is the centre of the meal in its own cuisine,dinner,hob,wok,,yes,20,35,35,0,0,55,,4
@@ -372,7 +372,7 @@ pao-de-queijo,Pão de Queijo,Baking,bread,,title,"""pão"" is a bread",,oven hob
 alfajores,Alfajores,Desserts,dessert,,category,filed under Desserts,,oven,oven rolling-pin,,,30,12,12,80,80,122,cooling completely,16
 chicken-kiev,Chicken Kiev,Dinner,main,,title,"""chicken kiev"" is a main course",dinner,oven deep-fry,oven deep-fry rolling-pin,,yes,30,25,25,210,210,265,,4
 blini,Blini with Soured Cream,Breakfast,breakfast,,category,filed under Breakfast,breakfast,hob,frying-pan,,yes,15,20,20,110,110,145,,6
-olivier-salad,Olivier Salad,Holiday Specials,side,yes,category,"a salad between a side and a light meal (13 g protein, 455 kcal)",,,,,,30,20,20,180,180,230,cooling completely,8
+olivier-salad,Olivier Salad,Holiday Specials,side,,override,a mayonnaise salad for eight served with rye bread and herring: a table salad beside other dishes,,,,,,30,20,20,180,180,230,cooling completely,8
 golabki,Gołąbki,Dinner,main,,title,"""gołąbki"" is a main course",dinner,hob,pot,,yes,35,120,130,1455,1455,1610,,6
 spaetzle,Käsespätzle,Dinner,side,,override,a side dish: served beside a main course in its own cuisine,,hob,frying-pan,,yes,20,20,20,20,20,60,,4
 sauerbraten,Sauerbraten,Holiday Specials,main,,title,"""sauerbraten"" is a main course",dinner,hob,pot,,yes,30,180,180,4320,4320,4530,cooling completely,6
@@ -424,7 +424,7 @@ beef-chow-fun,Beef Chow Fun,Dinner,main,,title,named for its protein,dinner,micr
 lion-head-meatballs,Lion's Head Meatballs,Dinner,main,,title,"""lion's head meatballs"" is a main course",dinner,hob,pot,,yes,25,60,60,30,30,115,,6
 egg-tarts,Hong Kong Egg Tarts,Desserts,dessert,,category,filed under Desserts,,oven,oven,,,40,25,25,45,45,110,cooling completely,12
 wonton-noodle-soup,Wonton Noodle Soup,Lunch,main,,ingredients,a soup with 105 g of meat or fish a serving,lunch dinner,hob,,,,35,20,20,0,0,55,,4
-dal-makhani,Dal Makhani,Dinner,main,yes,category,"an unfamiliar name (13 g protein, 453 kcal a serving)",,pressure-cooker hob,frying-pan pot pressure-cooker,,,20,190,220,480,480,690,,6
+dal-makhani,Dal Makhani,Dinner,main,,override,"250 g of lentils and beans for six, finished with butter and cream and eaten with naan or rice as the centre of the meal",dinner,pressure-cooker hob,frying-pan pot pressure-cooker,,,20,190,220,480,480,690,,6
 hyderabadi-biryani,Hyderabadi Biryani,Dinner,main,,title,"""hyderabadi biryani"" is a main course",dinner,hob,frying-pan pot,,,60,80,90,285,285,425,,8
 vada-pav,Vada Pav,Lunch,light,,category,"filed under Lunch, and nothing in the name or the figures makes it a full main",lunch,deep-fry hob,deep-fry blender,,yes,25,20,20,0,0,45,cooling,6
 masala-chai,Masala Chai,Drinks,drink,,category,filed under Drinks,,hob,saucepan,,yes,5,10,10,0,0,15,,4
@@ -436,7 +436,7 @@ pulled-pork,Carolina Pulled Pork,Dinner,main,,title,"""carolina pulled pork"" is
 brisket,Texas Smoked Brisket,Dinner,main,,title,"""texas smoked brisket"" is a main course",dinner,oven,oven,,,30,600,600,120,120,750,,12
 cioppino,Cioppino,Dinner,main,,title,"""cioppino"" is a main course",dinner,hob,pot,,yes,25,40,40,0,0,65,,6
 sloppy-joes,Sloppy Joes,Dinner,main,,title,"""sloppy joes"" is a main course",dinner,hob,frying-pan,,yes,10,25,25,0,0,35,,6
-corn-dogs,Corn Dogs,Quick Meals,main,yes,category,an unfamiliar name and no nutrition figures,,oven deep-fry hob,oven deep-fry thermometer skewers,,yes,15,15,15,0,0,30,,8
+corn-dogs,Corn Dogs,Quick Meals,main,,override,"a hot dog in a cornmeal coating, served with fries as the meal",dinner,oven deep-fry hob,oven deep-fry thermometer skewers,,yes,15,15,15,0,0,30,,8
 philly-soft-pretzel,Philadelphia Soft Pretzels,Baking,bread,,title,a bread by name,,oven,oven,,,90,15,20,95,95,200,,8
 boston-cream-pie,Boston Cream Pie,Desserts,dessert,,category,filed under Desserts,,oven hob,oven skewers,,,40,30,30,230,230,300,cooling completely,10
 steak-and-ale-pie,Steak and Ale Pie,Dinner,main,,title,"""steak and ale pie"" is a main course",dinner,oven hob,oven pot baking-dish,24 cm pie dish,,35,214,219,0,0,249,cooling completely,6
@@ -472,7 +472,7 @@ danish-pastry,Danish Pastries,Baking,dessert,,category,a sweet bake filed under 
 frikadeller,Frikadeller,Dinner,main,,ingredients,"175 g of meat, fish or tofu a serving",dinner,hob,frying-pan,,yes,20,20,20,90,90,130,,4
 norwegian-fish-soup,Norwegian Fish Soup,Dinner,main,,ingredients,a soup with 213 g of meat or fish a serving,dinner,hob,,,,20,30,30,0,0,50,,4
 krumkake,Krumkake,Desserts,dessert,,category,filed under Desserts,,,rolling-pin,,,25,20,20,20,20,65,,20
-karelian-pies,Karelian Pies,Baking,bread,yes,category,a bake with no sugar in it: a bread or a savoury bake?,,oven,oven rolling-pin,,,45,55,60,20,20,120,cooling completely,16
+karelian-pies,Karelian Pies,Baking,bread,,override,"thin rye pastry shells holding rice porridge, served with egg butter or soup: a savoury baked item rather than a dish",,oven,oven rolling-pin,,,45,55,60,20,20,120,cooling completely,16
 salmon-soup-lohikeitto,Lohikeitto,Dinner,main,,ingredients,a soup with 150 g of meat or fish a serving,dinner,hob,pot,,yes,15,25,25,0,0,40,,4
 prinsesstarta,Prinsesstårta,Desserts,dessert,,category,filed under Desserts,,oven hob,oven rolling-pin,22 cm tin,,60,30,30,120,120,210,cooling the sponge; chilling the pastry cream,12
 toast-skagen,Toast Skagen,Appetizers,starter,,category,filed under Appetizers,,hob,frying-pan,,yes,15,5,5,0,0,20,,4
@@ -487,7 +487,7 @@ sarmale,Sarmale,Dinner,main,,title,"""sarmale"" is a main course",dinner,hob,pot
 mici,Mici,Dinner,main,,ingredients,"167 g of meat, fish or tofu a serving",dinner,grill,grill,,,30,15,15,480,480,525,,6
 khachapuri,Adjaruli Khachapuri,Baking,bread,,override,a cheese-filled bread,,oven,oven,,,90,20,20,60,60,170,,4
 khinkali,Khinkali,Dinner,main,,title,"""khinkali"" is a main course",dinner,hob,pot rolling-pin,,yes,60,15,15,70,70,145,,6
-lobio,Lobio,Dinner,main,yes,category,an unfamiliar name and no nutrition figures,,hob,pot,,yes,15,100,125,480,480,595,,6
+lobio,Lobio,Dinner,main,,override,400 g of kidney beans for six stewed and eaten with cornbread: the beans are the meal,dinner,hob,pot,,yes,15,100,125,480,480,595,,6
 greek-lemon-potatoes,Greek Lemon Potatoes,Dinner,side,,title,"""greek lemon potatoes"" is a side dish",,oven,oven roasting-tin,,yes,15,70,70,0,0,85,,6
 dolmades,Dolmades,Appetizers,starter,,category,filed under Appetizers,,hob,pot,,yes,45,45,45,0,0,90,cooling to room temperature,8
 greek-yogurt-honey,Greek Yoghurt with Honey and Walnuts,Breakfast,breakfast,,category,filed under Breakfast,breakfast,oven hob,oven frying-pan,,yes,5,5,5,0,0,10,,2
@@ -510,7 +510,7 @@ harees,Harees,Dinner,main,,ingredients,"117 g of meat, fish or tofu a serving",d
 knafeh-nabulsi,Knafeh Nabulsi,Desserts,dessert,,category,filed under Desserts,,oven,oven,28 cm round tin,,25,30,30,20,140,75,cooling completely,8
 msemen,Msemen,Breakfast,bread,,title,a bread by name,breakfast,hob,frying-pan,,yes,60,20,20,45,45,125,,8
 moroccan-mint-tea,Moroccan Mint Tea,Drinks,drink,,category,filed under Drinks,,hob,pot,,yes,5,10,10,0,0,15,,4
-molokhia,Molokhia,Dinner,main,yes,category,an unfamiliar name and no nutrition figures,,grill hob,pot grill,,,15,70,70,0,0,85,,6
+molokhia,Molokhia,Dinner,main,,override,a whole jointed chicken cooked in the stew and served over rice,dinner,grill hob,pot grill,,,15,70,70,0,0,85,,6
 brik,Tunisian Brik,Appetizers,starter,,category,filed under Appetizers,,deep-fry hob,deep-fry,,yes,20,10,10,0,0,30,,4
 shakshuka-tunisian,Merguez Shakshuka,Breakfast,breakfast,,category,filed under Breakfast,breakfast,deep-fry hob,frying-pan deep-fry,,,15,50,55,0,0,65,,4
 croquetas,Jamón Croquetas,Appetizers,starter,,category,filed under Appetizers,,deep-fry hob,frying-pan deep-fry,,,40,20,20,530,530,590,,20
@@ -562,7 +562,7 @@ pepper-soup,Nigerian Pepper Soup,Dinner,main,,ingredients,a soup with 167 g of m
 waakye,Waakye,Lunch,light,,category,"filed under Lunch, and nothing in the name or the figures makes it a full main",lunch,,,,,20,80,80,480,480,580,,6
 kelewele,Kelewele,Appetizers,starter,,category,filed under Appetizers,,deep-fry hob,deep-fry,,yes,15,15,15,20,20,50,,4
 nyama-choma,Nyama Choma,Dinner,main,,ingredients,"250 g of meat, fish or tofu a serving",dinner,grill,grill,,,20,60,60,75,75,155,,6
-ugali-sukuma,Ugali and Sukuma Wiki,Dinner,main,yes,category,"an unfamiliar name (14 g protein, 563 kcal a serving)",,hob,frying-pan,,yes,15,25,25,0,0,40,,4
+ugali-sukuma,Ugali and Sukuma Wiki,Dinner,side,,override,"maize meal and greens whose suggested pairings are grilled meat, a meat stew or beans: the starch and greens that go beside the main",,hob,frying-pan,,yes,15,25,25,0,0,40,,4
 bunny-chow,Bunny Chow,Lunch,light,,category,"filed under Lunch, and nothing in the name or the figures makes it a full main",lunch,,,,,25,148,148,15,15,188,,4
 malva-pudding,Malva Pudding,Desserts,dessert,,category,filed under Desserts,,oven hob,oven baking-dish skewers,30 cm baking dish,yes,15,45,45,20,20,80,,8
 lamingtons,Lamingtons,Baking,dessert,,category,a sweet bake filed under Baking,,oven,oven skewers,30 cm tin,,40,30,30,660,660,730,cooling completely,16
@@ -727,7 +727,7 @@ roast-goose,Roast Goose,Holiday Specials,main,,title,named for its protein,dinne
 mince-pies,Mince Pies,Holiday Specials,main,,title,"""mince pies"" is a main course",dinner,oven,oven cake-tin blender,,yes,40,22,22,1485,1485,1547,,12
 christmas-pudding,Christmas Pudding,Holiday Specials,dessert,,title,a sweet dish by name,,oven steam hob,oven,,,40,360,360,480,480,880,,12
 bread-sauce,Bread Sauce,Holiday Specials,sauce,,title,"the name ends ""sauce""",,hob,,,,10,25,25,30,30,65,,8
-latkes,Potato Latkes,Holiday Specials,main,yes,category,an unfamiliar name and no nutrition figures,,oven hob,oven frying-pan,,yes,25,25,25,0,0,50,,6
+latkes,Potato Latkes,Holiday Specials,side,,override,potato pancakes served with apple sauce or smoked salmon: an accompaniment or small plate,,oven hob,oven frying-pan,,yes,25,25,25,0,0,50,,6
 sufganiyot,Sufganiyot,Holiday Specials,dessert,,title,a sweet dish by name,,oven deep-fry hob,oven deep-fry rolling-pin,,yes,35,20,20,135,135,190,,16
 galette-des-rois,Galette des Rois,Holiday Specials,dessert,,title,a sweet dish by name,,oven,oven,,,40,40,40,90,90,170,,8
 buche-de-noel,Bûche de Noël,Holiday Specials,dessert,,title,a sweet dish by name,,oven,oven rolling-pin,,,60,15,15,220,220,295,,10
@@ -767,7 +767,7 @@ kale-caesar,Kale Caesar Salad,Healthy,light,,override,"a light meal: a grain or 
 farro-salad,Farro and Roasted Vegetable Salad,Healthy,light,,override,a light meal,lunch,oven,oven,,,20,40,40,20,20,80,,6
 nasu-dengaku,Nasu Dengaku,Healthy,side,,override,a side dish: served beside a main course in its own cuisine,,oven grill hob,oven grill,,,10,25,25,0,0,35,,4
 black-bean-soup,Cuban Black Bean Soup,Healthy,main,,nutrition,a soup with 21 g protein and 449 kcal a serving: a meal in a bowl,dinner,hob,frying-pan pot,,,20,60,60,480,480,560,,6
-stuffed-peppers,Greek Stuffed Peppers,Healthy,side,yes,category,a stuffed vegetable: a vegetarian main or a side?,,oven,oven,,,25,50,50,0,0,75,,6
+stuffed-peppers,Greek Stuffed Peppers,Healthy,main,,override,"six stuffed peppers with rice, feta and pine nuts, served with salad and flatbread as a vegetarian meal",dinner,oven,oven,,,25,50,50,0,0,75,,6
 beetroot-feta-salad,"Beetroot, Orange and Feta Salad",Healthy,light,,override,"a light meal: a grain or noodle salad, soup or filled toast for lunch",lunch,oven,oven skewers,,,20,45,45,0,0,65,,4
 sweet-potato-black-bean-tacos,Sweet Potato and Black Bean Tacos,Healthy,main,,title,"""sweet potato and black bean tacos"" is a main course",dinner,oven hob,oven,,,20,30,30,0,0,50,,4
 moroccan-carrot-salad,Moroccan Carrot Salad,Healthy,side,,nutrition,a salad with 2 g protein and 206 kcal a serving,,hob,,,,15,12,12,60,60,87,,6
@@ -784,7 +784,7 @@ smashed-chickpea-sandwich,Smashed Chickpea Sandwich,Quick Meals,light,,title,"a 
 garlic-mushroom-toast,Garlic Mushroom Toast,Quick Meals,light,,override,"a light meal: a grain or noodle salad, soup or filled toast for lunch",lunch,grill hob,frying-pan grill,,yes,8,12,12,0,0,20,,2
 prawn-tacos,Chilli Prawn Tacos,Quick Meals,main,,title,"""chilli prawn tacos"" is a main course",dinner,hob,frying-pan,,yes,15,8,8,0,0,23,,4
 scallion-oil-noodles,Scallion Oil Noodles,Quick Meals,light,,override,a light meal,lunch,hob,frying-pan,,,10,20,20,0,0,30,,4
-lecso,Lecsó,Dinner,main,yes,category,"an unfamiliar name (6 g protein, 292 kcal a serving)",,hob,frying-pan,,yes,15,40,40,0,0,55,,4
+lecso,Lecsó,Dinner,light,,override,"a pepper and tomato stew with 6 g protein a serving, served with bread or a fried egg on top: a light supper",lunch,hob,frying-pan,,yes,15,40,40,0,0,55,,4
 karjalanpaisti,Karelian Hot Pot,Dinner,main,,title,"""karelian hot pot"" is a main course",dinner,oven hob,oven pot,,yes,25,210,210,0,0,235,,6
 mamaliga,Mămăligă,Dinner,side,,override,a side dish: served beside a main course in its own cuisine,,hob,frying-pan,,yes,10,35,35,0,0,45,,6
 kjottkaker,Kjøttkaker,Dinner,main,,ingredients,"175 g of meat, fish or tofu a serving",dinner,hob,frying-pan,,yes,25,35,35,0,0,60,,4
@@ -797,7 +797,7 @@ chana-chaat,Chana Chaat,Appetizers,starter,,category,filed under Appetizers,,no-
 vegan-shepherds-pie,Lentil Shepherd's Pie,Dinner,main,,title,"""lentil shepherd's pie"" is a main course",dinner,oven hob,oven frying-pan,,yes,30,90,90,0,0,120,,6
 mushroom-stroganoff,Mushroom Stroganoff,Dinner,main,,title,"""mushroom stroganoff"" is a main course",dinner,hob,frying-pan,,,15,25,25,0,0,40,,4
 aubergine-parmigiana,Griddled Aubergine Parmigiana,Dinner,main,,title,"""griddled aubergine parmigiana"" is a main course",dinner,oven grill,oven grill,33 cm dish,,35,60,80,105,105,200,,6
-coconut-dal,Coconut Dal,Dinner,side,yes,category,"a side-dish name with a protein in it (""Coconut Dal"")",,hob,,,,15,35,35,0,0,50,,4
+coconut-dal,Coconut Dal,Dinner,main,,override,"300 g of red lentils for four, served over rice or with roti as the centre of the meal",dinner,hob,,,,15,35,35,0,0,50,,4
 jackfruit-tacos,Pulled Jackfruit Tacos,Dinner,main,,title,"""pulled jackfruit tacos"" is a main course",dinner,grill hob,frying-pan grill,,yes,20,30,30,0,0,50,,4
 vegan-mac,Butternut Mac and Cheese,Dinner,main,,title,"""butternut mac and cheese"" is a main course",dinner,oven hob,oven blender,33 cm dish,,20,35,35,0,0,55,,6
 tofu-katsu-curry,Tofu Katsu Curry,Dinner,main,,title,"""tofu katsu curry"" is a main course",dinner,oven hob,oven frying-pan,,yes,25,60,65,30,30,115,,4
@@ -824,7 +824,7 @@ kibbeh-labaniyeh,Kibbeh Labaniyeh,Dinner,main,,override,a main course: the dish 
 shish-barak,Shish Barak,Dinner,main,,nutrition,32 g protein and 575 kcal a serving,dinner,oven hob,oven rolling-pin,,,70,35,35,0,0,105,,6
 sayadieh,Sayadieh,Dinner,main,,ingredients,"167 g of meat, fish or tofu a serving",dinner,hob,,,,30,55,55,0,0,85,,6
 samke-harra,Samke Harra,Dinner,main,,ingredients,"250 g of meat, fish or tofu a serving",dinner,oven,oven,,,30,40,40,0,0,70,,6
-sfiha-baalbakieh,Sfiha Baalbakieh,Dinner,main,yes,category,"an unfamiliar name (18 g protein, 445 kcal a serving)",,oven,oven,,,45,20,20,60,60,125,,8
+sfiha-baalbakieh,Sfiha Baalbakieh,Dinner,main,,override,"small open meat pies on a yeast dough, 500 g of lamb for eight, served with yoghurt and pickles as the meal",dinner,oven,oven,,,45,20,20,60,60,125,,8
 arayes,Arayes,Quick Meals,main,,title,"""arayes"" is a main course",dinner,grill hob,frying-pan grill,,,15,15,15,0,0,30,,4
 riz-a-djaj,Riz a Djaj,Dinner,main,,ingredients,"238 g of meat, fish or tofu a serving",dinner,hob,pot,,yes,25,70,70,0,0,95,,8
 djaj-mhammar,Djaj Mhammar,Dinner,main,,ingredients,"250 g of meat, fish or tofu a serving",dinner,oven,oven roasting-tin,,yes,20,65,65,0,0,85,,6
@@ -858,13 +858,13 @@ betengan-mekhalel,Betengan Mekhalel,Appetizers,starter,,category,filed under App
 batates-mohammara,Batates Mohammara,Appetizers,starter,,category,filed under Appetizers,,oven,oven,,,15,35,35,0,0,50,,6
 dukkah,Dukkah,Appetizers,condiment,,title,"""dukkah"" is a condiment, dressing, rub or preserve",,hob,,,,10,12,12,0,0,22,,12
 bamia-masreya,Bamia Masreya,Dinner,main,,ingredients,"83 g of meat, fish or tofu a serving",dinner,hob,,,,20,75,75,0,0,95,,6
-torly,Torly,Dinner,main,yes,category,"an unfamiliar name (6 g protein, 315 kcal a serving)",,oven,oven,,,25,70,70,0,0,95,,6
-roz-mermah,Roz Mermah,Dinner,main,yes,category,"an unfamiliar name (9 g protein, 368 kcal a serving)",,hob,frying-pan,,yes,10,25,25,0,0,35,,6
+torly,Torly,Dinner,main,,override,"a vegetarian dish of roasted vegetables in tomato sauce for six, served with bread or rice as the meal",dinner,oven,oven,,,25,70,70,0,0,95,,6
+roz-mermah,Roz Mermah,Dinner,side,,override,vermicelli rice described in the recipe as the starch that goes under everything else,,hob,frying-pan,,yes,10,25,25,0,0,35,,6
 kishk-masri,Kishk Masri,Lunch,light,,category,"filed under Lunch, and nothing in the name or the figures makes it a full main",lunch,hob,frying-pan,,yes,15,30,30,0,0,45,,4
 hawawshi,Hawawshi,Dinner,main,,title,"""hawawshi"" is a main course",dinner,oven,oven,,,25,25,25,0,0,50,,4
 macarona-bechamel,Macarona Bechamel,Dinner,main,,override,a main course: the dish is the centre of the meal in its own cuisine,dinner,oven,oven,,,35,95,95,15,15,145,,8
 fattah,Fattah,Dinner,main,,override,a main course: the dish is the centre of the meal in its own cuisine,dinner,,,,,30,120,120,0,0,150,,8
-mahshi-cromb,Mahshi Cromb,Dinner,main,yes,category,"an unfamiliar name (9 g protein, 451 kcal a serving)",,hob,pot,,yes,55,65,65,15,15,135,,6
+mahshi-cromb,Mahshi Cromb,Dinner,main,,override,cabbage leaves rolled round a rice and herb filling for six: a vegetarian stuffed dish served with tahini as the meal,dinner,hob,pot,,yes,55,65,65,15,15,135,,6
 kofta-masreya,Kofta Masreya,Dinner,main,,title,named for its protein,dinner,grill,grill skewers,,,20,25,25,30,30,75,,6
 kebda-eskandarani,Kebda Eskandarani,Quick Meals,main,,ingredients,"150 g of meat, fish or tofu a serving",dinner,hob,frying-pan,,yes,15,12,12,0,0,27,,4
 sayadeya-masreya,Sayadeya Masreya,Dinner,main,,ingredients,"167 g of meat, fish or tofu a serving",dinner,hob,,,,30,55,55,0,0,85,,6
@@ -874,7 +874,7 @@ mombar,Mombar,Dinner,main,,override,a main course: the dish is the centre of the
 renga,Renga,Appetizers,starter,,category,filed under Appetizers,,no-cook,,,,20,0,0,35,35,55,,6
 goulash-masri,Goulash Masri,Dinner,main,,ingredients,"88 g of meat, fish or tofu a serving",dinner,oven hob,oven,22 cm tin,,30,75,75,0,0,105,,8
 aish-baladi,Aish Baladi,Baking,dessert,,category,a sweet bake filed under Baking,,oven,oven,,,30,15,20,120,120,165,,8
-eish-merahrah,Eish Merahrah,Baking,bread,yes,category,a bake with no sugar in it: a bread or a savoury bake?,,oven,oven,,,30,20,20,135,135,185,,6
+eish-merahrah,Eish Merahrah,Baking,bread,,override,a flat wholemeal loaf: described as a bread,,oven,oven,,,30,20,20,135,135,185,,6
 feteer-meshaltet,Feteer Meshaltet,Baking,dessert,,category,a sweet bake filed under Baking,,oven,oven,,,45,25,25,30,30,100,,8
 gebna-domiati,Gebna Domiati Salad,Appetizers,starter,,category,filed under Appetizers,,no-cook,,,,15,0,0,0,20,15,,6
 batarekh,Batarekh,Appetizers,starter,,category,filed under Appetizers,,no-cook,,,,15,0,0,30,30,45,,8
@@ -957,7 +957,7 @@ entrecote-marchand-de-vin,Entrecôte Marchand de Vin,Dinner,main,,nutrition,40 g
 cordon-bleu,Cordon Bleu,Dinner,main,,override,a main course: the dish is the centre of the meal in its own cuisine,dinner,,,,,30,20,20,30,30,80,,4
 rognons-a-la-moutarde,Rognons à la Moutarde,Dinner,main,,nutrition,33 g protein and 636 kcal a serving,dinner,hob,frying-pan,,yes,15,15,15,20,20,50,,4
 foie-de-veau,Foie de Veau Lyonnaise,Quick Meals,main,,ingredients,"150 g of meat, fish or tofu a serving",dinner,hob,,,,10,15,15,0,0,25,,4
-boudin-noir-pommes,Boudin Noir aux Pommes,Quick Meals,side,yes,category,"a side-dish name with a protein in it (""Boudin Noir aux Pommes"")",,hob,frying-pan,,yes,10,20,20,0,0,30,,4
+boudin-noir-pommes,Boudin Noir aux Pommes,Quick Meals,main,,override,"four black pudding sausages, about 500 g, cooked with apples and served with mash",dinner,hob,frying-pan,,yes,10,20,20,0,0,30,,4
 endives-au-jambon,Endives au Jambon,Dinner,main,,nutrition,27 g protein and 601 kcal a serving,dinner,oven hob,oven frying-pan,,yes,20,65,65,0,0,85,,4
 quenelles-de-brochet,Quenelles de Brochet,Dinner,main,,ingredients,"83 g of meat, fish or tofu a serving",dinner,oven hob,oven frying-pan blender,,yes,50,35,35,60,60,145,chilling until cold,6
 bouchee-a-la-reine,Bouchée à la Reine,Dinner,main,,ingredients,"92 g of meat, fish or tofu a serving",dinner,oven,oven,,,35,40,40,0,0,75,,6
@@ -972,7 +972,7 @@ piperade,Pipérade,Lunch,light,,category,"filed under Lunch, and nothing in the 
 gratin-de-courgettes,Gratin de Courgettes,Dinner,side,,override,a side dish: served beside a main course in its own cuisine,,oven,oven,,,20,85,85,0,0,105,,6
 gratin-de-macaronis,Gratin de Macaronis,Dinner,main,,nutrition,25 g protein and 636 kcal a serving,dinner,oven,oven,,,20,40,40,0,0,60,,6
 salade-frisee,Frisée aux Lardons,Lunch,light,,category,"filed under Lunch, and nothing in the name or the figures makes it a full main",lunch,hob,,,,15,15,15,0,0,30,,4
-omelette-aux-fines-herbes,Omelette aux Fines Herbes,Quick Meals,main,yes,category,an unfamiliar name and no nutrition figures,,hob,frying-pan rolling-pin,20 cm non-stick pan,yes,10,5,5,0,0,15,,2
+omelette-aux-fines-herbes,Omelette aux Fines Herbes,Quick Meals,light,,override,"three eggs for two, served with salad and a baguette: a light meal",breakfast lunch,hob,frying-pan rolling-pin,20 cm non-stick pan,yes,10,5,5,0,0,15,,2
 pain-de-campagne,Pain de Campagne,Baking,bread,,title,a bread by name,,oven hob,oven pot,,yes,40,45,45,930,930,1015,cooling completely,10
 fougasse,Fougasse,Baking,bread,,title,a bread by name,,oven,oven,,,30,25,25,90,90,145,,8
 pain-aux-noix,Pain aux Noix,Baking,bread,,title,"""pain"" is a bread",,oven,oven,,,30,40,40,135,135,205,cooling completely,10
@@ -1048,7 +1048,7 @@ cotoletta-alla-milanese,Cotoletta alla Milanese,Dinner,main,,title,"""cotoletta 
 cacciucco,Cacciucco,Dinner,main,,title,"""cacciucco"" is a main course",dinner,hob,pot,,yes,35,60,60,0,0,95,,6
 brodetto,Brodetto all'Anconetana,Dinner,main,,ingredients,"233 g of meat, fish or tofu a serving",dinner,hob,pot,,yes,30,45,45,0,0,75,,6
 bagnun,Bagnùn di Acciughe,Lunch,main,,nutrition,48 g protein and 583 kcal a serving,lunch dinner,hob,pot,,yes,20,30,30,0,0,50,,4
-sarde-a-beccafico,Sarde a Beccafico,Dinner,main,yes,category,an unfamiliar name and no nutrition figures,,oven hob,oven baking-dish rolling-pin,,yes,35,20,20,0,0,55,,4
+sarde-a-beccafico,Sarde a Beccafico,Dinner,main,,override,"16 stuffed sardines for four, served with a salad and bread as the meal",dinner,oven hob,oven baking-dish rolling-pin,,yes,35,20,20,0,0,55,,4
 parmigiana-bianca,Parmigiana Bianca,Dinner,main,,nutrition,29 g protein and 609 kcal a serving,dinner,oven grill,oven baking-dish grill,,yes,35,55,55,55,55,145,,6
 peperonata,Peperonata,Dinner,side,,title,"""peperonata"" is a side dish",,hob,frying-pan,,yes,20,50,50,0,0,70,,6
 farinata,Farinata,Appetizers,starter,,category,filed under Appetizers,,oven,oven,,,15,20,20,240,240,275,,6
@@ -1111,7 +1111,7 @@ honey-roast-parsnips,Honey Roast Parsnips,Dinner,side,,title,"""honey roast pars
 pease-pudding,Pease Pudding,Dinner,dessert,,title,a sweet dish by name,,oven hob,oven,,,15,120,120,720,720,855,,8
 rumbledethumps,Rumbledethumps,Dinner,side,,title,"""rumbledethumps"" is a side dish",,oven hob,oven frying-pan baking-dish,,,20,60,65,0,0,80,,6
 champ,Champ,Dinner,side,,title,"""champ"" is a side dish",,hob,,,,15,25,25,0,0,40,,4
-pan-haggerty,Pan Haggerty,Dinner,main,yes,category,"an unfamiliar name (14 g protein, 480 kcal a serving)",,grill hob,frying-pan grill,24 cm frying pan,yes,20,45,45,0,0,65,,4
+pan-haggerty,Pan Haggerty,Dinner,light,,override,"potato, onion and cheese, served with cold ham or a salad: a light supper",lunch,grill hob,frying-pan grill,24 cm frying pan,yes,20,45,45,0,0,65,,4
 laverbread-and-bacon,Laverbread with Bacon,Breakfast,breakfast,,category,filed under Breakfast,breakfast,hob,,,,10,15,15,0,0,25,,4
 stuffed-marrow,Stuffed Marrow,Dinner,main,,ingredients,a stuffed vegetable with a meat or protein filling,dinner,oven,oven,,,25,60,60,30,30,115,,4
 watercress-soup,Watercress Soup,Lunch,light,,nutrition,a soup with 10 g protein and 332 kcal a serving,lunch,hob,,,,15,25,25,0,0,40,,4
@@ -1227,7 +1227,7 @@ veg-momos,Vegetable Momos,Appetizers,starter,,category,filed under Appetizers,,o
 jjajangmyeon,Jjajangmyeon,Dinner,main,,override,a main course: the dish is the centre of the meal in its own cuisine,dinner,hob,wok,,,20,30,30,0,0,50,,4
 kimchi-fried-rice,Kimchi Fried Rice,Quick Meals,side,,title,"""kimchi fried rice"" is a side dish",,hob,wok,,,10,15,15,0,0,25,,2
 budae-jjigae,Budae Jjigae,Dinner,main,,override,a noodle or rice soup eaten as a meal in its own cuisine,dinner,hob,,,,20,25,25,0,0,45,,4
-doenjang-jjigae,Doenjang Jjigae,Dinner,light,yes,category,a soup with no nutrition figures to say whether it is a meal,,hob,pot,,yes,15,25,25,0,0,40,,4
+doenjang-jjigae,Doenjang Jjigae,Dinner,light,,override,"a soybean paste stew with 200 g of tofu for four, served with rice, kimchi and a separate grilled fish: part of a spread",lunch,hob,pot,,yes,15,25,25,0,0,40,,4
 gyeranjjim,Gyeranjjim,Appetizers,starter,,category,filed under Appetizers,,hob,saucepan pot,,,5,15,15,0,0,20,,4
 bossam,Bossam,Dinner,main,,ingredients,"200 g of meat, fish or tofu a serving",dinner,,skewers,,,20,105,105,15,15,140,,6
 hotteok,Hotteok,Desserts,dessert,,category,filed under Desserts,,hob,frying-pan,,yes,30,20,20,60,60,110,,6
@@ -1291,7 +1291,7 @@ bhel-puri,Bhel Puri,Appetizers,starter,,category,filed under Appetizers,,oven,ov
 scrambled-eggs,Perfect Scrambled Eggs,Breakfast,breakfast,,category,filed under Breakfast,breakfast,hob,frying-pan,,yes,5,6,6,0,0,11,,2
 banana-pancakes,Banana Pancakes,Breakfast,breakfast,,category,filed under Breakfast,breakfast,oven hob,oven frying-pan,,yes,10,15,15,0,0,25,,4
 corn-chowder,Corn Chowder,Lunch,main,,nutrition,a soup with 18 g protein and 612 kcal a serving: a meal in a bowl,lunch dinner,hob,frying-pan pot,,,15,35,40,0,0,50,,4
-loaded-baked-potato,Loaded Baked Potato,Dinner,side,yes,category,"a side-dish name with a protein in it (""Loaded Baked Potato"")",,oven,oven skewers,,,10,75,75,0,0,85,,4
+loaded-baked-potato,Loaded Baked Potato,Dinner,light,,override,"a baked potato with bacon, cheese and soured cream, served with beans, coleslaw or salad: a light meal",lunch,oven,oven skewers,,,10,75,75,0,0,85,,4
 chicken-caesar-wrap,Chicken Caesar Wrap,Lunch,light,,title,"a sandwich, wrap or filled bread",lunch,grill hob,grill,,,15,12,12,0,0,27,,4
 beef-tacos,Ground Beef Tacos,Quick Meals,main,,title,"""ground beef tacos"" is a main course",dinner,hob,frying-pan,,yes,10,15,15,0,0,25,,4
 spaghetti-meatballs,Spaghetti and Meatballs,Dinner,main,,title,"""spaghetti"" names a pasta dish",dinner,hob,frying-pan,,,25,40,40,15,15,80,,4
@@ -1319,7 +1319,7 @@ anticuchos,Anticuchos,Appetizers,starter,,category,filed under Appetizers,,grill
 jerk-pork,Jerk Pork,Dinner,main,,title,named for its protein,dinner,grill,grill,,,25,60,60,360,360,445,,6
 jamaican-patties,Jamaican Beef Patties,Lunch,main,,title,named for its protein,lunch dinner,oven,oven,,,40,30,30,105,105,175,,8
 puff-puff,Puff Puff,Desserts,dessert,,category,filed under Desserts,,deep-fry hob,deep-fry,,yes,20,20,20,90,90,130,,8
-shiro-wat,Shiro Wat,Dinner,main,yes,category,"an unfamiliar name (9 g protein, 297 kcal a serving)",,hob,,,,10,25,25,0,0,35,,4
+shiro-wat,Shiro Wat,Dinner,main,,override,"150 g of chickpea flour for four cooked into a spiced stew, served with injera as the meal",dinner,hob,,,,10,25,25,0,0,35,,4
 misir-wat,Misir Wat,Dinner,main,,nutrition,a bean or lentil dish with 17 g protein and 439 kcal a serving,dinner,hob,,,,15,40,40,0,0,55,,4
 milk-tart,Milk Tart,Desserts,dessert,,category,filed under Desserts,,oven hob,oven cake-tin,24 cm tart tin,yes,25,35,35,195,195,255,cooling completely,8
 mandazi,Mandazi,Desserts,dessert,,category,filed under Desserts,,oven hob,oven rolling-pin,,,25,20,20,20,20,65,,10
@@ -1327,7 +1327,7 @@ baleadas,Baleadas,Breakfast,breakfast,,category,filed under Breakfast,breakfast,
 knedliky,Czech Dumplings,Dinner,side,,title,"""czech dumplings"" is a side dish",,hob,frying-pan skewers,,,25,30,30,60,60,115,,6
 tafelspitz,Tafelspitz,Dinner,main,,ingredients,"250 g of meat, fish or tofu a serving",dinner,,skewers,,,20,150,150,0,0,170,,6
 stoofvlees,Stoofvlees,Dinner,main,,ingredients,"200 g of meat, fish or tofu a serving",dinner,hob,frying-pan,,yes,25,150,150,0,0,175,,6
-stamppot,Stamppot,Dinner,side,yes,category,"a side-dish name with a protein in it (""Stamppot"")",,hob,frying-pan,,yes,20,30,30,0,0,50,,4
+stamppot,Stamppot,Dinner,main,,override,"mashed potato and kale with 400 g of smoked sausage laid across, for four",dinner,hob,frying-pan,,yes,20,30,30,0,0,50,,4
 raggmunk,Raggmunk,Dinner,main,,override,a main course: the dish is the centre of the meal in its own cuisine,dinner,hob,frying-pan,,yes,20,20,20,0,0,40,,4
 mansaf,Mansaf,Dinner,main,,title,"""mansaf"" is a main course",dinner,hob,frying-pan pot,,,30,120,120,0,0,150,,6
 fattet-hummus,Fattet Hummus,Breakfast,breakfast,,category,filed under Breakfast,breakfast,oven hob,oven frying-pan,,,20,15,15,0,0,35,,4
@@ -1346,7 +1346,7 @@ bun-rieu,Bún Riêu,Lunch,main,,title,"""bún"" names a main course",lunch dinne
 goi-ga,Gỏi Gà,Lunch,light,,category,"filed under Lunch, and nothing in the name or the figures makes it a full main",lunch,hob,,,,25,15,15,35,35,75,,4
 paneer-tikka-masala,Paneer Tikka Masala,Dinner,main,,title,"""paneer tikka masala"" is a main course",dinner,grill hob,grill,,,25,30,30,35,35,90,,4
 dal-palak,Dal Palak,Dinner,main,,nutrition,a bean or lentil dish with 15 g protein and 336 kcal a serving,dinner,hob,,,,15,30,30,0,0,45,,4
-veg-kolhapuri,Veg Kolhapuri,Dinner,main,yes,category,"an unfamiliar name (6 g protein, 387 kcal a serving)",,hob,,,,25,50,50,0,0,75,,4
+veg-kolhapuri,Veg Kolhapuri,Dinner,main,,override,a vegetable curry for four served with bread or rice as the centre of the meal,dinner,hob,,,,25,50,50,0,0,75,,4
 tawa-pulao,Tawa Pulao,Dinner,side,,title,"""tawa pulao"" is a side dish",,hob,frying-pan,,yes,15,20,20,0,0,35,,4
 masala-pav,Masala Pav,Appetizers,starter,,category,filed under Appetizers,,grill hob,frying-pan grill,,yes,10,15,15,0,0,25,,4
 dabeli,Dabeli,Appetizers,starter,,category,filed under Appetizers,,grill hob,frying-pan grill,,yes,25,20,20,0,0,45,,4
@@ -1440,7 +1440,7 @@ crepes,Crêpes,Breakfast,breakfast,,category,filed under Breakfast,breakfast,hob
 chicken-and-rice-soup,Chicken and Rice Soup,Dinner,main,,nutrition,a soup with 34 g protein and 413 kcal a serving: a meal in a bowl,dinner,hob,pot,,yes,15,45,45,0,0,60,,6
 cream-of-mushroom-soup,Cream of Mushroom Soup,Lunch,light,,category,"a soup filed under Lunch (12 g protein, 365 kcal)",lunch,hob,pot blender,,yes,10,30,30,0,0,40,,4
 taco-soup,Taco Soup,Dinner,main,,ingredients,a soup with 83 g of meat or fish a serving,dinner,hob,pot,,yes,10,30,30,0,0,40,,6
-ham-and-bean-soup,Ham and Bean Soup,Dinner,light,yes,category,a soup with no nutrition figures to say whether it is a meal,,hob,pot,,yes,20,110,110,480,480,610,,6
+ham-and-bean-soup,Ham and Bean Soup,Dinner,main,,override,"450 g of beans and a smoked ham hock for six, served with cornbread as the meal",dinner,hob,pot,,yes,20,110,110,480,480,610,,6
 cabbage-soup,Cabbage Soup,Healthy,light,,nutrition,a soup with 9 g protein and 198 kcal a serving,lunch,hob,pot,,yes,15,35,35,0,0,50,,6
 macaroni-salad,Macaroni Salad,Lunch,light,,category,"a salad filed under Lunch (8 g protein, 400 kcal)",lunch,,,,,20,10,10,60,60,90,,8
 pasta-salad,Pasta Salad,Lunch,main,,title,"""pasta"" names a pasta dish",lunch dinner,,,,,20,10,10,15,15,45,,8
@@ -1721,7 +1721,7 @@ akara,Akara,Breakfast,breakfast,,category,filed under Breakfast,breakfast,hob,fr
 efo-riro,Efo Riro,Dinner,main,,ingredients,"117 g of meat, fish or tofu a serving",dinner,hob,frying-pan pot,,,25,65,70,0,0,90,,6
 chin-chin,Chin Chin,Appetizers,starter,,category,filed under Appetizers,,oven hob,oven frying-pan rolling-pin,,yes,40,25,25,20,20,85,cooling completely,12
 nigerian-meat-pie,Nigerian Meat Pie,Lunch,main,,title,"""nigerian meat pie"" is a main course",lunch dinner,oven hob,oven frying-pan,,yes,60,50,50,60,60,170,,8
-red-red,Red Red,Dinner,main,yes,category,an unfamiliar name and no nutrition figures,,hob,frying-pan pot,,,20,60,60,0,0,80,,4
+red-red,Red Red,Dinner,main,,override,300 g of black-eyed peas stewed for four and served with fried plantain,dinner,hob,frying-pan pot,,,20,60,60,0,0,80,,4
 shito,Shito,Appetizers,condiment,,title,"""shito"" is a condiment, dressing, rub or preserve",,hob,frying-pan,,yes,20,45,45,0,0,65,,24
 beef-tibs,Beef Tibs,Dinner,main,,title,named for its protein,dinner,hob,frying-pan,,yes,15,20,20,0,0,35,,4
 sosaties,Sosaties,Dinner,main,,ingredients,"167 g of meat, fish or tofu a serving",dinner,grill hob,saucepan grill skewers,,,30,25,25,480,480,535,,6
@@ -1731,7 +1731,7 @@ baghrir,Baghrir,Breakfast,breakfast,,category,filed under Breakfast,breakfast,ov
 thieboudienne,Thieboudienne,Dinner,main,,title,"""thieboudienne"" is a main course",dinner,hob,pot,,,50,90,90,0,0,140,,6
 poulet-yassa,Poulet Yassa,Dinner,main,,nutrition,64 g protein and 616 kcal a serving,dinner,grill hob,pot grill,,yes,20,55,55,240,240,315,,4
 mafe,Mafé,Dinner,main,,ingredients,"133 g of meat, fish or tofu a serving",dinner,hob,pot,,yes,20,115,115,0,0,135,,6
-githeri,Githeri,Dinner,main,yes,category,"an unfamiliar name (13 g protein, 323 kcal a serving)",,hob,pot,,yes,15,50,50,0,0,65,,6
+githeri,Githeri,Dinner,main,,override,"a stew of maize, beans and vegetables for six, described as filling and served with chapati",dinner,hob,pot,,yes,15,50,50,0,0,65,,6
 zereshk-polo-ba-morgh,Zereshk Polo ba Morgh,Dinner,main,,override,a main course: the dish is the centre of the meal in its own cuisine,dinner,steam hob,frying-pan pot,,,30,90,90,30,30,150,,6
 khoresh-gheimeh,Khoresh Gheimeh,Dinner,main,,title,"""khoresh gheimeh"" is a main course",dinner,hob,pot,,yes,20,120,120,0,0,140,,6
 persian-love-cake,Persian Love Cake,Baking,dessert,,category,a sweet bake filed under Baking,,oven,oven cake-tin skewers,23 cm round cake tin,yes,25,40,40,60,60,125,,12
@@ -1747,7 +1747,7 @@ kathi-roll,Kathi Roll,Lunch,main,,title,"""kathi roll"" is a main course",lunch 
 dum-aloo,Dum Aloo,Dinner,side,,title,"""dum aloo"" is a side dish",,hob,frying-pan,,yes,20,45,45,0,0,65,,4
 sarson-da-saag,Sarson da Saag with Makki di Roti,Dinner,main,,title,"""sarson da saag"" is a main course",dinner,grill hob,pot grill blender,,,40,70,70,0,0,110,,4
 dal-baati-churma,Dal Baati Churma,Dinner,main,,override,a main course: the dish is the centre of the meal in its own cuisine,dinner,oven hob,oven,,,60,80,80,60,60,200,,6
-kadhi-pakora,Kadhi Pakora,Dinner,main,yes,category,an unfamiliar name and no nutrition figures,,deep-fry hob,pot deep-fry,,,30,60,60,0,0,90,,4
+kadhi-pakora,Kadhi Pakora,Dinner,main,,override,"onion fritters in a yoghurt and gram flour curry for four, served with rice",dinner,deep-fry hob,pot deep-fry,,,30,60,60,0,0,90,,4
 lemon-rice,Lemon Rice,Lunch,side,,title,"""lemon rice"" is a side dish",,hob,frying-pan,,yes,10,15,15,0,0,25,,4
 mishti-doi,Mishti Doi,Desserts,dessert,,category,filed under Desserts,,hob,frying-pan ramekins,,,15,35,35,630,750,680,,6
 halwa-puri,Halwa Puri,Breakfast,breakfast,,category,filed under Breakfast,breakfast,deep-fry hob,frying-pan deep-fry,,,60,60,60,30,30,150,,8
@@ -1782,11 +1782,11 @@ chicken-nanban,Chicken Nanban,Dinner,main,,title,named for its protein,dinner,ho
 oyster-omelette,Taiwanese Oyster Omelette,Quick Meals,main,,title,"""taiwanese oyster omelette"" is a main course",breakfast dinner,hob,frying-pan,26 cm non-stick frying pan,,10,10,10,0,0,20,,2
 rosol,Rosół,Dinner,light,,override,"a light meal: a grain or noodle salad, soup or filled toast for lunch",lunch,hob,pot,,,20,150,150,0,0,170,,6
 kapusniak,Kapuśniak,Dinner,main,,ingredients,a soup with 100 g of meat or fish a serving,dinner,hob,frying-pan pot,,,20,75,75,0,0,95,,6
-rakott-krumpli,Rakott Krumpli,Dinner,main,yes,category,"an unfamiliar name (18 g protein, 509 kcal a serving)",,oven,oven baking-dish,30 cm baking dish,yes,30,75,75,0,0,105,,6
+rakott-krumpli,Rakott Krumpli,Dinner,main,,override,"potato, eggs, 250 g of smoked sausage and sour cream baked for six: described as a family supper",dinner,oven,oven baking-dish,30 cm baking dish,yes,30,75,75,0,0,105,,6
 bacalhau-com-natas,Bacalhau com Natas,Dinner,main,,override,a main course: the dish is the centre of the meal in its own cuisine,dinner,oven hob,oven frying-pan saucepan baking-dish,,,40,70,70,1440,1440,1550,,6
 ajvar,Ajvar,Appetizers,condiment,,title,"""ajvar"" is a condiment, dressing, rub or preserve",,oven steam hob,oven frying-pan food-processor,,yes,25,90,90,20,20,135,,8
 strukli,Štrukli,Dinner,main,,nutrition,21 g protein and 516 kcal a serving,dinner,oven,oven baking-dish rolling-pin,35 cm baking dish,yes,50,40,40,30,30,120,,6
-prebranac,Prebranac,Dinner,main,yes,category,"an unfamiliar name (7 g protein, 288 kcal a serving)",,oven hob,oven frying-pan pot baking-dish,,,20,150,150,480,480,650,,6
+prebranac,Prebranac,Dinner,main,,override,400 g of dried white beans baked for six and served with bread and salad as the meal,dinner,oven hob,oven frying-pan pot baking-dish,,,20,150,150,480,480,650,,6
 kjotsupa,Kjötsúpa,Dinner,main,,nutrition,a soup with 32 g protein and 578 kcal a serving: a meal in a bowl,dinner,hob,pot,,yes,25,95,95,0,0,120,,6
 plokkfiskur,Plokkfiskur,Dinner,main,,ingredients,"150 g of meat, fish or tofu a serving",dinner,hob,frying-pan,,yes,15,40,40,0,0,55,,4
 kleinur,Kleinur,Desserts,dessert,,category,filed under Desserts,,oven hob,oven pot rolling-pin,,yes,30,25,25,30,30,85,,12
@@ -2216,7 +2216,7 @@ lobster-thermidor,Lobster Thermidor,Dinner,main,,title,"""lobster thermidor"" is
 salmon-en-croute,Salmon en Croûte,Dinner,main,,title,named for its protein,dinner,oven,oven baking-tray rolling-pin,,yes,35,40,40,30,30,105,cooling completely,6
 hakka-chilli-chicken,Hakka Chilli Chicken,Dinner,main,,title,named for its protein,dinner,hob,wok,,yes,25,25,25,15,15,65,,4
 chicken-fricot,Chicken Fricot,Dinner,main,,title,named for its protein,dinner,hob,pot,,yes,20,65,65,0,0,85,,6
-hodge-podge,Hodge Podge,Dinner,main,yes,category,an unfamiliar name and no nutrition figures,,hob,saucepan,,yes,20,30,30,0,0,50,,6
+hodge-podge,Hodge Podge,Dinner,side,,override,"new potatoes, carrots and beans in cream, with poached salmon or baked ham suggested alongside",,hob,saucepan,,yes,20,30,30,0,0,50,,6
 stifado,Stifado,Dinner,main,,title,"""stifado"" is a main course",dinner,hob,pot,,yes,25,150,150,0,0,175,,6
 devilled-sausages,Devilled Sausages,Dinner,main,,title,named for its protein,dinner,deep-fry hob,frying-pan deep-fry,,,10,35,35,0,0,45,,4
 savoury-mince,Savoury Mince,Dinner,main,,title,named for its protein,dinner,deep-fry hob,frying-pan deep-fry,,,15,45,45,0,0,60,,4
@@ -2231,7 +2231,7 @@ ham-salad,Ham Salad,Lunch,light,,category,"a salad filed under Lunch (12 g prote
 tomato-sandwich,Tomato Sandwich,Quick Meals,light,,title,"a sandwich, wrap or filled bread",lunch,no-cook,,,,10,0,0,0,0,10,,2
 stuffed-pepper-soup,Stuffed Pepper Soup,Lunch,main,,ingredients,a soup with 83 g of meat or fish a serving,lunch dinner,hob,pot,,yes,15,45,45,0,0,60,,6
 portobello-burger,Portobello Burger,Lunch,main,,title,"""portobello burger"" is a main course",lunch dinner,grill hob,grill,,,15,12,12,30,30,57,,4
-stuffed-acorn-squash,Stuffed Acorn Squash,Healthy,side,yes,category,a stuffed vegetable: a vegetarian main or a side?,,oven hob,oven frying-pan saucepan,,,20,65,65,0,0,85,,4
+stuffed-acorn-squash,Stuffed Acorn Squash,Healthy,main,,override,"squash halves filled with quinoa, cranberries and pecans: the recipe calls it an autumn dinner",dinner,oven hob,oven frying-pan saucepan,,,20,65,65,0,0,85,,4
 cauliflower-pizza-crust,Cauliflower Pizza Crust,Healthy,basic,,title,"""cauliflower pizza crust"" is made to go into another dish",,oven steam microwave,oven baking-tray food-processor microwave,,yes,25,40,40,0,0,65,,4
 cocktail-sauce,Cocktail Sauce,Appetizers,sauce,,title,"the name ends ""sauce""",,no-cook,,,,5,0,0,30,30,35,,8
 tartar-sauce,Tartar Sauce,Appetizers,sauce,,title,"the name ends ""sauce""",,no-cook,,,,10,0,0,30,30,40,,8
@@ -2411,7 +2411,7 @@ spinach-and-feta-breakfast-wrap,Spinach and Feta Breakfast Wrap,Breakfast,breakf
 greek-yogurt-pancakes,Greek Yogurt Pancakes,Breakfast,breakfast,,category,filed under Breakfast,breakfast,oven hob,oven frying-pan,,yes,10,15,15,0,0,25,,4
 whole-wheat-pancakes,Whole Wheat Pancakes,Breakfast,breakfast,,category,filed under Breakfast,breakfast,oven hob,oven frying-pan,,yes,10,20,20,0,0,30,,4
 moong-dal-chilla,Moong Dal Chilla,Breakfast,breakfast,,category,filed under Breakfast,breakfast,hob,frying-pan,,yes,10,15,15,240,240,265,,4
-flaxseed-muffins,Flaxseed Muffins,Baking,bread,yes,category,a bake with no sugar in it: a bread or a savoury bake?,,oven,oven cake-tin,,yes,10,20,20,0,0,30,,6
+flaxseed-muffins,Flaxseed Muffins,Baking,breakfast,,override,"six flour-free muffins served with butter, yoghurt, a boiled egg or berries: a breakfast bake",breakfast,oven,oven cake-tin,,yes,10,20,20,0,0,30,,6
 cream-of-broccoli-soup,Cream of Broccoli Soup,Lunch,light,,nutrition,a soup with 7 g protein and 173 kcal a serving,lunch,hob,saucepan blender,,yes,10,25,25,0,0,35,,4
 chicken-vegetable-soup,Chicken Vegetable Soup,Lunch,main,,nutrition,a soup with 22 g protein and 181 kcal a serving: a meal in a bowl,lunch dinner,hob,pot,,yes,15,35,35,0,0,50,,6
 beef-vegetable-soup,Beef Vegetable Soup,Lunch,main,,nutrition,a soup with 21 g protein and 212 kcal a serving: a meal in a bowl,lunch dinner,hob,pot,,yes,15,70,70,0,0,85,,6
@@ -2463,13 +2463,13 @@ tuna-steaks-with-avocado-salsa,Tuna Steaks with Avocado Salsa,Dinner,main,,title
 cod-with-tomatoes-and-olives,Cod with Tomatoes and Olives,Dinner,main,,title,named for its protein,dinner,deep-fry hob,frying-pan deep-fry,,,10,20,20,0,0,30,,4
 halibut-with-lemon-caper-sauce,Halibut with Lemon Caper Sauce,Dinner,main,,title,named for its protein,dinner,hob,frying-pan,,yes,10,15,15,0,0,25,,4
 cauliflower-mac-and-cheese,Cauliflower Mac and Cheese,Dinner,main,,title,"""cauliflower mac and cheese"" is a main course",dinner,oven hob,oven frying-pan saucepan baking-dish,,,15,30,30,0,0,45,,6
-cauliflower-risotto,Cauliflower Risotto,Dinner,side,yes,category,a main-course name but 190 kcal and 9 g protein a serving,,deep-fry hob,frying-pan deep-fry,,,10,20,20,0,0,30,,4
+cauliflower-risotto,Cauliflower Risotto,Dinner,side,,override,"700 g of grated cauliflower with 190 kcal and 9 g protein a serving, with grilled chicken or fish suggested alongside",,deep-fry hob,frying-pan deep-fry,,,10,20,20,0,0,30,,4
 zucchini-noodles-with-pesto,Zucchini Noodles with Pesto,Quick Meals,side,,override,a side dish: served beside a main course in its own cuisine,,hob,frying-pan,,yes,10,5,5,0,0,15,,2
 eggplant-pizzas,Eggplant Pizzas,Dinner,main,,title,"""eggplant pizzas"" is a main course",dinner,oven,oven,,,15,20,20,0,0,35,,4
 cheesy-cauliflower-casserole,Cheesy Cauliflower Casserole,Dinner,main,,title,"""cheesy cauliflower casserole"" is a main course",dinner,oven hob,oven pot baking-tray baking-dish,,,15,30,30,0,0,45,,6
 roasted-asparagus-with-parmesan,Roasted Asparagus with Parmesan,Healthy,side,,title,"""roasted asparagus"" is a side dish",,oven,oven baking-tray,,yes,5,12,12,0,0,17,,4
 garlic-sauteed-spinach,Garlic Sautéed Spinach,Healthy,side,,title,"""garlic sautéed spinach"" is a side dish",,hob,frying-pan pot,,,5,6,6,0,0,11,,4
-stuffed-portobello-mushrooms,Stuffed Portobello Mushrooms,Dinner,side,yes,category,a stuffed vegetable: a vegetarian main or a side?,,oven hob,oven frying-pan baking-tray,,,15,25,25,0,0,40,,4
+stuffed-portobello-mushrooms,Stuffed Portobello Mushrooms,Dinner,light,,override,"four mushroom caps with ricotta and mozzarella, served with a salad or broccoli: a light meal",lunch,oven hob,oven frying-pan baking-tray,,,15,25,25,0,0,40,,4
 garlic-roasted-green-beans,Garlic Roasted Green Beans,Healthy,side,,title,"""garlic roasted green beans"" is a side dish with 2 g protein a serving",,oven,oven baking-tray,,yes,5,20,20,0,0,25,,4
 shirataki-noodle-stir-fry,Shirataki Noodle Stir-Fry,Dinner,main,,title,"""shirataki noodle stir-fry"" is a main course",dinner,hob,frying-pan,,yes,10,10,10,0,0,20,,2
 barley-risotto-with-mushrooms,Barley Risotto with Mushrooms,Dinner,main,,title,"""barley risotto"" is a main course",dinner,hob,,,,15,45,45,0,0,60,,4
@@ -2515,7 +2515,7 @@ spinach-and-white-bean-soup,Spinach and White Bean Soup,Lunch,light,,nutrition,a
 chicken-fajita-soup,Chicken Fajita Soup,Dinner,main,,ingredients,a soup with 100 g of meat or fish a serving,dinner,hob,pot,,yes,15,30,30,0,0,45,,6
 broccoli-spinach-soup,Broccoli Spinach Soup,Lunch,light,,nutrition,a soup with 7 g protein and 140 kcal a serving,lunch,hob,pot,,yes,10,20,20,0,0,30,,4
 hearty-chicken-and-kale-soup,Hearty Chicken and Kale Soup,Dinner,main,,nutrition,a soup with 27 g protein and 266 kcal a serving: a meal in a bowl,dinner,hob,pot,,yes,15,35,35,0,0,50,,6
-egg-roll-soup,Egg Roll Soup,Dinner,light,yes,category,"a soup between a light meal and a main (18 g protein, 194 kcal)",,hob,pot,,yes,10,20,20,0,0,30,,6
+egg-roll-soup,Egg Roll Soup,Dinner,main,,override,"450 g of turkey mince in a soup for six, with 18 g protein a serving",dinner,hob,pot,,yes,10,20,20,0,0,30,,6
 escarole-and-bean-soup,Escarole and Bean Soup,Lunch,light,,nutrition,a soup with 9 g protein and 155 kcal a serving,lunch,hob,pot,,yes,10,30,30,0,0,40,,6
 caldo-de-pollo,Caldo de Pollo,Dinner,main,,ingredients,"100 g of meat, fish or tofu a serving",dinner,hob,pot,,yes,15,50,50,0,0,65,,6
 chilled-cucumber-soup,Chilled Cucumber Soup,Lunch,light,,nutrition,a soup with 8 g protein and 117 kcal a serving,lunch,no-cook,blender,,,10,0,0,30,30,40,,4
@@ -2539,9 +2539,9 @@ buffalo-chicken-lettuce-wraps,Buffalo Chicken Lettuce Wraps,Quick Meals,light,,t
 hummus-veggie-wrap,Hummus Veggie Wrap,Lunch,light,,title,"a sandwich, wrap or filled bread",lunch,no-cook,,,,10,0,0,0,0,10,,2
 turkey-avocado-wrap,Turkey Avocado Wrap,Lunch,light,,title,"a sandwich, wrap or filled bread",lunch,no-cook,,,,10,0,0,0,0,10,,2
 collard-green-wraps,Collard Green Wraps,Lunch,light,,title,"a sandwich, wrap or filled bread",lunch,hob,frying-pan,,yes,15,3,3,0,0,18,,4
-portobello-pizzas,Portobello Pizzas,Dinner,side,yes,category,a main-course name but 161 kcal and 10 g protein a serving,,oven,oven baking-tray,,yes,10,15,15,0,0,25,,4
+portobello-pizzas,Portobello Pizzas,Dinner,light,,override,"four mushroom caps topped with mozzarella and vegetables, served with salad: a light meal",lunch,oven,oven baking-tray,,yes,10,15,15,0,0,25,,4
 turkey-zucchini-boats,Turkey Zucchini Boats,Dinner,main,,title,named for its protein,dinner,oven hob,oven frying-pan baking-tray,,,15,30,30,0,0,45,,4
-stuffed-sweet-potatoes,Stuffed Sweet Potatoes,Dinner,side,yes,category,a stuffed vegetable: a vegetarian main or a side?,,oven hob,oven frying-pan,,yes,10,55,55,0,0,65,,4
+stuffed-sweet-potatoes,Stuffed Sweet Potatoes,Dinner,light,,override,"one sweet potato a person with 60 g of black beans each and spinach, served with salad or avocado: a light meal",lunch,oven hob,oven frying-pan,,yes,10,55,55,0,0,65,,4
 portobello-tacos,Portobello Tacos,Dinner,main,,title,"""portobello tacos"" is a main course",dinner,hob,frying-pan,,yes,15,15,15,0,0,30,,4
 roasted-cauliflower-tacos,Roasted Cauliflower Tacos,Dinner,main,,title,"""roasted cauliflower tacos"" is a main course",dinner,oven hob,oven baking-tray,,yes,15,25,25,0,0,40,,4
 shrimp-taco-bowls,Shrimp Taco Bowls,Dinner,main,,title,"""shrimp taco bowls"" is a main course",dinner,hob,frying-pan,,yes,15,10,10,0,0,25,,4
@@ -2768,7 +2768,7 @@ egg-noodle-stir-fry,Egg Noodle Stir Fry,Quick Meals,main,,title,"""egg noodle st
 instant-noodle-upgrade,Instant Noodle Upgrade,Quick Meals,main,,nutrition,23 g protein and 493 kcal a serving,dinner,hob,saucepan,,yes,5,8,8,0,0,13,,2
 potato-curry,Potato Curry,Dinner,main,,title,"""potato curry"" is a main course",dinner,hob,frying-pan,,yes,10,30,30,0,0,40,,4
 cauliflower-curry,Cauliflower Curry,Dinner,main,,title,"""cauliflower curry"" is a main course",dinner,hob,frying-pan,,yes,10,25,25,0,0,35,,4
-tarka-dal,Tarka Dal,Dinner,side,yes,category,"a side-dish name with a protein in it (""Tarka Dal"")",,hob,pot,,,10,30,30,0,0,40,,4
+tarka-dal,Tarka Dal,Dinner,main,,override,"250 g of red lentils for four, served with rice or flatbread as the centre of the meal",dinner,hob,pot,,,10,30,30,0,0,40,,4
 vegetable-pulao,Vegetable Pulao,Dinner,side,,title,"""vegetable pulao"" is a side dish",,hob,pot,,yes,10,30,30,0,0,40,,4
 vegetable-fried-rice,Vegetable Fried Rice,Quick Meals,side,,title,"""vegetable fried rice"" is a side dish",,hob,frying-pan wok,,,10,10,10,0,0,20,,4
 egg-biryani,Egg Biryani,Dinner,main,,title,"""egg biryani"" is a main course",dinner,hob,pot,,yes,15,40,40,0,0,55,,4
@@ -2869,7 +2869,7 @@ white-bread,White Bread,Baking,bread,,title,a bread by name,,oven,oven,,,25,35,3
 flatbread,Flatbread,Baking,bread,,title,a bread by name,,oven hob,oven frying-pan,,yes,10,12,12,0,0,22,,8
 garlic-butter-rolls,Garlic Butter Rolls,Baking,bread,,title,a bread by name,,oven,oven,33 cm tin,,25,20,20,75,75,120,,12
 hamburger-buns,Hamburger Buns,Baking,bread,,title,a bread by name,,oven,oven,,,30,18,18,80,80,128,,8
-vegemite-scrolls,Vegemite Scrolls,Baking,bread,yes,category,a bake with no sugar in it: a bread or a savoury bake?,,oven,oven rolling-pin,20 cm tin,,25,22,22,0,0,47,,8
+vegemite-scrolls,Vegemite Scrolls,Baking,bread,,override,"scone-dough scrolls served with soup, butter or tea: a savoury baked item",,oven,oven rolling-pin,20 cm tin,,25,22,22,0,0,47,,8
 sticky-date-pudding,Sticky Date Pudding,Desserts,dessert,,category,filed under Desserts,,oven hob,oven cake-tin skewers,20 cm square tin,yes,15,35,35,0,0,50,,8
 milo-slice,Milo Slice,Desserts,dessert,,category,filed under Desserts,,oven microwave,cake-tin microwave,20 cm square tin,yes,15,0,0,180,180,195,,16
 apple-slab-pie,Apple Slab Pie,Desserts,dessert,,category,filed under Desserts,,oven hob,oven,35 cm tray,,30,40,40,60,60,130,,12
@@ -3032,7 +3032,7 @@ tortilla-chips,Tortilla Chips,Appetizers,starter,,category,filed under Appetizer
 pita-chips,Pita Chips,Appetizers,starter,,category,filed under Appetizers,,oven,oven,,,5,10,10,0,0,15,,4
 caramel-popcorn,Caramel Popcorn,Desserts,dessert,,category,filed under Desserts,,oven hob,oven,,,5,25,25,0,0,30,cooling completely,8
 seeded-crackers,Seeded Crackers,Baking,bread,,title,a bread by name,,oven,oven rolling-pin,,,10,25,25,0,0,35,,10
-oat-cakes,Oat Cakes,Baking,bread,yes,category,a bake with no sugar in it: a bread or a savoury bake?,,oven,oven rolling-pin,,,10,20,20,0,0,30,,12
+oat-cakes,Oat Cakes,Baking,bread,,override,"oatcakes served with cheese, smoked salmon or jam: a baked accompaniment",,oven,oven rolling-pin,,,10,20,20,0,0,30,,12
 meal-prep-chicken-and-rice,Meal Prep Chicken and Rice,Dinner,main,,title,named for its protein,dinner,oven steam,oven,,,15,30,30,0,0,45,,4
 meal-prep-burrito-bowls,Meal Prep Burrito Bowls,Dinner,main,,title,"""meal prep burrito bowls"" is a main course",dinner,oven,oven,,,15,25,25,0,0,40,,4
 freezer-burritos,Freezer Burritos,Dinner,main,,title,"""freezer burritos"" is a main course",dinner,,,,,20,10,10,0,0,30,,8
@@ -3042,7 +3042,7 @@ mason-jar-salad,Mason Jar Salad,Lunch,light,,category,"a salad filed under Lunch
 sweet-potato-brownies,Sweet Potato Brownies,Desserts,dessert,,category,filed under Desserts,,oven,oven cake-tin,20 cm square tin,yes,15,30,30,0,0,45,cooling completely,12
 lentil-burgers,Lentil Burgers,Dinner,main,,title,"""lentil burgers"" is a main course",dinner,hob,,,,15,20,20,15,15,50,,4
 chickpea-patties,Chickpea Patties,Dinner,main,,title,named for its protein,dinner,,,,,15,12,12,0,0,27,,4
-lentil-dal,Lentil Dal,Dinner,side,yes,category,"a side-dish name with a protein in it (""Lentil Dal"")",,hob,,,,10,35,35,0,0,45,,4
+lentil-dal,Lentil Dal,Dinner,main,,override,"250 g of red lentils for four, served with rice or naan as the centre of the meal",dinner,hob,,,,10,35,35,0,0,45,,4
 spinach-and-ricotta-pasta,Spinach and Ricotta Pasta,Quick Meals,main,,override,a main course: the dish is the centre of the meal in its own cuisine,dinner,,,,,5,15,15,0,0,20,,4
 spinach-pie,Spinach Pie,Dinner,main,,title,"""spinach pie"" is a main course",dinner,oven hob,oven frying-pan baking-dish,,,25,45,45,0,0,70,,6
 spinach-quiche,Spinach Quiche,Dinner,main,,title,"""spinach quiche"" is a main course",dinner,oven hob,oven,23 cm tin,,25,60,60,15,15,100,,6
@@ -3473,7 +3473,7 @@ vegetable-pilau,Vegetable Pilau,Dinner,side,,title,"""vegetable pilau"" is a sid
 mujaddara,Mujaddara,Dinner,main,,title,"""mujaddara"" is a main course",dinner,,,,,10,40,40,0,0,50,,4
 pea-risotto,Pea Risotto,Dinner,main,,title,"""pea risotto"" is a main course",dinner,,,,,10,30,30,0,0,40,,4
 lemon-risotto,Lemon Risotto,Dinner,main,,title,"""lemon risotto"" is a main course",dinner,,,,,10,30,30,0,0,40,,4
-stuffed-butternut-squash,Stuffed Butternut Squash,Dinner,side,yes,category,a stuffed vegetable: a vegetarian main or a side?,,oven hob,oven,,,20,60,60,0,0,80,,4
+stuffed-butternut-squash,Stuffed Butternut Squash,Dinner,main,,override,"squash halves filled with quinoa, feta and pecans, served with salad, bread and wine: a vegetarian dinner",dinner,oven hob,oven,,,20,60,60,0,0,80,,4
 vegetable-lasagne,Vegetable Lasagne,Dinner,main,,title,"""vegetable lasagne"" is a main course",dinner,oven hob,oven frying-pan,,yes,30,50,50,15,15,95,,8
 spinach-and-ricotta-cannelloni,Spinach and Ricotta Cannelloni,Dinner,main,,override,a main course: the dish is the centre of the meal in its own cuisine,dinner,oven hob,oven baking-dish,,yes,30,40,40,0,0,70,,6
 roasted-vegetable-tart,Roasted Vegetable Tart,Lunch,light,,category,"filed under Lunch, and nothing in the name or the figures makes it a full main",lunch,oven,oven,,,20,40,40,0,0,60,,6
@@ -3537,7 +3537,7 @@ oven-fried-chicken,Oven Fried Chicken,Dinner,main,,title,"""oven fried chicken""
 parmesan-crusted-cod,Parmesan Crusted Cod,Dinner,main,,title,named for its protein,dinner,oven,oven,,,10,15,15,0,0,25,,4
 parmesan-roasted-carrots,Parmesan Roasted Carrots,Dinner,side,,title,"""parmesan roasted carrots"" is a side dish",,oven,oven,,,10,25,25,0,0,35,,4
 pecan-crusted-salmon,Pecan Crusted Salmon,Dinner,main,,title,named for its protein,dinner,oven,oven,,,10,15,15,0,0,25,,4
-perogies-with-onions,Perogies with Onions,Dinner,main,yes,category,"an unfamiliar name (5 g protein, 318 kcal a serving)",,,,,,10,20,20,0,0,30,,4
+perogies-with-onions,Perogies with Onions,Dinner,main,,override,"500 g of filled dumplings for four, fried in butter with onions and served with sausage or sauerkraut",dinner,,,,,10,20,20,0,0,30,,4
 philly-chicken-sandwich,Philly Chicken Sandwich,Lunch,light,,title,"a sandwich, wrap or filled bread",lunch,grill hob,frying-pan grill,,yes,10,15,15,0,0,25,,4
 piri-piri-prawns,Piri Piri Prawns,Appetizers,starter,,category,filed under Appetizers,,hob,,,,10,6,6,0,0,16,,4
 ploughmans-sandwich,Ploughmans Sandwich,Lunch,light,,title,"a sandwich, wrap or filled bread",lunch,no-cook,,,,10,0,0,0,0,10,,2
@@ -3547,7 +3547,7 @@ pork-ribs-in-the-oven,Pork Ribs in the Oven,Dinner,main,,title,"""pork ribs"" is
 pork-souvlaki,Pork Souvlaki,Dinner,main,,title,"""pork souvlaki"" is a main course",dinner,grill,grill skewers,,,20,12,12,15,15,47,,4
 pork-and-apple-casserole,Pork and Apple Casserole,Dinner,main,,title,named for its protein,dinner,oven hob,oven pot,,yes,20,90,90,0,0,110,,6
 potato-kugel,Potato Kugel,Dinner,side,,override,a side dish: served beside a main course in its own cuisine,,oven,oven,33 cm tin,,20,75,75,0,0,95,,8
-noodle-kugel,Noodle Kugel,Dinner,main,yes,category,"an unfamiliar name (11 g protein, 396 kcal a serving)",,oven,oven,33 cm dish,,15,50,50,0,0,65,,10
+noodle-kugel,Noodle Kugel,Dinner,side,,override,"a baked noodle pudding for ten, with roast chicken among the suggested pairings: served beside other dishes",,oven,oven,33 cm dish,,15,50,50,0,0,65,,10
 prawn-laksa,Prawn Laksa,Dinner,main,,ingredients,a soup with 100 g of meat or fish a serving,dinner,hob,frying-pan,,,15,20,20,0,0,35,,4
 prawn-pasta,Prawn Pasta,Quick Meals,main,,title,"""prawn pasta"" is a main course",dinner,,,,,10,15,15,0,0,25,,4
 pumpkin-and-sage-pasta,Pumpkin and Sage Pasta,Dinner,main,,override,a main course: the dish is the centre of the meal in its own cuisine,dinner,oven,oven,,,10,25,25,0,0,35,,4
@@ -3569,7 +3569,7 @@ lemon-vinaigrette,Lemon Vinaigrette,Healthy,condiment,,title,"""lemon vinaigrett
 sweet-potato-mash,Sweet Potato Mash,Dinner,side,,title,"""sweet potato mash"" is a side dish",,hob,,,,10,25,25,0,0,35,,4
 teriyaki-meatballs,Teriyaki Meatballs,Dinner,main,,title,"""teriyaki meatballs"" is a main course",dinner,oven hob,oven,,,20,20,20,0,0,40,,4
 texas-chili,Texas Chili,Dinner,main,,title,"""texas chili"" is a main course",dinner,hob,pot,,yes,20,120,120,0,0,140,,8
-thai-peanut-noodles,Thai Peanut Noodles,Quick Meals,main,yes,category,"an unfamiliar name (11 g protein, 424 kcal a serving)",,,,,,10,8,8,0,0,18,,4
+thai-peanut-noodles,Thai Peanut Noodles,Quick Meals,light,,override,"rice noodles in a peanut sauce with vegetables and no protein in the recipe, with grilled chicken or prawns suggested separately",lunch,,,,,10,8,8,0,0,18,,4
 tuna-fishcakes,Tuna Fishcakes,Dinner,main,,title,"""tuna fishcakes"" is a main course",dinner,,,,,20,12,12,15,15,47,,4
 turkey-pot-pie,Turkey Pot Pie,Dinner,main,,title,"""turkey pot pie"" is a main course",dinner,oven hob,oven pot baking-dish,,,30,50,50,15,15,95,,6
 turkey-club-wrap,Turkey Club Wrap,Lunch,light,,title,"a sandwich, wrap or filled bread",lunch,no-cook,,,,10,0,0,0,0,10,,2
@@ -3695,7 +3695,7 @@ sheet-pan-shrimp-boil,Sheet Pan Shrimp Boil,Dinner,main,,title,"""sheet pan shri
 one-pan-sausage-pasta,One Pan Sausage Pasta,Quick Meals,main,,title,"""one pan sausage pasta"" is a main course",dinner,hob,,,,10,20,20,0,0,30,,4
 one-pan-mexican-rice,One Pan Mexican Rice,Dinner,side,,title,"""one pan mexican rice"" is a side dish",,hob,,,,10,30,30,0,0,40,,4
 bacon-lettuce-and-tomato-sandwich,Bacon Lettuce and Tomato Sandwich,Lunch,light,,title,"a sandwich, wrap or filled bread",lunch,hob,,,,10,10,10,0,0,20,,2
-loaded-sweet-potatoes,Loaded Sweet Potatoes,Dinner,side,yes,category,"a side-dish name with a protein in it (""Loaded Sweet Potatoes"")",,oven,oven,,,10,50,50,0,0,60,,4
+loaded-sweet-potatoes,Loaded Sweet Potatoes,Dinner,main,,override,"four sweet potatoes filled with 480 g of black beans, cheese and soured cream: beans and cheese in each serving make it a meal",dinner,oven,oven,,,10,50,50,0,0,60,,4
 disco-fries,Disco Fries,Appetizers,starter,,category,filed under Appetizers,,oven,oven,,,10,35,35,15,15,60,,4
 curly-fries,Curly Fries,Appetizers,starter,,category,filed under Appetizers,,oven,oven baking-tray,,yes,10,30,30,0,0,40,,4
 waffle-fries,Waffle Fries,Appetizers,starter,,category,filed under Appetizers,,oven,oven baking-tray,,yes,5,25,25,0,0,30,,4
@@ -3744,7 +3744,7 @@ orecchiette-with-sausage,Orecchiette with Sausage,Dinner,main,,title,"""orecchie
 cannelloni,Cannelloni,Dinner,main,,title,"""cannelloni"" names a main course",dinner,oven,oven baking-dish,,yes,30,40,40,0,0,70,,6
 lasagne-rolls,Lasagne Rolls,Dinner,main,,title,"""lasagne rolls"" is a main course",dinner,oven,oven baking-dish,,yes,30,35,35,0,0,65,,6
 gnocchi-with-gorgonzola,Gnocchi with Gorgonzola,Quick Meals,main,,title,"""gnocchi"" names a main course",dinner,hob,frying-pan,,yes,5,12,12,0,0,17,,4
-polenta-with-mushrooms,Polenta with Mushrooms,Dinner,side,yes,category,"a side-dish name with a protein in it (""Polenta with Mushrooms"")",,hob,,,,10,30,30,0,0,40,,4
+polenta-with-mushrooms,Polenta with Mushrooms,Dinner,main,,override,"polenta with parmesan topped with 500 g of mushrooms for four, served with a salad",dinner,hob,,,,10,30,30,0,0,40,,4
 crostini-with-ricotta,Crostini with Ricotta,Appetizers,starter,,category,filed under Appetizers,,oven,oven,,,10,8,8,0,0,18,,8
 antipasto-platter,Antipasto Platter,Appetizers,starter,,category,filed under Appetizers,,no-cook,,,,20,0,0,0,0,20,,8
 pizza-bianca,Pizza Bianca,Dinner,main,,title,"""pizza"" names a main course",dinner,oven,oven baking-tray,,yes,15,20,20,0,0,35,,4
@@ -3775,11 +3775,11 @@ red-lentil-and-tomato-soup,Red Lentil and Tomato Soup,Healthy,light,,override,a 
 cabbage-and-potato-soup,Cabbage and Potato Soup,Dinner,light,,nutrition,a soup with 10 g protein and 277 kcal a serving,lunch,hob,frying-pan,,yes,10,30,30,0,0,40,,4
 tomato-and-egg-soup,Tomato and Egg Soup,Quick Meals,light,,override,"a light meal: a grain or noodle salad, soup or filled toast for lunch",lunch,hob,,,,5,10,10,0,0,15,,2
 roast-tomato-soup,Roast Tomato Soup,Lunch,light,,nutrition,a soup with 6 g protein and 177 kcal a serving,lunch,oven hob,oven,,,10,45,45,0,0,55,,4
-greek-lentil-soup,Greek Lentil Soup,Dinner,light,yes,category,"a soup between a light meal and a main (16 g protein, 355 kcal)",,hob,frying-pan,,yes,10,40,40,0,0,50,,4
-moroccan-chickpea-soup,Moroccan Chickpea Soup,Dinner,light,yes,category,"a soup between a light meal and a main (15 g protein, 349 kcal)",,hob,frying-pan,,yes,10,35,35,0,0,45,,4
+greek-lentil-soup,Greek Lentil Soup,Dinner,main,,override,"250 g of lentils for four, served with bread, olives and feta as the meal",dinner,hob,frying-pan,,yes,10,40,40,0,0,50,,4
+moroccan-chickpea-soup,Moroccan Chickpea Soup,Dinner,main,,override,"480 g of chickpeas for four, served with flatbread and yoghurt as the meal",dinner,hob,frying-pan,,yes,10,35,35,0,0,45,,4
 czech-potato-soup,Czech Potato Soup,Dinner,light,,nutrition,a soup with 10 g protein and 275 kcal a serving,lunch,hob,frying-pan,,yes,15,35,35,0,0,50,,4
-german-potato-soup,German Potato Soup,Dinner,light,yes,category,"a soup between a light meal and a main (15 g protein, 306 kcal)",,hob,frying-pan,,yes,15,35,35,0,0,50,,4
-romanian-bean-soup,Romanian Bean Soup,Dinner,light,yes,category,"a soup between a light meal and a main (18 g protein, 340 kcal)",,hob,frying-pan,,yes,10,45,45,0,0,55,,6
+german-potato-soup,German Potato Soup,Dinner,light,,override,"a potato, leek and bacon soup, with sausages suggested alongside",lunch,hob,frying-pan,,yes,15,35,35,0,0,50,,4
+romanian-bean-soup,Romanian Bean Soup,Dinner,main,,override,"960 g of tinned white beans for six, served with bread",dinner,hob,frying-pan,,yes,10,45,45,0,0,55,,6
 zuppa-di-fagioli,Zuppa di Fagioli,Dinner,main,,nutrition,25 g protein and 498 kcal a serving,dinner,hob,frying-pan,,yes,10,40,40,0,0,50,,4
 acquacotta,Acquacotta,Dinner,light,,nutrition,a soup with 12 g protein and 306 kcal a serving,lunch,hob,frying-pan,,yes,10,30,30,0,0,40,,4
 pastina-in-brodo,Pastina in Brodo,Quick Meals,light,,override,"a light meal: a grain or noodle salad, soup or filled toast for lunch",lunch,hob,,,,5,10,10,0,0,15,,2
@@ -3787,8 +3787,8 @@ persian-barley-soup,Persian Barley Soup,Dinner,light,,nutrition,a soup with 12 g
 sausage-and-bean-stew,Sausage and Bean Stew,Dinner,main,,title,"""sausage and bean stew"" is a main course",dinner,hob,frying-pan,,yes,10,35,35,0,0,45,,4
 kulajda,Kulajda,Dinner,main,,nutrition,a soup with 19 g protein and 473 kcal a serving: a meal in a bowl,dinner,hob,frying-pan,,,10,30,30,0,0,40,,4
 czech-garlic-soup,Czech Garlic Soup,Dinner,light,,nutrition,a soup with 10 g protein and 294 kcal a serving,lunch,hob,,,,5,20,20,0,0,25,,4
-sayur-lodeh,Sayur Lodeh,Dinner,main,yes,category,"an unfamiliar name (5 g protein, 329 kcal a serving)",,hob,frying-pan,,yes,15,20,20,0,0,35,,4
-ginisang-munggo,Ginisang Munggo,Dinner,main,yes,category,"an unfamiliar name (14 g protein, 248 kcal a serving)",,hob,frying-pan,,yes,10,40,40,0,0,50,,4
+sayur-lodeh,Sayur Lodeh,Dinner,side,,override,"a vegetable soup in coconut milk with no protein in the recipe; rice, tempeh and eggs are suggested alongside",,hob,frying-pan,,yes,15,20,20,0,0,35,,4
+ginisang-munggo,Ginisang Munggo,Dinner,side,,override,"200 g of mung beans for four, with fried fish or crispy pork suggested alongside rice",,hob,frying-pan,,yes,10,40,40,0,0,50,,4
 egg-muffin-cups,Egg Muffin Cups,Breakfast,breakfast,,category,filed under Breakfast,breakfast,oven,oven cake-tin,,yes,10,20,20,0,0,30,,6
 parsi-akuri,Parsi Akuri,Breakfast,breakfast,,category,filed under Breakfast,breakfast,hob,frying-pan,,yes,5,10,10,0,0,15,,2
 tortang-talong,Tortang Talong,Quick Meals,main,,override,a main course: the dish is the centre of the meal in its own cuisine,dinner,grill hob,frying-pan grill,,yes,10,10,10,0,0,20,,2
@@ -3844,7 +3844,7 @@ chicken-drumsticks-roasted,Chicken Drumsticks Roasted,Dinner,main,,title,named f
 chicken-tray-bake,Chicken Tray Bake,Dinner,main,,title,"""chicken tray bake"" is a main course",dinner,oven,oven,,,10,45,45,0,0,55,,4
 baked-beans-from-scratch,Baked Beans from Scratch,Lunch,main,,title,named for its protein,lunch dinner,oven hob,oven frying-pan,,yes,10,40,40,0,0,50,,6
 vegetable-fritters,Vegetable Fritters,Appetizers,starter,,category,filed under Appetizers,,hob,frying-pan,,yes,10,15,15,0,0,25,,4
-gigantes-plaki,Gigantes Plaki,Dinner,main,yes,category,"an unfamiliar name (13 g protein, 302 kcal a serving)",,oven hob,oven frying-pan,,yes,10,60,60,0,0,70,,6
+gigantes-plaki,Gigantes Plaki,Dinner,main,,override,960 g of butter beans baked for six; the recipe calls it a Greek meze or main,dinner,oven hob,oven frying-pan,,yes,10,60,60,0,0,70,,6
 briam,Briam,Dinner,side,,title,"""briam"" is a side dish",,oven,oven,,,15,60,60,0,0,75,,4
 lentejas,Lentejas,Dinner,main,,nutrition,a bean or lentil dish with 17 g protein and 367 kcal a serving,dinner,hob,frying-pan,,yes,10,40,40,0,0,50,,4
 pisto,Pisto,Dinner,side,,title,"""pisto"" is a side dish",,hob,frying-pan,,yes,10,35,35,0,0,45,,4
@@ -3884,13 +3884,13 @@ tamarind-rice,Tamarind Rice,Dinner,side,,title,"""tamarind rice"" is a side dish
 lauki-sabzi,Lauki Sabzi,Dinner,side,,title,"""lauki sabzi"" is a side dish",,hob,frying-pan,,yes,10,20,20,0,0,30,,4
 kaddu-ki-sabzi,Kaddu Ki Sabzi,Dinner,side,,title,"""kaddu ki sabzi"" is a side dish",,hob,frying-pan,,yes,10,25,25,0,0,35,,4
 gobi-paratha,Gobi Paratha,Breakfast,breakfast,,category,filed under Breakfast,breakfast,,rolling-pin,,,25,20,20,15,15,60,,6
-bisi-bele-bath,Bisi Bele Bath,Dinner,main,yes,category,"an unfamiliar name (10 g protein, 393 kcal a serving)",,hob,frying-pan,,,15,35,35,0,0,50,,4
+bisi-bele-bath,Bisi Bele Bath,Dinner,main,,override,"rice, lentils and vegetables cooked together in one pot for four, served with yoghurt and papad",dinner,hob,frying-pan,,,15,35,35,0,0,50,,4
 nigerian-fried-rice,Nigerian Fried Rice,Dinner,side,,title,"""nigerian fried rice"" is a side dish",,hob,frying-pan,,yes,15,30,30,0,0,45,,6
-plantain-and-beans,Plantain and Beans,Dinner,side,yes,category,"a side-dish name with a protein in it (""Plantain and Beans"")",,hob,frying-pan,,yes,10,40,40,0,0,50,,4
+plantain-and-beans,Plantain and Beans,Dinner,main,,override,960 g of black-eyed beans with plantain in one pot for four,dinner,hob,frying-pan,,yes,10,40,40,0,0,50,,4
 fried-yam,Fried Yam,Dinner,side,,override,a side dish: served beside a main course in its own cuisine,,hob,,,,5,15,15,0,0,20,,4
 atkilt-wat,Atkilt Wat,Dinner,side,,override,a side dish: served beside a main course in its own cuisine,,hob,frying-pan,,yes,10,30,30,0,0,40,,4
 kik-alicha,Kik Alicha,Dinner,main,,nutrition,a bean or lentil dish with 15 g protein and 349 kcal a serving,dinner,hob,,,,10,40,40,0,0,50,,4
-mchuzi-wa-maharage,Mchuzi wa Maharage,Dinner,main,yes,category,"an unfamiliar name (11 g protein, 248 kcal a serving)",,hob,,,,10,35,35,0,0,45,,4
+mchuzi-wa-maharage,Mchuzi wa Maharage,Dinner,main,,override,"720 g of kidney beans stewed for four, served with rice, chapati or ugali",dinner,hob,,,,10,35,35,0,0,45,,4
 mukimo,Mukimo,Dinner,side,,override,a side dish: served beside a main course in its own cuisine,,hob,,,,10,30,30,0,0,40,,4
 vetkoek,Vetkoek,Baking,dessert,,category,a sweet bake filed under Baking,,hob,,,,20,15,15,60,60,95,,8
 mielie-bread,Mielie Bread,Baking,bread,,title,a bread by name,,oven,oven cake-tin skewers,,yes,10,45,45,0,0,55,,8
@@ -3901,16 +3901,16 @@ egyptian-bean-sandwich,Egyptian Bean Sandwich,Lunch,light,,title,"a sandwich, wr
 lebanese-cabbage-salad,Lebanese Cabbage Salad,Healthy,side,,nutrition,a salad with 2 g protein and 143 kcal a serving,,no-cook,,,,10,0,0,0,0,10,,4
 lebanese-garlic-potatoes,Lebanese Garlic Potatoes,Dinner,side,,title,"""lebanese garlic potatoes"" is a side dish",,hob,frying-pan,,yes,10,25,25,0,0,35,,4
 iranian-eggs-and-tomatoes,Iranian Eggs and Tomatoes,Breakfast,breakfast,,category,filed under Breakfast,breakfast,hob,frying-pan,,yes,5,15,15,0,0,20,,2
-kookoo-sibzamini,Kookoo Sibzamini,Dinner,main,yes,category,"an unfamiliar name (7 g protein, 304 kcal a serving)",,hob,frying-pan,,yes,15,25,25,0,0,40,,4
+kookoo-sibzamini,Kookoo Sibzamini,Dinner,side,,override,"a potato and egg cake with 2 eggs for four, served with yoghurt, flatbread and pickles",,hob,frying-pan,,yes,15,25,25,0,0,40,,4
 persian-lentil-rice,Persian Lentil Rice,Dinner,side,,title,"""persian lentil rice"" is a side dish with 10 g protein a serving",,hob,frying-pan,,yes,10,45,50,0,0,55,,6
 turkish-bulgur-pilaf,Turkish Bulgur Pilaf,Dinner,side,,title,"""turkish bulgur pilaf"" is a side dish",,hob,,,,5,20,20,0,0,25,,4
-kuru-fasulye,Kuru Fasulye,Dinner,main,yes,category,"an unfamiliar name (12 g protein, 263 kcal a serving)",,hob,frying-pan,,yes,10,60,60,0,0,70,,6
+kuru-fasulye,Kuru Fasulye,Dinner,main,,override,"960 g of white beans for six, served with rice and bread",dinner,hob,frying-pan,,yes,10,60,60,0,0,70,,6
 mucver,Mucver,Appetizers,starter,,category,filed under Appetizers,,hob,frying-pan,,yes,15,15,15,0,0,30,,4
 red-lentil-kofte,Red Lentil Kofte,Appetizers,starter,,category,filed under Appetizers,,hob,,,,20,25,25,0,0,45,,8
 greek-fried-potatoes,Greek Fried Potatoes,Dinner,side,,title,"""greek fried potatoes"" is a side dish",,deep-fry hob,frying-pan deep-fry,,,10,25,25,0,0,35,,4
-spanakorizo,Spanakorizo,Dinner,main,yes,category,"an unfamiliar name (8 g protein, 371 kcal a serving)",,hob,frying-pan,,yes,10,30,30,0,0,40,,4
-fasolakia,Fasolakia,Dinner,main,yes,category,"an unfamiliar name (6 g protein, 290 kcal a serving)",,hob,frying-pan,,yes,10,45,45,0,0,55,,4
-revithada,Revithada,Dinner,main,yes,category,"an unfamiliar name (12 g protein, 342 kcal a serving)",,oven,oven baking-dish,,yes,10,60,60,0,0,70,,6
+spanakorizo,Spanakorizo,Dinner,light,,override,"rice and spinach for four with feta, olives and bread suggested: a light meal",lunch,hob,frying-pan,,yes,10,30,30,0,0,40,,4
+fasolakia,Fasolakia,Dinner,light,,override,"green beans and potatoes braised for four, served with feta and bread, or with grilled fish: a light meal or side",lunch,hob,frying-pan,,yes,10,45,45,0,0,55,,4
+revithada,Revithada,Dinner,main,,override,"960 g of chickpeas baked for six, served with bread, salad and feta",dinner,oven,oven baking-dish,,yes,10,60,60,0,0,70,,6
 pasta-e-lenticchie,Pasta e Lenticchie,Dinner,main,,title,"""pasta"" names a pasta dish",dinner,hob,frying-pan,,yes,10,30,30,0,0,40,,4
 pasta-e-patate,Pasta e Patate,Dinner,main,,title,"""pasta"" names a pasta dish",dinner,hob,frying-pan,,yes,10,30,30,0,0,40,,4
 pasta-e-piselli,Pasta e Piselli,Dinner,main,,title,"""pasta"" names a pasta dish",dinner,hob,frying-pan,,yes,10,25,25,0,0,35,,4
@@ -3933,21 +3933,21 @@ nokedli,Nokedli,Dinner,side,,title,"""nokedli"" is a side dish",,hob,frying-pan,
 polish-cucumber-salad,Polish Cucumber Salad,Healthy,side,,nutrition,a salad with 2 g protein and 134 kcal a serving,,no-cook,,,,10,0,0,0,0,10,,4
 kopytka,Kopytka,Dinner,side,,title,"""kopytka"" is a side dish",,hob,,,,20,30,35,0,0,50,cooling completely,4
 barszcz,Barszcz,Dinner,light,,nutrition,a soup with 2 g protein and 68 kcal a serving,lunch,hob,frying-pan,,yes,15,45,45,0,0,60,,6
-bramboracky,Bramboracky,Dinner,main,yes,category,an unfamiliar name and no nutrition figures,,hob,frying-pan,,yes,15,20,20,0,0,35,,4
+bramboracky,Bramboracky,Dinner,light,,override,"potato pancakes served with sauerkraut, sour cream or smoked sausage: a light meal",lunch,hob,frying-pan,,yes,15,20,20,0,0,35,,4
 vinegret,Vinegret,Healthy,side,,nutrition,a salad with 3 g protein and 186 kcal a serving,,hob,,,,20,35,35,0,0,55,,6
-draniki,Draniki,Dinner,main,yes,category,an unfamiliar name and no nutrition figures,,hob,frying-pan,,yes,15,20,20,0,0,35,,4
-buckwheat-with-mushrooms,Buckwheat with Mushrooms,Dinner,main,yes,category,"an unfamiliar name (11 g protein, 406 kcal a serving)",,hob,frying-pan,,yes,10,25,25,0,0,35,,4
+draniki,Draniki,Dinner,light,,override,"potato and onion pancakes served with sour cream, sausage or mushrooms: a light meal",lunch,hob,frying-pan,,yes,15,20,20,0,0,35,,4
+buckwheat-with-mushrooms,Buckwheat with Mushrooms,Dinner,side,,override,"described in the recipe as a side or supper, with a fried egg or sausages suggested alongside",,hob,frying-pan,,yes,10,25,25,0,0,35,,4
 fasole-batuta,Fasole Batuta,Dinner,main,,nutrition,a bean or lentil dish with 19 g protein and 447 kcal a serving,dinner,hob,,,,10,30,30,0,0,40,,4
 shopska-salad,Shopska Salad,Healthy,side,,nutrition,a salad with 6 g protein and 224 kcal a serving,,no-cook,,,,10,0,0,0,0,10,,4
 tarator,Tarator,Healthy,light,,nutrition,a soup with 14 g protein and 217 kcal a serving,lunch,no-cook,,,,10,0,0,60,60,70,,4
 pasulj,Pasulj,Dinner,main,,nutrition,a bean or lentil dish with 16 g protein and 362 kcal a serving,dinner,hob,frying-pan,,yes,10,75,75,0,0,85,,6
 bangladeshi-khichuri,Bangladeshi Khichuri,Dinner,main,,title,"""bangladeshi khichuri"" is a main course",dinner,hob,frying-pan,,yes,10,35,35,0,0,45,,4
-bengali-aloo-posto,Bengali Aloo Posto,Dinner,main,yes,category,"an unfamiliar name (6 g protein, 288 kcal a serving)",,hob,frying-pan,,yes,10,20,20,0,0,30,,4
+bengali-aloo-posto,Bengali Aloo Posto,Dinner,side,,override,"a dry potato curry served with rice, dal or fried fish",,hob,frying-pan,,yes,10,20,20,0,0,30,,4
 sri-lankan-pol-roti,Sri Lankan Pol Roti,Breakfast,bread,,title,a bread by name,breakfast,hob,frying-pan,,yes,10,15,15,0,0,25,,4
 sri-lankan-egg-curry,Sri Lankan Egg Curry,Dinner,main,,title,"""sri lankan egg curry"" is a main course",dinner,,,,,10,20,20,0,0,30,,4
 pakistani-daal-chawal,Pakistani Daal Chawal,Dinner,main,,nutrition,20 g protein and 561 kcal a serving,dinner,hob,,,,10,30,30,0,0,40,,4
-afghan-dal,Afghan Dal,Dinner,side,yes,category,"a side-dish name with a protein in it (""Afghan Dal"")",,hob,,,,10,35,35,0,0,45,,4
-nepali-aloo-tama,Nepali Aloo Tama,Dinner,main,yes,category,"an unfamiliar name (10 g protein, 324 kcal a serving)",,,,,,10,35,35,0,0,45,,4
+afghan-dal,Afghan Dal,Dinner,main,,override,"250 g of yellow split peas for four, served with flatbread or rice as the centre of the meal",dinner,hob,,,,10,35,35,0,0,45,,4
+nepali-aloo-tama,Nepali Aloo Tama,Dinner,main,,override,"a potato, bamboo shoot and bean curry for four, served over rice with pickle",dinner,,,,,10,35,35,0,0,45,,4
 new-zealand-mince-and-cheese-pie,New Zealand Mince and Cheese Pie,Dinner,main,,title,"""new zealand mince and cheese pie"" is a main course",dinner,oven hob,oven baking-dish,23 cm pie dish,yes,30,65,65,0,0,95,cooling completely,6
 new-zealand-corn-fritters,New Zealand Corn Fritters,Lunch,light,,category,"filed under Lunch, and nothing in the name or the figures makes it a full main",lunch,oven hob,oven frying-pan,,yes,10,15,15,0,0,25,,4
 new-zealand-kiwi-burger,New Zealand Kiwi Burger,Dinner,main,,title,"""new zealand kiwi burger"" is a main course",dinner,hob,frying-pan,,yes,15,15,15,0,0,30,,4
@@ -4002,7 +4002,7 @@ paneer-do-pyaza,Paneer Do Pyaza,Dinner,main,,title,named for its protein,dinner,
 paneer-jalfrezi,Paneer Jalfrezi,Dinner,main,,title,"""paneer jalfrezi"" is a main course",dinner,hob,frying-pan,,yes,15,20,20,0,0,35,,4
 paneer-pakora,Paneer Pakora,Appetizers,starter,,category,filed under Appetizers,,hob,,,,15,15,15,0,0,30,,4
 paneer-kofta,Paneer Kofta,Dinner,main,,title,"""paneer kofta"" is a main course",dinner,deep-fry hob,deep-fry,,yes,30,30,30,0,0,60,,4
-kala-chana,Kala Chana,Healthy,side,yes,category,"an unfamiliar name with 193 kcal and 6 g protein a serving: side, starter or condiment?",,hob,,,,10,70,70,480,480,560,,4
+kala-chana,Kala Chana,Healthy,main,,override,"250 g of black chickpeas for four, served with chapati or rice",dinner,hob,,,,10,70,70,480,480,560,,4
 aloo-baingan,Aloo Baingan,Dinner,side,,title,"""aloo baingan"" is a side dish",,hob,frying-pan,,yes,15,25,25,0,0,40,,4
 aloo-palak,Aloo Palak,Quick Meals,side,,override,a side dish: served beside a main course in its own cuisine,,hob,,,,10,20,20,0,0,30,,4
 sev-puri,Sev Puri,Appetizers,starter,,category,filed under Appetizers,,,,,,30,10,10,0,0,40,,4
@@ -4011,7 +4011,7 @@ papdi-chaat,Papdi Chaat,Appetizers,starter,,category,filed under Appetizers,,,,,
 moong-dal-kachori,Moong Dal Kachori,Appetizers,starter,,category,filed under Appetizers,,,,,,40,40,40,140,140,220,cooling completely,8
 khandvi,Khandvi,Appetizers,starter,,category,filed under Appetizers,,oven hob,oven frying-pan,,yes,20,25,25,0,0,45,,4
 methi-thepla,Methi Thepla,Breakfast,breakfast,,category,filed under Breakfast,breakfast,grill hob,frying-pan grill,,yes,25,20,20,20,20,65,,6
-undhiyu,Undhiyu,Dinner,main,yes,category,"an unfamiliar name (4 g protein, 263 kcal a serving)",,hob,frying-pan,,yes,40,45,45,0,0,85,,6
+undhiyu,Undhiyu,Dinner,side,,override,"a mixed vegetable dish with no pulses or meat, served with puri, rice and dal",,hob,frying-pan,,yes,40,45,45,0,0,85,,6
 handvo,Handvo,Baking,dessert,,category,a sweet bake filed under Baking,,hob,frying-pan,24 cm non-stick pan,yes,25,45,45,840,840,910,,6
 rava-dosa,Rava Dosa,Breakfast,breakfast,,override,eaten at breakfast,breakfast,hob,,,,40,20,20,30,30,90,,4
 avial,Avial,Dinner,side,,title,"""avial"" is a side dish",,hob,frying-pan,,yes,20,25,25,0,0,45,,4
@@ -4034,7 +4034,7 @@ tender-coconut-pudding,Tender Coconut Pudding,Desserts,dessert,,category,filed u
 slow-cooker-chicken-tikka-masala,Slow Cooker Chicken Tikka Masala,Dinner,main,,title,"""slow cooker chicken tikka masala"" is a main course",dinner,slow-cooker,slow-cooker,,yes,15,240,240,30,30,285,,4
 instant-pot-butter-chicken,Instant Pot Butter Chicken,Dinner,main,,title,"""instant pot butter chicken"" is a main course",dinner,pressure-cooker hob,pot pressure-cooker,,,15,25,25,0,0,40,,4
 instant-pot-dal,Instant Pot Dal,Healthy,side,,title,"""instant pot dal"" is a side dish",,pressure-cooker hob,pot pressure-cooker,,,10,25,25,0,0,35,,4
-instant-pot-chana-masala,Instant Pot Chana Masala,Healthy,side,yes,category,a main-course name but 185 kcal and 5 g protein a serving,,pressure-cooker hob,pot pressure-cooker,,,10,60,60,0,0,70,,4
+instant-pot-chana-masala,Instant Pot Chana Masala,Healthy,main,,override,"200 g of dried chickpeas for four, served with bhatura or rice as the centre of the meal",dinner,pressure-cooker hob,pot pressure-cooker,,,10,60,60,0,0,70,,4
 sheet-pan-chicken-tikka,Sheet Pan Chicken Tikka,Dinner,main,,title,"""sheet pan chicken tikka"" is a main course",dinner,oven,oven baking-tray,,yes,15,25,25,30,30,70,,4
 lime-pickle,Lime Pickle,Appetizers,condiment,,title,"""lime pickle"" is a condiment, dressing, rub or preserve",,hob,,,,30,15,15,12960,12960,13005,,20
 mango-pickle,Mango Pickle,Appetizers,condiment,,title,"""mango pickle"" is a condiment, dressing, rub or preserve",,,,,,30,10,10,5940,5940,5980,,20
@@ -4052,8 +4052,8 @@ paneer-paratha,Paneer Paratha,Breakfast,breakfast,,category,filed under Breakfas
 methi-paratha,Methi Paratha,Breakfast,breakfast,,category,filed under Breakfast,breakfast,grill,grill,,,25,20,20,20,20,65,,4
 lachha-paratha,Lachha Paratha,Baking,bread,,title,a bread by name,,grill,grill,,,30,20,20,30,30,80,,4
 makki-di-roti,Makki di Roti,Baking,bread,,title,a bread by name,,grill,grill,,,20,20,20,0,0,40,,4
-sindhi-kadhi,Sindhi Kadhi,Dinner,side,yes,category,"an unfamiliar name with 220 kcal and 5 g protein a serving: side, starter or condiment?",,hob,,,,20,35,35,0,0,55,,4
-gatte-ki-sabzi,Gatte ki Sabzi,Dinner,side,yes,category,"a side-dish name with a protein in it (""Gatte ki Sabzi"")",,hob,,,,30,30,30,0,0,60,cooling,4
+sindhi-kadhi,Sindhi Kadhi,Dinner,side,,override,"a thin gram flour gravy with vegetables and 5 g protein a serving, served over rice alongside other dishes",,hob,,,,20,35,35,0,0,55,,4
+gatte-ki-sabzi,Gatte ki Sabzi,Dinner,main,,override,"150 g of gram flour dumplings in a yoghurt gravy for four, served with chapati or rice",dinner,hob,,,,30,30,30,0,0,60,cooling,4
 laal-maas,Laal Maas,Dinner,main,,ingredients,"200 g of meat, fish or tofu a serving",dinner,hob,frying-pan,,yes,25,100,100,80,80,205,,4
 pyaaz-kachori,Pyaaz Kachori,Appetizers,starter,,category,filed under Appetizers,,,,,,45,40,40,20,20,105,cooling completely,8
 mirchi-vada,Mirchi Vada,Appetizers,starter,,category,filed under Appetizers,,hob,,,,30,20,20,0,0,50,,6
@@ -4114,7 +4114,7 @@ chicken-machboos,Chicken Machboos,Dinner,main,,title,"""chicken machboos"" is a 
 luqaimat,Luqaimat,Desserts,dessert,,category,filed under Desserts,,deep-fry hob,deep-fry,,yes,15,15,15,60,60,90,,6
 fatta,Fatta,Dinner,main,,nutrition,32 g protein and 719 kcal a serving,dinner,oven hob,oven,,,20,120,120,0,0,140,,6
 beef-tagine-with-prunes,Beef Tagine with Prunes,Dinner,main,,title,"""beef tagine"" is a main course",dinner,hob,pot,,yes,20,120,120,0,0,140,,6
-seven-vegetable-couscous,Seven-Vegetable Couscous,Dinner,side,yes,category,"a side-dish name with a protein in it (""Seven-Vegetable Couscous"")",,hob,pot,,yes,30,60,60,0,0,90,,6
+seven-vegetable-couscous,Seven-Vegetable Couscous,Dinner,main,,override,800 g of chicken thighs and seven vegetables over couscous for six,dinner,hob,pot,,yes,30,60,60,0,0,90,,6
 bissara,Bissara,Healthy,main,,nutrition,a bean or lentil dish with 15 g protein and 381 kcal a serving,dinner,hob,,,,10,50,50,0,0,60,,4
 moroccan-orange-salad,Moroccan Orange Salad,Healthy,side,,nutrition,a salad with 2 g protein and 138 kcal a serving,,no-cook,,,,15,0,0,30,30,45,,4
 chakhchoukha,Chakhchoukha,Dinner,main,,ingredients,"117 g of meat, fish or tofu a serving",dinner,hob,pot,,yes,30,60,60,20,20,110,,6
@@ -4149,8 +4149,8 @@ singapore-chilli-prawns,Singapore Chilli Prawns,Dinner,main,,title,named for its
 roti-john,Roti John,Lunch,main,,nutrition,33 g protein and 770 kcal a serving,lunch dinner,hob,frying-pan,,yes,15,10,10,0,0,25,,2
 murtabak,Murtabak,Lunch,main,,nutrition,26 g protein and 806 kcal a serving,lunch dinner,grill,grill,,,35,25,25,60,60,120,,4
 nasi-kandar,Nasi Kandar,Dinner,main,,nutrition,42 g protein and 763 kcal a serving,dinner,hob,,,,25,50,50,0,0,75,,4
-nasi-kuning,Nasi Kuning,Dinner,main,yes,category,"an unfamiliar name (9 g protein, 455 kcal a serving)",,hob,,,,15,35,35,30,30,80,,6
-nasi-uduk,Nasi Uduk,Dinner,main,yes,category,"an unfamiliar name (11 g protein, 529 kcal a serving)",,hob,,,,10,30,30,0,0,40,,4
+nasi-kuning,Nasi Kuning,Dinner,side,,override,"celebration rice for six, served with fried chicken, tempeh and sambal",,hob,,,,15,35,35,30,30,80,,6
+nasi-uduk,Nasi Uduk,Dinner,breakfast,,override,"coconut rice that the recipe describes as a Jakarta breakfast, served with fried shallots, egg and sambal",breakfast,hob,,,,10,30,30,0,0,40,,4
 indonesian-rawon,Indonesian Rawon,Dinner,main,,ingredients,"133 g of meat, fish or tofu a serving",dinner,hob,pot,,yes,30,140,140,0,0,170,,6
 indonesian-gudeg,Indonesian Gudeg,Dinner,main,,nutrition,28 g protein and 631 kcal a serving,dinner,hob,pot,,yes,30,150,150,0,0,180,,6
 sate-padang,Sate Padang,Dinner,main,,ingredients,"175 g of meat, fish or tofu a serving",dinner,grill,grill skewers,,,30,110,110,0,0,140,,4
@@ -4188,12 +4188,12 @@ erwtensoep,Erwtensoep,Dinner,main,,ingredients,a soup with 83 g of meat or fish 
 norwegian-waffles,Norwegian Waffles,Breakfast,breakfast,,category,filed under Breakfast,breakfast,oven,oven,,,10,20,20,0,0,30,,6
 paczki,Paczki,Baking,dessert,,category,a sweet bake filed under Baking,,deep-fry,deep-fry rolling-pin,,yes,45,20,20,120,120,185,,12
 papanasi,Papanasi,Desserts,dessert,,category,filed under Desserts,,oven deep-fry,oven deep-fry,,yes,25,15,15,30,30,70,,6
-banitsa,Banitsa,Baking,bread,yes,category,a bake with no sugar in it: a bread or a savoury bake?,,oven,oven,26 cm round tin,,30,40,40,0,0,70,,8
+banitsa,Banitsa,Baking,light,,override,"a filo pie of eggs, feta and yoghurt for eight, served with a tomato salad: a light meal",lunch,oven,oven,26 cm round tin,,30,40,40,0,0,70,,8
 cevapi,Cevapi,Dinner,main,,title,"""cevapi"" is a main course",dinner,grill,grill,,,20,12,12,480,480,512,,4
 pljeskavica,Pljeskavica,Dinner,main,,title,"""pljeskavica"" is a main course",dinner,grill,grill,,,20,12,12,0,0,32,,4
 croatian-peka,Croatian Peka,Dinner,main,,nutrition,47 g protein and 906 kcal a serving,dinner,oven hob,oven pot,,yes,25,150,150,0,0,175,,6
 pounded-yam,Pounded Yam,Dinner,side,,override,a side dish: served beside a main course in its own cuisine,,hob,food-processor,,,10,25,25,0,0,35,,4
-moi-moi,Moi Moi,Dinner,main,yes,category,"an unfamiliar name (9 g protein, 286 kcal a serving)",,steam,ramekins,,,30,60,60,0,0,90,,6
+moi-moi,Moi Moi,Dinner,side,,override,"steamed bean pudding served with jollof rice, pap or stew",,steam,ramekins,,,30,60,60,0,0,90,,6
 ofada-rice,Ofada Rice,Dinner,main,,ingredients,"100 g of meat, fish or tofu a serving",dinner,hob,frying-pan,,yes,25,60,60,0,0,85,,6
 banku-with-okra-stew,Banku with Okra Stew,Dinner,main,,ingredients,"88 g of meat, fish or tofu a serving",dinner,hob,pot,,yes,25,40,40,0,0,65,,4
 groundnut-soup,Groundnut Soup,Dinner,main,,nutrition,a soup with 31 g protein and 465 kcal a serving: a meal in a bowl,dinner,hob,pot,,yes,20,60,60,0,0,80,,6
@@ -4240,7 +4240,7 @@ fideua,Fideuà,Dinner,main,,ingredients,"125 g of meat, fish or tofu a serving",
 arroz-negro,Arroz Negro,Dinner,main,,ingredients,"102 g of meat, fish or tofu a serving",dinner,hob,frying-pan,,yes,20,40,40,0,0,60,,4
 marmitako,Marmitako,Dinner,main,,ingredients,"150 g of meat, fish or tofu a serving",dinner,hob,pot,,yes,20,35,35,0,0,55,,4
 caldo-gallego,Caldo Gallego,Dinner,main,,nutrition,26 g protein and 395 kcal a serving,dinner,hob,pot,,yes,15,90,90,480,480,585,,6
-empanada-gallega,Empanada Gallega,Baking,bread,yes,category,a bake with no sugar in it: a bread or a savoury bake?,,oven,oven baking-tray,,yes,50,60,60,80,80,190,cooling,8
+empanada-gallega,Empanada Gallega,Baking,main,,override,"a large yeasted pie filled with tuna, onion and pepper, cut into squares and served with salad",dinner,oven,oven baking-tray,,yes,50,60,60,80,80,190,cooling,8
 cachopo,Cachopo,Dinner,main,,ingredients,"100 g of meat, fish or tofu a serving",dinner,hob,frying-pan,,yes,25,20,20,15,15,60,,3
 huevos-rotos,Huevos Rotos,Dinner,main,,nutrition,21 g protein and 993 kcal a serving,dinner,hob,frying-pan,,yes,10,25,25,0,0,35,,2
 berenjenas-con-miel,Berenjenas con Miel,Appetizers,starter,,category,filed under Appetizers,,deep-fry hob,deep-fry,,yes,10,15,15,20,20,45,,4
@@ -4275,7 +4275,7 @@ chicken-tamales,Chicken Tamales,Dinner,main,,title,"""chicken tamales"" is a mai
 sweet-tamales,Sweet Tamales,Desserts,dessert,,category,filed under Desserts,,oven steam,oven steamer,,yes,60,75,75,30,30,165,,12
 tlayudas,Tlayudas,Dinner,main,,title,"""tlayudas"" is a main course",dinner,grill hob,grill,,,20,15,15,0,0,35,,2
 quesadillas-de-flor-de-calabaza,Quesadillas de Flor de Calabaza,Quick Meals,light,,title,"a sandwich, wrap or filled bread",lunch,grill,grill,,,15,10,10,0,0,25,,4
-frijoles-de-la-olla,Frijoles de la Olla,Healthy,main,yes,category,"an unfamiliar name (16 g protein, 259 kcal a serving)",,hob,pot,,yes,10,120,120,0,0,130,,6
+frijoles-de-la-olla,Frijoles de la Olla,Healthy,main,,override,"400 g of pinto beans for six, served in their broth with tortillas and rice",dinner,hob,pot,,yes,10,120,120,0,0,130,,6
 salsa-roja,Salsa Roja,Appetizers,condiment,,title,"""salsa roja"" is a condiment, dressing, rub or preserve",,hob,,,,10,15,15,0,0,25,cooling,8
 mexican-hot-chocolate,Mexican Hot Chocolate,Drinks,drink,,category,filed under Drinks,,hob,,,,5,10,10,0,0,15,,2
 causa-rellena,Causa Rellena,Appetizers,starter,,category,filed under Appetizers,,oven,cake-tin,,yes,40,20,20,60,60,120,,6
@@ -4293,7 +4293,7 @@ vatapa,Vatapa,Dinner,main,,nutrition,22 g protein and 445 kcal a serving,dinner,
 lechon-asado,Lechon Asado,Dinner,main,,title,"""lechon asado"" is a main course",dinner,oven,oven roasting-tin,,yes,20,240,240,500,500,760,,8
 yuca-con-mojo,Yuca con Mojo,Dinner,side,,override,a side dish: served beside a main course in its own cuisine,,hob,,,,10,30,30,0,0,40,,4
 cuban-flan,Cuban Flan,Desserts,dessert,,category,filed under Desserts,,oven hob,oven roasting-tin cake-tin,22 cm cake tin,,20,60,60,240,240,320,cooling,8
-puerto-rican-pasteles,Puerto Rican Pasteles,Dinner,main,yes,category,"an unfamiliar name (11 g protein, 278 kcal a serving)",,,,,,90,100,100,0,0,190,,12
+puerto-rican-pasteles,Puerto Rican Pasteles,Dinner,main,,override,"banana-and-plantain parcels filled with 600 g of pork for twelve, served with rice and pigeon peas",dinner,,,,,90,100,100,0,0,190,,12
 puerto-rican-alcapurrias,Puerto Rican Alcapurrias,Appetizers,starter,,category,filed under Appetizers,,,,,,60,10,10,0,0,70,cooling completely,12
 puerto-rican-tembleque,Puerto Rican Tembleque,Desserts,dessert,,category,filed under Desserts,,,ramekins,,,10,15,15,200,200,225,,8
 la-bandera-dominicana,La Bandera Dominicana,Dinner,main,,nutrition,62 g protein and 865 kcal a serving,dinner,hob,pot,,,25,60,60,0,0,85,,4
@@ -4304,12 +4304,12 @@ diri-ak-djon-djon,Diri ak Djon Djon,Dinner,side,,override,a side dish: served be
 jamaican-curry-chicken,Jamaican Curry Chicken,Dinner,main,,title,named for its protein,dinner,hob,pot,,yes,20,45,45,60,60,125,,4
 jamaican-brown-stew-chicken,Jamaican Brown Stew Chicken,Dinner,main,,title,named for its protein,dinner,hob,pot,,yes,20,50,50,60,60,130,,4
 jamaican-festival,Jamaican Festival,Baking,dessert,,category,a sweet bake filed under Baking,,oven deep-fry,oven deep-fry,,yes,20,15,15,20,20,55,,8
-jamaican-fry-dumplings,Jamaican Fry Dumplings,Baking,bread,yes,category,a bake with no sugar in it: a bread or a savoury bake?,,oven hob,oven frying-pan,,yes,15,15,15,0,0,30,,6
+jamaican-fry-dumplings,Jamaican Fry Dumplings,Baking,bread,,override,shallow-fried dough served with saltfish and ackee or for breakfast: a starch alongside other dishes,,oven hob,oven frying-pan,,yes,15,15,15,0,0,30,,6
 jamaican-bun-and-cheese,Jamaican Bun and Cheese,Baking,starter,,override,a starter or snack,,oven,oven cake-tin skewers,,yes,30,45,45,0,0,75,,10
 jamaican-rum-cake,Jamaican Rum Cake,Desserts,dessert,,category,filed under Desserts,,oven,oven skewers,20 cm round tin,,25,60,60,1440,1440,1525,cooling the fruit,12
-gungo-peas-soup,Gungo Peas Soup,Dinner,light,yes,category,"a soup between a light meal and a main (16 g protein, 298 kcal)",,hob,pot,,yes,15,60,60,480,480,555,,6
-jamaican-pepper-pot-soup,Jamaican Pepper Pot Soup,Dinner,light,yes,category,"a soup between a light meal and a main (16 g protein, 360 kcal)",,hob,pot,,yes,20,60,60,0,0,80,,6
-jamaican-red-pea-soup,Jamaican Red Pea Soup,Dinner,light,yes,category,"a soup between a light meal and a main (18 g protein, 436 kcal)",,hob,pot,,yes,20,90,90,480,480,590,,6
+gungo-peas-soup,Gungo Peas Soup,Dinner,main,,override,"a thick soup of pigeon peas, 300 g of smoked ham hock, yam and pumpkin for six",dinner,hob,pot,,yes,15,60,60,480,480,555,,6
+jamaican-pepper-pot-soup,Jamaican Pepper Pot Soup,Dinner,main,,override,"a thick soup of 300 g of smoked ham hock, callaloo, yam and coconut milk for six",dinner,hob,pot,,yes,20,60,60,0,0,80,,6
+jamaican-red-pea-soup,Jamaican Red Pea Soup,Dinner,main,,override,"250 g of kidney beans, 300 g of salted meat and dumplings in a soup for six",dinner,hob,pot,,yes,20,90,90,480,480,590,,6
 dhalpuri-roti,Dhalpuri Roti,Baking,bread,,title,a bread by name,,oven grill,oven grill,,,40,25,25,30,30,95,,6
 trinidadian-pelau,Trinidadian Pelau,Dinner,main,,title,"""trinidadian pelau"" is a main course",dinner,hob,pot,,yes,15,45,45,30,30,90,,6
 trinidadian-curry-duck,Trinidadian Curry Duck,Dinner,main,,title,named for its protein,dinner,hob,pot,,yes,20,75,75,240,240,335,,6
@@ -4319,11 +4319,11 @@ cou-cou-with-flying-fish,Cou-Cou with Flying Fish,Dinner,main,,title,named for i
 bajan-macaroni-pie,Bajan Macaroni Pie,Dinner,main,,title,"""bajan macaroni pie"" is a main course",dinner,oven hob,oven pot baking-dish,23 cm baking dish,,15,40,40,0,0,55,,6
 bajan-fish-cakes,Bajan Fish Cakes,Appetizers,starter,,category,filed under Appetizers,,oven deep-fry,oven deep-fry,,yes,20,15,15,0,0,35,,6
 guyanese-pepperpot,Guyanese Pepperpot,Dinner,main,,title,"""guyanese pepperpot"" is a main course",dinner,hob,pot,,yes,25,180,180,0,0,205,,6
-metemgee,Metemgee,Dinner,main,yes,category,"an unfamiliar name (7 g protein, 511 kcal a serving)",,hob,pot,,yes,25,60,60,0,0,85,,6
+metemgee,Metemgee,Dinner,side,,override,"root vegetables, plantain and dumplings in coconut milk with no protein in the recipe; fried or salted fish is suggested alongside",,hob,pot,,yes,25,60,60,0,0,85,,6
 conch-fritters,Conch Fritters,Appetizers,starter,,category,filed under Appetizers,,oven deep-fry,oven deep-fry,,yes,20,15,15,0,0,35,,6
 caribbean-coconut-rice,Caribbean Coconut Rice,Dinner,side,,title,"""caribbean coconut rice"" is a side dish",,hob,frying-pan,,yes,5,30,30,0,0,35,,4
 caribbean-rum-punch,Caribbean Rum Punch,Drinks,drink,,category,filed under Drinks,,no-cook,,,,5,0,0,30,30,35,,6
-samoan-palusami,Samoan Palusami,Dinner,side,yes,category,"an unfamiliar name with 183 kcal and 4 g protein a serving: side, starter or condiment?",,oven,oven baking-tray,,yes,30,60,60,0,0,90,,6
+samoan-palusami,Samoan Palusami,Dinner,side,,override,"spinach baked in coconut cream, served with taro, rice, grilled fish or roast pork",,oven,oven baking-tray,,yes,30,60,60,0,0,90,,6
 samoan-pani-popo,Samoan Pani Popo,Baking,dessert,,category,a sweet bake filed under Baking,,oven,oven baking-dish,20 cm baking dish,yes,25,25,25,60,60,110,,12
 samoan-chop-suey,Samoan Chop Suey,Dinner,main,,ingredients,"100 g of meat, fish or tofu a serving",dinner,hob,wok,,yes,15,20,20,0,0,35,,4
 samoan-panikeke,Samoan Panikeke,Desserts,dessert,,category,filed under Desserts,,oven deep-fry hob,oven frying-pan deep-fry,,,10,15,15,0,0,25,,6
@@ -4331,7 +4331,7 @@ samoan-koko-alaisa,Samoan Koko Alaisa,Breakfast,breakfast,,category,filed under 
 tongan-lu-pulu,Tongan Lu Pulu,Dinner,main,,nutrition,22 g protein and 345 kcal a serving,dinner,oven,oven baking-tray,,yes,30,90,90,0,0,120,,6
 tongan-otai,Tongan Otai,Drinks,drink,,category,filed under Drinks,,no-cook,,,,15,0,0,0,0,15,,6
 fijian-kokoda,Fijian Kokoda,Appetizers,starter,,category,filed under Appetizers,,no-cook,,,,20,0,0,15,15,35,,4
-fijian-rourou,Fijian Rourou,Dinner,main,yes,category,"an unfamiliar name (8 g protein, 322 kcal a serving)",,hob,pot,,yes,10,40,40,0,0,50,,4
+fijian-rourou,Fijian Rourou,Dinner,side,,override,"spinach stewed in coconut milk, served with cassava, taro, rice or grilled fish",,hob,pot,,yes,10,40,40,0,0,50,,4
 fijian-lovo,Fijian Lovo,Dinner,main,,ingredients,"100 g of meat, fish or tofu a serving",dinner,oven,oven baking-tray,,yes,30,120,120,0,0,150,,8
 fijian-curry,Fijian Curry,Dinner,main,,title,"""fijian curry"" is a main course",dinner,hob,frying-pan,,yes,15,35,35,0,0,50,,4
 cook-islands-ika-mata,Cook Islands Ika Mata,Appetizers,starter,,category,filed under Appetizers,,no-cook,,,,20,0,0,0,0,20,,4
@@ -4391,7 +4391,7 @@ new-england-boiled-dinner,New England Boiled Dinner,Dinner,main,,title,"""new en
 maine-lobster-stew,Maine Lobster Stew,Dinner,main,,title,"""maine lobster stew"" is a main course",dinner,hob,saucepan,,yes,20,25,25,30,30,75,,4
 vermont-maple-cream-pie,Vermont Maple Cream Pie,Desserts,dessert,,category,filed under Desserts,,oven hob,oven baking-dish rolling-pin,23 cm pie dish,yes,25,35,35,180,180,240,,8
 pennsylvania-dutch-chicken-corn-soup,Pennsylvania Dutch Chicken Corn Soup,Dinner,main,,nutrition,a soup with 29 g protein and 453 kcal a serving: a meal in a bowl,dinner,hob,pot,,yes,20,60,60,0,0,80,,6
-maryland-crab-soup,Maryland Crab Soup,Dinner,light,yes,category,"a soup between a light meal and a main (18 g protein, 231 kcal)",,hob,pot,,yes,20,60,60,0,0,80,,6
+maryland-crab-soup,Maryland Crab Soup,Dinner,light,,override,"a tomato and vegetable soup with crab, served with crackers or cornbread: a light meal",lunch,hob,pot,,yes,20,60,60,0,0,80,,6
 smith-island-cake,Smith Island Cake,Desserts,dessert,,category,filed under Desserts,,oven hob,oven saucepan,,yes,60,30,30,0,0,90,cooling the layers; setting the frosting,12
 virginia-ham-biscuits,Virginia Ham Biscuits,Appetizers,dessert,,title,a sweet bake by name,,oven,oven,,,25,15,15,0,0,40,,12
 beer-brats,Beer Brats,Dinner,main,,title,"""beer brats"" is a main course",dinner,hob,frying-pan,,yes,10,30,30,0,0,40,,6
@@ -4513,7 +4513,7 @@ instant-pot-gumbo,Instant Pot Gumbo,Dinner,main,,title,"""instant pot gumbo"" is
 instant-pot-korean-beef,Instant Pot Korean Beef,Dinner,main,,title,named for its protein,dinner,pressure-cooker hob,pot pressure-cooker,,,10,25,25,0,0,35,,4
 instant-pot-lamb-shanks,Instant Pot Lamb Shanks,Dinner,main,,title,named for its protein,dinner,pressure-cooker hob,pot pressure-cooker,,,15,100,100,0,0,115,,4
 instant-pot-meatballs,Instant Pot Meatballs,Dinner,main,,title,"""instant pot meatballs"" is a main course",dinner,pressure-cooker hob,pot pressure-cooker,,,20,15,15,0,0,35,,4
-instant-pot-minestrone,Instant Pot Minestrone,Dinner,light,yes,category,"a soup between a light meal and a main (18 g protein, 338 kcal)",,pressure-cooker hob,pot pressure-cooker,,,15,15,15,0,0,30,,6
+instant-pot-minestrone,Instant Pot Minestrone,Dinner,main,,override,"beans, pasta and vegetables for six with 18 g protein a serving, served with bread and parmesan as the meal",dinner,pressure-cooker hob,pot pressure-cooker,,,15,15,15,0,0,30,,6
 instant-pot-mongolian-beef,Instant Pot Mongolian Beef,Dinner,main,,title,named for its protein,dinner,pressure-cooker hob,pot pressure-cooker,,,10,15,15,0,0,25,,4
 instant-pot-orange-chicken,Instant Pot Orange Chicken,Dinner,main,,title,named for its protein,dinner,pressure-cooker hob,pot pressure-cooker,,,15,20,20,0,0,35,,4
 instant-pot-osso-buco,Instant Pot Osso Buco,Dinner,main,,ingredients,"350 g of meat, fish or tofu a serving",dinner,pressure-cooker hob,pot pressure-cooker,,,25,50,50,0,0,75,,4
@@ -4642,11 +4642,11 @@ stuffed-zucchini-boats,Stuffed Zucchini Boats,Dinner,main,,ingredients,a stuffed
 sweet-corn-soup,Sweet Corn Soup,Dinner,main,,nutrition,a soup with 22 g protein and 321 kcal a serving: a meal in a bowl,dinner,hob,frying-pan,,yes,10,20,20,0,0,30,,4
 turkey-casserole,Turkey Casserole,Dinner,main,,title,"""turkey casserole"" is a main course",dinner,oven hob,oven frying-pan pot baking-dish,,,15,35,35,0,0,50,,6
 turkey-tetrazzini,Turkey Tetrazzini,Dinner,main,,title,"""turkey tetrazzini"" is a main course",dinner,oven hob,oven frying-pan baking-dish,,,20,30,30,0,0,50,,6
-udon-noodles,Udon Noodles,Quick Meals,main,yes,category,"an unfamiliar name (16 g protein, 493 kcal a serving)",,hob,frying-pan,,yes,10,15,15,0,0,25,,2
+udon-noodles,Udon Noodles,Quick Meals,main,,override,"400 g of udon with a fried egg for two, served with a cucumber salad or edamame",dinner,hob,frying-pan,,yes,10,15,15,0,0,25,,2
 veal-parmesan,Veal Parmesan,Dinner,main,,title,"""veal parmesan"" is a main course",dinner,oven hob,oven frying-pan,,yes,25,20,20,0,0,45,,4
 white-bean-chili,White Bean Chili,Dinner,main,,title,"""white bean chili"" is a main course",dinner,,,,,15,30,30,0,0,45,,6
 white-lasagna,White Lasagna,Dinner,main,,title,"""white lasagna"" is a main course",dinner,oven hob,oven baking-dish,,yes,30,45,45,15,15,90,,8
-orzo-soup,Orzo Soup,Dinner,light,yes,category,"a soup between a light meal and a main (14 g protein, 351 kcal)",,hob,pot,,yes,10,25,25,0,0,35,,4
+orzo-soup,Orzo Soup,Dinner,light,,override,"orzo in chicken stock with vegetables and no meat in the recipe, served with bread and feta",lunch,hob,pot,,yes,10,25,25,0,0,35,,4
 chicken-and-ham-pie,Chicken and Ham Pie,Dinner,main,,title,"""chicken and ham pie"" is a main course",dinner,oven,oven baking-dish,,yes,30,70,70,30,30,130,,6
 eggplant-rollatini,Eggplant Rollatini,Dinner,main,,nutrition,23 g protein and 473 kcal a serving,dinner,oven,oven baking-dish,,yes,30,30,30,20,20,80,,4
 pan-fried-barramundi,Pan Fried Barramundi,Dinner,main,,title,named for its protein,dinner,hob,frying-pan,,yes,5,8,8,0,0,13,,2
@@ -4979,13 +4979,13 @@ tuiles-aux-amandes,Tuiles aux Amandes,Baking,dessert,,category,a sweet bake file
 nougat-de-montelimar,Nougat de Montelimar,Desserts,dessert,,category,filed under Desserts,,oven hob,oven frying-pan cake-tin,20 cm square tin,,20,25,25,480,480,525,,24
 tarte-bourdaloue,Tarte Bourdaloue,Desserts,dessert,,category,filed under Desserts,,oven,oven cake-tin,23 cm tart tin,yes,30,40,40,20,20,90,,8
 poire-belle-helene,Poire Belle Helene,Desserts,dessert,,category,filed under Desserts,,hob,,,,10,25,25,0,0,35,cooling,4
-soupe-aux-choux,Soupe Aux Choux,Dinner,main,yes,category,"an unfamiliar name (13 g protein, 293 kcal a serving)",,hob,pot,,yes,15,60,60,0,0,75,,6
+soupe-aux-choux,Soupe Aux Choux,Dinner,light,,override,"a cabbage, potato and bacon soup with 150 g of bacon for six, served with bread and Gruyère",lunch,hob,pot,,yes,15,60,60,0,0,75,,6
 salade-de-gesiers,Salade de Gesiers,Lunch,main,,ingredients,"113 g of meat, fish or tofu a serving",lunch dinner,hob,frying-pan,,yes,20,20,20,0,0,40,,4
 cake-sale,Cake Sale,Appetizers,dessert,,title,a sweet dish by name,,oven,oven cake-tin skewers,,yes,15,45,45,0,0,60,,10
 tarte-tropezienne,Tarte Tropezienne,Baking,dessert,,category,a sweet bake filed under Baking,,oven hob,oven,,,60,25,25,160,160,245,cooling completely,10
 bugnes,Bugnes,Holiday Specials,dessert,,title,a sweet dish by name,,deep-fry,deep-fry rolling-pin,,yes,25,10,10,60,60,95,,20
 baeckeoffe,Baeckeoffe,Dinner,main,,ingredients,"200 g of meat, fish or tofu a serving",dinner,oven hob,oven pot,,yes,30,180,180,480,480,690,,6
-bretzel-alsacien,Bretzel Alsacien,Baking,bread,yes,category,a bake with no sugar in it: a bread or a savoury bake?,,oven hob,oven frying-pan,,yes,40,15,15,60,60,115,,8
+bretzel-alsacien,Bretzel Alsacien,Baking,bread,,override,"hand-shaped pretzels served with mustard, butter or cold cuts",,oven hob,oven frying-pan,,yes,40,15,15,60,60,115,,8
 pounti,Pounti,Dinner,main,,nutrition,21 g protein and 445 kcal a serving,dinner,oven,oven cake-tin,,yes,20,60,60,0,0,80,,6
 potee-auvergnate,Potee Auvergnate,Dinner,main,,ingredients,"183 g of meat, fish or tofu a serving",dinner,hob,pot,,yes,20,120,120,0,0,140,,6
 lapin-chasseur,Lapin Chasseur,Dinner,main,,title,"""lapin chasseur"" is a main course",dinner,hob,pot,,yes,20,75,80,0,0,95,,4
@@ -5046,7 +5046,7 @@ polenta-taragna,Polenta Taragna,Dinner,main,,nutrition,20 g protein and 524 kcal
 pollo-alla-diavola,Pollo alla Diavola,Dinner,main,,ingredients,"400 g of meat, fish or tofu a serving",dinner,oven,oven,,,15,40,40,60,60,115,,4
 coniglio-alla-cacciatora,Coniglio alla Cacciatora,Dinner,main,,ingredients,"300 g of meat, fish or tofu a serving",dinner,hob,frying-pan,,yes,20,70,70,0,0,90,,4
 trippa-alla-fiorentina,Trippa alla Fiorentina,Dinner,main,,ingredients,"167 g of meat, fish or tofu a serving",dinner,,,,,20,120,120,0,0,140,,6
-pomodori-ripieni,Pomodori Ripieni,Dinner,main,yes,category,"an unfamiliar name (8 g protein, 419 kcal a serving)",,oven,oven roasting-tin,,yes,20,40,40,35,35,95,,4
+pomodori-ripieni,Pomodori Ripieni,Dinner,side,,override,"tomatoes filled with rice and baked with potatoes, with grilled fish suggested alongside",,oven,oven roasting-tin,,yes,20,40,40,35,35,95,,4
 fagioli-alluccelletto,Fagioli all'Uccelletto,Dinner,main,,nutrition,a bean or lentil dish with 16 g protein and 351 kcal a serving,dinner,hob,frying-pan,,yes,10,40,40,0,0,50,,4
 tortelli-di-zucca,Tortelli di Zucca,Dinner,main,,title,"""tortelli"" names a main course",dinner,,rolling-pin,,,60,5,5,20,20,85,,6
 seadas,Seadas,Desserts,dessert,,category,filed under Desserts,,hob,rolling-pin,,,40,10,10,20,20,70,,8
@@ -5062,7 +5062,7 @@ castagnole,Castagnole,Holiday Specials,dessert,,title,a sweet dish by name,,oven
 torrone,Torrone,Holiday Specials,dessert,,title,a sweet dish by name,,oven hob,cake-tin,20 cm square tin,yes,30,25,25,360,360,415,,16
 brutti-ma-buoni,Brutti ma Buoni,Baking,dessert,,category,a sweet bake filed under Baking,,oven,oven,,,10,30,30,0,0,40,,20
 fave-e-cicoria,Fave e Cicoria,Dinner,side,,title,"""fave e cicoria"" is a side dish",,hob,,,,10,45,45,480,480,535,,4
-burrata-with-tomatoes,Burrata with Tomatoes,Quick Meals,main,yes,category,an unfamiliar name and no nutrition figures,,no-cook,,,,10,0,0,0,0,10,,4
+burrata-with-tomatoes,Burrata with Tomatoes,Quick Meals,starter,,override,sliced tomatoes and burrata with bread and no cooking: a cold first course,,no-cook,,,,10,0,0,0,0,10,,4
 pizza-fritta,Pizza Fritta,Dinner,main,,title,"""pizza"" names a main course",dinner,deep-fry hob,deep-fry,,yes,40,10,10,60,60,110,,4
 pinsa-romana,Pinsa Romana,Dinner,main,,title,"""pinsa"" names a main course",dinner,oven,oven,,,20,15,15,120,120,155,,4
 gnocco-fritto,Gnocco Fritto,Appetizers,starter,,category,filed under Appetizers,,deep-fry,deep-fry rolling-pin,,yes,20,15,15,20,20,55,,6
@@ -5091,7 +5091,7 @@ abbacchio-alla-scottadito,Abbacchio alla Scottadito,Dinner,main,,nutrition,39 g 
 castagnaccio,Castagnaccio,Baking,dessert,,category,a sweet bake filed under Baking,,oven,oven,25 cm tin,,10,40,40,0,0,50,,8
 trenette-al-pesto,Trenette al Pesto,Quick Meals,main,,title,"""trenette"" names a pasta dish",dinner,hob,frying-pan,,,10,15,15,0,0,25,,4
 torta-di-verdure,Torta di Verdure,Lunch,light,,title,"a sandwich, wrap or filled bread",lunch,oven,oven,26 cm tin,,25,45,45,30,30,100,,8
-peperoni-ripieni,Peperoni Ripieni,Dinner,main,yes,category,"an unfamiliar name (10 g protein, 365 kcal a serving)",,oven,oven,,,20,45,45,0,0,65,,4
+peperoni-ripieni,Peperoni Ripieni,Dinner,side,,override,"peppers stuffed with breadcrumbs, olives and capers, with grilled fish suggested alongside",,oven,oven,,,20,45,45,0,0,65,,4
 involtini-di-melanzane,Involtini di Melanzane,Appetizers,starter,,category,filed under Appetizers,,oven,oven,,,25,25,25,30,30,80,,6
 pollo-alla-romana,Pollo alla Romana,Dinner,main,,ingredients,"300 g of meat, fish or tofu a serving",dinner,hob,frying-pan,,yes,15,45,45,0,0,60,,4
 pollo-al-limone,Pollo al Limone,Dinner,main,,ingredients,"300 g of meat, fish or tofu a serving",dinner,hob,frying-pan,,yes,10,35,35,0,0,45,,4
@@ -5134,7 +5134,7 @@ pizza-quattro-formaggi,Pizza Quattro Formaggi,Dinner,main,,title,"""pizza"" name
 focaccia-di-recco,Focaccia di Recco,Baking,bread,,title,"""focaccia"" is a bread",,oven,oven rolling-pin,30 cm round tin,,40,20,20,30,30,90,,6
 focaccia-pugliese,Focaccia Pugliese,Baking,bread,,title,"""focaccia"" is a bread",,oven,oven,40 cm tin,,25,30,30,90,90,145,,8
 bruschetta-al-pomodoro,Bruschetta al Pomodoro,Appetizers,starter,,category,filed under Appetizers,,grill,grill,,,10,5,5,0,0,15,,4
-carciofi-ripieni,Carciofi Ripieni,Dinner,main,yes,category,"an unfamiliar name (18 g protein, 510 kcal a serving)",,,,,,25,45,45,0,0,70,,4
+carciofi-ripieni,Carciofi Ripieni,Dinner,starter,,override,"a whole stuffed artichoke each, braised in oil and wine and served with bread and lemon: a first course",,,,,,25,45,45,0,0,70,,4
 lasagne-bianche,Lasagne Bianche,Dinner,main,,title,"""lasagne"" names a main course",dinner,oven hob,oven frying-pan baking-dish,,,30,55,55,0,0,85,,6
 cannelloni-ricotta-e-spinaci,Cannelloni Ricotta e Spinaci,Dinner,main,,title,"""cannelloni"" names a main course",dinner,oven hob,oven baking-dish,,yes,30,40,40,0,0,70,,6
 conchiglioni-ripieni,Conchiglioni Ripieni,Dinner,main,,nutrition,23 g protein and 450 kcal a serving,dinner,oven,oven baking-dish,,yes,25,40,40,0,0,65,,6
@@ -5161,7 +5161,7 @@ kartoffelpuffer,Kartoffelpuffer,Dinner,side,,title,"""kartoffelpuffer"" is a sid
 kartoffelklosse,Kartoffelklosse,Dinner,side,,title,"""kartoffelklosse"" is a side dish",,hob,,,,40,50,50,0,0,90,,6
 semmelknodel,Semmelknodel,Dinner,side,,title,"""semmelknodel"" is a side dish",,hob,,,,25,25,25,15,15,65,,4
 labskaus,Labskaus,Dinner,main,,nutrition,41 g protein and 657 kcal a serving,dinner,,,,,20,45,45,0,0,65,,4
-himmel-und-erde,Himmel und Erde,Dinner,main,yes,category,"an unfamiliar name (17 g protein, 627 kcal a serving)",,hob,pot,,yes,20,30,30,0,0,50,,4
+himmel-und-erde,Himmel und Erde,Dinner,main,,override,mashed potato and apple with 400 g of fried black pudding and onions for four,dinner,hob,pot,,yes,20,30,30,0,0,50,,4
 maultaschen,Maultaschen,Dinner,main,,nutrition,27 g protein and 473 kcal a serving,dinner,,rolling-pin,,,60,20,20,20,20,100,,6
 leberkase,Leberkase,Dinner,main,,ingredients,"167 g of meat, fish or tofu a serving",dinner,oven,oven cake-tin food-processor,,yes,20,60,60,0,0,80,,6
 weisswurst,Weisswurst,Quick Meals,light,,override,"a light meal: a grain or noodle salad, soup or filled toast for lunch",lunch,hob,frying-pan,,yes,5,15,15,0,0,20,,4
@@ -5234,7 +5234,7 @@ serviettenknodel,Serviettenknödel,Dinner,side,,title,"""serviettenknödel"" is 
 griessknodel,Griessknödel,Dinner,side,,override,a side dish: served beside a main course in its own cuisine,,hob,frying-pan,,,20,15,15,20,20,55,,6
 salzburger-nockerl,Salzburger Nockerl,Desserts,dessert,,category,filed under Desserts,,oven,oven baking-dish,,yes,25,15,15,0,0,40,,4
 esterhazy-torte,Esterhazy Torte,Baking,dessert,,category,a sweet bake filed under Baking,,oven hob,oven,,,60,40,40,60,60,160,cooling,12
-kaspressknodel,Kaspressknödel,Dinner,main,yes,category,an unfamiliar name and no nutrition figures,,,,,,25,10,10,15,15,50,,4
+kaspressknodel,Kaspressknödel,Dinner,main,,override,"cheese and bread dumplings for four, served in broth or with salad",dinner,,,,,25,10,10,15,15,50,,4
 tiroler-grostl,Tiroler Gröstl,Dinner,main,,ingredients,"100 g of meat, fish or tofu a serving",dinner,hob,frying-pan,,,15,30,30,0,0,45,,4
 hutspot,Hutspot,Dinner,side,,title,"""hutspot"" is a side dish",,hob,frying-pan pot,,,20,30,30,0,0,50,,4
 kroketten,Kroketten,Appetizers,starter,,category,filed under Appetizers,,deep-fry hob,deep-fry,,yes,40,15,15,260,260,315,,12
@@ -5304,12 +5304,12 @@ prego-no-pao,Prego no Pao,Quick Meals,main,,ingredients,"125 g of meat, fish or 
 bolo-de-bolacha,Bolo de Bolacha,Desserts,dessert,,category,filed under Desserts,,no-cook,,,,25,0,0,480,480,505,,8
 queijadas-de-sintra,Queijadas de Sintra,Desserts,dessert,,category,filed under Desserts,,oven,oven cake-tin rolling-pin,,yes,25,25,25,15,15,65,,12
 sopa-de-pedra,Sopa de Pedra,Dinner,main,,nutrition,31 g protein and 543 kcal a serving,dinner,hob,pot,,yes,20,120,120,480,480,620,,6
-acorda-alentejana,Acorda Alentejana,Dinner,main,yes,category,"an unfamiliar name (14 g protein, 468 kcal a serving)",,,,,,15,15,15,0,0,30,,4
+acorda-alentejana,Acorda Alentejana,Dinner,light,,override,"a bread soup with a poached egg in each bowl, served with salad or cured ham: a light meal",lunch,,,,,15,15,15,0,0,30,,4
 ameijoas-a-bulhao-pato,Amêijoas à Bulhão Pato,Dinner,main,,ingredients,"250 g of meat, fish or tofu a serving",dinner,,frying-pan,,yes,10,10,10,0,0,20,,4
 caldeirada-de-peixe,Caldeirada de Peixe,Dinner,main,,ingredients,"200 g of meat, fish or tofu a serving",dinner,hob,pot,,yes,20,40,40,0,0,60,,6
 pao-de-lo,Pao de Lo,Baking,bread,,title,"""pao"" is a bread",,oven,oven,24 cm tin,,30,40,40,0,0,70,,10
 pao-de-deus,Pao de Deus,Baking,bread,,title,"""pao"" is a bread",,oven,oven,,,40,25,25,120,120,185,,10
-broa-de-milho,Broa de Milho,Baking,bread,yes,category,a bake with no sugar in it: a bread or a savoury bake?,,oven,oven,,,20,35,35,60,60,115,,8
+broa-de-milho,Broa de Milho,Baking,bread,,override,"a Portuguese cornbread served with soup, sardines or cheese",,oven,oven,,,20,35,35,60,60,115,,8
 ovos-moles,Ovos Moles,Desserts,dessert,,category,filed under Desserts,,hob,,,,25,20,20,0,0,45,cooling completely,12
 toucinho-do-ceu,Toucinho do Ceu,Desserts,dessert,,category,filed under Desserts,,oven,oven,22 cm tin,,20,40,40,0,0,60,,10
 arroz-de-tomate,Arroz de Tomate,Dinner,side,,override,a side dish: served beside a main course in its own cuisine,,,,,,15,35,35,0,0,50,,4
@@ -5330,8 +5330,8 @@ bougatsa,Bougatsa,Breakfast,breakfast,,category,filed under Breakfast,breakfast,
 koulouri,Koulouri,Baking,dessert,,category,a sweet bake filed under Baking,,oven,oven,,,25,25,25,75,75,125,,6
 psari-plaki,Psari Plaki,Dinner,main,,ingredients,"175 g of meat, fish or tofu a serving",dinner,oven,oven baking-dish,,yes,20,40,40,0,0,60,,4
 htapodi-krasato,Htapodi Krasato,Dinner,main,,ingredients,"375 g of meat, fish or tofu a serving",dinner,hob,pot,,yes,20,70,70,0,0,90,,4
-kolokithopita,Kolokithopita,Dinner,main,yes,category,"an unfamiliar name (15 g protein, 511 kcal a serving)",,oven,oven,25 cm tin,,25,50,50,15,15,90,,6
-hortopita,Hortopita,Dinner,main,yes,category,"an unfamiliar name (12 g protein, 438 kcal a serving)",,oven,oven,25 cm tin,,40,50,50,0,0,90,,8
+kolokithopita,Kolokithopita,Dinner,light,,override,"a filo pie of courgette, feta and rice, served with a Greek salad and tzatziki: a light meal",lunch,oven,oven,25 cm tin,,25,50,50,15,15,90,,6
+hortopita,Hortopita,Dinner,light,,override,"a filo pie of greens and feta for eight, served with a Greek salad: a light meal",lunch,oven,oven,25 cm tin,,40,50,50,0,0,90,,8
 lahanodolmades,Lahanodolmades,Dinner,main,,ingredients,"100 g of meat, fish or tofu a serving",dinner,hob,pot,,yes,40,60,60,0,0,100,,6
 spetsofai,Spetsofai,Dinner,main,,ingredients,"150 g of meat, fish or tofu a serving",dinner,hob,frying-pan,,yes,15,40,40,0,0,55,,4
 bifteki,Bifteki,Dinner,main,,ingredients,"175 g of meat, fish or tofu a serving",dinner,grill hob,frying-pan grill,,yes,15,15,15,0,0,30,,4
@@ -5353,7 +5353,7 @@ imqaret,Imqaret,Desserts,dessert,,category,filed under Desserts,,deep-fry,deep-f
 cypriot-souvla,Cypriot Souvla,Dinner,main,,title,"""cypriot souvla"" is a main course",dinner,grill,grill skewers,,,20,30,30,30,30,80,,4
 cypriot-tahini-pies,Cypriot Tahini Pies,Baking,dessert,,category,a sweet bake filed under Baking,,oven,oven rolling-pin,,,40,25,25,80,80,145,,8
 kotlet-schabowy,Kotlet Schabowy,Dinner,main,,ingredients,"150 g of meat, fish or tofu a serving",dinner,hob,frying-pan,,yes,20,20,20,0,0,40,,4
-krupnik,Krupnik,Dinner,light,yes,category,"a soup between a light meal and a main (16 g protein, 330 kcal)",,,,,,15,60,60,20,20,95,,6
+krupnik,Krupnik,Dinner,main,,override,a barley soup with 300 g of smoked bacon or ham hock for six,dinner,,,,,15,60,60,20,20,95,,6
 golonka,Golonka,Dinner,main,,title,"""golonka"" is a main course",dinner,oven hob,oven roasting-tin,,yes,15,120,120,0,0,135,,4
 szarlotka,Szarlotka,Baking,dessert,,category,a sweet bake filed under Baking,,oven,oven,24 cm tin,,25,45,45,30,30,100,,10
 mazurek,Mazurek,Holiday Specials,dessert,,title,a sweet dish by name,,oven,oven,35 cm tin,,25,30,30,0,0,55,cooling the base; setting the topping for a few hours,16
@@ -5398,12 +5398,12 @@ placinta,Placinta,Baking,dessert,,category,a sweet bake filed under Baking,,oven
 ciorba-de-legume,Ciorba de Legume,Lunch,light,,category,"filed under Lunch, and nothing in the name or the figures makes it a full main",lunch,,,,,15,40,40,0,0,55,,6
 ciorba-radauteana,Ciorba Radauteana,Lunch,main,,ingredients,"167 g of meat, fish or tofu a serving",lunch dinner,,,,,20,40,40,0,0,60,,6
 fasole-cu-carnati,Fasole cu Carnati,Dinner,main,,nutrition,22 g protein and 466 kcal a serving,dinner,hob,pot,,yes,15,60,60,0,0,75,,6
-placinta-cu-branza,Placinta cu Branza,Baking,bread,yes,category,a bake with no sugar in it: a bread or a savoury bake?,,oven,oven rolling-pin,,,35,40,40,20,20,95,,8
+placinta-cu-branza,Placinta cu Branza,Baking,light,,override,"a cheese pie with 500 g of feta for eight, served with a cucumber salad or pickled peppers: a light meal",lunch,oven,oven rolling-pin,,,35,40,40,20,20,95,,8
 kavarma,Kavarma,Dinner,main,,ingredients,"175 g of meat, fish or tofu a serving",dinner,,,,,20,40,40,0,0,60,,4
 kebapche,Kebapche,Dinner,main,,ingredients,"200 g of meat, fish or tofu a serving",dinner,oven grill hob,oven grill,,,15,15,15,30,30,60,,4
 lyutenitsa,Lyutenitsa,Appetizers,condiment,,title,"""lyutenitsa"" is a condiment, dressing, rub or preserve",,oven hob,oven frying-pan blender,,yes,15,60,60,0,0,75,,12
 bulgarian-bean-soup,Bulgarian Bean Soup,Lunch,light,,category,"a soup filed under Lunch (15 g protein, 328 kcal)",lunch,hob,pot,,yes,15,60,60,0,0,75,,6
-burek,Burek,Baking,bread,yes,category,a bake with no sugar in it: a bread or a savoury bake?,,oven,oven,28 cm round tin,,40,40,40,0,0,80,cooling completely,8
+burek,Burek,Baking,main,,override,"a spiral pie filled with 500 g of spiced minced beef for eight, served with yoghurt",dinner,oven,oven,28 cm round tin,,40,40,40,0,0,80,cooling completely,8
 pasticada,Pasticada,Dinner,main,,ingredients,"260 g of meat, fish or tofu a serving",dinner,hob,pot,,yes,30,150,150,0,0,180,,6
 crni-rizot,Crni Rizot,Dinner,main,,ingredients,"127 g of meat, fish or tofu a serving",dinner,,,,,15,35,35,0,0,50,,4
 brudet,Brudet,Dinner,main,,title,"""brudet"" is a main course",dinner,hob,pot,,yes,15,40,40,0,0,55,,4
@@ -5414,8 +5414,8 @@ potica,Potica,Baking,dessert,,category,a sweet bake filed under Baking,,oven,ove
 jota-soup,Jota Soup,Dinner,main,,nutrition,a soup with 23 g protein and 496 kcal a serving: a meal in a bowl,dinner,,,,,15,60,60,0,0,75,,6
 kranjska-klobasa,Kranjska Klobasa,Dinner,main,,ingredients,"150 g of meat, fish or tofu a serving",dinner,hob,,,,5,20,20,0,0,25,,4
 prekmurska-gibanica,Prekmurska Gibanica,Desserts,dessert,,category,filed under Desserts,,oven,oven,,,60,50,50,30,30,140,,12
-zlikrofi,Zlikrofi,Dinner,main,yes,category,"an unfamiliar name (12 g protein, 376 kcal a serving)",,,rolling-pin,,,60,20,20,30,30,110,,6
-janssons-frestelse,Janssons Frestelse,Dinner,main,yes,category,"an unfamiliar name (16 g protein, 630 kcal a serving)",,oven,oven,,,20,50,50,0,0,70,,4
+zlikrofi,Zlikrofi,Dinner,main,,override,"filled dumplings for six, served with a meat sauce or sage butter",dinner,,rolling-pin,,,60,20,20,30,30,110,,6
+janssons-frestelse,Janssons Frestelse,Dinner,side,,override,"a potato, onion and anchovy gratin in cream, with ham suggested alongside",,oven,oven,,,20,50,50,0,0,70,,4
 kroppkakor,Kroppkakor,Dinner,main,,title,"""kroppkakor"" is a main course",dinner,,,,,45,50,75,20,20,115,,6
 pytt-i-panna,Pytt i Panna,Quick Meals,main,,nutrition,23 g protein and 429 kcal a serving,dinner,hob,frying-pan,,,15,15,15,0,0,30,,4
 artsoppa,Ärtsoppa,Dinner,main,,nutrition,29 g protein and 391 kcal a serving,dinner,hob,pot,,yes,10,90,90,480,480,580,,6
