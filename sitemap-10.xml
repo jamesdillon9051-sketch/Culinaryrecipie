@@ -2017,9 +2017,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pounded-yam/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pounded-yam.jpg</image:loc>
+      <image:title>Pounded Yam</image:title>
+      <image:caption>Pounded Yam</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/moi-moi/</loc>

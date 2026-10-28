@@ -4315,9 +4315,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/rizek-cesky/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/rizek-cesky.jpg</image:loc>
+      <image:title>Rizek Cesky</image:title>
+      <image:caption>Rizek Cesky</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/rajska-omacka/</loc>

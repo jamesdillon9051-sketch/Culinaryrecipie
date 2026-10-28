@@ -2161,9 +2161,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/veggie-chilli/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/veggie-chilli.jpg</image:loc>
+      <image:title>Veggie Chilli</image:title>
+      <image:caption>Veggie Chilli</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vegetarian-lasagne/</loc>

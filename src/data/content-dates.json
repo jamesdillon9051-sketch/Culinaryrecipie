@@ -6,8 +6,8 @@
  },
  "/about/": {
   "hash": "84b2dfd1c5ac",
-  "lastmod": "2026-10-27",
-  "derivedHash": "ba77512298e3"
+  "lastmod": "2026-10-28",
+  "derivedHash": "5c5f526ccfa9"
  },
  "/categories/": {
   "hash": "ecb574fe73a3",
@@ -482,7 +482,7 @@
  "/categories/dinner/czech/": {
   "hash": "dc1cca226e38",
   "lastmod": "2026-10-28",
-  "derivedHash": "38b1673dbe6e"
+  "derivedHash": "85a3e8b44d72"
  },
  "/categories/dinner/danish/": {
   "hash": "d27734c6c189",
@@ -1161,8 +1161,8 @@
  },
  "/cuisines/czech/": {
   "hash": "21db2a6def2a",
-  "lastmod": "2026-10-27",
-  "derivedHash": "98aa0bf5d2ad"
+  "lastmod": "2026-10-28",
+  "derivedHash": "d8e325f4b3de"
  },
  "/cuisines/danish/": {
   "hash": "b1bd27191725",
@@ -1332,7 +1332,7 @@
  "/cuisines/nigerian/": {
   "hash": "fad291b081b3",
   "lastmod": "2026-10-28",
-  "derivedHash": "d07dce16a2e1"
+  "derivedHash": "3bb71b6e6514"
  },
  "/cuisines/norwegian/": {
   "hash": "78b2d5422598",
@@ -17590,8 +17590,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/pounded-yam/": {
-  "hash": "72ea6bc53068",
-  "lastmod": "2026-10-20"
+  "hash": "63f2c341ce8a",
+  "lastmod": "2026-10-28"
  },
  "/recipes/pounti/": {
   "hash": "9fbd2f17e61d",
@@ -18422,8 +18422,8 @@
   "lastmod": "2026-10-20"
  },
  "/recipes/rizek-cesky/": {
-  "hash": "dd6170fc85e3",
-  "lastmod": "2026-10-20"
+  "hash": "283c6cbbac8e",
+  "lastmod": "2026-10-28"
  },
  "/recipes/rizogalo/": {
   "hash": "29f20b797418",
@@ -23006,8 +23006,8 @@
   "lastmod": "2026-10-28"
  },
  "/recipes/veggie-chilli/": {
-  "hash": "15b90f89897f",
-  "lastmod": "2026-10-20"
+  "hash": "dd5d9041d9d0",
+  "lastmod": "2026-10-28"
  },
  "/recipes/veggie-egg-white-omelet/": {
   "hash": "a5d330398822",
