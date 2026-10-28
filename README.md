@@ -5867,9 +5867,15 @@ Cambodian and Jewish.
 
 ### Photographs
 
-None yet. The volume ships on gradient cards; a photograph is added only when
-a correct, correctly licensed one is found and looked at (see the October 2026
-image search in `docs/image-search-2026-10-28/`).
+67 of the 100 have a real photograph from Wikimedia Commons, looked at one by
+one against the recipe and its diet label and credited on the page. 82
+candidates came from the ordinary fetch chain and 49 were kept; a second search
+(the Wikipedia article, the Commons category and file search, Openverse) staged
+86 more and 18 were kept. About two in three candidates were refused: a
+cookbook page, a fractal, a whole courgette, a person eating, a bag of
+branded sauce bottles, signs and street scenes, raw ingredients, and photographs
+of meat or prawns on a recipe labelled Vegetarian or Vegan. The other 33 stay on
+the gradient card; a wrong picture is worse than none.
 
 ## Internal linking: subcategory hubs, related recipes and breadcrumbs
 

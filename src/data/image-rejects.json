@@ -50494,12 +50494,32 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Salzkartoffeln.jpg",
       "why": "peeled plain boiled potatoes, no skin or salt crust"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Boiled_potatoes_with_salt_-_Massachusetts.jpg",
+      "why": "a different potato photo than the one kept"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Hamburgers_with_Worcestershire_sauce,_on_boiled_yellow_potatoes_with_salt,_on_lettuce_with_garlic_olive_oil_-_Massachusetts.jpg",
+      "why": "a different potato photo than the one kept"
     }
   ],
   "mojo-pork": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Mojo_Pork_Chili_Recipe-1_(31531340664).jpg",
       "why": "bowl of beans, rice and avocado, no pork"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Mojo_Pork_Chili_Recipe-2_(32334790136).jpg",
+      "why": "a pork chili bowl with rice and avocado, not mojo pork"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Mojo_Pork_Chili_Recipe-3_(31996780080).jpg",
+      "why": "a pork chili bowl with rice and avocado, not mojo pork"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Mojo_Pork_Chili_Recipe-4_(32373943555).jpg",
+      "why": "a pork chili bowl with rice and avocado, not mojo pork"
     }
   ],
   "sweet-and-sour-meatballs": [
@@ -50512,60 +50532,152 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Simple_Spiedies_2of5_(8736304408).jpg",
       "why": "raw marinated meat on skewers"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Simple_Spiedies_3of5_(8736304392).jpg",
+      "why": "raw meat on a grill or a kitchen appliance"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Simple_Spiedies_4of5_(8735185605).jpg",
+      "why": "raw meat on a grill or a kitchen appliance"
     }
   ],
   "pretzel-buns": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Another_edible_pretzel_(-2,3,7)_link.png",
       "why": "a single pretzel twist, not buns"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Mickey_Pretzel_-_Disneyland.jpg",
+      "why": "pretzels, not buns"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Pretzel-Prague.JPG",
+      "why": "pretzels, not buns"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Pretzel_%2B_Cheese.jpg",
+      "why": "pretzels, not buns"
     }
   ],
   "classic-hollandaise": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Book_of_Sauces_Hollandaise_1915B.jpg",
       "why": "a page of cookbook text"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Fresh_Asparagus_and_hollandaise.jpg",
+      "why": "a different hollandaise photo than the one kept"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Hollandaise_sauce.jpg",
+      "why": "a different hollandaise photo than the one kept"
     }
   ],
   "compound-butter": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:New_York_Strip_with_Beurre_Maitre_d%27Hotel,_potatoes_and_creamed_spinach.jpg",
       "why": "steak on a vegetarian recipe"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Bageta_s_pomaz%C3%A1nkou.jpg",
+      "why": "steak on a vegetarian recipe or plain butter pats or a herb bowl"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Hickory_Grilled_NY_Strip_(6523198789).jpg",
+      "why": "steak on a vegetarian recipe or plain butter pats or a herb bowl"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Kr%C3%A4uterbutter_(4228353897).jpg",
+      "why": "steak on a vegetarian recipe or plain butter pats or a herb bowl"
     }
   ],
   "shortcrust-pastry": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Raspberry-pear-tart-shortcrust.jpg",
       "why": "a finished fruit tart, not the pastry"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Recette_pate_brisee_etape_1.jpg",
+      "why": "a different pastry photo than the one kept"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Recette_pate_brisee_etape_3.jpg",
+      "why": "a different pastry photo than the one kept"
     }
   ],
   "hoisin-sauce": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Patrona_Restaurant_and_Lounge_-_June_2023_-_Sarah_Stierch_08.jpg",
       "why": "a restaurant plate of fried food, not hoisin sauce"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Hoisin_sauce_1.jpg",
+      "why": "dumplings or summer rolls with meat or prawns on a vegan recipe"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:JueCheungFan_with_sauce.jpg",
+      "why": "dumplings or summer rolls with meat or prawns on a vegan recipe"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Sommerrolle_mit_Hoisin-Sauce_170305_AW.jpg",
+      "why": "dumplings or summer rolls with meat or prawns on a vegan recipe"
     }
   ],
   "kung-pao-shrimp": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Kung_Pao_Chicken_at_Yujiayan_Restaurant_(20230510123120).jpg",
       "why": "the photograph is kung pao chicken, not shrimp"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Cooking_food_dinner_peas_pods_brocolli_peanuts_shrimp_kung_pao.jpg",
+      "why": "battered shrimp in a sweet sauce, not kung pao"
     }
   ],
   "caesar-cocktail": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Caesar_Bimmermann_Die_Holzh%C3%A4ndler.jpg",
       "why": "a painting of horses in snow"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Another_Smokepit_Caesar_at_Dusty%27s_(26892137501).jpg",
+      "why": "a different cocktail than the one kept, heavily garnished"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Bourbon_Caesar_(8419794829).jpg",
+      "why": "a different cocktail than the one kept, heavily garnished"
     }
   ],
   "chicken-and-broccoli-bake": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Homemade_Chinese_style_orange_chicken_with_chow_mein_and_broccoli.jpg",
       "why": "a noodle stir-fry plate, not a bake"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Baked_potato_with_fried_chicken_and_broccoli_with_rose_vase_in_table.jpg",
+      "why": "a roast chicken tray or a vase scene, not a creamy bake"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Baked_potato_with_fried_chicken_and_broccoli_with_rose_vase_in_table_01.jpg",
+      "why": "a roast chicken tray or a vase scene, not a creamy bake"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Homemade_Grilled_Chicken_Dinner.jpg",
+      "why": "a roast chicken tray or a vase scene, not a creamy bake"
     }
   ],
   "caldereta": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Caldereta_llagosta.jpg",
       "why": "crab and lobster stew, not beef caldereta"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Goat_caldereta_(Philippines)_02.jpg",
+      "why": "goat stew or a lamb dish, not beef caldereta"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Caldereta_de_cordero-%C3%81vila.jpg",
+      "why": "goat stew or a lamb dish, not beef caldereta"
     }
   ],
   "coconut-drops": [
@@ -50578,48 +50690,116 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Fufu_Nikko.jpg",
       "why": "a roadside scene with no food"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Fufu_plantain_Ghana_1.jpg",
+      "why": "meat soup on a vegan recipe or raw flour or an unclear paste"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Fufu.jpg",
+      "why": "meat soup on a vegan recipe or raw flour or an unclear paste"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Fufu_with_no_soap.jpg",
+      "why": "meat soup on a vegan recipe or raw flour or an unclear paste"
     }
   ],
   "piri-piri-sauce": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:-2020-09-13_Barbequed_chicken,_Trimingham.JPG",
       "why": "chicken grilling over a fire, not the sauce"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Piri_piri_sauce_in_Mozambique.jpg",
+      "why": "bottles of branded sauce or a salad"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Piri-Piri_Salad.jpg",
+      "why": "bottles of branded sauce or a salad"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:09-07-2017_Jer%C3%B3nimos_Molho_Piri-piri.JPG",
+      "why": "bottles of branded sauce or a salad"
     }
   ],
   "taiyaki": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Golden_Darkness_standing_and_eating_Taiyaki_at_Expo_Dome_court_yard_(50140201973).jpg",
       "why": "a cosplayer eating, the pastry is hidden"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Taiyaki_-_cut_section.jpg",
+      "why": "a different taiyaki photo than the one kept"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Taiyaki_001.jpg",
+      "why": "a different taiyaki photo than the one kept"
     }
   ],
   "bingsu": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Cheese-bingsu.jpg",
       "why": "a bowl of cheese cubes, no shaved milk ice"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Bingsu.jpg",
+      "why": "a different bingsu than the one kept"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Bingsu_3.jpg",
+      "why": "a different bingsu than the one kept"
     }
   ],
   "rojak": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Rojak.jpg",
       "why": "a market stall of fruit and fritters, not the dish"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Indian_rojak_in_Singapore.jpg",
+      "why": "a different rojak than the one kept"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Rujak_Buah_(Indonesian_Fruit_Salad).JPG",
+      "why": "a different rojak than the one kept"
     }
   ],
   "mee-rebus": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Mie_Rebus_Jawa.jpg",
       "why": "Javanese noodle soup, a different dish"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Mee_rebus.JPG",
+      "why": "a different mee rebus photo than the one kept"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Mee_rebus_and_Bandung_drink.jpg",
+      "why": "a different mee rebus photo than the one kept"
     }
   ],
   "methi-chicken": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Chicken_Manchurian_With_a_Kasuri_Methi.jpg",
       "why": "chicken Manchurian, a different dish"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Chicken_Curry_(490198749).jpg",
+      "why": "a different methi chicken photo than the one kept or an unrelated curry"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Methi_murgh_by_Fatima.jpg",
+      "why": "a different methi chicken photo than the one kept or an unrelated curry"
     }
   ],
   "mandelbrot": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Mandelbrot-Menge_mit_Regenbogenfarben_20201028.png",
       "why": "a fractal image"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Sliced_mandelbrot.jpg",
+      "why": "a duplicate view of the one kept"
     }
   ],
   "ricotta-pie": [
@@ -50638,6 +50818,14 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Pepperoni_Pizza_-_Greggs_2024-03-16.jpg",
       "why": "slice in a branded paper bag"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Closeup_of_a_pepperoni_pizza.jpg",
+      "why": "a different pepperoni pizza than the one kept"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Gfp-pizza.jpg",
+      "why": "a different pepperoni pizza than the one kept"
     }
   ],
   "calabacitas": [
@@ -50650,30 +50838,74 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:0740Foods_dishes_delicacies_of_Bulacan_30.jpg",
       "why": "a roast chicken on bare concrete, unclear and poor"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Un_cuarto_de_Pollo_a_la_Brasa.JPG",
+      "why": "a different chicken photo than the one kept"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Pollo_a_la_parrilla_asado_con_le%C3%B1a_de_anchico_en_Capiov%C3%AD,_Misiones,_Argentina.jpg",
+      "why": "a different chicken photo than the one kept"
     }
   ],
   "farina-porridge": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Oatmeal_porridge_with_fruits.jpg",
       "why": "oatmeal porridge, a different dish"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Chocolate_porridge_from_wheat_middlings.jpg",
+      "why": "oat porridge or chocolate porridge, not farina"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Oatmeal_porridge_with_fruits_5.jpg",
+      "why": "oat porridge or chocolate porridge, not farina"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Macroom_oatmeal_porridge,_topped_with_muscovado_sugar_and_butter.jpg",
+      "why": "oat porridge or chocolate porridge, not farina"
     }
   ],
   "taco-dip": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Vegan_Refried_Pinto_Taco_Cole_Slaw_and_Bean_Dip_with_Chips_(3461080259).jpg",
       "why": "tacos on a plate, not a dip"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Kettlebell_Clean_and_Jerk_18_Dip_and_Lockout.jpg",
+      "why": "a weightlifter and a fast food burrito, not a dip"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:New_Items_Taco_Bell_(54270802640).jpg",
+      "why": "a weightlifter and a fast food burrito, not a dip"
     }
   ],
   "shrimp-dip": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:EPA_GULF_BREEZE_LABORATORY_BIOLOGIST_IS_DIP_NETTING_FOR_CONTAMINATED_FEMALE_SHRIMP._THIS_IS_FOR_A_STUDY_OF_WHETHER..._-_NARA_-_546335.jpg",
       "why": "an old photograph of a person in reeds"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:2_servings_of_cocktail_shrimp_with_dipping_sauce.JPG",
+      "why": "a shrimp cocktail or fried shrimp, not a dip"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Panko-encrusted_shrimp_with_dipping_sauces,_Silver_Diner.jpg",
+      "why": "a shrimp cocktail or fried shrimp, not a dip"
     }
   ],
   "cake-doughnuts": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Six_Krispy_Kreme_Doughnuts!!!!!!_(18476295156).jpg",
       "why": "a mixed bakery box with a branded glazed doughnut, not cake doughnuts"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Sugar_in_Junk_Food_-_Doughnuts,_Biscuits,_Chocolate_and_Cake.jpg",
+      "why": "a sugar still life and a novelty doughnut, not cake doughnuts"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Krispy_Kreme_Campfire_Inspired_Doughnuts_(25516397223).jpg",
+      "why": "a sugar still life and a novelty doughnut, not cake doughnuts"
     }
   ],
   "grilled-nopales": [
@@ -50686,6 +50918,56 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:The_Childrens_Party_Book_-_Peppermint_Creams.png",
       "why": "a page of cookbook text"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Minttu_Cookies_and_Cream_and_Minttu_Peppermint.jpg",
+      "why": "a bottle of liqueur"
+    }
+  ],
+  "apple-walnut-salad": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Apple_Walnut_And_Celery_Salad_-_Hyatt_Hyderabad_Gachibowli_-_Hyderabad_2023-04-28_7794.jpg",
+      "why": "cling-filmed deli salad in a mayonnaise dressing, not leaves in a vinaigrette"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Apple_Walnut_And_Celery_Salad_-_Hyatt_Hyderabad_Gachibowli_-_Hyderabad_2023-04-28_7795.jpg",
+      "why": "cling-filmed deli salad in a mayonnaise dressing, not leaves in a vinaigrette"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Apple_Walnut_And_Celery_Salad_-_Hyatt_Hyderabad_Gachibowli_-_Hyderabad_2023-04-28_7797.jpg",
+      "why": "cling-filmed deli salad in a mayonnaise dressing, not leaves in a vinaigrette"
+    }
+  ],
+  "honey-garlic-ribs": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:MALTESE_HONEY_(3045697756).jpg",
+      "why": "a griddle of stir-fried meat, not ribs"
+    }
+  ],
+  "little-smokies": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Little_River_Road_-_October_2025_-_Sarah_Stierch.jpg",
+      "why": "a car on a road, not food"
+    }
+  ],
+  "maxwell-street-polish": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Maxwell_Prices_2005.JPG",
+      "why": "signs and street scenes, no sausage"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Polish_Shop.JPG",
+      "why": "signs and street scenes, no sausage"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Gold_Mine_Corner,_Chicago_1993_(20654974).jpg",
+      "why": "signs and street scenes, no sausage"
+    }
+  ],
+  "skirlie": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Full_English_breakfast_(cropped).jpg",
+      "why": "a full English breakfast"
     }
   ]
 }
