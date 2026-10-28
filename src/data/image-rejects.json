@@ -50489,5 +50489,203 @@
       "page": "https://commons.wikimedia.org/w/index.php?curid=9406585",
       "why": "file name shows a different subject or dish (screened by title, not downloaded): File:Pig on the Samoan Umu.jpg"
     }
+  ],
+  "salt-potatoes": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Salzkartoffeln.jpg",
+      "why": "peeled plain boiled potatoes, no skin or salt crust"
+    }
+  ],
+  "mojo-pork": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Mojo_Pork_Chili_Recipe-1_(31531340664).jpg",
+      "why": "bowl of beans, rice and avocado, no pork"
+    }
+  ],
+  "sweet-and-sour-meatballs": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:0700_jfCuisine_of_Bulacan_foods_and_fruits_homefvf_09.jpg",
+      "why": "unnamed takeaway dish, cannot confirm it is the recipe"
+    }
+  ],
+  "spiedies": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Simple_Spiedies_2of5_(8736304408).jpg",
+      "why": "raw marinated meat on skewers"
+    }
+  ],
+  "pretzel-buns": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Another_edible_pretzel_(-2,3,7)_link.png",
+      "why": "a single pretzel twist, not buns"
+    }
+  ],
+  "classic-hollandaise": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Book_of_Sauces_Hollandaise_1915B.jpg",
+      "why": "a page of cookbook text"
+    }
+  ],
+  "compound-butter": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:New_York_Strip_with_Beurre_Maitre_d%27Hotel,_potatoes_and_creamed_spinach.jpg",
+      "why": "steak on a vegetarian recipe"
+    }
+  ],
+  "shortcrust-pastry": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Raspberry-pear-tart-shortcrust.jpg",
+      "why": "a finished fruit tart, not the pastry"
+    }
+  ],
+  "hoisin-sauce": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Patrona_Restaurant_and_Lounge_-_June_2023_-_Sarah_Stierch_08.jpg",
+      "why": "a restaurant plate of fried food, not hoisin sauce"
+    }
+  ],
+  "kung-pao-shrimp": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Kung_Pao_Chicken_at_Yujiayan_Restaurant_(20230510123120).jpg",
+      "why": "the photograph is kung pao chicken, not shrimp"
+    }
+  ],
+  "caesar-cocktail": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Caesar_Bimmermann_Die_Holzh%C3%A4ndler.jpg",
+      "why": "a painting of horses in snow"
+    }
+  ],
+  "chicken-and-broccoli-bake": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Homemade_Chinese_style_orange_chicken_with_chow_mein_and_broccoli.jpg",
+      "why": "a noodle stir-fry plate, not a bake"
+    }
+  ],
+  "caldereta": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Caldereta_llagosta.jpg",
+      "why": "crab and lobster stew, not beef caldereta"
+    }
+  ],
+  "coconut-drops": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Tender_Coconut_Water.jpg",
+      "why": "a green coconut held in a hand"
+    }
+  ],
+  "fufu": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Fufu_Nikko.jpg",
+      "why": "a roadside scene with no food"
+    }
+  ],
+  "piri-piri-sauce": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:-2020-09-13_Barbequed_chicken,_Trimingham.JPG",
+      "why": "chicken grilling over a fire, not the sauce"
+    }
+  ],
+  "taiyaki": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Golden_Darkness_standing_and_eating_Taiyaki_at_Expo_Dome_court_yard_(50140201973).jpg",
+      "why": "a cosplayer eating, the pastry is hidden"
+    }
+  ],
+  "bingsu": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Cheese-bingsu.jpg",
+      "why": "a bowl of cheese cubes, no shaved milk ice"
+    }
+  ],
+  "rojak": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Rojak.jpg",
+      "why": "a market stall of fruit and fritters, not the dish"
+    }
+  ],
+  "mee-rebus": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Mie_Rebus_Jawa.jpg",
+      "why": "Javanese noodle soup, a different dish"
+    }
+  ],
+  "methi-chicken": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Chicken_Manchurian_With_a_Kasuri_Methi.jpg",
+      "why": "chicken Manchurian, a different dish"
+    }
+  ],
+  "mandelbrot": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Mandelbrot-Menge_mit_Regenbogenfarben_20201028.png",
+      "why": "a fractal image"
+    }
+  ],
+  "ricotta-pie": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Crostata_con_marmellata_di_pesche_e_ricotta.jpg",
+      "why": "a jam lattice tart"
+    }
+  ],
+  "chicken-rollatini": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Eggplant_Rollatini_(140490235).jpeg",
+      "why": "a raw aubergine slice"
+    }
+  ],
+  "pepperoni-pizza": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Pepperoni_Pizza_-_Greggs_2024-03-16.jpg",
+      "why": "slice in a branded paper bag"
+    }
+  ],
+  "calabacitas": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:CSA-Striped-Zucchini.jpg",
+      "why": "a whole courgette"
+    }
+  ],
+  "pollo-asado": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:0740Foods_dishes_delicacies_of_Bulacan_30.jpg",
+      "why": "a roast chicken on bare concrete, unclear and poor"
+    }
+  ],
+  "farina-porridge": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Oatmeal_porridge_with_fruits.jpg",
+      "why": "oatmeal porridge, a different dish"
+    }
+  ],
+  "taco-dip": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Vegan_Refried_Pinto_Taco_Cole_Slaw_and_Bean_Dip_with_Chips_(3461080259).jpg",
+      "why": "tacos on a plate, not a dip"
+    }
+  ],
+  "shrimp-dip": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:EPA_GULF_BREEZE_LABORATORY_BIOLOGIST_IS_DIP_NETTING_FOR_CONTAMINATED_FEMALE_SHRIMP._THIS_IS_FOR_A_STUDY_OF_WHETHER..._-_NARA_-_546335.jpg",
+      "why": "an old photograph of a person in reeds"
+    }
+  ],
+  "cake-doughnuts": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Six_Krispy_Kreme_Doughnuts!!!!!!_(18476295156).jpg",
+      "why": "a mixed bakery box with a branded glazed doughnut, not cake doughnuts"
+    }
+  ],
+  "grilled-nopales": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Venezuelan_chocolate_custard_with_grilled_nopales,_lime_%26_agavero_jelly_(2331763581).jpg",
+      "why": "a chocolate dessert on a plate"
+    }
+  ],
+  "peppermint-creams": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:The_Childrens_Party_Book_-_Peppermint_Creams.png",
+      "why": "a page of cookbook text"
+    }
   ]
 }
