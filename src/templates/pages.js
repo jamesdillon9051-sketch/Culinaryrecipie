@@ -75,11 +75,12 @@ function filterSidebar(facets) {
 /* ------------------------------------------------------------------ home */
 function home(ctx) {
   const { recipes, categoryCounts, cuisineCounts, topCuisines } = ctx;
-  const pick = slugs => slugs.map(s => recipes.find(r => r.slug === s)).filter(Boolean);
 
   /* Each recipe appears once on the page: the hero, the picks, the rail, the quick ones, the newest
      and the gallery used to repeat the same dozen dishes from the top of the catalogue. */
-  const shown = new Set(['tacos-al-pastor', 'chicken-tikka-masala', 'chocolate-lava-cake']);
+  const heroRecipe = recipes.find(r => r.slug === 'pad-thai' && r.imageData)
+    || recipes.find(r => r.imageData && !isIllustration(r.imageData) && r.role === 'main') || recipes[0];
+  const shown = new Set([heroRecipe.slug]);
   const take = (list, n) => {
     const out = list.filter(r => !shown.has(r.slug)).slice(0, n);
     out.forEach(r => shown.add(r.slug));
@@ -95,7 +96,6 @@ function home(ctx) {
     .slice().sort((a, b) => b.popularity - a.popularity), 4);
   const plan = ctx.curated ? ctx.curated.plan : null;
   const latest = take(recipes.slice().sort((a, b) => b.published - a.published), 4);
-  const heroRecipe = recipes.find(r => r.slug === 'tacos-al-pastor') || recipes[0];
 
   const galleryPicks = take(recipes.filter(r => r.imageData && !isIllustration(r.imageData)), 12);
 
@@ -120,34 +120,34 @@ function home(ctx) {
       <span><strong>${esc(name)}</strong><span>${plural(cuisineCounts[name], 'recipe')}</span></span>
     </a>`).join('');
 
-  /* Three dishes for the hero cluster: the strongest photography we have. */
-  const heroShots = pick(['tacos-al-pastor', 'chicken-tikka-masala', 'chocolate-lava-cake'])
-    .filter(r => r.imageData)
-    .concat(recipes.filter(r => r.imageData))
-    .slice(0, 3);
-
-  const shot = (r, i) => `<a class="hero-shot" href="${SITE.base}recipes/${r.slug}/"
-       style="background:${r.imageData.color}" aria-label="${esc(r.title)}">
-    <picture>
-      <source srcset="${SITE.base}assets/img/recipes/${r.imageData.file}.webp" type="image/webp">
-      <img src="${SITE.base}assets/img/recipes/${r.imageData.file}.jpg" alt="${esc(r.imageAlt)}"
-           width="800" height="600" ${i === 0 ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async">
-    </picture>
-    ${i === 0 ? `<span class="hero-chip">${ICONS.clock}${compactTime(r.elapsedTime, r.elapsedMax, !!r.untimed)} &middot; ${esc(r.cuisine)}</span>` : ''}
-  </a>`;
-
   const body = `
 <section class="hero" aria-labelledby="hero-title">
   <div class="wrap hero-grid">
     <div class="hero-copy">
-      <span class="eyebrow-rule hero-line">World recipes, explained</span>
-      <h1 id="hero-title" class="hero-line">Recipes worth <em>cooking twice.</em></h1>
-      <p class="hero-lede hero-line">${esc(SITE.promise)}</p>
-      <div class="hero-line">${heroSearch('hero-search', 'Search by dish, ingredient or cuisine…')}</div>
+      <span class="eyebrow-rule">A little everyday inspiration</span>
+      <h1 id="hero-title">Find your next <em>favourite recipe.</em></h1>
+      <p class="hero-lede">${esc(SITE.promise)}</p>
+      ${heroSearch('hero-search', 'Search recipes or ingredients…')}
+      <nav class="hero-shortcuts" aria-label="Recipe shortcuts">
+        <a href="${SITE.base}collections/complete-dinners-in-30-minutes/">30-minute dinners</a>
+        <a href="${SITE.base}collections/one-pan-dinners/">One-pan meals</a>
+        <a href="${SITE.base}categories/baking/">Baking</a>
+      </nav>
+      <a class="hero-browse" href="${SITE.base}recipes/">Explore all ${recipeCount.toLocaleString('en-GB')} recipes <span aria-hidden="true">&rarr;</span></a>
     </div>
-    <div class="hero-cluster" role="group" aria-label="Featured dishes">
-      ${heroShots.map(shot).join('')}
-    </div>
+    <a class="hero-feature" href="${SITE.base}recipes/${heroRecipe.slug}/">
+      ${heroRecipe.imageData ? `<picture>
+        <source srcset="${SITE.base}assets/img/recipes/${heroRecipe.imageData.file}.webp" type="image/webp">
+        <img src="${SITE.base}assets/img/recipes/${heroRecipe.imageData.file}.jpg" alt="${esc(heroRecipe.imageAlt)}"
+             width="800" height="600" fetchpriority="high" decoding="async">
+      </picture>` : ''}
+      <div class="hero-feature__caption">
+        <div><span class="hero-feature__eyebrow">From the collection</span>
+          <h2>${esc(heroRecipe.title)}</h2>
+          <p>${esc(heroRecipe.cuisine)} &middot; ${compactTime(heroRecipe.elapsedTime, heroRecipe.elapsedMax, !!heroRecipe.untimed)}</p></div>
+        <span class="hero-feature__arrow" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></svg></span>
+      </div>
+    </a>
   </div>
 </section>
 
@@ -155,6 +155,20 @@ function home(ctx) {
 
 <section class="section section--tight" aria-label="Ways to choose a recipe">
   <div class="wrap">${collectionPages.routes(ctx, { id: 'home-routes' })}</div>
+</section>
+
+<section class="section" aria-labelledby="editors-title">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <span class="eyebrow">Editor&rsquo;s Picks</span>
+        <h2 id="editors-title">Four classics to start with</h2>
+        <p>Well-loved dishes with methods worth reading closely, chosen as a starting point.</p>
+      </div>
+      <a class="btn btn--ghost" href="${SITE.base}recipes/">All recipes</a>
+    </div>
+    <div class="card-grid">${editors.map(r => card(r)).join('')}</div>
+  </div>
 </section>
 
 ${plan ? `<section class="section section--sunken" aria-labelledby="plan-title">
@@ -173,19 +187,6 @@ ${plan ? `<section class="section section--sunken" aria-labelledby="plan-title">
   </div>
 </section>` : ''}
 
-<section class="section" aria-labelledby="editors-title">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <div>
-        <span class="eyebrow">Editor&rsquo;s Picks</span>
-        <h2 id="editors-title">Four classics to start with</h2>
-        <p>Well-loved dishes with methods worth reading closely, chosen as a starting point.</p>
-      </div>
-      <a class="btn btn--ghost" href="${SITE.base}recipes/">All recipes</a>
-    </div>
-    <div class="bento">${editors.map((r, i) => card(r, { eager: i === 0, delay: i * 70 })).join('')}</div>
-  </div>
-</section>
 
 <section class="section section--ink" aria-labelledby="trending-title">
   <div class="wrap">
@@ -287,6 +288,7 @@ ${plan ? `<section class="section section--sunken" aria-labelledby="plan-title">
 
   return layout({
     title: `${SITE.name} — World Recipes, Clear Methods, Full Timings`,
+    bodyClass: 'home-page',
     description: 'World recipes with clear methods, start-to-finish times and ingredient swaps, plus collections and a five-dinner weekly plan with a shopping list.',
     keywords: ['famous recipes', 'best recipes in the world',
                'international recipes', 'cooking guide', 'recipes from around the world',
@@ -301,7 +303,7 @@ ${plan ? `<section class="section section--sunken" aria-labelledby="plan-title">
        add its own. */
     ownAdSlots: true,
     image: heroRecipe.imageData ? `${SITE.origin}${SITE.base}assets/img/recipes/${heroRecipe.imageData.file}.jpg` : undefined,
-    imageAlt: 'A table of dishes from around the world',
+    imageAlt: heroRecipe.imageAlt,
     criticalCss: ctx.criticalCss,
     categories: categoryCounts,
     cuisines: topCuisines,

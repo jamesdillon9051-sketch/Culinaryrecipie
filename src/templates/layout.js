@@ -173,6 +173,7 @@ function header(active, categories) {
     </nav>
 
     <div class="header-actions">
+      <a class="icon-btn header-search-link" href="${SITE.base}search/" aria-label="Search recipes">${ICONS.search}</a>
       <div class="search-shell header-search">
         ${ICONS.search}
         <label class="sr-only" for="header-search">Search recipes</label>
@@ -185,6 +186,15 @@ function header(active, categories) {
       </button>
     </div>
   </div>
+  <noscript>
+    <nav class="wrap no-script-navigation" aria-label="Browse recipes">
+      <a href="${SITE.base}recipes/">All recipes</a>
+      <a href="${SITE.base}categories/">Categories</a>
+      <a href="${SITE.base}collections/">Collections</a>
+      <a href="${SITE.base}cuisines/">Cuisines</a>
+      <a href="${SITE.base}ingredients/">Ingredients</a>
+    </nav>
+  </noscript>
 </header>`;
 }
 
@@ -326,6 +336,7 @@ ${FONT_PRELOADS.map(f => `<link rel="preload" href="${SITE.base}assets/fonts/${f
   of the performance score.
 -->
 <link rel="stylesheet" href="${assetUrl('css/main.css')}">
+<noscript><style>.main-nav,.nav-toggle,.header-actions{display:none}</style></noscript>
 ${page.preload ? page.preload.map(p => `<link rel="preload" href="${p.href}" as="${p.as}"${p.type ? ` type="${p.type}"` : ''}${p.fetchpriority ? ` fetchpriority="${p.fetchpriority}"` : ''}${p.crossorigin ? ' crossorigin' : ''}>`).join('\n') : ''}
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->

@@ -1,0 +1,28 @@
+[
+  {
+    "url": "https://weeklydelight.com/robots.txt",
+    "http": 200,
+    "final_url": "https://weeklydelight.com/robots.txt",
+    "x_robots_tag": null,
+    "bytes": 1498
+  },
+  {
+    "url": "https://weeklydelight.com/recipes/baked-peaches-with-cinnamon/",
+    "http": 200,
+    "final_url": "https://weeklydelight.com/recipes/baked-peaches-with-cinnamon/",
+    "x_robots_tag": null,
+    "bytes": 57869,
+    "canonical": [
+      "https://weeklydelight.com/recipes/baked-peaches-with-cinnamon/"
+    ],
+    "recipe_jsonld_count": 1,
+    "recipe_microdata_or_rdfa": false
+  },
+  {
+    "url": "https://weeklydelight.com/sitemap-index.xml",
+    "http": 200,
+    "final_url": "https://weeklydelight.com/sitemap-index.xml",
+    "x_robots_tag": null,
+    "bytes": 1493
+  }
+]
