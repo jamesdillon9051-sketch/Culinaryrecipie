@@ -1,0 +1,12 @@
+{
+  "recipeJSONLDUnchanged": 5555,
+  "sitemapMembershipUnchanged": true,
+  "publishedDatesUnchanged": true,
+  "recipeDataAndOtherSettingsUnchanged": true,
+  "changedDataSource": [
+    "src/data/ads.js"
+  ],
+  "changedContentDateRecords": [
+    "/privacy/"
+  ]
+}

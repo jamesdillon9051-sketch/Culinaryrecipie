@@ -1,0 +1,190 @@
+[
+  {
+    "name": "320px /: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "320px /categories/dinner/: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "320px /recipes/: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "320px /recipes/baked-peaches-with-cinnamon/: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "320px /collections/: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "320px /weekly-plan/: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "390px /: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "390px /categories/dinner/: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "390px /recipes/: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "390px /recipes/baked-peaches-with-cinnamon/: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "390px /collections/: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "390px /weekly-plan/: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "390px /recipes/margherita-pizza/: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "390px /recipes/spaghetti-carbonara/: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "390px /recipes/fettuccine-alfredo/: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "390px /recipes/risotto-alla-milanese/: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "390px /recipes/chicken-parmigiana/: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "390px /recipes/tiramisu/: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "phone menu opens, Escape closes and restores focus",
+    "pass": true
+  },
+  {
+    "name": "phone search link remains directly accessible",
+    "pass": true
+  },
+  {
+    "name": "hero search still offers recipe suggestions",
+    "pass": true
+  },
+  {
+    "name": "dark theme keeps content and controls visible",
+    "pass": true
+  },
+  {
+    "name": "recipe jump, cooking mode and saving still work",
+    "pass": true
+  },
+  {
+    "name": "768px /: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "768px /categories/dinner/: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "768px /recipes/: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "768px /recipes/baked-peaches-with-cinnamon/: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "768px /collections/: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "768px /weekly-plan/: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "1440px /: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "1440px /categories/dinner/: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "1440px /recipes/: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "1440px /recipes/baked-peaches-with-cinnamon/: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "1440px /collections/: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "1440px /weekly-plan/: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "1440px /recipes/margherita-pizza/: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "1440px /recipes/spaghetti-carbonara/: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "1440px /recipes/fettuccine-alfredo/: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "1440px /recipes/risotto-alla-milanese/: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "1440px /recipes/chicken-parmigiana/: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "1440px /recipes/tiramisu/: content, width, identity and scripts",
+    "pass": true
+  },
+  {
+    "name": "JavaScript off 390px /: visible content and ordinary links",
+    "pass": true
+  },
+  {
+    "name": "JavaScript off 390px /recipes/: visible content and ordinary links",
+    "pass": true
+  },
+  {
+    "name": "JavaScript off 390px /recipes/baked-peaches-with-cinnamon/: visible content and ordinary links",
+    "pass": true
+  },
+  {
+    "name": "JavaScript off 1440px /: visible content and ordinary links",
+    "pass": true
+  },
+  {
+    "name": "JavaScript off 1440px /recipes/: visible content and ordinary links",
+    "pass": true
+  },
+  {
+    "name": "JavaScript off 1440px /recipes/baked-peaches-with-cinnamon/: visible content and ordinary links",
+    "pass": true
+  }
+]

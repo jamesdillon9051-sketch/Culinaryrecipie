@@ -1,0 +1,17 @@
+{
+  "baseCommit": "7d65b8339af7c42d8c9a217a1d72c2f86c4e367d",
+  "branch": "fix/restore-adsterra-2026-11-02",
+  "build": "passed",
+  "fullCheck": {
+    "result": "passed",
+    "contentHTMLPages": 5932,
+    "sitemapURLs": 5915,
+    "searchIndexEntries": 5555,
+    "existingDecorativeEmptyAltWarnings": 6
+  },
+  "adIntegrationBrowserCases": 12,
+  "designAndFeatureBrowserCases": 47,
+  "browserFailures": 0,
+  "modificationDateRegressionCases": 14,
+  "externalCreativeScripts": "stubbed or blocked; actual ad fill and revenue not verified"
+}
