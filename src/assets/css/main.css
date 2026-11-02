@@ -119,7 +119,7 @@
   overflow: hidden;
   transition: transform .38s var(--ease-out), box-shadow .38s var(--ease-out), border-color .3s;
 }
-.card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); border-color: var(--line-strong); }
+.card:hover { transform: translateY(-2px); box-shadow: var(--shadow-sm); border-color: var(--line-strong); }
 /* The archive pages list a whole cuisine or category at once (up to 800 cards).
    Cards scrolled far off screen are not laid out until they come near; the
    height is the measured one (about 480px at the widths where the grid is one
@@ -265,7 +265,8 @@
 @keyframes shimmer { to { background-position: -220% 0; } }
 
 /* Scroll reveal */
-.reveal { opacity: 0; transform: translateY(22px); transition: opacity .7s var(--ease), transform .7s var(--ease); }
+/* Content stays visible when scripts fail or have not started. */
+.reveal { opacity: 1; transform: none; }
 .reveal.is-visible { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; } }
 
@@ -426,6 +427,7 @@
 .hero .search-shell { max-width: none; width: 100%; }
 .hero .search-shell input {
   padding: .95rem 1.2rem .95rem 3rem;
+  border-radius: 12px;
   font-size: 1rem;
   border-color: var(--line-strong);
   background: var(--bg-raised);
@@ -497,6 +499,8 @@
 }
 @media (max-width: 1099px) {
   .nav-toggle { display: grid; }
+  .nav-toggle { margin-left: auto; order: 3; }
+  .header-actions { order: 2; }
   .main-nav {
     position: fixed; inset: var(--header-h) 0 auto 0;
     flex-direction: column; align-items: stretch;
@@ -653,7 +657,7 @@
      browser derive the WIDTH from the height and the hero comes out narrow. */
   aspect-ratio: 4 / 3;
   background: var(--bg-sunken);
-  box-shadow: var(--shadow-lg);
+  box-shadow: var(--shadow-xs);
 }
 @media (max-width: 940px) { .recipe-hero { aspect-ratio: 16 / 10; } }
 .recipe-hero img { width: 100%; height: 100%; object-fit: cover; }
@@ -1088,14 +1092,14 @@ a.tag:hover { border-color: var(--accent); color: var(--accent); }
 /* ---------------------------------------------------------------- footer */
 .site-footer {
   background: var(--charcoal);
-  color: #cdc1b1;
+  color: #d6e3d6;
   padding: clamp(3rem, 6vw, 4.5rem) 0 2rem;
   margin-top: clamp(3rem, 7vw, 5.5rem);
 }
 [data-theme="dark"] .site-footer { background: var(--bg-sunken); border-top: 1px solid var(--line); }
 .site-footer h2, .site-footer h3, .site-footer .brand { color: #fff; }
 /* The footer is dark in both themes, so its accent is the light one. */
-.site-footer .brand em { color: #e8825c; }
+.site-footer .brand em { color: #a4d6b6; }
 .footer-grid {
   display: grid; gap: 2rem;
   grid-template-columns: 1.6fr repeat(3, 1fr);
@@ -1105,14 +1109,14 @@ a.tag:hover { border-color: var(--accent); color: var(--accent); }
 @media (max-width: 480px) { .footer-grid { grid-template-columns: 1fr; } }
 .site-footer h3 { font-family: var(--font-body); font-size: .78rem; letter-spacing: .14em; text-transform: uppercase; color: #fff; margin-bottom: 1rem; }
 .site-footer ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .55rem; }
-.site-footer a { font-size: .9rem; color: #cdc1b1; transition: color .18s; }
+.site-footer a { font-size: .9rem; color: #d6e3d6; transition: color .18s; }
 .site-footer a:hover { color: var(--gold); }
-.site-footer p { font-size: .9rem; color: #a2968a; }
+.site-footer p { font-size: .9rem; color: #b7c7ba; }
 .footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, .1);
   padding-top: 1.5rem;
   display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap;
-  font-size: .82rem; color: #a2968a;
+  font-size: .82rem; color: #b7c7ba;
 }
 /* The legal links sit on one line of small text; give each a 24 px tall target (WCAG 2.2, 2.5.8)
    without changing how the line looks. */
@@ -1417,3 +1421,61 @@ a.tag:hover { border-color: var(--accent); color: var(--accent); }
 .az-list { content-visibility: auto; contain-intrinsic-size: auto 1600px; }
 .az-list li { break-inside: avoid; margin-bottom: .35rem; }
 .hub-more { margin-top: clamp(2.5rem, 6vw, 4rem); }
+
+/* The compact route grid keeps real collection links close to the recipes. */
+.routes__list { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.routes__list a { padding: 1rem; }
+.routes__list strong { font-size: .9rem; }
+.hero + .wrap + .section--tight { border-top: 1px solid var(--line); }
+.header-search-link { display: none; }
+.no-script-navigation { display: flex; flex-wrap: wrap; gap: .2rem 1rem; padding-bottom: 1rem; font-size: .88rem; }
+.no-script-navigation a { display: inline-flex; align-items: center; min-height: 44px; text-decoration: underline; text-underline-offset: .2em; }
+.action-bar .btn { min-height: 44px; }
+.recipe-head .action-bar { gap: .5rem; }
+.recipe-head .btn { font-size: .83rem; }
+@media (max-width: 1299px) { .header-search-link { display: grid; } }
+@media (max-width: 700px) {
+  .routes__list { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .65rem; }
+  .routes__list a { padding: .85rem; }
+  .routes__list strong { font-size: .84rem; line-height: 1.45; }
+  .routes__list span { font-size: .76rem; line-height: 1.55; }
+  .recipe-masthead { gap: 1.25rem; }
+  .recipe-head .lede { font-size: 1rem; }
+  .recipe-meta { gap: .65rem 1rem; }
+  .recipe-layout { margin-top: 1.5rem; }
+}
+@media print { .hero-shortcuts, .hero-browse, .header-search-link { display: none; } }
+
+@media (max-width: 480px) {
+  .header-inner { gap: .35rem; }
+  .header-actions { gap: .1rem; }
+  .header-actions .icon-btn, .nav-toggle { width: 44px; height: 44px; }
+}
+@media (max-width: 360px) {
+  .brand-mark { display: none; }
+  .brand { font-size: 1.2rem; }
+}
+
+.hero-feature__arrow svg { width: 19px; height: 19px; stroke: currentColor; stroke-width: 1.8; fill: none; }
+@media (max-width: 700px) {
+  .home-page .card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .8rem; }
+  .home-page .card-grid > .card { contain-intrinsic-size: auto 330px; }
+  .home-page .card-grid .card-body { padding: .8rem; }
+  .home-page .card-grid .card h3 { font-size: 1rem; line-height: 1.3; }
+  .home-page .card-grid .card p { font-size: .78rem; -webkit-line-clamp: 2; margin-bottom: .75rem; }
+  .home-page .card-grid .card-kicker { font-size: .58rem; letter-spacing: .08em; }
+  .home-page .card-grid .card-foot { flex-wrap: wrap; gap: .3rem; padding-top: .6rem; }
+  .home-page .card-grid .card-meta { font-size: .68rem; white-space: normal; display: block; line-height: 1.6; }
+  .home-page .card-grid .card-meta svg { display: inline-block; vertical-align: middle; width: 11px; height: 11px; margin-right: .25rem; }
+  .home-page .card-grid .card-badges { top: .6rem; left: .6rem; right: 3.2rem; }
+  .home-page .card-grid .card-badges .badge { max-width: 100%; overflow: hidden; text-overflow: ellipsis; font-size: .57rem; padding: .2rem .35rem; }
+  .home-page .card-grid .card-badges .badge + .badge { display: none; }
+  .home-page .tile-grid, .home-page .cuisine-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .home-page .tile { aspect-ratio: 4 / 3; }
+  .home-page .tile-label { padding: .8rem; }
+  .home-page .tile-label strong { font-size: 1rem; }
+  .home-page .cuisine-chip { padding: .75rem; gap: .5rem; }
+  .home-page .cuisine-chip strong { font-size: .82rem; }
+  .home-page .cuisine-chip span { font-size: .7rem; }
+  .home-page .gallery { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}

@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "base": "dc27769d48631029461174110cbadacf868d9d7e",
+  "branch": "design/discovery-refresh-2026-11-02",
+  "date": "2026-11-02",
+  "build": "passed",
+  "catalogueCheck": {
+    "htmlPages": 5932,
+    "sitemapURLs": 5915,
+    "searchEntries": 5555,
+    "result": "passed",
+    "warnings": "Six existing decorative empty-alt warnings; unchanged from baseline."
+  },
+  "designBrowserChecks": {
+    "passed": 47,
+    "failed": 0,
+    "widths": [
+      320,
+      390,
+      768,
+      1440
+    ],
+    "recipeLayoutVariants": 6,
+    "javascriptDisabledWidths": [
+      390,
+      1440
+    ],
+    "thirdPartyRequests": "blocked; local checks do not establish live Grow behaviour or field performance"
+  },
+  "existingReleaseBrowserChecks": {
+    "passed": 18,
+    "failed": 0,
+    "pages": 20,
+    "localCLS": "under0.1 on each of20pages; not live Core Web Vitals"
+  },
+  "stableRebuild": {
+    "filesAndRegistersCompared": 17479,
+    "changed": [],
+    "stable": true
+  },
+  "preservation": {
+    "recipePages": 5555,
+    "allRecipeSchemaUnchanged": true,
+    "sitemapMembershipUnchanged": true,
+    "recipeDataAndSettingsUnchanged": true,
+    "publishedDatesUnchanged": true,
+    "changedContentRecords": [
+      "/"
+    ]
+  },
+  "advertising": "Code, configuration and sampled page markup match production base; owner-disabled ads remain disabled, Grow and analytics retained.",
+  "googleIndexing": "Unknown: no current Search Console evidence. No Google Rich Results Test performed. No indexing guarantee."
+}

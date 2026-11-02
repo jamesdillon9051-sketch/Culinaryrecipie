@@ -1,0 +1,10 @@
+{
+  "url": "https://weeklydelight.com/",
+  "http": 200,
+  "final_url": "https://weeklydelight.com/",
+  "headers": {
+    "content-type": "text/html",
+    "server": "envoy"
+  },
+  "bytes": 79964
+}

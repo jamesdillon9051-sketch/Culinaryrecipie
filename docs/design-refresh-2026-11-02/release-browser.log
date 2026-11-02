@@ -1,0 +1,20 @@
+  ✓ 20 pages fit a 390 px screen
+  ✓ no script errors on any of them
+  ✓ layout shift under 0.1 on every one
+  ✓ the first Tab on the homepage reaches the skip link
+  ✓ a focused route link shows a focus ring
+  ✓ the directory has a Filters button on a phone
+  ✓ Filters opens the panel and says it is open
+  ✓ course=main&time=30 lists the 488 quick mains the index holds
+  ✓ course=side lists the 343 sides
+  ✓ the plan scales from 4 to 8 people and rewrites the list
+  ✓ the plan stops at 16 people
+  ✓ buttons and checkboxes on the new pages are at least 24 px
+  ✓ the report form says it cannot send while its backend is missing
+  ✓ the report form is prefilled with the recipe and its version
+  ✓ it names the recipe being reported
+  ✓ banana bread scales no further than double (10 → 20)
+  ✓ and says the bake itself is not scaled
+  ✓ a non-bake goes past double and warns about crowded pans
+
+  ✓ release browser checks: 18 of 18 pass
