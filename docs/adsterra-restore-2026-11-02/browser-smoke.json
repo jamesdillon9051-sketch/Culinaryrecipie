@@ -1,0 +1,86 @@
+[
+  {
+    "width": 320,
+    "url": "/",
+    "pass": true,
+    "slots": 4,
+    "externalScriptsStubbed": true
+  },
+  {
+    "width": 320,
+    "url": "/recipes/baked-peaches-with-cinnamon/",
+    "pass": true,
+    "slots": 4,
+    "externalScriptsStubbed": true
+  },
+  {
+    "width": 320,
+    "url": "/categories/dinner/",
+    "pass": true,
+    "slots": 4,
+    "externalScriptsStubbed": true
+  },
+  {
+    "width": 320,
+    "url": "/privacy/",
+    "pass": true,
+    "slots": 4,
+    "externalScriptsStubbed": true
+  },
+  {
+    "width": 390,
+    "url": "/",
+    "pass": true,
+    "slots": 4,
+    "externalScriptsStubbed": true
+  },
+  {
+    "width": 390,
+    "url": "/recipes/baked-peaches-with-cinnamon/",
+    "pass": true,
+    "slots": 4,
+    "externalScriptsStubbed": true
+  },
+  {
+    "width": 390,
+    "url": "/categories/dinner/",
+    "pass": true,
+    "slots": 4,
+    "externalScriptsStubbed": true
+  },
+  {
+    "width": 390,
+    "url": "/privacy/",
+    "pass": true,
+    "slots": 4,
+    "externalScriptsStubbed": true
+  },
+  {
+    "width": 1440,
+    "url": "/",
+    "pass": true,
+    "slots": 4,
+    "externalScriptsStubbed": true
+  },
+  {
+    "width": 1440,
+    "url": "/recipes/baked-peaches-with-cinnamon/",
+    "pass": true,
+    "slots": 4,
+    "externalScriptsStubbed": true
+  },
+  {
+    "width": 1440,
+    "url": "/categories/dinner/",
+    "pass": true,
+    "slots": 4,
+    "externalScriptsStubbed": true
+  },
+  {
+    "width": 1440,
+    "url": "/privacy/",
+    "pass": true,
+    "slots": 4,
+    "externalScriptsStubbed": true
+  }
+]
